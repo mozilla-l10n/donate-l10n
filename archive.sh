@@ -9,19 +9,10 @@ touch translations_github_commit_${TRAVIS_COMMIT}
 mkdir -p to_upload
 
 # Move the pt_BR files to pt so Django can find them
-# Foundation site
-rm -rf ./foundation/translations/locale/pt/
-mv ./foundation/translations/locale/pt_BR/ ./foundation/translations/locale/pt/
-# Buyers' guide
-rm -rf ./foundation/translations/networkapi/buyersguide/locale/pt/
-mv ./foundation/translations/networkapi/buyersguide/locale/pt_BR/ ./foundation/translations/networkapi/buyersguide/locale/pt/
-rm -rf ./foundation/translations/networkapi/buyersguide/templates/about/locale/pt/
-mv ./foundation/translations/networkapi/buyersguide/templates/about/locale/pt_BR/ ./foundation/translations/networkapi/buyersguide/templates/about/locale/pt/
-# Mozfest
-rm -rf ./foundation/translations/networkapi/mozfest/locale/pt/
-mv ./foundation/translations/networkapi/mozfest/locale/pt_BR/ ./foundation/translations/networkapi/mozfest/locale/pt/
+rm -rf ./donate/locale/pt/
+mv ./donate/locale/pt_BR/ ./donate/locale/pt/
 
 echo "Archiving files"
-tar -C foundation/translations -cvf ./to_upload/translations.tar ./locale ./networkapi
+tar -C donate -cvf ./to_upload/translations.tar ./locale
 tar rvf ./to_upload/translations.tar ./translations_github_commit_${TRAVIS_COMMIT}
 echo "Done!"
