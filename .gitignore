@@ -1,0 +1,8 @@
+.idea/
+.DS_Store
+venv/
+db.sqlite3
+.env
+*.mo
+__pycache__/
+*.py[cod]
