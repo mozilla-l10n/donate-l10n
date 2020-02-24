@@ -1,0 +1,9 @@
+locales = ["ach", "ar", "ast", "az", "bn", "bs", "ca", "cs", "da", "de", "dsb", "el", "en_CA", "en_GB", "es", "et", "fr", "fy_NL", "gu_IN", "he", "hi_IN", "hr", "hsb", "hu", "id", "it", "ja", "ka", "kab", "ko", "lg", "lo", "lv", "ml", "mr", "ms", "nb_NO", "nl", "nn_NO", "pa_IN", "pl", "pt_BR", "pt_PT", "ro", "ru", "sk", "sl", "sq", "sv_SE", "ta", "te", "th", "tr", "uk", "uz", "zh_CN", "zh_TW"]
+
+[[paths]]
+reference = "donate/locale/templates/LC_MESSAGES/django.pot"
+l10n = "donate/locale/{locale}/LC_MESSAGES/django.po"
+
+[[paths]]
+reference = "donate/locale/templates/LC_MESSAGES/djangojs.pot"
+l10n = "donate/locale/{locale}/LC_MESSAGES/djangojs.po"
