@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-30 21:05+0000\n"
-"PO-Revision-Date: 2020-02-28 11:34+0000\n"
+"PO-Revision-Date: 2019-10-09 10:31+0000\n"
 "Last-Translator: Théo Chevalier <theo.chevalier11@gmail.com>\n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -115,7 +115,7 @@ msgstr "Page introuvable"
 
 #: donate/templates/404.html:12
 msgid "Uh oh!"
-msgstr "Oups"
+msgstr "Oups…"
 
 #: donate/templates/404.html:13
 msgid "Sorry, the page does not exist"
