@@ -2,13 +2,13 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-30 21:05+0000\n"
-"PO-Revision-Date: 2020-01-30 21:14+0000\n"
+"PO-Revision-Date: 2020-02-28 10:46+0000\n"
 "Last-Translator: Théo Chevalier <theo.chevalier11@gmail.com>\n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Pontoon\n"
+"X-Generator: Poedit 2.3\n"
 
 #: donate/core/translation.py:12
 msgid "This field is required."
@@ -115,7 +115,7 @@ msgstr "Page introuvable"
 
 #: donate/templates/404.html:12
 msgid "Uh oh!"
-msgstr "Oups…"
+msgstr "Oups !"
 
 #: donate/templates/404.html:13
 msgid "Sorry, the page does not exist"
@@ -164,15 +164,15 @@ msgid ""
 "Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your "
 "donation will be stored by Mozilla."
 msgstr ""
-"Vos paiements seront traités par <a href=\"%(braintree_url)s\">Braintree</a>, une filiale de PayPal (pour les cartes bancaires) ou par <a href=\"%(paypal_url)s\">PayPal</a> et une trace de votre don"
-" sera conservée par Mozilla."
+"Vos paiements seront traités par <a href=\"%(braintree_url)s\">Braintree</a>, une filiale de PayPal (pour les cartes bancaires) ou par <a href=\"%(paypal_url)s\">PayPal</a> et une trace de votre "
+"don sera conservée par Mozilla."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:9
 #, python-format
 msgid "Monthly donations are charged each month on the same day that you donate today, and will continue until you cancel. To cancel, email us at <a href=\"mailto:%(email)s\">%(email)s</a>."
 msgstr ""
-"Les dons mensuels sont prélevés chaque mois, le même jour que votre don d’aujourd’hui. Les prélèvements continueront jusqu’à ce que vous les arrêtiez. Pour les arrêter, contactez-nous via <a "
-"href=\"mailto:%(email)s\">%(email)s</a>."
+"Les dons mensuels sont prélevés chaque mois, le même jour que votre don d’aujourd’hui. Les prélèvements continueront jusqu’à ce que vous les arrêtiez. Pour les arrêter, contactez-nous via <a href="
+"\"mailto:%(email)s\">%(email)s</a>."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:17
 #, python-format
@@ -183,13 +183,13 @@ msgstr "Autres façons de faire un don : <a href=\"%(wire_transfer_url)s\">SEPA
 #, python-format
 msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"mailto:%(email)s\">Send us an email</a>."
 msgstr ""
-"Des problèmes pour faire un don ? <a href=\"%(faq_url)s\">Consultez notre FAQ</a> pour trouver les réponses aux questions les plus courantes. Cela n’a pas résolu vos problèmes ? <a "
-"href=\"mailto:%(email)s\">Envoyez-nous un courrier électronique</a>."
+"Des problèmes pour faire un don ? <a href=\"%(faq_url)s\">Consultez notre FAQ</a> pour trouver les réponses aux questions les plus courantes. Cela n’a pas résolu vos problèmes ? <a href=\"mailto:"
+"%(email)s\">Envoyez-nous un courrier électronique</a>."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:30
 msgid ""
-"Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in Mountain View, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S."
-" to the fullest extent permitted by law."
+"Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in Mountain View, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U."
+"S. to the fullest extent permitted by law."
 msgstr ""
 "Les dons seront reversés à Mozilla Foundation, une organisation 501(c)(3) dont le siège est basé à Mountain View en Californie et seront utilisés à des fins caritatives. Ils sont déductibles des "
 "impôts aux États-Unis dans la mesure autorisée par la Loi."
@@ -276,8 +276,8 @@ msgstr "Licence"
 #: donate/templates/pages/base_page_master.html:164
 #, python-format
 msgid ""
-"Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a "
-"%(link_attributes)s>%(site_url)s</a>."
+"Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a %(link_attributes)s>%(site_url)s</"
+"a>."
 msgstr ""
 "Mozilla est une organisation internationale à but non lucratif, déterminée à vous faire reprendre le contrôle de votre vie numérique en ligne et à définir l’avenir du Web dans l’intérêt de tous. "
 "Apprenez-en davantage sur <a %(link_attributes)s>%(site_url)s</a>."
@@ -498,9 +498,9 @@ msgid ""
 "the documentation that must be provided to claim a tax deduction, or other matters."
 msgstr ""
 "Mozilla Foundation est une entreprise à but non lucratif californienne exonérée de l’impôt sur le revenu aux États-Unis selon la section 501(c)(3) de l’Internal Revenue Code (IRC) et est considérée "
-"comme organisme de bienfaisance selon les sections 170(b)(1)(A) et 509(a)(1) de l’IRC. Les dons en bitcoins reçus par Mozilla sont considérés comme des dons à des organismes de bienfaisance selon la"
-" législation fiscale aux États-Unis, et seront utilisés à des fins caritatives, à sa discrétion. L’Internal Revenue Service a indiqué qu’il traitera les bitcoins en tant que biens dans le cadre des "
-"impôts aux États-Unis (voir la notice 2014-21 de l’IRS). Les dons en bitcoins peuvent faire l’objet de règles spécifiques sur le montant de votre déduction liée aux dons à des organismes de "
+"comme organisme de bienfaisance selon les sections 170(b)(1)(A) et 509(a)(1) de l’IRC. Les dons en bitcoins reçus par Mozilla sont considérés comme des dons à des organismes de bienfaisance selon "
+"la législation fiscale aux États-Unis, et seront utilisés à des fins caritatives, à sa discrétion. L’Internal Revenue Service a indiqué qu’il traitera les bitcoins en tant que biens dans le cadre "
+"des impôts aux États-Unis (voir la notice 2014-21 de l’IRS). Les dons en bitcoins peuvent faire l’objet de règles spécifiques sur le montant de votre déduction liée aux dons à des organismes de "
 "bienfaisance, sur les justificatifs devant être fournis pour demander une déduction fiscale, et sur d’autres choses."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:102
@@ -574,9 +574,9 @@ msgid ""
 "I must cancel at least 5 days before the next scheduled donation by email to <a href='mailto:%(email)s'>%(email)s</a>, and that I may only request a refund within 15 days from the date of a "
 "donation."
 msgstr ""
-"J’autorise la Fondation Mozilla à prélever automatiquement ma carte chaque mois du montant mentionné ci-dessus, à compter d’aujourd’hui et tous les mois suivants le même jour jusqu’à mon annulation."
-" Je comprends que je dois annuler par courrier électronique à l’adresse <a href='mailto:%(email)s'>%(email)s</a> au moins 5 jours avant le prochain don programmé, et que je peux uniquement "
-"solliciter un remboursement dans les 15 jours suivant la date du don."
+"J’autorise la Fondation Mozilla à prélever automatiquement ma carte chaque mois du montant mentionné ci-dessus, à compter d’aujourd’hui et tous les mois suivants le même jour jusqu’à mon "
+"annulation. Je comprends que je dois annuler par courrier électronique à l’adresse <a href='mailto:%(email)s'>%(email)s</a> au moins 5 jours avant le prochain don programmé, et que je peux "
+"uniquement solliciter un remboursement dans les 15 jours suivant la date du don."
 
 #: donate/templates/payment/card_master.html:128
 msgid "I authorize Mozilla Foundation to charge my card in the amount indicated above. I understand that I may only request a refund within 15 days from the date of the donation."
@@ -663,8 +663,8 @@ msgstr "Votre don servira à protéger le Web, à le garder ouvert et à le rend
 #, python-format
 msgid "We’ve emailed you a donation receipt; if it’s missing, please check your junk/spam folders, then contact us at <a href=\"mailto:%(email)s\">%(email)s</a>."
 msgstr ""
-"Nous vous avons envoyé le reçu de votre don par courrier électronique. Si vous ne le trouvez pas, vérifiez vos dossiers de courrier indésirable, puis contactez-nous à l’adresse <a "
-"href=\"mailto:%(email)s\">%(email)s</a>."
+"Nous vous avons envoyé le reçu de votre don par courrier électronique. Si vous ne le trouvez pas, vérifiez vos dossiers de courrier indésirable, puis contactez-nous à l’adresse <a href=\"mailto:"
+"%(email)s\">%(email)s</a>."
 
 #: donate/templates/payment/thank_you_master.html:17
 msgid "Lastly, can you multiply your impact by sharing about the important work Mozilla is doing? Thank you again!"
@@ -725,15 +725,15 @@ msgstr "Autres façons de faire un don : <a href=\"%(wire_transfer_url)s\">SEPA
 #, python-format
 msgid "Monthly donations are charged each month on the same day that you donate today, and will continue until you cancel. To cancel, fill out <a href=\"%(help_url)s\">this form</a>."
 msgstr ""
-"Les dons mensuels sont prélevés chaque mois, le même jour que votre don d’aujourd’hui. Les prélèvements continueront jusqu’à ce que vous les arrêtiez. Pour les arrêter, renseignez <a "
-"href=\"%(help_url)s\">ce formulaire</a>."
+"Les dons mensuels sont prélevés chaque mois, le même jour que votre don d’aujourd’hui. Les prélèvements continueront jusqu’à ce que vous les arrêtiez. Pour les arrêter, renseignez <a href="
+"\"%(help_url)s\">ce formulaire</a>."
 
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:21
 #, python-format
 msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"%(help_url)s\">Contact us</a>."
 msgstr ""
-"Des problèmes pour faire un don ? <a href=\"%(faq_url)s\">Consultez notre FAQ</a> pour trouver les réponses aux questions les plus courantes. Cela n’a pas résolu vos problèmes ? <a "
-"href=\"%(help_url)s\">Contactez-nous</a>."
+"Des problèmes pour faire un don ? <a href=\"%(faq_url)s\">Consultez notre FAQ</a> pour trouver les réponses aux questions les plus courantes. Cela n’a pas résolu vos problèmes ? <a href="
+"\"%(help_url)s\">Contactez-nous</a>."
 
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:27
 msgid ""
@@ -783,8 +783,8 @@ msgstr "Merci de votre générosité"
 #, python-format
 msgid ""
 "I authorize MZLA Technologies Corporation to automatically charge my card every month in the amount indicated above, starting today and continuing each month on the same day, until I cancel. I "
-"understand that I must cancel at least 5 days before the next scheduled donation by <a href='%(help_url)s'>submitting a request</a>, and that I may only request a refund within 15 days from the date"
-" of a donation."
+"understand that I must cancel at least 5 days before the next scheduled donation by <a href='%(help_url)s'>submitting a request</a>, and that I may only request a refund within 15 days from the "
+"date of a donation."
 msgstr ""
 "J’autorise MZLA Technologies Corporation à prélever automatiquement ma carte chaque mois du montant mentionné ci-dessus, à compter d’aujourd’hui et tous les mois suivants le même jour jusqu’à mon "
 "annulation. Je comprends que je dois annuler <a href='%(help_url)s'>en faisant la demande</a> au moins 5 jours avant le prochain don programmé, et que je peux uniquement solliciter un remboursement "
