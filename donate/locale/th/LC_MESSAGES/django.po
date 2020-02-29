@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-30 21:05+0000\n"
-"PO-Revision-Date: 2020-02-29 12:53+0000\n"
+"PO-Revision-Date: 2020-02-29 12:54+0000\n"
 "Last-Translator: Chengings <chengings@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: th\n"
@@ -321,27 +321,27 @@ msgstr "ไม่มี"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:54
 msgid "English"
-msgstr ""
+msgstr "อังกฤษ"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:55
 msgid "French"
-msgstr ""
+msgstr "ฝรั่งเศส"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:56
 msgid "German"
-msgstr ""
+msgstr "เยอรมัน"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:57
 msgid "Spanish"
-msgstr ""
+msgstr "สเปน"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:58
 msgid "Polish"
-msgstr ""
+msgstr "โปแลนด์"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:59
 msgid "Portuguese"
-msgstr ""
+msgstr "โปรตุเกส"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:60
 msgctxt "Option in 'Language' dropdown"
@@ -363,15 +363,15 @@ msgstr ""
 
 #: donate/templates/pages/core/contributor_support_page_master.html:77
 msgid "Submit"
-msgstr ""
+msgstr "ส่ง"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:4 donate/templates/pages/core/ways_to_give_page_master.html:11
 msgid "Ways to Give"
-msgstr ""
+msgstr "หนทางการให้"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:16
 msgid "Credit / Debit and PayPal"
-msgstr ""
+msgstr "เครดิต/เดบิต และ PayPal"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:18
 #, python-format
@@ -397,16 +397,16 @@ msgstr ""
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:33 donate/thunderbird/templates/pages/core/ways_to_give_page.html:17
 msgid "Euros:"
-msgstr ""
+msgstr "ยูโร:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:35 donate/templates/pages/core/ways_to_give_page_master.html:48 donate/thunderbird/templates/pages/core/ways_to_give_page.html:19
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:32
 msgid "Account Currency:"
-msgstr ""
+msgstr "หน่วยเงินของบัญชี:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:35 donate/thunderbird/templates/pages/core/ways_to_give_page.html:19
 msgid "Euro (EUR)"
-msgstr ""
+msgstr "ยูโร (EUR)"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:36 donate/templates/pages/core/ways_to_give_page_master.html:49 donate/thunderbird/templates/pages/core/ways_to_give_page.html:20
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:33
@@ -425,7 +425,7 @@ msgstr ""
 #: donate/templates/pages/core/ways_to_give_page_master.html:38 donate/templates/pages/core/ways_to_give_page_master.html:56 donate/thunderbird/templates/pages/core/ways_to_give_page.html:22
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:40
 msgid "SWIFT/BIC Code:"
-msgstr ""
+msgstr "รหัส SWIFT/BIC:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:39 donate/templates/pages/core/ways_to_give_page_master.html:53 donate/thunderbird/templates/pages/core/ways_to_give_page.html:23
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:37
@@ -435,11 +435,11 @@ msgstr ""
 #: donate/templates/pages/core/ways_to_give_page_master.html:40 donate/templates/pages/core/ways_to_give_page_master.html:57 donate/thunderbird/templates/pages/core/ways_to_give_page.html:24
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:41
 msgid "IBAN:"
-msgstr ""
+msgstr "IBAN:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:46 donate/thunderbird/templates/pages/core/ways_to_give_page.html:30
 msgid "British Pound Sterling:"
-msgstr ""
+msgstr "ปอนด์สเตอริงอังกฤษ:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:48 donate/thunderbird/templates/pages/core/ways_to_give_page.html:32
 msgid "British Pound Sterling (GBP)"
