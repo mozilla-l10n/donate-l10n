@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-30 21:05+0000\n"
-"PO-Revision-Date: 2020-03-01 21:12+0000\n"
+"PO-Revision-Date: 2020-03-01 21:14+0000\n"
 "Last-Translator: Milo <mail@milotype.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
@@ -170,11 +170,13 @@ msgstr ""
 #, python-format
 msgid "Monthly donations are charged each month on the same day that you donate today, and will continue until you cancel. To cancel, email us at <a href=\"mailto:%(email)s\">%(email)s</a>."
 msgstr ""
+"Mjesečne donacije naplaćuju se svakog mjeseca na isti dan na koji je izvršena prva donacija, a nastavit će se sve dok se ne otkaže donacija. Za otkazivanje donacije, pošalji email na <a "
+"href=\"mailto:%(email)s\">%(email)s</a>."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:17
 #, python-format
 msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a> | <a href=\"%(bitcoin_url)s\">Bitcoin</a>"
-msgstr ""
+msgstr "Ostali načini doniranja: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Ček</a> | <a href=\"%(bitcoin_url)s\">Bitcoin</a>"
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:23
 #, python-format
@@ -381,7 +383,7 @@ msgstr "Bankovni prijenos / SEPA"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:24
 msgid "We accept donations in Euros through Single European Payment Area (SEPA) transfer, and British Pounds through BACS transfer."
-msgstr ""
+msgstr "Prihvaćamo donacije u eurima putem SEPA prijenosa i u britanskim funtama putem BACS prijenosa."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:25
 msgid "Please remember that donations are deductible for U.S. income tax purposes only."
