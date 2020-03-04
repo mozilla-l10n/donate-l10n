@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-30 21:05+0000\n"
-"PO-Revision-Date: 2020-03-04 19:59+0000\n"
+"PO-Revision-Date: 2020-03-04 20:10+0000\n"
 "Last-Translator: Théo Chevalier <theo.chevalier11@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
@@ -383,7 +383,7 @@ msgstr "Tarjeta de crédito / débito y PayPal"
 #: donate/templates/pages/core/ways_to_give_page_master.html:18
 #, python-format
 msgid "<a href=\"%(ways_to_give_link)s\">Go to this link</a> to make a secure online donation right now."
-msgstr ""
+msgstr "<a href=\"%(ways_to_give_link)s\">Visita este enlace</a> para hacer ahora una donación segura en línea."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:23 donate/thunderbird/templates/pages/core/ways_to_give_page.html:7
 msgid "Bank Transfer / SEPA"
@@ -505,7 +505,7 @@ msgstr ""
 #: donate/templates/pages/core/ways_to_give_page_master.html:102
 #, python-format
 msgid "Learn more about bitcoin donations <a href=\"%(bitcoin_wiki)s\">here</a>. To donate bitcoin, <a href=\"%(bitcoin_donate)s\">please visit this link.</a>"
-msgstr ""
+msgstr "Descubre más sobre donaciones en bitcoin <a href=\"%(bitcoin_wiki)s\">aquí</a>. Para hacer una donación con bitcoin, <a href=\"%(bitcoin_donate)s\">visita este enlace</a>."
 
 #: donate/templates/payment/card_master.html:4
 msgid "Your information"
@@ -758,7 +758,7 @@ msgstr "Cookies"
 #: donate/thunderbird/templates/pages/base_page.html:69
 #, python-format
 msgid "Portions of this content are ©1998–%(current_year)s by individual contributors. Content available under a <a %(link_attributes)s>Creative Commons license</a>"
-msgstr "Partes de este contenido son ©1998–%(current_year)s de colaboradores individuales. El contenido está disponible bajo una <a href=\"%(url)s\">Licencia Creative Commons</a>"
+msgstr "Partes de este contenido son ©1998–%(current_year)s de colaboradores individuales. El contenido está disponible bajo una <a %(link_attributes)s>Licencia Creative Commons</a>"
 
 #: donate/thunderbird/templates/pages/core/landing_page.html:7
 #, python-format
