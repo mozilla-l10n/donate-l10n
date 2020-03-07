@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-30 21:05+0000\n"
-"PO-Revision-Date: 2020-02-21 04:43+0000\n"
+"PO-Revision-Date: 2020-03-07 12:12+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -108,7 +108,7 @@ msgstr ""
 
 #: donate/recaptcha/fields.py:18
 msgid "Captcha was invalid. Please try again."
-msgstr ""
+msgstr "Το Captcha δεν ήταν έγκυρο. Παρακαλούμε δοκιμάστε ξανά."
 
 #: donate/templates/404.html:4
 msgid "Page not found"
@@ -189,7 +189,7 @@ msgstr ""
 
 #: donate/templates/pages/base_page_master.html:26
 msgid "Initiatives"
-msgstr ""
+msgstr "Πρωτοβουλίες"
 
 #: donate/templates/pages/base_page_master.html:29
 msgid "Participate"
@@ -197,7 +197,7 @@ msgstr "Συμμετοχή"
 
 #: donate/templates/pages/base_page_master.html:32
 msgid "Internet Health"
-msgstr ""
+msgstr "Υγεία διαδικτύου"
 
 #: donate/templates/pages/base_page_master.html:35
 msgid "About Us"
@@ -217,7 +217,7 @@ msgstr ""
 
 #: donate/templates/pages/base_page_master.html:80
 msgid "Enter email address"
-msgstr ""
+msgstr "Εισάγετε διεύθυνση email"
 
 #: donate/templates/pages/base_page_master.html:83
 msgid "Sign up"
@@ -233,7 +233,7 @@ msgstr ""
 
 #: donate/templates/pages/base_page_master.html:107
 msgid "More about us"
-msgstr ""
+msgstr "Περισσότερα για εμάς"
 
 #: donate/templates/pages/base_page_master.html:111 donate/templates/payment/thank_you_master.html:38 donate/thunderbird/templates/pages/base_page.html:36
 #: donate/thunderbird/templates/payment/thank_you.html:27
