@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-30 21:05+0000\n"
-"PO-Revision-Date: 2020-03-07 12:12+0000\n"
+"PO-Revision-Date: 2020-03-07 12:21+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -72,7 +72,7 @@ msgstr "Χώρα"
 #: donate/payments/forms.py:131 donate/templates/pages/base_page_master.html:87
 #, python-format
 msgid "I’m okay with Mozilla handling my info as explained in this <a href='%(url)s'>Privacy Notice</a>."
-msgstr ""
+msgstr "Δέχομαι ότι η Mozilla μπορεί να χειριστεί τις πληροφορίες μου όπως εξηγεί σε αυτή τη <a href='%(url)s'>σημείωση απορρήτου</a>."
 
 #: donate/payments/views.py:152
 msgid "The type of card you used is not accepted."
@@ -96,15 +96,15 @@ msgstr "Ο ταχυδρομικός κώδικας που καταχωρίσατ
 
 #: donate/payments/views.py:180
 msgid "Sorry there was an error processing your payment. Please try again later or use a different payment method."
-msgstr ""
+msgstr "Λυπούμαστε, υπήρξε σφάλμα κατά την επεξεργασία της πληρωμής σας. Παρακαλούμε δοκιμάστε ξανά αργότερα ή χρησιμοποιήστε διαφορετικό τρόπο πληρωμής."
 
 #: donate/payments/views.py:362
 msgid "Something went wrong. We were unable to process your payment."
-msgstr ""
+msgstr "Κάτι πήγε στραβά. Δεν μπορέσαμε να επεξεργαστούμε την πληρωμή σας."
 
 #: donate/payments/views.py:614 donate/payments/views.py:723
 msgid "Sorry there was an error processing your payment. Please try again later."
-msgstr ""
+msgstr "Λυπούμαστε, υπήρξε κάποιο σφάλμα κατά την επεξεργασία της πληρωμής σας. Παρακαλούμε δοκιμάστε ξανά αργότερα."
 
 #: donate/recaptcha/fields.py:18
 msgid "Captcha was invalid. Please try again."
@@ -129,7 +129,7 @@ msgstr "Μετάβαση στην αρχική σελίδα"
 #: donate/templates/base_master.html:8 donate/templates/pages/base_page_master.html:6 donate/templates/pages/base_page_master.html:13 donate/templates/pages/base_page_master.html:14
 msgctxt "Page title"
 msgid "Donate to Mozilla"
-msgstr ""
+msgstr "Δωρέα στη Mozilla"
 
 #: donate/templates/fragments/donate_form.html:12
 msgid "ONE TIME"
@@ -209,7 +209,7 @@ msgstr "Μενού"
 
 #: donate/templates/pages/base_page_master.html:71
 msgid "Protect the internet as a global public resource"
-msgstr ""
+msgstr "Προστατεύστε το Διαδίκτυο ως παγκόσμιο δημόσιο πόρο"
 
 #: donate/templates/pages/base_page_master.html:79
 msgid "Join our email list to take action and stay updated!"
@@ -230,6 +230,8 @@ msgstr "Ευχαριστούμε!"
 #: donate/templates/pages/base_page_master.html:92
 msgid "If you haven’t previously confirmed a subscription to a Mozilla-related newsletter you may have to do so. Please check your inbox or your spam filter for an email from us."
 msgstr ""
+"Αν δεν έχετε προηγουμένως επιβεβαιώσει την εγγραφή σας σε κάποιο newsletter σχετικό με τη Mozilla, ίσως θα πρέπει να το κάνετε. Παρακαλούμε ελέγξτε τα εισερχόμενα ή το φίλτρο ανεπιθύμητων για ένα "
+"email από εμάς."
 
 #: donate/templates/pages/base_page_master.html:107
 msgid "More about us"
@@ -250,7 +252,7 @@ msgstr "GitHub"
 
 #: donate/templates/pages/base_page_master.html:137 donate/thunderbird/templates/pages/base_page.html:59
 msgid "Participation Guidelines"
-msgstr ""
+msgstr "Κανόνες συμμετοχής"
 
 #: donate/templates/pages/base_page_master.html:140 donate/thunderbird/templates/pages/base_page.html:51
 msgid "Legal"
@@ -278,11 +280,11 @@ msgstr "ΔΩΡΕΑ ΤΩΡΑ"
 
 #: donate/templates/pages/core/campaign_page.html:52 donate/templates/pages/core/landing_page_master.html:36 donate/templates/payment/card_master.html:159
 msgid "Seal of Charity Navigator 4-Star"
-msgstr ""
+msgstr "Σφραγίδα Charity Navigator 4 αστέρων"
 
 #: donate/templates/pages/core/campaign_page.html:55 donate/templates/pages/core/landing_page_master.html:39 donate/templates/payment/card_master.html:162
 msgid "Seal of GuideStar Gold 2019"
-msgstr ""
+msgstr "Σφραγίδα GuideStar Gold 2019"
 
 #: donate/templates/pages/core/campaign_page.html:65
 msgctxt "Header"
@@ -295,7 +297,7 @@ msgstr ""
 
 #: donate/templates/pages/core/contributor_support_page_master.html:24
 msgid "We will get back to you soon."
-msgstr ""
+msgstr "Θα σας απαντήσουμε σύντομα."
 
 #: donate/templates/pages/core/contributor_support_page_master.html:28
 msgid "If you need help with a contribution, fill out this form and we’ll get back to you soon."
@@ -303,53 +305,53 @@ msgstr ""
 
 #: donate/templates/pages/core/contributor_support_page_master.html:40
 msgid "Contact Name"
-msgstr ""
+msgstr "Όνομα επικοινωνίας"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:50
 msgid "Language"
-msgstr ""
+msgstr "Γλώσσα"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:53
 msgctxt "Option in 'Language' dropdown"
 msgid "None"
-msgstr ""
+msgstr "Καμία"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:54
 msgid "English"
-msgstr ""
+msgstr "Αγγλικά"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:55
 msgid "French"
-msgstr ""
+msgstr "Γαλλικά"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:56
 msgid "German"
-msgstr ""
+msgstr "Γερμανικά"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:57
 msgid "Spanish"
-msgstr ""
+msgstr "Ισπανικά"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:58
 msgid "Polish"
-msgstr ""
+msgstr "Πολωνικά"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:59
 msgid "Portuguese"
-msgstr ""
+msgstr "Πορτογαλικά"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:60
 msgctxt "Option in 'Language' dropdown"
 msgid "Other"
-msgstr ""
+msgstr "Άλλη"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:66
 msgid "Subject"
-msgstr ""
+msgstr "Θέμα"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:71
 msgid "Description"
-msgstr ""
+msgstr "Περιγραφή"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:75
 #, python-format
@@ -358,24 +360,24 @@ msgstr ""
 
 #: donate/templates/pages/core/contributor_support_page_master.html:77
 msgid "Submit"
-msgstr ""
+msgstr "Υποβολή"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:4 donate/templates/pages/core/ways_to_give_page_master.html:11
 msgid "Ways to Give"
-msgstr ""
+msgstr "Τρόποι συνεισφοράς"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:16
 msgid "Credit / Debit and PayPal"
-msgstr ""
+msgstr "Πιστωτική/χρεωστική και PayPal"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:18
 #, python-format
 msgid "<a href=\"%(ways_to_give_link)s\">Go to this link</a> to make a secure online donation right now."
-msgstr ""
+msgstr "<a href=\"%(ways_to_give_link)s\">Μεταβείτε σε αυτό το σύνδεσμο</a> για να κάνετε με ασφάλεια τη δωρεά σας."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:23 donate/thunderbird/templates/pages/core/ways_to_give_page.html:7
 msgid "Bank Transfer / SEPA"
-msgstr ""
+msgstr "Τραπεζικό έμβασμα/SEPA"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:24
 msgid "We accept donations in Euros through Single European Payment Area (SEPA) transfer, and British Pounds through BACS transfer."
@@ -497,12 +499,12 @@ msgstr "Οι πληροφορίες σας"
 #: donate/templates/payment/card_master.html:20
 #, python-format
 msgid "You are donating <span class=\"%(span_class)s\">%(formatted_amount)s</span> per month"
-msgstr ""
+msgstr "Δωρίζετε <span class=\"%(span_class)s\">%(formatted_amount)s</span> ανά μήνα"
 
 #: donate/templates/payment/card_master.html:22
 #, python-format
 msgid "You are donating <span class=\"%(span_class)s\">%(formatted_amount)s</span>"
-msgstr ""
+msgstr "Δωρίζετε <span class=\"%(span_class)s\">%(formatted_amount)s</span>"
 
 #: donate/templates/payment/card_master.html:26
 msgid "Change amount"
@@ -590,7 +592,7 @@ msgstr ""
 
 #: donate/templates/payment/card_upsell_master.html:21 donate/templates/payment/paypal_upsell_master.html:21
 msgid "Yes, I will give:"
-msgstr ""
+msgstr "Ναι, θα δωρίσω:"
 
 #: donate/templates/payment/card_upsell_master.html:40
 msgid "Monthly"
@@ -652,7 +654,7 @@ msgstr ""
 #: donate/templates/payment/thank_you_master.html:23
 msgctxt "Email subject line"
 msgid "I donated to Mozilla today"
-msgstr ""
+msgstr "Έκανα μια δωρεά στη Mozilla σήμερα"
 
 #: donate/templates/payment/thank_you_master.html:27 donate/thunderbird/templates/payment/thank_you.html:16
 msgid "Share on Facebook"
@@ -695,7 +697,7 @@ msgstr "Δωρεά στο Thunderbird"
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:7
 #, python-format
 msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a>"
-msgstr ""
+msgstr "Άλλοι τρόποι δωρεάς: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a>|<a href=\"%(check_url)s\">Επιταγή</a>"
 
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:15
 #, python-format
