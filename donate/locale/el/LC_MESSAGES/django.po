@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-30 21:05+0000\n"
-"PO-Revision-Date: 2020-03-07 12:21+0000\n"
+"PO-Revision-Date: 2020-03-07 12:22+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -381,7 +381,7 @@ msgstr "Τραπεζικό έμβασμα/SEPA"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:24
 msgid "We accept donations in Euros through Single European Payment Area (SEPA) transfer, and British Pounds through BACS transfer."
-msgstr ""
+msgstr "Δεχόμαστε δωρεές σε ευρώ μέσω εμβάσματος Ενιαίου Χώρου Πληρωμών σε Ευρώ (SEPA) και σε βρετανικές λίρες μέσω εμβάσματος BACS."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:25
 msgid "Please remember that donations are deductible for U.S. income tax purposes only."
@@ -390,7 +390,7 @@ msgstr ""
 #: donate/templates/pages/core/ways_to_give_page_master.html:27 donate/thunderbird/templates/pages/core/ways_to_give_page.html:10
 #, python-format
 msgid "If your bank requests our physical address, it is %(address)s."
-msgstr ""
+msgstr "Αν η τράπεζά σας ζητήσει τη φυσική μας διεύθυνση, είναι %(address)s."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:33 donate/thunderbird/templates/pages/core/ways_to_give_page.html:17
 msgid "Euros:"
