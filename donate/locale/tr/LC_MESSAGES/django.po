@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-30 21:05+0000\n"
-"PO-Revision-Date: 2020-02-25 14:58+0000\n"
+"PO-Revision-Date: 2020-03-15 16:14+0000\n"
 "Last-Translator: Selim Şumlu <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tr\n"
@@ -808,10 +808,10 @@ msgstr ""
 "bağışlarımı en az 5 gün önceden <a href=\"%(help_url)s\">bu formu doldurarak</a> iptal edebileceğimi, bağıştan sonraki 15 gün içinde iade talep edebileceğimi anladım."
 
 #: donate/thunderbird/templates/payment/thank_you.html:6
-#, fuzzy, python-format
+#, python-format
 #| msgid "We’ve emailed you a donation receipt; if it’s missing, please check your junk/spam folders, then contact us at <a href=\"mailto:%(email)s\">%(email)s</a>."
 msgid "We’ve emailed you a donation receipt; if it’s missing, please check your junk/spam folders, then contact us using <a href=\"%(url)s\">this form</a>."
-msgstr "Bağış makbuzunuzu e-postayla gönderdik. Gelmediyse lütfen önemsiz/spam klasörlerinizi kontrol edin. Yine bulamazsanız<a href=\"mailto:%(email)s\">%(email)s</a> adresinden bize ulaşabilirsiniz."
+msgstr "Bağış makbuzunuzu e-postayla gönderdik. Gelmediyse lütfen önemsiz/spam klasörlerinizi kontrol edin. Yine bulamazsanız <a href=\"%(url)s\">bu formu</a> kullanarak bize ulaşabilirsiniz."
 
 #: donate/thunderbird/templates/payment/thank_you.html:7
 msgid "Lastly, can you multiply your impact by sharing about the important work Thunderbird is doing? Thank you again!"
