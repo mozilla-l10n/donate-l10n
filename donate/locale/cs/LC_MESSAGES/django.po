@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-30 21:05+0000\n"
-"PO-Revision-Date: 2020-02-04 15:45+0000\n"
+"PO-Revision-Date: 2020-03-16 10:21+0000\n"
 "Last-Translator: Michal Stanke <mstanke@mozilla.cz>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cs\n"
@@ -259,7 +259,7 @@ msgstr "GitHub"
 
 #: donate/templates/pages/base_page_master.html:137 donate/thunderbird/templates/pages/base_page.html:59
 msgid "Participation Guidelines"
-msgstr "Pravidla zasílání darů"
+msgstr "Pravidla pro přispěvatele"
 
 #: donate/templates/pages/base_page_master.html:140 donate/thunderbird/templates/pages/base_page.html:51
 msgid "Legal"
