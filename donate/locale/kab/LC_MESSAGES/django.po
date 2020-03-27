@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-30 21:05+0000\n"
-"PO-Revision-Date: 2020-03-27 18:33+0000\n"
+"PO-Revision-Date: 2020-03-27 18:43+0000\n"
 "Last-Translator: Uccen Marzuq <merzouk.ouchene@laposte.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -96,19 +96,19 @@ msgstr "Tangalt n lpusṭa i teskecmeḍ mačči d tameɣtut."
 
 #: donate/payments/views.py:180
 msgid "Sorry there was an error processing your payment. Please try again later or use a different payment method."
-msgstr ""
+msgstr "Nesḥassef, tella-d tuccḍa di lawan i deg d-yella usesfer n lexlaṣ-inek. Ma ulac aɣilif, ɛreḍ tikelt-nniḍen ticki neɣ seqdec ttawil-nniḍen n uxelleṣ."
 
 #: donate/payments/views.py:362
 msgid "Something went wrong. We were unable to process your payment."
-msgstr ""
+msgstr "Yella kra ur yeddan akken iwata. Ur nezmir ara ad nsesfer axelleṣ-inek."
 
 #: donate/payments/views.py:614 donate/payments/views.py:723
 msgid "Sorry there was an error processing your payment. Please try again later."
-msgstr ""
+msgstr "Nesḥassef, tella-d tuccḍa di lawan i deg d-yella usesfer n lexlaṣ-inek. Ma ulac aɣilif, ɛreḍ tikelt-nniḍen ticki."
 
 #: donate/recaptcha/fields.py:18
 msgid "Captcha was invalid. Please try again."
-msgstr ""
+msgstr "Akaptča mačči d ameɣtu. Ma ulac aɣilif, ɛreḍ tikelt-nniḍen."
 
 #: donate/templates/404.html:4
 msgid "Page not found"
