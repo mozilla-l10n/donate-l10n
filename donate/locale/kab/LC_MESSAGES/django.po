@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-30 21:05+0000\n"
-"PO-Revision-Date: 2020-03-27 18:43+0000\n"
+"PO-Revision-Date: 2020-03-27 18:44+0000\n"
 "Last-Translator: Uccen Marzuq <merzouk.ouchene@laposte.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -133,7 +133,7 @@ msgstr "Mudd tawsa i Mozilla"
 
 #: donate/templates/fragments/donate_form.html:12
 msgid "ONE TIME"
-msgstr ""
+msgstr "TIKELT"
 
 #: donate/templates/fragments/donate_form.html:18
 msgid "MONTHLY"
