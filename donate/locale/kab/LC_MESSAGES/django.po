@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-30 21:05+0000\n"
-"PO-Revision-Date: 2020-03-28 18:11+0000\n"
+"PO-Revision-Date: 2020-03-28 18:18+0000\n"
 "Last-Translator: Uccen Marzuq <merzouk.ouchene@laposte.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -181,7 +181,7 @@ msgstr "Ttawilat-nniḍen i uɛiwen: <a href=\"%(wire_transfer_url)s\">SEPA/BACS
 #: donate/templates/fragments/donate_form_disclaimer_master.html:23
 #, python-format
 msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"mailto:%(email)s\">Send us an email</a>."
-msgstr ""
+msgstr "Tesɛiḍ uguren i tikci n tawsa? Rzu ɣer  <a href=\"%(faq_url)s\">FAQ</a> i tifin n tririt ɣef isteqsiyen yezgan ttuɣalen-d. Mazal tmugreḍ-k uguren? <a href=\"mailto:%(email)s\">Azen-aɣ-d imayl</a>."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:30
 msgid ""
