@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-30 21:05+0000\n"
-"PO-Revision-Date: 2020-03-27 18:44+0000\n"
+"PO-Revision-Date: 2020-03-28 17:56+0000\n"
 "Last-Translator: Uccen Marzuq <merzouk.ouchene@laposte.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -165,6 +165,8 @@ msgid ""
 "Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your "
 "donation will be stored by Mozilla."
 msgstr ""
+"Ttfaṣil-inek n uxelleṣ ad ttwasesfren sɣuṛ <a href=\"%(braintree_url)s\">Braintree</a>, takebbanit PayPal (i tkarḍiwin n ukridit/udibit) neɣ <a href=\"%(paypal_url)s\">PayPal</a>, rnu ɣer waya, "
+"asekles  n uɛiwen-inek ad yettwaḥrez sɣuṛ Mozilla."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:9
 #, python-format
