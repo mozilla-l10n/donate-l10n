@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-30 21:05+0000\n"
-"PO-Revision-Date: 2020-03-26 23:57+0000\n"
+"PO-Revision-Date: 2020-03-27 01:51+0000\n"
 "Last-Translator: Іhor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: uk\n"
@@ -489,25 +489,29 @@ msgid ""
 "indicated that it will treat bitcoin as property for U.S. tax purposes (see IRS Notice 2014-21), donations of bitcoin may be subject to special rules as to the amount of your charitable deduction, "
 "the documentation that must be provided to claim a tax deduction, or other matters."
 msgstr ""
+"Mozilla Foundation - це каліфорнійська некомерційна корпорація, звільнена від податків на прибуток федеральною службою Сполучених Штатів, відповідно до IRC 501(c)(3) і публічною благодійністю, що "
+"класифікується згідно з IRC розділами 170(b)(1)(A) та 509(a)(1). Внески в Bitcoin, які отримує Mozilla, розцінюються, як благодійна допомога згідно із федеральним податковим законодавством США, що "
+"призначені для використання на власні благодійні цілі. У зв'язку з тим, що IRS зазначив, що він буде обходитись з bitcoin, як з майном для податкових цілей США (див. IRS Notice 2014-21), внески в "
+"bitcoin можуть бути предметом спеціальних правил, що стосуються кількості вашого благодійного утримання, документації, що повинна бути надана на вимогу утримання податку та іншого."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:102
 #, python-format
 msgid "Learn more about bitcoin donations <a href=\"%(bitcoin_wiki)s\">here</a>. To donate bitcoin, <a href=\"%(bitcoin_donate)s\">please visit this link.</a>"
-msgstr ""
+msgstr "Дізнайтеся більше про допомогу в Bitcoin <a href=\"%(bitcoin_wiki)s\">тут</a>. Щоб зробити внесок в Bitcoin, <a href=\"%(bitcoin_donate)s\">перейдіть за цим посиланням.</a>"
 
 #: donate/templates/payment/card_master.html:4
 msgid "Your information"
-msgstr ""
+msgstr "Ваша інформація"
 
 #: donate/templates/payment/card_master.html:20
 #, python-format
 msgid "You are donating <span class=\"%(span_class)s\">%(formatted_amount)s</span> per month"
-msgstr ""
+msgstr "Ваш щомісячний внесок <span class=\"%(span_class)s\">%(formatted_amount)s</span>"
 
 #: donate/templates/payment/card_master.html:22
 #, python-format
 msgid "You are donating <span class=\"%(span_class)s\">%(formatted_amount)s</span>"
-msgstr ""
+msgstr "Ваш внесок <span class=\"%(span_class)s\">%(formatted_amount)s</span>"
 
 #: donate/templates/payment/card_master.html:26
 msgid "Change amount"
@@ -515,7 +519,7 @@ msgstr "Змінити суму"
 
 #: donate/templates/payment/card_master.html:34
 msgid "Donation Amount"
-msgstr ""
+msgstr "Сума допомоги"
 
 #: donate/templates/payment/card_master.html:39
 msgid "Confirm"
@@ -523,36 +527,36 @@ msgstr "Підтвердити"
 
 #: donate/templates/payment/card_master.html:44
 msgid "Your Details"
-msgstr ""
+msgstr "Ваші дані"
 
 #: donate/templates/payment/card_master.html:60 donate/templates/payment/card_upsell_master.html:34 donate/templates/payment/newsletter_signup_master.html:30
 #: donate/templates/payment/paypal_upsell_master.html:34
 msgid "There were some errors with your form. Please amend the fields highlighted below."
-msgstr ""
+msgstr "Ви допустили помилку при заповненні форми. Будь ласка, змініть дані у виділених полях."
 
 #: donate/templates/payment/card_master.html:64
 msgid "We were unable to take payment because the payment processor reported an error with your address information:"
-msgstr ""
+msgstr "Ми не можемо отримати платіж, оскільки обробник оплати повідомив про помилку з інформацією про вашу адресу:"
 
 #: donate/templates/payment/card_master.html:68
 msgid "Please correct these errors and try again."
-msgstr ""
+msgstr "Будь ласка, виправте зазначені помилки та спробуйте знову."
 
 #: donate/templates/payment/card_master.html:91
 msgid "Payment"
-msgstr ""
+msgstr "Платіж"
 
 #: donate/templates/payment/card_master.html:106
 msgid "Card number"
-msgstr ""
+msgstr "Номер картки"
 
 #: donate/templates/payment/card_master.html:112
 msgid "Expiration date"
-msgstr ""
+msgstr "Термін дії"
 
 #: donate/templates/payment/card_master.html:117
 msgid "CVV"
-msgstr ""
+msgstr "код CVV"
 
 #: donate/templates/payment/card_master.html:126
 #, python-format
@@ -561,28 +565,31 @@ msgid ""
 "I must cancel at least 5 days before the next scheduled donation by email to <a href='mailto:%(email)s'>%(email)s</a>, and that I may only request a refund within 15 days from the date of a "
 "donation."
 msgstr ""
+"Я дозволяю Mozilla Foundation автоматично отримувати кошти з моєї картки щомісяця, у розмірі зазначеному раніше, починаючи з сьогоднішнього числа і в усі наступні місяці того ж числа, що й сьогодні,"
+" поки я не скасую цієї дії. Я розумію, що можу припинити платежі щонайменше за 5 днів до чергового платежу, надіславши листа на електронну пошту <a href='mailto:%(email)s'>%(email)s</a> і що я можу "
+"вимагати повернення коштів лише протягом 15 днів з дня внесення допомоги."
 
 #: donate/templates/payment/card_master.html:128
 msgid "I authorize Mozilla Foundation to charge my card in the amount indicated above. I understand that I may only request a refund within 15 days from the date of the donation."
-msgstr ""
+msgstr "Я дозволяю Mozilla Foundation отримати кошти з моєї картки у розмірі зазначеному раніше. Я розумію, що можу вимагати повернення коштів лише протягом 15 днів з дня внесення допомоги."
 
 #: donate/templates/payment/card_master.html:144
 #, python-format
 msgid "Donate <span class=\"%(span_class)s\">%(formatted_amount)s</span> per month"
-msgstr ""
+msgstr "Допомогти щомісячним внеском <span class=\"%(span_class)s\">%(formatted_amount)s</span>"
 
 #: donate/templates/payment/card_master.html:146
 #, python-format
 msgid "Donate <span class=\"%(span_class)s\">%(formatted_amount)s</span>"
-msgstr ""
+msgstr "Зробити внесок <span class=\"%(span_class)s\">%(formatted_amount)s</span>"
 
 #: donate/templates/payment/card_master.html:155
 msgid "Your donation helps keep the Web open and free. Thank you in advance for your gift."
-msgstr ""
+msgstr "Ваш внесок допомагає Інтернету залишатися відкритим і вільним. Заздалегідь дякуємо за вашу допомогу."
 
 #: donate/templates/payment/card_upsell_master.html:4 donate/templates/payment/paypal_upsell_master.html:4 donate/templates/payment/thank_you_master.html:4
 msgid "Thank you"
-msgstr ""
+msgstr "Дякуємо"
 
 #: donate/templates/payment/card_upsell_master.html:13 donate/templates/payment/newsletter_signup_master.html:13 donate/templates/payment/paypal_upsell_master.html:13
 #: donate/templates/payment/thank_you_master.html:12 donate/thunderbird/templates/payment/newsletter_signup.html:6
