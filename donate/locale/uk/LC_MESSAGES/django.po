@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-30 21:05+0000\n"
-"PO-Revision-Date: 2020-03-27 01:51+0000\n"
+"PO-Revision-Date: 2020-03-29 16:55+0000\n"
 "Last-Translator: Іhor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: uk\n"
@@ -283,7 +283,7 @@ msgstr "ЗРОБІТЬ ВНЕСОК ЗАРАЗ"
 
 #: donate/templates/pages/core/campaign_page.html:52 donate/templates/pages/core/landing_page_master.html:36 donate/templates/payment/card_master.html:159
 msgid "Seal of Charity Navigator 4-Star"
-msgstr ""
+msgstr "Печатка з рейтингом 4 зірки від Charity Navigator"
 
 #: donate/templates/pages/core/campaign_page.html:55 donate/templates/pages/core/landing_page_master.html:39 donate/templates/payment/card_master.html:162
 msgid "Seal of GuideStar Gold 2019"
@@ -388,7 +388,7 @@ msgstr "Ми приймаємо внески в євро через Єдину �
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:25
 msgid "Please remember that donations are deductible for U.S. income tax purposes only."
-msgstr ""
+msgstr "Зауважте, що ваш внесок не оподатковується лише податком на прибуток в США."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:27 donate/thunderbird/templates/pages/core/ways_to_give_page.html:10
 #, python-format
@@ -594,19 +594,19 @@ msgstr "Дякуємо"
 #: donate/templates/payment/card_upsell_master.html:13 donate/templates/payment/newsletter_signup_master.html:13 donate/templates/payment/paypal_upsell_master.html:13
 #: donate/templates/payment/thank_you_master.html:12 donate/thunderbird/templates/payment/newsletter_signup.html:6
 msgid "Thank you for your generous gift"
-msgstr ""
+msgstr "Дякуємо за вашу великодушність"
 
 #: donate/templates/payment/card_upsell_master.html:17 donate/templates/payment/paypal_upsell_master.html:17
 msgid "We’d love to have you as a sustaining supporter of Mozilla. <b>Could you add a monthly donation starting next month?</b>"
-msgstr ""
+msgstr "Ми були б раді вашій постійній підтримці Mozilla. <b>Чи можете ви допомагати нам щомісячними внесками з наступного місяця?</b>"
 
 #: donate/templates/payment/card_upsell_master.html:21 donate/templates/payment/paypal_upsell_master.html:21
 msgid "Yes, I will give:"
-msgstr ""
+msgstr "Так, я допомагатиму:"
 
 #: donate/templates/payment/card_upsell_master.html:40
 msgid "Monthly"
-msgstr ""
+msgstr "Щомісячно"
 
 #: donate/templates/payment/card_upsell_master.html:48
 #, python-format
@@ -614,6 +614,9 @@ msgid ""
 "I authorize Mozilla Foundation to automatically charge my card every month in the amount indicated above, starting next month on the same date as today, and continuing each month afterwards until I "
 "cancel. I understand that I must cancel at least 5 days before the next scheduled donation by email to %(email)s, and that I may only request a refund within 15 days from the date of a donation."
 msgstr ""
+"Я дозволяю Mozilla Foundation автоматично отримувати кошти з моєї картки щомісяця, у розмірі зазначеному раніше, починаючи з сьогоднішнього числа і в усі наступні місяці того ж числа, що й сьогодні,"
+" поки я не скасую цієї дії. Я розумію, що можу припинити платежі щонайменше за 5 днів до чергового платежу, надіславши листа на електронну пошту %(email)s і що я можу вимагати повернення коштів лише"
+" протягом 15 днів з дня внесення допомоги."
 
 #: donate/templates/payment/card_upsell_master.html:53
 #| msgctxt "Header"
@@ -623,45 +626,47 @@ msgstr "Щомісячний внесок"
 
 #: donate/templates/payment/card_upsell_master.html:56 donate/templates/payment/newsletter_signup_master.html:42
 msgid "No Thanks"
-msgstr ""
+msgstr "Ні, дякую"
 
 #: donate/templates/payment/newsletter_signup_master.html:4
 msgid "Stay in touch"
-msgstr ""
+msgstr "Будьте в курсі"
 
 #: donate/templates/payment/newsletter_signup_master.html:14
 msgid "Protect the internet as a global public resource. Join our email list to take action and stay updated!"
-msgstr ""
+msgstr "Захистіть Інтернет як світовий суспільний ресурс. Підпишіться на нашу розсилку електронних листів, щоб діяти та дізнаватися про все першим!"
 
 #: donate/templates/payment/newsletter_signup_master.html:40
 msgid "Sign Up"
-msgstr ""
+msgstr "Зареєструватися"
 
 #: donate/templates/payment/paypal_upsell_master.html:41
 msgid "/ Monthly"
-msgstr ""
+msgstr "/ Щомісяця"
 
 #: donate/templates/payment/paypal_upsell_master.html:52
 msgid "No"
-msgstr ""
+msgstr "Ні"
 
 #: donate/templates/payment/thank_you_master.html:15
 msgid "Your donation will go right to work protecting the web, keeping it open and available to all."
-msgstr ""
+msgstr "Ваш внесок буде використано на роботу для захисту Інтернету та збереження його відкритим та доступним для всіх."
 
 #: donate/templates/payment/thank_you_master.html:15
 #, python-format
 msgid "We’ve emailed you a donation receipt; if it’s missing, please check your junk/spam folders, then contact us at <a href=\"mailto:%(email)s\">%(email)s</a>."
 msgstr ""
+"Ми надіслали вам електронного листа про отримання внеску; якщо він відсутній, перевірте теки з небажаною поштою/спамом, а якщо їх немає і там, напишіть нам на адресу <a "
+"href=\"mailto:%(email)s\">%(email)s</a>."
 
 #: donate/templates/payment/thank_you_master.html:17
 msgid "Lastly, can you multiply your impact by sharing about the important work Mozilla is doing? Thank you again!"
-msgstr ""
+msgstr "І наостанок, чи можете ви примножити свою допомогу, розповівши іншим про важливу роботу Mozilla? Ще раз дякуємо вам!"
 
 #: donate/templates/payment/thank_you_master.html:22
 msgctxt "Used as a tweet"
 msgid "I donated to @mozilla today because I #lovetheweb. Join me and help fight for a better and healthier internet, for all."
-msgstr ""
+msgstr "Сьогодні я зробив внесок для @mozilla, тому що я #lovetheweb. Долучайтесь до мене і допоможіть відстоювати кращий і здоровіший Інтернет для всіх."
 
 #: donate/templates/payment/thank_you_master.html:23
 msgctxt "Email subject line"
