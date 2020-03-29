@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-30 21:05+0000\n"
-"PO-Revision-Date: 2020-03-26 11:33+0000\n"
+"PO-Revision-Date: 2020-03-26 23:57+0000\n"
 "Last-Translator: Іhor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: uk\n"
@@ -308,7 +308,7 @@ msgstr "Якщо вам потрібна допомога з внеском, з�
 
 #: donate/templates/pages/core/contributor_support_page_master.html:40
 msgid "Contact Name"
-msgstr ""
+msgstr "Контактна Особа"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:50
 msgid "Language"
@@ -359,7 +359,7 @@ msgstr "Опис"
 #: donate/templates/pages/core/contributor_support_page_master.html:75
 #, python-format
 msgid "Mozilla will only use your submitted information for purposes of communicating with you about your request. See our <a href=\"%(privacy_policy)s\">privacy policy</a> for further information."
-msgstr ""
+msgstr "Mozilla використовуватиме надану вами інформацію лише для зв'язку з вами щодо ваших звернень. Щоб дізнатися більше, перегляньте нашу <a href=\"%(privacy_policy)s\">політику приватності</a>."
 
 #: donate/templates/pages/core/contributor_support_page_master.html:77
 msgid "Submit"
@@ -376,7 +376,7 @@ msgstr "Кредитна / платіжна карта і PayPal"
 #: donate/templates/pages/core/ways_to_give_page_master.html:18
 #, python-format
 msgid "<a href=\"%(ways_to_give_link)s\">Go to this link</a> to make a secure online donation right now."
-msgstr ""
+msgstr "<a href=\"%(ways_to_give_link)s\">Перейдіть за цим посиланням</a>, щоб безпечно зробити внесок через Інтернет просто зараз."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:23 donate/thunderbird/templates/pages/core/ways_to_give_page.html:7
 msgid "Bank Transfer / SEPA"
@@ -384,7 +384,7 @@ msgstr "Банківський переказ / SEPA"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:24
 msgid "We accept donations in Euros through Single European Payment Area (SEPA) transfer, and British Pounds through BACS transfer."
-msgstr ""
+msgstr "Ми приймаємо внески в євро через Єдину Європейську Мережу Розрахунків (SEPA), а також британські фунти стерлінгів через платіжну систему Великобританії BACS."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:25
 msgid "Please remember that donations are deductible for U.S. income tax purposes only."
@@ -393,7 +393,7 @@ msgstr ""
 #: donate/templates/pages/core/ways_to_give_page_master.html:27 donate/thunderbird/templates/pages/core/ways_to_give_page.html:10
 #, python-format
 msgid "If your bank requests our physical address, it is %(address)s."
-msgstr ""
+msgstr "Якщо ваш банк просить надати нашу фізичну адресу, ось вона — %(address)s."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:33 donate/thunderbird/templates/pages/core/ways_to_give_page.html:17
 msgid "Euros:"
@@ -420,67 +420,67 @@ msgstr "Місто та країна/регіон:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:37 donate/thunderbird/templates/pages/core/ways_to_give_page.html:21
 msgid "Frankfurt, Germany"
-msgstr ""
+msgstr "Франкфурт, Німеччина"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:38 donate/templates/pages/core/ways_to_give_page_master.html:56 donate/thunderbird/templates/pages/core/ways_to_give_page.html:22
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:40
 msgid "SWIFT/BIC Code:"
-msgstr ""
+msgstr "Код SWIFT/BIC:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:39 donate/templates/pages/core/ways_to_give_page_master.html:53 donate/thunderbird/templates/pages/core/ways_to_give_page.html:23
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:37
 msgid "Beneficiary Name (For credit to):"
-msgstr ""
+msgstr "Ім'я отримувача:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:40 donate/templates/pages/core/ways_to_give_page_master.html:57 donate/thunderbird/templates/pages/core/ways_to_give_page.html:24
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:41
 msgid "IBAN:"
-msgstr ""
+msgstr "IBAN:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:46 donate/thunderbird/templates/pages/core/ways_to_give_page.html:30
 msgid "British Pound Sterling:"
-msgstr ""
+msgstr "Британський фунт стерлінгів:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:48 donate/thunderbird/templates/pages/core/ways_to_give_page.html:32
 msgid "British Pound Sterling (GBP)"
-msgstr ""
+msgstr "Британський фунт стерлінгів (GBP)"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:50 donate/thunderbird/templates/pages/core/ways_to_give_page.html:34
 msgid "London, United Kingdom"
-msgstr ""
+msgstr "Лондон, Великобританія"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:51 donate/thunderbird/templates/pages/core/ways_to_give_page.html:35
 msgid "Bank Sort Code:"
-msgstr ""
+msgstr "Код філії банку:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:52 donate/thunderbird/templates/pages/core/ways_to_give_page.html:36
 msgid "Account Number (8 digits):"
-msgstr ""
+msgstr "Номер рахунку (8 цифр):"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:63
 msgid "Check (via postal service)"
-msgstr ""
+msgstr "Чек (поштовою службою)"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:67
 #, python-format
 msgid "Please send a check <strong>including your email address on the memo line</strong>, and payable (payee) to “%(payee)s”."
-msgstr ""
+msgstr "Будь ласка, надсилайте чек <strong>із зазначенням вашої електронної адреси в рядку нагадування</strong>, а в рядку оплата для (одержувач платежу) “%(payee)s”."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:70
 msgid "Please note that the Mozilla Foundation can only accept checks in US dollars drawn on a US bank. Please do <strong>not</strong> send cash."
-msgstr ""
+msgstr "Зверніть увагу, що Mozilla Foundation може приймати чеки виключно в доларах США, оформлені в американських банках. Будь ласка, <strong>не</strong> надсилайте готівку."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:84
 msgid "Currencies"
-msgstr ""
+msgstr "Валюта"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:85
 msgid "Select your currency to make a secure online donation:"
-msgstr ""
+msgstr "Виберіть свою валюту, щоб зробити безпечний внесок через Інтернет:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:95
 msgid "Bitcoin"
-msgstr ""
+msgstr "Bitcoin"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:97
 msgid ""
