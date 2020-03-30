@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-30 21:05+0000\n"
-"PO-Revision-Date: 2020-03-27 01:54+0000\n"
+"PO-Revision-Date: 2020-03-29 19:50+0000\n"
 "Last-Translator: Іhor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: uk\n"
@@ -73,7 +73,7 @@ msgstr "Країна"
 #: donate/payments/forms.py:131 donate/templates/pages/base_page_master.html:87
 #, python-format
 msgid "I’m okay with Mozilla handling my info as explained in this <a href='%(url)s'>Privacy Notice</a>."
-msgstr ""
+msgstr "Я погоджуюсь з тим, як Mozilla поводиться з моїми даними згідно з цим <a href='%(url)s'>повідомленням про приватність</a>."
 
 #: donate/payments/views.py:152
 msgid "The type of card you used is not accepted."
@@ -166,6 +166,8 @@ msgid ""
 "Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your "
 "donation will be stored by Mozilla."
 msgstr ""
+"Ваші платіжні дані будуть оброблені <a href=\"%(braintree_url)s\">Braintree</a>, підрозділом компанії PayPal (для кредитних/дебетових карток) або <a href=\"%(paypal_url)s\">PayPal</a>, а запис про "
+"ваш внесок зберігатиме Mozilla."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:9
 #, python-format
@@ -183,6 +185,8 @@ msgstr "Інші способи допомогти: <a href=\"%(wire_transfer_ur
 #, python-format
 msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"mailto:%(email)s\">Send us an email</a>."
 msgstr ""
+"Не вдається зробити внесок? Відвідайте нашу сторінку <a href=\"%(faq_url)s\">частих питань</a> та отримайте відповіді на найпоширеніші запитання. Проблему не вдалося розв’язати? <a "
+"href=\"mailto:%(email)s\">Надішліть нам електронного листа</a>."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:30
 msgid ""
@@ -218,7 +222,7 @@ msgstr "Захистіть Інтернет як глобальний суспі
 
 #: donate/templates/pages/base_page_master.html:79
 msgid "Join our email list to take action and stay updated!"
-msgstr ""
+msgstr "Підпишіться на нашу розсилку електронних листів, щоб діяти та дізнаватися про все першими!"
 
 #: donate/templates/pages/base_page_master.html:80
 msgid "Enter email address"
@@ -234,7 +238,7 @@ msgstr "Дякуємо!"
 
 #: donate/templates/pages/base_page_master.html:92
 msgid "If you haven’t previously confirmed a subscription to a Mozilla-related newsletter you may have to do so. Please check your inbox or your spam filter for an email from us."
-msgstr ""
+msgstr "Якщо ви раніше не підтвердили підписку на новини від Mozilla, можливо, вам доведеться це зробити. Будь ласка, пошукайте наше повідомлення серед вхідних або небажаних листів."
 
 #: donate/templates/pages/base_page_master.html:107
 msgid "More about us"
@@ -275,6 +279,8 @@ msgid ""
 "Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a "
 "%(link_attributes)s>%(site_url)s</a>."
 msgstr ""
+"Mozilla є всесвітньою некомерційною організацією, яка віддана наданню вам свободи ваших дій в Інтернеті та визначенню майбутнього мережі для загальної вигоди. Відвідайте наш вебсайт <a "
+"%(link_attributes)s>%(site_url)s</a>."
 
 #: donate/templates/pages/core/campaign_page.html:38 donate/templates/pages/core/ways_to_give_page_master.html:12
 msgctxt "Button"
@@ -296,11 +302,11 @@ msgstr "Зробити внесок"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:18
 msgid "Thank you for contacting us. A case has been created for your issue and we will be in touch shortly."
-msgstr ""
+msgstr "Дякуємо, що звернулися до нас. Ми вже знаємо про вашу проблему і незабаром зв’яжемося з вами."
 
 #: donate/templates/pages/core/contributor_support_page_master.html:24
 msgid "We will get back to you soon."
-msgstr ""
+msgstr "Ми повернемося до вас за хвильку."
 
 #: donate/templates/pages/core/contributor_support_page_master.html:28
 msgid "If you need help with a contribution, fill out this form and we’ll get back to you soon."
@@ -634,7 +640,7 @@ msgstr "Будьте в курсі"
 
 #: donate/templates/payment/newsletter_signup_master.html:14
 msgid "Protect the internet as a global public resource. Join our email list to take action and stay updated!"
-msgstr ""
+msgstr "Захистіть Інтернет як світовий суспільний ресурс. Підпишіться на нашу розсилку електронних листів, щоб діяти та дізнаватися про все першими!"
 
 #: donate/templates/payment/newsletter_signup_master.html:40
 msgid "Sign Up"
@@ -741,7 +747,7 @@ msgstr "Куки"
 #: donate/thunderbird/templates/pages/base_page.html:69
 #, python-format
 msgid "Portions of this content are ©1998–%(current_year)s by individual contributors. Content available under a <a %(link_attributes)s>Creative Commons license</a>"
-msgstr ""
+msgstr "Частини цього вмісту створені учасниками проєкту mozilla.org ©1998–%(current_year)s. Вміст доступний на умовах <a %(link_attributes)s>ліцензії Creative Commons</a>"
 
 #: donate/thunderbird/templates/pages/core/landing_page.html:7
 #, python-format
