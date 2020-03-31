@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-31 16:59+0000\n"
-"PO-Revision-Date: 2020-03-31 19:23+0000\n"
+"PO-Revision-Date: 2020-03-31 19:32+0000\n"
 "Last-Translator: Muhend Belkacem <taqbaylitassa@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -504,7 +504,7 @@ msgstr ""
 #: donate/templates/pages/core/ways_to_give_page_master.html:114
 #, python-format
 msgid "Learn more about bitcoin donations <a href=\"%(bitcoin_wiki)s\">here</a>. To donate bitcoin, <a href=\"%(bitcoin_donate)s\">please visit this link.</a>"
-msgstr ""
+msgstr "Issin ugar ɣef tewsa s bitcoin <a href=\"%(bitcoin_wiki)s\">dagi</a>. Akken ad tmuddeḍ tawsa s bitcoin, <a href=\"%(bitcoin_donate)s\">rzu ma ulac aɣilif ɣe useɣwen-a.</a>"
 
 #: donate/templates/payment/card_master.html:4
 msgid "Your information"
@@ -513,20 +513,20 @@ msgstr "Talɣut-ik/im"
 #: donate/templates/payment/card_master.html:20
 #, python-format
 msgid "You are donating <span class=\"%(span_class)s\">%(formatted_amount)s</span> per month"
-msgstr ""
+msgstr "Aql-ak tettmudduḍ tawsa <span class=\"%(span_class)s\">%(formatted_amount)s</span> s waggur"
 
 #: donate/templates/payment/card_master.html:22
 #, python-format
 msgid "You are donating <span class=\"%(span_class)s\">%(formatted_amount)s</span>"
-msgstr ""
+msgstr "Aql-ak tettmudduḍ tawsa <span class=\"%(span_class)s\">%(formatted_amount)s</span>"
 
 #: donate/templates/payment/card_master.html:26
 msgid "Change amount"
-msgstr ""
+msgstr "Beddel tallayt"
 
 #: donate/templates/payment/card_master.html:34
 msgid "Donation Amount"
-msgstr ""
+msgstr "Tallayt n tewsa"
 
 #: donate/templates/payment/card_master.html:39
 msgid "Confirm"
@@ -534,20 +534,20 @@ msgstr "Sentem"
 
 #: donate/templates/payment/card_master.html:44
 msgid "Your Details"
-msgstr ""
+msgstr "Talqayt-ik"
 
 #: donate/templates/payment/card_master.html:60 donate/templates/payment/card_upsell_master.html:34 donate/templates/payment/newsletter_signup_master.html:30
 #: donate/templates/payment/paypal_upsell_master.html:34
 msgid "There were some errors with your form. Please amend the fields highlighted below."
-msgstr ""
+msgstr "Teḍra-d tuccḍa deg tferkit-ik. Ma ulac aɣilif, beddel urtan i d-yettwamlen ddaw-a."
 
 #: donate/templates/payment/card_master.html:64
 msgid "We were unable to take payment because the payment processor reported an error with your address information:"
-msgstr ""
+msgstr "Ur nezmir ara ad neqbel lexlaṣ acku anagraw n lexlaṣ yemmela-d tuccḍa icudden ɣer tensa-ik:"
 
 #: donate/templates/payment/card_master.html:68
 msgid "Please correct these errors and try again."
-msgstr ""
+msgstr "Ma ulac aɣilif seɣti tuccḍiwin-a sakin ɽeḍ tikkelt-nniḍen."
 
 #: donate/templates/payment/card_master.html:91
 msgid "Payment"
@@ -559,11 +559,11 @@ msgstr "Uṭṭun n tkeṛḍa"
 
 #: donate/templates/payment/card_master.html:112
 msgid "Expiration date"
-msgstr ""
+msgstr "Azemz n taggara"
 
 #: donate/templates/payment/card_master.html:117
 msgid "CVV"
-msgstr ""
+msgstr "CVV"
 
 #: donate/templates/payment/card_master.html:126
 #, python-format
@@ -580,12 +580,12 @@ msgstr ""
 #: donate/templates/payment/card_master.html:144
 #, python-format
 msgid "Donate <span class=\"%(span_class)s\">%(formatted_amount)s</span> per month"
-msgstr ""
+msgstr "Mudd tawsa <span class=\"%(span_class)s\">%(formatted_amount)s</span> s waggur"
 
 #: donate/templates/payment/card_master.html:146
 #, python-format
 msgid "Donate <span class=\"%(span_class)s\">%(formatted_amount)s</span>"
-msgstr ""
+msgstr "Mudd tawsa <span class=\"%(span_class)s\">%(formatted_amount)s</span>"
 
 #: donate/templates/payment/card_master.html:155
 msgid "Your donation helps keep the Web open and free. Thank you in advance for your gift."
@@ -598,7 +598,7 @@ msgstr "Tanemmirt"
 #: donate/templates/payment/card_upsell_master.html:13 donate/templates/payment/newsletter_signup_master.html:13 donate/templates/payment/paypal_upsell_master.html:13
 #: donate/templates/payment/thank_you_master.html:12 donate/thunderbird/templates/payment/newsletter_signup.html:6
 msgid "Thank you for your generous gift"
-msgstr ""
+msgstr "Tanemmirt ɣef tukci-ik meqqren"
 
 #: donate/templates/payment/card_upsell_master.html:17 donate/templates/payment/paypal_upsell_master.html:17
 msgid "We’d love to have you as a sustaining supporter of Mozilla. <b>Could you add a monthly donation starting next month?</b>"
@@ -606,7 +606,7 @@ msgstr ""
 
 #: donate/templates/payment/card_upsell_master.html:21 donate/templates/payment/paypal_upsell_master.html:21
 msgid "Yes, I will give:"
-msgstr ""
+msgstr "Ih, ad muddeɣ:"
 
 #: donate/templates/payment/card_upsell_master.html:40
 msgid "Monthly"
@@ -629,7 +629,7 @@ msgstr "Ala, tanemmirt"
 
 #: donate/templates/payment/newsletter_signup_master.html:4
 msgid "Stay in touch"
-msgstr ""
+msgstr "Qqim yid-neɣ"
 
 #: donate/templates/payment/newsletter_signup_master.html:14
 msgid "Protect the internet as a global public resource. Join our email list to take action and stay updated!"
