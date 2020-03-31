@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-30 21:06+0000\n"
+"POT-Creation-Date: 2020-03-31 17:00+0000\n"
 "PO-Revision-Date: 2019-11-09 22:10+0000\n"
 "Last-Translator: Hyeonseok Shin <hyeonseok@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,14 +31,14 @@ msgstr "다른 금액"
 #: donate/frontend/_js/payments-card.compiled.js:1
 #: donate/frontend/_js/payments-paypal-upsell.compiled.js:1
 #: donate/frontend/_js/payments-paypal.compiled.js:1
-#: source/js/components/paypal.js:13 source/js/payments-card.js:15
+#: source/js/components/paypal.js:14 source/js/payments-card.js:15
 msgid "An error occurred. Please reload the page or try again later."
 msgstr "오류가 발생하였습니다. 페이지를 다시 로드하거나 나중에 다시 시도하십시오."
 
 #: donate/frontend/_js/payments-card.compiled.js:1
 #: donate/frontend/_js/payments-paypal-upsell.compiled.js:1
 #: donate/frontend/_js/payments-paypal.compiled.js:1
-#: source/js/components/paypal.js:16 source/js/payments-card.js:131
+#: source/js/components/paypal.js:17 source/js/payments-card.js:131
 msgid "There was an error processing your payment. Please try again."
 msgstr "결제 처리 중 오류가 발생했습니다. 다시 시도하십시오."
 
@@ -49,6 +49,6 @@ msgstr "아래 필드 중 일부가 유효하지 않습니다. 유효하지 않�
 
 #: donate/frontend/_js/payments-paypal-upsell.compiled.js:1
 #: donate/frontend/_js/payments-paypal.compiled.js:1
-#: source/js/components/paypal.js:88
+#: source/js/components/paypal.js:93
 msgid "Payment cancelled"
 msgstr "결제 취소됨"

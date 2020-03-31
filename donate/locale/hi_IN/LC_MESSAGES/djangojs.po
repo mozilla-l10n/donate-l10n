@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-30 21:06+0000\n"
+"POT-Creation-Date: 2020-03-31 17:00+0000\n"
 "PO-Revision-Date: 2019-10-24 07:53+0000\n"
 "Last-Translator: Mahtab Alam <mahtab.ceh@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,14 +31,14 @@ msgstr "अन्य राशि"
 #: donate/frontend/_js/payments-card.compiled.js:1
 #: donate/frontend/_js/payments-paypal-upsell.compiled.js:1
 #: donate/frontend/_js/payments-paypal.compiled.js:1
-#: source/js/components/paypal.js:13 source/js/payments-card.js:15
+#: source/js/components/paypal.js:14 source/js/payments-card.js:15
 msgid "An error occurred. Please reload the page or try again later."
 msgstr "एक समस्या उत्पन्न हुई। कृपया पृष्ठ को पुनः लोड करें या बाद में पुनः प्रयास करें।"
 
 #: donate/frontend/_js/payments-card.compiled.js:1
 #: donate/frontend/_js/payments-paypal-upsell.compiled.js:1
 #: donate/frontend/_js/payments-paypal.compiled.js:1
-#: source/js/components/paypal.js:16 source/js/payments-card.js:131
+#: source/js/components/paypal.js:17 source/js/payments-card.js:131
 msgid "There was an error processing your payment. Please try again."
 msgstr "आपके पेमेंट को पूरा करने में एक समस्या हुई। कृपया पुनः प्रयास करें।"
 
@@ -49,6 +49,6 @@ msgstr "नीचे दी गई कुछ जानकारियां अ�
 
 #: donate/frontend/_js/payments-paypal-upsell.compiled.js:1
 #: donate/frontend/_js/payments-paypal.compiled.js:1
-#: source/js/components/paypal.js:88
+#: source/js/components/paypal.js:93
 msgid "Payment cancelled"
 msgstr "पेमेंट रद्द हो गया"

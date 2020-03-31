@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-30 21:06+0000\n"
+"POT-Creation-Date: 2020-03-31 17:00+0000\n"
 "PO-Revision-Date: 2019-10-30 06:42+0000\n"
 "Last-Translator: नरेंद्र पेटकर - narendrapetkar <n.v.petkar@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,14 +31,14 @@ msgstr "इतर रक्कम"
 #: donate/frontend/_js/payments-card.compiled.js:1
 #: donate/frontend/_js/payments-paypal-upsell.compiled.js:1
 #: donate/frontend/_js/payments-paypal.compiled.js:1
-#: source/js/components/paypal.js:13 source/js/payments-card.js:15
+#: source/js/components/paypal.js:14 source/js/payments-card.js:15
 msgid "An error occurred. Please reload the page or try again later."
 msgstr "एक त्रुटी आली. कृपया पृष्ठ रीलोड करा किंवा नंतर पुन्हा प्रयत्न करा."
 
 #: donate/frontend/_js/payments-card.compiled.js:1
 #: donate/frontend/_js/payments-paypal-upsell.compiled.js:1
 #: donate/frontend/_js/payments-paypal.compiled.js:1
-#: source/js/components/paypal.js:16 source/js/payments-card.js:131
+#: source/js/components/paypal.js:17 source/js/payments-card.js:131
 msgid "There was an error processing your payment. Please try again."
 msgstr "आपल्या देयकावर प्रक्रिया करताना त्रुटी आली. कृपया पुन्हा प्रयत्न करा."
 
@@ -49,6 +49,6 @@ msgstr "खाली काही क्षेत्र अवैध आहे�
 
 #: donate/frontend/_js/payments-paypal-upsell.compiled.js:1
 #: donate/frontend/_js/payments-paypal.compiled.js:1
-#: source/js/components/paypal.js:88
+#: source/js/components/paypal.js:93
 msgid "Payment cancelled"
 msgstr "देय रद्द"

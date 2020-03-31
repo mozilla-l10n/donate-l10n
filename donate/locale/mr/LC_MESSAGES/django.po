@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-30 21:05+0000\n"
+"POT-Creation-Date: 2020-03-31 16:59+0000\n"
 "PO-Revision-Date: 2019-11-06 14:06+0000\n"
 "Last-Translator: Théo Chevalier <theo.chevalier11@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -76,35 +76,35 @@ msgstr "देश"
 msgid "I’m okay with Mozilla handling my info as explained in this <a href='%(url)s'>Privacy Notice</a>."
 msgstr "<a href='%(url)s'>ह्या गोपनियता सुचनेमध्ये</a> सांगितल्या प्रमाणे Mozilla ने माझी माहिती हाताळण्याबाबत माझी हरकत नाही."
 
-#: donate/payments/views.py:152
+#: donate/payments/views.py:156
 msgid "The type of card you used is not accepted."
 msgstr "आपण वापरलेला कार्डचा प्रकार स्वीकारला जात नाही."
 
-#: donate/payments/views.py:153 donate/payments/views.py:154
+#: donate/payments/views.py:157 donate/payments/views.py:158
 msgid "The CVV code you entered was invalid."
 msgstr "आपण प्रविष्ट केलेला CVV कोड अवैध होता."
 
-#: donate/payments/views.py:155
+#: donate/payments/views.py:159
 msgid "The expiration date you entered was invalid."
 msgstr "आपण प्रविष्ट केलेली कालबाह्यता तारीख अवैध होती."
 
-#: donate/payments/views.py:156
+#: donate/payments/views.py:160
 msgid "The credit card number you entered was invalid."
 msgstr "आपण प्रविष्ट केलेला क्रेडिट कार्ड क्रमांक अवैध होता."
 
-#: donate/payments/views.py:165 donate/payments/views.py:166
+#: donate/payments/views.py:169 donate/payments/views.py:170
 msgid "The post code you provided is not valid."
 msgstr "आपण प्रदान केलेला पोस्ट कोड वैध नाही."
 
-#: donate/payments/views.py:180
+#: donate/payments/views.py:184
 msgid "Sorry there was an error processing your payment. Please try again later or use a different payment method."
 msgstr "क्षमस्व, आपल्या देयकावर प्रक्रिया करताना त्रुटी आली. कृपया नंतर पुन्हा प्रयत्न करा किंवा भिन्न देय पद्धत वापरा."
 
-#: donate/payments/views.py:362
+#: donate/payments/views.py:378
 msgid "Something went wrong. We were unable to process your payment."
 msgstr "काहीतरी चूक झाली. आम्ही आपल्या देयकावर प्रक्रिया करू शकत नाही."
 
-#: donate/payments/views.py:614 donate/payments/views.py:723
+#: donate/payments/views.py:630 donate/payments/views.py:739
 msgid "Sorry there was an error processing your payment. Please try again later."
 msgstr "क्षमस्व, आपल्या देयकावर प्रक्रिया करताना त्रुटी आली. कृपया पुन्हा प्रयत्न करा."
 
@@ -318,7 +318,7 @@ msgid "We will get back to you soon."
 msgstr ""
 
 #: donate/templates/pages/core/contributor_support_page_master.html:28
-msgid "If you need help with a contribution, fill out this form and we’ll get back to you soon."
+msgid "If you need help with a contribution to MZLA/Thunderbird, fill out this form and a Thunderbird donor care representative will get back to you as soon as possible."
 msgstr ""
 
 #: donate/templates/pages/core/contributor_support_page_master.html:40
@@ -500,31 +500,40 @@ msgid "Check (via postal service)"
 msgstr ""
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:67
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:47
+msgid "UPDATE March 20, 2020:"
+msgstr ""
+
+#: donate/templates/pages/core/ways_to_give_page_master.html:68
+msgid "Please note that due to the “shelter in place” order recently implemented for California, processing and acknowledgment of check donations to the Mozilla Foundation will be indefinitely delayed. Rather than sending us a check, please consider making an <a href=\"/\">online donation</a> instead."
+msgstr ""
+
+#: donate/templates/pages/core/ways_to_give_page_master.html:78
 #, python-format
 msgid "Please send a check <strong>including your email address on the memo line</strong>, and payable (payee) to “%(payee)s”."
 msgstr ""
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:70
+#: donate/templates/pages/core/ways_to_give_page_master.html:81
 msgid "Please note that the Mozilla Foundation can only accept checks in US dollars drawn on a US bank. Please do <strong>not</strong> send cash."
 msgstr ""
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:84
+#: donate/templates/pages/core/ways_to_give_page_master.html:96
 msgid "Currencies"
 msgstr ""
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:85
+#: donate/templates/pages/core/ways_to_give_page_master.html:97
 msgid "Select your currency to make a secure online donation:"
 msgstr ""
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:95
+#: donate/templates/pages/core/ways_to_give_page_master.html:107
 msgid "Bitcoin"
 msgstr ""
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:97
+#: donate/templates/pages/core/ways_to_give_page_master.html:109
 msgid "The Mozilla Foundation is a California non-profit corporation exempt from United States federal income taxation under IRC 501(c)(3) and a public charity classified under IRC sections 170(b)(1)(A) and 509(a)(1). Bitcoin donations Mozilla receives are considered charitable contributions under U.S. federal tax laws, to be used in its discretion for its charitable purposes. Because the IRS has indicated that it will treat bitcoin as property for U.S. tax purposes (see IRS Notice 2014-21), donations of bitcoin may be subject to special rules as to the amount of your charitable deduction, the documentation that must be provided to claim a tax deduction, or other matters."
 msgstr ""
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:102
+#: donate/templates/pages/core/ways_to_give_page_master.html:114
 #, python-format
 msgid "Learn more about bitcoin donations <a href=\"%(bitcoin_wiki)s\">here</a>. To donate bitcoin, <a href=\"%(bitcoin_donate)s\">please visit this link.</a>"
 msgstr ""
@@ -742,7 +751,7 @@ msgstr "प्रत बनवली"
 msgid "Back"
 msgstr "मागे"
 
-#: donate/thunderbird/templates/base.html:5
+#: donate/thunderbird/templates/base.html:9
 #: donate/thunderbird/templates/pages/base_page.html:7
 #: donate/thunderbird/templates/pages/base_page.html:14
 #: donate/thunderbird/templates/pages/base_page.html:15
@@ -798,12 +807,16 @@ msgstr ""
 msgid "Memo field:"
 msgstr ""
 
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:47
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:48
+msgid "Please note that due to the “shelter in place” order recently implemented for California, processing and acknowledgment of check donations to Thunderbird/MZLA Technologies will be indefinitely delayed. Rather than sending us a check, please consider making an <a href=\"/\">online donation</a> instead."
+msgstr ""
+
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:56
 #, python-format
 msgid "Please send a check <strong>with “%(thunderbird)s” on the memo line</strong>, and payable (payee) to “%(payee)s”."
 msgstr ""
 
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:50
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:59
 msgid "Please note that we can only accept checks in US dollars drawn on a US bank. Please do <strong>not</strong> send cash."
 msgstr ""
 
