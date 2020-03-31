@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-31 16:59+0000\n"
-"PO-Revision-Date: 2020-03-31 20:03+0000\n"
-"Last-Translator: Muhend Belkacem <taqbaylitassa@gmail.com>\n"
+"PO-Revision-Date: 2020-03-31 20:13+0000\n"
+"Last-Translator: Linda DIB <lynda.dib@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
 "MIME-Version: 1.0\n"
@@ -786,9 +786,8 @@ msgid ""
 "understand that I must cancel at least 5 days before the next scheduled donation by <a href='%(help_url)s'>submitting a request</a>, and that I may only request a refund within 15 days from the date"
 " of a donation."
 msgstr ""
-"Ad muddeɣ tesriḥ i tkebbanit n titiknulujyin MZLA Technologies Corporation akken ad tejdeb si tkarḍa-iw n usmad s wudem awurman yal aggur tallayt i d-yettwammlen dagi, seg wass-a daɣen yal aggur i "
-"d-iteddun arma sḥebseɣ-tt. Gziɣ d akken ila ad sfesxeɣ s yimayl aliktrunan ɣer tensa <a href='%(help_url)s'>tuzna n usuter</a>, xarsum 5 n wussan uqbel ajbad n tewsa ittuheggan, daɣen zemreɣ ad "
-"sutreɣ tiririt n tewsa deg 15 n wussan seg wazemz n tewsa."
+"Ad muddeɣ tesriḥ i tesbeddit MZLA akken ad tejbed si tkarḍa-inu n usmad s wudem awurman yal aggur tallayt i d-yettwammlen dagi, seg wass-a uyal aggur i d-iteddun arma sḥebseɣ-tt. Gziɣ dakken ilaq ad"
+" sfexseɣ xersum 5 n wussan uqbel ajbad n tawsa ittuheggan s <a href='%(help_url)s'> tuzna n usuter</a>, daɣen zemreɣ ad sutreɣ tiririt n tewsa deg 15 n wussan seg wazemz n tewsa."
 
 #: donate/thunderbird/templates/payment/card.html:14
 msgid "I authorize MZLA Technologies Corporation to charge my card in the amount indicated above. I understand that I may only request a refund within 15 days from the date of the donation."
@@ -798,7 +797,7 @@ msgstr ""
 
 #: donate/thunderbird/templates/payment/card_upsell.html:6 donate/thunderbird/templates/payment/paypal_upsell.html:6
 msgid "We’d love to have you as a sustaining supporter of Thunderbird. <b>Could you add a monthly donation starting next month?</b>"
-msgstr ""
+msgstr "Ad nili nefṛeḥ imi ad tiliḍ seg wid yettmuddun tawsa i Thunderbird si sya ɣer da. <b>Ad tqebleḍ ad ternuḍ tawsa s waggur seg waggur i d-iteddun?</b>"
 
 #: donate/thunderbird/templates/payment/card_upsell.html:10
 #, python-format
@@ -807,11 +806,14 @@ msgid ""
 "afterwards until I cancel. I understand that I must cancel at least 5 days before the next scheduled donation by <a href=\"%(help_url)s\">submitting this form</a>, and that I may only request a "
 "refund within 15 days from the date of a donation."
 msgstr ""
+"Ad muddeɣ tesriḥ i tkebbanit n titiknulujyin MZLA Technologies Corporation akken ad tejdeb si tkarḍa-iw n usmad s wudem awurman yal aggur tallayt i d-yettwammlen dagi, seg wass-a daɣen yal aggur i "
+"d-iteddun arma sḥebseɣ-tt. Gziɣ d akken ilaq ad sfesxeɣ s yimayl aliktrunan ɣer tensa <a href=\"%(help_url)s\">tuzna n usuter</a>, xarsum 5 n wussan uqbel ajbad n tewsa ittuheggan, daɣen zemreɣ ad "
+"sutreɣ tiririt n tewsa deg 15 n wussan seg wazemz n tewsa."
 
 #: donate/thunderbird/templates/payment/thank_you.html:6
 #, python-format
 msgid "We’ve emailed you a donation receipt; if it’s missing, please check your junk/spam folders, then contact us using <a href=\"%(url)s\">this form</a>."
-msgstr ""
+msgstr "Nuzen-ak-d tanfult n tewsa-ik s yimayl, ma yella ur tt-tufiḍ ara, wali deg yispamen, sakin nermes-aɣ-d s useqdec n <a href=\"%(url)s\">tferkit-a</a>."
 
 #: donate/thunderbird/templates/payment/thank_you.html:7
 msgid "Lastly, can you multiply your impact by sharing about the important work Thunderbird is doing? Thank you again!"
