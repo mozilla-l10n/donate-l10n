@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-30 21:05+0000\n"
-"PO-Revision-Date: 2020-03-31 15:33+0000\n"
+"PO-Revision-Date: 2020-03-31 15:36+0000\n"
 "Last-Translator: Muhend Belkacem <taqbaylitassa@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -217,7 +217,7 @@ msgstr "Mmesten internet d aɣbalu amatu azayaz"
 
 #: donate/templates/pages/base_page_master.html:79
 msgid "Join our email list to take action and stay updated!"
-msgstr ""
+msgstr "Ddu ɣer tebrat-nneɣ n telɣut akken ad tgeḍ kra daɣen ad teqqimeḍ deg yisallen!"
 
 #: donate/templates/pages/base_page_master.html:80
 msgid "Enter email address"
@@ -299,7 +299,7 @@ msgstr ""
 
 #: donate/templates/pages/core/contributor_support_page_master.html:24
 msgid "We will get back to you soon."
-msgstr ""
+msgstr "Ad d-nuɣal ɣur-k akka kra n wussan."
 
 #: donate/templates/pages/core/contributor_support_page_master.html:28
 msgid "If you need help with a contribution, fill out this form and we’ll get back to you soon."
@@ -690,12 +690,11 @@ msgstr "Ɣer deffir"
 
 #: donate/thunderbird/templates/base.html:5 donate/thunderbird/templates/pages/base_page.html:7 donate/thunderbird/templates/pages/base_page.html:14
 #: donate/thunderbird/templates/pages/base_page.html:15
-#, fuzzy
 #| msgctxt "Email subject line"
 #| msgid "I donated to Thunderbird today"
 msgctxt "Page title"
 msgid "Give to Thunderbird"
-msgstr "Muddeɣ tawsa i Thunderbird ass-a"
+msgstr "Muddeɣ i Thunderbird"
 
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:7
 #, python-format
