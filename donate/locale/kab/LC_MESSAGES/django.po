@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-31 16:59+0000\n"
-"PO-Revision-Date: 2020-03-31 19:40+0000\n"
+"PO-Revision-Date: 2020-03-31 19:51+0000\n"
 "Last-Translator: Muhend Belkacem <taqbaylitassa@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -576,10 +576,15 @@ msgid ""
 "I must cancel at least 5 days before the next scheduled donation by email to <a href='mailto:%(email)s'>%(email)s</a>, and that I may only request a refund within 15 days from the date of a "
 "donation."
 msgstr ""
+"Ad muddeɣ tesriḥ i tesbeddit Mozilla akken ad tejdeb si tkarḍa-iw n usmad s wudem awurman yal aggur tallayt i d-yettwammlen dagi, seg wass-a daɣen yal aggur i d-iteddun arma sḥebseɣ-tt. Gziɣ d akken"
+" ila ad sfesxeɣ s yimayl aliktrunan ɣer tensa <a href='mailto:%(email)s'>%(email)s</a>, xarsum 5 n wussan uqbel ajbad n tewsa ittuheggan, daɣen zemreɣ ad sutreɣ tiririt n tewsa deg 15 n wussan seg "
+"wazemz n tewsa."
 
 #: donate/templates/payment/card_master.html:128
 msgid "I authorize Mozilla Foundation to charge my card in the amount indicated above. I understand that I may only request a refund within 15 days from the date of the donation."
 msgstr ""
+"Ad muddeɣ tesriḥ i tesbeddit Mozilla akken ad tejdeb si tkarḍa-iw n usmad s wudem awurman tallayt i d-yettwammlen dagi. Gziɣ daɣen d akken zemreɣ ad sutreɣ tiririt n tewsa deg 15 n wussan seg wazemz"
+" n tewsa."
 
 #: donate/templates/payment/card_master.html:144
 #, python-format
@@ -593,7 +598,7 @@ msgstr "Mudd tawsa <span class=\"%(span_class)s\">%(formatted_amount)s</span>"
 
 #: donate/templates/payment/card_master.html:155
 msgid "Your donation helps keep the Web open and free. Thank you in advance for your gift."
-msgstr ""
+msgstr "Tawsa-ik ad tmudd tallelt ad yeqqin Web yeldi daɣen baṭel. Tanemmirt-ik ɣef tukci-a."
 
 #: donate/templates/payment/card_upsell_master.html:4 donate/templates/payment/paypal_upsell_master.html:4 donate/templates/payment/thank_you_master.html:4
 msgid "Thank you"
@@ -606,7 +611,7 @@ msgstr "Tanemmirt ɣef tukci-ik meqqren"
 
 #: donate/templates/payment/card_upsell_master.html:17 donate/templates/payment/paypal_upsell_master.html:17
 msgid "We’d love to have you as a sustaining supporter of Mozilla. <b>Could you add a monthly donation starting next month?</b>"
-msgstr ""
+msgstr "Ad nili nefṛeḥ imi ad tiliḍ seg wid yettmuddun tawsa i Mozilla si sya ɣer da. <b>Ad tqebleḍ ad ternuḍ tawsa s waggur seg waggur i d-iteddun?</b>"
 
 #: donate/templates/payment/card_upsell_master.html:21 donate/templates/payment/paypal_upsell_master.html:21
 msgid "Yes, I will give:"
@@ -622,6 +627,8 @@ msgid ""
 "I authorize Mozilla Foundation to automatically charge my card every month in the amount indicated above, starting next month on the same date as today, and continuing each month afterwards until I "
 "cancel. I understand that I must cancel at least 5 days before the next scheduled donation by email to %(email)s, and that I may only request a refund within 15 days from the date of a donation."
 msgstr ""
+"Ad muddeɣ tesriḥ i tesbeddit Mozilla akken ad tejdeb si tkarḍa-iw n usmad s wudem awurman yal aggur tallayt i d-yettwammlen dagi, seg wass-a daɣen yal aggur i d-iteddun arma sḥebseɣ-tt. Gziɣ d akken"
+" ila ad sfesxeɣ s yimayl aliktrunan ɣer tensa %(email)s xarsum 5 n wussan uqbel ajbad n tewsa ittuheggan, daɣen zemreɣ ad sutreɣ tiririt n tewsa deg 15 n wussan seg wazemz n tewsa."
 
 #: donate/templates/payment/card_upsell_master.html:53
 msgid "Donate Monthly"
@@ -637,7 +644,7 @@ msgstr "Qqim yid-neɣ"
 
 #: donate/templates/payment/newsletter_signup_master.html:14
 msgid "Protect the internet as a global public resource. Join our email list to take action and stay updated!"
-msgstr ""
+msgstr "Mmesten Internet akken ad yeqqim d taɣbalut i medden meṛṛa. Ddu ɣer tebrat-nneɣ n telɣut akken ad tgeḍ kra daɣen ad teqqimeḍ deg yisallen imaynuten!"
 
 #: donate/templates/payment/newsletter_signup_master.html:40
 msgid "Sign Up"
@@ -733,17 +740,17 @@ msgstr ""
 
 #: donate/thunderbird/templates/pages/base_page.html:57
 msgid "Cookies"
-msgstr ""
+msgstr "Inagan n tuqqna"
 
 #: donate/thunderbird/templates/pages/base_page.html:69
 #, python-format
 msgid "Portions of this content are ©1998–%(current_year)s by individual contributors. Content available under a <a %(link_attributes)s>Creative Commons license</a>"
-msgstr ""
+msgstr "Kra n yeḥricen n ugbur-agi d ©1998–%(current_year)s sɣur imttekkiyen. Agbur yella ddaw n <a %(link_attributes)s>Turagt Creative Commons</a>"
 
 #: donate/thunderbird/templates/pages/core/landing_page.html:7
 #, python-format
 msgid "Your download should have begun automatically. If it didn’t work, <a href=\"%(url)s\">try downloading again here</a>."
-msgstr ""
+msgstr "Asider-ik ad yebdu s wudem awurman. Ma yella ur yeddi ara, <a href=\"%(url)s\">ales tikkelt-nniḍen dagi</a>."
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:8
 msgid "We accept contributions in Euros through Single European Payment Area (SEPA) transfer, and British Pounds through BACS transfer."
