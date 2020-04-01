@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-31 16:59+0000\n"
-"PO-Revision-Date: 2020-01-31 06:37+0000\n"
+"PO-Revision-Date: 2020-04-01 05:42+0000\n"
 "Last-Translator: Mark Heijl <markh@babelzilla.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nl\n"
@@ -311,7 +311,7 @@ msgstr "We nemen binnenkort contact op."
 #: donate/templates/pages/core/contributor_support_page_master.html:28
 #| msgid "If you need help with a contribution, fill out this form and we’ll get back to you soon."
 msgid "If you need help with a contribution to MZLA/Thunderbird, fill out this form and a Thunderbird donor care representative will get back to you as soon as possible."
-msgstr ""
+msgstr "Als u hulp nodig hebt met een bijdrage aan MZLA/Thunderbird, vul dan dit formulier in en een vertegenwoordiger van het Thunderbird-donateursteam neemt spoedig contact met u op."
 
 #: donate/templates/pages/core/contributor_support_page_master.html:40
 msgid "Contact Name"
@@ -470,13 +470,15 @@ msgstr "Cheque (via post)"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:67 donate/thunderbird/templates/pages/core/ways_to_give_page.html:47
 msgid "UPDATE March 20, 2020:"
-msgstr ""
+msgstr "UPDATE 20 maart 2020:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:68
 msgid ""
 "Please note that due to the “shelter in place” order recently implemented for California, processing and acknowledgment of check donations to the Mozilla Foundation will be indefinitely delayed. "
 "Rather than sending us a check, please consider making an <a href=\"/\">online donation</a> instead."
 msgstr ""
+"Merk op dat, vanwege de ‘shelter in place’-opdracht die onlangs is afgekondigd in Californië, de verwerking en bevestiging van donaties middels cheques aan de Mozilla Foundation voor onbepaalde tijd"
+" is vertraagd. Overweeg een <a href=\"/\">online donatie</a> in plaats van ons een cheque te sturen."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:78
 #, python-format
@@ -773,6 +775,8 @@ msgid ""
 "Please note that due to the “shelter in place” order recently implemented for California, processing and acknowledgment of check donations to Thunderbird/MZLA Technologies will be indefinitely "
 "delayed. Rather than sending us a check, please consider making an <a href=\"/\">online donation</a> instead."
 msgstr ""
+"Merk op dat, vanwege de ‘shelter in place’-opdracht die onlangs is afgekondigd in Californië, de verwerking en bevestiging van donaties middels cheques aan Thunderbird/MZLA Technologies voor "
+"onbepaalde tijd is vertraagd. Overweeg een <a href=\"/\">online donatie</a> in plaats van ons een cheque te sturen."
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:56
 #, python-format
