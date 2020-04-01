@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-31 16:59+0000\n"
-"PO-Revision-Date: 2020-04-01 14:22+0000\n"
+"PO-Revision-Date: 2020-04-01 14:23+0000\n"
 "Last-Translator: robbp <robbpaun@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
@@ -307,10 +307,11 @@ msgid "We will get back to you soon."
 msgstr "Te vom contacta în curând."
 
 #: donate/templates/pages/core/contributor_support_page_master.html:28
-#, fuzzy
 #| msgid "If you need help with a contribution, fill out this form and we’ll get back to you soon."
 msgid "If you need help with a contribution to MZLA/Thunderbird, fill out this form and a Thunderbird donor care representative will get back to you as soon as possible."
-msgstr "Dacă ai nevoie de ajutor cu o contribuție, completează acest formular și te vom contacta în curând."
+msgstr ""
+"Dacă ai nevoie de ajutor cu o contribuție pentru MZLA/Thunderbird, completează acest formular și un reprezentant pentru asistență acordată donatorilor Thunderbird te va contacta cât mai curând "
+"posibil."
 
 #: donate/templates/pages/core/contributor_support_page_master.html:40
 msgid "Contact Name"
