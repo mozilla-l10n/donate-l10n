@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-31 16:59+0000\n"
-"PO-Revision-Date: 2020-04-04 09:11+0000\n"
+"PO-Revision-Date: 2020-04-04 09:15+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -476,6 +476,8 @@ msgid ""
 "Please note that due to the “shelter in place” order recently implemented for California, processing and acknowledgment of check donations to the Mozilla Foundation will be indefinitely delayed. "
 "Rather than sending us a check, please consider making an <a href=\"/\">online donation</a> instead."
 msgstr ""
+"Prosimy mieć na uwadze, że z powodu ostatnio wprowadzonego w Kalifornii zakazu wychodzenia z domu, przetwarzanie i potwierdzanie datków w formie czeków na rzecz Fundacji Mozilla jest opóźnione do "
+"odwołania. Zamiast czeku prosimy rozważyć wysłanie <a href=\"/\">datku przez Internet</a>."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:78
 #, python-format
@@ -775,6 +777,8 @@ msgid ""
 "Please note that due to the “shelter in place” order recently implemented for California, processing and acknowledgment of check donations to Thunderbird/MZLA Technologies will be indefinitely "
 "delayed. Rather than sending us a check, please consider making an <a href=\"/\">online donation</a> instead."
 msgstr ""
+"Prosimy mieć na uwadze, że z powodu ostatnio wprowadzonego w Kalifornii zakazu wychodzenia z domu, przetwarzanie i potwierdzanie datków w formie czeków na rzecz Thunderbirda/MZLA Technologies jest "
+"opóźnione do odwołania. Zamiast czeku prosimy rozważyć wysłanie <a href=\"/\">datku przez Internet</a>."
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:56
 #, python-format
