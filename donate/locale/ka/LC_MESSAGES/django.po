@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-31 16:59+0000\n"
-"PO-Revision-Date: 2020-04-04 16:39+0000\n"
+"PO-Revision-Date: 2020-04-04 16:51+0000\n"
 "Last-Translator: G12r <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ka\n"
@@ -470,13 +470,15 @@ msgstr "ჩეკი (ფოსტის საშუალებით)"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:67 donate/thunderbird/templates/pages/core/ways_to_give_page.html:47
 msgid "UPDATE March 20, 2020:"
-msgstr "განახლება მარტი 20, 2020:"
+msgstr "განახლება 20 მარტი, 2020:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:68
 msgid ""
 "Please note that due to the “shelter in place” order recently implemented for California, processing and acknowledgment of check donations to the Mozilla Foundation will be indefinitely delayed. "
 "Rather than sending us a check, please consider making an <a href=\"/\">online donation</a> instead."
 msgstr ""
+"გთხოვთ გაითვალისწინოთ, რომ კალიფორნიაში „დარჩი სახლში” დადგენილების გამოცემის გამო, Mozilla-ფონდისთვის ჩეკით გამოგზავნილი შემოწირულობების დამუშავება და დამოწმება, გადაიდო განუსაზღვრელი ვადით. "
+"შემოწირულობები ჩეკის ნაცვლად, გთხოვთ გააკეთოთ <a href=\"/\">ინტერნეტის მეშვეობით</a>."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:78
 #, python-format
@@ -776,6 +778,8 @@ msgid ""
 "Please note that due to the “shelter in place” order recently implemented for California, processing and acknowledgment of check donations to Thunderbird/MZLA Technologies will be indefinitely "
 "delayed. Rather than sending us a check, please consider making an <a href=\"/\">online donation</a> instead."
 msgstr ""
+"გთხოვთ გაითვალისწინოთ, რომ კალიფორნიაში „დარჩი სახლში” დადგენილების გამოცემის გამო, Thunderbird/MZLA Technologies-ისთვის ჩეკით გამოგზავნილი შემოწირულობების დამუშავება და დამოწმება, გადაიდო "
+"განუსაზღვრელი ვადით. შემოწირულობები ჩეკის ნაცვლად, გთხოვთ გააკეთოთ <a href=\"/\">ინტერნეტის მეშვეობით</a>."
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:56
 #, python-format
