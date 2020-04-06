@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-31 16:59+0000\n"
-"PO-Revision-Date: 2020-04-04 14:30+0000\n"
+"PO-Revision-Date: 2020-04-05 18:20+0000\n"
 "Last-Translator: VaiTon <eyadlorenzo@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
@@ -312,7 +312,7 @@ msgstr "Ti risponderemo al più presto."
 #: donate/templates/pages/core/contributor_support_page_master.html:28
 #| msgid "If you need help with a contribution, fill out this form and we’ll get back to you soon."
 msgid "If you need help with a contribution to MZLA/Thunderbird, fill out this form and a Thunderbird donor care representative will get back to you as soon as possible."
-msgstr ""
+msgstr "Se hai bisogno di aiuto per una donazione a MZLA / Thunderbird, compila il seguente modulo e un rappresentante dell’assistenza per i donatori di Thunderbird ti contatterà il prima possibile."
 
 #: donate/templates/pages/core/contributor_support_page_master.html:40
 msgid "Contact Name"
@@ -480,6 +480,8 @@ msgid ""
 "Please note that due to the “shelter in place” order recently implemented for California, processing and acknowledgment of check donations to the Mozilla Foundation will be indefinitely delayed. "
 "Rather than sending us a check, please consider making an <a href=\"/\">online donation</a> instead."
 msgstr ""
+"Nota bene che a causa dell’ordine di restare a casa recentemente emanato in California, l’elaborazione e l’emissione di fatture per le donazioni sotto forma di assegno effettuate alla Mozilla "
+"Foundation saranno posticipate a data da destinarsi. Al posto di un assegno, consigliamo di effettuare <a href=\"/\">una donazione online</a>."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:78
 #, python-format
@@ -782,6 +784,8 @@ msgid ""
 "Please note that due to the “shelter in place” order recently implemented for California, processing and acknowledgment of check donations to Thunderbird/MZLA Technologies will be indefinitely "
 "delayed. Rather than sending us a check, please consider making an <a href=\"/\">online donation</a> instead."
 msgstr ""
+"Nota bene che a causa dell’ordine di restare a casa recentemente emanato in California, l’elaborazione e l’emissione di fatture per le donazioni sotto forma di assegno effettuate a Thunderbird/MZLA "
+"Technologies saranno posticipate a data da destinarsi. Al posto di un assegno, consigliamo di effettuare <a href=\"/\">una donazione online</a>."
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:56
 #, python-format
