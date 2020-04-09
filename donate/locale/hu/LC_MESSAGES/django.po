@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-31 16:59+0000\n"
-"PO-Revision-Date: 2020-04-01 06:24+0000\n"
-"Last-Translator: Balázs Meskó <meskobalazs@gmail.com>\n"
+"PO-Revision-Date: 2020-04-09 13:39+0000\n"
+"Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
@@ -478,6 +478,8 @@ msgid ""
 "Please note that due to the “shelter in place” order recently implemented for California, processing and acknowledgment of check donations to the Mozilla Foundation will be indefinitely delayed. "
 "Rather than sending us a check, please consider making an <a href=\"/\">online donation</a> instead."
 msgstr ""
+"Felhívjuk figyelmét, hogy a Kaliforniában bevezetett veszélyhelyzet miatt, a csekken küldött adományok feldolgozása és visszaigazolása határozatlan ideig késni fog. Csekk küldése helyett fontolja "
+"meg az <a href=\"/\">online adományozást</a>."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:78
 #, python-format
@@ -775,6 +777,8 @@ msgid ""
 "Please note that due to the “shelter in place” order recently implemented for California, processing and acknowledgment of check donations to Thunderbird/MZLA Technologies will be indefinitely "
 "delayed. Rather than sending us a check, please consider making an <a href=\"/\">online donation</a> instead."
 msgstr ""
+"Felhívjuk figyelmét, hogy a Kaliforniában bevezetett veszélyhelyzet miatt, a Thunderbird/MZLA Technologies számára csekken küldött adományok feldolgozása és visszaigazolása határozatlan ideig késni "
+"fog. Csekk küldése helyett fontolja meg az <a href=\"/\">online adományozást</a>."
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:56
 #, python-format
