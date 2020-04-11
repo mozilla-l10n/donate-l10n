@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-31 16:59+0000\n"
-"PO-Revision-Date: 2020-04-11 20:16+0000\n"
+"PO-Revision-Date: 2020-04-11 20:50+0000\n"
 "Last-Translator: Victor Bychek <a@bychek.ru>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ru\n"
@@ -477,15 +477,17 @@ msgid ""
 "Please note that due to the “shelter in place” order recently implemented for California, processing and acknowledgment of check donations to the Mozilla Foundation will be indefinitely delayed. "
 "Rather than sending us a check, please consider making an <a href=\"/\">online donation</a> instead."
 msgstr ""
+"Обратите внимание, что недавно введённое в Калифорнии распоряжение о «домашнем карантине» привело к задержке в обработке и подтверждении пожертвований для Mozilla Foundation на неопределённый срок. "
+"Просим вас совершить <a href=\"/\">онлайн-пожертвование</a> вместо отправки нам чеков."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:78
 #, python-format
 msgid "Please send a check <strong>including your email address on the memo line</strong>, and payable (payee) to “%(payee)s”."
-msgstr ""
+msgstr "Пожалуйста, присылайте чеки, <strong>с указанием вашего адреса электронной почты в строке примечание</strong>, а в строке оплата для (получатель платежа) «%(payee)s»."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:81
 msgid "Please note that the Mozilla Foundation can only accept checks in US dollars drawn on a US bank. Please do <strong>not</strong> send cash."
-msgstr ""
+msgstr "Обратите внимание, что Mozilla Foundation может принимать чеки исключительно в долларах США, оформленные в американских банках. Пожалуйста, <strong>не</strong> присылайте наличные."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:96
 msgid "Currencies"
@@ -772,15 +774,17 @@ msgid ""
 "Please note that due to the “shelter in place” order recently implemented for California, processing and acknowledgment of check donations to Thunderbird/MZLA Technologies will be indefinitely "
 "delayed. Rather than sending us a check, please consider making an <a href=\"/\">online donation</a> instead."
 msgstr ""
+"Обратите внимание, что недавно введённое в Калифорнии распоряжение о «домашнем карантине» привело к задержке в обработке и подтверждении пожертвований Thunderbird/MZLA Technologies на неопределённый"
+" срок. Просим вас совершить <a href=\"/\">онлайн-пожертвование</a> вместо отправки нам чеков."
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:56
 #, python-format
 msgid "Please send a check <strong>with “%(thunderbird)s” on the memo line</strong>, and payable (payee) to “%(payee)s”."
-msgstr ""
+msgstr "Пожалуйста, присылайте чеки, <strong>с пометкой «%(thunderbird)s» в строке примечание</strong>, а в строке оплата для (получатель платежа) «%(payee)s»."
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:59
 msgid "Please note that we can only accept checks in US dollars drawn on a US bank. Please do <strong>not</strong> send cash."
-msgstr ""
+msgstr "Обратите внимание, что мы можем принимать чеки исключительно в долларах США, оформленные в американских банках. Пожалуйста, <strong>не</strong> присылайте наличные."
 
 #: donate/thunderbird/templates/payment/card.html:6
 msgid "Thank you in advance for your gift."
