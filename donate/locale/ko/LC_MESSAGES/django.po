@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-31 16:59+0000\n"
-"PO-Revision-Date: 2020-04-15 02:42+0000\n"
+"PO-Revision-Date: 2020-04-15 02:45+0000\n"
 "Last-Translator: Hyeonseok Shin <hyeonseok@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -659,42 +659,42 @@ msgstr "마지막으로, Mozilla가 수행하고 있는 중요한 작업을 공�
 #: donate/templates/payment/thank_you_master.html:22
 msgctxt "Used as a tweet"
 msgid "I donated to @mozilla today because I #lovetheweb. Join me and help fight for a better and healthier internet, for all."
-msgstr ""
+msgstr "웹을 사랑하는 마음으로 @mozilla 에 기부 했습니다. 모두에게 보다 건강한 인터넷을 만들 수 있게 동참해 주세요. #lovetheweb"
 
 #: donate/templates/payment/thank_you_master.html:23
 msgctxt "Email subject line"
 msgid "I donated to Mozilla today"
-msgstr ""
+msgstr "오늘 Mozilla에 기부했습니다."
 
 #: donate/templates/payment/thank_you_master.html:27 donate/thunderbird/templates/payment/thank_you.html:16
 msgid "Share on Facebook"
-msgstr ""
+msgstr "Facebook에 공유"
 
 #: donate/templates/payment/thank_you_master.html:31 donate/thunderbird/templates/pages/base_page.html:42 donate/thunderbird/templates/payment/thank_you.html:20
 msgid "Facebook"
-msgstr ""
+msgstr "Facebook"
 
 #: donate/templates/payment/thank_you_master.html:34 donate/thunderbird/templates/payment/thank_you.html:23
 msgid "Share on Twitter"
-msgstr ""
+msgstr "Twitter에 공유"
 
 #: donate/templates/payment/thank_you_master.html:44 donate/thunderbird/templates/payment/thank_you.html:33
 msgctxt "Share button"
 msgid "Email"
-msgstr ""
+msgstr "이메일"
 
 #: donate/templates/payment/thank_you_master.html:54 donate/thunderbird/templates/payment/thank_you.html:43
 msgctxt "Share button"
 msgid "Link"
-msgstr ""
+msgstr "링크"
 
 #: donate/templates/payment/thank_you_master.html:55 donate/thunderbird/templates/payment/thank_you.html:44
 msgid "Copied"
-msgstr ""
+msgstr "복사됨"
 
 #: donate/templates/tags/primarynav.html:10
 msgid "Back"
-msgstr ""
+msgstr "뒤로"
 
 #: donate/thunderbird/templates/base.html:9 donate/thunderbird/templates/pages/base_page.html:7 donate/thunderbird/templates/pages/base_page.html:14
 #: donate/thunderbird/templates/pages/base_page.html:15
@@ -800,9 +800,9 @@ msgstr ""
 #: donate/thunderbird/templates/payment/thank_you.html:11
 msgctxt "Used as a tweet"
 msgid "I donated to @mozthunderbird today to #freetheinbox. Join me to support communication privacy."
-msgstr ""
+msgstr "오늘 @mozthunderbird 에 기부했습니다. 의사 소통 정보 보호에 함께 참여해 주세요. #freetheinbox"
 
 #: donate/thunderbird/templates/payment/thank_you.html:12
 msgctxt "Email subject line"
 msgid "I donated to Thunderbird today"
-msgstr ""
+msgstr "오늘 Thunderbird에 기부했습니다."
