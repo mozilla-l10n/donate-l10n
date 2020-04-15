@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-31 16:59+0000\n"
-"PO-Revision-Date: 2020-04-11 06:39+0000\n"
-"Last-Translator: Kim YoungCheon <circcc@gmail.com>\n"
+"PO-Revision-Date: 2020-04-15 02:42+0000\n"
+"Last-Translator: Hyeonseok Shin <hyeonseok@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -193,7 +193,7 @@ msgstr ""
 
 #: donate/templates/pages/base_page_master.html:29
 msgid "Participate"
-msgstr ""
+msgstr "참여"
 
 #: donate/templates/pages/base_page_master.html:32
 msgid "Internet Health"
@@ -201,11 +201,11 @@ msgstr ""
 
 #: donate/templates/pages/base_page_master.html:35
 msgid "About Us"
-msgstr ""
+msgstr "소개"
 
 #: donate/templates/pages/base_page_master.html:46
 msgid "Menu"
-msgstr ""
+msgstr "메뉴"
 
 #: donate/templates/pages/base_page_master.html:71
 msgid "Protect the internet as a global public resource"
@@ -274,7 +274,7 @@ msgstr ""
 #: donate/templates/pages/core/campaign_page.html:38 donate/templates/pages/core/ways_to_give_page_master.html:12
 msgctxt "Button"
 msgid "DONATE NOW"
-msgstr ""
+msgstr "지금 기부하세요"
 
 #: donate/templates/pages/core/campaign_page.html:52 donate/templates/pages/core/landing_page_master.html:36 donate/templates/payment/card_master.html:159
 msgid "Seal of Charity Navigator 4-Star"
@@ -287,7 +287,7 @@ msgstr ""
 #: donate/templates/pages/core/campaign_page.html:65
 msgctxt "Header"
 msgid "Donate now"
-msgstr ""
+msgstr "지금 기부하기"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:18
 msgid "Thank you for contacting us. A case has been created for your issue and we will be in touch shortly."
@@ -516,48 +516,48 @@ msgstr ""
 
 #: donate/templates/payment/card_master.html:26
 msgid "Change amount"
-msgstr ""
+msgstr "금액 변경"
 
 #: donate/templates/payment/card_master.html:34
 msgid "Donation Amount"
-msgstr ""
+msgstr "기부 금액"
 
 #: donate/templates/payment/card_master.html:39
 msgid "Confirm"
-msgstr ""
+msgstr "확인"
 
 #: donate/templates/payment/card_master.html:44
 msgid "Your Details"
-msgstr ""
+msgstr "세부 정보"
 
 #: donate/templates/payment/card_master.html:60 donate/templates/payment/card_upsell_master.html:34 donate/templates/payment/newsletter_signup_master.html:30
 #: donate/templates/payment/paypal_upsell_master.html:34
 msgid "There were some errors with your form. Please amend the fields highlighted below."
-msgstr ""
+msgstr "양식에 오류가 있습니다. 아래 표시된 부분을 수정해 주십시오."
 
 #: donate/templates/payment/card_master.html:64
 msgid "We were unable to take payment because the payment processor reported an error with your address information:"
-msgstr ""
+msgstr "결제 처리 과정에서 주소 정보에 오류가 발견되어 결제를 진행할 수 없습니다:"
 
 #: donate/templates/payment/card_master.html:68
 msgid "Please correct these errors and try again."
-msgstr ""
+msgstr "이 오류를 수정하고 다시 시도하여 주십시오."
 
 #: donate/templates/payment/card_master.html:91
 msgid "Payment"
-msgstr ""
+msgstr "결제"
 
 #: donate/templates/payment/card_master.html:106
 msgid "Card number"
-msgstr ""
+msgstr "카드번호"
 
 #: donate/templates/payment/card_master.html:112
 msgid "Expiration date"
-msgstr ""
+msgstr "만료일"
 
 #: donate/templates/payment/card_master.html:117
 msgid "CVV"
-msgstr ""
+msgstr "CVV"
 
 #: donate/templates/payment/card_master.html:126
 #, python-format
@@ -583,16 +583,16 @@ msgstr ""
 
 #: donate/templates/payment/card_master.html:155
 msgid "Your donation helps keep the Web open and free. Thank you in advance for your gift."
-msgstr ""
+msgstr "기부금은 웹을 공유하고 자유롭게 유지하는 데 도움이 됩니다. 도와주셔서 감사합니다."
 
 #: donate/templates/payment/card_upsell_master.html:4 donate/templates/payment/paypal_upsell_master.html:4 donate/templates/payment/thank_you_master.html:4
 msgid "Thank you"
-msgstr ""
+msgstr "고맙습니다"
 
 #: donate/templates/payment/card_upsell_master.html:13 donate/templates/payment/newsletter_signup_master.html:13 donate/templates/payment/paypal_upsell_master.html:13
 #: donate/templates/payment/thank_you_master.html:12 donate/thunderbird/templates/payment/newsletter_signup.html:6
 msgid "Thank you for your generous gift"
-msgstr ""
+msgstr "기부해 주셔서 감사합니다."
 
 #: donate/templates/payment/card_upsell_master.html:17 donate/templates/payment/paypal_upsell_master.html:17
 msgid "We’d love to have you as a sustaining supporter of Mozilla. <b>Could you add a monthly donation starting next month?</b>"
@@ -600,7 +600,7 @@ msgstr ""
 
 #: donate/templates/payment/card_upsell_master.html:21 donate/templates/payment/paypal_upsell_master.html:21
 msgid "Yes, I will give:"
-msgstr ""
+msgstr "네, 기부합니다:"
 
 #: donate/templates/payment/card_upsell_master.html:40
 msgid "Monthly"
@@ -621,7 +621,7 @@ msgstr "매달 기부"
 
 #: donate/templates/payment/card_upsell_master.html:56 donate/templates/payment/newsletter_signup_master.html:42
 msgid "No Thanks"
-msgstr ""
+msgstr "아니요"
 
 #: donate/templates/payment/newsletter_signup_master.html:4
 msgid "Stay in touch"
@@ -633,7 +633,7 @@ msgstr ""
 
 #: donate/templates/payment/newsletter_signup_master.html:40
 msgid "Sign Up"
-msgstr ""
+msgstr "회원가입"
 
 #: donate/templates/payment/paypal_upsell_master.html:41
 msgid "/ Monthly"
@@ -641,20 +641,20 @@ msgstr ""
 
 #: donate/templates/payment/paypal_upsell_master.html:52
 msgid "No"
-msgstr ""
+msgstr "아니요"
 
 #: donate/templates/payment/thank_you_master.html:15
 msgid "Your donation will go right to work protecting the web, keeping it open and available to all."
-msgstr ""
+msgstr "기부금은 웹을 개방하고 모든 사람이 이용할 수 있도록 보호하는데 사용될 것입니다."
 
 #: donate/templates/payment/thank_you_master.html:15
 #, python-format
 msgid "We’ve emailed you a donation receipt; if it’s missing, please check your junk/spam folders, then contact us at <a href=\"mailto:%(email)s\">%(email)s</a>."
-msgstr ""
+msgstr "기부금 영수증은 이메일로 발송해 드렸습니다. 만약 받지 못하셨다면, 스팸 혹은 정크 폴더를 확인해 보신 후 <a href=\"mailto:%(email)s\">%(email)s</a>로 저희에게 연락 주시기 바랍니다."
 
 #: donate/templates/payment/thank_you_master.html:17
 msgid "Lastly, can you multiply your impact by sharing about the important work Mozilla is doing? Thank you again!"
-msgstr ""
+msgstr "마지막으로, Mozilla가 수행하고 있는 중요한 작업을 공유 하여 영향을 높여주세요. 다시 한번 감사드립니다!"
 
 #: donate/templates/payment/thank_you_master.html:22
 msgctxt "Used as a tweet"
