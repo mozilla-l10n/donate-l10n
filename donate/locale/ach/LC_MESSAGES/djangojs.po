@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-31 17:00+0000\n"
-"PO-Revision-Date: 2020-04-17 09:59+0000\n"
+"PO-Revision-Date: 2020-04-17 10:05+0000\n"
 "Last-Translator: denish <denish@mozilla-uganda.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ach\n"
@@ -35,12 +35,12 @@ msgstr "Bal mo otime. Tim ber i nwo cano potbuk ne onyo tem doki lacen."
 #: donate/frontend/_js/payments-card.compiled.js:1 donate/frontend/_js/payments-paypal-upsell.compiled.js:1 donate/frontend/_js/payments-paypal.compiled.js:1 source/js/components/paypal.js:17
 #: source/js/payments-card.js:131
 msgid "There was an error processing your payment. Please try again."
-msgstr ""
+msgstr "Bal mo otime itimo cul mamegi. Tim ber i tem doki lacen."
 
 #: donate/frontend/_js/payments-card.compiled.js:1 source/js/payments-card.js:152
 msgid "Some of the fields below are invalid. Please correct the invalid fields and try again."
-msgstr ""
+msgstr "Kabedo mogo ma piny ni pe tye atir. Tim ber i yub kabedo ma pe tye atir ni ka i tem doki lacen."
 
 #: donate/frontend/_js/payments-paypal-upsell.compiled.js:1 donate/frontend/_js/payments-paypal.compiled.js:1 source/js/components/paypal.js:93
 msgid "Payment cancelled"
-msgstr ""
+msgstr "Kijuko cul woko"
