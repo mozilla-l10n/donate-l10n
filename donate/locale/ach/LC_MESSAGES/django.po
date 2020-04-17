@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-31 16:59+0000\n"
-"PO-Revision-Date: 2020-04-17 10:08+0000\n"
+"PO-Revision-Date: 2020-04-17 10:37+0000\n"
 "Last-Translator: denish <denish@mozilla-uganda.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ach\n"
@@ -72,15 +72,15 @@ msgstr "Lobo"
 #: donate/payments/forms.py:131 donate/templates/pages/base_page_master.html:87
 #, python-format
 msgid "I’m okay with Mozilla handling my info as explained in this <a href='%(url)s'>Privacy Notice</a>."
-msgstr ""
+msgstr "Atye agonya ki Mozilla me tic ki ngec mamega kit ma ki tito i <a href='%(url)s'>Ngec me mung man</a>."
 
 #: donate/payments/views.py:156
 msgid "The type of card you used is not accepted."
-msgstr ""
+msgstr "Kit kad man ma itiyo kwede ni pe ki yee."
 
 #: donate/payments/views.py:157 donate/payments/views.py:158
 msgid "The CVV code you entered was invalid."
-msgstr ""
+msgstr "Kod me CVV ma iketo ni pe tye atir."
 
 #: donate/payments/views.py:159
 msgid "The expiration date you entered was invalid."
