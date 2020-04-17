@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-31 16:59+0000\n"
-"PO-Revision-Date: 2020-04-17 10:53+0000\n"
+"PO-Revision-Date: 2020-04-17 10:58+0000\n"
 "Last-Translator: denish <denish@mozilla-uganda.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ach\n"
@@ -153,11 +153,11 @@ msgstr ""
 
 #: donate/templates/fragments/donate_form.html:60 donate/templates/fragments/donate_form.html:124 donate/templates/pages/base_page_master.html:134
 msgid "Donate"
-msgstr ""
+msgstr "Mii kony"
 
 #: donate/templates/fragments/donate_form.html:97
 msgid "per month"
-msgstr ""
+msgstr "dwe ki dwe"
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:6 donate/thunderbird/templates/fragments/donate_form_disclaimer.html:12
 #, python-format
@@ -169,7 +169,7 @@ msgstr ""
 #: donate/templates/fragments/donate_form_disclaimer_master.html:9
 #, python-format
 msgid "Monthly donations are charged each month on the same day that you donate today, and will continue until you cancel. To cancel, email us at <a href=\"mailto:%(email)s\">%(email)s</a>."
-msgstr ""
+msgstr "Kony ma imiyo dwe ki dwe ki bi kwanyo i dwe acelacel inino marom ki tin ma imiyo kwede kony ni, ki bimede wang ma ijuko. Me juko, cwali wa email i <a href=\"mailto:%(email)s\">%(email)s</a>."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:17
 #, python-format
