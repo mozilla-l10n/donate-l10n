@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-31 16:59+0000\n"
-"PO-Revision-Date: 2020-04-22 14:03+0000\n"
+"PO-Revision-Date: 2020-04-22 14:05+0000\n"
 "Last-Translator: Nihad Suljić <nihad.suljic92@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bs\n"
@@ -80,43 +80,43 @@ msgstr "Vrsta kartice koju ste koristili nije prihvaćena."
 
 #: donate/payments/views.py:157 donate/payments/views.py:158
 msgid "The CVV code you entered was invalid."
-msgstr ""
+msgstr "CVV kod koji ste unijeli nije važeći."
 
 #: donate/payments/views.py:159
 msgid "The expiration date you entered was invalid."
-msgstr ""
+msgstr "Datum isteka koji ste unijeli nije važeći."
 
 #: donate/payments/views.py:160
 msgid "The credit card number you entered was invalid."
-msgstr ""
+msgstr "Broj kreditne kartice koji ste unijeli nije važeći."
 
 #: donate/payments/views.py:169 donate/payments/views.py:170
 msgid "The post code you provided is not valid."
-msgstr ""
+msgstr "Poštanski broj koji ste naveli nije važeći."
 
 #: donate/payments/views.py:184
 msgid "Sorry there was an error processing your payment. Please try again later or use a different payment method."
-msgstr ""
+msgstr "Žao nam je, došlo je do greške prilikom obrade vaše uplate. Pokušajte ponovo kasnije ili koristite drugi način plaćanja."
 
 #: donate/payments/views.py:378
 msgid "Something went wrong. We were unable to process your payment."
-msgstr ""
+msgstr "Nešto je pošlo po zlu. Nismo mogli obraditi vašu uplatu."
 
 #: donate/payments/views.py:630 donate/payments/views.py:739
 msgid "Sorry there was an error processing your payment. Please try again later."
-msgstr ""
+msgstr "Žao nam je, došlo je do greške prilikom obrade vaše uplate. Pokušajte ponovo kasnije."
 
 #: donate/recaptcha/fields.py:18
 msgid "Captcha was invalid. Please try again."
-msgstr ""
+msgstr "Captcha nije ispravno unesena. Pokušajte ponovo."
 
 #: donate/templates/404.html:4
 msgid "Page not found"
-msgstr ""
+msgstr "Stranica nije pronađena"
 
 #: donate/templates/404.html:12
 msgid "Uh oh!"
-msgstr ""
+msgstr "Uh oh!"
 
 #: donate/templates/404.html:13
 msgid "Sorry, the page does not exist"
