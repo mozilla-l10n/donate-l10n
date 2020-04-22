@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-31 16:59+0000\n"
-"PO-Revision-Date: 2020-04-22 17:03+0000\n"
+"PO-Revision-Date: 2020-04-22 17:11+0000\n"
 "Last-Translator: Nihad Suljić <nihad.suljic92@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bs\n"
@@ -643,50 +643,50 @@ msgstr "Ne, hvala"
 
 #: donate/templates/payment/newsletter_signup_master.html:4
 msgid "Stay in touch"
-msgstr ""
+msgstr "Ostanite u kontaktu"
 
 #: donate/templates/payment/newsletter_signup_master.html:14
 msgid "Protect the internet as a global public resource. Join our email list to take action and stay updated!"
-msgstr ""
+msgstr "Zaštitite internet kao globalni javni resurs. Pridružite se našoj email listi da biste poduzeli akciju i budite informisani!"
 
 #: donate/templates/payment/newsletter_signup_master.html:40
 msgid "Sign Up"
-msgstr ""
+msgstr "Registruj se"
 
 #: donate/templates/payment/paypal_upsell_master.html:41
 msgid "/ Monthly"
-msgstr ""
+msgstr "/ mjesečno"
 
 #: donate/templates/payment/paypal_upsell_master.html:52
 msgid "No"
-msgstr ""
+msgstr "Ne"
 
 #: donate/templates/payment/thank_you_master.html:15
 msgid "Your donation will go right to work protecting the web, keeping it open and available to all."
-msgstr ""
+msgstr "Vaša donacija ide direktno u rad na zaštiti weba, održavanju ga otvorenim i dostupnim svima."
 
 #: donate/templates/payment/thank_you_master.html:15
 #, python-format
 msgid "We’ve emailed you a donation receipt; if it’s missing, please check your junk/spam folders, then contact us at <a href=\"mailto:%(email)s\">%(email)s</a>."
-msgstr ""
+msgstr "Poslali smo vam emailom potvrdu donacije; ako nedostaje, provjerite mape bezvrijedne/neželjene pošte, potom kontaktirajte nas na <a href=\"mailto:%(email)s\">%(email)s</a>."
 
 #: donate/templates/payment/thank_you_master.html:17
 msgid "Lastly, can you multiply your impact by sharing about the important work Mozilla is doing? Thank you again!"
-msgstr ""
+msgstr "I na kraju, možete li umnožiti svoj utjecaj dijeljenjem toga kako važan posao Mozilla radi? Hvala još jednom!"
 
 #: donate/templates/payment/thank_you_master.html:22
 msgctxt "Used as a tweet"
 msgid "I donated to @mozilla today because I #lovetheweb. Join me and help fight for a better and healthier internet, for all."
-msgstr ""
+msgstr "Donirao sam za @mozilla danas zato što #lovetheweb. Pridružite mi se i pomozite mi u borbi za bolji i zdraviji internet, za sve."
 
 #: donate/templates/payment/thank_you_master.html:23
 msgctxt "Email subject line"
 msgid "I donated to Mozilla today"
-msgstr ""
+msgstr "Danas sam donirao Mozilli"
 
 #: donate/templates/payment/thank_you_master.html:27 donate/thunderbird/templates/payment/thank_you.html:16
 msgid "Share on Facebook"
-msgstr ""
+msgstr "Podijeli na Facebook"
 
 #: donate/templates/payment/thank_you_master.html:31 donate/thunderbird/templates/pages/base_page.html:42 donate/thunderbird/templates/payment/thank_you.html:20
 msgid "Facebook"
