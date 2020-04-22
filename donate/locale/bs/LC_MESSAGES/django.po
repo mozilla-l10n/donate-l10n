@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-31 16:59+0000\n"
-"PO-Revision-Date: 2020-04-22 14:05+0000\n"
+"PO-Revision-Date: 2020-04-22 15:12+0000\n"
 "Last-Translator: Nihad Suljić <nihad.suljic92@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bs\n"
@@ -120,44 +120,44 @@ msgstr "Uh oh!"
 
 #: donate/templates/404.html:13
 msgid "Sorry, the page does not exist"
-msgstr ""
+msgstr "Nažalost, stranica ne postoji"
 
 #: donate/templates/404.html:14
 msgid "Go to our home page"
-msgstr ""
+msgstr "Idite na početnu stranicu"
 
 #: donate/templates/base_master.html:8 donate/templates/pages/base_page_master.html:6 donate/templates/pages/base_page_master.html:13 donate/templates/pages/base_page_master.html:14
 msgctxt "Page title"
 msgid "Donate to Mozilla"
-msgstr ""
+msgstr "Donirajte Mozilli"
 
 #: donate/templates/fragments/donate_form.html:12
 msgid "ONE TIME"
-msgstr ""
+msgstr "JEDNOKRATNO"
 
 #: donate/templates/fragments/donate_form.html:18
 msgid "MONTHLY"
-msgstr ""
+msgstr "MJESEČNO"
 
 #: donate/templates/fragments/donate_form.html:41 donate/templates/fragments/donate_form.html:42 donate/templates/fragments/donate_form.html:105 donate/templates/fragments/donate_form.html:106
 msgid "Other amount"
-msgstr ""
+msgstr "Drugi iznos"
 
 #: donate/templates/fragments/donate_form.html:48 donate/templates/fragments/donate_form.html:112
 msgid "Choose Payment"
-msgstr ""
+msgstr "Odaberite plaćanje"
 
 #: donate/templates/fragments/donate_form.html:54 donate/templates/fragments/donate_form.html:118 donate/templates/payment/card_master.html:97
 msgid "SECURE"
-msgstr ""
+msgstr "SIGURNO"
 
 #: donate/templates/fragments/donate_form.html:60 donate/templates/fragments/donate_form.html:124 donate/templates/pages/base_page_master.html:134
 msgid "Donate"
-msgstr ""
+msgstr "Doniraj"
 
 #: donate/templates/fragments/donate_form.html:97
 msgid "per month"
-msgstr ""
+msgstr "mjesečno"
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:6 donate/thunderbird/templates/fragments/donate_form_disclaimer.html:12
 #, python-format
@@ -165,16 +165,20 @@ msgid ""
 "Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your "
 "donation will be stored by Mozilla."
 msgstr ""
+"Podatke o plaćanju obrađivat će <a href=\"%(braintree_url)s\">Braintree</a>, kompanija PayPal (za kreditne/debitne kartice) ili <a href=\"%(paypal_url)s\">PayPal< / a>, a Mozilla će pohraniti zapis "
+"o vašoj donaciji."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:9
 #, python-format
 msgid "Monthly donations are charged each month on the same day that you donate today, and will continue until you cancel. To cancel, email us at <a href=\"mailto:%(email)s\">%(email)s</a>."
 msgstr ""
+"Mjesečne donacije naplaćuju se svakog mjeseca na isti dan na koji je izvršena prva donacija, a nastavit će se sve dok se ne otkaže donacija. Za otkazivanje donacije, pošalji email na <a "
+"href=\"mailto:%(email)s\">%(email)s</a>."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:17
 #, python-format
 msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a> | <a href=\"%(bitcoin_url)s\">Bitcoin</a>"
-msgstr ""
+msgstr "Ostali načini doniranja: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Ček</a> | <a href=\"%(bitcoin_url)s\">Bitcoin</a>"
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:23
 #, python-format
