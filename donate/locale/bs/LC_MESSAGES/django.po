@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-31 16:59+0000\n"
-"PO-Revision-Date: 2020-04-22 15:12+0000\n"
+"PO-Revision-Date: 2020-04-22 15:17+0000\n"
 "Last-Translator: Nihad Suljić <nihad.suljic92@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bs\n"
@@ -184,73 +184,77 @@ msgstr "Ostali načini doniranja: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a
 #, python-format
 msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"mailto:%(email)s\">Send us an email</a>."
 msgstr ""
+"Problemi s donacijama? Posjetite stranicu <a href=\"%(faq_url)s\">ČPP</a> da biste dobili odgovore na najčešća pitanja. Još uvijek imate problema? <a href=\"mailto:%(email)s\">Pošaljite nam "
+"email</a>."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:30
 msgid ""
 "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in Mountain View, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S."
 " to the fullest extent permitted by law."
 msgstr ""
+"Donacije su za Mozilla Foundation, organizaciju zasnovanu u Mountain Viewu, Kalifornija, osnovana zakonom 501(c)(3) i namenjena je za dobrobit. U SAD-u, moguće ih je odbiti od poreza u maksimalnoj "
+"mjeri dozvoljenoj zakonom."
 
 #: donate/templates/pages/base_page_master.html:26
 msgid "Initiatives"
-msgstr ""
+msgstr "Inicijative"
 
 #: donate/templates/pages/base_page_master.html:29
 msgid "Participate"
-msgstr ""
+msgstr "Učestvujte"
 
 #: donate/templates/pages/base_page_master.html:32
 msgid "Internet Health"
-msgstr ""
+msgstr "Internet zdravlje"
 
 #: donate/templates/pages/base_page_master.html:35
 msgid "About Us"
-msgstr ""
+msgstr "O nama"
 
 #: donate/templates/pages/base_page_master.html:46
 msgid "Menu"
-msgstr ""
+msgstr "Meni"
 
 #: donate/templates/pages/base_page_master.html:71
 msgid "Protect the internet as a global public resource"
-msgstr ""
+msgstr "Zaštitite Internet kao globalni javni resurs"
 
 #: donate/templates/pages/base_page_master.html:79
 msgid "Join our email list to take action and stay updated!"
-msgstr ""
+msgstr "Pridružite se našoj email listi da biste poduzeli akciju i budite ažurirani!"
 
 #: donate/templates/pages/base_page_master.html:80
 msgid "Enter email address"
-msgstr ""
+msgstr "Unesite vašu email adresu"
 
 #: donate/templates/pages/base_page_master.html:83
 msgid "Sign up"
-msgstr ""
+msgstr "Registruj se"
 
 #: donate/templates/pages/base_page_master.html:91
 msgid "Thanks!"
-msgstr ""
+msgstr "Hvala!"
 
 #: donate/templates/pages/base_page_master.html:92
 msgid "If you haven’t previously confirmed a subscription to a Mozilla-related newsletter you may have to do so. Please check your inbox or your spam filter for an email from us."
-msgstr ""
+msgstr "Ukoliko niste prethodno potvrdili pretplatu na Mozilla bilten, možda ćete morati to da uradite. Provjerite vašu dolaznu poštu ili vašu neželjenu poštu."
 
 #: donate/templates/pages/base_page_master.html:107
 msgid "More about us"
-msgstr ""
+msgstr "Više o nama"
 
 #: donate/templates/pages/base_page_master.html:111 donate/templates/payment/thank_you_master.html:38 donate/thunderbird/templates/pages/base_page.html:36
 #: donate/thunderbird/templates/payment/thank_you.html:27
 msgid "Twitter"
-msgstr ""
+msgstr "Twitter"
 
 #: donate/templates/pages/base_page_master.html:117
 msgid "Instagram"
-msgstr ""
+msgstr "Instagram"
 
 #: donate/templates/pages/base_page_master.html:123
 msgid "GitHub"
-msgstr ""
+msgstr "GitHub"
 
 #: donate/templates/pages/base_page_master.html:137 donate/thunderbird/templates/pages/base_page.html:59
 msgid "Participation Guidelines"
