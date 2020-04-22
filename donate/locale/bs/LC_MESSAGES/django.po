@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-31 16:59+0000\n"
-"PO-Revision-Date: 2020-04-22 17:44+0000\n"
+"PO-Revision-Date: 2020-04-22 20:51+0000\n"
 "Last-Translator: Nihad Suljić <nihad.suljic92@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bs\n"
@@ -795,14 +795,17 @@ msgid ""
 "understand that I must cancel at least 5 days before the next scheduled donation by <a href='%(help_url)s'>submitting a request</a>, and that I may only request a refund within 15 days from the date"
 " of a donation."
 msgstr ""
+"Ovlašćujem MZLA Technologies Corporation da svakog mjeseca automatski naplaćuje s moje kartice gore navedeni iznosu, počev od danas i nastavljajući svaki mjesec istog dana, dok ne odustanem. "
+"Razumijem da moram otkazati najmanje 5 dana prije sljedeće zakazane donacije <a href='%(help_url)s'>podnošenjem zahtjeva</a> i da mogu zatražiti povrat novca samo u roku od 15 dana od datuma "
+"donacije."
 
 #: donate/thunderbird/templates/payment/card.html:14
 msgid "I authorize MZLA Technologies Corporation to charge my card in the amount indicated above. I understand that I may only request a refund within 15 days from the date of the donation."
-msgstr ""
+msgstr "Ovlašćujem MZLA Technologies Corporation da naplati s moje kartice gore navedeni iznos. Razumijem da mogu zatražiti povrat novca samo u roku od 15 dana od datuma donacije."
 
 #: donate/thunderbird/templates/payment/card_upsell.html:6 donate/thunderbird/templates/payment/paypal_upsell.html:6
 msgid "We’d love to have you as a sustaining supporter of Thunderbird. <b>Could you add a monthly donation starting next month?</b>"
-msgstr ""
+msgstr "Voljeli bismo vas imati kao stalnog donatora Thunderbird. <b>Možete li dodati mjesečnu donaciju počevši od sljedećeg mjeseca?</b>"
 
 #: donate/thunderbird/templates/payment/card_upsell.html:10
 #, python-format
@@ -811,22 +814,25 @@ msgid ""
 "afterwards until I cancel. I understand that I must cancel at least 5 days before the next scheduled donation by <a href=\"%(help_url)s\">submitting this form</a>, and that I may only request a "
 "refund within 15 days from the date of a donation."
 msgstr ""
+"Ovlaštavam MZLA Technologies Corporation da svaki mjesec automatski naplaćuje s moje kartice gore navedeni iznosu, počevši sljedeći mjesec na isti datum kao i danas, i nastavljajući svaki mjesec "
+"nakon toga dok ne odustanem. Razumijem da moram otkazati najmanje 5 dana prije sljedeće zakazane donacije <a href=\"%(help_url)s\">slanjem ovog obrasca</a> i da mogu zatražiti povrat novca samo u "
+"roku od 15 dana od datuma donacije."
 
 #: donate/thunderbird/templates/payment/thank_you.html:6
 #, python-format
 msgid "We’ve emailed you a donation receipt; if it’s missing, please check your junk/spam folders, then contact us using <a href=\"%(url)s\">this form</a>."
-msgstr ""
+msgstr "Poslali smo vam emailom potvrdu donacije; ako nedostaje, provjerite mape bezvrijedne/neželjene pošte, potom nas kontaktirajte koristeći <a href=\"%(url)s\">ovaj obrazac</a>."
 
 #: donate/thunderbird/templates/payment/thank_you.html:7
 msgid "Lastly, can you multiply your impact by sharing about the important work Thunderbird is doing? Thank you again!"
-msgstr ""
+msgstr "I na kraju, možete li umnožiti svoj utjecaj dijeljenjem toga kako važan posao Thunderbird radi? Hvala još jednom!"
 
 #: donate/thunderbird/templates/payment/thank_you.html:11
 msgctxt "Used as a tweet"
 msgid "I donated to @mozthunderbird today to #freetheinbox. Join me to support communication privacy."
-msgstr ""
+msgstr "Donirao sam za @mozthunderbird danas kako bi #freetheinbox. Pridružite mi se da podržite privatnost komunikacije."
 
 #: donate/thunderbird/templates/payment/thank_you.html:12
 msgctxt "Email subject line"
 msgid "I donated to Thunderbird today"
-msgstr ""
+msgstr "Donirao sam za Thunderbird danas"
