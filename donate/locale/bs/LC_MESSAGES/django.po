@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-31 16:59+0000\n"
-"PO-Revision-Date: 2020-04-22 17:36+0000\n"
-"Last-Translator: Théo Chevalier <theo.chevalier11@gmail.com>\n"
+"PO-Revision-Date: 2020-04-22 17:44+0000\n"
+"Last-Translator: Nihad Suljić <nihad.suljic92@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bs\n"
 "MIME-Version: 1.0\n"
@@ -778,15 +778,15 @@ msgstr ""
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:56
 #, python-format
 msgid "Please send a check <strong>with “%(thunderbird)s” on the memo line</strong>, and payable (payee) to “%(payee)s”."
-msgstr ""
+msgstr "Molimo, pošaljite ček <strong>s “%(thunderbird)s” u retku bilješke</strong> i naplatu (primaoca) na “%(payee)s”."
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:59
 msgid "Please note that we can only accept checks in US dollars drawn on a US bank. Please do <strong>not</strong> send cash."
-msgstr ""
+msgstr "Imajte na umu da možemo prihvatiti samo čekove u američkim dolarima izvučeni u američkoj banci. Molimo <strong>ne</strong> šaljite gotovinu."
 
 #: donate/thunderbird/templates/payment/card.html:6
 msgid "Thank you in advance for your gift."
-msgstr ""
+msgstr "Unaprijed hvala na poklonu."
 
 #: donate/thunderbird/templates/payment/card.html:12
 #, python-format
