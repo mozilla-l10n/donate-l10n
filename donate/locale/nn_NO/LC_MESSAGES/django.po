@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-31 16:59+0000\n"
-"PO-Revision-Date: 2020-04-29 11:55+0000\n"
+"PO-Revision-Date: 2020-04-29 13:03+0000\n"
 "Last-Translator: Björn I. <bjorni.svindseth@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -480,7 +480,7 @@ msgstr ""
 #: donate/templates/pages/core/ways_to_give_page_master.html:78
 #, python-format
 msgid "Please send a check <strong>including your email address on the memo line</strong>, and payable (payee) to “%(payee)s”."
-msgstr ""
+msgstr "Send ein sjekk <strong>inkludert e-postadressa di i memo-feltet</strong>, og som skal betalast til «%(payee)s»."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:81
 msgid "Please note that the Mozilla Foundation can only accept checks in US dollars drawn on a US bank. Please do <strong>not</strong> send cash."
