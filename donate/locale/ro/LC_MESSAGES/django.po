@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-31 16:59+0000\n"
-"PO-Revision-Date: 2020-04-01 14:23+0000\n"
+"PO-Revision-Date: 2020-04-30 05:37+0000\n"
 "Last-Translator: robbp <robbpaun@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
@@ -689,7 +689,7 @@ msgstr "Am donat la @mozilla astăzi deoarece #lovetheweb. Vino alături de mine
 #: donate/templates/payment/thank_you_master.html:23
 msgctxt "Email subject line"
 msgid "I donated to Mozilla today"
-msgstr "Am făcut azi o donație către Mozilla"
+msgstr "Am donat astăzi pentru Mozilla"
 
 #: donate/templates/payment/thank_you_master.html:27 donate/thunderbird/templates/payment/thank_you.html:16
 msgid "Share on Facebook"
@@ -842,4 +842,4 @@ msgstr "Am donat azi la @mozthunderbird pentru #freetheinbox. Donați și voi ca
 #: donate/thunderbird/templates/payment/thank_you.html:12
 msgctxt "Email subject line"
 msgid "I donated to Thunderbird today"
-msgstr "Am făcut astăzi o donație pentru Thunderbird"
+msgstr "Am donat astăzi pentru Thunderbird"
