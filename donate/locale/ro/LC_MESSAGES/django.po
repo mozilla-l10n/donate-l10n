@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-31 16:59+0000\n"
-"PO-Revision-Date: 2020-04-30 05:37+0000\n"
+"PO-Revision-Date: 2020-05-02 05:25+0000\n"
 "Last-Translator: robbp <robbpaun@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
@@ -762,7 +762,7 @@ msgstr "O parte din acest conținut este ©1998–%(current_year)s realizată de
 #: donate/thunderbird/templates/pages/core/landing_page.html:7
 #, python-format
 msgid "Your download should have begun automatically. If it didn’t work, <a href=\"%(url)s\">try downloading again here</a>."
-msgstr "Descărcarea trebuia să înceapă automat. Dacă nu a funcționat,<a href=\"%(url)s\">încearcă să descarci iar de aici</a>."
+msgstr "Descărcarea trebuia să înceapă automat. Dacă nu a funcționat, <a href=\"%(url)s\">încearcă să descarci iar de aici</a>."
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:8
 msgid "We accept contributions in Euros through Single European Payment Area (SEPA) transfer, and British Pounds through BACS transfer."
