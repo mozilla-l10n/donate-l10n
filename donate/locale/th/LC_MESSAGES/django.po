@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-31 16:59+0000\n"
-"PO-Revision-Date: 2020-05-07 17:12+0000\n"
+"PO-Revision-Date: 2020-05-07 17:20+0000\n"
 "Last-Translator: aefgh39622@gmail.com <aefgh39622@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: th\n"
@@ -612,10 +612,9 @@ msgid "Yes, I will give:"
 msgstr "ใช่ ฉันจะบริจาค:"
 
 #: donate/templates/payment/card_upsell_master.html:40
-#, fuzzy
 #| msgid "/ Monthly"
 msgid "Monthly"
-msgstr "/ ต่อเดือน"
+msgstr "รายเดือน"
 
 #: donate/templates/payment/card_upsell_master.html:48
 #, python-format
@@ -627,10 +626,9 @@ msgstr ""
 "ฉันเข้าใจว่าฉันต้องยกเลิกก่อนการบริจาคตามเวลาที่กำหนดในครั้งต่อไปอย่างน้อย 5 วันโดยส่งอีเมลไปที่ %(email)s และฉันจะสามารถขอคืนเงินได้ภายใน 15 วันนับจากวันที่บริจาคเท่านั้น"
 
 #: donate/templates/payment/card_upsell_master.html:53
-#, fuzzy
 #| msgid "/ Monthly"
 msgid "Donate Monthly"
-msgstr "/ ต่อเดือน"
+msgstr "บริจาคแบบรายเดือน"
 
 #: donate/templates/payment/card_upsell_master.html:56 donate/templates/payment/newsletter_signup_master.html:42
 msgid "No Thanks"
@@ -663,16 +661,16 @@ msgstr "เงินบริจาคของคุณจะส่งตรง
 #: donate/templates/payment/thank_you_master.html:15
 #, python-format
 msgid "We’ve emailed you a donation receipt; if it’s missing, please check your junk/spam folders, then contact us at <a href=\"mailto:%(email)s\">%(email)s</a>."
-msgstr ""
+msgstr "เราได้ส่งใบเสร็จรับเงินการบริจาคให้คุณทางอีเมลแล้ว หากไม่พบอีเมลดังกล่าว โปรดตรวจสอบโฟลเดอร์ขยะ/สแปมของคุณก่อน จากนั้นค่อยติดต่อเราที่ <a href=\"mailto:%(email)s\">%(email)s</a>"
 
 #: donate/templates/payment/thank_you_master.html:17
 msgid "Lastly, can you multiply your impact by sharing about the important work Mozilla is doing? Thank you again!"
-msgstr ""
+msgstr "สุดท้าย คุณช่วยเพิ่มอิทธิพลของคุณโดยแบ่งปันงานสำคัญที่ Mozilla กำลังทำอยู่ได้หรือไม่? ขอบคุณอีกครั้ง!"
 
 #: donate/templates/payment/thank_you_master.html:22
 msgctxt "Used as a tweet"
 msgid "I donated to @mozilla today because I #lovetheweb. Join me and help fight for a better and healthier internet, for all."
-msgstr ""
+msgstr "ฉันบริจาคให้ @mozilla วันนี้เพราะฉัน #รักเว็บ มาร่วมกับฉันและช่วยกันต่อสู้เพื่ออินเทอร์เน็ตที่ดีและแข็งแกร่งขึ้นสำหรับทุกคน"
 
 #: donate/templates/payment/thank_you_master.html:23
 msgctxt "Email subject line"
@@ -721,7 +719,7 @@ msgstr "วันนี้ฉันบริจาคให้ Thunderbird"
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:7
 #, python-format
 msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a>"
-msgstr ""
+msgstr "วิธีอื่นในการบริจาค: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">ใบสั่งจ่าย</a>"
 
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:15
 #, python-format
@@ -746,16 +744,16 @@ msgstr "คุกกี้"
 #: donate/thunderbird/templates/pages/base_page.html:69
 #, python-format
 msgid "Portions of this content are ©1998–%(current_year)s by individual contributors. Content available under a <a %(link_attributes)s>Creative Commons license</a>"
-msgstr ""
+msgstr "บางส่วนของเนื้อหานี้สงวนลิขสิทธิ์ ©1998–%(current_year)s โดยผู้มีส่วนร่วมแต่ละคน เนื้อหาใช้งานได้ภายใต้ <a %(link_attributes)s>สัญญาอนุญาต Creative Commons</a>"
 
 #: donate/thunderbird/templates/pages/core/landing_page.html:7
 #, python-format
 msgid "Your download should have begun automatically. If it didn’t work, <a href=\"%(url)s\">try downloading again here</a>."
-msgstr ""
+msgstr "จะเริ่มดาวน์โหลดอัตโนมัติ หากดาวน์โหลดไม่ได้ ให้<a href=\"%(url)s\">ลองดาวน์โหลดใหม่อีกครั้งที่นี่</a>"
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:8
 msgid "We accept contributions in Euros through Single European Payment Area (SEPA) transfer, and British Pounds through BACS transfer."
-msgstr ""
+msgstr "เรารับเงินสมทบในเงินยูโรผ่านการโอนทาง Single European Payment Area (SEPA) และเงินปอนด์อังกฤษโดยการโอนผ่านผ่าน BACS"
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:25 donate/thunderbird/templates/pages/core/ways_to_give_page.html:42
 msgid "Memo field:"
@@ -796,7 +794,7 @@ msgstr ""
 
 #: donate/thunderbird/templates/payment/card_upsell.html:6 donate/thunderbird/templates/payment/paypal_upsell.html:6
 msgid "We’d love to have you as a sustaining supporter of Thunderbird. <b>Could you add a monthly donation starting next month?</b>"
-msgstr ""
+msgstr "เราอยากให้คุณมาเป็นผู้สนับสนุน Thunderbird ที่ยั่งยืน <b>คุณจะเริ่มบริจาคแบบรายเดือนตั้งแต่เดือนถัดไปหรือไม่?</b>"
 
 #: donate/thunderbird/templates/payment/card_upsell.html:10
 #, python-format
@@ -813,7 +811,7 @@ msgstr ""
 
 #: donate/thunderbird/templates/payment/thank_you.html:7
 msgid "Lastly, can you multiply your impact by sharing about the important work Thunderbird is doing? Thank you again!"
-msgstr ""
+msgstr "สุดท้าย คุณช่วยเพิ่มอิทธิพลของคุณโดยแบ่งปันงานสำคัญที่ Thunderbird กำลังทำอยู่ได้หรือไม่? ขอบคุณอีกครั้ง!"
 
 #: donate/thunderbird/templates/payment/thank_you.html:11
 msgctxt "Used as a tweet"
