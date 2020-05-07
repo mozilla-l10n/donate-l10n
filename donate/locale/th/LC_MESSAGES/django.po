@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-31 16:59+0000\n"
-"PO-Revision-Date: 2020-05-07 16:42+0000\n"
+"PO-Revision-Date: 2020-05-07 16:49+0000\n"
 "Last-Translator: aefgh39622@gmail.com <aefgh39622@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: th\n"
@@ -270,6 +270,8 @@ msgid ""
 "Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a "
 "%(link_attributes)s>%(site_url)s</a>."
 msgstr ""
+"Mozilla เป็นองค์กรไม่แสวงผลกำไรระดับโลกที่อุทิศตนเพื่อช่วยให้คุณควบคุมประสบการณ์การเล่นเน็ตของคุณด้วยตัวเองได้อย่างเต็มที่และช่วยกำหนดอนาคตของเว็บเพื่อประโยชน์สาธารณะ เยี่ยมชมเราได้ที่ <a "
+"%(link_attributes)s>%(site_url)s</a>"
 
 #: donate/templates/pages/core/campaign_page.html:38 donate/templates/pages/core/ways_to_give_page_master.html:12
 msgctxt "Button"
@@ -278,11 +280,11 @@ msgstr "บริจาคตอนนี้"
 
 #: donate/templates/pages/core/campaign_page.html:52 donate/templates/pages/core/landing_page_master.html:36 donate/templates/payment/card_master.html:159
 msgid "Seal of Charity Navigator 4-Star"
-msgstr ""
+msgstr "ตราประทับ Charity Navigator 4-Star"
 
 #: donate/templates/pages/core/campaign_page.html:55 donate/templates/pages/core/landing_page_master.html:39 donate/templates/payment/card_master.html:162
 msgid "Seal of GuideStar Gold 2019"
-msgstr ""
+msgstr "ตราประทับ GuideStar Gold 2019"
 
 #: donate/templates/pages/core/campaign_page.html:65
 msgctxt "Header"
@@ -371,11 +373,11 @@ msgstr "เครดิต/เดบิต และ PayPal"
 #: donate/templates/pages/core/ways_to_give_page_master.html:18
 #, python-format
 msgid "<a href=\"%(ways_to_give_link)s\">Go to this link</a> to make a secure online donation right now."
-msgstr ""
+msgstr "<a href=\"%(ways_to_give_link)s\">ไปที่ลิงก์นี้</a>เพื่อทำการบริจาคออนไลน์อย่างปลอดภัยตอนนี้"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:23 donate/thunderbird/templates/pages/core/ways_to_give_page.html:7
 msgid "Bank Transfer / SEPA"
-msgstr ""
+msgstr "การโอนเงินผ่านธนาคาร / SEPA"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:24
 msgid "We accept donations in Euros through Single European Payment Area (SEPA) transfer, and British Pounds through BACS transfer."
@@ -383,12 +385,12 @@ msgstr ""
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:25
 msgid "Please remember that donations are deductible for U.S. income tax purposes only."
-msgstr ""
+msgstr "โปรดทราบว่าเงินบริจาคสามารถหักลดหย่อนภาษีได้เฉพาะผู้เสียภาษีเงินได้ในสหรัฐอเมริกาเท่านั้น"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:27 donate/thunderbird/templates/pages/core/ways_to_give_page.html:10
 #, python-format
 msgid "If your bank requests our physical address, it is %(address)s."
-msgstr ""
+msgstr "หากธนาคารของคุณร้องขอที่อยู่จริงของเรา ที่อยู่ของเราคือ %(address)s"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:33 donate/thunderbird/templates/pages/core/ways_to_give_page.html:17
 msgid "Euros:"
@@ -406,16 +408,16 @@ msgstr "ยูโร (EUR)"
 #: donate/templates/pages/core/ways_to_give_page_master.html:36 donate/templates/pages/core/ways_to_give_page_master.html:49 donate/thunderbird/templates/pages/core/ways_to_give_page.html:20
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:33
 msgid "Receiving Bank (Pay to):"
-msgstr ""
+msgstr "ธนาคารที่รับเงิน (ชำระเงินให้):"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:37 donate/templates/pages/core/ways_to_give_page_master.html:50 donate/thunderbird/templates/pages/core/ways_to_give_page.html:21
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:34
 msgid "City & Country/Region:"
-msgstr ""
+msgstr "เมืองและประเทศ/ภูมิภาค:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:37 donate/thunderbird/templates/pages/core/ways_to_give_page.html:21
 msgid "Frankfurt, Germany"
-msgstr ""
+msgstr "แฟรงก์เฟิร์ต เยอรมนี"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:38 donate/templates/pages/core/ways_to_give_page_master.html:56 donate/thunderbird/templates/pages/core/ways_to_give_page.html:22
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:40
@@ -425,7 +427,7 @@ msgstr "รหัส SWIFT/BIC:"
 #: donate/templates/pages/core/ways_to_give_page_master.html:39 donate/templates/pages/core/ways_to_give_page_master.html:53 donate/thunderbird/templates/pages/core/ways_to_give_page.html:23
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:37
 msgid "Beneficiary Name (For credit to):"
-msgstr ""
+msgstr "ชื่อผู้รับผลประโยชน์ (สำหรับเครดิตถึง):"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:40 donate/templates/pages/core/ways_to_give_page_master.html:57 donate/thunderbird/templates/pages/core/ways_to_give_page.html:24
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:41
@@ -442,7 +444,7 @@ msgstr ""
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:50 donate/thunderbird/templates/pages/core/ways_to_give_page.html:34
 msgid "London, United Kingdom"
-msgstr ""
+msgstr "ลอนดอน สหราชอาณาจักร"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:51 donate/thunderbird/templates/pages/core/ways_to_give_page.html:35
 msgid "Bank Sort Code:"
@@ -450,11 +452,11 @@ msgstr ""
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:52 donate/thunderbird/templates/pages/core/ways_to_give_page.html:36
 msgid "Account Number (8 digits):"
-msgstr ""
+msgstr "หมายเลขบัญชี (8 หลัก):"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:63
 msgid "Check (via postal service)"
-msgstr ""
+msgstr "ใบสั่งจ่าย (ผ่านบริการไปรษณีย์)"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:67 donate/thunderbird/templates/pages/core/ways_to_give_page.html:47
 msgid "UPDATE March 20, 2020:"
@@ -477,11 +479,11 @@ msgstr ""
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:96
 msgid "Currencies"
-msgstr ""
+msgstr "สกุลเงิน"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:97
 msgid "Select your currency to make a secure online donation:"
-msgstr ""
+msgstr "เลือกสกุลเงินของคุณเพื่อทำการบริจาคออนไลน์อย่างปลอดภัย:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:107
 msgid "Bitcoin"
@@ -537,7 +539,7 @@ msgstr "มีข้อผิดพลาดบางอย่างเกี่
 
 #: donate/templates/payment/card_master.html:64
 msgid "We were unable to take payment because the payment processor reported an error with your address information:"
-msgstr ""
+msgstr "เราไม่สามารถรับการชำระเงินได้เนื่องจากตัวประมวลผลการชำระเงินได้รายงานข้อผิดพลาดเกี่ยวกับข้อมูลที่อยู่ของคุณ:"
 
 #: donate/templates/payment/card_master.html:68
 msgid "Please correct these errors and try again."
