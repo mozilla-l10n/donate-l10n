@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-31 16:59+0000\n"
-"PO-Revision-Date: 2020-05-07 16:49+0000\n"
+"PO-Revision-Date: 2020-05-07 16:55+0000\n"
 "Last-Translator: aefgh39622@gmail.com <aefgh39622@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: th\n"
@@ -496,6 +496,10 @@ msgid ""
 "indicated that it will treat bitcoin as property for U.S. tax purposes (see IRS Notice 2014-21), donations of bitcoin may be subject to special rules as to the amount of your charitable deduction, "
 "the documentation that must be provided to claim a tax deduction, or other matters."
 msgstr ""
+"มูลนิธิ Mozilla เป็นบริษัทที่ไม่แสวงหากำไรในรัฐแคลิฟอร์เนียซึ่งได้รับการยกเว้นภาษีรายได้จากรัฐบาลกลางของสหรัฐอเมริกาภายใต้ IRC 501(c)(3) และองค์กรการกุศลสาธารณะที่จัดอยู่ในหมวด IRC 170(b)(1)(A) และ "
+"509(a)(1) เงินบริจาคที่ Mozilla จะได้รับถือเป็นเงินบริจาคเพื่อการกุศลภายใต้กฎหมายภาษีของรัฐบาลกลางสหรัฐอเมริกาเพื่อใช้ตามอัธยาศัยเพื่อการกุศล เนื่องจาก IRS "
+"ได้ระบุว่าจะถือว่าบิตคอยน์เป็นทรัพย์สินสำหรับวัตถุประสงค์ด้านภาษีของสหรัฐอเมริกา (ดูคำประกาศ IRS 2014-21) เงินบริจาคอาจอยู่ภายใต้กฎพิเศษว่าด้วยจำนวนเงินบริจาคเพื่อการกุศลที่จะนำไปลดหย่อนภาษีได้ "
+"เอกสารที่ต้องนำไปประกอบเพื่อการลดหย่อนภาษีในการขอลดหย่อนภาษี หรืออย่างอื่น"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:114
 #, python-format
@@ -568,6 +572,9 @@ msgid ""
 "I must cancel at least 5 days before the next scheduled donation by email to <a href='mailto:%(email)s'>%(email)s</a>, and that I may only request a refund within 15 days from the date of a "
 "donation."
 msgstr ""
+"ฉันอนุญาตให้มูลนิธิ Mozilla เรียกเก็บเงินจากบัตรของฉันโดยอัตโนมัติทุกเดือนตามจำนวนที่ระบุข้างต้น โดยเริ่มตั้งแต่วันนี้และเรียกเก็บต่อไปในวันเดียวกันของแต่ละเดือน จนกว่าฉันจะยกเลิก "
+"ฉันเข้าใจว่าฉันต้องยกเลิกก่อนการบริจาคตามเวลาที่กำหนดในครั้งต่อไปอย่างน้อย 5 วันโดยส่งอีเมลไปที่ <a href='mailto:%(email)s'>%(email)s</a> และฉันจะสามารถขอคืนเงินได้ภายใน 15 "
+"วันนับจากวันที่บริจาคเท่านั้น"
 
 #: donate/templates/payment/card_master.html:128
 msgid "I authorize Mozilla Foundation to charge my card in the amount indicated above. I understand that I may only request a refund within 15 days from the date of the donation."
@@ -581,7 +588,7 @@ msgstr "บริจาค <span class=\"%(span_class)s\">%(formatted_amount)s</
 #: donate/templates/payment/card_master.html:146
 #, python-format
 msgid "Donate <span class=\"%(span_class)s\">%(formatted_amount)s</span>"
-msgstr ""
+msgstr "บริจาค <span class=\"%(span_class)s\">%(formatted_amount)s</span>"
 
 #: donate/templates/payment/card_master.html:155
 msgid "Your donation helps keep the Web open and free. Thank you in advance for your gift."
