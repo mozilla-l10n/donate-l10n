@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-31 16:59+0000\n"
-"PO-Revision-Date: 2020-05-07 16:55+0000\n"
+"PO-Revision-Date: 2020-05-07 17:12+0000\n"
 "Last-Translator: aefgh39622@gmail.com <aefgh39622@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: th\n"
@@ -592,7 +592,7 @@ msgstr "บริจาค <span class=\"%(span_class)s\">%(formatted_amount)s</
 
 #: donate/templates/payment/card_master.html:155
 msgid "Your donation helps keep the Web open and free. Thank you in advance for your gift."
-msgstr ""
+msgstr "การบริจาคของคุณช่วยให้เว็บเปิดเสรีและเป็นอิสระ ขอบคุณล่วงหน้าสำหรับของขวัญของคุณ"
 
 #: donate/templates/payment/card_upsell_master.html:4 donate/templates/payment/paypal_upsell_master.html:4 donate/templates/payment/thank_you_master.html:4
 msgid "Thank you"
@@ -605,11 +605,11 @@ msgstr "ขอบคุณสำหรับของขวัญที่ดี
 
 #: donate/templates/payment/card_upsell_master.html:17 donate/templates/payment/paypal_upsell_master.html:17
 msgid "We’d love to have you as a sustaining supporter of Mozilla. <b>Could you add a monthly donation starting next month?</b>"
-msgstr ""
+msgstr "เราอยากให้คุณมาเป็นผู้สนับสนุน Mozilla ที่ยั่งยืน <b>คุณจะเริ่มบริจาคแบบรายเดือนตั้งแต่เดือนถัดไปหรือไม่?</b>"
 
 #: donate/templates/payment/card_upsell_master.html:21 donate/templates/payment/paypal_upsell_master.html:21
 msgid "Yes, I will give:"
-msgstr ""
+msgstr "ใช่ ฉันจะบริจาค:"
 
 #: donate/templates/payment/card_upsell_master.html:40
 #, fuzzy
@@ -623,6 +623,8 @@ msgid ""
 "I authorize Mozilla Foundation to automatically charge my card every month in the amount indicated above, starting next month on the same date as today, and continuing each month afterwards until I "
 "cancel. I understand that I must cancel at least 5 days before the next scheduled donation by email to %(email)s, and that I may only request a refund within 15 days from the date of a donation."
 msgstr ""
+"ฉันอนุญาตให้มูลนิธิ Mozilla เรียกเก็บเงินจากบัตรของฉันโดยอัตโนมัติทุกเดือนตามจำนวนที่ระบุข้างต้น โดยเริ่มตั้งแต่วันเดียวกับวันนี้ของเดือนถัดไป และบริจาคต่อไปในแต่ละเดือนจนกว่าฉันจะยกเลิก "
+"ฉันเข้าใจว่าฉันต้องยกเลิกก่อนการบริจาคตามเวลาที่กำหนดในครั้งต่อไปอย่างน้อย 5 วันโดยส่งอีเมลไปที่ %(email)s และฉันจะสามารถขอคืนเงินได้ภายใน 15 วันนับจากวันที่บริจาคเท่านั้น"
 
 #: donate/templates/payment/card_upsell_master.html:53
 #, fuzzy
@@ -656,7 +658,7 @@ msgstr "ไม่"
 
 #: donate/templates/payment/thank_you_master.html:15
 msgid "Your donation will go right to work protecting the web, keeping it open and available to all."
-msgstr ""
+msgstr "เงินบริจาคของคุณจะส่งตรงไปยังการทำงานเพื่อปกป้องเว็บ และทำให้เปิดเสรีและให้ทุกคนสามารถใช้ได้"
 
 #: donate/templates/payment/thank_you_master.html:15
 #, python-format
