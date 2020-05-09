@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-31 16:59+0000\n"
-"PO-Revision-Date: 2020-05-07 17:20+0000\n"
-"Last-Translator: aefgh39622@gmail.com <aefgh39622@gmail.com>\n"
+"PO-Revision-Date: 2020-05-07 04:42+0000\n"
+"Last-Translator: niruhn <niruhn@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: th\n"
 "MIME-Version: 1.0\n"
@@ -775,10 +775,9 @@ msgid "Please note that we can only accept checks in US dollars drawn on a US ba
 msgstr ""
 
 #: donate/thunderbird/templates/payment/card.html:6
-#, fuzzy
 #| msgid "Thank you for your generous gift"
 msgid "Thank you in advance for your gift."
-msgstr "ขอบคุณสำหรับของขวัญที่ดีของคุณ"
+msgstr "ขอบคุณล่วงหน้าสำหรับของขวัญของคุณ"
 
 #: donate/thunderbird/templates/payment/card.html:12
 #, python-format
