@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-31 16:59+0000\n"
-"PO-Revision-Date: 2020-05-11 02:08+0000\n"
+"PO-Revision-Date: 2020-05-11 02:20+0000\n"
 "Last-Translator: Hyeonseok Shin <hyeonseok@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -371,7 +371,7 @@ msgstr ""
 #: donate/templates/pages/core/ways_to_give_page_master.html:18
 #, python-format
 msgid "<a href=\"%(ways_to_give_link)s\">Go to this link</a> to make a secure online donation right now."
-msgstr ""
+msgstr "<a href=\"%(ways_to_give_link)s\">이 링크로 가서</a> 지금 바로 안전한 온라인 기부를 하세요."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:23 donate/thunderbird/templates/pages/core/ways_to_give_page.html:7
 msgid "Bank Transfer / SEPA"
@@ -420,7 +420,7 @@ msgstr ""
 #: donate/templates/pages/core/ways_to_give_page_master.html:38 donate/templates/pages/core/ways_to_give_page_master.html:56 donate/thunderbird/templates/pages/core/ways_to_give_page.html:22
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:40
 msgid "SWIFT/BIC Code:"
-msgstr ""
+msgstr "SWIFT/BIC 코드:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:39 donate/templates/pages/core/ways_to_give_page_master.html:53 donate/thunderbird/templates/pages/core/ways_to_give_page.html:23
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:37
@@ -458,7 +458,7 @@ msgstr ""
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:67 donate/thunderbird/templates/pages/core/ways_to_give_page.html:47
 msgid "UPDATE March 20, 2020:"
-msgstr ""
+msgstr "2020년 3월 20일에 업데이트:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:68
 msgid ""
@@ -477,15 +477,15 @@ msgstr ""
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:96
 msgid "Currencies"
-msgstr ""
+msgstr "통화"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:97
 msgid "Select your currency to make a secure online donation:"
-msgstr ""
+msgstr "안전한 온라인 후원에 사용할 통화를 선택해 주세요:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:107
 msgid "Bitcoin"
-msgstr ""
+msgstr "비트코인"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:109
 msgid ""
@@ -498,7 +498,7 @@ msgstr ""
 #: donate/templates/pages/core/ways_to_give_page_master.html:114
 #, python-format
 msgid "Learn more about bitcoin donations <a href=\"%(bitcoin_wiki)s\">here</a>. To donate bitcoin, <a href=\"%(bitcoin_donate)s\">please visit this link.</a>"
-msgstr ""
+msgstr "<a href=\"%(bitcoin_wiki)s\">여기</a>에서 비트코인 기부에 대해 자세히 알아보세요. 비트코인으로 기부하려면 <a href=\"%(bitcoin_donate)s\">이 링크</a>를 방문하세요"
 
 #: donate/templates/payment/card_master.html:4
 msgid "Your information"
@@ -507,7 +507,7 @@ msgstr "개인정보"
 #: donate/templates/payment/card_master.html:20
 #, python-format
 msgid "You are donating <span class=\"%(span_class)s\">%(formatted_amount)s</span> per month"
-msgstr ""
+msgstr "매월 <span class=\"%(span_class)s\">%(formatted_amount)s</span> 금액을 기부하고 있습니다."
 
 #: donate/templates/payment/card_master.html:22
 #, python-format
@@ -579,7 +579,7 @@ msgstr ""
 #: donate/templates/payment/card_master.html:146
 #, python-format
 msgid "Donate <span class=\"%(span_class)s\">%(formatted_amount)s</span>"
-msgstr ""
+msgstr "<span class=\"%(span_class)s\">%(formatted_amount)s</span> 기부"
 
 #: donate/templates/payment/card_master.html:155
 msgid "Your donation helps keep the Web open and free. Thank you in advance for your gift."
@@ -596,7 +596,7 @@ msgstr "기부해 주셔서 감사합니다."
 
 #: donate/templates/payment/card_upsell_master.html:17 donate/templates/payment/paypal_upsell_master.html:17
 msgid "We’d love to have you as a sustaining supporter of Mozilla. <b>Could you add a monthly donation starting next month?</b>"
-msgstr ""
+msgstr "Mozilla의 지속적인 후원자로 여러분을 초대합니다. <b>다음 달부터 매달 소정의 금액을 기부해 주시겠습니까?</b>"
 
 #: donate/templates/payment/card_upsell_master.html:21 donate/templates/payment/paypal_upsell_master.html:21
 msgid "Yes, I will give:"
@@ -705,7 +705,7 @@ msgstr ""
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:7
 #, python-format
 msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a>"
-msgstr ""
+msgstr "다른 방법으로 기부하기: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">수표</a>"
 
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:15
 #, python-format
