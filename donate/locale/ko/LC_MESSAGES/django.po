@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-31 16:59+0000\n"
-"PO-Revision-Date: 2020-05-11 01:57+0000\n"
+"PO-Revision-Date: 2020-05-11 02:08+0000\n"
 "Last-Translator: Hyeonseok Shin <hyeonseok@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -269,7 +269,7 @@ msgstr "라이선스"
 msgid ""
 "Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a "
 "%(link_attributes)s>%(site_url)s</a>."
-msgstr ""
+msgstr "Mozilla는 사용자가 온라인 경험을 주도하고 웹의 미래를 형성하여 공공의 이익을 얻는 데 전념하는 세계적인 비영리 단체입니다. <a %(link_attributes)s>%(site_url)s</a> 통해 방문해주세요."
 
 #: donate/templates/pages/core/campaign_page.html:38 donate/templates/pages/core/ways_to_give_page_master.html:12
 msgctxt "Button"
@@ -295,11 +295,11 @@ msgstr ""
 
 #: donate/templates/pages/core/contributor_support_page_master.html:24
 msgid "We will get back to you soon."
-msgstr ""
+msgstr "곧 다시 연락 드리겠습니다."
 
 #: donate/templates/pages/core/contributor_support_page_master.html:28
 msgid "If you need help with a contribution to MZLA/Thunderbird, fill out this form and a Thunderbird donor care representative will get back to you as soon as possible."
-msgstr ""
+msgstr "MZLA/Thunderbird에 대한 도움이 필요한 경우, 이 양식을 작성하면 Thunderbird 기증자 관리 담당자가 최대한 빨리 연락을 드릴 것입니다."
 
 #: donate/templates/pages/core/contributor_support_page_master.html:40
 msgid "Contact Name"
@@ -316,19 +316,19 @@ msgstr ""
 
 #: donate/templates/pages/core/contributor_support_page_master.html:54
 msgid "English"
-msgstr ""
+msgstr "영어"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:55
 msgid "French"
-msgstr ""
+msgstr "프랑스어"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:56
 msgid "German"
-msgstr ""
+msgstr "독일어"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:57
 msgid "Spanish"
-msgstr ""
+msgstr "스페인어"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:58
 msgid "Polish"
@@ -354,15 +354,15 @@ msgstr ""
 #: donate/templates/pages/core/contributor_support_page_master.html:75
 #, python-format
 msgid "Mozilla will only use your submitted information for purposes of communicating with you about your request. See our <a href=\"%(privacy_policy)s\">privacy policy</a> for further information."
-msgstr ""
+msgstr "Mozilla는 귀하의 요청에 대해 귀하와의 통신용으로만 제출된 정보를 사용합니다. 자세한 내용은 <a href=\"%(privacy_policy)s\">개인 정보 보호 정책</a>을 참조하십시오."
 
 #: donate/templates/pages/core/contributor_support_page_master.html:77
 msgid "Submit"
-msgstr ""
+msgstr "제출"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:4 donate/templates/pages/core/ways_to_give_page_master.html:11
 msgid "Ways to Give"
-msgstr ""
+msgstr "기부 방법"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:16
 msgid "Credit / Debit and PayPal"
