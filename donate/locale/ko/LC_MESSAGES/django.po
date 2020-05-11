@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-31 16:59+0000\n"
-"PO-Revision-Date: 2020-04-15 02:45+0000\n"
+"PO-Revision-Date: 2020-05-11 01:57+0000\n"
 "Last-Translator: Hyeonseok Shin <hyeonseok@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -34,7 +34,7 @@ msgstr "유효한 이메일 주소를 입력하십시오."
 #: donate/payments/forms.py:45
 #, python-format
 msgid "Donations must be %(amount)s or more"
-msgstr ""
+msgstr "기부금은 %(amount)s 이상이어야 합니다."
 
 #: donate/payments/forms.py:52 donate/payments/forms.py:66 donate/payments/forms.py:113
 msgid "Amount"
@@ -169,12 +169,12 @@ msgstr ""
 #: donate/templates/fragments/donate_form_disclaimer_master.html:9
 #, python-format
 msgid "Monthly donations are charged each month on the same day that you donate today, and will continue until you cancel. To cancel, email us at <a href=\"mailto:%(email)s\">%(email)s</a>."
-msgstr ""
+msgstr "매달 기부하실 경우 오늘 기부하신 날짜와 동일하게 지불되며 취소할 때까지 지속됩니다. 취소하시려면 <a href=\"mailto:%(email)s\">%(email)s</a>로 메일을 보내주세요."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:17
 #, python-format
 msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a> | <a href=\"%(bitcoin_url)s\">Bitcoin</a>"
-msgstr ""
+msgstr "다른 기부 방법: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">수표</a> | <a href=\"%(bitcoin_url)s\">비트코인</a>"
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:23
 #, python-format
@@ -185,7 +185,7 @@ msgstr ""
 msgid ""
 "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in Mountain View, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S."
 " to the fullest extent permitted by law."
-msgstr ""
+msgstr "후원금은 캘리포니아 마운틴뷰에 본사를 둔 501(c)(3) 조직인 Mozilla Foundation으로 모아져서 자선활동의 목적을 가지고 자유 재량에 의해서 사용됩니다. 미국에서 법률이 허용한 최대한으로 세금 공제가 됩니다."
 
 #: donate/templates/pages/base_page_master.html:26
 msgid "Initiatives"
@@ -197,7 +197,7 @@ msgstr "참여"
 
 #: donate/templates/pages/base_page_master.html:32
 msgid "Internet Health"
-msgstr ""
+msgstr "건강한 인터넷"
 
 #: donate/templates/pages/base_page_master.html:35
 msgid "About Us"
@@ -209,7 +209,7 @@ msgstr "메뉴"
 
 #: donate/templates/pages/base_page_master.html:71
 msgid "Protect the internet as a global public resource"
-msgstr ""
+msgstr "세계 공공 자원인 인터넷 보호"
 
 #: donate/templates/pages/base_page_master.html:79
 msgid "Join our email list to take action and stay updated!"
