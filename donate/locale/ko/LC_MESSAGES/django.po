@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-31 16:59+0000\n"
-"PO-Revision-Date: 2020-05-11 02:20+0000\n"
+"PO-Revision-Date: 2020-05-11 02:25+0000\n"
 "Last-Translator: Hyeonseok Shin <hyeonseok@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -715,7 +715,7 @@ msgstr ""
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:21
 #, python-format
 msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"%(help_url)s\">Contact us</a>."
-msgstr ""
+msgstr "기부하는데 문제가 있나요? <a href=\"%(faq_url)s\">FAQ</a>에서 자주 묻는 질문에 대한 답을 찾으세요. 문제가 해결되지 않는다면 <a href=\"%(help_url)s\">문의하기</a>링크로 이동해 주세요."
 
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:27
 msgid ""
@@ -735,7 +735,7 @@ msgstr ""
 #: donate/thunderbird/templates/pages/core/landing_page.html:7
 #, python-format
 msgid "Your download should have begun automatically. If it didn’t work, <a href=\"%(url)s\">try downloading again here</a>."
-msgstr ""
+msgstr "자동으로 다운로드가 시작됩니다. 시작되지 않으면 <a href=\"%(url)s\">여기에서 다시 다운로드 하세요</a>."
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:8
 msgid "We accept contributions in Euros through Single European Payment Area (SEPA) transfer, and British Pounds through BACS transfer."
@@ -791,7 +791,7 @@ msgstr ""
 #: donate/thunderbird/templates/payment/thank_you.html:6
 #, python-format
 msgid "We’ve emailed you a donation receipt; if it’s missing, please check your junk/spam folders, then contact us using <a href=\"%(url)s\">this form</a>."
-msgstr ""
+msgstr "기부금 영수증을 이메일로 발송해 드렸습니다. 만약 받지 못했다면 정크/스팸 폴더를 확인하시고 <a href=\"%(url)s\">이 양식</a>을 사용하여 연락주세요."
 
 #: donate/thunderbird/templates/payment/thank_you.html:7
 msgid "Lastly, can you multiply your impact by sharing about the important work Thunderbird is doing? Thank you again!"
