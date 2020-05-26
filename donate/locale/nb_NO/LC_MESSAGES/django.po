@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-31 16:59+0000\n"
-"PO-Revision-Date: 2020-04-22 19:48+0000\n"
+"PO-Revision-Date: 2020-05-26 14:39+0000\n"
 "Last-Translator: Håvar Henriksen <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nb_NO\n"
@@ -475,6 +475,8 @@ msgid ""
 "Please note that due to the “shelter in place” order recently implemented for California, processing and acknowledgment of check donations to the Mozilla Foundation will be indefinitely delayed. "
 "Rather than sending us a check, please consider making an <a href=\"/\">online donation</a> instead."
 msgstr ""
+"Vær oppmerksom på at på grunn av påbudet om å holde seg innendørs som nylig ble implementert for California, vil behandling og godkjenning av sjekkdonasjoner til Mozilla Foundation bli forsinket på "
+"ubestemt tid. I stedet for å sende oss en sjekk, kan du vurdere å gjøre en <a href=\"/\">donasjon på nettet</a> i stedet."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:78
 #, python-format
@@ -770,6 +772,8 @@ msgid ""
 "Please note that due to the “shelter in place” order recently implemented for California, processing and acknowledgment of check donations to Thunderbird/MZLA Technologies will be indefinitely "
 "delayed. Rather than sending us a check, please consider making an <a href=\"/\">online donation</a> instead."
 msgstr ""
+"Vær oppmerksom på at på grunn av påbudet om å holde seg innendørs som nylig ble implementert for California, vil behandling og godkjenning av sjekkdonasjoner til Thunderbird/MZLA Technologies bli "
+"forsinket på ubestemt tid. I stedet for å sende oss en sjekk, kan du vurdere å gjøre en <a href=\"/\">donasjon på nettet</a> i stedet."
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:56
 #, python-format
