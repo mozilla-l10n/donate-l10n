@@ -2,13 +2,13 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-31 16:59+0000\n"
+"POT-Creation-Date: 2020-05-27 09:14+0000\n"
 "PO-Revision-Date: 2020-04-11 20:50+0000\n"
 "Last-Translator: Victor Bychek <a@bychek.ru>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -36,7 +36,8 @@ msgstr "Введите корректный адрес электронной п
 msgid "Donations must be %(amount)s or more"
 msgstr "Пожертвования должны быть не менее %(amount)s"
 
-#: donate/payments/forms.py:52 donate/payments/forms.py:66 donate/payments/forms.py:113
+#: donate/payments/forms.py:52 donate/payments/forms.py:66
+#: donate/payments/forms.py:113
 msgid "Amount"
 msgstr "Сумма"
 
@@ -48,7 +49,8 @@ msgstr "Имя"
 msgid "Last name"
 msgstr "Фамилия"
 
-#: donate/payments/forms.py:81 donate/payments/forms.py:123 donate/templates/pages/core/contributor_support_page_master.html:45
+#: donate/payments/forms.py:81 donate/payments/forms.py:123
+#: donate/templates/pages/core/contributor_support_page_master.html:45
 msgid "Email"
 msgstr "Адрес электронной почты"
 
@@ -126,7 +128,10 @@ msgstr "Извините, эта страница не существует"
 msgid "Go to our home page"
 msgstr "Перейти на главную страницу"
 
-#: donate/templates/base_master.html:8 donate/templates/pages/base_page_master.html:6 donate/templates/pages/base_page_master.html:13 donate/templates/pages/base_page_master.html:14
+#: donate/templates/base_master.html:8
+#: donate/templates/pages/base_page_master.html:6
+#: donate/templates/pages/base_page_master.html:13
+#: donate/templates/pages/base_page_master.html:14
 msgctxt "Page title"
 msgid "Donate to Mozilla"
 msgstr "Пожертвование Mozilla"
@@ -139,19 +144,27 @@ msgstr "ОДИН РАЗ"
 msgid "MONTHLY"
 msgstr "ЕЖЕМЕСЯЧНО"
 
-#: donate/templates/fragments/donate_form.html:41 donate/templates/fragments/donate_form.html:42 donate/templates/fragments/donate_form.html:105 donate/templates/fragments/donate_form.html:106
+#: donate/templates/fragments/donate_form.html:41
+#: donate/templates/fragments/donate_form.html:42
+#: donate/templates/fragments/donate_form.html:105
+#: donate/templates/fragments/donate_form.html:106
 msgid "Other amount"
 msgstr "Другая сумма"
 
-#: donate/templates/fragments/donate_form.html:48 donate/templates/fragments/donate_form.html:112
+#: donate/templates/fragments/donate_form.html:48
+#: donate/templates/fragments/donate_form.html:112
 msgid "Choose Payment"
 msgstr "Метод оплаты"
 
-#: donate/templates/fragments/donate_form.html:54 donate/templates/fragments/donate_form.html:118 donate/templates/payment/card_master.html:97
+#: donate/templates/fragments/donate_form.html:54
+#: donate/templates/fragments/donate_form.html:118
+#: donate/templates/payment/card_master.html:97
 msgid "SECURE"
 msgstr "БЕЗОПАСНО"
 
-#: donate/templates/fragments/donate_form.html:60 donate/templates/fragments/donate_form.html:124 donate/templates/pages/base_page_master.html:134
+#: donate/templates/fragments/donate_form.html:60
+#: donate/templates/fragments/donate_form.html:124
+#: donate/templates/pages/base_page_master.html:134
 msgid "Donate"
 msgstr "Пожертвовать"
 
@@ -159,21 +172,16 @@ msgstr "Пожертвовать"
 msgid "per month"
 msgstr "в месяц"
 
-#: donate/templates/fragments/donate_form_disclaimer_master.html:6 donate/thunderbird/templates/fragments/donate_form_disclaimer.html:12
+#: donate/templates/fragments/donate_form_disclaimer_master.html:6
+#: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:12
 #, python-format
-msgid ""
-"Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your "
-"donation will be stored by Mozilla."
-msgstr ""
-"Ваши данные об оплате будут обработаны системой <a href=\"%(braintree_url)s\">Braintree</a>, компанией PayPal (для кредитных и дебетовых карт) или <a href=\"%(paypal_url)s\">PayPal</a>, а запись о "
-"вашем пожертвовании будет храниться в Mozilla."
+msgid "Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Mozilla."
+msgstr "Ваши данные об оплате будут обработаны системой <a href=\"%(braintree_url)s\">Braintree</a>, компанией PayPal (для кредитных и дебетовых карт) или <a href=\"%(paypal_url)s\">PayPal</a>, а запись о вашем пожертвовании будет храниться в Mozilla."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:9
 #, python-format
 msgid "Monthly donations are charged each month on the same day that you donate today, and will continue until you cancel. To cancel, email us at <a href=\"mailto:%(email)s\">%(email)s</a>."
-msgstr ""
-"Ежемесячные пожертвования будут производиться каждый месяц в тот же день, что и ваш первый вклад сегодня, пока вы это не отмените. Для отмены ежемесячных взносов, напишите нам на <a "
-"href=\"mailto:%(email)s\">%(email)s</a>."
+msgstr "Ежемесячные пожертвования будут производиться каждый месяц в тот же день, что и ваш первый вклад сегодня, пока вы это не отмените. Для отмены ежемесячных взносов, напишите нам на <a href=\"mailto:%(email)s\">%(email)s</a>."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:17
 #, python-format
@@ -183,17 +191,16 @@ msgstr "Другие способы пожертвования: <a href=\"%(wire
 #: donate/templates/fragments/donate_form_disclaimer_master.html:23
 #, python-format
 msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"mailto:%(email)s\">Send us an email</a>."
-msgstr ""
-"Проблемы с пожертвованием? Посетите наши <a href=\"%(faq_url)s\">ЧЗВ</a> для получения ответов на часто задаваемые вопросы. Все ещё есть проблемы? <a href=\"mailto:%(email)s\">Отправьте нам "
-"письмо</a>."
+msgstr "Проблемы с пожертвованием? Посетите наши <a href=\"%(faq_url)s\">ЧЗВ</a> для получения ответов на часто задаваемые вопросы. Все ещё есть проблемы? <a href=\"mailto:%(email)s\">Отправьте нам письмо</a>."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:30
-msgid ""
-"Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in Mountain View, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S."
-" to the fullest extent permitted by law."
-msgstr ""
-"Пожертвования идут в Mozilla Foundation, некоммерческую организацию, освобождённую от налогов на доход Соединённых Штатов на основании IRC 501(c)(3) и расположенную в Маунтин-Вью, Калифорния, "
-"которая будет использовать их по своему усмотрению для благотворительных целей. Пожертвования вычитаются из налога в США в полной мере, разрешенной законом."
+msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in Mountain View, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
+msgstr "Пожертвования идут в Mozilla Foundation, некоммерческую организацию, освобождённую от налогов на доход Соединённых Штатов на основании IRC 501(c)(3) и расположенную в Маунтин-Вью, Калифорния, которая будет использовать их по своему усмотрению для благотворительных целей. Пожертвования вычитаются из налога в США в полной мере, разрешенной законом."
+
+#: donate/templates/fragments/language_switcher.html:10
+#: donate/templates/pages/core/contributor_support_page_master.html:50
+msgid "Language"
+msgstr "Язык"
 
 #: donate/templates/pages/base_page_master.html:26
 msgid "Initiatives"
@@ -243,7 +250,9 @@ msgstr "Если вы ранее не подтверждали подписку 
 msgid "More about us"
 msgstr "Подробнее о нас"
 
-#: donate/templates/pages/base_page_master.html:111 donate/templates/payment/thank_you_master.html:38 donate/thunderbird/templates/pages/base_page.html:36
+#: donate/templates/pages/base_page_master.html:111
+#: donate/templates/payment/thank_you_master.html:38
+#: donate/thunderbird/templates/pages/base_page.html:36
 #: donate/thunderbird/templates/payment/thank_you.html:27
 msgid "Twitter"
 msgstr "Твиттер"
@@ -256,15 +265,18 @@ msgstr "Инстаграм"
 msgid "GitHub"
 msgstr "GitHub"
 
-#: donate/templates/pages/base_page_master.html:137 donate/thunderbird/templates/pages/base_page.html:59
+#: donate/templates/pages/base_page_master.html:137
+#: donate/thunderbird/templates/pages/base_page.html:59
 msgid "Participation Guidelines"
 msgstr "Правила участия в сообществе"
 
-#: donate/templates/pages/base_page_master.html:140 donate/thunderbird/templates/pages/base_page.html:51
+#: donate/templates/pages/base_page_master.html:140
+#: donate/thunderbird/templates/pages/base_page.html:51
 msgid "Legal"
 msgstr "Права"
 
-#: donate/templates/pages/base_page_master.html:143 donate/thunderbird/templates/pages/base_page.html:54
+#: donate/templates/pages/base_page_master.html:143
+#: donate/thunderbird/templates/pages/base_page.html:54
 msgid "Privacy"
 msgstr "Приватность"
 
@@ -272,25 +284,26 @@ msgstr "Приватность"
 msgid "License"
 msgstr "Лицензия"
 
-#: donate/templates/pages/base_page_master.html:164
+#: donate/templates/pages/base_page_master.html:167
 #, python-format
-msgid ""
-"Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a "
-"%(link_attributes)s>%(site_url)s</a>."
-msgstr ""
-"Mozilla - глобальная некоммерческая организация, чьей миссией является предоставления вам контроля над вашей работой в Интернете, и формирование будущего Интернета, чтобы он приносил пользу всему "
-"обществу. Посетите нас на <a %(link_attributes)s>%(site_url)s</a>."
+msgid "Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a %(link_attributes)s>%(site_url)s</a>."
+msgstr "Mozilla - глобальная некоммерческая организация, чьей миссией является предоставления вам контроля над вашей работой в Интернете, и формирование будущего Интернета, чтобы он приносил пользу всему обществу. Посетите нас на <a %(link_attributes)s>%(site_url)s</a>."
 
-#: donate/templates/pages/core/campaign_page.html:38 donate/templates/pages/core/ways_to_give_page_master.html:12
+#: donate/templates/pages/core/campaign_page.html:38
+#: donate/templates/pages/core/ways_to_give_page_master.html:12
 msgctxt "Button"
 msgid "DONATE NOW"
 msgstr "ПОЖЕРТВОВАТЬ СЕЙЧАС"
 
-#: donate/templates/pages/core/campaign_page.html:52 donate/templates/pages/core/landing_page_master.html:36 donate/templates/payment/card_master.html:159
+#: donate/templates/pages/core/campaign_page.html:52
+#: donate/templates/pages/core/landing_page_master.html:36
+#: donate/templates/payment/card_master.html:159
 msgid "Seal of Charity Navigator 4-Star"
 msgstr "Печать Charity Navigator 4-Star"
 
-#: donate/templates/pages/core/campaign_page.html:55 donate/templates/pages/core/landing_page_master.html:39 donate/templates/payment/card_master.html:162
+#: donate/templates/pages/core/campaign_page.html:55
+#: donate/templates/pages/core/landing_page_master.html:39
+#: donate/templates/payment/card_master.html:162
 msgid "Seal of GuideStar Gold 2019"
 msgstr "Печать GuideStar Gold 2019"
 
@@ -314,10 +327,6 @@ msgstr "Если вам необходима помощь с пожертвов�
 #: donate/templates/pages/core/contributor_support_page_master.html:40
 msgid "Contact Name"
 msgstr "Контактное лицо"
-
-#: donate/templates/pages/core/contributor_support_page_master.html:50
-msgid "Language"
-msgstr "Язык"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:53
 msgctxt "Option in 'Language' dropdown"
@@ -364,15 +373,14 @@ msgstr "Описание"
 #: donate/templates/pages/core/contributor_support_page_master.html:75
 #, python-format
 msgid "Mozilla will only use your submitted information for purposes of communicating with you about your request. See our <a href=\"%(privacy_policy)s\">privacy policy</a> for further information."
-msgstr ""
-"Mozilla использует данную информацию исключительно для контакта с вами по поводу вашей заявки. Для получения дополнительной информации прочтите нашу <a href=\"%(privacy_policy)s\"> политику "
-"конфиденциальности </a>."
+msgstr "Mozilla использует данную информацию исключительно для контакта с вами по поводу вашей заявки. Для получения дополнительной информации прочтите нашу <a href=\"%(privacy_policy)s\"> политику конфиденциальности </a>."
 
 #: donate/templates/pages/core/contributor_support_page_master.html:77
 msgid "Submit"
 msgstr "Отправить"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:4 donate/templates/pages/core/ways_to_give_page_master.html:11
+#: donate/templates/pages/core/ways_to_give_page_master.html:4
+#: donate/templates/pages/core/ways_to_give_page_master.html:11
 msgid "Ways to Give"
 msgstr "Способы пожертвовать"
 
@@ -385,7 +393,8 @@ msgstr "Кредитная / Дебетовая карта и PayPal"
 msgid "<a href=\"%(ways_to_give_link)s\">Go to this link</a> to make a secure online donation right now."
 msgstr "<a href=\"%(ways_to_give_link)s\">Перейдите по этой ссылке</a>, чтобы сделать безопасное онлайн-пожертвование прямо сейчас."
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:23 donate/thunderbird/templates/pages/core/ways_to_give_page.html:7
+#: donate/templates/pages/core/ways_to_give_page_master.html:23
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:7
 msgid "Bank Transfer / SEPA"
 msgstr "Банковский перевод / ЕЗПЕ (SEPA)"
 
@@ -397,70 +406,91 @@ msgstr "Мы принимаем пожертвования в евро чере�
 msgid "Please remember that donations are deductible for U.S. income tax purposes only."
 msgstr "Помните, что пожертвования вычитаются только из подоходного налога в США."
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:27 donate/thunderbird/templates/pages/core/ways_to_give_page.html:10
+#: donate/templates/pages/core/ways_to_give_page_master.html:27
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:10
 #, python-format
 msgid "If your bank requests our physical address, it is %(address)s."
 msgstr "Если ваш банк запрашивает наш физический адрес, вот он — %(address)s."
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:33 donate/thunderbird/templates/pages/core/ways_to_give_page.html:17
+#: donate/templates/pages/core/ways_to_give_page_master.html:33
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:17
 msgid "Euros:"
 msgstr "Евро:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:35 donate/templates/pages/core/ways_to_give_page_master.html:48 donate/thunderbird/templates/pages/core/ways_to_give_page.html:19
+#: donate/templates/pages/core/ways_to_give_page_master.html:35
+#: donate/templates/pages/core/ways_to_give_page_master.html:48
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:19
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:32
 msgid "Account Currency:"
 msgstr "Валюта счета:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:35 donate/thunderbird/templates/pages/core/ways_to_give_page.html:19
+#: donate/templates/pages/core/ways_to_give_page_master.html:35
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:19
 msgid "Euro (EUR)"
 msgstr "Евро (EUR)"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:36 donate/templates/pages/core/ways_to_give_page_master.html:49 donate/thunderbird/templates/pages/core/ways_to_give_page.html:20
+#: donate/templates/pages/core/ways_to_give_page_master.html:36
+#: donate/templates/pages/core/ways_to_give_page_master.html:49
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:20
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:33
 msgid "Receiving Bank (Pay to):"
 msgstr "Банк-получатель:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:37 donate/templates/pages/core/ways_to_give_page_master.html:50 donate/thunderbird/templates/pages/core/ways_to_give_page.html:21
+#: donate/templates/pages/core/ways_to_give_page_master.html:37
+#: donate/templates/pages/core/ways_to_give_page_master.html:50
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:21
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:34
 msgid "City & Country/Region:"
 msgstr "Город и страна/Регион:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:37 donate/thunderbird/templates/pages/core/ways_to_give_page.html:21
+#: donate/templates/pages/core/ways_to_give_page_master.html:37
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:21
 msgid "Frankfurt, Germany"
 msgstr "Франкфурт, Германия"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:38 donate/templates/pages/core/ways_to_give_page_master.html:56 donate/thunderbird/templates/pages/core/ways_to_give_page.html:22
+#: donate/templates/pages/core/ways_to_give_page_master.html:38
+#: donate/templates/pages/core/ways_to_give_page_master.html:56
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:22
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:40
 msgid "SWIFT/BIC Code:"
 msgstr "Код SWIFT/BIC:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:39 donate/templates/pages/core/ways_to_give_page_master.html:53 donate/thunderbird/templates/pages/core/ways_to_give_page.html:23
+#: donate/templates/pages/core/ways_to_give_page_master.html:39
+#: donate/templates/pages/core/ways_to_give_page_master.html:53
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:23
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:37
 msgid "Beneficiary Name (For credit to):"
 msgstr "Имя получателя:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:40 donate/templates/pages/core/ways_to_give_page_master.html:57 donate/thunderbird/templates/pages/core/ways_to_give_page.html:24
+#: donate/templates/pages/core/ways_to_give_page_master.html:40
+#: donate/templates/pages/core/ways_to_give_page_master.html:57
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:24
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:41
 msgid "IBAN:"
 msgstr "IBAN:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:46 donate/thunderbird/templates/pages/core/ways_to_give_page.html:30
+#: donate/templates/pages/core/ways_to_give_page_master.html:46
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:30
 msgid "British Pound Sterling:"
 msgstr "Британские фунты стерлингов:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:48 donate/thunderbird/templates/pages/core/ways_to_give_page.html:32
+#: donate/templates/pages/core/ways_to_give_page_master.html:48
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:32
 msgid "British Pound Sterling (GBP)"
 msgstr "Британский фунт стерлингов (GBP)"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:50 donate/thunderbird/templates/pages/core/ways_to_give_page.html:34
+#: donate/templates/pages/core/ways_to_give_page_master.html:50
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:34
 msgid "London, United Kingdom"
 msgstr "Лондон, Великобритания"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:51 donate/thunderbird/templates/pages/core/ways_to_give_page.html:35
+#: donate/templates/pages/core/ways_to_give_page_master.html:51
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:35
 msgid "Bank Sort Code:"
 msgstr "Банковский код:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:52 donate/thunderbird/templates/pages/core/ways_to_give_page.html:36
+#: donate/templates/pages/core/ways_to_give_page_master.html:52
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:36
 msgid "Account Number (8 digits):"
 msgstr "Номер счёта (8 цифр):"
 
@@ -468,17 +498,14 @@ msgstr "Номер счёта (8 цифр):"
 msgid "Check (via postal service)"
 msgstr "Чек (через почту)"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:67 donate/thunderbird/templates/pages/core/ways_to_give_page.html:47
+#: donate/templates/pages/core/ways_to_give_page_master.html:67
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:47
 msgid "UPDATE March 20, 2020:"
 msgstr "ОБНОВЛЕНИЕ от 20 марта 2020 г.:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:68
-msgid ""
-"Please note that due to the “shelter in place” order recently implemented for California, processing and acknowledgment of check donations to the Mozilla Foundation will be indefinitely delayed. "
-"Rather than sending us a check, please consider making an <a href=\"/\">online donation</a> instead."
-msgstr ""
-"Обратите внимание, что недавно введённое в Калифорнии распоряжение о «домашнем карантине» привело к задержке в обработке и подтверждении пожертвований для Mozilla Foundation на неопределённый срок. "
-"Просим вас совершить <a href=\"/\">онлайн-пожертвование</a> вместо отправки нам чеков."
+msgid "Please note that due to the “shelter in place” order recently implemented for California, processing and acknowledgment of check donations to the Mozilla Foundation will be indefinitely delayed. Rather than sending us a check, please consider making an <a href=\"/\">online donation</a> instead."
+msgstr "Обратите внимание, что недавно введённое в Калифорнии распоряжение о «домашнем карантине» привело к задержке в обработке и подтверждении пожертвований для Mozilla Foundation на неопределённый срок. Просим вас совершить <a href=\"/\">онлайн-пожертвование</a> вместо отправки нам чеков."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:78
 #, python-format
@@ -502,16 +529,8 @@ msgid "Bitcoin"
 msgstr "Биткойн"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:109
-msgid ""
-"The Mozilla Foundation is a California non-profit corporation exempt from United States federal income taxation under IRC 501(c)(3) and a public charity classified under IRC sections 170(b)(1)(A) "
-"and 509(a)(1). Bitcoin donations Mozilla receives are considered charitable contributions under U.S. federal tax laws, to be used in its discretion for its charitable purposes. Because the IRS has "
-"indicated that it will treat bitcoin as property for U.S. tax purposes (see IRS Notice 2014-21), donations of bitcoin may be subject to special rules as to the amount of your charitable deduction, "
-"the documentation that must be provided to claim a tax deduction, or other matters."
-msgstr ""
-"Mozilla Foundation - калифорнийская некоммерческая корпорация, освобождённая от налогов на доход Соединённых Штатов на основании IRC 501(c)(3) и признанная благотворительной на основании IRC "
-"разделов 170(b)(1)(A) и 509(a)(1). Пожертвования в Биткойнах, получаемые Mozilla, рассматриваются федеральными налоговыми законами США, как благотворительные, которые можно использовать по своему "
-"усмотрению для благотворительных целей. Так как IRS указывает, что он будет считать биткойн имуществом для целей налогообложения в США (см. IRS уведомление 2014-21), пожертвования в биткойнах могут "
-"быть подвергнуты специальным правилам в части размера вычета на благотворительность, документации, которая должна быть предоставлена для заявки на вычет на благотворительность, или иным вопросам."
+msgid "The Mozilla Foundation is a California non-profit corporation exempt from United States federal income taxation under IRC 501(c)(3) and a public charity classified under IRC sections 170(b)(1)(A) and 509(a)(1). Bitcoin donations Mozilla receives are considered charitable contributions under U.S. federal tax laws, to be used in its discretion for its charitable purposes. Because the IRS has indicated that it will treat bitcoin as property for U.S. tax purposes (see IRS Notice 2014-21), donations of bitcoin may be subject to special rules as to the amount of your charitable deduction, the documentation that must be provided to claim a tax deduction, or other matters."
+msgstr "Mozilla Foundation - калифорнийская некоммерческая корпорация, освобождённая от налогов на доход Соединённых Штатов на основании IRC 501(c)(3) и признанная благотворительной на основании IRC разделов 170(b)(1)(A) и 509(a)(1). Пожертвования в Биткойнах, получаемые Mozilla, рассматриваются федеральными налоговыми законами США, как благотворительные, которые можно использовать по своему усмотрению для благотворительных целей. Так как IRS указывает, что он будет считать биткойн имуществом для целей налогообложения в США (см. IRS уведомление 2014-21), пожертвования в биткойнах могут быть подвергнуты специальным правилам в части размера вычета на благотворительность, документации, которая должна быть предоставлена для заявки на вычет на благотворительность, или иным вопросам."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:114
 #, python-format
@@ -548,7 +567,9 @@ msgstr "Подтвердить"
 msgid "Your Details"
 msgstr "Ваши детали"
 
-#: donate/templates/payment/card_master.html:60 donate/templates/payment/card_upsell_master.html:34 donate/templates/payment/newsletter_signup_master.html:30
+#: donate/templates/payment/card_master.html:60
+#: donate/templates/payment/card_upsell_master.html:34
+#: donate/templates/payment/newsletter_signup_master.html:30
 #: donate/templates/payment/paypal_upsell_master.html:34
 msgid "There were some errors with your form. Please amend the fields highlighted below."
 msgstr "При заполнении формы обнаружены некоторые ошибки. Пожалуйста, исправьте поля, выделенные ниже."
@@ -579,14 +600,8 @@ msgstr "CVV"
 
 #: donate/templates/payment/card_master.html:126
 #, python-format
-msgid ""
-"I authorize Mozilla Foundation to automatically charge my card every month in the amount indicated above, starting today and continuing each month on the same day, until I cancel. I understand that "
-"I must cancel at least 5 days before the next scheduled donation by email to <a href='mailto:%(email)s'>%(email)s</a>, and that I may only request a refund within 15 days from the date of a "
-"donation."
-msgstr ""
-"Я разрешаю Mozilla Foundation автоматически снимать средства с моей карты каждый месяц в указанном выше размере, начиная с сегодняшнего дня и каждый месяц того же числа, пока я это не отменю. Я "
-"понимаю, что я смогу отменить запланированное пожертвование только за как минимум 5 дней до даты его совершения, написав по адресу <a href='mailto:%(email)s'>%(email)s</a>, и то, что я смогу "
-"запросить возврат средств только в течение 15 дней с даты пожертвования."
+msgid "I authorize Mozilla Foundation to automatically charge my card every month in the amount indicated above, starting today and continuing each month on the same day, until I cancel. I understand that I must cancel at least 5 days before the next scheduled donation by email to <a href='mailto:%(email)s'>%(email)s</a>, and that I may only request a refund within 15 days from the date of a donation."
+msgstr "Я разрешаю Mozilla Foundation автоматически снимать средства с моей карты каждый месяц в указанном выше размере, начиная с сегодняшнего дня и каждый месяц того же числа, пока я это не отменю. Я понимаю, что я смогу отменить запланированное пожертвование только за как минимум 5 дней до даты его совершения, написав по адресу <a href='mailto:%(email)s'>%(email)s</a>, и то, что я смогу запросить возврат средств только в течение 15 дней с даты пожертвования."
 
 #: donate/templates/payment/card_master.html:128
 msgid "I authorize Mozilla Foundation to charge my card in the amount indicated above. I understand that I may only request a refund within 15 days from the date of the donation."
@@ -606,20 +621,27 @@ msgstr "Пожертвовать <span class=\"%(span_class)s\">%(formatted_amou
 msgid "Your donation helps keep the Web open and free. Thank you in advance for your gift."
 msgstr "Ваше пожертвование поможет сохранить Интернет открытым и свободным. Заранее благодарим за ваш подарок."
 
-#: donate/templates/payment/card_upsell_master.html:4 donate/templates/payment/paypal_upsell_master.html:4 donate/templates/payment/thank_you_master.html:4
+#: donate/templates/payment/card_upsell_master.html:4
+#: donate/templates/payment/paypal_upsell_master.html:4
+#: donate/templates/payment/thank_you_master.html:4
 msgid "Thank you"
 msgstr "Большое Вам Спасибо"
 
-#: donate/templates/payment/card_upsell_master.html:13 donate/templates/payment/newsletter_signup_master.html:13 donate/templates/payment/paypal_upsell_master.html:13
-#: donate/templates/payment/thank_you_master.html:12 donate/thunderbird/templates/payment/newsletter_signup.html:6
+#: donate/templates/payment/card_upsell_master.html:13
+#: donate/templates/payment/newsletter_signup_master.html:13
+#: donate/templates/payment/paypal_upsell_master.html:13
+#: donate/templates/payment/thank_you_master.html:12
+#: donate/thunderbird/templates/payment/newsletter_signup.html:6
 msgid "Thank you for your generous gift"
 msgstr "Большое Вам Спасибо за Ваш щедрый подарок"
 
-#: donate/templates/payment/card_upsell_master.html:17 donate/templates/payment/paypal_upsell_master.html:17
+#: donate/templates/payment/card_upsell_master.html:17
+#: donate/templates/payment/paypal_upsell_master.html:17
 msgid "We’d love to have you as a sustaining supporter of Mozilla. <b>Could you add a monthly donation starting next month?</b>"
 msgstr "Мы бы хотели, чтобы вы стали постоянным помощником Mozilla. <b>Не хотите ли вы настроить ежемесячное пожертвование, начиная со следующего месяца?</b>"
 
-#: donate/templates/payment/card_upsell_master.html:21 donate/templates/payment/paypal_upsell_master.html:21
+#: donate/templates/payment/card_upsell_master.html:21
+#: donate/templates/payment/paypal_upsell_master.html:21
 msgid "Yes, I will give:"
 msgstr "Да, я буду жертвовать:"
 
@@ -629,19 +651,15 @@ msgstr "Ежемесячно"
 
 #: donate/templates/payment/card_upsell_master.html:48
 #, python-format
-msgid ""
-"I authorize Mozilla Foundation to automatically charge my card every month in the amount indicated above, starting next month on the same date as today, and continuing each month afterwards until I "
-"cancel. I understand that I must cancel at least 5 days before the next scheduled donation by email to %(email)s, and that I may only request a refund within 15 days from the date of a donation."
-msgstr ""
-"Я разрешаю Mozilla Foundation автоматически снимать средства с моей карты каждый месяц в указанном выше размере, начиная со следующего месяца, такого же числа, как и сегодня, и продолжая каждый "
-"следующий месяц, пока я это не отменю. Я понимаю, что я смогу отменить запланированное пожертвование только за как минимум 5 дней до даты его совершения, написав по адресу %(email)s, и то, что я "
-"смогу запросить возврат средств только в течение 15 дней с даты пожертвования."
+msgid "I authorize Mozilla Foundation to automatically charge my card every month in the amount indicated above, starting next month on the same date as today, and continuing each month afterwards until I cancel. I understand that I must cancel at least 5 days before the next scheduled donation by email to %(email)s, and that I may only request a refund within 15 days from the date of a donation."
+msgstr "Я разрешаю Mozilla Foundation автоматически снимать средства с моей карты каждый месяц в указанном выше размере, начиная со следующего месяца, такого же числа, как и сегодня, и продолжая каждый следующий месяц, пока я это не отменю. Я понимаю, что я смогу отменить запланированное пожертвование только за как минимум 5 дней до даты его совершения, написав по адресу %(email)s, и то, что я смогу запросить возврат средств только в течение 15 дней с даты пожертвования."
 
 #: donate/templates/payment/card_upsell_master.html:53
 msgid "Donate Monthly"
 msgstr "Ежемесячные пожертвования"
 
-#: donate/templates/payment/card_upsell_master.html:56 donate/templates/payment/newsletter_signup_master.html:42
+#: donate/templates/payment/card_upsell_master.html:56
+#: donate/templates/payment/newsletter_signup_master.html:42
 msgid "No Thanks"
 msgstr "Нет, спасибо"
 
@@ -688,29 +706,36 @@ msgctxt "Email subject line"
 msgid "I donated to Mozilla today"
 msgstr "Я пожертвовал(а) Mozilla сегодня"
 
-#: donate/templates/payment/thank_you_master.html:27 donate/thunderbird/templates/payment/thank_you.html:16
+#: donate/templates/payment/thank_you_master.html:27
+#: donate/thunderbird/templates/payment/thank_you.html:16
 msgid "Share on Facebook"
 msgstr "Поделиться на Фейсбуке"
 
-#: donate/templates/payment/thank_you_master.html:31 donate/thunderbird/templates/pages/base_page.html:42 donate/thunderbird/templates/payment/thank_you.html:20
+#: donate/templates/payment/thank_you_master.html:31
+#: donate/thunderbird/templates/pages/base_page.html:42
+#: donate/thunderbird/templates/payment/thank_you.html:20
 msgid "Facebook"
 msgstr "Фейсбук"
 
-#: donate/templates/payment/thank_you_master.html:34 donate/thunderbird/templates/payment/thank_you.html:23
+#: donate/templates/payment/thank_you_master.html:34
+#: donate/thunderbird/templates/payment/thank_you.html:23
 msgid "Share on Twitter"
 msgstr "Поделиться в Твиттере"
 
-#: donate/templates/payment/thank_you_master.html:44 donate/thunderbird/templates/payment/thank_you.html:33
+#: donate/templates/payment/thank_you_master.html:44
+#: donate/thunderbird/templates/payment/thank_you.html:33
 msgctxt "Share button"
 msgid "Email"
 msgstr "Эл. почта"
 
-#: donate/templates/payment/thank_you_master.html:54 donate/thunderbird/templates/payment/thank_you.html:43
+#: donate/templates/payment/thank_you_master.html:54
+#: donate/thunderbird/templates/payment/thank_you.html:43
 msgctxt "Share button"
 msgid "Link"
 msgstr "Ссылка"
 
-#: donate/templates/payment/thank_you_master.html:55 donate/thunderbird/templates/payment/thank_you.html:44
+#: donate/templates/payment/thank_you_master.html:55
+#: donate/thunderbird/templates/payment/thank_you.html:44
 msgid "Copied"
 msgstr "Скопировано"
 
@@ -718,7 +743,9 @@ msgstr "Скопировано"
 msgid "Back"
 msgstr "Назад"
 
-#: donate/thunderbird/templates/base.html:9 donate/thunderbird/templates/pages/base_page.html:7 donate/thunderbird/templates/pages/base_page.html:14
+#: donate/thunderbird/templates/base.html:9
+#: donate/thunderbird/templates/pages/base_page.html:7
+#: donate/thunderbird/templates/pages/base_page.html:14
 #: donate/thunderbird/templates/pages/base_page.html:15
 msgctxt "Page title"
 msgid "Give to Thunderbird"
@@ -740,12 +767,8 @@ msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers 
 msgstr "Проблемы с пожертвованием? Посетите наши <a href=\"%(faq_url)s\">ЧЗВ</a> для получения ответов на часто задаваемые вопросы. Все ещё есть проблемы? <a href=\"%(help_url)s\">Свяжитесь с нами</a>."
 
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:27
-msgid ""
-"Contributions go to MZLA Technologies Corporation, a California corporation wholly owned by the Mozilla Foundation. Funds will be reserved for use in the Thunderbird project. Contributions are not "
-"tax-deductible as charitable contributions."
-msgstr ""
-"Пожертвования идут в MZLA Technologies Corporation, корпорацию, расположенную в Калифорнии, которой владеет Mozilla Foundation. Пожертвования будут зарезервированы для использования в проекте "
-"Thunderbird. Пожертвования не вычитаются из налога, как благотворительные взносы."
+msgid "Contributions go to MZLA Technologies Corporation, a California corporation wholly owned by the Mozilla Foundation. Funds will be reserved for use in the Thunderbird project. Contributions are not tax-deductible as charitable contributions."
+msgstr "Пожертвования идут в MZLA Technologies Corporation, корпорацию, расположенную в Калифорнии, которой владеет Mozilla Foundation. Пожертвования будут зарезервированы для использования в проекте Thunderbird. Пожертвования не вычитаются из налога, как благотворительные взносы."
 
 #: donate/thunderbird/templates/pages/base_page.html:57
 msgid "Cookies"
@@ -765,17 +788,14 @@ msgstr "Ваша загрузка должна начаться автомати
 msgid "We accept contributions in Euros through Single European Payment Area (SEPA) transfer, and British Pounds through BACS transfer."
 msgstr "Мы принимаем взносы в евро через Единую Зону Платежей в Евро (SEPA), а британские фунты через BACS."
 
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:25 donate/thunderbird/templates/pages/core/ways_to_give_page.html:42
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:25
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:42
 msgid "Memo field:"
 msgstr "Примечание:"
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:48
-msgid ""
-"Please note that due to the “shelter in place” order recently implemented for California, processing and acknowledgment of check donations to Thunderbird/MZLA Technologies will be indefinitely "
-"delayed. Rather than sending us a check, please consider making an <a href=\"/\">online donation</a> instead."
-msgstr ""
-"Обратите внимание, что недавно введённое в Калифорнии распоряжение о «домашнем карантине» привело к задержке в обработке и подтверждении пожертвований Thunderbird/MZLA Technologies на неопределённый"
-" срок. Просим вас совершить <a href=\"/\">онлайн-пожертвование</a> вместо отправки нам чеков."
+msgid "Please note that due to the “shelter in place” order recently implemented for California, processing and acknowledgment of check donations to Thunderbird/MZLA Technologies will be indefinitely delayed. Rather than sending us a check, please consider making an <a href=\"/\">online donation</a> instead."
+msgstr "Обратите внимание, что недавно введённое в Калифорнии распоряжение о «домашнем карантине» привело к задержке в обработке и подтверждении пожертвований Thunderbird/MZLA Technologies на неопределённый срок. Просим вас совершить <a href=\"/\">онлайн-пожертвование</a> вместо отправки нам чеков."
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:56
 #, python-format
@@ -792,33 +812,22 @@ msgstr "Большое Вам Спасибо за Ваш подарок."
 
 #: donate/thunderbird/templates/payment/card.html:12
 #, python-format
-msgid ""
-"I authorize MZLA Technologies Corporation to automatically charge my card every month in the amount indicated above, starting today and continuing each month on the same day, until I cancel. I "
-"understand that I must cancel at least 5 days before the next scheduled donation by <a href='%(help_url)s'>submitting a request</a>, and that I may only request a refund within 15 days from the date"
-" of a donation."
-msgstr ""
-"Я разрешаю корпорации MZLA Technologies автоматически снимать средства с моей карты каждый месяц в указанном выше размере, начиная с сегодняшнего дня и каждый месяц того же числа, пока я это не "
-"отменю. Я понимаю, что я смогу отменить запланированное пожертвование только за как минимум 5 дней до даты его совершения, путём <a href='%(help_url)s'>отправки запроса</a>, и то, что я смогу "
-"запросить возврат средств только в течение 15 дней с даты пожертвования."
+msgid "I authorize MZLA Technologies Corporation to automatically charge my card every month in the amount indicated above, starting today and continuing each month on the same day, until I cancel. I understand that I must cancel at least 5 days before the next scheduled donation by <a href='%(help_url)s'>submitting a request</a>, and that I may only request a refund within 15 days from the date of a donation."
+msgstr "Я разрешаю корпорации MZLA Technologies автоматически снимать средства с моей карты каждый месяц в указанном выше размере, начиная с сегодняшнего дня и каждый месяц того же числа, пока я это не отменю. Я понимаю, что я смогу отменить запланированное пожертвование только за как минимум 5 дней до даты его совершения, путём <a href='%(help_url)s'>отправки запроса</a>, и то, что я смогу запросить возврат средств только в течение 15 дней с даты пожертвования."
 
 #: donate/thunderbird/templates/payment/card.html:14
 msgid "I authorize MZLA Technologies Corporation to charge my card in the amount indicated above. I understand that I may only request a refund within 15 days from the date of the donation."
 msgstr "Я разрешаю корпорации MZLA Technologies снимать средства с моей карты в указанном выше размере. Я понимаю, что я смогу запросить возврат средств только в течение 15 дней с даты пожертвования."
 
-#: donate/thunderbird/templates/payment/card_upsell.html:6 donate/thunderbird/templates/payment/paypal_upsell.html:6
+#: donate/thunderbird/templates/payment/card_upsell.html:6
+#: donate/thunderbird/templates/payment/paypal_upsell.html:6
 msgid "We’d love to have you as a sustaining supporter of Thunderbird. <b>Could you add a monthly donation starting next month?</b>"
 msgstr "Мы бы хотели, чтобы вы стали постоянным помощником Thunderbird. <b>Не хотите ли вы настроить ежемесячное пожертвование, начиная со следующего месяца?</b>"
 
 #: donate/thunderbird/templates/payment/card_upsell.html:10
 #, python-format
-msgid ""
-"I authorize MZLA Technologies Corporation to automatically charge my card every month in the amount indicated above, starting next month on the same date as today, and continuing each month "
-"afterwards until I cancel. I understand that I must cancel at least 5 days before the next scheduled donation by <a href=\"%(help_url)s\">submitting this form</a>, and that I may only request a "
-"refund within 15 days from the date of a donation."
-msgstr ""
-"Я разрешаю корпорации MZLA Technologies автоматически снимать средства с моей карты каждый месяц в указанном выше размере, начиная со следующего месяца, такого же числа, как и сегодня, и продолжая "
-"каждый следующий месяц, пока я это не отменю. Я понимаю, что я смогу отменить запланированное пожертвование только как минимум за 5 дней до даты его совершения, <a href=\"%(help_url)s\">заполнив и "
-"отправив эту форму</a>, и то, что я смогу запросить возврат средств только в течение 15 дней с даты пожертвования."
+msgid "I authorize MZLA Technologies Corporation to automatically charge my card every month in the amount indicated above, starting next month on the same date as today, and continuing each month afterwards until I cancel. I understand that I must cancel at least 5 days before the next scheduled donation by <a href=\"%(help_url)s\">submitting this form</a>, and that I may only request a refund within 15 days from the date of a donation."
+msgstr "Я разрешаю корпорации MZLA Technologies автоматически снимать средства с моей карты каждый месяц в указанном выше размере, начиная со следующего месяца, такого же числа, как и сегодня, и продолжая каждый следующий месяц, пока я это не отменю. Я понимаю, что я смогу отменить запланированное пожертвование только как минимум за 5 дней до даты его совершения, <a href=\"%(help_url)s\">заполнив и отправив эту форму</a>, и то, что я смогу запросить возврат средств только в течение 15 дней с даты пожертвования."
 
 #: donate/thunderbird/templates/payment/thank_you.html:6
 #, python-format

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-31 16:59+0000\n"
+"POT-Creation-Date: 2020-05-27 09:14+0000\n"
 "PO-Revision-Date: 2020-03-04 20:10+0000\n"
 "Last-Translator: Théo Chevalier <theo.chevalier11@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -197,6 +197,11 @@ msgstr "¿Tuviste problemas al donar? Visita nuestras <a href=\"%(faq_url)s\">pr
 msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in Mountain View, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
 msgstr "Las contribuciones se destinan a la Fundación Mozilla, una organización sin fines de lucro conforme al inciso 501(c)(3) del código fiscal de EE. UU., con sede en Mountain View, California, para utilizarlas a su discreción con fines de caridad. Son deducibles de impuestos en EE. UU. hasta donde lo permita la legislación."
 
+#: donate/templates/fragments/language_switcher.html:10
+#: donate/templates/pages/core/contributor_support_page_master.html:50
+msgid "Language"
+msgstr "Idioma"
+
 #: donate/templates/pages/base_page_master.html:26
 msgid "Initiatives"
 msgstr "Iniciativas"
@@ -279,7 +284,7 @@ msgstr "Privacidad"
 msgid "License"
 msgstr "Licencia"
 
-#: donate/templates/pages/base_page_master.html:164
+#: donate/templates/pages/base_page_master.html:167
 #, python-format
 msgid "Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a %(link_attributes)s>%(site_url)s</a>."
 msgstr "Mozilla es una organización sin fines de lucro que se dedica a ponerte a ti en control de tu experiencia en línea y a conformar el futuro de Internet para beneficio del público <a %(link_attributes)s>%(site_url)s</a>."
@@ -322,10 +327,6 @@ msgstr ""
 #: donate/templates/pages/core/contributor_support_page_master.html:40
 msgid "Contact Name"
 msgstr ""
-
-#: donate/templates/pages/core/contributor_support_page_master.html:50
-msgid "Language"
-msgstr "Idioma"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:53
 msgctxt "Option in 'Language' dropdown"

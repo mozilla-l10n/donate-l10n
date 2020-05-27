@@ -2,13 +2,13 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-31 16:59+0000\n"
+"POT-Creation-Date: 2020-05-27 09:14+0000\n"
 "PO-Revision-Date: 2020-05-02 05:25+0000\n"
 "Last-Translator: robbp <robbpaun@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -36,7 +36,8 @@ msgstr "Introdu o adresă de e-mail validă."
 msgid "Donations must be %(amount)s or more"
 msgstr "Donațiile trebuie să fie de %(amount)s sau mai mult"
 
-#: donate/payments/forms.py:52 donate/payments/forms.py:66 donate/payments/forms.py:113
+#: donate/payments/forms.py:52 donate/payments/forms.py:66
+#: donate/payments/forms.py:113
 msgid "Amount"
 msgstr "Suma"
 
@@ -48,7 +49,8 @@ msgstr "Prenume"
 msgid "Last name"
 msgstr "Nume"
 
-#: donate/payments/forms.py:81 donate/payments/forms.py:123 donate/templates/pages/core/contributor_support_page_master.html:45
+#: donate/payments/forms.py:81 donate/payments/forms.py:123
+#: donate/templates/pages/core/contributor_support_page_master.html:45
 msgid "Email"
 msgstr "E-mail"
 
@@ -126,7 +128,10 @@ msgstr "Ne pare rău, pagina nu există"
 msgid "Go to our home page"
 msgstr "Accesează pagina ta de start"
 
-#: donate/templates/base_master.html:8 donate/templates/pages/base_page_master.html:6 donate/templates/pages/base_page_master.html:13 donate/templates/pages/base_page_master.html:14
+#: donate/templates/base_master.html:8
+#: donate/templates/pages/base_page_master.html:6
+#: donate/templates/pages/base_page_master.html:13
+#: donate/templates/pages/base_page_master.html:14
 msgctxt "Page title"
 msgid "Donate to Mozilla"
 msgstr "Donează pentru Mozilla"
@@ -139,19 +144,27 @@ msgstr "UNICĂ"
 msgid "MONTHLY"
 msgstr "LUNARĂ"
 
-#: donate/templates/fragments/donate_form.html:41 donate/templates/fragments/donate_form.html:42 donate/templates/fragments/donate_form.html:105 donate/templates/fragments/donate_form.html:106
+#: donate/templates/fragments/donate_form.html:41
+#: donate/templates/fragments/donate_form.html:42
+#: donate/templates/fragments/donate_form.html:105
+#: donate/templates/fragments/donate_form.html:106
 msgid "Other amount"
 msgstr "Altă sumă"
 
-#: donate/templates/fragments/donate_form.html:48 donate/templates/fragments/donate_form.html:112
+#: donate/templates/fragments/donate_form.html:48
+#: donate/templates/fragments/donate_form.html:112
 msgid "Choose Payment"
 msgstr "Alege forma de plată"
 
-#: donate/templates/fragments/donate_form.html:54 donate/templates/fragments/donate_form.html:118 donate/templates/payment/card_master.html:97
+#: donate/templates/fragments/donate_form.html:54
+#: donate/templates/fragments/donate_form.html:118
+#: donate/templates/payment/card_master.html:97
 msgid "SECURE"
 msgstr "SECURIZAT"
 
-#: donate/templates/fragments/donate_form.html:60 donate/templates/fragments/donate_form.html:124 donate/templates/pages/base_page_master.html:134
+#: donate/templates/fragments/donate_form.html:60
+#: donate/templates/fragments/donate_form.html:124
+#: donate/templates/pages/base_page_master.html:134
 msgid "Donate"
 msgstr "Donează"
 
@@ -159,14 +172,11 @@ msgstr "Donează"
 msgid "per month"
 msgstr "pe lună"
 
-#: donate/templates/fragments/donate_form_disclaimer_master.html:6 donate/thunderbird/templates/fragments/donate_form_disclaimer.html:12
+#: donate/templates/fragments/donate_form_disclaimer_master.html:6
+#: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:12
 #, python-format
-msgid ""
-"Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your "
-"donation will be stored by Mozilla."
-msgstr ""
-"Detaliile plății vor fi procesate de <a href=\"%(braintree_url)s\">Braintree</a>, o companie PayPal (pentru carduri de credit/debit) sau <a href=\"%(paypal_url)s\">PayPal</a> și o înregistrare a "
-"donației tale va fi păstrată de Mozilla."
+msgid "Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Mozilla."
+msgstr "Detaliile plății vor fi procesate de <a href=\"%(braintree_url)s\">Braintree</a>, o companie PayPal (pentru carduri de credit/debit) sau <a href=\"%(paypal_url)s\">PayPal</a> și o înregistrare a donației tale va fi păstrată de Mozilla."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:9
 #, python-format
@@ -181,17 +191,16 @@ msgstr "Alte moduri de a face donații: <a href=\"%(wire_transfer_url)s\">SEPA/B
 #: donate/templates/fragments/donate_form_disclaimer_master.html:23
 #, python-format
 msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"mailto:%(email)s\">Send us an email</a>."
-msgstr ""
-"Probleme cu donațiile? Intră pe <a href=\"%(faq_url)s\">Întrebări frecvente</a> și caută răspunsuri la cele mai frecvente întrebări. Tot mai ai probleme? <a href=\"mailto:%(email)s\">Scrie-ne pe "
-"e-mail</a>."
+msgstr "Probleme cu donațiile? Intră pe <a href=\"%(faq_url)s\">Întrebări frecvente</a> și caută răspunsuri la cele mai frecvente întrebări. Tot mai ai probleme? <a href=\"mailto:%(email)s\">Scrie-ne pe e-mail</a>."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:30
-msgid ""
-"Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in Mountain View, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S."
-" to the fullest extent permitted by law."
-msgstr ""
-"Contribuțiile merg către Mozilla Foundation, o organizație constituită în temeiul secțiunii 501(c)(3) a codului fiscal S.U.A., cu sediul în Mountain View, California, de utilizat la libera sa "
-"alegere în scopuri caritabile. Sumele sunt deductibile fiscal în S.U.A. în măsura maximă permisă de lege."
+msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in Mountain View, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
+msgstr "Contribuțiile merg către Mozilla Foundation, o organizație constituită în temeiul secțiunii 501(c)(3) a codului fiscal S.U.A., cu sediul în Mountain View, California, de utilizat la libera sa alegere în scopuri caritabile. Sumele sunt deductibile fiscal în S.U.A. în măsura maximă permisă de lege."
+
+#: donate/templates/fragments/language_switcher.html:10
+#: donate/templates/pages/core/contributor_support_page_master.html:50
+msgid "Language"
+msgstr "Limbă"
 
 #: donate/templates/pages/base_page_master.html:26
 msgid "Initiatives"
@@ -235,14 +244,15 @@ msgstr "Îți mulțumim!"
 
 #: donate/templates/pages/base_page_master.html:92
 msgid "If you haven’t previously confirmed a subscription to a Mozilla-related newsletter you may have to do so. Please check your inbox or your spam filter for an email from us."
-msgstr ""
-"Dacă nu ai confirmat anterior o abonare la un buletin de știri Mozilla, este posibil să fie nevoie să o faci. Te rugăm să verifici mesajele primite sau dosarul spam pentru a găsi e-mailul de la noi."
+msgstr "Dacă nu ai confirmat anterior o abonare la un buletin de știri Mozilla, este posibil să fie nevoie să o faci. Te rugăm să verifici mesajele primite sau dosarul spam pentru a găsi e-mailul de la noi."
 
 #: donate/templates/pages/base_page_master.html:107
 msgid "More about us"
 msgstr "Mai multe despre noi"
 
-#: donate/templates/pages/base_page_master.html:111 donate/templates/payment/thank_you_master.html:38 donate/thunderbird/templates/pages/base_page.html:36
+#: donate/templates/pages/base_page_master.html:111
+#: donate/templates/payment/thank_you_master.html:38
+#: donate/thunderbird/templates/pages/base_page.html:36
 #: donate/thunderbird/templates/payment/thank_you.html:27
 msgid "Twitter"
 msgstr "Twitter"
@@ -255,15 +265,18 @@ msgstr "Instagram"
 msgid "GitHub"
 msgstr "GitHub"
 
-#: donate/templates/pages/base_page_master.html:137 donate/thunderbird/templates/pages/base_page.html:59
+#: donate/templates/pages/base_page_master.html:137
+#: donate/thunderbird/templates/pages/base_page.html:59
 msgid "Participation Guidelines"
 msgstr "Ghid de participare"
 
-#: donate/templates/pages/base_page_master.html:140 donate/thunderbird/templates/pages/base_page.html:51
+#: donate/templates/pages/base_page_master.html:140
+#: donate/thunderbird/templates/pages/base_page.html:51
 msgid "Legal"
 msgstr "Mențiuni legale"
 
-#: donate/templates/pages/base_page_master.html:143 donate/thunderbird/templates/pages/base_page.html:54
+#: donate/templates/pages/base_page_master.html:143
+#: donate/thunderbird/templates/pages/base_page.html:54
 msgid "Privacy"
 msgstr "Confidențialitate"
 
@@ -271,25 +284,26 @@ msgstr "Confidențialitate"
 msgid "License"
 msgstr "Licență"
 
-#: donate/templates/pages/base_page_master.html:164
+#: donate/templates/pages/base_page_master.html:167
 #, python-format
-msgid ""
-"Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a "
-"%(link_attributes)s>%(site_url)s</a>."
-msgstr ""
-"Mozilla este o organizație nonprofit globală dedicată să îți redea controlul asupra experienței online și să modeleze viitorul webului pentru binele public. Vizitează-ne pe <a "
-"%(link_attributes)s>%(site_url)s</a>."
+msgid "Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a %(link_attributes)s>%(site_url)s</a>."
+msgstr "Mozilla este o organizație nonprofit globală dedicată să îți redea controlul asupra experienței online și să modeleze viitorul webului pentru binele public. Vizitează-ne pe <a %(link_attributes)s>%(site_url)s</a>."
 
-#: donate/templates/pages/core/campaign_page.html:38 donate/templates/pages/core/ways_to_give_page_master.html:12
+#: donate/templates/pages/core/campaign_page.html:38
+#: donate/templates/pages/core/ways_to_give_page_master.html:12
 msgctxt "Button"
 msgid "DONATE NOW"
 msgstr "DONEAZĂ ACUM"
 
-#: donate/templates/pages/core/campaign_page.html:52 donate/templates/pages/core/landing_page_master.html:36 donate/templates/payment/card_master.html:159
+#: donate/templates/pages/core/campaign_page.html:52
+#: donate/templates/pages/core/landing_page_master.html:36
+#: donate/templates/payment/card_master.html:159
 msgid "Seal of Charity Navigator 4-Star"
 msgstr "Sigiliu Charity Navigator 4 stele"
 
-#: donate/templates/pages/core/campaign_page.html:55 donate/templates/pages/core/landing_page_master.html:39 donate/templates/payment/card_master.html:162
+#: donate/templates/pages/core/campaign_page.html:55
+#: donate/templates/pages/core/landing_page_master.html:39
+#: donate/templates/payment/card_master.html:162
 msgid "Seal of GuideStar Gold 2019"
 msgstr "Sigiliu GuideStar Gold 2019"
 
@@ -307,19 +321,12 @@ msgid "We will get back to you soon."
 msgstr "Te vom contacta în curând."
 
 #: donate/templates/pages/core/contributor_support_page_master.html:28
-#| msgid "If you need help with a contribution, fill out this form and we’ll get back to you soon."
 msgid "If you need help with a contribution to MZLA/Thunderbird, fill out this form and a Thunderbird donor care representative will get back to you as soon as possible."
-msgstr ""
-"Dacă ai nevoie de ajutor cu o contribuție pentru MZLA/Thunderbird, completează acest formular și un reprezentant pentru asistență acordată donatorilor Thunderbird te va contacta cât mai curând "
-"posibil."
+msgstr "Dacă ai nevoie de ajutor cu o contribuție pentru MZLA/Thunderbird, completează acest formular și un reprezentant pentru asistență acordată donatorilor Thunderbird te va contacta cât mai curând posibil."
 
 #: donate/templates/pages/core/contributor_support_page_master.html:40
 msgid "Contact Name"
 msgstr "Nume de contact"
-
-#: donate/templates/pages/core/contributor_support_page_master.html:50
-msgid "Language"
-msgstr "Limbă"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:53
 msgctxt "Option in 'Language' dropdown"
@@ -366,15 +373,14 @@ msgstr "Descriere"
 #: donate/templates/pages/core/contributor_support_page_master.html:75
 #, python-format
 msgid "Mozilla will only use your submitted information for purposes of communicating with you about your request. See our <a href=\"%(privacy_policy)s\">privacy policy</a> for further information."
-msgstr ""
-"Mozilla va folosi informațiile pe care le-ai furnizat numai în scopul comunicării cu tine despre cererea transmisă. Vezi <a href=\"%(privacy_policy)s\">politica de confidențialitate</a> pentru "
-"informații suplimentare."
+msgstr "Mozilla va folosi informațiile pe care le-ai furnizat numai în scopul comunicării cu tine despre cererea transmisă. Vezi <a href=\"%(privacy_policy)s\">politica de confidențialitate</a> pentru informații suplimentare."
 
 #: donate/templates/pages/core/contributor_support_page_master.html:77
 msgid "Submit"
 msgstr "Trimite"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:4 donate/templates/pages/core/ways_to_give_page_master.html:11
+#: donate/templates/pages/core/ways_to_give_page_master.html:4
+#: donate/templates/pages/core/ways_to_give_page_master.html:11
 msgid "Ways to Give"
 msgstr "Modalități de donație"
 
@@ -387,7 +393,8 @@ msgstr "Card de credit / debit și PayPal"
 msgid "<a href=\"%(ways_to_give_link)s\">Go to this link</a> to make a secure online donation right now."
 msgstr "<a href=\"%(ways_to_give_link)s\">Accesează acest link</a> pentru a face o donație online securizată chiar acum."
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:23 donate/thunderbird/templates/pages/core/ways_to_give_page.html:7
+#: donate/templates/pages/core/ways_to_give_page_master.html:23
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:7
 msgid "Bank Transfer / SEPA"
 msgstr "Virament bancar / SEPA"
 
@@ -399,70 +406,91 @@ msgstr "Acceptăm donații în euro prin viramente SEPA (Zona unică de plăți 
 msgid "Please remember that donations are deductible for U.S. income tax purposes only."
 msgstr "Îți reamintim că donațiile sunt cheltuieli deductibile în scopul impozitului pe venit numai în SUA."
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:27 donate/thunderbird/templates/pages/core/ways_to_give_page.html:10
+#: donate/templates/pages/core/ways_to_give_page_master.html:27
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:10
 #, python-format
 msgid "If your bank requests our physical address, it is %(address)s."
 msgstr "Dacă banca solicită adresa noastră poștală, acesta este: %(address)s."
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:33 donate/thunderbird/templates/pages/core/ways_to_give_page.html:17
+#: donate/templates/pages/core/ways_to_give_page_master.html:33
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:17
 msgid "Euros:"
 msgstr "Euro:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:35 donate/templates/pages/core/ways_to_give_page_master.html:48 donate/thunderbird/templates/pages/core/ways_to_give_page.html:19
+#: donate/templates/pages/core/ways_to_give_page_master.html:35
+#: donate/templates/pages/core/ways_to_give_page_master.html:48
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:19
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:32
 msgid "Account Currency:"
 msgstr "Moneda contului:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:35 donate/thunderbird/templates/pages/core/ways_to_give_page.html:19
+#: donate/templates/pages/core/ways_to_give_page_master.html:35
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:19
 msgid "Euro (EUR)"
 msgstr "Euro (EUR)"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:36 donate/templates/pages/core/ways_to_give_page_master.html:49 donate/thunderbird/templates/pages/core/ways_to_give_page.html:20
+#: donate/templates/pages/core/ways_to_give_page_master.html:36
+#: donate/templates/pages/core/ways_to_give_page_master.html:49
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:20
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:33
 msgid "Receiving Bank (Pay to):"
 msgstr "Banca beneficiarului (plată către):"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:37 donate/templates/pages/core/ways_to_give_page_master.html:50 donate/thunderbird/templates/pages/core/ways_to_give_page.html:21
+#: donate/templates/pages/core/ways_to_give_page_master.html:37
+#: donate/templates/pages/core/ways_to_give_page_master.html:50
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:21
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:34
 msgid "City & Country/Region:"
 msgstr "Orașul și țara/regiunea:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:37 donate/thunderbird/templates/pages/core/ways_to_give_page.html:21
+#: donate/templates/pages/core/ways_to_give_page_master.html:37
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:21
 msgid "Frankfurt, Germany"
 msgstr "Frankfurt, Germania"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:38 donate/templates/pages/core/ways_to_give_page_master.html:56 donate/thunderbird/templates/pages/core/ways_to_give_page.html:22
+#: donate/templates/pages/core/ways_to_give_page_master.html:38
+#: donate/templates/pages/core/ways_to_give_page_master.html:56
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:22
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:40
 msgid "SWIFT/BIC Code:"
 msgstr "Cod SWIFT/BIC:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:39 donate/templates/pages/core/ways_to_give_page_master.html:53 donate/thunderbird/templates/pages/core/ways_to_give_page.html:23
+#: donate/templates/pages/core/ways_to_give_page_master.html:39
+#: donate/templates/pages/core/ways_to_give_page_master.html:53
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:23
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:37
 msgid "Beneficiary Name (For credit to):"
 msgstr "Numele beneficiarului (creditare către):"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:40 donate/templates/pages/core/ways_to_give_page_master.html:57 donate/thunderbird/templates/pages/core/ways_to_give_page.html:24
+#: donate/templates/pages/core/ways_to_give_page_master.html:40
+#: donate/templates/pages/core/ways_to_give_page_master.html:57
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:24
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:41
 msgid "IBAN:"
 msgstr "IBAN:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:46 donate/thunderbird/templates/pages/core/ways_to_give_page.html:30
+#: donate/templates/pages/core/ways_to_give_page_master.html:46
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:30
 msgid "British Pound Sterling:"
 msgstr "Lire sterline:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:48 donate/thunderbird/templates/pages/core/ways_to_give_page.html:32
+#: donate/templates/pages/core/ways_to_give_page_master.html:48
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:32
 msgid "British Pound Sterling (GBP)"
 msgstr "Lire sterline (GBP)"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:50 donate/thunderbird/templates/pages/core/ways_to_give_page.html:34
+#: donate/templates/pages/core/ways_to_give_page_master.html:50
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:34
 msgid "London, United Kingdom"
 msgstr "Londra, Regatul Unit"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:51 donate/thunderbird/templates/pages/core/ways_to_give_page.html:35
+#: donate/templates/pages/core/ways_to_give_page_master.html:51
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:35
 msgid "Bank Sort Code:"
 msgstr "Codul de sort al băncii:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:52 donate/thunderbird/templates/pages/core/ways_to_give_page.html:36
+#: donate/templates/pages/core/ways_to_give_page_master.html:52
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:36
 msgid "Account Number (8 digits):"
 msgstr "Numărul contului (8 cifre):"
 
@@ -470,17 +498,14 @@ msgstr "Numărul contului (8 cifre):"
 msgid "Check (via postal service)"
 msgstr "Cec (prin serviciu poștal)"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:67 donate/thunderbird/templates/pages/core/ways_to_give_page.html:47
+#: donate/templates/pages/core/ways_to_give_page_master.html:67
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:47
 msgid "UPDATE March 20, 2020:"
 msgstr "ACTUALIZARE 20 martie 2020:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:68
-msgid ""
-"Please note that due to the “shelter in place” order recently implemented for California, processing and acknowledgment of check donations to the Mozilla Foundation will be indefinitely delayed. "
-"Rather than sending us a check, please consider making an <a href=\"/\">online donation</a> instead."
-msgstr ""
-"Te rugăm să reții că, din cauza ordinului „stăm acasă”, implementat recent pentru California, procesarea și confirmarea donațiilor prin cec efectuate către Fundația Mozilla vor fi întârziate pe o "
-"perioadă nedeterminată. În loc să ne trimiți un cec, te rugăm să iei în considerare să faci o <a href=\"/\"> donație online </a>."
+msgid "Please note that due to the “shelter in place” order recently implemented for California, processing and acknowledgment of check donations to the Mozilla Foundation will be indefinitely delayed. Rather than sending us a check, please consider making an <a href=\"/\">online donation</a> instead."
+msgstr "Te rugăm să reții că, din cauza ordinului „stăm acasă”, implementat recent pentru California, procesarea și confirmarea donațiilor prin cec efectuate către Fundația Mozilla vor fi întârziate pe o perioadă nedeterminată. În loc să ne trimiți un cec, te rugăm să iei în considerare să faci o <a href=\"/\"> donație online </a>."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:78
 #, python-format
@@ -504,17 +529,8 @@ msgid "Bitcoin"
 msgstr "Bitcoin"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:109
-msgid ""
-"The Mozilla Foundation is a California non-profit corporation exempt from United States federal income taxation under IRC 501(c)(3) and a public charity classified under IRC sections 170(b)(1)(A) "
-"and 509(a)(1). Bitcoin donations Mozilla receives are considered charitable contributions under U.S. federal tax laws, to be used in its discretion for its charitable purposes. Because the IRS has "
-"indicated that it will treat bitcoin as property for U.S. tax purposes (see IRS Notice 2014-21), donations of bitcoin may be subject to special rules as to the amount of your charitable deduction, "
-"the documentation that must be provided to claim a tax deduction, or other matters."
-msgstr ""
-"Fundația Mozilla este o corporație nonprofit din California, scutită de impozit federal pe venit în temeiul secțiunii 501(c)(3) IRC (Codul Fiscal privind Veniturile Interne din S.U.A.) și este o "
-"organizație caritabilă publică, clasificată sub secțiunile 170(b)(1)(A) și 509(a)(1) IRC. Donațiile primite de Mozilla în bitcoin sunt considerate contribuții caritabile în temeiul legislației "
-"fiscale federale S.U.A., de utilizat la libera sa alegere în scopuri caritabile. Deoarece Agenția de Administrare Fiscală a Statelor Unite (IRS) a indicat faptul că va trata bitcoinul ca proprietate"
-" în scopuri fiscale în S.U.A. (a se vedea Notificarea IRS 2014-21), donațiile în bitcoin pot face obiectul unor reguli speciale privind sumele deductibile aplicabile donațiilor în scopuri caritabile"
-" și documentația justificativă necesară pentru deducerile din impozit sau alte aspecte."
+msgid "The Mozilla Foundation is a California non-profit corporation exempt from United States federal income taxation under IRC 501(c)(3) and a public charity classified under IRC sections 170(b)(1)(A) and 509(a)(1). Bitcoin donations Mozilla receives are considered charitable contributions under U.S. federal tax laws, to be used in its discretion for its charitable purposes. Because the IRS has indicated that it will treat bitcoin as property for U.S. tax purposes (see IRS Notice 2014-21), donations of bitcoin may be subject to special rules as to the amount of your charitable deduction, the documentation that must be provided to claim a tax deduction, or other matters."
+msgstr "Fundația Mozilla este o corporație nonprofit din California, scutită de impozit federal pe venit în temeiul secțiunii 501(c)(3) IRC (Codul Fiscal privind Veniturile Interne din S.U.A.) și este o organizație caritabilă publică, clasificată sub secțiunile 170(b)(1)(A) și 509(a)(1) IRC. Donațiile primite de Mozilla în bitcoin sunt considerate contribuții caritabile în temeiul legislației fiscale federale S.U.A., de utilizat la libera sa alegere în scopuri caritabile. Deoarece Agenția de Administrare Fiscală a Statelor Unite (IRS) a indicat faptul că va trata bitcoinul ca proprietate în scopuri fiscale în S.U.A. (a se vedea Notificarea IRS 2014-21), donațiile în bitcoin pot face obiectul unor reguli speciale privind sumele deductibile aplicabile donațiilor în scopuri caritabile și documentația justificativă necesară pentru deducerile din impozit sau alte aspecte."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:114
 #, python-format
@@ -551,7 +567,9 @@ msgstr "Confirmă"
 msgid "Your Details"
 msgstr "Detaliile tale"
 
-#: donate/templates/payment/card_master.html:60 donate/templates/payment/card_upsell_master.html:34 donate/templates/payment/newsletter_signup_master.html:30
+#: donate/templates/payment/card_master.html:60
+#: donate/templates/payment/card_upsell_master.html:34
+#: donate/templates/payment/newsletter_signup_master.html:30
 #: donate/templates/payment/paypal_upsell_master.html:34
 msgid "There were some errors with your form. Please amend the fields highlighted below."
 msgstr "Au fost câteva erori cu formularul tău. Te rugăm să modifici câmpurile evidențiate mai jos."
@@ -582,14 +600,8 @@ msgstr "CVV"
 
 #: donate/templates/payment/card_master.html:126
 #, python-format
-msgid ""
-"I authorize Mozilla Foundation to automatically charge my card every month in the amount indicated above, starting today and continuing each month on the same day, until I cancel. I understand that "
-"I must cancel at least 5 days before the next scheduled donation by email to <a href='mailto:%(email)s'>%(email)s</a>, and that I may only request a refund within 15 days from the date of a "
-"donation."
-msgstr ""
-"Autorizez Fundația Mozilla să tragă automat din contul meu de card, în fiecare lună, suma indicată mai sus, începând cu data de astăzi și continuând în fiecare lună la aceeași dată, până la anularea"
-" de către mine. Înțeleg că anularea trebuie efectuată cu cel puțin 5 zile înainte de următoarea donație planificată, prin mesaj pe e-mail trimis la <a href='mailto:%(email)s'>%(email)s</a> și că pot"
-" solicita o rambursare numai în termen de 15 zile de la data unei donații."
+msgid "I authorize Mozilla Foundation to automatically charge my card every month in the amount indicated above, starting today and continuing each month on the same day, until I cancel. I understand that I must cancel at least 5 days before the next scheduled donation by email to <a href='mailto:%(email)s'>%(email)s</a>, and that I may only request a refund within 15 days from the date of a donation."
+msgstr "Autorizez Fundația Mozilla să tragă automat din contul meu de card, în fiecare lună, suma indicată mai sus, începând cu data de astăzi și continuând în fiecare lună la aceeași dată, până la anularea de către mine. Înțeleg că anularea trebuie efectuată cu cel puțin 5 zile înainte de următoarea donație planificată, prin mesaj pe e-mail trimis la <a href='mailto:%(email)s'>%(email)s</a> și că pot solicita o rambursare numai în termen de 15 zile de la data unei donații."
 
 #: donate/templates/payment/card_master.html:128
 msgid "I authorize Mozilla Foundation to charge my card in the amount indicated above. I understand that I may only request a refund within 15 days from the date of the donation."
@@ -609,20 +621,27 @@ msgstr "Donează <span class=\"%(span_class)s\">%(formatted_amount)s</span>"
 msgid "Your donation helps keep the Web open and free. Thank you in advance for your gift."
 msgstr "Donația ta ajută la menținerea Webului deschis și liber. Îți mulțumim cu anticipație."
 
-#: donate/templates/payment/card_upsell_master.html:4 donate/templates/payment/paypal_upsell_master.html:4 donate/templates/payment/thank_you_master.html:4
+#: donate/templates/payment/card_upsell_master.html:4
+#: donate/templates/payment/paypal_upsell_master.html:4
+#: donate/templates/payment/thank_you_master.html:4
 msgid "Thank you"
 msgstr "Îți mulțumim!"
 
-#: donate/templates/payment/card_upsell_master.html:13 donate/templates/payment/newsletter_signup_master.html:13 donate/templates/payment/paypal_upsell_master.html:13
-#: donate/templates/payment/thank_you_master.html:12 donate/thunderbird/templates/payment/newsletter_signup.html:6
+#: donate/templates/payment/card_upsell_master.html:13
+#: donate/templates/payment/newsletter_signup_master.html:13
+#: donate/templates/payment/paypal_upsell_master.html:13
+#: donate/templates/payment/thank_you_master.html:12
+#: donate/thunderbird/templates/payment/newsletter_signup.html:6
 msgid "Thank you for your generous gift"
 msgstr "Îți mulțumim pentru darul tău generos!"
 
-#: donate/templates/payment/card_upsell_master.html:17 donate/templates/payment/paypal_upsell_master.html:17
+#: donate/templates/payment/card_upsell_master.html:17
+#: donate/templates/payment/paypal_upsell_master.html:17
 msgid "We’d love to have you as a sustaining supporter of Mozilla. <b>Could you add a monthly donation starting next month?</b>"
 msgstr "Ne-ar bucura foarte mult să fii susținător permanent Mozilla. <b>Ai putea adăuga o donație lunară începând de luna viitoare?</b>"
 
-#: donate/templates/payment/card_upsell_master.html:21 donate/templates/payment/paypal_upsell_master.html:21
+#: donate/templates/payment/card_upsell_master.html:21
+#: donate/templates/payment/paypal_upsell_master.html:21
 msgid "Yes, I will give:"
 msgstr "Da, voi da:"
 
@@ -632,19 +651,15 @@ msgstr "Lunar"
 
 #: donate/templates/payment/card_upsell_master.html:48
 #, python-format
-msgid ""
-"I authorize Mozilla Foundation to automatically charge my card every month in the amount indicated above, starting next month on the same date as today, and continuing each month afterwards until I "
-"cancel. I understand that I must cancel at least 5 days before the next scheduled donation by email to %(email)s, and that I may only request a refund within 15 days from the date of a donation."
-msgstr ""
-"Autorizez Fundația Mozilla să tragă automat din contul meu de card, în fiecare lună, suma indicată mai sus, începând cu luna viitoare, la aceeași dată cu ziua de astăzi și continuând în fiecare lună"
-" după aceea până la anularea de către mine. Înțeleg că anularea trebuie efectuată cu cel puțin 5 zile înainte de următoarea donație planificată, prin mesaj pe e-mail trimis la %(email)s și că pot "
-"solicita o rambursare numai în termen de 15 zile de la data unei donații."
+msgid "I authorize Mozilla Foundation to automatically charge my card every month in the amount indicated above, starting next month on the same date as today, and continuing each month afterwards until I cancel. I understand that I must cancel at least 5 days before the next scheduled donation by email to %(email)s, and that I may only request a refund within 15 days from the date of a donation."
+msgstr "Autorizez Fundația Mozilla să tragă automat din contul meu de card, în fiecare lună, suma indicată mai sus, începând cu luna viitoare, la aceeași dată cu ziua de astăzi și continuând în fiecare lună după aceea până la anularea de către mine. Înțeleg că anularea trebuie efectuată cu cel puțin 5 zile înainte de următoarea donație planificată, prin mesaj pe e-mail trimis la %(email)s și că pot solicita o rambursare numai în termen de 15 zile de la data unei donații."
 
 #: donate/templates/payment/card_upsell_master.html:53
 msgid "Donate Monthly"
 msgstr "Donează lunar"
 
-#: donate/templates/payment/card_upsell_master.html:56 donate/templates/payment/newsletter_signup_master.html:42
+#: donate/templates/payment/card_upsell_master.html:56
+#: donate/templates/payment/newsletter_signup_master.html:42
 msgid "No Thanks"
 msgstr "Nu, mulțumesc"
 
@@ -691,29 +706,36 @@ msgctxt "Email subject line"
 msgid "I donated to Mozilla today"
 msgstr "Am donat astăzi pentru Mozilla"
 
-#: donate/templates/payment/thank_you_master.html:27 donate/thunderbird/templates/payment/thank_you.html:16
+#: donate/templates/payment/thank_you_master.html:27
+#: donate/thunderbird/templates/payment/thank_you.html:16
 msgid "Share on Facebook"
 msgstr "Împărtășește pe Facebook"
 
-#: donate/templates/payment/thank_you_master.html:31 donate/thunderbird/templates/pages/base_page.html:42 donate/thunderbird/templates/payment/thank_you.html:20
+#: donate/templates/payment/thank_you_master.html:31
+#: donate/thunderbird/templates/pages/base_page.html:42
+#: donate/thunderbird/templates/payment/thank_you.html:20
 msgid "Facebook"
 msgstr "Facebook"
 
-#: donate/templates/payment/thank_you_master.html:34 donate/thunderbird/templates/payment/thank_you.html:23
+#: donate/templates/payment/thank_you_master.html:34
+#: donate/thunderbird/templates/payment/thank_you.html:23
 msgid "Share on Twitter"
 msgstr "Împărtășește pe Twitter"
 
-#: donate/templates/payment/thank_you_master.html:44 donate/thunderbird/templates/payment/thank_you.html:33
+#: donate/templates/payment/thank_you_master.html:44
+#: donate/thunderbird/templates/payment/thank_you.html:33
 msgctxt "Share button"
 msgid "Email"
 msgstr "E-mail"
 
-#: donate/templates/payment/thank_you_master.html:54 donate/thunderbird/templates/payment/thank_you.html:43
+#: donate/templates/payment/thank_you_master.html:54
+#: donate/thunderbird/templates/payment/thank_you.html:43
 msgctxt "Share button"
 msgid "Link"
 msgstr "Link"
 
-#: donate/templates/payment/thank_you_master.html:55 donate/thunderbird/templates/payment/thank_you.html:44
+#: donate/templates/payment/thank_you_master.html:55
+#: donate/thunderbird/templates/payment/thank_you.html:44
 msgid "Copied"
 msgstr "Copiat"
 
@@ -721,7 +743,9 @@ msgstr "Copiat"
 msgid "Back"
 msgstr "Înapoi"
 
-#: donate/thunderbird/templates/base.html:9 donate/thunderbird/templates/pages/base_page.html:7 donate/thunderbird/templates/pages/base_page.html:14
+#: donate/thunderbird/templates/base.html:9
+#: donate/thunderbird/templates/pages/base_page.html:7
+#: donate/thunderbird/templates/pages/base_page.html:14
 #: donate/thunderbird/templates/pages/base_page.html:15
 msgctxt "Page title"
 msgid "Give to Thunderbird"
@@ -743,12 +767,8 @@ msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers 
 msgstr "Probleme cu donațiile? Intră pe <a href=\"%(faq_url)s\">Întrebări frecvente</a> și caută răspunsuri la cele mai frecvente întrebări. Tot mai ai probleme? <a href=\"%(help_url)s\">Contactează-ne</a>."
 
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:27
-msgid ""
-"Contributions go to MZLA Technologies Corporation, a California corporation wholly owned by the Mozilla Foundation. Funds will be reserved for use in the Thunderbird project. Contributions are not "
-"tax-deductible as charitable contributions."
-msgstr ""
-"Contribuțiile merg la Corporația MZLA Technologies, o corporație californiană deținută integral de Fundația Mozilla. Fondurile vor fi rezervate pentru utilizarea în proiectul Thunderbird. "
-"Contribuțiile nu sunt deductibile drept contribuții caritabile la calcularea impozitului."
+msgid "Contributions go to MZLA Technologies Corporation, a California corporation wholly owned by the Mozilla Foundation. Funds will be reserved for use in the Thunderbird project. Contributions are not tax-deductible as charitable contributions."
+msgstr "Contribuțiile merg la Corporația MZLA Technologies, o corporație californiană deținută integral de Fundația Mozilla. Fondurile vor fi rezervate pentru utilizarea în proiectul Thunderbird. Contribuțiile nu sunt deductibile drept contribuții caritabile la calcularea impozitului."
 
 #: donate/thunderbird/templates/pages/base_page.html:57
 msgid "Cookies"
@@ -768,17 +788,14 @@ msgstr "Descărcarea trebuia să înceapă automat. Dacă nu a funcționat, <a h
 msgid "We accept contributions in Euros through Single European Payment Area (SEPA) transfer, and British Pounds through BACS transfer."
 msgstr "Acceptăm contribuții în euro prin viramente SEPA (Zona unică de plăți în euro) și în lire sterline prin viramente BACS."
 
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:25 donate/thunderbird/templates/pages/core/ways_to_give_page.html:42
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:25
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:42
 msgid "Memo field:"
 msgstr "Câmp de mențiuni:"
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:48
-msgid ""
-"Please note that due to the “shelter in place” order recently implemented for California, processing and acknowledgment of check donations to Thunderbird/MZLA Technologies will be indefinitely "
-"delayed. Rather than sending us a check, please consider making an <a href=\"/\">online donation</a> instead."
-msgstr ""
-"Te rugăm să reții că, din cauza ordinului „stăm acasă”, implementat recent pentru California, procesarea și confirmarea donațiilor prin cec efectuate către Thunderbird/MZLA Technologies vor fi "
-"întârziate pe o perioadă nedeterminată. În loc să ne trimiți un cec, te rugăm să iei în considerare să faci o <a href=\"/\"> donație online </a>."
+msgid "Please note that due to the “shelter in place” order recently implemented for California, processing and acknowledgment of check donations to Thunderbird/MZLA Technologies will be indefinitely delayed. Rather than sending us a check, please consider making an <a href=\"/\">online donation</a> instead."
+msgstr "Te rugăm să reții că, din cauza ordinului „stăm acasă”, implementat recent pentru California, procesarea și confirmarea donațiilor prin cec efectuate către Thunderbird/MZLA Technologies vor fi întârziate pe o perioadă nedeterminată. În loc să ne trimiți un cec, te rugăm să iei în considerare să faci o <a href=\"/\"> donație online </a>."
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:56
 #, python-format
@@ -795,35 +812,22 @@ msgstr "Îți mulțumim anticipat pentru donație."
 
 #: donate/thunderbird/templates/payment/card.html:12
 #, python-format
-msgid ""
-"I authorize MZLA Technologies Corporation to automatically charge my card every month in the amount indicated above, starting today and continuing each month on the same day, until I cancel. I "
-"understand that I must cancel at least 5 days before the next scheduled donation by <a href='%(help_url)s'>submitting a request</a>, and that I may only request a refund within 15 days from the date"
-" of a donation."
-msgstr ""
-"Autorizez MZLA Technologies Corporation să tragă automat din contul meu de card, în fiecare lună, suma indicată mai sus, începând cu data de astăzi și continuând în fiecare lună la aceeași dată, "
-"până la anularea de către mine. Înțeleg că anularea trebuie efectuată cu cel puțin 5 zile înainte de următoarea donație planificată, prin trimiterea <a href='%(help_url)s'>cererii</a>e și că pot "
-"solicita o rambursare numai în termen de 15 zile de la data unei donații."
+msgid "I authorize MZLA Technologies Corporation to automatically charge my card every month in the amount indicated above, starting today and continuing each month on the same day, until I cancel. I understand that I must cancel at least 5 days before the next scheduled donation by <a href='%(help_url)s'>submitting a request</a>, and that I may only request a refund within 15 days from the date of a donation."
+msgstr "Autorizez MZLA Technologies Corporation să tragă automat din contul meu de card, în fiecare lună, suma indicată mai sus, începând cu data de astăzi și continuând în fiecare lună la aceeași dată, până la anularea de către mine. Înțeleg că anularea trebuie efectuată cu cel puțin 5 zile înainte de următoarea donație planificată, prin trimiterea <a href='%(help_url)s'>cererii</a>e și că pot solicita o rambursare numai în termen de 15 zile de la data unei donații."
 
 #: donate/thunderbird/templates/payment/card.html:14
 msgid "I authorize MZLA Technologies Corporation to charge my card in the amount indicated above. I understand that I may only request a refund within 15 days from the date of the donation."
-msgstr ""
-"Autorizez MZLA Technologies Corporation să tragă din contul meu de card suma indicată mai sus. Înțeleg că pot solicita o rambursare numai în termen de 15 zile de la data la care a fost efectuată "
-"donația."
+msgstr "Autorizez MZLA Technologies Corporation să tragă din contul meu de card suma indicată mai sus. Înțeleg că pot solicita o rambursare numai în termen de 15 zile de la data la care a fost efectuată donația."
 
-#: donate/thunderbird/templates/payment/card_upsell.html:6 donate/thunderbird/templates/payment/paypal_upsell.html:6
+#: donate/thunderbird/templates/payment/card_upsell.html:6
+#: donate/thunderbird/templates/payment/paypal_upsell.html:6
 msgid "We’d love to have you as a sustaining supporter of Thunderbird. <b>Could you add a monthly donation starting next month?</b>"
 msgstr "Ne-ar bucura foarte mult să fii susținător permanent Thunderbird. <b>Ai putea adăuga o donație lunară începând de luna viitoare?</b>"
 
 #: donate/thunderbird/templates/payment/card_upsell.html:10
 #, python-format
-msgid ""
-"I authorize MZLA Technologies Corporation to automatically charge my card every month in the amount indicated above, starting next month on the same date as today, and continuing each month "
-"afterwards until I cancel. I understand that I must cancel at least 5 days before the next scheduled donation by <a href=\"%(help_url)s\">submitting this form</a>, and that I may only request a "
-"refund within 15 days from the date of a donation."
-msgstr ""
-"Autorizez MZLA Technologies Corporation să tragă automat din contul meu de card, în fiecare lună, suma indicată mai sus, începând cu luna viitoare, în aceeași zi cu data donației de astăzi, și "
-"continuând în fiecare lună după aceea până la anularea de către mine. Înțeleg că anularea trebuie efectuată cu cel puțin 5 zile înainte de următoarea donație planificată, prin trimiterea <a "
-"href=\"%(help_url)s\">formularului</a> și că pot solicita o rambursare numai în termen de 15 zile de la data unei donații."
+msgid "I authorize MZLA Technologies Corporation to automatically charge my card every month in the amount indicated above, starting next month on the same date as today, and continuing each month afterwards until I cancel. I understand that I must cancel at least 5 days before the next scheduled donation by <a href=\"%(help_url)s\">submitting this form</a>, and that I may only request a refund within 15 days from the date of a donation."
+msgstr "Autorizez MZLA Technologies Corporation să tragă automat din contul meu de card, în fiecare lună, suma indicată mai sus, începând cu luna viitoare, în aceeași zi cu data donației de astăzi, și continuând în fiecare lună după aceea până la anularea de către mine. Înțeleg că anularea trebuie efectuată cu cel puțin 5 zile înainte de următoarea donație planificată, prin trimiterea <a href=\"%(help_url)s\">formularului</a> și că pot solicita o rambursare numai în termen de 15 zile de la data unei donații."
 
 #: donate/thunderbird/templates/payment/thank_you.html:6
 #, python-format

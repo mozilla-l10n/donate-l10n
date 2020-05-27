@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-31 16:59+0000\n"
+"POT-Creation-Date: 2020-05-27 09:14+0000\n"
 "PO-Revision-Date: 2019-11-15 15:10+0000\n"
 "Last-Translator: Belayet Hossain <bellayet@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -198,6 +198,11 @@ msgstr "দান করতে সমস্যা? সর্বাধিক স�
 msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in Mountain View, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
 msgstr "মাউন্টেন ভিউ, ক্যালিফোর্নিয়া ভিত্তিক Mozilla ফাউন্ডেশন একটি 501(c)(3) সংগঠন, সকল প্রকার গৃহীত অনুদান, বিচক্ষণতার সহিত দাতব্য উদ্দেশ্যে খরচ করে থাকে। যুক্তরাষ্ট্রের আইন অনুযায়ী, সংগঠনের সকল অনুদান সম্পূর্ণরূপে আয়কর মুক্ত। Mozilla অনুদানের বিপরীতে কোনপ্রকার পন্য কিংবা সেবা প্রদান করে না।"
 
+#: donate/templates/fragments/language_switcher.html:10
+#: donate/templates/pages/core/contributor_support_page_master.html:50
+msgid "Language"
+msgstr ""
+
 #: donate/templates/pages/base_page_master.html:26
 msgid "Initiatives"
 msgstr "উদ্যোগসমূহ"
@@ -280,7 +285,7 @@ msgstr "গোপনীয়তা"
 msgid "License"
 msgstr "লাইসেন্স"
 
-#: donate/templates/pages/base_page_master.html:164
+#: donate/templates/pages/base_page_master.html:167
 #, python-format
 msgid "Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a %(link_attributes)s>%(site_url)s</a>."
 msgstr "Mozilla হ'ল একটি বিশ্বব্যাপী অলাভজনক যা আপনার অনলাইন অভিজ্ঞতার নিয়ন্ত্রণে রাখার জন্য এবং ওয়েবের সার্বজনীন ভবিষ্যতের জন্য রূপদানের জন্য নিবেদিত। দেখুন <a %(link_attributes)s>%(site_url)s</a>।"
@@ -322,10 +327,6 @@ msgstr ""
 
 #: donate/templates/pages/core/contributor_support_page_master.html:40
 msgid "Contact Name"
-msgstr ""
-
-#: donate/templates/pages/core/contributor_support_page_master.html:50
-msgid "Language"
 msgstr ""
 
 #: donate/templates/pages/core/contributor_support_page_master.html:53

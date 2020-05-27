@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-31 16:59+0000\n"
+"POT-Creation-Date: 2020-05-27 09:14+0000\n"
 "PO-Revision-Date: 2019-11-06 14:06+0000\n"
 "Last-Translator: Théo Chevalier <theo.chevalier11@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -199,6 +199,11 @@ msgstr "देणगी देण्यात समस्या? बर्‍�
 msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in Mountain View, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
 msgstr "देणग्या माउंटन व्ह्यू, कॅलिफोर्निया येथे स्थायिक 501(c)(3) Mozilla फाऊंडेशन ला जातात, त्यांच्या समाजसेवेच्या कार्यासाठी, ते यु.एस. मध्ये नियमाप्रमाणे पूर्णतः करपात्र आहेत."
 
+#: donate/templates/fragments/language_switcher.html:10
+#: donate/templates/pages/core/contributor_support_page_master.html:50
+msgid "Language"
+msgstr ""
+
 #: donate/templates/pages/base_page_master.html:26
 msgid "Initiatives"
 msgstr "पुढाकार"
@@ -281,7 +286,7 @@ msgstr "गोपनीयता"
 msgid "License"
 msgstr "परवाना"
 
-#: donate/templates/pages/base_page_master.html:164
+#: donate/templates/pages/base_page_master.html:167
 #, python-format
 msgid "Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a %(link_attributes)s>%(site_url)s</a>."
 msgstr "आपला ऑनलाईन अनुभव आपल्या ताब्यात देणे व लोकांच्या भल्यासाठी वेब चे भविष्य घडविण्यासाठी समर्पित Mozilla ही एक वैश्विक विना-नफा संस्था आहे. आम्हाला भेट द्या <a %(link_attributes)s>%(site_url)s</a>."
@@ -323,10 +328,6 @@ msgstr ""
 
 #: donate/templates/pages/core/contributor_support_page_master.html:40
 msgid "Contact Name"
-msgstr ""
-
-#: donate/templates/pages/core/contributor_support_page_master.html:50
-msgid "Language"
 msgstr ""
 
 #: donate/templates/pages/core/contributor_support_page_master.html:53

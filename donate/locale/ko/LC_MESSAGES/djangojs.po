@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-31 17:00+0000\n"
+"POT-Creation-Date: 2020-05-27 09:15+0000\n"
 "PO-Revision-Date: 2019-11-09 22:10+0000\n"
 "Last-Translator: Hyeonseok Shin <hyeonseok@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -49,6 +49,6 @@ msgstr "아래 필드 중 일부가 유효하지 않습니다. 유효하지 않�
 
 #: donate/frontend/_js/payments-paypal-upsell.compiled.js:1
 #: donate/frontend/_js/payments-paypal.compiled.js:1
-#: source/js/components/paypal.js:93
+#: source/js/components/paypal.js:94
 msgid "Payment cancelled"
 msgstr "결제 취소됨"

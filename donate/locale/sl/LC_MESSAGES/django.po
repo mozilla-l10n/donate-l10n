@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-31 16:59+0000\n"
+"POT-Creation-Date: 2020-05-27 09:14+0000\n"
 "PO-Revision-Date: 2020-02-02 12:15+0000\n"
 "Last-Translator: Lan Glad <upwinxp@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -197,6 +197,11 @@ msgstr "Imate težave pri izvedbi donacije? Obiščite <a href=\"%(faq_url)s\">s
 msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in Mountain View, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
 msgstr "Prispevke prejme ustanova Mozilla Foundation, to je organizacija, kot jo določa člen 501 (c) (3), s sedežem v Mountain Viewu v Kaliforniji, uporabi pa jih po lastni presoji v dobrodelne namene. V ZDA sodijo med davčne olajšave, in sicer v največji meri, kot to dovoljuje zakon."
 
+#: donate/templates/fragments/language_switcher.html:10
+#: donate/templates/pages/core/contributor_support_page_master.html:50
+msgid "Language"
+msgstr "Jezik"
+
 #: donate/templates/pages/base_page_master.html:26
 msgid "Initiatives"
 msgstr "Pobude"
@@ -279,7 +284,7 @@ msgstr "Zasebnost"
 msgid "License"
 msgstr "Licenca"
 
-#: donate/templates/pages/base_page_master.html:164
+#: donate/templates/pages/base_page_master.html:167
 #, python-format
 msgid "Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a %(link_attributes)s>%(site_url)s</a>."
 msgstr "Mozilla je globalna neprofitna organizacija in mar nam je za to, da imaš ti nadzor nad uporabo spleta. Želimo, da si dejaven pri ustvarjanju njegove prihodnosti, ki bo v dobro vseh. Obišči nas na <a %(link_attributes)s>%(site_url)s</a>."
@@ -322,10 +327,6 @@ msgstr ""
 #: donate/templates/pages/core/contributor_support_page_master.html:40
 msgid "Contact Name"
 msgstr ""
-
-#: donate/templates/pages/core/contributor_support_page_master.html:50
-msgid "Language"
-msgstr "Jezik"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:53
 msgctxt "Option in 'Language' dropdown"

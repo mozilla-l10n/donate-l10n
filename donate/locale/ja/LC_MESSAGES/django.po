@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-31 16:59+0000\n"
+"POT-Creation-Date: 2020-05-27 09:14+0000\n"
 "PO-Revision-Date: 2020-02-02 11:12+0000\n"
 "Last-Translator: marsf <chimantaea_mirabilis@yahoo.co.jp>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -197,6 +197,11 @@ msgstr "寄付で問題が起こった時は、<a href=\"%(faq_url)s\">FAQ</a> �
 msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in Mountain View, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
 msgstr "あなたの寄付は 501(c)(3) に該当する非営利法人でありカリフォルニア州マウンテンビュー市に拠点を置く Mozilla Foundation が受領し、その自由裁量で慈善目的に使用されます。米国内では、法で定められた最大限の範囲で課税控除の対象となります。"
 
+#: donate/templates/fragments/language_switcher.html:10
+#: donate/templates/pages/core/contributor_support_page_master.html:50
+msgid "Language"
+msgstr "言語"
+
 #: donate/templates/pages/base_page_master.html:26
 msgid "Initiatives"
 msgstr "取り組み"
@@ -279,7 +284,7 @@ msgstr "プライバシー"
 msgid "License"
 msgstr "ライセンス"
 
-#: donate/templates/pages/base_page_master.html:164
+#: donate/templates/pages/base_page_master.html:167
 #, python-format
 msgid "Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a %(link_attributes)s>%(site_url)s</a>."
 msgstr ""
@@ -322,10 +327,6 @@ msgstr ""
 #: donate/templates/pages/core/contributor_support_page_master.html:40
 msgid "Contact Name"
 msgstr ""
-
-#: donate/templates/pages/core/contributor_support_page_master.html:50
-msgid "Language"
-msgstr "言語"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:53
 msgctxt "Option in 'Language' dropdown"
