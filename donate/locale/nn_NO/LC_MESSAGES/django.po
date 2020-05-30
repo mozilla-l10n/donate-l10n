@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-27 09:14+0000\n"
-"PO-Revision-Date: 2020-05-30 07:11+0000\n"
+"PO-Revision-Date: 2020-05-30 07:21+0000\n"
 "Last-Translator: Björn I. <bjorni.svindseth@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -311,10 +311,9 @@ msgid "We will get back to you soon."
 msgstr "Vi kjem snart tilbake til deg."
 
 #: donate/templates/pages/core/contributor_support_page_master.html:28
-#, fuzzy
 #| msgid "If you need help with a contribution, fill out this form and we’ll get back to you soon."
 msgid "If you need help with a contribution to MZLA/Thunderbird, fill out this form and a Thunderbird donor care representative will get back to you as soon as possible."
-msgstr "Om du trenger hjelp med ein donasjon, fyll ut dette skjemaet så tar vi snart kontakt med deg."
+msgstr "Om du treng hjelp med eit bidrag til MZLA/Thunderbird, fyll ut dette skjemaet og ein representant frå Thunderbird vil ta kontakt med deg så snart som mogleg."
 
 #: donate/templates/pages/core/contributor_support_page_master.html:40
 msgid "Contact Name"
@@ -476,6 +475,8 @@ msgid ""
 "Please note that due to the “shelter in place” order recently implemented for California, processing and acknowledgment of check donations to the Mozilla Foundation will be indefinitely delayed. "
 "Rather than sending us a check, please consider making an <a href=\"/\">online donation</a> instead."
 msgstr ""
+"Ver merksam på at på grunn av påbodet om å halde seg innandørs som nyleg vart implementert i California, vil behandling og godkjenning av sjekkdonasjonar til Mozilla Foundation bli forseinka på "
+"ubestemt tid. I staden for å sende oss ein sjekk, kan du vurdere å gjere ein <a href=\"/\">donasjon på nettet</a> i staden."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:78
 #, python-format
@@ -484,7 +485,7 @@ msgstr "Send ein sjekk <strong>inkludert e-postadressa di i memo-feltet</strong>
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:81
 msgid "Please note that the Mozilla Foundation can only accept checks in US dollars drawn on a US bank. Please do <strong>not</strong> send cash."
-msgstr "Ver merksam på på at Mozilla Foundation berre kan godta sjekkar i amerikanske dollar trekt frå ein amerikansk bank. <strong>Ikkje send</strong> kontantar."
+msgstr "Ver merksam på på at Mozilla Foundation berre kan godta sjekkar i amerikanske dollar trekte frå ein amerikansk bank. <strong>Ikkje send</strong> kontantar."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:96
 msgid "Currencies"
@@ -775,6 +776,8 @@ msgid ""
 "Please note that due to the “shelter in place” order recently implemented for California, processing and acknowledgment of check donations to Thunderbird/MZLA Technologies will be indefinitely "
 "delayed. Rather than sending us a check, please consider making an <a href=\"/\">online donation</a> instead."
 msgstr ""
+"Ver merksam på at på grunn av påbodet om å halde seg innandørs som nyleg vart implementert i California, vil behandling og godkjenning av sjekkdonasjonar til Thunderbird/MZLA Technologies bli "
+"forseinka på ubestemt tid. I staden for å sende oss ein sjekk, kan du vurdere å  <a href=\"/\">donere på nettet</a> i staden."
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:56
 #, python-format
@@ -783,7 +786,7 @@ msgstr "Send ein sjekk <strong>med «%(thunderbird)s» i memo-feltet</strong>, o
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:59
 msgid "Please note that we can only accept checks in US dollars drawn on a US bank. Please do <strong>not</strong> send cash."
-msgstr ""
+msgstr "Ver merksam på at vi berre kan godta sjekkar i amerikanske dollar trekte frå ein amerikansk bank. <strong>Ikkje send</strong> kontantar."
 
 #: donate/thunderbird/templates/payment/card.html:6
 #, fuzzy
