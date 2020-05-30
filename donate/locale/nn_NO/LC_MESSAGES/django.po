@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-27 09:14+0000\n"
-"PO-Revision-Date: 2020-05-30 07:21+0000\n"
+"PO-Revision-Date: 2020-05-30 07:24+0000\n"
 "Last-Translator: Björn I. <bjorni.svindseth@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -476,7 +476,7 @@ msgid ""
 "Rather than sending us a check, please consider making an <a href=\"/\">online donation</a> instead."
 msgstr ""
 "Ver merksam på at på grunn av påbodet om å halde seg innandørs som nyleg vart implementert i California, vil behandling og godkjenning av sjekkdonasjonar til Mozilla Foundation bli forseinka på "
-"ubestemt tid. I staden for å sende oss ein sjekk, kan du vurdere å gjere ein <a href=\"/\">donasjon på nettet</a> i staden."
+"ubestemt tid. I staden for å sende oss ein sjekk, kan du vurdere å <a href=\"/\">donere på nettet</a> i staden."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:78
 #, python-format
