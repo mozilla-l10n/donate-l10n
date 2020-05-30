@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-27 09:14+0000\n"
-"PO-Revision-Date: 2020-05-30 07:48+0000\n"
+"PO-Revision-Date: 2020-05-30 09:28+0000\n"
 "Last-Translator: Björn I. <bjorni.svindseth@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -726,10 +726,10 @@ msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a 
 msgstr "Andre måtar å gje bidrag på: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Sjekk</a>"
 
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:15
-#, fuzzy, python-format
+#, python-format
 #| msgid "Monthly donations are charged each month on the same day that you donate today, and will continue until you cancel. To cancel, email us at <a href=\"mailto:%(email)s\">%(email)s</a>."
 msgid "Monthly donations are charged each month on the same day that you donate today, and will continue until you cancel. To cancel, fill out <a href=\"%(help_url)s\">this form</a>."
-msgstr "Månadlege donasjonar vert belasta kvar månad på same dag som du donerer i dag, og vil fortsette til du avbryt. For å avbryte, send oss ein e-post på <a href=\"mailto:%(email)s\">%(email)s</a>."
+msgstr "Månadlege donasjonar vert belasta kvar månad på same dag som du donerer i dag, og vil fortsetje til du avbryt. For å avbryte, fyll ut <a href=\"%(help_url)s\">dette skjemaet</a>."
 
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:21
 #, fuzzy, python-format
@@ -766,10 +766,9 @@ msgid "Your download should have begun automatically. If it didn’t work, <a hr
 msgstr "Nedlastingea din burde ha startea automatisk. Om det ikkj fungerte, <a href=\"%(url)s\">prøv å laste ned på nytt her</a>."
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:8
-#, fuzzy
 #| msgid "We accept donations in Euros through Single European Payment Area (SEPA) transfer, and British Pounds through BACS transfer."
 msgid "We accept contributions in Euros through Single European Payment Area (SEPA) transfer, and British Pounds through BACS transfer."
-msgstr "Vi godkjenner donasjonar i euro overført via Single European Payment Area (SEPA), og britiske pund overført via BACS."
+msgstr "Vi aksepterer bidrag i euro overført via Single European Payment Area (SEPA), og britiske pund overført via BACS."
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:25 donate/thunderbird/templates/pages/core/ways_to_give_page.html:42
 msgid "Memo field:"
@@ -793,10 +792,9 @@ msgid "Please note that we can only accept checks in US dollars drawn on a US ba
 msgstr "Ver merksam på at vi berre kan godta sjekkar i amerikanske dollar trekte frå ein amerikansk bank. <strong>Ikkje send</strong> kontantar."
 
 #: donate/thunderbird/templates/payment/card.html:6
-#, fuzzy
 #| msgid "Thank you for your generous gift"
 msgid "Thank you in advance for your gift."
-msgstr "Tusen takk for den sjenerøse gåva di"
+msgstr "På førehand takk for gåva."
 
 #: donate/thunderbird/templates/payment/card.html:12
 #, fuzzy, python-format
