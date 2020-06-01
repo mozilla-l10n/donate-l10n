@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-27 09:14+0000\n"
-"PO-Revision-Date: 2019-10-29 10:05+0000\n"
-"Last-Translator: Rizqi Nurul Akbar <laruku_rizboy@yahoo.co.id>\n"
+"PO-Revision-Date: 2020-05-30 13:26+0000\n"
+"Last-Translator: rofim58 <rofim58@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
@@ -25,7 +25,7 @@ msgstr "Bagian ini wajib diisi."
 
 #: donate/core/translation.py:15
 msgid "Enter a number."
-msgstr ""
+msgstr "Masukkan angka."
 
 #: donate/core/translation.py:18
 msgid "Enter a valid email address."
@@ -76,7 +76,7 @@ msgstr "Saya menyetujui Mozilla untuk menangani data tentang saya seperti yang d
 
 #: donate/payments/views.py:156
 msgid "The type of card you used is not accepted."
-msgstr ""
+msgstr "Jenis kartu yang Anda gunakan tidak diterima."
 
 #: donate/payments/views.py:157 donate/payments/views.py:158
 msgid "The CVV code you entered was invalid."
@@ -92,7 +92,7 @@ msgstr "Nomor kartu kredit yang Anda masukkan tidak valid."
 
 #: donate/payments/views.py:169 donate/payments/views.py:170
 msgid "The post code you provided is not valid."
-msgstr ""
+msgstr "Kode pos yang Anda berikan tidak valid."
 
 #: donate/payments/views.py:184
 msgid "Sorry there was an error processing your payment. Please try again later or use a different payment method."
@@ -100,15 +100,15 @@ msgstr ""
 
 #: donate/payments/views.py:378
 msgid "Something went wrong. We were unable to process your payment."
-msgstr ""
+msgstr "Ada yang salah. Kami tidak dapat memproses pembayaran Anda."
 
 #: donate/payments/views.py:630 donate/payments/views.py:739
 msgid "Sorry there was an error processing your payment. Please try again later."
-msgstr ""
+msgstr "Maaf, terjadi kesalahan saat memproses pembayaran Anda. Coba lagi nanti."
 
 #: donate/recaptcha/fields.py:18
 msgid "Captcha was invalid. Please try again."
-msgstr ""
+msgstr "Captcha tidak valid. Silakan coba lagi."
 
 #: donate/templates/404.html:4
 msgid "Page not found"
