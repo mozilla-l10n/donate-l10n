@@ -635,7 +635,7 @@ msgstr ""
 
 #: donate/templates/payment/newsletter_signup_master.html:40
 msgid "Sign Up"
-msgstr ""
+msgstr "Daftar"
 
 #: donate/templates/payment/paypal_upsell_master.html:41
 msgid "/ Monthly"
