@@ -732,7 +732,7 @@ msgid "Monthly donations are charged each month on the same day that you donate 
 msgstr "Månadlege donasjonar vert belasta kvar månad på same dag som du donerer i dag, og vil fortsetje til du avbryt. For å avbryte, fyll ut <a href=\"%(help_url)s\">dette skjemaet</a>."
 
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:21
-#, fuzzy, python-format
+#, python-format
 #| msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"mailto:%(email)s\">Send us an email</a>."
 msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"%(help_url)s\">Contact us</a>."
 msgstr ""
@@ -819,7 +819,7 @@ msgid "We’d love to have you as a sustaining supporter of Thunderbird. <b>Coul
 msgstr "Vi vil gjerne ha deg som støttande tilhengar av Thunderbird. <b>Kan du leggje til ein månadleg donasjon som byrjar neste månad?</b>"
 
 #: donate/thunderbird/templates/payment/card_upsell.html:10
-#, fuzzy, python-format
+#, python-format
 #| msgid ""
 #| "I authorize Mozilla Foundation to automatically charge my card every month in the amount indicated above, starting next month on the same date as today, and continuing each month afterwards until I "
 #| "cancel. I understand that I must cancel at least 5 days before the next scheduled donation by email to %(email)s, and that I may only request a refund within 15 days from the date of a donation."
