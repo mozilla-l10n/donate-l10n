@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-27 09:14+0000\n"
-"PO-Revision-Date: 2020-01-29 15:25+0000\n"
+"PO-Revision-Date: 2020-06-02 10:49+0000\n"
 "Last-Translator: Björn I. <bjorni.svindseth@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -735,9 +735,7 @@ msgstr "Månadlege donasjonar vert belasta kvar månad på same dag som du doner
 #, python-format
 #| msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"mailto:%(email)s\">Send us an email</a>."
 msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"%(help_url)s\">Contact us</a>."
-msgstr ""
-"Har du problem med å donere? Besøk <a href=\"%(faq_url)s\">ofte stilte spørsmål (FAQ)</a> for å få svar på dei vanlegaste spørsmåla. Har du framleis problem? <a href=\"mailto:%(email)s\">Send oss "
-"ein e-post</a>."
+msgstr "Har du problem med å donere? Besøk <a href=\"%(faq_url)s\">ofte stilte spørsmål (FAQ)</a> for å få svar på dei vanlegaste spørsmåla. Har du framleis problem? <a href=\"%(help_url)s\">Kontakt oss</a>."
 
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:27
 #| msgid ""
@@ -796,7 +794,7 @@ msgid "Thank you in advance for your gift."
 msgstr "På førehand takk for gåva."
 
 #: donate/thunderbird/templates/payment/card.html:12
-#, fuzzy, python-format
+#, python-format
 #| msgid ""
 #| "I authorize Mozilla Foundation to automatically charge my card every month in the amount indicated above, starting today and continuing each month on the same day, until I cancel. I understand that "
 #| "I must cancel at least 5 days before the next scheduled donation by email to <a href='mailto:%(email)s'>%(email)s</a>, and that I may only request a refund within 15 days from the date of a "
@@ -806,8 +804,8 @@ msgid ""
 "understand that I must cancel at least 5 days before the next scheduled donation by <a href='%(help_url)s'>submitting a request</a>, and that I may only request a refund within 15 days from the date"
 " of a donation."
 msgstr ""
-"Eg godkjenner at Mozilla Foundation, automatisk kvar månad, kan belaste kortet mitt med det angitte beløpet, frå i dag, og fortsette kvar månad på same dag, til eg avbryt. Eg forstår at eg må "
-"avbryte minst 5 dagar før neste planlagde donasjon via e-post til <a href='mailto:%(email)s'>%(email)s</a>, og at eg berre kan be om refusjon innan 15 dagar frå donasjonsdatoen."
+"Egautoriserer MZLA Technologies Corporation til å automatisk belaste kortet mitt kvar månea i det angitte beløpet, frå i dag og fortsette kvar månad på same dag, inntil eg avbryt. Eg forstår at eg "
+"må avbryte minst 5 dagar før neste planlade donasjon ved å <a href='%(help_url)s'>sende ein førespurnad</a>, og at eg berre kan be om refusjon innan 15 dagar frå donasjonsdatoen."
 
 #: donate/thunderbird/templates/payment/card.html:14
 #| msgid "I authorize Mozilla Foundation to charge my card in the amount indicated above. I understand that I may only request a refund within 15 days from the date of the donation."
@@ -828,14 +826,14 @@ msgid ""
 "afterwards until I cancel. I understand that I must cancel at least 5 days before the next scheduled donation by <a href=\"%(help_url)s\">submitting this form</a>, and that I may only request a "
 "refund within 15 days from the date of a donation."
 msgstr ""
-"Eg godkjenner at Mozilla Foundation, automatisk kvar månad, kan belaste kortet mitt med det angitte beløpet, frå i dag, og fortsette kvar månad på same dag, til eg avbryt. Eg forstår at eg må "
-"avbryte minst 5 dagar før neste planlagde donasjon via e-post til %(email)s, og at eg berre kan be om refusjon innan 15 dagar frå donasjonsdatoen."
+"Eg godkjenner at MZLA Technologies Corporation, automatisk kvar månad, kan belaste kortet mitt med det angitte beløpet, frå i dag, og fortsette kvar månad på same dag, til eg avbryt. Eg forstår at "
+"eg må avbryte minst 5 dagar før neste planlagde donasjon ved å bruke <a href=\"%(help_url)s\">dette formularet</a>, og at eg berre kan be om refusjon innan 15 dagar frå donasjonsdatoen."
 
 #: donate/thunderbird/templates/payment/thank_you.html:6
-#, fuzzy, python-format
+#, python-format
 #| msgid "We’ve emailed you a donation receipt; if it’s missing, please check your junk/spam folders, then contact us at <a href=\"mailto:%(email)s\">%(email)s</a>."
 msgid "We’ve emailed you a donation receipt; if it’s missing, please check your junk/spam folders, then contact us using <a href=\"%(url)s\">this form</a>."
-msgstr "Vi har sendt deg ein e-post med kvittering for donasjonen; om han manglar, kan du sjekke mappa for søppelpost eller spam, og kontakte oss seinare på <a href=\"mailto:%(email)s\">%(email)s</a>."
+msgstr "Vi har sendt deg ein e-post med kvittering for donasjonen; om han manglar, kan du sjekke mappa for søppelpost eller spam, og kontakte oss seinare via <a href=\"%(url)s\">dette skjemaet</a>."
 
 #: donate/thunderbird/templates/payment/thank_you.html:7
 msgid "Lastly, can you multiply your impact by sharing about the important work Thunderbird is doing? Thank you again!"
