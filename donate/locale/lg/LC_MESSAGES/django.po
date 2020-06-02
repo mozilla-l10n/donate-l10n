@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-27 09:14+0000\n"
-"PO-Revision-Date: 2020-06-02 17:45+0000\n"
+"PO-Revision-Date: 2020-06-02 17:53+0000\n"
 "Last-Translator: Lawk <lawrence@mozilla-uganda.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: lg\n"
@@ -157,7 +157,7 @@ msgstr "Waayo Obuyambi"
 
 #: donate/templates/fragments/donate_form.html:97
 msgid "per month"
-msgstr ""
+msgstr "buli mwezi"
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:6 donate/thunderbird/templates/fragments/donate_form_disclaimer.html:12
 #, python-format
@@ -189,7 +189,7 @@ msgstr ""
 
 #: donate/templates/fragments/language_switcher.html:10 donate/templates/pages/core/contributor_support_page_master.html:50
 msgid "Language"
-msgstr ""
+msgstr "Olulimi"
 
 #: donate/templates/pages/base_page_master.html:26
 msgid "Initiatives"
@@ -197,7 +197,7 @@ msgstr ""
 
 #: donate/templates/pages/base_page_master.html:29
 msgid "Participate"
-msgstr ""
+msgstr "Wenyigiremu"
 
 #: donate/templates/pages/base_page_master.html:32
 msgid "Internet Health"
@@ -205,7 +205,7 @@ msgstr ""
 
 #: donate/templates/pages/base_page_master.html:35
 msgid "About Us"
-msgstr ""
+msgstr "Ebitufaako"
 
 #: donate/templates/pages/base_page_master.html:46
 msgid "Menu"
@@ -213,7 +213,7 @@ msgstr ""
 
 #: donate/templates/pages/base_page_master.html:71
 msgid "Protect the internet as a global public resource"
-msgstr ""
+msgstr "Kuuma internet nga ya buli omu"
 
 #: donate/templates/pages/base_page_master.html:79
 msgid "Join our email list to take action and stay updated!"
@@ -221,7 +221,7 @@ msgstr ""
 
 #: donate/templates/pages/base_page_master.html:80
 msgid "Enter email address"
-msgstr ""
+msgstr "Tekamu email"
 
 #: donate/templates/pages/base_page_master.html:83
 msgid "Sign up"
@@ -229,7 +229,7 @@ msgstr ""
 
 #: donate/templates/pages/base_page_master.html:91
 msgid "Thanks!"
-msgstr ""
+msgstr "Webale!"
 
 #: donate/templates/pages/base_page_master.html:92
 msgid "If you haven’t previously confirmed a subscription to a Mozilla-related newsletter you may have to do so. Please check your inbox or your spam filter for an email from us."
@@ -237,20 +237,20 @@ msgstr ""
 
 #: donate/templates/pages/base_page_master.html:107
 msgid "More about us"
-msgstr ""
+msgstr "Ebirala kuffe"
 
 #: donate/templates/pages/base_page_master.html:111 donate/templates/payment/thank_you_master.html:38 donate/thunderbird/templates/pages/base_page.html:36
 #: donate/thunderbird/templates/payment/thank_you.html:27
 msgid "Twitter"
-msgstr ""
+msgstr "Twitter"
 
 #: donate/templates/pages/base_page_master.html:117
 msgid "Instagram"
-msgstr ""
+msgstr "Instagram"
 
 #: donate/templates/pages/base_page_master.html:123
 msgid "GitHub"
-msgstr ""
+msgstr "GitHub"
 
 #: donate/templates/pages/base_page_master.html:137 donate/thunderbird/templates/pages/base_page.html:59
 msgid "Participation Guidelines"
@@ -262,11 +262,11 @@ msgstr ""
 
 #: donate/templates/pages/base_page_master.html:143 donate/thunderbird/templates/pages/base_page.html:54
 msgid "Privacy"
-msgstr ""
+msgstr "Eby'ekyama"
 
 #: donate/templates/pages/base_page_master.html:146
 msgid "License"
-msgstr ""
+msgstr "Layisensi"
 
 #: donate/templates/pages/base_page_master.html:167
 #, python-format
@@ -278,7 +278,7 @@ msgstr ""
 #: donate/templates/pages/core/campaign_page.html:38 donate/templates/pages/core/ways_to_give_page_master.html:12
 msgctxt "Button"
 msgid "DONATE NOW"
-msgstr ""
+msgstr "WAAYO KATI"
 
 #: donate/templates/pages/core/campaign_page.html:52 donate/templates/pages/core/landing_page_master.html:36 donate/templates/payment/card_master.html:159
 msgid "Seal of Charity Navigator 4-Star"
@@ -291,7 +291,7 @@ msgstr ""
 #: donate/templates/pages/core/campaign_page.html:65
 msgctxt "Header"
 msgid "Donate now"
-msgstr ""
+msgstr "Waayo kati"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:18
 msgid "Thank you for contacting us. A case has been created for your issue and we will be in touch shortly."
@@ -312,36 +312,36 @@ msgstr ""
 #: donate/templates/pages/core/contributor_support_page_master.html:53
 msgctxt "Option in 'Language' dropdown"
 msgid "None"
-msgstr ""
+msgstr "Tewali"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:54
 msgid "English"
-msgstr ""
+msgstr "Luzungu"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:55
 msgid "French"
-msgstr ""
+msgstr "Lufaransa"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:56
 msgid "German"
-msgstr ""
+msgstr "Lugirimaani"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:57
 msgid "Spanish"
-msgstr ""
+msgstr "Lusipana"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:58
 msgid "Polish"
-msgstr ""
+msgstr "Lupolandi"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:59
 msgid "Portuguese"
-msgstr ""
+msgstr "Lupotugo"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:60
 msgctxt "Option in 'Language' dropdown"
 msgid "Other"
-msgstr ""
+msgstr "Endala"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:66
 msgid "Subject"
@@ -349,7 +349,7 @@ msgstr ""
 
 #: donate/templates/pages/core/contributor_support_page_master.html:71
 msgid "Description"
-msgstr ""
+msgstr "Enyinyonyola"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:75
 #, python-format
@@ -358,15 +358,15 @@ msgstr ""
 
 #: donate/templates/pages/core/contributor_support_page_master.html:77
 msgid "Submit"
-msgstr ""
+msgstr "Sindika"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:4 donate/templates/pages/core/ways_to_give_page_master.html:11
 msgid "Ways to Give"
-msgstr ""
+msgstr "Engeri Ez'okugaba"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:16
 msgid "Credit / Debit and PayPal"
-msgstr ""
+msgstr "Credit / Debit ne PayPal"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:18
 #, python-format
@@ -411,16 +411,16 @@ msgstr ""
 #: donate/templates/pages/core/ways_to_give_page_master.html:37 donate/templates/pages/core/ways_to_give_page_master.html:50 donate/thunderbird/templates/pages/core/ways_to_give_page.html:21
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:34
 msgid "City & Country/Region:"
-msgstr ""
+msgstr "Ekibuga ne Ensi/Ekitundu:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:37 donate/thunderbird/templates/pages/core/ways_to_give_page.html:21
 msgid "Frankfurt, Germany"
-msgstr ""
+msgstr "Frankfurt, Bugirimaani"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:38 donate/templates/pages/core/ways_to_give_page_master.html:56 donate/thunderbird/templates/pages/core/ways_to_give_page.html:22
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:40
 msgid "SWIFT/BIC Code:"
-msgstr ""
+msgstr "SWIFT/BIC Code:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:39 donate/templates/pages/core/ways_to_give_page_master.html:53 donate/thunderbird/templates/pages/core/ways_to_give_page.html:23
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:37
@@ -430,7 +430,7 @@ msgstr ""
 #: donate/templates/pages/core/ways_to_give_page_master.html:40 donate/templates/pages/core/ways_to_give_page_master.html:57 donate/thunderbird/templates/pages/core/ways_to_give_page.html:24
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:41
 msgid "IBAN:"
-msgstr ""
+msgstr "IBAN:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:46 donate/thunderbird/templates/pages/core/ways_to_give_page.html:30
 msgid "British Pound Sterling:"
@@ -442,7 +442,7 @@ msgstr ""
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:50 donate/thunderbird/templates/pages/core/ways_to_give_page.html:34
 msgid "London, United Kingdom"
-msgstr ""
+msgstr "London, Bungereza"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:51 donate/thunderbird/templates/pages/core/ways_to_give_page.html:35
 msgid "Bank Sort Code:"
@@ -450,7 +450,7 @@ msgstr ""
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:52 donate/thunderbird/templates/pages/core/ways_to_give_page.html:36
 msgid "Account Number (8 digits):"
-msgstr ""
+msgstr "Nnamba ya akawunti (obugalo 8):"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:63
 msgid "Check (via postal service)"
@@ -485,7 +485,7 @@ msgstr ""
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:107
 msgid "Bitcoin"
-msgstr ""
+msgstr "Bitcoin"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:109
 msgid ""
@@ -502,7 +502,7 @@ msgstr ""
 
 #: donate/templates/payment/card_master.html:4
 msgid "Your information"
-msgstr ""
+msgstr "Ebikukwatako"
 
 #: donate/templates/payment/card_master.html:20
 #, python-format
@@ -516,11 +516,11 @@ msgstr ""
 
 #: donate/templates/payment/card_master.html:26
 msgid "Change amount"
-msgstr ""
+msgstr "Kyusa omuwendo"
 
 #: donate/templates/payment/card_master.html:34
 msgid "Donation Amount"
-msgstr ""
+msgstr "Omuwendo Gw'okuwaayo"
 
 #: donate/templates/payment/card_master.html:39
 msgid "Confirm"
