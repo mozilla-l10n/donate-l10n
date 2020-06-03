@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-27 09:14+0000\n"
-"PO-Revision-Date: 2020-06-03 12:53+0000\n"
+"PO-Revision-Date: 2020-06-03 12:58+0000\n"
 "Last-Translator: Jordi Serratosa <jordis@softcatala.cat>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -184,32 +184,36 @@ msgstr "Altres maneres de donar: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a>
 #, python-format
 msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"mailto:%(email)s\">Send us an email</a>."
 msgstr ""
+"Té problemes per donar? Vegeu les <a href=\"%(faq_url)s\">preguntes més freqüents</a> per obtenir respostes a les preguntes més habituals. Encara teniu problemes? <a "
+"href=\"mailto:%(email)s\">Envieu-nos un correu electrònic</a>."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:30
 msgid ""
 "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in Mountain View, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S."
 " to the fullest extent permitted by law."
 msgstr ""
+"Les donacions van destinades a la Mozilla Foundation, una organització sense ànim de lucre amb seu a Mountain View, Califòrnia (EUA), que les utilitzarà segons cregui convenient per a finalitats "
+"benèfiques. Als Estats Units d'Amèrica són deduïbles fiscalment."
 
 #: donate/templates/fragments/language_switcher.html:10 donate/templates/pages/core/contributor_support_page_master.html:50
 msgid "Language"
-msgstr ""
+msgstr "Llengua"
 
 #: donate/templates/pages/base_page_master.html:26
 msgid "Initiatives"
-msgstr ""
+msgstr "Iniciatives"
 
 #: donate/templates/pages/base_page_master.html:29
 msgid "Participate"
-msgstr ""
+msgstr "Participeu"
 
 #: donate/templates/pages/base_page_master.html:32
 msgid "Internet Health"
-msgstr ""
+msgstr "La salut d'Internet"
 
 #: donate/templates/pages/base_page_master.html:35
 msgid "About Us"
-msgstr ""
+msgstr "Qui som"
 
 #: donate/templates/pages/base_page_master.html:46
 msgid "Menu"
