@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-27 09:14+0000\n"
-"PO-Revision-Date: 2019-12-19 09:51+0000\n"
-"Last-Translator: Joan Montané <joan@montane.cat>\n"
+"PO-Revision-Date: 2020-06-03 12:45+0000\n"
+"Last-Translator: Jordi Serratosa <jordis@softcatala.cat>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -34,110 +34,110 @@ msgstr "Introduïu una adreça electrònica vàlida."
 #: donate/payments/forms.py:45
 #, python-format
 msgid "Donations must be %(amount)s or more"
-msgstr ""
+msgstr "Els donatius han de ser com a mínim de %(amount)s"
 
 #: donate/payments/forms.py:52 donate/payments/forms.py:66 donate/payments/forms.py:113
 msgid "Amount"
-msgstr ""
+msgstr "Import"
 
 #: donate/payments/forms.py:79
 msgid "First name"
-msgstr ""
+msgstr "Nom"
 
 #: donate/payments/forms.py:80
 msgid "Last name"
-msgstr ""
+msgstr "Cognoms"
 
 #: donate/payments/forms.py:81 donate/payments/forms.py:123 donate/templates/pages/core/contributor_support_page_master.html:45
 msgid "Email"
-msgstr ""
+msgstr "Adreça electrònica"
 
 #: donate/payments/forms.py:82
 msgid "Street"
-msgstr ""
+msgstr "Carrer"
 
 #: donate/payments/forms.py:83
 msgid "City"
-msgstr ""
+msgstr "Ciutat"
 
 #: donate/payments/forms.py:87
 msgctxt "Feel free to replace with “Postal code” or equivalent"
 msgid "ZIP Code"
-msgstr ""
+msgstr "Codi postal"
 
 #: donate/payments/forms.py:90
 msgid "Country"
-msgstr ""
+msgstr "País"
 
 #: donate/payments/forms.py:131 donate/templates/pages/base_page_master.html:87
 #, python-format
 msgid "I’m okay with Mozilla handling my info as explained in this <a href='%(url)s'>Privacy Notice</a>."
-msgstr ""
+msgstr "Accepto que Mozilla gestioni la meva informació en els termes descrits en aquest <a href='%(url)s'>avís de privadesa</a>."
 
 #: donate/payments/views.py:156
 msgid "The type of card you used is not accepted."
-msgstr ""
+msgstr "Aquest tipus de targeta no s'accepta."
 
 #: donate/payments/views.py:157 donate/payments/views.py:158
 msgid "The CVV code you entered was invalid."
-msgstr ""
+msgstr "EL codi CVV que heu introduït no és vàlid."
 
 #: donate/payments/views.py:159
 msgid "The expiration date you entered was invalid."
-msgstr ""
+msgstr "La data de venciment que heu introduït no és vàlida."
 
 #: donate/payments/views.py:160
 msgid "The credit card number you entered was invalid."
-msgstr ""
+msgstr "El número de targeta de crèdit que heu introduït no és vàlid."
 
 #: donate/payments/views.py:169 donate/payments/views.py:170
 msgid "The post code you provided is not valid."
-msgstr ""
+msgstr "El codi postal que heu indicat no és vàlid."
 
 #: donate/payments/views.py:184
 msgid "Sorry there was an error processing your payment. Please try again later or use a different payment method."
-msgstr ""
+msgstr "S'ha produït un error en processar el pagament. Torneu-ho a intentar més tard o feu servir un altre mètode de pagament."
 
 #: donate/payments/views.py:378
 msgid "Something went wrong. We were unable to process your payment."
-msgstr ""
+msgstr "Alguna cosa ha anat malament. No hem pogut processar el pagament."
 
 #: donate/payments/views.py:630 donate/payments/views.py:739
 msgid "Sorry there was an error processing your payment. Please try again later."
-msgstr ""
+msgstr "S'ha produït un error en processar el pagament. Torneu-ho a intentar més tard."
 
 #: donate/recaptcha/fields.py:18
 msgid "Captcha was invalid. Please try again."
-msgstr ""
+msgstr "El Captcha no és vàlid. Torneu-ho a intentar."
 
 #: donate/templates/404.html:4
 msgid "Page not found"
-msgstr ""
+msgstr "No s'ha trobat la pàgina"
 
 #: donate/templates/404.html:12
 msgid "Uh oh!"
-msgstr ""
+msgstr "Vaja!"
 
 #: donate/templates/404.html:13
 msgid "Sorry, the page does not exist"
-msgstr ""
+msgstr "La pàgina no existeix"
 
 #: donate/templates/404.html:14
 msgid "Go to our home page"
-msgstr ""
+msgstr "Aneu a la pàgina d'inici"
 
 #: donate/templates/base_master.html:8 donate/templates/pages/base_page_master.html:6 donate/templates/pages/base_page_master.html:13 donate/templates/pages/base_page_master.html:14
 msgctxt "Page title"
 msgid "Donate to Mozilla"
-msgstr ""
+msgstr "Feu una donació a Mozilla"
 
 #: donate/templates/fragments/donate_form.html:12
 msgid "ONE TIME"
-msgstr ""
+msgstr "PUNTUAL"
 
 #: donate/templates/fragments/donate_form.html:18
 msgid "MONTHLY"
-msgstr ""
+msgstr "MENSUAL"
 
 #: donate/templates/fragments/donate_form.html:41 donate/templates/fragments/donate_form.html:42 donate/templates/fragments/donate_form.html:105 donate/templates/fragments/donate_form.html:106
 msgid "Other amount"
