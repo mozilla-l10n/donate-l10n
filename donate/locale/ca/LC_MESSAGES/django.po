@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-27 09:14+0000\n"
-"PO-Revision-Date: 2020-06-03 14:25+0000\n"
+"PO-Revision-Date: 2020-06-03 14:41+0000\n"
 "Last-Translator: Jordi Serratosa <jordis@softcatala.cat>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -225,56 +225,58 @@ msgstr "Protegiu Internet com a recurs públic global"
 
 #: donate/templates/pages/base_page_master.html:79
 msgid "Join our email list to take action and stay updated!"
-msgstr ""
+msgstr "Subscriviu-vos a la nostra llista de correu per actuar i estar informat."
 
 #: donate/templates/pages/base_page_master.html:80
 msgid "Enter email address"
-msgstr ""
+msgstr "Escriviu una adreça electrònica"
 
 #: donate/templates/pages/base_page_master.html:83
 msgid "Sign up"
-msgstr ""
+msgstr "Registre"
 
 #: donate/templates/pages/base_page_master.html:91
 msgid "Thanks!"
-msgstr ""
+msgstr "Gràcies!"
 
 #: donate/templates/pages/base_page_master.html:92
 msgid "If you haven’t previously confirmed a subscription to a Mozilla-related newsletter you may have to do so. Please check your inbox or your spam filter for an email from us."
 msgstr ""
+"Si anteriorment no heu confirmat la subscripció a algun butlletí de notícies relacionat amb Mozilla, és possible que ho hàgiu de fer. Comproveu la safata d'entrada o el filtre de correu brossa per "
+"veure si hi ha algun missatge de Mozilla."
 
 #: donate/templates/pages/base_page_master.html:107
 msgid "More about us"
-msgstr ""
+msgstr "Més informació sobre nosaltres"
 
 #: donate/templates/pages/base_page_master.html:111 donate/templates/payment/thank_you_master.html:38 donate/thunderbird/templates/pages/base_page.html:36
 #: donate/thunderbird/templates/payment/thank_you.html:27
 msgid "Twitter"
-msgstr ""
+msgstr "Twitter"
 
 #: donate/templates/pages/base_page_master.html:117
 msgid "Instagram"
-msgstr ""
+msgstr "Instagram"
 
 #: donate/templates/pages/base_page_master.html:123
 msgid "GitHub"
-msgstr ""
+msgstr "GitHub"
 
 #: donate/templates/pages/base_page_master.html:137 donate/thunderbird/templates/pages/base_page.html:59
 msgid "Participation Guidelines"
-msgstr ""
+msgstr "Directrius per a la participació"
 
 #: donate/templates/pages/base_page_master.html:140 donate/thunderbird/templates/pages/base_page.html:51
 msgid "Legal"
-msgstr ""
+msgstr "Avisos legals"
 
 #: donate/templates/pages/base_page_master.html:143 donate/thunderbird/templates/pages/base_page.html:54
 msgid "Privacy"
-msgstr ""
+msgstr "Privadesa"
 
 #: donate/templates/pages/base_page_master.html:146
 msgid "License"
-msgstr ""
+msgstr "Llicència"
 
 #: donate/templates/pages/base_page_master.html:167
 #, python-format
