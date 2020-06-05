@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-27 09:14+0000\n"
-"PO-Revision-Date: 2020-06-05 15:16+0000\n"
+"PO-Revision-Date: 2020-06-05 15:32+0000\n"
 "Last-Translator: Jordi Serratosa <jordis@softcatala.cat>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -124,7 +124,7 @@ msgstr "La pàgina no existeix"
 
 #: donate/templates/404.html:14
 msgid "Go to our home page"
-msgstr "Aneu a la pàgina d'inici"
+msgstr "Vés a la pàgina d'inici"
 
 #: donate/templates/base_master.html:8 donate/templates/pages/base_page_master.html:6 donate/templates/pages/base_page_master.html:13 donate/templates/pages/base_page_master.html:14
 msgctxt "Page title"
@@ -357,11 +357,11 @@ msgstr "Altres"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:66
 msgid "Subject"
-msgstr ""
+msgstr "Assumpte"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:71
 msgid "Description"
-msgstr ""
+msgstr "Descripció"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:75
 #, python-format
@@ -370,7 +370,7 @@ msgstr ""
 
 #: donate/templates/pages/core/contributor_support_page_master.html:77
 msgid "Submit"
-msgstr ""
+msgstr "Envia"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:4 donate/templates/pages/core/ways_to_give_page_master.html:11
 msgid "Ways to Give"
@@ -378,7 +378,7 @@ msgstr ""
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:16
 msgid "Credit / Debit and PayPal"
-msgstr ""
+msgstr "Targeta de crèdit o dèbit i PayPal"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:18
 #, python-format
@@ -404,7 +404,7 @@ msgstr ""
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:33 donate/thunderbird/templates/pages/core/ways_to_give_page.html:17
 msgid "Euros:"
-msgstr ""
+msgstr "Euros:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:35 donate/templates/pages/core/ways_to_give_page_master.html:48 donate/thunderbird/templates/pages/core/ways_to_give_page.html:19
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:32
@@ -413,7 +413,7 @@ msgstr ""
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:35 donate/thunderbird/templates/pages/core/ways_to_give_page.html:19
 msgid "Euro (EUR)"
-msgstr ""
+msgstr "Euro (EUR)"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:36 donate/templates/pages/core/ways_to_give_page_master.html:49 donate/thunderbird/templates/pages/core/ways_to_give_page.html:20
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:33
@@ -423,16 +423,16 @@ msgstr ""
 #: donate/templates/pages/core/ways_to_give_page_master.html:37 donate/templates/pages/core/ways_to_give_page_master.html:50 donate/thunderbird/templates/pages/core/ways_to_give_page.html:21
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:34
 msgid "City & Country/Region:"
-msgstr ""
+msgstr "Ciutat i país/regió:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:37 donate/thunderbird/templates/pages/core/ways_to_give_page.html:21
 msgid "Frankfurt, Germany"
-msgstr ""
+msgstr "Frankfurt, Alemanya"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:38 donate/templates/pages/core/ways_to_give_page_master.html:56 donate/thunderbird/templates/pages/core/ways_to_give_page.html:22
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:40
 msgid "SWIFT/BIC Code:"
-msgstr ""
+msgstr "Codi SWIFT/BIC:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:39 donate/templates/pages/core/ways_to_give_page_master.html:53 donate/thunderbird/templates/pages/core/ways_to_give_page.html:23
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:37
@@ -442,19 +442,19 @@ msgstr ""
 #: donate/templates/pages/core/ways_to_give_page_master.html:40 donate/templates/pages/core/ways_to_give_page_master.html:57 donate/thunderbird/templates/pages/core/ways_to_give_page.html:24
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:41
 msgid "IBAN:"
-msgstr ""
+msgstr "IBAN:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:46 donate/thunderbird/templates/pages/core/ways_to_give_page.html:30
 msgid "British Pound Sterling:"
-msgstr ""
+msgstr "Lliura esterlina:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:48 donate/thunderbird/templates/pages/core/ways_to_give_page.html:32
 msgid "British Pound Sterling (GBP)"
-msgstr ""
+msgstr "Lliura esterlina (GBP)"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:50 donate/thunderbird/templates/pages/core/ways_to_give_page.html:34
 msgid "London, United Kingdom"
-msgstr ""
+msgstr "Londres, Regne Unit"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:51 donate/thunderbird/templates/pages/core/ways_to_give_page.html:35
 msgid "Bank Sort Code:"
@@ -497,7 +497,7 @@ msgstr ""
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:107
 msgid "Bitcoin"
-msgstr ""
+msgstr "Bitcoin"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:109
 msgid ""
@@ -514,7 +514,7 @@ msgstr ""
 
 #: donate/templates/payment/card_master.html:4
 msgid "Your information"
-msgstr ""
+msgstr "La vostra informació"
 
 #: donate/templates/payment/card_master.html:20
 #, python-format
@@ -528,19 +528,19 @@ msgstr ""
 
 #: donate/templates/payment/card_master.html:26
 msgid "Change amount"
-msgstr ""
+msgstr "Canvia l'import"
 
 #: donate/templates/payment/card_master.html:34
 msgid "Donation Amount"
-msgstr ""
+msgstr "Import del donatiu"
 
 #: donate/templates/payment/card_master.html:39
 msgid "Confirm"
-msgstr ""
+msgstr "Confirma"
 
 #: donate/templates/payment/card_master.html:44
 msgid "Your Details"
-msgstr ""
+msgstr "Les vostres dades"
 
 #: donate/templates/payment/card_master.html:60 donate/templates/payment/card_upsell_master.html:34 donate/templates/payment/newsletter_signup_master.html:30
 #: donate/templates/payment/paypal_upsell_master.html:34
@@ -553,23 +553,23 @@ msgstr ""
 
 #: donate/templates/payment/card_master.html:68
 msgid "Please correct these errors and try again."
-msgstr ""
+msgstr "Corregiu aquests errors i torneu-ho a provar."
 
 #: donate/templates/payment/card_master.html:91
 msgid "Payment"
-msgstr ""
+msgstr "Pagament"
 
 #: donate/templates/payment/card_master.html:106
 msgid "Card number"
-msgstr ""
+msgstr "Número de targeta"
 
 #: donate/templates/payment/card_master.html:112
 msgid "Expiration date"
-msgstr ""
+msgstr "Data de caducitat"
 
 #: donate/templates/payment/card_master.html:117
 msgid "CVV"
-msgstr ""
+msgstr "CVV"
 
 #: donate/templates/payment/card_master.html:126
 #, python-format
@@ -599,7 +599,7 @@ msgstr ""
 
 #: donate/templates/payment/card_upsell_master.html:4 donate/templates/payment/paypal_upsell_master.html:4 donate/templates/payment/thank_you_master.html:4
 msgid "Thank you"
-msgstr ""
+msgstr "Gràcies"
 
 #: donate/templates/payment/card_upsell_master.html:13 donate/templates/payment/newsletter_signup_master.html:13 donate/templates/payment/paypal_upsell_master.html:13
 #: donate/templates/payment/thank_you_master.html:12 donate/thunderbird/templates/payment/newsletter_signup.html:6
@@ -612,11 +612,11 @@ msgstr ""
 
 #: donate/templates/payment/card_upsell_master.html:21 donate/templates/payment/paypal_upsell_master.html:21
 msgid "Yes, I will give:"
-msgstr ""
+msgstr "Sí, donaré:"
 
 #: donate/templates/payment/card_upsell_master.html:40
 msgid "Monthly"
-msgstr ""
+msgstr "Mensual"
 
 #: donate/templates/payment/card_upsell_master.html:48
 #, python-format
@@ -631,7 +631,7 @@ msgstr ""
 
 #: donate/templates/payment/card_upsell_master.html:56 donate/templates/payment/newsletter_signup_master.html:42
 msgid "No Thanks"
-msgstr ""
+msgstr "No, gràcies"
 
 #: donate/templates/payment/newsletter_signup_master.html:4
 msgid "Stay in touch"
@@ -647,11 +647,11 @@ msgstr ""
 
 #: donate/templates/payment/paypal_upsell_master.html:41
 msgid "/ Monthly"
-msgstr ""
+msgstr "/ mensual"
 
 #: donate/templates/payment/paypal_upsell_master.html:52
 msgid "No"
-msgstr ""
+msgstr "No"
 
 #: donate/templates/payment/thank_you_master.html:15
 msgid "Your donation will go right to work protecting the web, keeping it open and available to all."
@@ -682,7 +682,7 @@ msgstr ""
 
 #: donate/templates/payment/thank_you_master.html:31 donate/thunderbird/templates/pages/base_page.html:42 donate/thunderbird/templates/payment/thank_you.html:20
 msgid "Facebook"
-msgstr ""
+msgstr "Facebook"
 
 #: donate/templates/payment/thank_you_master.html:34 donate/thunderbird/templates/payment/thank_you.html:23
 msgid "Share on Twitter"
@@ -691,26 +691,26 @@ msgstr ""
 #: donate/templates/payment/thank_you_master.html:44 donate/thunderbird/templates/payment/thank_you.html:33
 msgctxt "Share button"
 msgid "Email"
-msgstr ""
+msgstr "Correu electrònic"
 
 #: donate/templates/payment/thank_you_master.html:54 donate/thunderbird/templates/payment/thank_you.html:43
 msgctxt "Share button"
 msgid "Link"
-msgstr ""
+msgstr "Enllaç"
 
 #: donate/templates/payment/thank_you_master.html:55 donate/thunderbird/templates/payment/thank_you.html:44
 msgid "Copied"
-msgstr ""
+msgstr "S'ha copiat"
 
 #: donate/templates/tags/primarynav.html:10
 msgid "Back"
-msgstr ""
+msgstr "Enrere"
 
 #: donate/thunderbird/templates/base.html:9 donate/thunderbird/templates/pages/base_page.html:7 donate/thunderbird/templates/pages/base_page.html:14
 #: donate/thunderbird/templates/pages/base_page.html:15
 msgctxt "Page title"
 msgid "Give to Thunderbird"
-msgstr ""
+msgstr "Feu un donatiu al Thunderbird"
 
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:7
 #, python-format
