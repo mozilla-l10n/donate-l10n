@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-27 09:14+0000\n"
-"PO-Revision-Date: 2020-06-05 15:52+0000\n"
+"PO-Revision-Date: 2020-06-05 16:02+0000\n"
 "Last-Translator: Jordi Serratosa <jordis@softcatala.cat>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -586,16 +586,16 @@ msgstr ""
 #: donate/templates/payment/card_master.html:144
 #, python-format
 msgid "Donate <span class=\"%(span_class)s\">%(formatted_amount)s</span> per month"
-msgstr ""
+msgstr "Fes un donatiu de <span class=\"%(span_class)s\">%(formatted_amount)s</span> al mes"
 
 #: donate/templates/payment/card_master.html:146
 #, python-format
 msgid "Donate <span class=\"%(span_class)s\">%(formatted_amount)s</span>"
-msgstr ""
+msgstr "Fes un donatiu de <span class=\"%(span_class)s\">%(formatted_amount)s</span>"
 
 #: donate/templates/payment/card_master.html:155
 msgid "Your donation helps keep the Web open and free. Thank you in advance for your gift."
-msgstr ""
+msgstr "El vostre donatiu ajuda a mantenir el web obert i gratuït. Gràcies per endavant per la vostra generositat."
 
 #: donate/templates/payment/card_upsell_master.html:4 donate/templates/payment/paypal_upsell_master.html:4 donate/templates/payment/thank_you_master.html:4
 msgid "Thank you"
@@ -604,7 +604,7 @@ msgstr "Gràcies"
 #: donate/templates/payment/card_upsell_master.html:13 donate/templates/payment/newsletter_signup_master.html:13 donate/templates/payment/paypal_upsell_master.html:13
 #: donate/templates/payment/thank_you_master.html:12 donate/thunderbird/templates/payment/newsletter_signup.html:6
 msgid "Thank you for your generous gift"
-msgstr ""
+msgstr "Gràcies per la vostra generositat"
 
 #: donate/templates/payment/card_upsell_master.html:17 donate/templates/payment/paypal_upsell_master.html:17
 msgid "We’d love to have you as a sustaining supporter of Mozilla. <b>Could you add a monthly donation starting next month?</b>"
