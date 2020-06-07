@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-27 09:14+0000\n"
-"PO-Revision-Date: 2020-06-07 17:52+0000\n"
+"PO-Revision-Date: 2020-06-07 18:06+0000\n"
 "Last-Translator: Jordi Serratosa <jordis@softcatala.cat>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -80,7 +80,7 @@ msgstr "Aquest tipus de targeta no s'accepta."
 
 #: donate/payments/views.py:157 donate/payments/views.py:158
 msgid "The CVV code you entered was invalid."
-msgstr "EL codi CVV que heu introduït no és vàlid."
+msgstr "El codi CVV que heu introduït no és vàlid."
 
 #: donate/payments/views.py:159
 msgid "The expiration date you entered was invalid."
