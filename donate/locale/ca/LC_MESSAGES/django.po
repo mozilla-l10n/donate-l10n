@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-27 09:14+0000\n"
-"PO-Revision-Date: 2020-06-07 17:14+0000\n"
+"PO-Revision-Date: 2020-06-07 17:21+0000\n"
 "Last-Translator: Jordi Serratosa <jordis@softcatala.cat>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -518,7 +518,7 @@ msgstr ""
 #: donate/templates/pages/core/ways_to_give_page_master.html:114
 #, python-format
 msgid "Learn more about bitcoin donations <a href=\"%(bitcoin_wiki)s\">here</a>. To donate bitcoin, <a href=\"%(bitcoin_donate)s\">please visit this link.</a>"
-msgstr ""
+msgstr "Vegeu més informació sobre els donatius en bitcoin <a href=\"%(bitcoin_wiki)s\">aquí</a>. Per fer el donatiu en bitcoin <a href=\"%(bitcoin_donate)s\">visiteu aquest enllaç.</a>"
 
 #: donate/templates/payment/card_master.html:4
 msgid "Your information"
@@ -677,7 +677,7 @@ msgstr ""
 #: donate/templates/payment/thank_you_master.html:22
 msgctxt "Used as a tweet"
 msgid "I donated to @mozilla today because I #lovetheweb. Join me and help fight for a better and healthier internet, for all."
-msgstr ""
+msgstr "He fet una donació a @mozilla perquè estimo el web. Ajudeu-nos a lluitar per millorar la salut d'Internet per a tothom. #lovetheweb"
 
 #: donate/templates/payment/thank_you_master.html:23
 msgctxt "Email subject line"
