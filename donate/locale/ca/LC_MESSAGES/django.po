@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-27 09:14+0000\n"
-"PO-Revision-Date: 2020-06-07 17:21+0000\n"
+"PO-Revision-Date: 2020-06-07 17:31+0000\n"
 "Last-Translator: Jordi Serratosa <jordis@softcatala.cat>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -586,10 +586,15 @@ msgid ""
 "I must cancel at least 5 days before the next scheduled donation by email to <a href='mailto:%(email)s'>%(email)s</a>, and that I may only request a refund within 15 days from the date of a "
 "donation."
 msgstr ""
+"Autoritzo a Mozilla Foundation a fer un càrrec automàtic de la meva targeta cada mes per l'import indicat anteriorment, a partir d'avui i de forma continuada el mateix dia de cada mes, fins que ho "
+"cancel·li. Entenc que he de cancel·lar com a mínim 5 dies abans del següent donatiu programat mitjançant un correu electrònic a <a href='mailto:%(email)s'>%(email)s</a> i només puc sol·licitar un "
+"reembossament dins dels 15 dies següents a la data del donatiu."
 
 #: donate/templates/payment/card_master.html:128
 msgid "I authorize Mozilla Foundation to charge my card in the amount indicated above. I understand that I may only request a refund within 15 days from the date of the donation."
 msgstr ""
+"Autoritzo a Mozilla Foundation a fer un càrrec de la meva targeta per l'import indicat anteriorment. Entenc que només puc sol·licitar un reembossament dins dels 15 dies següents a la data del "
+"donatiu."
 
 #: donate/templates/payment/card_master.html:144
 #, python-format
@@ -632,6 +637,9 @@ msgid ""
 "I authorize Mozilla Foundation to automatically charge my card every month in the amount indicated above, starting next month on the same date as today, and continuing each month afterwards until I "
 "cancel. I understand that I must cancel at least 5 days before the next scheduled donation by email to %(email)s, and that I may only request a refund within 15 days from the date of a donation."
 msgstr ""
+"Autoritzo a Mozilla Foundation a fer un càrrec automàtic de la meva targeta cada mes per l'import indicat anteriorment, a partir del mes vinent, en el mateix dia del mes que avui, i de forma "
+"continuada cada mes fins que ho cancel·li. Entenc que he de cancel·lar com a mínim 5 dies abans del següent donatiu programat mitjançant un correu electrònic a %(email)s i només puc sol·licitar un "
+"reembossament dins dels 15 dies següents a la data del donatiu."
 
 #: donate/templates/payment/card_upsell_master.html:53
 msgid "Donate Monthly"
@@ -643,11 +651,11 @@ msgstr "No, gràcies"
 
 #: donate/templates/payment/newsletter_signup_master.html:4
 msgid "Stay in touch"
-msgstr ""
+msgstr "Manteniu el contacte"
 
 #: donate/templates/payment/newsletter_signup_master.html:14
 msgid "Protect the internet as a global public resource. Join our email list to take action and stay updated!"
-msgstr ""
+msgstr "Protegiu Internet com a recurs públic global. Subscriviu-vos a la nostra llista de correu per actuar i estar informat."
 
 #: donate/templates/payment/newsletter_signup_master.html:40
 msgid "Sign Up"
@@ -663,7 +671,7 @@ msgstr "No"
 
 #: donate/templates/payment/thank_you_master.html:15
 msgid "Your donation will go right to work protecting the web, keeping it open and available to all."
-msgstr ""
+msgstr "El vostre donatiu servirà per a protegir el web, mantenint-lo obert i accessible per a tothom."
 
 #: donate/templates/payment/thank_you_master.html:15
 #, python-format
