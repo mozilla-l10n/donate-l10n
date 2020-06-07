@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-27 09:14+0000\n"
-"PO-Revision-Date: 2020-06-07 17:31+0000\n"
+"PO-Revision-Date: 2020-06-07 17:43+0000\n"
 "Last-Translator: Jordi Serratosa <jordis@softcatala.cat>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -172,7 +172,7 @@ msgstr ""
 #, python-format
 msgid "Monthly donations are charged each month on the same day that you donate today, and will continue until you cancel. To cancel, email us at <a href=\"mailto:%(email)s\">%(email)s</a>."
 msgstr ""
-"Els donatius mensuals es cobren cada mes en el mateix dia del mes que feu el donatiu avui, i continuaran fins que les cancel·leu. Per a fer-ho, escriviu-nos un correu electrònic a <a "
+"Els donatius mensuals es cobren cada mes en el mateix dia del mes que feu el donatiu avui, de forma continuada fins que ho cancel·leu. Per a fer-ho, escriviu-nos un correu electrònic a <a "
 "href=\"mailto:%(email)s\">%(email)s</a>."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:17
@@ -184,7 +184,7 @@ msgstr "Altres maneres de donar: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a>
 #, python-format
 msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"mailto:%(email)s\">Send us an email</a>."
 msgstr ""
-"Té problemes per donar? Vegeu les <a href=\"%(faq_url)s\">preguntes més freqüents</a> per obtenir respostes a les preguntes més habituals. Encara teniu problemes? <a "
+"Teniu problemes per fer el donatiu? Vegeu les <a href=\"%(faq_url)s\">preguntes més freqüents</a> per obtenir respostes a les preguntes més habituals. Encara teniu problemes? <a "
 "href=\"mailto:%(email)s\">Envieu-nos un correu electrònic</a>."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:30
@@ -587,8 +587,8 @@ msgid ""
 "donation."
 msgstr ""
 "Autoritzo a Mozilla Foundation a fer un càrrec automàtic de la meva targeta cada mes per l'import indicat anteriorment, a partir d'avui i de forma continuada el mateix dia de cada mes, fins que ho "
-"cancel·li. Entenc que he de cancel·lar com a mínim 5 dies abans del següent donatiu programat mitjançant un correu electrònic a <a href='mailto:%(email)s'>%(email)s</a> i només puc sol·licitar un "
-"reembossament dins dels 15 dies següents a la data del donatiu."
+"cancel·li. Entenc que he de cancel·lar com a mínim 5 dies abans del següent donatiu programat mitjançant un correu electrònic a <a href='mailto:%(email)s'>%(email)s</a> i que només puc sol·licitar "
+"un reembossament dins dels 15 dies següents a la data del donatiu."
 
 #: donate/templates/payment/card_master.html:128
 msgid "I authorize Mozilla Foundation to charge my card in the amount indicated above. I understand that I may only request a refund within 15 days from the date of the donation."
@@ -621,7 +621,7 @@ msgstr "Gràcies per la vostra generositat"
 
 #: donate/templates/payment/card_upsell_master.html:17 donate/templates/payment/paypal_upsell_master.html:17
 msgid "We’d love to have you as a sustaining supporter of Mozilla. <b>Could you add a monthly donation starting next month?</b>"
-msgstr "Ens encantaria que us convertíssiu en un defensor continuat de Mozilla. <b>Podríeu afegir una donació mensual a partir del mes que ve?</b>"
+msgstr "Ens encantaria que us convertíssiu en un defensor continuat de Mozilla. <b>Podríeu afegir un donatiu mensual a partir del mes que ve?</b>"
 
 #: donate/templates/payment/card_upsell_master.html:21 donate/templates/payment/paypal_upsell_master.html:21
 msgid "Yes, I will give:"
@@ -638,8 +638,8 @@ msgid ""
 "cancel. I understand that I must cancel at least 5 days before the next scheduled donation by email to %(email)s, and that I may only request a refund within 15 days from the date of a donation."
 msgstr ""
 "Autoritzo a Mozilla Foundation a fer un càrrec automàtic de la meva targeta cada mes per l'import indicat anteriorment, a partir del mes vinent, en el mateix dia del mes que avui, i de forma "
-"continuada cada mes fins que ho cancel·li. Entenc que he de cancel·lar com a mínim 5 dies abans del següent donatiu programat mitjançant un correu electrònic a %(email)s i només puc sol·licitar un "
-"reembossament dins dels 15 dies següents a la data del donatiu."
+"continuada cada mes fins que ho cancel·li. Entenc que he de cancel·lar com a mínim 5 dies abans del següent donatiu programat mitjançant un correu electrònic a %(email)s i que només puc sol·licitar "
+"un reembossament dins dels 15 dies següents a la data del donatiu."
 
 #: donate/templates/payment/card_upsell_master.html:53
 msgid "Donate Monthly"
@@ -677,15 +677,17 @@ msgstr "El vostre donatiu servirà per a protegir el web, mantenint-lo obert i a
 #, python-format
 msgid "We’ve emailed you a donation receipt; if it’s missing, please check your junk/spam folders, then contact us at <a href=\"mailto:%(email)s\">%(email)s</a>."
 msgstr ""
+"Us hem enviat per correu electrònic un rebut del donatiu; si no us ha arribat, comproveu la carpeta de correu brossa i poseu-vos en contacte amb nosaltres a <a "
+"href=\"mailto:%(email)s\">%(email)s</a>."
 
 #: donate/templates/payment/thank_you_master.html:17
 msgid "Lastly, can you multiply your impact by sharing about the important work Mozilla is doing? Thank you again!"
-msgstr ""
+msgstr "Per últim, podeu multiplicar el vostre impacte compartint la important tasca que està fent Mozilla? Gràcies de nou!"
 
 #: donate/templates/payment/thank_you_master.html:22
 msgctxt "Used as a tweet"
 msgid "I donated to @mozilla today because I #lovetheweb. Join me and help fight for a better and healthier internet, for all."
-msgstr "He fet una donació a @mozilla perquè estimo el web. Ajudeu-nos a lluitar per millorar la salut d'Internet per a tothom. #lovetheweb"
+msgstr "He fet un donatiu a @mozilla perquè estimo el web. Ajudeu-nos a lluitar per millorar la salut d'Internet per a tothom. #lovetheweb"
 
 #: donate/templates/payment/thank_you_master.html:23
 msgctxt "Email subject line"
@@ -731,17 +733,21 @@ msgstr "Feu un donatiu al Thunderbird"
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:7
 #, python-format
 msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a>"
-msgstr ""
+msgstr "Altres maneres de donar: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Xec</a>"
 
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:15
 #, python-format
 msgid "Monthly donations are charged each month on the same day that you donate today, and will continue until you cancel. To cancel, fill out <a href=\"%(help_url)s\">this form</a>."
 msgstr ""
+"Els donatius mensuals es cobren cada mes en el mateix dia del mes que feu el donatiu avui, de forma continuada fins que ho cancel·leu. Per a fer-ho, empleneu <a href=\"%(help_url)s\">aquest "
+"formulari</a>."
 
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:21
 #, python-format
 msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"%(help_url)s\">Contact us</a>."
 msgstr ""
+"Teniu problemes per fer el donatiu? Vegeu les <a href=\"%(faq_url)s\">preguntes més freqüents</a> per obtenir respostes a les preguntes més habituals. Encara teniu problemes? <a "
+"href=\"%(help_url)s\">Contacteu-nos</a>."
 
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:27
 msgid ""
@@ -786,11 +792,11 @@ msgstr "Envieu un xec <strong>incloent-hi «%(thunderbird)s» en la línia de no
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:59
 msgid "Please note that we can only accept checks in US dollars drawn on a US bank. Please do <strong>not</strong> send cash."
-msgstr ""
+msgstr "Tingueu en compte que només podem acceptar xecs en dòlars nord-americans emesos en un banc nord-americà. <strong>No</strong> envieu diners en efectiu."
 
 #: donate/thunderbird/templates/payment/card.html:6
 msgid "Thank you in advance for your gift."
-msgstr ""
+msgstr "Gràcies per endavant per la vostra generositat."
 
 #: donate/thunderbird/templates/payment/card.html:12
 #, python-format
@@ -799,6 +805,9 @@ msgid ""
 "understand that I must cancel at least 5 days before the next scheduled donation by <a href='%(help_url)s'>submitting a request</a>, and that I may only request a refund within 15 days from the date"
 " of a donation."
 msgstr ""
+"Autoritzo a MZLA Technologies Corporation a fer un càrrec automàtic de la meva targeta cada mes per l'import indicat anteriorment, a partir d'avui i de forma continuada el mateix dia de cada mes, "
+"fins que ho cancel·li. Entenc que he de cancel·lar com a mínim 5 dies abans del següent donatiu programat <a href='%(help_url)s'>enviant una sol·licitud</a> i que només puc sol·licitar un "
+"reembossament dins dels 15 dies següents a la data del donatiu."
 
 #: donate/thunderbird/templates/payment/card.html:14
 msgid "I authorize MZLA Technologies Corporation to charge my card in the amount indicated above. I understand that I may only request a refund within 15 days from the date of the donation."
