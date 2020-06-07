@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-27 09:14+0000\n"
-"PO-Revision-Date: 2020-06-07 17:43+0000\n"
+"PO-Revision-Date: 2020-06-07 17:52+0000\n"
 "Last-Translator: Jordi Serratosa <jordis@softcatala.cat>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -754,6 +754,8 @@ msgid ""
 "Contributions go to MZLA Technologies Corporation, a California corporation wholly owned by the Mozilla Foundation. Funds will be reserved for use in the Thunderbird project. Contributions are not "
 "tax-deductible as charitable contributions."
 msgstr ""
+"Les contribucions van a MZLA Technologies Corporation, una empresa de Califòrnia propietat exclusiva de la Fundació Mozilla. Els fons es reservaran per utilitzar-los en el projecte Thunderbird. Les "
+"contribucions no són deduïbles fiscalment."
 
 #: donate/thunderbird/templates/pages/base_page.html:57
 msgid "Cookies"
@@ -812,10 +814,12 @@ msgstr ""
 #: donate/thunderbird/templates/payment/card.html:14
 msgid "I authorize MZLA Technologies Corporation to charge my card in the amount indicated above. I understand that I may only request a refund within 15 days from the date of the donation."
 msgstr ""
+"Autoritzo a MZLA Technologies Corporation a fer un càrrec de la meva targeta per l'import indicat anteriorment. Entenc que només puc sol·licitar un reembossament dins dels 15 dies següents a la data"
+" del donatiu."
 
 #: donate/thunderbird/templates/payment/card_upsell.html:6 donate/thunderbird/templates/payment/paypal_upsell.html:6
 msgid "We’d love to have you as a sustaining supporter of Thunderbird. <b>Could you add a monthly donation starting next month?</b>"
-msgstr ""
+msgstr "Ens encantaria que us convertíssiu en un defensor continuat del Thunderbird. <b>Podríeu afegir un donatiu mensual a partir del mes que ve?</b>"
 
 #: donate/thunderbird/templates/payment/card_upsell.html:10
 #, python-format
@@ -824,15 +828,20 @@ msgid ""
 "afterwards until I cancel. I understand that I must cancel at least 5 days before the next scheduled donation by <a href=\"%(help_url)s\">submitting this form</a>, and that I may only request a "
 "refund within 15 days from the date of a donation."
 msgstr ""
+"Autoritzo a MZLA Technologies Corporation a fer un càrrec automàtic de la meva targeta cada mes per l'import indicat anteriorment, a partir del mes vinent, en el mateix dia del mes que avui, i de "
+"forma continuada cada mes fins que ho cancel·li. Entenc que he de cancel·lar com a mínim 5 dies abans del següent donatiu programat <a href=\"%(help_url)s\">enviant aquesta sol·licitud</a> i que "
+"només puc sol·licitar un reembossament dins dels 15 dies següents a la data del donatiu."
 
 #: donate/thunderbird/templates/payment/thank_you.html:6
 #, python-format
 msgid "We’ve emailed you a donation receipt; if it’s missing, please check your junk/spam folders, then contact us using <a href=\"%(url)s\">this form</a>."
 msgstr ""
+"Us hem enviat per correu electrònic un rebut del donatiu; si no us ha arribat, comproveu la carpeta de correu brossa i poseu-vos en contacte amb nosaltres amb <a href=\"%(url)s\">aquest "
+"formulari</a>."
 
 #: donate/thunderbird/templates/payment/thank_you.html:7
 msgid "Lastly, can you multiply your impact by sharing about the important work Thunderbird is doing? Thank you again!"
-msgstr ""
+msgstr "Per últim, podeu multiplicar el vostre impacte compartint la important tasca que està fent Thunderbird? Gràcies de nou!"
 
 #: donate/thunderbird/templates/payment/thank_you.html:11
 msgctxt "Used as a tweet"
