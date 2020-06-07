@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-27 09:14+0000\n"
-"PO-Revision-Date: 2020-05-30 11:07+0000\n"
+"PO-Revision-Date: 2020-06-07 15:34+0000\n"
 "Last-Translator: Håvar Henriksen <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nb_NO\n"
@@ -72,7 +72,7 @@ msgstr "Land"
 #: donate/payments/forms.py:131 donate/templates/pages/base_page_master.html:87
 #, python-format
 msgid "I’m okay with Mozilla handling my info as explained in this <a href='%(url)s'>Privacy Notice</a>."
-msgstr "Jeg er forstått med hvordan Mozilla behandler mine personlige data, som forklart i denne <a href='%(url)s'>personvernserklæringen</a>."
+msgstr "Jeg er forstått med hvordan Mozilla behandler mine personlige data, som forklart i denne <a href='%(url)s'>personvernerklæringen</a>."
 
 #: donate/payments/views.py:156
 msgid "The type of card you used is not accepted."
