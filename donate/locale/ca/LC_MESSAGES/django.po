@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-27 09:14+0000\n"
-"PO-Revision-Date: 2020-06-07 16:55+0000\n"
+"PO-Revision-Date: 2020-06-07 16:58+0000\n"
 "Last-Translator: Jordi Serratosa <jordis@softcatala.cat>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -397,12 +397,12 @@ msgstr "Acceptem donatius en euros mitjançant transferència SEPA (zona única 
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:25
 msgid "Please remember that donations are deductible for U.S. income tax purposes only."
-msgstr ""
+msgstr "Recordeu que els donatius només poden deduir-se a efectes de l'impost sobre la renda dels Estats Units."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:27 donate/thunderbird/templates/pages/core/ways_to_give_page.html:10
 #, python-format
 msgid "If your bank requests our physical address, it is %(address)s."
-msgstr ""
+msgstr "Si el banc us sol·licita la nostra adreça física, és %(address)s."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:33 donate/thunderbird/templates/pages/core/ways_to_give_page.html:17
 msgid "Euros:"
@@ -479,6 +479,8 @@ msgid ""
 "Please note that due to the “shelter in place” order recently implemented for California, processing and acknowledgment of check donations to the Mozilla Foundation will be indefinitely delayed. "
 "Rather than sending us a check, please consider making an <a href=\"/\">online donation</a> instead."
 msgstr ""
+"Tingueu en compte que, a causa de l'ordre de romandre a casa emesa recentment per a Califòrnia, el processament i el reconeixement dels donatius per xec a la Fundació Mozilla s'endarrerirà de forma "
+"indefinida. En lloc d'enviar-nos un xec, considereu la possibilitat de fer un <a href=\"/\">donatiu en línia</a>."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:78
 #, python-format
