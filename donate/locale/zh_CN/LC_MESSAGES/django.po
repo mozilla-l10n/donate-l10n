@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-12 09:58+0000\n"
-"PO-Revision-Date: 2020-06-12 11:51+0000\n"
+"PO-Revision-Date: 2020-06-12 11:56+0000\n"
 "Last-Translator: πάθοςγιατηζωή <eloli@foxmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -385,7 +385,7 @@ msgstr "我们接受通过单一欧元支付区（SEPA）网络的欧元转账�
 msgid ""
 "Note that for smaller (under 10 EUR or equivalent) donations, <strong>and especially for donations under 5 EUR or equivalent</strong>, we request that you donate via credit card or PayPal to help "
 "reduce Mozilla’s processing fees."
-msgstr "请注意，对于较小金额（不超过 10 欧元或其等值货币）的捐款，<strong>特别是不超过 5 欧元或其等值货币的捐款，我们请求您通过信用卡或 PayPal 进行捐款，以帮助降低 Mozilla 的手续费。"
+msgstr "请注意，对于较小金额（不超过 10 欧元或其等值货币）的捐款，<strong>特别是不超过 5 欧元或其等值货币的捐款</strong>，我们请求您通过信用卡或 PayPal 进行捐款，以帮助降低 Mozilla 的手续费。"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:30
 msgid "Please remember that donations are deductible for U.S. income tax purposes only."
@@ -751,7 +751,7 @@ msgstr "我们接受通过单一欧元支付区（SEPA）网络的欧元转账�
 msgid ""
 "Please note that for smaller (under 10 EUR or equivalent) contributions, <strong>and especially for contributions under 5 EUR or equivalent</strong>, we request that you contribute via credit card "
 "or PayPal to help reduce our processing fees."
-msgstr "请注意，对于较小金额（不超过 10 欧元或其等值货币）的捐款，<strong>特别是不超过 5 欧元或其等值货币的捐款，我们请求您通过信用卡或 PayPal 进行捐款，以帮助降低我们的手续费。"
+msgstr "请注意，对于较小金额（不超过 10 欧元或其等值货币）的捐款，<strong>特别是不超过 5 欧元或其等值货币的捐款</strong>，我们请求您通过信用卡或 PayPal 进行捐款，以帮助降低我们的手续费。"
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:30 donate/thunderbird/templates/pages/core/ways_to_give_page.html:47
 msgid "Memo field:"
