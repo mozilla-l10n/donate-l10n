@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-27 09:14+0000\n"
+"POT-Creation-Date: 2020-06-12 09:58+0000\n"
 "PO-Revision-Date: 2020-04-01 10:57+0000\n"
 "Last-Translator: Théo Chevalier <theo.chevalier11@gmail.com>\n"
 "Language-Team: \n"
@@ -401,137 +401,141 @@ msgstr "Virement bancaire / SEPA"
 msgid "We accept donations in Euros through Single European Payment Area (SEPA) transfer, and British Pounds through BACS transfer."
 msgstr "Nous acceptons les dons en euros via des virements au sein de la zone de paiement européenne unique (SEPA), ou en livres sterling via des virements BACS."
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:25
+#: donate/templates/pages/core/ways_to_give_page_master.html:26
+msgid "Note that for smaller (under 10 EUR or equivalent) donations, <strong>and especially for donations under 5 EUR or equivalent</strong>, we request that you donate via credit card or PayPal to help reduce Mozilla’s processing fees."
+msgstr ""
+
+#: donate/templates/pages/core/ways_to_give_page_master.html:30
 msgid "Please remember that donations are deductible for U.S. income tax purposes only."
 msgstr "Nous vous rappelons que ces dons sont déductibles uniquement aux États-Unis dans le cadre des impôts sur le revenu."
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:27
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:10
+#: donate/templates/pages/core/ways_to_give_page_master.html:32
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:15
 #, python-format
 msgid "If your bank requests our physical address, it is %(address)s."
 msgstr "Si votre banque demande notre adresse postale, indiquez %(address)s."
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:33
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:17
+#: donate/templates/pages/core/ways_to_give_page_master.html:38
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:22
 msgid "Euros:"
 msgstr "Euros :"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:35
-#: donate/templates/pages/core/ways_to_give_page_master.html:48
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:19
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:32
+#: donate/templates/pages/core/ways_to_give_page_master.html:40
+#: donate/templates/pages/core/ways_to_give_page_master.html:53
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:24
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:37
 msgid "Account Currency:"
 msgstr "Monnaie du compte :"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:35
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:19
+#: donate/templates/pages/core/ways_to_give_page_master.html:40
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:24
 msgid "Euro (EUR)"
 msgstr "Euro (EUR)"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:36
-#: donate/templates/pages/core/ways_to_give_page_master.html:49
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:20
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:33
+#: donate/templates/pages/core/ways_to_give_page_master.html:41
+#: donate/templates/pages/core/ways_to_give_page_master.html:54
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:25
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:38
 msgid "Receiving Bank (Pay to):"
 msgstr "Banque du bénéficiaire :"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:37
-#: donate/templates/pages/core/ways_to_give_page_master.html:50
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:21
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:34
+#: donate/templates/pages/core/ways_to_give_page_master.html:42
+#: donate/templates/pages/core/ways_to_give_page_master.html:55
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:26
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:39
 msgid "City & Country/Region:"
 msgstr "Ville et pays :"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:37
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:21
+#: donate/templates/pages/core/ways_to_give_page_master.html:42
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:26
 msgid "Frankfurt, Germany"
 msgstr "Francfort, Allemagne"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:38
-#: donate/templates/pages/core/ways_to_give_page_master.html:56
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:22
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:40
+#: donate/templates/pages/core/ways_to_give_page_master.html:43
+#: donate/templates/pages/core/ways_to_give_page_master.html:61
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:27
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:45
 msgid "SWIFT/BIC Code:"
 msgstr "Code BIC / SWIFT :"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:39
-#: donate/templates/pages/core/ways_to_give_page_master.html:53
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:23
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:37
+#: donate/templates/pages/core/ways_to_give_page_master.html:44
+#: donate/templates/pages/core/ways_to_give_page_master.html:58
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:28
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:42
 msgid "Beneficiary Name (For credit to):"
 msgstr "Nom du bénéficiaire (ordre) :"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:40
-#: donate/templates/pages/core/ways_to_give_page_master.html:57
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:24
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:41
+#: donate/templates/pages/core/ways_to_give_page_master.html:45
+#: donate/templates/pages/core/ways_to_give_page_master.html:62
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:29
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:46
 msgid "IBAN:"
 msgstr "IBAN :"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:46
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:30
+#: donate/templates/pages/core/ways_to_give_page_master.html:51
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:35
 msgid "British Pound Sterling:"
 msgstr "Livres sterling :"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:48
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:32
+#: donate/templates/pages/core/ways_to_give_page_master.html:53
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:37
 msgid "British Pound Sterling (GBP)"
 msgstr "Livre sterling (GBP)"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:50
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:34
+#: donate/templates/pages/core/ways_to_give_page_master.html:55
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:39
 msgid "London, United Kingdom"
 msgstr "Londres, Royaume-Uni"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:51
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:35
+#: donate/templates/pages/core/ways_to_give_page_master.html:56
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:40
 msgid "Bank Sort Code:"
 msgstr "Code guichet :"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:52
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:36
+#: donate/templates/pages/core/ways_to_give_page_master.html:57
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:41
 msgid "Account Number (8 digits):"
 msgstr "Numéro du compte (8 chiffres) :"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:63
+#: donate/templates/pages/core/ways_to_give_page_master.html:68
 msgid "Check (via postal service)"
 msgstr "Chèque (par voie postale)"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:67
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:47
+#: donate/templates/pages/core/ways_to_give_page_master.html:72
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:52
 msgid "UPDATE March 20, 2020:"
 msgstr "MISE À JOUR du 20 mars 2020 :"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:68
+#: donate/templates/pages/core/ways_to_give_page_master.html:73
 msgid "Please note that due to the “shelter in place” order recently implemented for California, processing and acknowledgment of check donations to the Mozilla Foundation will be indefinitely delayed. Rather than sending us a check, please consider making an <a href=\"/\">online donation</a> instead."
 msgstr "Veuillez noter qu’en raison des mesures de confinement récemment instaurées en Californie, le traitement et la réception des dons par chèque à la Fondation Mozilla sont suspendus pour une durée indéterminée. Plutôt que de nous envoyer un chèque, nous vous invitons à <a href=\"/\">faire un don en ligne</a> à la place."
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:78
+#: donate/templates/pages/core/ways_to_give_page_master.html:83
 #, python-format
 msgid "Please send a check <strong>including your email address on the memo line</strong>, and payable (payee) to “%(payee)s”."
 msgstr "Veuillez envoyer un chèque <strong>comprenant votre adresse électronique sur la ligne mémo</strong> et à l’ordre de « %(payee)s »."
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:81
+#: donate/templates/pages/core/ways_to_give_page_master.html:86
 msgid "Please note that the Mozilla Foundation can only accept checks in US dollars drawn on a US bank. Please do <strong>not</strong> send cash."
 msgstr "Veuillez noter que la fondation Mozilla ne peut accepter que les chèques en dollars américains provenant d’une banque américaine. Merci de ne <strong>pas</strong> envoyer d’argent liquide."
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:96
+#: donate/templates/pages/core/ways_to_give_page_master.html:101
 msgid "Currencies"
 msgstr "Devises"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:97
+#: donate/templates/pages/core/ways_to_give_page_master.html:102
 msgid "Select your currency to make a secure online donation:"
 msgstr "Sélectionnez votre devise pour faire un don en ligne de façon sécurisée :"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:107
+#: donate/templates/pages/core/ways_to_give_page_master.html:112
 msgid "Bitcoin"
 msgstr "Bitcoins"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:109
+#: donate/templates/pages/core/ways_to_give_page_master.html:114
 msgid "The Mozilla Foundation is a California non-profit corporation exempt from United States federal income taxation under IRC 501(c)(3) and a public charity classified under IRC sections 170(b)(1)(A) and 509(a)(1). Bitcoin donations Mozilla receives are considered charitable contributions under U.S. federal tax laws, to be used in its discretion for its charitable purposes. Because the IRS has indicated that it will treat bitcoin as property for U.S. tax purposes (see IRS Notice 2014-21), donations of bitcoin may be subject to special rules as to the amount of your charitable deduction, the documentation that must be provided to claim a tax deduction, or other matters."
 msgstr "Mozilla Foundation est une entreprise à but non lucratif californienne exonérée de l’impôt sur le revenu aux États-Unis selon la section 501(c)(3) de l’Internal Revenue Code (IRC) et est considérée comme organisme de bienfaisance selon les sections 170(b)(1)(A) et 509(a)(1) de l’IRC. Les dons en bitcoins reçus par Mozilla sont considérés comme des dons à des organismes de bienfaisance selon la législation fiscale aux États-Unis, et seront utilisés à des fins caritatives, à sa discrétion. L’Internal Revenue Service a indiqué qu’il traitera les bitcoins en tant que biens dans le cadre des impôts aux États-Unis (voir la notice 2014-21 de l’IRS). Les dons en bitcoins peuvent faire l’objet de règles spécifiques sur le montant de votre déduction liée aux dons à des organismes de bienfaisance, sur les justificatifs devant être fournis pour demander une déduction fiscale, et sur d’autres choses."
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:114
+#: donate/templates/pages/core/ways_to_give_page_master.html:119
 #, python-format
 msgid "Learn more about bitcoin donations <a href=\"%(bitcoin_wiki)s\">here</a>. To donate bitcoin, <a href=\"%(bitcoin_donate)s\">please visit this link.</a>"
 msgstr "Si vous souhaitez en savoir plus sur les dons en bitcoins, <a href=\"%(bitcoin_wiki)s\">cliquez ici</a>. Pour faire un don en bitcoins, <a href=\"%(bitcoin_donate)s\">visitez ce lien</a>."
@@ -787,21 +791,25 @@ msgstr "Votre téléchargement devrait avoir démarré automatiquement. Si cela 
 msgid "We accept contributions in Euros through Single European Payment Area (SEPA) transfer, and British Pounds through BACS transfer."
 msgstr "Nous acceptons les dons en euros via des virements au sein de la zone de paiement européenne unique (SEPA), ou en livres sterling via des virements BACS."
 
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:25
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:42
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:10
+msgid "Please note that for smaller (under 10 EUR or equivalent) contributions, <strong>and especially for contributions under 5 EUR or equivalent</strong>, we request that you contribute via credit card or PayPal to help reduce our processing fees."
+msgstr ""
+
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:30
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:47
 msgid "Memo field:"
 msgstr "Libellé :"
 
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:48
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:53
 msgid "Please note that due to the “shelter in place” order recently implemented for California, processing and acknowledgment of check donations to Thunderbird/MZLA Technologies will be indefinitely delayed. Rather than sending us a check, please consider making an <a href=\"/\">online donation</a> instead."
 msgstr "Veuillez noter qu’en raison des mesures de confinement récemment instaurées en Californie, le traitement et la réception des dons par chèque à Thunderbird/MZLA Technologies sont suspendus pour une durée indéterminée. Plutôt que de nous envoyer un chèque, nous vous invitons à <a href=\"/\">faire un don en ligne</a> à la place."
 
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:56
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:61
 #, python-format
 msgid "Please send a check <strong>with “%(thunderbird)s” on the memo line</strong>, and payable (payee) to “%(payee)s”."
 msgstr "Veuillez envoyer un chèque <strong>comprenant « %(thunderbird)s » sur la ligne mémo</strong> et à l’ordre de « %(payee)s »."
 
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:59
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:64
 msgid "Please note that we can only accept checks in US dollars drawn on a US bank. Please do <strong>not</strong> send cash."
 msgstr "Veuillez noter que nous n’acceptons que les chèques en dollars américains provenant d’une banque américaine. Merci de ne <strong>pas</strong> envoyer d’argent liquide."
 
