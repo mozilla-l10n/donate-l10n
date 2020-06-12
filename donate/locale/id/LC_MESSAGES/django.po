@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-27 09:14+0000\n"
-"PO-Revision-Date: 2020-06-12 03:47+0000\n"
+"PO-Revision-Date: 2020-06-12 04:04+0000\n"
 "Last-Translator: Lidya Christina <id.lidya@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: id\n"
@@ -506,11 +506,11 @@ msgstr ""
 #: donate/templates/pages/core/ways_to_give_page_master.html:114
 #, python-format
 msgid "Learn more about bitcoin donations <a href=\"%(bitcoin_wiki)s\">here</a>. To donate bitcoin, <a href=\"%(bitcoin_donate)s\">please visit this link.</a>"
-msgstr ""
+msgstr "Pelajari lebih lanjut tentang sumbangan bitcoin <a href=\"%(bitcoin_wiki)s\">di sini</a>. Untuk menyumbangkan bitcoin, <a href=\"%(bitcoin_donate)s\">silakan kunjungi tautan ini. </a>"
 
 #: donate/templates/payment/card_master.html:4
 msgid "Your information"
-msgstr ""
+msgstr "Informasi Anda"
 
 #: donate/templates/payment/card_master.html:20
 #, python-format
