@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-27 09:14+0000\n"
-"PO-Revision-Date: 2020-05-15 06:56+0000\n"
-"Last-Translator: Muhammad Mauli Mubassari <maulimubassari23@gmail.com>\n"
+"PO-Revision-Date: 2020-06-12 03:41+0000\n"
+"Last-Translator: Lidya Christina <id.lidya@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
@@ -481,11 +481,11 @@ msgstr ""
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:96
 msgid "Currencies"
-msgstr ""
+msgstr "Mata Uang"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:97
 msgid "Select your currency to make a secure online donation:"
-msgstr ""
+msgstr "Pilih mata uang Anda untuk memberikan donasi online yang aman:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:107
 msgid "Bitcoin"
