@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-12 09:58+0000\n"
-"PO-Revision-Date: 2020-06-12 10:13+0000\n"
+"PO-Revision-Date: 2020-06-12 16:37+0000\n"
 "Last-Translator: Théo Chevalier <theo.chevalier11@gmail.com>\n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -271,7 +271,7 @@ msgstr "Mentions légales"
 
 #: donate/templates/pages/base_page_master.html:143 donate/thunderbird/templates/pages/base_page.html:54
 msgid "Privacy"
-msgstr "Vie privée"
+msgstr "Confidentialité"
 
 #: donate/templates/pages/base_page_master.html:146
 msgid "License"
