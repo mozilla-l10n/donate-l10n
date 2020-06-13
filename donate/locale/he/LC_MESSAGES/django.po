@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-12 09:58+0000\n"
-"PO-Revision-Date: 2020-06-13 19:46+0000\n"
+"PO-Revision-Date: 2020-06-13 20:36+0000\n"
 "Last-Translator: Itiel <itiel_yn8@walla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: he\n"
@@ -362,11 +362,11 @@ msgstr ""
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:4 donate/templates/pages/core/ways_to_give_page_master.html:11
 msgid "Ways to Give"
-msgstr ""
+msgstr "דרכים לתת"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:16
 msgid "Credit / Debit and PayPal"
-msgstr ""
+msgstr "אשראי / חיוב מיידי ו־PayPal"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:18
 #, python-format
@@ -483,15 +483,15 @@ msgstr ""
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:101
 msgid "Currencies"
-msgstr ""
+msgstr "סוגי מטבע"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:102
 msgid "Select your currency to make a secure online donation:"
-msgstr ""
+msgstr "נא לבחור את המטבע שלך לצורך תרומה מאובטחת מקוונת:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:112
 msgid "Bitcoin"
-msgstr ""
+msgstr "ביטקוין"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:114
 msgid ""
