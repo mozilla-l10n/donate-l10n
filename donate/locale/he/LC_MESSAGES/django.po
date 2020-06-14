@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-12 09:58+0000\n"
-"PO-Revision-Date: 2020-06-14 14:44+0000\n"
+"PO-Revision-Date: 2020-06-14 14:54+0000\n"
 "Last-Translator: Itiel <itiel_yn8@walla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: he\n"
@@ -543,7 +543,7 @@ msgstr "היו כמה שגיאות בטופס שלך. נא לשנות את הש�
 
 #: donate/templates/payment/card_master.html:64
 msgid "We were unable to take payment because the payment processor reported an error with your address information:"
-msgstr ""
+msgstr "לא הצלחנו לקחת תשלום מכיוון שמעבד התשלומים דיווח על שגיאה במידע על הכתובת שלך:"
 
 #: donate/templates/payment/card_master.html:68
 msgid "Please correct these errors and try again."
@@ -732,7 +732,7 @@ msgstr ""
 
 #: donate/thunderbird/templates/pages/base_page.html:57
 msgid "Cookies"
-msgstr ""
+msgstr "עוגיות"
 
 #: donate/thunderbird/templates/pages/base_page.html:69
 #, python-format
