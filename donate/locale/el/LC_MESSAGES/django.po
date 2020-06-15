@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-12 09:58+0000\n"
-"PO-Revision-Date: 2020-06-15 23:22+0000\n"
+"PO-Revision-Date: 2020-06-15 23:31+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -638,6 +638,9 @@ msgid ""
 "I authorize Mozilla Foundation to automatically charge my card every month in the amount indicated above, starting next month on the same date as today, and continuing each month afterwards until I "
 "cancel. I understand that I must cancel at least 5 days before the next scheduled donation by email to %(email)s, and that I may only request a refund within 15 days from the date of a donation."
 msgstr ""
+"Εξουσιοδοτώ το Ίδρυμα Mozilla να χρεώνει αυτόματα την κάρτα μου κάθε μήνα με το ποσό που αναφέρεται παραπάνω, ξεκινώντας από τον επόμενο μήνα την ίδια ημερομηνία με σήμερα και συνεχίζοντας κάθε μήνα"
+" στο εξής, μέχρι να ακυρώσω. Κατανοώ ότι πρέπει να ακυρώσω τουλάχιστον 5 ημέρες πριν από την επόμενη προγραμματισμένη δωρεά μέσω email στο %(email)s και ότι μπορώ να ζητήσω επιστροφή χρημάτων μόνο "
+"εντός 15 ημερών από την ημερομηνία της δωρεάς."
 
 #: donate/templates/payment/card_upsell_master.html:53
 msgid "Donate Monthly"
@@ -683,7 +686,7 @@ msgstr ""
 #: donate/templates/payment/thank_you_master.html:22
 msgctxt "Used as a tweet"
 msgid "I donated to @mozilla today because I #lovetheweb. Join me and help fight for a better and healthier internet, for all."
-msgstr ""
+msgstr "Σήμερα, έκανα μια δωρεά στη @mozilla. Βοηθήστε κι εσείς στον αγώνα για ένα καλύτερο και υγιέστερο διαδίκτυο, για όλους. #lovetheweb"
 
 #: donate/templates/payment/thank_you_master.html:23
 msgctxt "Email subject line"
@@ -734,12 +737,14 @@ msgstr "Άλλοι τρόποι δωρεάς: <a href=\"%(wire_transfer_url)s\">
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:15
 #, python-format
 msgid "Monthly donations are charged each month on the same day that you donate today, and will continue until you cancel. To cancel, fill out <a href=\"%(help_url)s\">this form</a>."
-msgstr ""
+msgstr "Οι μηνιαίες δωρεές χρεώνονται κάθε μήνα την ίδια μέρα που δωρίσατε και σήμερα και θα συνεχίσουν μέχρι να τις ακυρώσετε. Για ακύρωση, συμπληρώστε <a href=\"%(help_url)s\">αυτή τη φόρμα</a>."
 
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:21
 #, python-format
 msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"%(help_url)s\">Contact us</a>."
 msgstr ""
+"Προβλήματα με τη δωρεά; Επισκεφθείτε τις <a href=\"%(faq_url)s\">συχνές ερωτήσεις</a> για απαντήσεις στις πιο συνηθισμένες ερωτήσεις. Έχετε ακόμα προβλήματα; <a href=\"%(help_url)s\">Επικοινωνήστε "
+"μαζί μας</a>."
 
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:27
 msgid ""
@@ -754,16 +759,16 @@ msgstr "Cookies"
 #: donate/thunderbird/templates/pages/base_page.html:69
 #, python-format
 msgid "Portions of this content are ©1998–%(current_year)s by individual contributors. Content available under a <a %(link_attributes)s>Creative Commons license</a>"
-msgstr ""
+msgstr "Τμήματα αυτού του περιεχομένου ανήκουν σε μεμονωμένους εθελοντές ©1998–%(current_year)s. Το περιεχόμενο διατίθεται υπό την <a %(link_attributes)s>άδεια Creative Commons</a>."
 
 #: donate/thunderbird/templates/pages/core/landing_page.html:7
 #, python-format
 msgid "Your download should have begun automatically. If it didn’t work, <a href=\"%(url)s\">try downloading again here</a>."
-msgstr ""
+msgstr "Η λήψη σας θα ξεκινήσει αυτόματα. Αν δεν λειτούργησε, <a href=\"%(url)s\">δοκιμάστε να κάνετε ξανά λήψη εδώ</a>."
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:8
 msgid "We accept contributions in Euros through Single European Payment Area (SEPA) transfer, and British Pounds through BACS transfer."
-msgstr ""
+msgstr "Δεχόμαστε συνεισφορές σε ευρώ μέσω εμβάσματος Ενιαίου Χώρου Πληρωμών σε Ευρώ (SEPA) και σε βρετανικές λίρες μέσω εμβάσματος BACS."
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:10
 msgid ""
@@ -801,10 +806,15 @@ msgid ""
 "understand that I must cancel at least 5 days before the next scheduled donation by <a href='%(help_url)s'>submitting a request</a>, and that I may only request a refund within 15 days from the date"
 " of a donation."
 msgstr ""
+"Εξουσιοδοτώ την MZLA Technologies Corporation να χρεώνει αυτόματα την κάρτα μου κάθε μήνα με το ποσό που αναφέρεται παραπάνω, ξεκινώντας από σήμερα και συνεχίζοντας κάθε μήνα την ίδια μέρα, μέχρι να"
+" ακυρώσω. Κατανοώ ότι πρέπει να ακυρώσω τουλάχιστον 5 ημέρες πριν από την επόμενη προγραμματισμένη δωρεά, <a href='%(help_url)s'>υποβάλλοντας αίτημα</a> και ότι μπορώ να ζητήσω επιστροφή χρημάτων "
+"μόνο εντός 15 ημερών από την ημερομηνία της δωρεάς."
 
 #: donate/thunderbird/templates/payment/card.html:14
 msgid "I authorize MZLA Technologies Corporation to charge my card in the amount indicated above. I understand that I may only request a refund within 15 days from the date of the donation."
 msgstr ""
+"Εξουσιοδοτώ την MZLA Technologies Corporation να χρεώσει την κάρτα μου με το ποσό που αναφέρεται παραπάνω. Κατανοώ ότι μπορώ να ζητήσω επιστροφή χρημάτων μόνο εντός 15 ημερών από την ημερομηνία της "
+"δωρεάς."
 
 #: donate/thunderbird/templates/payment/card_upsell.html:6 donate/thunderbird/templates/payment/paypal_upsell.html:6
 msgid "We’d love to have you as a sustaining supporter of Thunderbird. <b>Could you add a monthly donation starting next month?</b>"
@@ -817,6 +827,9 @@ msgid ""
 "afterwards until I cancel. I understand that I must cancel at least 5 days before the next scheduled donation by <a href=\"%(help_url)s\">submitting this form</a>, and that I may only request a "
 "refund within 15 days from the date of a donation."
 msgstr ""
+"Εξουσιοδοτώ την MZLA Technologies Corporation να χρεώνει αυτόματα την κάρτα μου κάθε μήνα με το ποσό που αναφέρεται παραπάνω, ξεκινώντας από τον επόμενο μήνα την ίδια ημερομηνία με σήμερα και "
+"συνεχίζοντας κάθε μήνα στο εξής, μέχρι να ακυρώσω. Κατανοώ ότι πρέπει να ακυρώσω τουλάχιστον 5 ημέρες πριν από την επόμενη προγραμματισμένη δωρεά, <a href=\"%(help_url)s\">υποβάλλοντας αυτή τη "
+"φόρμα</a> και ότι μπορώ να ζητήσω επιστροφή χρημάτων μόνο εντός 15 ημερών από την ημερομηνία της δωρεάς."
 
 #: donate/thunderbird/templates/payment/thank_you.html:6
 #, python-format
