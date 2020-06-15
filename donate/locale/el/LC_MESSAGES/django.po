@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-12 09:58+0000\n"
-"PO-Revision-Date: 2020-06-13 09:27+0000\n"
+"PO-Revision-Date: 2020-06-15 22:51+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -184,6 +184,8 @@ msgstr "Άλλοι τρόποι δωρεάς: <a href=\"%(wire_transfer_url)s\">
 #, python-format
 msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"mailto:%(email)s\">Send us an email</a>."
 msgstr ""
+"Προβλήματα με τη δωρεά; Επισκεφθείτε τις <a href=\"%(faq_url)s\">συχνές ερωτήσεις</a> για απαντήσεις στις πιο συνηθισμένες ερωτήσεις. Έχετε ακόμα προβλήματα; <a href=\"mailto:%(email)s\">Στείλτε μας"
+" ένα email</a>."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:30
 msgid ""
@@ -280,6 +282,8 @@ msgid ""
 "Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a "
 "%(link_attributes)s>%(site_url)s</a>."
 msgstr ""
+"Η Mozilla είναι μια παγκόσμια μη κερδοσκοπική οργάνωση που αγωνίζεται για να σας δώσει τον έλεγχο της διαδικτυακής εμπειρίας σας και να διαμορφώσει το μέλλον του διαδικτύου για το κοινό καλό. "
+"Επισκεφθείτε μας στο <a %(link_attributes)s>%(site_url)s</a>."
 
 #: donate/templates/pages/core/campaign_page.html:38 donate/templates/pages/core/ways_to_give_page_master.html:12
 msgctxt "Button"
@@ -553,7 +557,7 @@ msgstr ""
 
 #: donate/templates/payment/card_master.html:68
 msgid "Please correct these errors and try again."
-msgstr ""
+msgstr "Παρακαλούμε διορθώστε αυτά τα σφάλματα και δοκιμάστε ξανά."
 
 #: donate/templates/payment/card_master.html:91
 msgid "Payment"
@@ -581,7 +585,7 @@ msgstr ""
 
 #: donate/templates/payment/card_master.html:128
 msgid "I authorize Mozilla Foundation to charge my card in the amount indicated above. I understand that I may only request a refund within 15 days from the date of the donation."
-msgstr ""
+msgstr "Εξουσιοδοτώ το Ίδρυμα Mozilla να χρεώσει την κάρτα μου με το ποσό που αναφέρεται παραπάνω. Κατανοώ ότι μπορώ να ζητήσω επιστροφή χρημάτων μόνο εντός 15 ημερών από την ημερομηνία της δωρεάς."
 
 #: donate/templates/payment/card_master.html:144
 #, python-format
