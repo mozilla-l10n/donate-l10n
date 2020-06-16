@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-12 09:58+0000\n"
-"PO-Revision-Date: 2020-06-15 23:31+0000\n"
+"PO-Revision-Date: 2020-06-16 09:08+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -556,7 +556,7 @@ msgstr "Οι λεπτομέρειές σας"
 #: donate/templates/payment/card_master.html:60 donate/templates/payment/card_upsell_master.html:34 donate/templates/payment/newsletter_signup_master.html:30
 #: donate/templates/payment/paypal_upsell_master.html:34
 msgid "There were some errors with your form. Please amend the fields highlighted below."
-msgstr ""
+msgstr "Υπήρξαν ορισμένα σφάλματα στη φόρμα σας. Παρακαλούμε διορθώστε τα πεδία που επισημαίνονται παρακάτω."
 
 #: donate/templates/payment/card_master.html:64
 msgid "We were unable to take payment because the payment processor reported an error with your address information:"
@@ -609,7 +609,7 @@ msgstr "Δωρεά <span class=\"%(span_class)s\">%(formatted_amount)s</span>"
 
 #: donate/templates/payment/card_master.html:155
 msgid "Your donation helps keep the Web open and free. Thank you in advance for your gift."
-msgstr ""
+msgstr "Η δωρεά σας θα μας βοηθήσει να διατηρήσουμε το διαδίκτυο ανοιχτό και ελεύθερο. Σας ευχαριστούμε εκ των προτέρων για το δώρο σας."
 
 #: donate/templates/payment/card_upsell_master.html:4 donate/templates/payment/paypal_upsell_master.html:4 donate/templates/payment/thank_you_master.html:4
 msgid "Thank you"
@@ -672,16 +672,18 @@ msgstr "Όχι"
 
 #: donate/templates/payment/thank_you_master.html:15
 msgid "Your donation will go right to work protecting the web, keeping it open and available to all."
-msgstr ""
+msgstr "Η δωρεά σας θα συμβάλλει στην προστασία του διαδικτύου, διατηρώντας το ανοιχτό και διαθέσιμο σε όλους."
 
 #: donate/templates/payment/thank_you_master.html:15
 #, python-format
 msgid "We’ve emailed you a donation receipt; if it’s missing, please check your junk/spam folders, then contact us at <a href=\"mailto:%(email)s\">%(email)s</a>."
 msgstr ""
+"Σας έχουμε στείλει με email μια απόδειξη της δωρεάς σας· αν δεν είναι εκεί, παρακαλούμε ελέγξτε τα ανεπιθύμητα μηνύματά σας, έπειτα επικοινωνήστε μαζί μας στο <a "
+"href=\"mailto:%(email)s\">%(email)s</a>."
 
 #: donate/templates/payment/thank_you_master.html:17
 msgid "Lastly, can you multiply your impact by sharing about the important work Mozilla is doing? Thank you again!"
-msgstr ""
+msgstr "Τέλος, μπορείτε να πολλαπλασιάσετε τον αντίκτυπό σας κοινοποιώντας το σημαντικό έργο της Mozilla; Σας ευχαριστούμε και πάλι!"
 
 #: donate/templates/payment/thank_you_master.html:22
 msgctxt "Used as a tweet"
