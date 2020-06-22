@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-12 09:58+0000\n"
-"PO-Revision-Date: 2020-06-22 18:54+0000\n"
+"PO-Revision-Date: 2020-06-22 19:03+0000\n"
 "Last-Translator: Lawk <lawrence@mozilla-uganda.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: lg\n"
@@ -165,21 +165,23 @@ msgid ""
 "Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your "
 "donation will be stored by Mozilla."
 msgstr ""
+"Ebikwata ku kusasula kwo bigenda k'olebwako ne <a href=\"%(braintree_url)s\">Braintree</a>, kampuni ya PayPal (ku kaadi za banka) oba <a href=\"%(paypal_url)s\">PayPal</a>, obukakafu bw'obuyambi bwo"
+" bujja kutelekebwa Mozilla."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:9
 #, python-format
 msgid "Monthly donations are charged each month on the same day that you donate today, and will continue until you cancel. To cancel, email us at <a href=\"mailto:%(email)s\">%(email)s</a>."
-msgstr ""
+msgstr "Obuyambi bw'omwezi bu jiibwako olunaku lwe lumu lw'ogabiddeko leero, ela kijja kuba bwekityo paka w'osazamu. Okusazamu, tusindikire email ku <a href=\"mailto:%(email)s\">%(email)s</a>"
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:17
 #, python-format
 msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a> | <a href=\"%(bitcoin_url)s\">Bitcoin</a>"
-msgstr ""
+msgstr "Engeri endala ez'okugaba:<a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Cheke</a> | <a href=\"%(bitcoin_url)s\">Bitcoin</a>"
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:23
 #, python-format
 msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"mailto:%(email)s\">Send us an email</a>."
-msgstr ""
+msgstr "Buzibu ng'ogaba obuyambi? Kyalira <a href=\"%(faq_url)s\">FAQ</a> yaffe okufuna ansa ku bibuuzo ebisinga obuzibwa. Okyayina ebizibu? <a href=\"mailto:%(email)s\">Tusindikire email</a>."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:30
 msgid ""
