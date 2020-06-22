@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-12 09:58+0000\n"
-"PO-Revision-Date: 2020-06-22 19:03+0000\n"
+"PO-Revision-Date: 2020-06-22 19:10+0000\n"
 "Last-Translator: Lawk <lawrence@mozilla-uganda.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: lg\n"
@@ -188,6 +188,8 @@ msgid ""
 "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in Mountain View, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S."
 " to the fullest extent permitted by law."
 msgstr ""
+"Obuyambi bwona bugenda eli ekitongole kya Mozilla, ekitongole kya 501(c)(3), ekisangibwa mu Mountain View, California, okukozesebwa mungeri gy'esalawo okukola ebitaza magoba. Mu Amerika bujibwako "
+"omusolo ku kikomo ekiyinzibwa amateka."
 
 #: donate/templates/fragments/language_switcher.html:10 donate/templates/pages/core/contributor_support_page_master.html:50
 msgid "Language"
@@ -203,7 +205,7 @@ msgstr "Wenyigiremu"
 
 #: donate/templates/pages/base_page_master.html:32
 msgid "Internet Health"
-msgstr ""
+msgstr "Obulamu bwa intaneti"
 
 #: donate/templates/pages/base_page_master.html:35
 msgid "About Us"
@@ -211,7 +213,7 @@ msgstr "Ebitufaako"
 
 #: donate/templates/pages/base_page_master.html:46
 msgid "Menu"
-msgstr ""
+msgstr "Olukalala"
 
 #: donate/templates/pages/base_page_master.html:71
 msgid "Protect the internet as a global public resource"
@@ -219,7 +221,7 @@ msgstr "Kuuma internet nga ya buli omu"
 
 #: donate/templates/pages/base_page_master.html:79
 msgid "Join our email list to take action and stay updated!"
-msgstr ""
+msgstr "Wegatte ku lisiti yaffe eya email okuteka mu nkola n'okusigala mu bumanyi!"
 
 #: donate/templates/pages/base_page_master.html:80
 msgid "Enter email address"
@@ -227,7 +229,7 @@ msgstr "Tekamu email"
 
 #: donate/templates/pages/base_page_master.html:83
 msgid "Sign up"
-msgstr ""
+msgstr "Weyungeko"
 
 #: donate/templates/pages/base_page_master.html:91
 msgid "Thanks!"
@@ -260,7 +262,7 @@ msgstr ""
 
 #: donate/templates/pages/base_page_master.html:140 donate/thunderbird/templates/pages/base_page.html:51
 msgid "Legal"
-msgstr ""
+msgstr "Eby'amateka"
 
 #: donate/templates/pages/base_page_master.html:143 donate/thunderbird/templates/pages/base_page.html:54
 msgid "Privacy"
