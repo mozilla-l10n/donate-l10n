@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-12 09:58+0000\n"
-"PO-Revision-Date: 2020-06-16 22:56+0000\n"
-"Last-Translator: Chengings <chengings@gmail.com>\n"
+"PO-Revision-Date: 2020-05-07 03:02+0000\n"
+"Last-Translator: niruhn <niruhn@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: th\n"
 "MIME-Version: 1.0\n"
@@ -297,7 +297,7 @@ msgstr "บริจาคตอนนี้"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:18
 msgid "Thank you for contacting us. A case has been created for your issue and we will be in touch shortly."
-msgstr ""
+msgstr "ขอบคุณสำหรับการติดต่อหาเรา ประเด็นปัญหาของคุณได้ถูกบันทึกเป็นกรณีไว้แล้ว และเราจะติดต่อกลับในไม่ช้า"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:24
 msgid "We will get back to you soon."
@@ -381,7 +381,7 @@ msgstr "การโอนเงินผ่านธนาคาร / SEPA"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:24
 msgid "We accept donations in Euros through Single European Payment Area (SEPA) transfer, and British Pounds through BACS transfer."
-msgstr ""
+msgstr "เรารับเงินบริจาคสกุลยูโรผ่านการโอนทาง Single European Payment Area (SEPA) และเงินสกุลปอนด์ผ่านทาง BACS"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:26
 msgid ""
@@ -466,7 +466,7 @@ msgstr "ใบสั่งจ่าย (ผ่านบริการไปร�
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:72 donate/thunderbird/templates/pages/core/ways_to_give_page.html:52
 msgid "UPDATE March 20, 2020:"
-msgstr ""
+msgstr "ปรับปรุง 20 มีนาคม 2563:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:73
 msgid ""
