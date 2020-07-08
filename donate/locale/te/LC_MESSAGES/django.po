@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-12 09:58+0000\n"
-"PO-Revision-Date: 2020-06-18 14:10+0000\n"
+"PO-Revision-Date: 2020-07-08 21:23+0000\n"
 "Last-Translator: వీవెన్ <veeven@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: te\n"
@@ -149,7 +149,7 @@ msgstr ""
 
 #: donate/templates/fragments/donate_form.html:54 donate/templates/fragments/donate_form.html:118 donate/templates/payment/card_master.html:97
 msgid "SECURE"
-msgstr ""
+msgstr "సురక్షితం"
 
 #: donate/templates/fragments/donate_form.html:60 donate/templates/fragments/donate_form.html:124 donate/templates/pages/base_page_master.html:134
 msgid "Donate"
@@ -209,7 +209,7 @@ msgstr "మా గురించి"
 
 #: donate/templates/pages/base_page_master.html:46
 msgid "Menu"
-msgstr ""
+msgstr "మెనూ"
 
 #: donate/templates/pages/base_page_master.html:71
 msgid "Protect the internet as a global public resource"
@@ -606,7 +606,7 @@ msgstr ""
 
 #: donate/templates/payment/card_upsell_master.html:21 donate/templates/payment/paypal_upsell_master.html:21
 msgid "Yes, I will give:"
-msgstr ""
+msgstr "అవును, నేను ఇస్తాను:"
 
 #: donate/templates/payment/card_upsell_master.html:40
 msgid "Monthly"
