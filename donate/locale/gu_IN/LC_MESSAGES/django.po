@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-12 09:58+0000\n"
-"PO-Revision-Date: 2020-07-16 17:11+0000\n"
+"PO-Revision-Date: 2020-07-16 17:14+0000\n"
 "Last-Translator: Hariom Panchal <hariompanchal6647@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gu_IN\n"
@@ -830,7 +830,7 @@ msgid "We’d love to have you as a sustaining supporter of Thunderbird. <b>Coul
 msgstr "અમે તમને Thunderbirdના ટકાઉ સમર્થક તરીકે મળીને ગમશે. <b>શું તમે આવતા મહિનાથી શરૂ થતા માસિક દાનમાં ઉમેરી શકો છો?</b>"
 
 #: donate/thunderbird/templates/payment/card_upsell.html:10
-#, fuzzy, python-format
+#, python-format
 #| msgid ""
 #| "I authorize Mozilla Foundation to automatically charge my card every month in the amount indicated above, starting next month on the same date as today, and continuing each month afterwards until I "
 #| "cancel. I understand that I must cancel at least 5 days before the next scheduled donation by email to %(email)s, and that I may only request a refund within 15 days from the date of a donation."
@@ -839,14 +839,15 @@ msgid ""
 "afterwards until I cancel. I understand that I must cancel at least 5 days before the next scheduled donation by <a href=\"%(help_url)s\">submitting this form</a>, and that I may only request a "
 "refund within 15 days from the date of a donation."
 msgstr ""
-"હું Mozilla ફાઉન્ડેશનને અધિકૃત છું કે ઉપર સૂચવેલા જથ્થામાં દર મહિને આપમેળે મારા કાર્ડને ચાર્જ કરવા માટે, જે આજની તારીખે આવતા મહિને શરૂ થાય છે અને હું રદ નહીં કરું ત્યાં સુધી દર મહિને ચાલુ રાખું છું."
-" હું સમજું છું કે મારે %(email)sને ઇમેઇલ દ્વારા આગલા સુનિશ્ચિત દાનના ઓછામાં ઓછા 5 દિવસ પહેલા રદ કરવું આવશ્યક છે, અને હું ફક્ત દાનની તારીખથી 15 દિવસની અંદર રિફંડની વિનંતી કરી શકું છું."
+"હું MZLAએ ટેકનોલોજીસ કોર્પોરેશનને અધિકૃત કરું છું કે ઉપર સૂચવેલા જથ્થામાં દર મહિને આપમેળે મારા કાર્ડને ચાર્જ કરવા, જે આજની તારીખે આવતા મહિને શરૂ થાય છે, અને હું રદ નહીં થાય ત્યાં સુધી દર મહિને ચાલુ "
+"રાખું છું. હું સમજું છું કે<a href=\"%(help_url)s\">આ ફોર્મ સબમિટ</a>દ્વારા આગળના અનુસૂચિત દાનના ઓછામાં ઓછા 5 દિવસ પહેલા મારે રદ કરવું આવશ્યક છે, અને હું ફક્ત તારીખથી 15 દિવસની અંદર રિફંડની વિનંતી "
+"કરી શકું છું. દાન."
 
 #: donate/thunderbird/templates/payment/thank_you.html:6
-#, fuzzy, python-format
+#, python-format
 #| msgid "We’ve emailed you a donation receipt; if it’s missing, please check your junk/spam folders, then contact us at <a href=\"mailto:%(email)s\">%(email)s</a>."
 msgid "We’ve emailed you a donation receipt; if it’s missing, please check your junk/spam folders, then contact us using <a href=\"%(url)s\">this form</a>."
-msgstr "અમે તમને દાનની રસીદ ઇમેઇલ કરી છે; જો તે ગુમ થયેલ હોય, તો કૃપા કરીને તમારા જંક/સ્પામ ફોલ્ડર્સને તપાસો, તો પછી <a href=\"mailto:%(email)s\">%(email)s</a>પર અમારો સંપર્ક કરો."
+msgstr "અમે તમને દાનની રસીદ ઇમેઇલ કરી છે; જો તે ગુમ થયેલ હોય, તો કૃપા કરીને તમારા જંક/સ્પામ ફોલ્ડર્સને તપાસો, તો પછી <a href=\"%(url)s\">આ ફોર્મ</a>પર અમારો સંપર્ક કરો."
 
 #: donate/thunderbird/templates/payment/thank_you.html:7
 msgid "Lastly, can you multiply your impact by sharing about the important work Thunderbird is doing? Thank you again!"
