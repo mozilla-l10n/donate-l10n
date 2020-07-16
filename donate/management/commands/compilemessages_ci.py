@@ -33,22 +33,26 @@ class Command(BaseCommand):
             slack_webhook = settings.SLACK_WEBHOOK_PONTOON
 
             slack_payload = {
-                'attachments': [
+                "blocks": [
                     {
-                        'fallback': '<!here> An error occurred while compiling `.po` files for '
-                                    'donate-wagtail\n'
-                                    f'Error message: ```{err}\n{output.getvalue()}```\n'
-                                    f'URL: {travis_job_web_url}',
-                        'pretext':  '<!here> An error occurred while compiling `.po` files for '
-                                    'donate-wagtail\n',
-                        'title':    f'Travis logs\n',
-                        'text':     f'Error message: ```{err}\n{output.getvalue()}```\n',
-                        'color':    '#8b0000',
-                        'actions': [
+                        "type": "section",
+                        "text": {
+                            "type": "mrkdwn",
+                            "text": "<!here> An error occurred while compiling `.po` files for "
+                                    "donate-wagtail on Travis:\n"
+                                    f"```{err}\n{output.getvalue()}```\n"
+                        }
+                    },
+                    {
+                        "type": "actions",
+                        "elements": [
                             {
-                                'type': 'button',
-                                'text': 'View logs',
-                                'url': f'{travis_job_web_url}'
+                                "type": "button",
+                                "text": {
+                                    "type": "plain_text",
+                                    "text": "View logs"
+                                },
+                                "url": f"{travis_job_web_url}"
                             }
                         ]
                     }
