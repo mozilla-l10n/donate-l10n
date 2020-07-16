@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-12 09:58+0000\n"
-"PO-Revision-Date: 2020-07-16 16:41+0000\n"
+"PO-Revision-Date: 2020-07-16 16:52+0000\n"
 "Last-Translator: Hariom Panchal <hariompanchal6647@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gu_IN\n"
@@ -377,111 +377,115 @@ msgstr "ક્રેડિટ / ડેબિટ અને PayPal"
 #: donate/templates/pages/core/ways_to_give_page_master.html:18
 #, python-format
 msgid "<a href=\"%(ways_to_give_link)s\">Go to this link</a> to make a secure online donation right now."
-msgstr ""
+msgstr "હમણાં સુરક્ષિત ઓનલાઇન દાન કરવા માટે <a href=\"%(ways_to_give_link)s\">આ લિંક પર જાઓ</a>."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:23 donate/thunderbird/templates/pages/core/ways_to_give_page.html:7
 msgid "Bank Transfer / SEPA"
-msgstr ""
+msgstr "બેન્ક ટ્રાન્સફર / SEPA"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:24
 msgid "We accept donations in Euros through Single European Payment Area (SEPA) transfer, and British Pounds through BACS transfer."
-msgstr ""
+msgstr "હવે અમે BACS ટ્રાન્સફર મારફતે Single European Payment Area (SEPA) ટ્રાન્સફર મારફતે યુરો માં દાન, અને બ્રિટિશ પાઉન્ડ સ્વીકારવા માટે સમર્થ છે."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:26
 msgid ""
 "Note that for smaller (under 10 EUR or equivalent) donations, <strong>and especially for donations under 5 EUR or equivalent</strong>, we request that you donate via credit card or PayPal to help "
 "reduce Mozilla’s processing fees."
 msgstr ""
+"નોંધ લો કે નાના (10 EUR અથવા સમકક્ષ હેઠળ) દાન માટે, <strong>અને ખાસ કરીને 5 EUR અથવા સમકક્ષ</strong> હેઠળ દાન માટે, અમે વિનંતી કરીએ છીએ કે તમે Mozillaની પ્રોસેસિંગ ફી ઘટાડવામાં મદદ કરવા માટે ક્રેડિટ"
+" કાર્ડ અથવા PayPal દ્વારા દાન કરો."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:30
 msgid "Please remember that donations are deductible for U.S. income tax purposes only."
-msgstr ""
+msgstr "મહેરબાની કરીને યાદ રાખો કે દાન ફક્ત યુ.એસ. આવક વેરાના હેતુ માટે જ કપાતપાત્ર છે."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:32 donate/thunderbird/templates/pages/core/ways_to_give_page.html:15
 #, python-format
 msgid "If your bank requests our physical address, it is %(address)s."
-msgstr ""
+msgstr "જો તમારી બેંક અમારા ભૌતિક સરનામાંની વિનંતી કરે છે, તો તે %(address)s છે."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:38 donate/thunderbird/templates/pages/core/ways_to_give_page.html:22
 msgid "Euros:"
-msgstr ""
+msgstr "યુરો:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:40 donate/templates/pages/core/ways_to_give_page_master.html:53 donate/thunderbird/templates/pages/core/ways_to_give_page.html:24
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:37
 msgid "Account Currency:"
-msgstr ""
+msgstr "એકાઉન્ટ કરન્સી:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:40 donate/thunderbird/templates/pages/core/ways_to_give_page.html:24
 msgid "Euro (EUR)"
-msgstr ""
+msgstr "Euro (EUR)"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:41 donate/templates/pages/core/ways_to_give_page_master.html:54 donate/thunderbird/templates/pages/core/ways_to_give_page.html:25
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:38
 msgid "Receiving Bank (Pay to):"
-msgstr ""
+msgstr "રીસીવિંગ બેન્ક (ચૂકવણી):"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:42 donate/templates/pages/core/ways_to_give_page_master.html:55 donate/thunderbird/templates/pages/core/ways_to_give_page.html:26
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:39
 msgid "City & Country/Region:"
-msgstr ""
+msgstr "શહેર અને દેશ/પ્રદેશ:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:42 donate/thunderbird/templates/pages/core/ways_to_give_page.html:26
 msgid "Frankfurt, Germany"
-msgstr ""
+msgstr "Frankfurt, Germany"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:43 donate/templates/pages/core/ways_to_give_page_master.html:61 donate/thunderbird/templates/pages/core/ways_to_give_page.html:27
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:45
 msgid "SWIFT/BIC Code:"
-msgstr ""
+msgstr "SWIFT/BIC કોડ:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:44 donate/templates/pages/core/ways_to_give_page_master.html:58 donate/thunderbird/templates/pages/core/ways_to_give_page.html:28
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:42
 msgid "Beneficiary Name (For credit to):"
-msgstr ""
+msgstr "લાભાર્થીનું નામ (ક્રેડિટ માટે):"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:45 donate/templates/pages/core/ways_to_give_page_master.html:62 donate/thunderbird/templates/pages/core/ways_to_give_page.html:29
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:46
 msgid "IBAN:"
-msgstr ""
+msgstr "IBAN:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:51 donate/thunderbird/templates/pages/core/ways_to_give_page.html:35
 msgid "British Pound Sterling:"
-msgstr ""
+msgstr "બ્રિટીશ પાઉન્ડ સ્ટર્લિંગ:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:53 donate/thunderbird/templates/pages/core/ways_to_give_page.html:37
 msgid "British Pound Sterling (GBP)"
-msgstr ""
+msgstr "બ્રિટિશ પાઉન્ડ સ્ટર્લીંગ (GBP)"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:55 donate/thunderbird/templates/pages/core/ways_to_give_page.html:39
 msgid "London, United Kingdom"
-msgstr ""
+msgstr "London, United Kingdom"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:56 donate/thunderbird/templates/pages/core/ways_to_give_page.html:40
 msgid "Bank Sort Code:"
-msgstr ""
+msgstr "બેન્ક સૉર્ટ કોડ:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:57 donate/thunderbird/templates/pages/core/ways_to_give_page.html:41
 msgid "Account Number (8 digits):"
-msgstr ""
+msgstr "ખાતા નંબર (8 અંકો):"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:68
 msgid "Check (via postal service)"
-msgstr ""
+msgstr "ચેક (ટપાલ સેવા દ્વારા)"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:72 donate/thunderbird/templates/pages/core/ways_to_give_page.html:52
 msgid "UPDATE March 20, 2020:"
-msgstr ""
+msgstr "20 માર્ચ, 2020 ના રોજ અપડેટ કરો:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:73
 msgid ""
 "Please note that due to the “shelter in place” order recently implemented for California, processing and acknowledgment of check donations to the Mozilla Foundation will be indefinitely delayed. "
 "Rather than sending us a check, please consider making an <a href=\"/\">online donation</a> instead."
 msgstr ""
+"મહેરબાની કરીને નોંધ કરો કે તાજેતરમાં California માટે લાગુ \"આશ્રયસ્થાનમાં\" ઓર્ડરને કારણે, Mozilla ફાઉન્ડેશનને ચેક દાનની પ્રક્રિયા અને સ્વીકૃતિ અનિશ્ચિત સમય માટે વિલંબિત થશે. અમને ચેક મોકલવાને બદલે,"
+" કૃપા કરીને તેના બદલે <a href=\"/\">ઓનલાઇન દાન</a> બનાવવાનું ધ્યાનમાં લો."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:83
 #, python-format
 msgid "Please send a check <strong>including your email address on the memo line</strong>, and payable (payee) to “%(payee)s”."
-msgstr ""
+msgstr "કૃપા કરીને મેમો લાઇન <strong>પર તમારા ઇમેઇલ સરનામાં</strong>અને “%(payee)s”ચૂકવવાપાત્ર (ચૂકવનાર) નો ચેક મોકલો."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:86
 msgid "Please note that the Mozilla Foundation can only accept checks in US dollars drawn on a US bank. Please do <strong>not</strong> send cash."
