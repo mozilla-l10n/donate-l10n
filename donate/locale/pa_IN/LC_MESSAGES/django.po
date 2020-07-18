@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-12 09:58+0000\n"
-"PO-Revision-Date: 2020-07-18 02:54+0000\n"
+"PO-Revision-Date: 2020-07-18 02:56+0000\n"
 "Last-Translator: Alam <singh.aalam@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pa_IN\n"
@@ -442,15 +442,15 @@ msgstr "IBAN:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:51 donate/thunderbird/templates/pages/core/ways_to_give_page.html:35
 msgid "British Pound Sterling:"
-msgstr "ਬ੍ਰਿਟਿਸ਼ ਪਾਊਂਡ ਸਟਰਲਿੰਗ:"
+msgstr "ਬ੍ਰਿਟਿਸ਼ ਪੌਂਡ ਸਟਰਲਿੰਗ:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:53 donate/thunderbird/templates/pages/core/ways_to_give_page.html:37
 msgid "British Pound Sterling (GBP)"
-msgstr ""
+msgstr "ਬ੍ਰਿਟਿਸ਼ ਪੌਂਡ ਸਟਰਲਿੰਗ (GBP)"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:55 donate/thunderbird/templates/pages/core/ways_to_give_page.html:39
 msgid "London, United Kingdom"
-msgstr ""
+msgstr "ਲੰਡਨ, ਯੂਨਾਇਟੇਡ ਕਿੰਗਡਮ"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:56 donate/thunderbird/templates/pages/core/ways_to_give_page.html:40
 msgid "Bank Sort Code:"
@@ -458,7 +458,7 @@ msgstr "ਬੈਂਕ ਸੌਰਟ ਕੋਡ:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:57 donate/thunderbird/templates/pages/core/ways_to_give_page.html:41
 msgid "Account Number (8 digits):"
-msgstr ""
+msgstr "ਖਾਤਾ ਨੰਬਰ (8 ਅੰਕ):"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:68
 msgid "Check (via postal service)"
@@ -466,7 +466,7 @@ msgstr "ਚੈੱਕ ਕਰੋ (ਪੋਸਟਲ ਸੇਵਾ ਰਾਹੀਂ)"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:72 donate/thunderbird/templates/pages/core/ways_to_give_page.html:52
 msgid "UPDATE March 20, 2020:"
-msgstr ""
+msgstr "ਅੱਪਡੇਟ 20 ਮਾਰਚ, 2020:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:73
 msgid ""
@@ -493,7 +493,7 @@ msgstr ""
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:112
 msgid "Bitcoin"
-msgstr ""
+msgstr "ਬਿੱਟਕੁਆਇਨ"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:114
 msgid ""
@@ -541,7 +541,7 @@ msgstr "ਤੁਹਾਡੇ ਵੇਰਵੇ"
 #: donate/templates/payment/card_master.html:60 donate/templates/payment/card_upsell_master.html:34 donate/templates/payment/newsletter_signup_master.html:30
 #: donate/templates/payment/paypal_upsell_master.html:34
 msgid "There were some errors with your form. Please amend the fields highlighted below."
-msgstr ""
+msgstr "ਤੁਹਾਡੇ ਫਾਰਮ ਵਿਚ ਕੁਝ ਗਲਤੀਆਂ ਸਨ। ਕਿਰਪਾ ਕਰਕੇ ਹੇਠਾਂ ਦਰਸਾਏ ਗਏ ਖੇਤਰਾਂ ਵਿੱਚ ਸੋਧ ਕਰੋ।"
 
 #: donate/templates/payment/card_master.html:64
 msgid "We were unable to take payment because the payment processor reported an error with your address information:"
@@ -709,7 +709,7 @@ msgstr "ਪਿੱਛੇ"
 #: donate/thunderbird/templates/pages/base_page.html:15
 msgctxt "Page title"
 msgid "Give to Thunderbird"
-msgstr ""
+msgstr "ਥੰਡਰਬਰਡ ਨੂੰ ਦਿਓ"
 
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:7
 #, python-format
@@ -734,7 +734,7 @@ msgstr ""
 
 #: donate/thunderbird/templates/pages/base_page.html:57
 msgid "Cookies"
-msgstr ""
+msgstr "ਕੂਕੀਜ਼"
 
 #: donate/thunderbird/templates/pages/base_page.html:69
 #, python-format
@@ -776,10 +776,9 @@ msgid "Please note that we can only accept checks in US dollars drawn on a US ba
 msgstr ""
 
 #: donate/thunderbird/templates/payment/card.html:6
-#, fuzzy
 #| msgid "Thank you for your generous gift"
 msgid "Thank you in advance for your gift."
-msgstr "ਤੁਹਾਡੀ ਖੁੱਲ੍ਹਦਿਲੀ ਨਾਲ ਦਿੱਤੀ ਭੇਟ ਲਈ ਤੁਹਾਡਾ ਧੰਨਵਾਦ ਹੈ"
+msgstr "ਤੁਹਾਡੀ ਭੇਟ ਲਈ ਤੁਹਾਡਾ ਅਗਾਹੂੰ ਧੰਨਵਾਦ ਹੈ"
 
 #: donate/thunderbird/templates/payment/card.html:12
 #, python-format
