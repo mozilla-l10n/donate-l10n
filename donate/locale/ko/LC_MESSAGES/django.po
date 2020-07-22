@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-12 09:58+0000\n"
+"POT-Creation-Date: 2020-07-22 08:10+0000\n"
 "PO-Revision-Date: 2020-05-30 08:07+0000\n"
 "Last-Translator: Hyeonseok Shin <hyeonseok@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -76,35 +76,35 @@ msgstr "국가"
 msgid "I’m okay with Mozilla handling my info as explained in this <a href='%(url)s'>Privacy Notice</a>."
 msgstr "<a href='%(url)s'>개인 정보 보호 공지</a>에 나타난대로 Mozilla가 개인 정보를 다루는 것에 대해서 동의합니다."
 
-#: donate/payments/views.py:156
+#: donate/payments/views.py:157
 msgid "The type of card you used is not accepted."
 msgstr "사용한 카드 유형이 허용되지 않습니다."
 
-#: donate/payments/views.py:157 donate/payments/views.py:158
+#: donate/payments/views.py:158 donate/payments/views.py:159
 msgid "The CVV code you entered was invalid."
 msgstr "입력한 CVV 코드가 유효하지 않습니다."
 
-#: donate/payments/views.py:159
+#: donate/payments/views.py:160
 msgid "The expiration date you entered was invalid."
 msgstr "입력한 만료 날짜가 유효하지 않습니다."
 
-#: donate/payments/views.py:160
+#: donate/payments/views.py:161
 msgid "The credit card number you entered was invalid."
 msgstr "입력한 신용 카드 번호가 유효하지 않습니다."
 
-#: donate/payments/views.py:169 donate/payments/views.py:170
+#: donate/payments/views.py:170 donate/payments/views.py:171
 msgid "The post code you provided is not valid."
 msgstr "입력한 우편 번호가 유효하지 않습니다."
 
-#: donate/payments/views.py:184
+#: donate/payments/views.py:185
 msgid "Sorry there was an error processing your payment. Please try again later or use a different payment method."
 msgstr "결제 처리 중 오류가 발생했습니다. 나중에 다시 시도하거나 다른 결제 수단을 사용하십시오."
 
-#: donate/payments/views.py:378
+#: donate/payments/views.py:379
 msgid "Something went wrong. We were unable to process your payment."
 msgstr "문제가 발생했습니다. 결제를 처리하지 못했습니다."
 
-#: donate/payments/views.py:630 donate/payments/views.py:739
+#: donate/payments/views.py:631 donate/payments/views.py:740
 msgid "Sorry there was an error processing your payment. Please try again later."
 msgstr "결제 처리 중 오류가 발생했습니다. 나중에 다시 시도하세요."
 
@@ -173,9 +173,8 @@ msgid "per month"
 msgstr "달마다"
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:6
-#: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:12
 #, python-format
-msgid "Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Mozilla."
+msgid "Mozilla is committed to your privacy; please read our <a href=\"%(privacy_url)s\">privacy policy here</a>. Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Mozilla."
 msgstr ""
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:9
@@ -759,6 +758,11 @@ msgstr ""
 #, python-format
 msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a>"
 msgstr "다른 방법으로 기부하기: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">수표</a>"
+
+#: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:12
+#, python-format
+msgid "Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Thunderbird. Please read our <a href=\"%(privacy_url)s\">privacy policy here</a>."
+msgstr ""
 
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:15
 #, python-format

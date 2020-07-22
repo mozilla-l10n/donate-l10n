@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-12 09:58+0000\n"
+"POT-Creation-Date: 2020-07-22 08:10+0000\n"
 "PO-Revision-Date: 2019-11-06 14:06+0000\n"
 "Last-Translator: Théo Chevalier <theo.chevalier11@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -76,35 +76,35 @@ msgstr "देश"
 msgid "I’m okay with Mozilla handling my info as explained in this <a href='%(url)s'>Privacy Notice</a>."
 msgstr "<a href='%(url)s'>ह्या गोपनियता सुचनेमध्ये</a> सांगितल्या प्रमाणे Mozilla ने माझी माहिती हाताळण्याबाबत माझी हरकत नाही."
 
-#: donate/payments/views.py:156
+#: donate/payments/views.py:157
 msgid "The type of card you used is not accepted."
 msgstr "आपण वापरलेला कार्डचा प्रकार स्वीकारला जात नाही."
 
-#: donate/payments/views.py:157 donate/payments/views.py:158
+#: donate/payments/views.py:158 donate/payments/views.py:159
 msgid "The CVV code you entered was invalid."
 msgstr "आपण प्रविष्ट केलेला CVV कोड अवैध होता."
 
-#: donate/payments/views.py:159
+#: donate/payments/views.py:160
 msgid "The expiration date you entered was invalid."
 msgstr "आपण प्रविष्ट केलेली कालबाह्यता तारीख अवैध होती."
 
-#: donate/payments/views.py:160
+#: donate/payments/views.py:161
 msgid "The credit card number you entered was invalid."
 msgstr "आपण प्रविष्ट केलेला क्रेडिट कार्ड क्रमांक अवैध होता."
 
-#: donate/payments/views.py:169 donate/payments/views.py:170
+#: donate/payments/views.py:170 donate/payments/views.py:171
 msgid "The post code you provided is not valid."
 msgstr "आपण प्रदान केलेला पोस्ट कोड वैध नाही."
 
-#: donate/payments/views.py:184
+#: donate/payments/views.py:185
 msgid "Sorry there was an error processing your payment. Please try again later or use a different payment method."
 msgstr "क्षमस्व, आपल्या देयकावर प्रक्रिया करताना त्रुटी आली. कृपया नंतर पुन्हा प्रयत्न करा किंवा भिन्न देय पद्धत वापरा."
 
-#: donate/payments/views.py:378
+#: donate/payments/views.py:379
 msgid "Something went wrong. We were unable to process your payment."
 msgstr "काहीतरी चूक झाली. आम्ही आपल्या देयकावर प्रक्रिया करू शकत नाही."
 
-#: donate/payments/views.py:630 donate/payments/views.py:739
+#: donate/payments/views.py:631 donate/payments/views.py:740
 msgid "Sorry there was an error processing your payment. Please try again later."
 msgstr "क्षमस्व, आपल्या देयकावर प्रक्रिया करताना त्रुटी आली. कृपया पुन्हा प्रयत्न करा."
 
@@ -173,10 +173,9 @@ msgid "per month"
 msgstr "दरमहा"
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:6
-#: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:12
 #, fuzzy, python-format
 #| msgid "Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a> (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Mozilla."
-msgid "Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Mozilla."
+msgid "Mozilla is committed to your privacy; please read our <a href=\"%(privacy_url)s\">privacy policy here</a>. Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Mozilla."
 msgstr "आपल्या देय तपशीलांवर (क्रेडिट / डेबिट कार्डसाठी) <a href=\"%(braintree_url)s\">Braintree</a> किंवा <a href=\"%(paypal_url)s\">PayPal</a> द्वारे प्रक्रिया केली जाईल, आणि आपल्या देणगीची नोंद Mozilla द्वारे संग्रहित केली जाईल."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:9
@@ -772,6 +771,12 @@ msgstr "मी आज Thunderbird ला देणगी दिली"
 #| msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">Wire Transfer or SEPA</a> | <a href=\"%(check_url)s\">Check</a>"
 msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a>"
 msgstr "देण्याचे अन्य मार्गः <a href=\"%(wire_transfer_url)s\">वायर ट्रान्सफर किंवा SEPA</a> | <a href=\"%(check_url)s\">तपासा</a>"
+
+#: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:12
+#, fuzzy, python-format
+#| msgid "Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a> (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Mozilla."
+msgid "Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Thunderbird. Please read our <a href=\"%(privacy_url)s\">privacy policy here</a>."
+msgstr "आपल्या देय तपशीलांवर (क्रेडिट / डेबिट कार्डसाठी) <a href=\"%(braintree_url)s\">Braintree</a> किंवा <a href=\"%(paypal_url)s\">PayPal</a> द्वारे प्रक्रिया केली जाईल, आणि आपल्या देणगीची नोंद Mozilla द्वारे संग्रहित केली जाईल."
 
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:15
 #, fuzzy, python-format

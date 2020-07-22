@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-12 09:58+0000\n"
+"POT-Creation-Date: 2020-07-22 08:10+0000\n"
 "PO-Revision-Date: 2020-02-14 02:54+0000\n"
 "Last-Translator: Enol <enolp@softastur.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -76,35 +76,35 @@ msgstr "País"
 msgid "I’m okay with Mozilla handling my info as explained in this <a href='%(url)s'>Privacy Notice</a>."
 msgstr "Toi d'alcuerdu con que Mozilla remane la mio información como desplica nesti <a href='%(url)s'>avisu de privacidá</a>."
 
-#: donate/payments/views.py:156
+#: donate/payments/views.py:157
 msgid "The type of card you used is not accepted."
 msgstr ""
 
-#: donate/payments/views.py:157 donate/payments/views.py:158
+#: donate/payments/views.py:158 donate/payments/views.py:159
 msgid "The CVV code you entered was invalid."
 msgstr "El códigu CVV qu'introduxesti nun ye válidu."
 
-#: donate/payments/views.py:159
+#: donate/payments/views.py:160
 msgid "The expiration date you entered was invalid."
 msgstr "La data de caducidá qu'introduxesti nun ye válida."
 
-#: donate/payments/views.py:160
+#: donate/payments/views.py:161
 msgid "The credit card number you entered was invalid."
 msgstr "El númberu de la tarxeta de creitu qu'introduxesti nun ye válidu."
 
-#: donate/payments/views.py:169 donate/payments/views.py:170
+#: donate/payments/views.py:170 donate/payments/views.py:171
 msgid "The post code you provided is not valid."
 msgstr "El códigu postal qu'apurriesti nun ye válidu."
 
-#: donate/payments/views.py:184
+#: donate/payments/views.py:185
 msgid "Sorry there was an error processing your payment. Please try again later or use a different payment method."
 msgstr "Perdona pero hebo un fallu al procesar el pagu. Volvi tentalo dempués o usa otru métodu de pagu, por favor."
 
-#: donate/payments/views.py:378
+#: donate/payments/views.py:379
 msgid "Something went wrong. We were unable to process your payment."
 msgstr "Asocedió daqué malo. Nun somos a procesar el pagu."
 
-#: donate/payments/views.py:630 donate/payments/views.py:739
+#: donate/payments/views.py:631 donate/payments/views.py:740
 msgid "Sorry there was an error processing your payment. Please try again later."
 msgstr "Perdon pero hebo un fallu al procesar el pagu. Volvi tentalo dempués."
 
@@ -173,9 +173,9 @@ msgid "per month"
 msgstr "per mes"
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:6
-#: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:12
-#, python-format
-msgid "Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Mozilla."
+#, fuzzy, python-format
+#| msgid "Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Mozilla."
+msgid "Mozilla is committed to your privacy; please read our <a href=\"%(privacy_url)s\">privacy policy here</a>. Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Mozilla."
 msgstr "Los detalles del pagu va procesalos <a href=\"%(braintree_url)s\">Braintree</a>, una compaña de PayPal (pa tarxetes de creitu/débitu) o <a href=\"%(paypal_url)s\">PayPal</a> y Mozilla va atroxar un rexistru d'esta donación."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:9
@@ -759,6 +759,12 @@ msgstr ""
 #, python-format
 msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a>"
 msgstr "Otres formes de donar: <a href=\"%(wire_transfer_url)s\">APUE (SEPA) / BACS </a> | <a href=\"%(check_url)s\">Cheque</a>"
+
+#: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:12
+#, fuzzy, python-format
+#| msgid "Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Mozilla."
+msgid "Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Thunderbird. Please read our <a href=\"%(privacy_url)s\">privacy policy here</a>."
+msgstr "Los detalles del pagu va procesalos <a href=\"%(braintree_url)s\">Braintree</a>, una compaña de PayPal (pa tarxetes de creitu/débitu) o <a href=\"%(paypal_url)s\">PayPal</a> y Mozilla va atroxar un rexistru d'esta donación."
 
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:15
 #, python-format
