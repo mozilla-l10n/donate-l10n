@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-22 08:10+0000\n"
-"PO-Revision-Date: 2020-07-25 02:34+0000\n"
+"PO-Revision-Date: 2020-07-25 02:35+0000\n"
 "Last-Translator: Hyeonseok Shin <hyeonseok@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -766,7 +766,7 @@ msgstr "메모 영역:"
 msgid ""
 "Please note that due to the “shelter in place” order recently implemented for California, processing and acknowledgment of check donations to Thunderbird/MZLA Technologies will be indefinitely "
 "delayed. Rather than sending us a check, please consider making an <a href=\"/\">online donation</a> instead."
-msgstr ""
+msgstr "캘리포니아에서 시행하는 “자택대기” 명령으로 Thunderbird/MZLA Technologies로 기부된 수표의 처리와 승인 작업이 무기한 연기될 예정입니다. 수표를 보내는 대신 <a href=\"/\">온라인기부</a>를 고려해 주세요."
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:61
 #, python-format
