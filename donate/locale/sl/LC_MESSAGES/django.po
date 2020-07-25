@@ -733,8 +733,6 @@ msgid ""
 "Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your "
 "donation will be stored by Thunderbird. Please read our <a href=\"%(privacy_url)s\">privacy policy here</a>."
 msgstr ""
-"Podatke o vašem plačilu bo obdelal <a href=\"%(braintree_url)s\">Braintree</a>, podjetje v last Paypala (za kreditne/debetne kartice), oziroma <a href=\"%(paypal_url)s\">PayPal</a>, zapis o donaciji"
-" pa bo shranjen pri Mozilli."
 
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:15
 #, python-format
