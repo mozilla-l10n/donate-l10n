@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-22 08:10+0000\n"
-"PO-Revision-Date: 2020-07-26 01:06+0000\n"
+"PO-Revision-Date: 2020-07-26 01:11+0000\n"
 "Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
@@ -72,7 +72,7 @@ msgstr "Țară"
 #: donate/payments/forms.py:131 donate/templates/pages/base_page_master.html:87
 #, python-format
 msgid "I’m okay with Mozilla handling my info as explained in this <a href='%(url)s'>Privacy Notice</a>."
-msgstr "Sunt de acord ca Mozilla să îmi gestioneze informațiile, conform explicațiilor din această <a href='%(url)s'>Declarație de confidențialitate</a>."
+msgstr "Sunt de acord ca Mozilla să îmi gestioneze informațiile, conform explicațiilor din această <a href='%(url)s'>Notificare privind confidențialitatea</a>."
 
 #: donate/payments/views.py:157
 msgid "The type of card you used is not accepted."
