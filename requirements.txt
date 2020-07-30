@@ -12,4 +12,4 @@ idna==2.9                 # via requests
 pytz==2019.3              # via django
 requests==2.24.0          # via -r requirements.in
 sqlparse==0.3.0           # via django
-urllib3==1.25.8           # via requests
+urllib3==1.25.10          # via requests
