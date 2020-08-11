@@ -322,7 +322,7 @@ msgstr ""
 
 #: donate/templates/pages/core/contributor_support_page_master.html:40
 msgid "Contact Name"
-msgstr ""
+msgstr "Nombre del contacto"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:53
 msgctxt "Option in 'Language' dropdown"
@@ -394,7 +394,7 @@ msgstr "Transferencia bancaria / SEPA"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:24
 msgid "We accept donations in Euros through Single European Payment Area (SEPA) transfer, and British Pounds through BACS transfer."
-msgstr ""
+msgstr "Aceptamos donaciones en euros a través de transferencias por la Zona Única Europea de Pagos (SEPA por sus siglas en inglés) y en libras esterlinas a través de transferencias BACS."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:26
 msgid ""
@@ -730,12 +730,11 @@ msgstr "Atrás"
 
 #: donate/thunderbird/templates/base.html:9 donate/thunderbird/templates/pages/base_page.html:7 donate/thunderbird/templates/pages/base_page.html:14
 #: donate/thunderbird/templates/pages/base_page.html:15
-#, fuzzy
 #| msgctxt "Email subject line"
 #| msgid "I donated to Thunderbird today"
 msgctxt "Page title"
 msgid "Give to Thunderbird"
-msgstr "Doné a Thunderbird hoy"
+msgstr "Dar a Thunderbird"
 
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:7
 #, python-format
