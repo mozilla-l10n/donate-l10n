@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-22 08:10+0000\n"
-"PO-Revision-Date: 2020-08-11 22:24+0000\n"
+"PO-Revision-Date: 2020-08-12 00:21+0000\n"
 "Last-Translator: Paulina Rodriguez <pauli.rodriguez.c@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
@@ -318,7 +318,7 @@ msgstr ""
 
 #: donate/templates/pages/core/contributor_support_page_master.html:28
 msgid "If you need help with a contribution to MZLA/Thunderbird, fill out this form and a Thunderbird donor care representative will get back to you as soon as possible."
-msgstr ""
+msgstr "Si necesita ayuda con una contribución a MZLA/Thunderbird, completa este formulario y un representante de atención de donantes de Thunderbird se pondrá en contacto contigo lo antes posible."
 
 #: donate/templates/pages/core/contributor_support_page_master.html:40
 msgid "Contact Name"
