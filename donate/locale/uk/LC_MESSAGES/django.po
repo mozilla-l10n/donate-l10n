@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-22 08:10+0000\n"
-"PO-Revision-Date: 2020-07-22 22:31+0000\n"
+"PO-Revision-Date: 2020-08-15 22:09+0000\n"
 "Last-Translator: Іhor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: uk\n"
@@ -491,7 +491,7 @@ msgstr ""
 #: donate/templates/pages/core/ways_to_give_page_master.html:83
 #, python-format
 msgid "Please send a check <strong>including your email address on the memo line</strong>, and payable (payee) to “%(payee)s”."
-msgstr "Будь ласка, надсилайте чек <strong>із зазначенням вашої електронної адреси в рядку нагадування</strong>, а в рядку оплата для (одержувач платежу) “%(payee)s”."
+msgstr "Будь ласка, надсилайте чек <strong>із вказаною адресою вашої електронної пошти  в рядку нагадування</strong>, а в рядку оплата для (одержувач платежу) “%(payee)s”."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:86
 msgid "Please note that the Mozilla Foundation can only accept checks in US dollars drawn on a US bank. Please do <strong>not</strong> send cash."
@@ -811,7 +811,7 @@ msgstr ""
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:61
 #, python-format
 msgid "Please send a check <strong>with “%(thunderbird)s” on the memo line</strong>, and payable (payee) to “%(payee)s”."
-msgstr "Будь ласка, надсилайте чек, <strong>зазначивши “%(thunderbird)s” у рядку нагадування</strong>, а в рядку оплата для (одержувач платежу) “%(payee)s”."
+msgstr "Будь ласка, надсилайте чек, <strong>вказавши “%(thunderbird)s” у рядку нагадування</strong>, а в рядку оплата для (одержувач платежу) “%(payee)s”."
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:64
 msgid "Please note that we can only accept checks in US dollars drawn on a US bank. Please do <strong>not</strong> send cash."
