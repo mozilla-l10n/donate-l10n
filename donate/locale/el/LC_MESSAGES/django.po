@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-22 08:10+0000\n"
-"PO-Revision-Date: 2020-08-08 10:00+0000\n"
+"PO-Revision-Date: 2020-08-15 12:06+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -160,7 +160,7 @@ msgid "per month"
 msgstr "ανά μήνα"
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:6
-#, fuzzy, python-format
+#, python-format
 #| msgid ""
 #| "Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your "
 #| "donation will be stored by Mozilla."
@@ -168,8 +168,9 @@ msgid ""
 "Mozilla is committed to your privacy; please read our <a href=\"%(privacy_url)s\">privacy policy here</a>. Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a "
 "PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Mozilla."
 msgstr ""
-"Τα στοιχεία πληρωμής σας θα επεξεργαστούν από την <a href=\"%(braintree_url)s\">Braintree</a>, μια εταιρεία της PayPal (για πιστωτικές/χρεωστικές κάρτες) ή την <a href=\"%(paypal_url)s\">PayPal</a>,"
-" ενώ θα αποθηκευτεί μια καταγραφή της δωρεάς σας από τη Mozilla."
+"Η Mozilla σέβεται το απόρρητό σας· παρακαλούμε διαβάστε την <a href=\"%(privacy_url)s\">πολιτική απορρήτου μας εδώ</a>. Η επεξεργασία των στοιχείων πληρωμής σας θα γίνει από την <a "
+"href=\"%(braintree_url)s\">Braintree</a>, μια εταιρεία της PayPal (για πιστωτικές/χρεωστικές κάρτες) ή την <a href=\"%(paypal_url)s\">PayPal</a>, ενώ μια καταγραφή της δωρεάς σας θα αποθηκευτεί από "
+"τη Mozilla."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:9
 #, python-format
