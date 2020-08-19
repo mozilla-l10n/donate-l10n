@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-22 08:10+0000\n"
-"PO-Revision-Date: 2020-08-19 23:36+0000\n"
+"PO-Revision-Date: 2020-08-19 23:37+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -319,7 +319,7 @@ msgstr "Θα σας απαντήσουμε σύντομα."
 
 #: donate/templates/pages/core/contributor_support_page_master.html:28
 msgid "If you need help with a contribution to MZLA/Thunderbird, fill out this form and a Thunderbird donor care representative will get back to you as soon as possible."
-msgstr ""
+msgstr "Αν χρειάζεστε βοήθεια με μια συνεισφορά στο MZLA/Thunderbird, συμπληρώστε αυτή τη φόρμα και ένας εκπρόσωπος φροντίδας δωρητών του Thunderbird θα επικοινωνήσει μαζί σας το συντομότερο δυνατό."
 
 #: donate/templates/pages/core/contributor_support_page_master.html:40
 msgid "Contact Name"
@@ -660,7 +660,7 @@ msgstr "Μείνετε σε επαφή"
 
 #: donate/templates/payment/newsletter_signup_master.html:14
 msgid "Protect the internet as a global public resource. Join our email list to take action and stay updated!"
-msgstr ""
+msgstr "Προστατέψτε το διαδίκτυο ως παγκόσμιο δημόσιο πόρο. Εγγραφείτε στη λίστα email μας για να λάβετε δράση και να μένετε ενημερωμένοι!"
 
 #: donate/templates/payment/newsletter_signup_master.html:40
 msgid "Sign Up"
@@ -811,7 +811,7 @@ msgstr ""
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:64
 msgid "Please note that we can only accept checks in US dollars drawn on a US bank. Please do <strong>not</strong> send cash."
-msgstr ""
+msgstr "Παρακαλούμε σημειώστε ότι μπορούμε να δεχτούμε επιταγές μόνο σε δολάρια ΗΠΑ, σε τράπεζα των ΗΠΑ. Παρακαλούμε <strong>μην</strong> στείλετε μετρητά."
 
 #: donate/thunderbird/templates/payment/card.html:6
 msgid "Thank you in advance for your gift."
