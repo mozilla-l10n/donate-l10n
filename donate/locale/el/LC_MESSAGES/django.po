@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-22 08:10+0000\n"
-"PO-Revision-Date: 2020-08-15 12:06+0000\n"
+"PO-Revision-Date: 2020-08-19 23:36+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -229,7 +229,7 @@ msgstr "Προστατεύστε το Διαδίκτυο ως παγκόσμιο
 
 #: donate/templates/pages/base_page_master.html:79
 msgid "Join our email list to take action and stay updated!"
-msgstr ""
+msgstr "Εγγραφείτε στη λίστα email μας για να λάβετε δράση και να μένετε ενημερωμένοι!"
 
 #: donate/templates/pages/base_page_master.html:80
 msgid "Enter email address"
@@ -311,7 +311,7 @@ msgstr "Δωρεά τώρα"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:18
 msgid "Thank you for contacting us. A case has been created for your issue and we will be in touch shortly."
-msgstr ""
+msgstr "Σας ευχαριστούμε που επικοινωνήσατε μαζί μας. Το ζήτημά σας έχει καταγραφεί και θα επικοινωνήσουμε μαζί σας σύντομα."
 
 #: donate/templates/pages/core/contributor_support_page_master.html:24
 msgid "We will get back to you soon."
