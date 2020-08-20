@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-22 08:10+0000\n"
-"PO-Revision-Date: 2020-07-27 06:24+0000\n"
+"PO-Revision-Date: 2020-08-20 16:50+0000\n"
 "Last-Translator: robbp <robbpaun@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
@@ -669,7 +669,7 @@ msgstr "Protejează internetul ca resursă publică globală. Înscrie-te pe lis
 
 #: donate/templates/payment/newsletter_signup_master.html:40
 msgid "Sign Up"
-msgstr "Înregistrează-te"
+msgstr "Înregistrare"
 
 #: donate/templates/payment/paypal_upsell_master.html:41
 msgid "/ Monthly"
