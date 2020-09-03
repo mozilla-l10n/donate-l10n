@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-22 08:10+0000\n"
-"PO-Revision-Date: 2020-05-07 04:25+0000\n"
+"PO-Revision-Date: 2020-05-07 04:46+0000\n"
 "Last-Translator: niruhn <niruhn@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: th\n"
@@ -742,7 +742,7 @@ msgstr "การบริจาครายเดือนจะถูกเร
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:21
 #, python-format
 msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"%(help_url)s\">Contact us</a>."
-msgstr ""
+msgstr "มีปัญหาในการบริจาค? ไปที่ <a href=\"%(faq_url)s\"> คำถามที่พบบ่อย </a> เพื่อรับคำตอบสำหรับคำถามทื่ถามบ่อย ยังมีปัญหาอีก? <a href=\"%(help_url)s\"> ติดต่อเรา </a>"
 
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:27
 msgid ""
@@ -791,7 +791,7 @@ msgstr ""
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:64
 msgid "Please note that we can only accept checks in US dollars drawn on a US bank. Please do <strong>not</strong> send cash."
-msgstr ""
+msgstr "โปรดทราบว่าเราสามารถรับเช็คเป็นเงินดอลล่าร์สหรัฐที่ธนาคารแห่งสหรัฐอเมริกาเป็นผู้ดำเนินการเท่านั้น โปรด<strong>อย่า </strong> ส่งเงินสด"
 
 #: donate/thunderbird/templates/payment/card.html:6
 msgid "Thank you in advance for your gift."
@@ -804,10 +804,12 @@ msgid ""
 "understand that I must cancel at least 5 days before the next scheduled donation by <a href='%(help_url)s'>submitting a request</a>, and that I may only request a refund within 15 days from the date"
 " of a donation."
 msgstr ""
+"ฉันอนุญาต MZLA Technologies Corporation เรียกเก็บเงินจากบัตรของฉันโดยอัตโนมัติทุกเดือนตามจำนวนที่ระบุข้างต้นเริ่มตั้งแต่วันนี้และดำเนินการต่อในแต่ละเดือนในวันเดียวกันจนกว่าฉันจะยกเลิก "
+"ฉันเข้าใจว่าฉันต้องยกเลิกอย่างน้อย 5 วันก่อนกำหนดการบริจาคครั้งต่อไปโดย <a href='%(help_url)s'> ส่งคำขอ </a> และฉันสามารถขอรับเงินคืนได้ภายใน 15 วันนับจากวันที่ ของการบริจาคเท่านั้น"
 
 #: donate/thunderbird/templates/payment/card.html:14
 msgid "I authorize MZLA Technologies Corporation to charge my card in the amount indicated above. I understand that I may only request a refund within 15 days from the date of the donation."
-msgstr ""
+msgstr "ฉันอนุญาตให้ MZLA Technologies Corporation เรียกเก็บเงินจากบัตรของฉันตามจำนวนที่ระบุไว้ข้างต้น ฉันเข้าใจว่าฉันสามารถขอรับเงินคืนได้ภายใน 15 วันนับจากวันที่บริจาคเท่านั้น"
 
 #: donate/thunderbird/templates/payment/card_upsell.html:6 donate/thunderbird/templates/payment/paypal_upsell.html:6
 msgid "We’d love to have you as a sustaining supporter of Thunderbird. <b>Could you add a monthly donation starting next month?</b>"
@@ -820,6 +822,9 @@ msgid ""
 "afterwards until I cancel. I understand that I must cancel at least 5 days before the next scheduled donation by <a href=\"%(help_url)s\">submitting this form</a>, and that I may only request a "
 "refund within 15 days from the date of a donation."
 msgstr ""
+"ฉันอนุญาตให้ MZLA Technologies Corporation "
+"เรียกเก็บเงินจากบัตรของฉันโดยอัตโนมัติทุกเดือนตามจำนวนที่ระบุไว้ด้านบนเริ่มต้นเดือนถัดไปในวันเดียวกันกับวันนี้และดำเนินการต่อในแต่ละเดือนหลังจากนั้นจนกว่าฉันจะยกเลิก "
+"ฉันเข้าใจว่าฉันต้องยกเลิกอย่างน้อย 5 วันก่อนการบริจาคตามกำหนดครั้งต่อไปโดย <a href=\"%(help_url)s\"> ส่งแบบฟอร์มนี้ </a> และฉันสามารถขอรับเงินคืนได้ภายใน 15 วันนับจากวันที่บริจาคเท่านั้น"
 
 #: donate/thunderbird/templates/payment/thank_you.html:6
 #, python-format
