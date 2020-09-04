@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-22 08:10+0000\n"
-"PO-Revision-Date: 2020-08-19 23:37+0000\n"
+"PO-Revision-Date: 2020-09-04 13:13+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -371,6 +371,8 @@ msgstr "Περιγραφή"
 #, python-format
 msgid "Mozilla will only use your submitted information for purposes of communicating with you about your request. See our <a href=\"%(privacy_policy)s\">privacy policy</a> for further information."
 msgstr ""
+"Η Mozilla θα χρησιμοποιήσει τις υποβεβλημένες πληροφορίες μόνο για να επικοινωνήσει μαζί σας σχετικά με το αίτημά σας. Δείτε την <a href=\"%(privacy_policy)s\">πολιτική απορρήτου</a> για "
+"περισσότερες πληροφορίες."
 
 #: donate/templates/pages/core/contributor_support_page_master.html:77
 msgid "Submit"
