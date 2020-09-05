@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-22 08:10+0000\n"
-"PO-Revision-Date: 2020-09-05 23:25+0000\n"
+"PO-Revision-Date: 2020-09-05 23:36+0000\n"
 "Last-Translator: dskmori <ghoti.fish.dsk@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ja\n"
@@ -665,7 +665,7 @@ msgstr "寄付の領収書をメールで送りました。見つけられない
 
 #: donate/templates/payment/thank_you_master.html:17
 msgid "Lastly, can you multiply your impact by sharing about the important work Mozilla is doing? Thank you again!"
-msgstr ""
+msgstr "最後に、Mozilla が行っている重要なことについて共有して、効果を何倍にもしていただけませんか？ありがとうございました！"
 
 #: donate/templates/payment/thank_you_master.html:22
 msgctxt "Used as a tweet"
@@ -822,7 +822,7 @@ msgstr "寄付の領収書をメールで送りました。見つけられない
 
 #: donate/thunderbird/templates/payment/thank_you.html:7
 msgid "Lastly, can you multiply your impact by sharing about the important work Thunderbird is doing? Thank you again!"
-msgstr ""
+msgstr "最後に、Thunderbird が行っている重要なことについて共有して、効果を何倍にもしていただけませんか？ありがとうございました！"
 
 #: donate/thunderbird/templates/payment/thank_you.html:11
 msgctxt "Used as a tweet"
