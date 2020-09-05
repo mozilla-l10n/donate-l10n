@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-22 08:10+0000\n"
-"PO-Revision-Date: 2020-09-05 00:45+0000\n"
+"PO-Revision-Date: 2020-09-05 00:54+0000\n"
 "Last-Translator: dskmori <ghoti.fish.dsk@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ja\n"
@@ -285,11 +285,11 @@ msgstr "今すぐ寄付"
 
 #: donate/templates/pages/core/campaign_page.html:52 donate/templates/pages/core/landing_page_master.html:36 donate/templates/payment/card_master.html:159
 msgid "Seal of Charity Navigator 4-Star"
-msgstr ""
+msgstr "Charity Navigator 4 つ星"
 
 #: donate/templates/pages/core/campaign_page.html:55 donate/templates/pages/core/landing_page_master.html:39 donate/templates/payment/card_master.html:162
 msgid "Seal of GuideStar Gold 2019"
-msgstr ""
+msgstr "GuideStar Gold 2019"
 
 #: donate/templates/pages/core/campaign_page.html:65
 msgctxt "Header"
@@ -670,7 +670,7 @@ msgstr ""
 #: donate/templates/payment/thank_you_master.html:22
 msgctxt "Used as a tweet"
 msgid "I donated to @mozilla today because I #lovetheweb. Join me and help fight for a better and healthier internet, for all."
-msgstr ""
+msgstr "ウェブを愛しているので @mozilla に寄付しました。より良く、健全なインターネットのために協力してください。 #lovetheweb"
 
 #: donate/templates/payment/thank_you_master.html:23
 msgctxt "Email subject line"
