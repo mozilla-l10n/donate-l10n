@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-22 08:10+0000\n"
-"PO-Revision-Date: 2020-09-05 23:23+0000\n"
+"PO-Revision-Date: 2020-09-05 23:25+0000\n"
 "Last-Translator: dskmori <ghoti.fish.dsk@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ja\n"
@@ -661,7 +661,7 @@ msgstr "いただいた寄付で、ウェブを守り、オープンで誰もが
 #: donate/templates/payment/thank_you_master.html:15
 #, python-format
 msgid "We’ve emailed you a donation receipt; if it’s missing, please check your junk/spam folders, then contact us at <a href=\"mailto:%(email)s\">%(email)s</a>."
-msgstr ""
+msgstr "寄付の領収書をメールで送りました。見つけられない場合、迷惑メール/スパムフォルダーを確認してから、<a href=\"mailto:%(email)s\">%(email)s%(email)s</a> にお問い合わせください。"
 
 #: donate/templates/payment/thank_you_master.html:17
 msgid "Lastly, can you multiply your impact by sharing about the important work Mozilla is doing? Thank you again!"
@@ -818,7 +818,7 @@ msgstr ""
 #: donate/thunderbird/templates/payment/thank_you.html:6
 #, python-format
 msgid "We’ve emailed you a donation receipt; if it’s missing, please check your junk/spam folders, then contact us using <a href=\"%(url)s\">this form</a>."
-msgstr ""
+msgstr "寄付の領収書をメールで送りました。見つけられない場合、迷惑メール/スパムフォルダーを確認してから、<a href=\"%(url)s\">このフォーム</a> を使用してお問い合わせください。"
 
 #: donate/thunderbird/templates/payment/thank_you.html:7
 msgid "Lastly, can you multiply your impact by sharing about the important work Thunderbird is doing? Thank you again!"
