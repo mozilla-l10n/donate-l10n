@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-22 08:10+0000\n"
-"PO-Revision-Date: 2020-09-07 12:07+0000\n"
+"PO-Revision-Date: 2020-09-07 12:10+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -495,7 +495,7 @@ msgstr ""
 #: donate/templates/pages/core/ways_to_give_page_master.html:83
 #, python-format
 msgid "Please send a check <strong>including your email address on the memo line</strong>, and payable (payee) to “%(payee)s”."
-msgstr ""
+msgstr "Παρακαλούμε στείλτε μια επιταγή <strong>με τη διεύθυνση email σας στο πεδίο περιγραφής</strong> και “%(payee)s” ως το δικαιούχο."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:86
 msgid "Please note that the Mozilla Foundation can only accept checks in US dollars drawn on a US bank. Please do <strong>not</strong> send cash."
@@ -568,7 +568,7 @@ msgstr "Υπήρξαν ορισμένα σφάλματα στη φόρμα σα�
 
 #: donate/templates/payment/card_master.html:64
 msgid "We were unable to take payment because the payment processor reported an error with your address information:"
-msgstr ""
+msgstr "Δεν μπορέσαμε να λάβουμε την πληρωμή, επειδή ο επεξεργαστής πληρωμών ανέφερε σφάλμα στα στοιχεία της διεύθυνσής σας:"
 
 #: donate/templates/payment/card_master.html:68
 msgid "Please correct these errors and try again."
@@ -815,7 +815,7 @@ msgstr ""
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:61
 #, python-format
 msgid "Please send a check <strong>with “%(thunderbird)s” on the memo line</strong>, and payable (payee) to “%(payee)s”."
-msgstr "Παρακαλούμε σημειώστε <strong>“%(thunderbird)s” στο πεδίο περιγραφής</strong> και “%(payee)s” ως το δικαιούχο."
+msgstr "Παρακαλούμε στείλτε μια επιταγή <strong>με “%(thunderbird)s” στο πεδίο περιγραφής</strong> και “%(payee)s” ως το δικαιούχο."
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:64
 msgid "Please note that we can only accept checks in US dollars drawn on a US bank. Please do <strong>not</strong> send cash."
