@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-22 08:10+0000\n"
-"PO-Revision-Date: 2020-09-07 12:10+0000\n"
+"PO-Revision-Date: 2020-09-07 12:15+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -491,6 +491,8 @@ msgid ""
 "Please note that due to the “shelter in place” order recently implemented for California, processing and acknowledgment of check donations to the Mozilla Foundation will be indefinitely delayed. "
 "Rather than sending us a check, please consider making an <a href=\"/\">online donation</a> instead."
 msgstr ""
+"Παρακαλούμε σημειώστε ότι λόγω της πρόσφατα εκδοθείσας εντολής παραμονής στην Καλιφόρνια, η επεξεργασία και αναγνώριση των δωρεών με επιταγές στο Ίδρυμα Mozilla θα καθυστερήσουν επ' αόριστον. Αντί "
+"να στείλετε επιταγή, σκεφθείτε το ενδεχόμενο να κάνετε <a href=\"/\">δωρεά μέσω διαδικτύου</a>."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:83
 #, python-format
@@ -811,6 +813,8 @@ msgid ""
 "Please note that due to the “shelter in place” order recently implemented for California, processing and acknowledgment of check donations to Thunderbird/MZLA Technologies will be indefinitely "
 "delayed. Rather than sending us a check, please consider making an <a href=\"/\">online donation</a> instead."
 msgstr ""
+"Παρακαλούμε σημειώστε ότι λόγω της πρόσφατα εκδοθείσας εντολής παραμονής στην Καλιφόρνια, η επεξεργασία και αναγνώριση των δωρεών με επιταγές στο Thunderbird/MZLA Technologies θα καθυστερήσουν επ' "
+"αόριστον. Αντί να στείλετε επιταγή, σκεφθείτε το ενδεχόμενο να κάνετε <a href=\"/\">δωρεά μέσω διαδικτύου</a>."
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:61
 #, python-format
