@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-22 08:10+0000\n"
-"PO-Revision-Date: 2020-09-07 11:55+0000\n"
+"PO-Revision-Date: 2020-09-07 12:07+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -499,7 +499,7 @@ msgstr ""
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:86
 msgid "Please note that the Mozilla Foundation can only accept checks in US dollars drawn on a US bank. Please do <strong>not</strong> send cash."
-msgstr ""
+msgstr "Παρακαλούμε σημειώστε ότι το Ίδρυμα Mozilla μπορεί να δεχτεί επιταγές μόνο σε δολάρια ΗΠΑ, σε τράπεζα των ΗΠΑ. Παρακαλούμε <strong>μην</strong> στείλετε μετρητά."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:101
 msgid "Currencies"
@@ -815,7 +815,7 @@ msgstr ""
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:61
 #, python-format
 msgid "Please send a check <strong>with “%(thunderbird)s” on the memo line</strong>, and payable (payee) to “%(payee)s”."
-msgstr ""
+msgstr "Παρακαλούμε σημειώστε <strong>“%(thunderbird)s” στο πεδίο περιγραφής</strong> και “%(payee)s” ως το δικαιούχο."
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:64
 msgid "Please note that we can only accept checks in US dollars drawn on a US bank. Please do <strong>not</strong> send cash."
@@ -860,7 +860,7 @@ msgstr ""
 #: donate/thunderbird/templates/payment/thank_you.html:6
 #, python-format
 msgid "We’ve emailed you a donation receipt; if it’s missing, please check your junk/spam folders, then contact us using <a href=\"%(url)s\">this form</a>."
-msgstr ""
+msgstr "Σας έχουμε στείλει μια απόδειξη δωρεάς με email· αν δεν υπάρχει, παρακαλούμε ελέγξτε το φάκελο ανεπιθύμητων και επικοινωνήστε μαζί μας μέσω <a href=\"%(url)s\">αυτής της φόρμας</a>."
 
 #: donate/thunderbird/templates/payment/thank_you.html:7
 msgid "Lastly, can you multiply your impact by sharing about the important work Thunderbird is doing? Thank you again!"
