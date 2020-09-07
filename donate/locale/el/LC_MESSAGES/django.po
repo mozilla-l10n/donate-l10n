@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-22 08:10+0000\n"
-"PO-Revision-Date: 2020-09-07 11:22+0000\n"
+"PO-Revision-Date: 2020-09-07 11:43+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -860,7 +860,7 @@ msgstr ""
 
 #: donate/thunderbird/templates/payment/thank_you.html:7
 msgid "Lastly, can you multiply your impact by sharing about the important work Thunderbird is doing? Thank you again!"
-msgstr ""
+msgstr "Τέλος, θα θέλατε να πολλαπλασιάσετε την επίδρασή σας κοινοποιώντας το σημαντικό έργο του Thunderbird; Ευχαριστούμε και πάλι!"
 
 #: donate/thunderbird/templates/payment/thank_you.html:11
 msgctxt "Used as a tweet"
