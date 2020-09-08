@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-22 08:11+0000\n"
-"PO-Revision-Date: 2020-09-07 14:02+0000\n"
-"Last-Translator: Asadbek Botirqulov <bekmirzobek2002@gmail.com>\n"
+"PO-Revision-Date: 2020-09-08 20:14+0000\n"
+"Last-Translator: Akmal <uzbadmin@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: uz\n"
 "MIME-Version: 1.0\n"
@@ -25,22 +25,22 @@ msgstr "har oy"
 
 #: donate/frontend/_js/main.compiled.js:16 maintenance/static/_js/main.js:16
 msgid "Other amount"
-msgstr ""
+msgstr "Boshqa pul miqdori"
 
 #: donate/frontend/_js/payments-card.compiled.js:1 donate/frontend/_js/payments-paypal-upsell.compiled.js:1 donate/frontend/_js/payments-paypal.compiled.js:1 source/js/components/paypal.js:14
 #: source/js/payments-card.js:15
 msgid "An error occurred. Please reload the page or try again later."
-msgstr ""
+msgstr "Xatolik yuz berdi. Iltimos, sahifani qayta yuklang yoki keyinroq qayta urinib koʻring."
 
 #: donate/frontend/_js/payments-card.compiled.js:1 donate/frontend/_js/payments-paypal-upsell.compiled.js:1 donate/frontend/_js/payments-paypal.compiled.js:1 source/js/components/paypal.js:17
 #: source/js/payments-card.js:131
 msgid "There was an error processing your payment. Please try again."
-msgstr ""
+msgstr "Toʻlovingizni amalga oshirishda xatolik yuz berdi. Iltimos, yana bir bor urinib koʻring."
 
 #: donate/frontend/_js/payments-card.compiled.js:1 source/js/payments-card.js:152
 msgid "Some of the fields below are invalid. Please correct the invalid fields and try again."
-msgstr ""
+msgstr "Quyidagi maydonlarning baʼzilari yaroqsiz. Iltimos, yaroqsiz maydonlarni toʻgʻrilab, qaytadan urining."
 
 #: donate/frontend/_js/payments-paypal-upsell.compiled.js:1 donate/frontend/_js/payments-paypal.compiled.js:1 source/js/components/paypal.js:94
 msgid "Payment cancelled"
-msgstr ""
+msgstr "Toʻlov bekor qilindi"
