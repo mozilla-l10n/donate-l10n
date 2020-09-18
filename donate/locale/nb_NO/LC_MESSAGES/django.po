@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-22 08:10+0000\n"
-"PO-Revision-Date: 2020-07-22 12:56+0000\n"
+"PO-Revision-Date: 2020-09-18 07:39+0000\n"
 "Last-Translator: Håvar Henriksen <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nb_NO\n"
@@ -88,7 +88,7 @@ msgstr "Utløpsdatoen du oppga var ugyldig."
 
 #: donate/payments/views.py:161
 msgid "The credit card number you entered was invalid."
-msgstr "Kredittkortnummeret du skrev inn er ugyldig."
+msgstr "Betalingskortnummeret du skrev inn er ugyldig."
 
 #: donate/payments/views.py:170 donate/payments/views.py:171
 msgid "The post code you provided is not valid."
@@ -169,7 +169,7 @@ msgid ""
 "PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Mozilla."
 msgstr ""
 "Mozilla er forpliktet til ditt privatliv; du kan lese <a href=\"%(privacy_url)s\">personvernerklæringen vår her</a>. Betalingsopplysningene blir behandlet av <a "
-"href=\"%(braintree_url)s\">Braintree</a>, et PayPal-selskap (for kreditt-/debetkort) eller <a href=\"%(paypal_url)s\">Paypal</a>, og en oversikt over donasjonen din blir lagret hos Mozilla."
+"href=\"%(braintree_url)s\">Braintree</a>, et PayPal-selskap (for betalingskort) eller <a href=\"%(paypal_url)s\">Paypal</a>, og en oversikt over donasjonen din blir lagret hos Mozilla."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:9
 #, python-format
