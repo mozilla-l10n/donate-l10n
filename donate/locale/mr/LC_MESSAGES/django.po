@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-22 08:10+0000\n"
+"POT-Creation-Date: 2020-11-12 14:01+0000\n"
 "PO-Revision-Date: 2019-11-06 14:06+0000\n"
 "Last-Translator: Théo Chevalier <theo.chevalier11@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -76,35 +76,35 @@ msgstr "देश"
 msgid "I’m okay with Mozilla handling my info as explained in this <a href='%(url)s'>Privacy Notice</a>."
 msgstr "<a href='%(url)s'>ह्या गोपनियता सुचनेमध्ये</a> सांगितल्या प्रमाणे Mozilla ने माझी माहिती हाताळण्याबाबत माझी हरकत नाही."
 
-#: donate/payments/views.py:157
+#: donate/payments/views.py:159
 msgid "The type of card you used is not accepted."
 msgstr "आपण वापरलेला कार्डचा प्रकार स्वीकारला जात नाही."
 
-#: donate/payments/views.py:158 donate/payments/views.py:159
+#: donate/payments/views.py:160 donate/payments/views.py:161
 msgid "The CVV code you entered was invalid."
 msgstr "आपण प्रविष्ट केलेला CVV कोड अवैध होता."
 
-#: donate/payments/views.py:160
+#: donate/payments/views.py:162
 msgid "The expiration date you entered was invalid."
 msgstr "आपण प्रविष्ट केलेली कालबाह्यता तारीख अवैध होती."
 
-#: donate/payments/views.py:161
+#: donate/payments/views.py:163
 msgid "The credit card number you entered was invalid."
 msgstr "आपण प्रविष्ट केलेला क्रेडिट कार्ड क्रमांक अवैध होता."
 
-#: donate/payments/views.py:170 donate/payments/views.py:171
+#: donate/payments/views.py:172 donate/payments/views.py:173
 msgid "The post code you provided is not valid."
 msgstr "आपण प्रदान केलेला पोस्ट कोड वैध नाही."
 
-#: donate/payments/views.py:185
+#: donate/payments/views.py:187
 msgid "Sorry there was an error processing your payment. Please try again later or use a different payment method."
 msgstr "क्षमस्व, आपल्या देयकावर प्रक्रिया करताना त्रुटी आली. कृपया नंतर पुन्हा प्रयत्न करा किंवा भिन्न देय पद्धत वापरा."
 
-#: donate/payments/views.py:379
+#: donate/payments/views.py:381
 msgid "Something went wrong. We were unable to process your payment."
 msgstr "काहीतरी चूक झाली. आम्ही आपल्या देयकावर प्रक्रिया करू शकत नाही."
 
-#: donate/payments/views.py:631 donate/payments/views.py:740
+#: donate/payments/views.py:633 donate/payments/views.py:742
 msgid "Sorry there was an error processing your payment. Please try again later."
 msgstr "क्षमस्व, आपल्या देयकावर प्रक्रिया करताना त्रुटी आली. कृपया पुन्हा प्रयत्न करा."
 
@@ -861,6 +861,10 @@ msgstr "आम्हास आपण Mozilla चे नेहमीचे सम
 #: donate/thunderbird/templates/payment/card_upsell.html:10
 #, python-format
 msgid "I authorize MZLA Technologies Corporation to automatically charge my card every month in the amount indicated above, starting next month on the same date as today, and continuing each month afterwards until I cancel. I understand that I must cancel at least 5 days before the next scheduled donation by <a href=\"%(help_url)s\">submitting this form</a>, and that I may only request a refund within 15 days from the date of a donation."
+msgstr ""
+
+#: donate/thunderbird/templates/payment/newsletter_signup.html:8
+msgid "We’re working hard to protect your inbox. Sign up to receive email messages concerning Thunderbird, including updates and requests for feedback."
 msgstr ""
 
 #: donate/thunderbird/templates/payment/thank_you.html:6
