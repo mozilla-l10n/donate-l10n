@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-12 14:01+0000\n"
-"PO-Revision-Date: 2020-11-12 16:59+0000\n"
+"PO-Revision-Date: 2020-11-14 19:44+0000\n"
 "Last-Translator: Itiel <itiel_yn8@walla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: he\n"
@@ -589,7 +589,7 @@ msgstr "תרומה של <span class=\"%(span_class)s\">%(formatted_amount)s</spa
 
 #: donate/templates/payment/card_master.html:155
 msgid "Your donation helps keep the Web open and free. Thank you in advance for your gift."
-msgstr ""
+msgstr "התרומה שלך מסייעת לשמור על הרשת פתוחה וחינמית. אנו מודים לך מראש על המתנה שלך."
 
 #: donate/templates/payment/card_upsell_master.html:4 donate/templates/payment/paypal_upsell_master.html:4 donate/templates/payment/thank_you_master.html:4
 msgid "Thank you"
