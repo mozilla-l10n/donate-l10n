@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-12 14:01+0000\n"
+"POT-Creation-Date: 2020-11-16 17:48+0000\n"
 "PO-Revision-Date: 2020-09-11 12:01+0000\n"
 "Last-Translator: dskmori <ghoti.fish.dsk@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -71,7 +71,7 @@ msgstr "郵便番号"
 msgid "Country"
 msgstr "国"
 
-#: donate/payments/forms.py:131 donate/templates/pages/base_page_master.html:87
+#: donate/payments/forms.py:131 donate/templates/pages/base_page_master.html:92
 #, python-format
 msgid "I’m okay with Mozilla handling my info as explained in this <a href='%(url)s'>Privacy Notice</a>."
 msgstr "Mozilla がこの <a href='%(url)s'>プライバシー通知</a> に従って私の個人情報を扱うことに同意します。"
@@ -129,9 +129,9 @@ msgid "Go to our home page"
 msgstr "ホームページへ移動する"
 
 #: donate/templates/base_master.html:8
-#: donate/templates/pages/base_page_master.html:6
-#: donate/templates/pages/base_page_master.html:13
-#: donate/templates/pages/base_page_master.html:14
+#: donate/templates/pages/base_page_master.html:8
+#: donate/templates/pages/base_page_master.html:15
+#: donate/templates/pages/base_page_master.html:16
 msgctxt "Page title"
 msgid "Donate to Mozilla"
 msgstr "Mozilla へ寄付"
@@ -164,7 +164,7 @@ msgstr "安全"
 
 #: donate/templates/fragments/donate_form.html:60
 #: donate/templates/fragments/donate_form.html:124
-#: donate/templates/pages/base_page_master.html:134
+#: donate/templates/pages/base_page_master.html:139
 msgid "Donate"
 msgstr "寄付"
 
@@ -201,89 +201,93 @@ msgstr "あなたの寄付は 501(c)(3) に該当する非営利法人であり�
 msgid "Language"
 msgstr "言語"
 
-#: donate/templates/pages/base_page_master.html:26
-msgid "Initiatives"
-msgstr "取り組み"
+#: donate/templates/pages/base_page_master.html:28
+msgid "Who we are"
+msgstr ""
 
-#: donate/templates/pages/base_page_master.html:29
-msgid "Participate"
-msgstr "参加するには"
+#: donate/templates/pages/base_page_master.html:31
+msgid "What we do"
+msgstr ""
 
-#: donate/templates/pages/base_page_master.html:32
-msgid "Internet Health"
-msgstr "インターネットの健全性"
+#: donate/templates/pages/base_page_master.html:34
+msgid "What we fund"
+msgstr ""
 
-#: donate/templates/pages/base_page_master.html:35
-msgid "About Us"
-msgstr "Mozilla について"
+#: donate/templates/pages/base_page_master.html:37
+msgid "What you can do"
+msgstr ""
 
-#: donate/templates/pages/base_page_master.html:46
+#: donate/templates/pages/base_page_master.html:40
+msgid "Blog"
+msgstr ""
+
+#: donate/templates/pages/base_page_master.html:51
 msgid "Menu"
 msgstr "メニュー"
 
-#: donate/templates/pages/base_page_master.html:71
+#: donate/templates/pages/base_page_master.html:76
 msgid "Protect the internet as a global public resource"
 msgstr "グローバルな公共リソースとしてインターネットを保護する"
 
-#: donate/templates/pages/base_page_master.html:79
+#: donate/templates/pages/base_page_master.html:84
 msgid "Join our email list to take action and stay updated!"
 msgstr "メーリングリストに参加して行動を起こし、最新情報を入手してください！"
 
-#: donate/templates/pages/base_page_master.html:80
+#: donate/templates/pages/base_page_master.html:85
 msgid "Enter email address"
 msgstr "メールアドレスを入力してください"
 
-#: donate/templates/pages/base_page_master.html:83
+#: donate/templates/pages/base_page_master.html:88
 msgid "Sign up"
 msgstr "登録"
 
-#: donate/templates/pages/base_page_master.html:91
+#: donate/templates/pages/base_page_master.html:96
 msgid "Thanks!"
 msgstr "ありがとうございます!"
 
-#: donate/templates/pages/base_page_master.html:92
+#: donate/templates/pages/base_page_master.html:97
 msgid "If you haven’t previously confirmed a subscription to a Mozilla-related newsletter you may have to do so. Please check your inbox or your spam filter for an email from us."
 msgstr "これまでに Mozilla 関連のニュースレターを購読したことがない場合、購読開始の確認が必要となります。お送りした確認メールを受信トレイもしくは迷惑メールフィルタから探してください。"
 
-#: donate/templates/pages/base_page_master.html:107
+#: donate/templates/pages/base_page_master.html:112
 msgid "More about us"
 msgstr "私たちについて"
 
-#: donate/templates/pages/base_page_master.html:111
+#: donate/templates/pages/base_page_master.html:116
 #: donate/templates/payment/thank_you_master.html:38
-#: donate/thunderbird/templates/pages/base_page.html:36
+#: donate/thunderbird/templates/pages/base_page.html:38
 #: donate/thunderbird/templates/payment/thank_you.html:27
 msgid "Twitter"
 msgstr "Twitter"
 
-#: donate/templates/pages/base_page_master.html:117
+#: donate/templates/pages/base_page_master.html:122
 msgid "Instagram"
 msgstr "Instagram"
 
-#: donate/templates/pages/base_page_master.html:123
+#: donate/templates/pages/base_page_master.html:128
 msgid "GitHub"
 msgstr "GitHub"
 
-#: donate/templates/pages/base_page_master.html:137
-#: donate/thunderbird/templates/pages/base_page.html:59
+#: donate/templates/pages/base_page_master.html:142
+#: donate/thunderbird/templates/pages/base_page.html:61
 msgid "Participation Guidelines"
 msgstr "参加ガイドライン"
 
-#: donate/templates/pages/base_page_master.html:140
-#: donate/thunderbird/templates/pages/base_page.html:51
+#: donate/templates/pages/base_page_master.html:145
+#: donate/thunderbird/templates/pages/base_page.html:53
 msgid "Legal"
 msgstr "法的情報"
 
-#: donate/templates/pages/base_page_master.html:143
-#: donate/thunderbird/templates/pages/base_page.html:54
+#: donate/templates/pages/base_page_master.html:148
+#: donate/thunderbird/templates/pages/base_page.html:56
 msgid "Privacy"
 msgstr "プライバシー"
 
-#: donate/templates/pages/base_page_master.html:146
+#: donate/templates/pages/base_page_master.html:151
 msgid "License"
 msgstr "ライセンス"
 
-#: donate/templates/pages/base_page_master.html:167
+#: donate/templates/pages/base_page_master.html:172
 #, python-format
 msgid "Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a %(link_attributes)s>%(site_url)s</a>."
 msgstr ""
@@ -719,7 +723,7 @@ msgid "Share on Facebook"
 msgstr "Facebook で共有"
 
 #: donate/templates/payment/thank_you_master.html:31
-#: donate/thunderbird/templates/pages/base_page.html:42
+#: donate/thunderbird/templates/pages/base_page.html:44
 #: donate/thunderbird/templates/payment/thank_you.html:20
 msgid "Facebook"
 msgstr "Facebook"
@@ -751,9 +755,9 @@ msgid "Back"
 msgstr "戻る"
 
 #: donate/thunderbird/templates/base.html:9
-#: donate/thunderbird/templates/pages/base_page.html:7
-#: donate/thunderbird/templates/pages/base_page.html:14
-#: donate/thunderbird/templates/pages/base_page.html:15
+#: donate/thunderbird/templates/pages/base_page.html:9
+#: donate/thunderbird/templates/pages/base_page.html:16
+#: donate/thunderbird/templates/pages/base_page.html:17
 msgctxt "Page title"
 msgid "Give to Thunderbird"
 msgstr ""
@@ -783,11 +787,11 @@ msgstr "寄付で問題が起こった時は、<a href=\"%(faq_url)s\">FAQ</a> �
 msgid "Contributions go to MZLA Technologies Corporation, a California corporation wholly owned by the Mozilla Foundation. Funds will be reserved for use in the Thunderbird project. Contributions are not tax-deductible as charitable contributions."
 msgstr ""
 
-#: donate/thunderbird/templates/pages/base_page.html:57
+#: donate/thunderbird/templates/pages/base_page.html:59
 msgid "Cookies"
 msgstr "Cookie"
 
-#: donate/thunderbird/templates/pages/base_page.html:69
+#: donate/thunderbird/templates/pages/base_page.html:71
 #, python-format
 msgid "Portions of this content are ©1998–%(current_year)s by individual contributors. Content available under a <a %(link_attributes)s>Creative Commons license</a>"
 msgstr ""
@@ -868,6 +872,18 @@ msgstr ""
 msgctxt "Email subject line"
 msgid "I donated to Thunderbird today"
 msgstr "Thunderbird に寄付しました"
+
+#~ msgid "Initiatives"
+#~ msgstr "取り組み"
+
+#~ msgid "Participate"
+#~ msgstr "参加するには"
+
+#~ msgid "Internet Health"
+#~ msgstr "インターネットの健全性"
+
+#~ msgid "About Us"
+#~ msgstr "Mozilla について"
 
 #~ msgid "Yes"
 #~ msgstr "はい"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-12 14:01+0000\n"
+"POT-Creation-Date: 2020-11-16 17:48+0000\n"
 "PO-Revision-Date: 2020-07-22 12:53+0000\n"
 "Last-Translator: Björn I. <bjorni.svindseth@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -71,7 +71,7 @@ msgstr "Postnummer"
 msgid "Country"
 msgstr "Land"
 
-#: donate/payments/forms.py:131 donate/templates/pages/base_page_master.html:87
+#: donate/payments/forms.py:131 donate/templates/pages/base_page_master.html:92
 #, python-format
 msgid "I’m okay with Mozilla handling my info as explained in this <a href='%(url)s'>Privacy Notice</a>."
 msgstr "Eg godkjenner at Mozilla behandlar mine personlege data som forklart i denne <a href='%(url)s'>personvernmerknaden</a>."
@@ -129,9 +129,9 @@ msgid "Go to our home page"
 msgstr "Gå til heimesida vår"
 
 #: donate/templates/base_master.html:8
-#: donate/templates/pages/base_page_master.html:6
-#: donate/templates/pages/base_page_master.html:13
-#: donate/templates/pages/base_page_master.html:14
+#: donate/templates/pages/base_page_master.html:8
+#: donate/templates/pages/base_page_master.html:15
+#: donate/templates/pages/base_page_master.html:16
 msgctxt "Page title"
 msgid "Donate to Mozilla"
 msgstr "Doner til Mozilla"
@@ -164,7 +164,7 @@ msgstr "SIKKER"
 
 #: donate/templates/fragments/donate_form.html:60
 #: donate/templates/fragments/donate_form.html:124
-#: donate/templates/pages/base_page_master.html:134
+#: donate/templates/pages/base_page_master.html:139
 msgid "Donate"
 msgstr "Doner"
 
@@ -201,89 +201,93 @@ msgstr "Bidrag går til stiftinga Mozilla, ein 501(c)(3) organisation med base i
 msgid "Language"
 msgstr "Språk"
 
-#: donate/templates/pages/base_page_master.html:26
-msgid "Initiatives"
-msgstr "Initiativ"
+#: donate/templates/pages/base_page_master.html:28
+msgid "Who we are"
+msgstr ""
 
-#: donate/templates/pages/base_page_master.html:29
-msgid "Participate"
-msgstr "Delta"
+#: donate/templates/pages/base_page_master.html:31
+msgid "What we do"
+msgstr ""
 
-#: donate/templates/pages/base_page_master.html:32
-msgid "Internet Health"
-msgstr "Internetthelse"
+#: donate/templates/pages/base_page_master.html:34
+msgid "What we fund"
+msgstr ""
 
-#: donate/templates/pages/base_page_master.html:35
-msgid "About Us"
-msgstr "Om oss"
+#: donate/templates/pages/base_page_master.html:37
+msgid "What you can do"
+msgstr ""
 
-#: donate/templates/pages/base_page_master.html:46
+#: donate/templates/pages/base_page_master.html:40
+msgid "Blog"
+msgstr ""
+
+#: donate/templates/pages/base_page_master.html:51
 msgid "Menu"
 msgstr "Meny"
 
-#: donate/templates/pages/base_page_master.html:71
+#: donate/templates/pages/base_page_master.html:76
 msgid "Protect the internet as a global public resource"
 msgstr "Vern om internett som ein global offentleg ressurs"
 
-#: donate/templates/pages/base_page_master.html:79
+#: donate/templates/pages/base_page_master.html:84
 msgid "Join our email list to take action and stay updated!"
 msgstr "Ver med på e-postlista vår for å setje i gang tiltak og halde deg oppdatert!"
 
-#: donate/templates/pages/base_page_master.html:80
+#: donate/templates/pages/base_page_master.html:85
 msgid "Enter email address"
 msgstr "Skriv inn e-postadresse"
 
-#: donate/templates/pages/base_page_master.html:83
+#: donate/templates/pages/base_page_master.html:88
 msgid "Sign up"
 msgstr "Registrer deg"
 
-#: donate/templates/pages/base_page_master.html:91
+#: donate/templates/pages/base_page_master.html:96
 msgid "Thanks!"
 msgstr "Tusen takk!"
 
-#: donate/templates/pages/base_page_master.html:92
+#: donate/templates/pages/base_page_master.html:97
 msgid "If you haven’t previously confirmed a subscription to a Mozilla-related newsletter you may have to do so. Please check your inbox or your spam filter for an email from us."
 msgstr "Om du ikkje tidlegare har stadfesta eit abonnement på eit Mozilla-relatert nyheitsbrev, må du kanskje gjere det no. Sjå etter ein e-post frå oss i innboksen din eller i søppelpostfilteret ditt."
 
-#: donate/templates/pages/base_page_master.html:107
+#: donate/templates/pages/base_page_master.html:112
 msgid "More about us"
 msgstr "Meir om oss"
 
-#: donate/templates/pages/base_page_master.html:111
+#: donate/templates/pages/base_page_master.html:116
 #: donate/templates/payment/thank_you_master.html:38
-#: donate/thunderbird/templates/pages/base_page.html:36
+#: donate/thunderbird/templates/pages/base_page.html:38
 #: donate/thunderbird/templates/payment/thank_you.html:27
 msgid "Twitter"
 msgstr "Twitter"
 
-#: donate/templates/pages/base_page_master.html:117
+#: donate/templates/pages/base_page_master.html:122
 msgid "Instagram"
 msgstr "Instagram"
 
-#: donate/templates/pages/base_page_master.html:123
+#: donate/templates/pages/base_page_master.html:128
 msgid "GitHub"
 msgstr "GitHub"
 
-#: donate/templates/pages/base_page_master.html:137
-#: donate/thunderbird/templates/pages/base_page.html:59
+#: donate/templates/pages/base_page_master.html:142
+#: donate/thunderbird/templates/pages/base_page.html:61
 msgid "Participation Guidelines"
 msgstr "Retningslinjer for deltaking"
 
-#: donate/templates/pages/base_page_master.html:140
-#: donate/thunderbird/templates/pages/base_page.html:51
+#: donate/templates/pages/base_page_master.html:145
+#: donate/thunderbird/templates/pages/base_page.html:53
 msgid "Legal"
 msgstr "Juridisk informasjon"
 
-#: donate/templates/pages/base_page_master.html:143
-#: donate/thunderbird/templates/pages/base_page.html:54
+#: donate/templates/pages/base_page_master.html:148
+#: donate/thunderbird/templates/pages/base_page.html:56
 msgid "Privacy"
 msgstr "Personvern"
 
-#: donate/templates/pages/base_page_master.html:146
+#: donate/templates/pages/base_page_master.html:151
 msgid "License"
 msgstr "Lisens"
 
-#: donate/templates/pages/base_page_master.html:167
+#: donate/templates/pages/base_page_master.html:172
 #, python-format
 msgid "Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a %(link_attributes)s>%(site_url)s</a>."
 msgstr "Mozilla er ein verdensomspennande ideell organisasjon som har som føremål å gje deg kontroll over nettoppleviga di og utforme nettet for framtida til det beste for ålmenta. Besøk oss på <a %(link_attributes)s>%(site_url)s</a>."
@@ -715,7 +719,7 @@ msgid "Share on Facebook"
 msgstr "Del på Facebook"
 
 #: donate/templates/payment/thank_you_master.html:31
-#: donate/thunderbird/templates/pages/base_page.html:42
+#: donate/thunderbird/templates/pages/base_page.html:44
 #: donate/thunderbird/templates/payment/thank_you.html:20
 msgid "Facebook"
 msgstr "Facebook"
@@ -747,9 +751,9 @@ msgid "Back"
 msgstr "Tilbake"
 
 #: donate/thunderbird/templates/base.html:9
-#: donate/thunderbird/templates/pages/base_page.html:7
-#: donate/thunderbird/templates/pages/base_page.html:14
-#: donate/thunderbird/templates/pages/base_page.html:15
+#: donate/thunderbird/templates/pages/base_page.html:9
+#: donate/thunderbird/templates/pages/base_page.html:16
+#: donate/thunderbird/templates/pages/base_page.html:17
 msgctxt "Page title"
 msgid "Give to Thunderbird"
 msgstr "Gi til Thunderbird"
@@ -778,11 +782,11 @@ msgstr "Har du problem med å donere? Besøk <a href=\"%(faq_url)s\">ofte stilte
 msgid "Contributions go to MZLA Technologies Corporation, a California corporation wholly owned by the Mozilla Foundation. Funds will be reserved for use in the Thunderbird project. Contributions are not tax-deductible as charitable contributions."
 msgstr "Bidraga går til MZLA Technologies Corporation, eit selskap i California som er heileigd av Mozilla Foundation. Bidrag vil vere reservert bruk i Thunderbird-prosjektet. Bidrag har ikkje frådragsrett som veldedige bidrag."
 
-#: donate/thunderbird/templates/pages/base_page.html:57
+#: donate/thunderbird/templates/pages/base_page.html:59
 msgid "Cookies"
 msgstr "Infokapslar"
 
-#: donate/thunderbird/templates/pages/base_page.html:69
+#: donate/thunderbird/templates/pages/base_page.html:71
 #, python-format
 msgid "Portions of this content are ©1998–%(current_year)s by individual contributors. Content available under a <a %(link_attributes)s>Creative Commons license</a>"
 msgstr "Delar av dette innhaldet er ©1998–%(current_year)s individuelle bidragsytarar. Innhaldet er tilgjengeleg under ein <a %(link_attributes)s>Creative Commons-lisens</a>"
@@ -863,6 +867,18 @@ msgstr "Eg donerte til @mozthunderbird i dag for å #freetheinbox. Ver med og st
 msgctxt "Email subject line"
 msgid "I donated to Thunderbird today"
 msgstr "Eg donerte til Thunderbird i dag"
+
+#~ msgid "Initiatives"
+#~ msgstr "Initiativ"
+
+#~ msgid "Participate"
+#~ msgstr "Delta"
+
+#~ msgid "Internet Health"
+#~ msgstr "Internetthelse"
+
+#~ msgid "About Us"
+#~ msgstr "Om oss"
 
 #~ msgid "Contributions go towards the Thunderbird project."
 #~ msgstr "Bidraga går mot Thunderbird-prosjektet."
