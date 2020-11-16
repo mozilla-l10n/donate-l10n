@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-12 14:01+0000\n"
+"POT-Creation-Date: 2020-11-16 17:48+0000\n"
 "PO-Revision-Date: 2019-12-09 02:19+0000\n"
 "Last-Translator: Saikeo <kavhanxay@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -71,7 +71,7 @@ msgstr "ລະຫັດໄປສະນີ"
 msgid "Country"
 msgstr "ປະເທດ"
 
-#: donate/payments/forms.py:131 donate/templates/pages/base_page_master.html:87
+#: donate/payments/forms.py:131 donate/templates/pages/base_page_master.html:92
 #, python-format
 msgid "I’m okay with Mozilla handling my info as explained in this <a href='%(url)s'>Privacy Notice</a>."
 msgstr "ຂ້ອຍອະນຸຍາດໃຫ້ Mozilla ຮອງຮັບຂໍ້ມູນຂອງຂ້ອຍຕາມທີ່ໄດ້ຮ່າງໄວ້ຢູ່ໃນ <a href='%(url)s'>ນະໂຍບາຍຄວາມເປັນສ່ວນຕົວ</a>."
@@ -129,9 +129,9 @@ msgid "Go to our home page"
 msgstr "ໄປທີ່ໜ້າທຳອິດຂອງພວກເຮົາ"
 
 #: donate/templates/base_master.html:8
-#: donate/templates/pages/base_page_master.html:6
-#: donate/templates/pages/base_page_master.html:13
-#: donate/templates/pages/base_page_master.html:14
+#: donate/templates/pages/base_page_master.html:8
+#: donate/templates/pages/base_page_master.html:15
+#: donate/templates/pages/base_page_master.html:16
 msgctxt "Page title"
 msgid "Donate to Mozilla"
 msgstr "ບໍລິຈາກໃຫ້ Mozilla"
@@ -164,7 +164,7 @@ msgstr "ປອດໄພ"
 
 #: donate/templates/fragments/donate_form.html:60
 #: donate/templates/fragments/donate_form.html:124
-#: donate/templates/pages/base_page_master.html:134
+#: donate/templates/pages/base_page_master.html:139
 msgid "Donate"
 msgstr "ບໍ​ລິ​ຈາກ"
 
@@ -201,89 +201,93 @@ msgstr ""
 msgid "Language"
 msgstr ""
 
-#: donate/templates/pages/base_page_master.html:26
-msgid "Initiatives"
-msgstr "ການເລີ່ມຕົ້ນ"
-
-#: donate/templates/pages/base_page_master.html:29
-msgid "Participate"
-msgstr "ເຂົ້າຮ່ວມ"
-
-#: donate/templates/pages/base_page_master.html:32
-msgid "Internet Health"
+#: donate/templates/pages/base_page_master.html:28
+msgid "Who we are"
 msgstr ""
 
-#: donate/templates/pages/base_page_master.html:35
-msgid "About Us"
-msgstr "ກ່ຽວກັບພວກເຮົາ"
+#: donate/templates/pages/base_page_master.html:31
+msgid "What we do"
+msgstr ""
 
-#: donate/templates/pages/base_page_master.html:46
+#: donate/templates/pages/base_page_master.html:34
+msgid "What we fund"
+msgstr ""
+
+#: donate/templates/pages/base_page_master.html:37
+msgid "What you can do"
+msgstr ""
+
+#: donate/templates/pages/base_page_master.html:40
+msgid "Blog"
+msgstr ""
+
+#: donate/templates/pages/base_page_master.html:51
 msgid "Menu"
 msgstr "ເມນູ"
 
-#: donate/templates/pages/base_page_master.html:71
+#: donate/templates/pages/base_page_master.html:76
 msgid "Protect the internet as a global public resource"
 msgstr "ປົກປ້ອງອິນເຕີເນັດໃນຖານະທີ່ເປັນຊັບພະຍາກອນສາທາລະນະຂອງຄົນທົ່ວໂລກ"
 
-#: donate/templates/pages/base_page_master.html:79
+#: donate/templates/pages/base_page_master.html:84
 msgid "Join our email list to take action and stay updated!"
 msgstr ""
 
-#: donate/templates/pages/base_page_master.html:80
+#: donate/templates/pages/base_page_master.html:85
 msgid "Enter email address"
 msgstr "ກະລຸນາໃສ່ທີ່ຢູ່ອີເມວ"
 
-#: donate/templates/pages/base_page_master.html:83
+#: donate/templates/pages/base_page_master.html:88
 msgid "Sign up"
 msgstr "ລົງ​ທະ​ບຽນ"
 
-#: donate/templates/pages/base_page_master.html:91
+#: donate/templates/pages/base_page_master.html:96
 msgid "Thanks!"
 msgstr "ຂໍຂອບໃຈ!"
 
-#: donate/templates/pages/base_page_master.html:92
+#: donate/templates/pages/base_page_master.html:97
 msgid "If you haven’t previously confirmed a subscription to a Mozilla-related newsletter you may have to do so. Please check your inbox or your spam filter for an email from us."
 msgstr ""
 
-#: donate/templates/pages/base_page_master.html:107
+#: donate/templates/pages/base_page_master.html:112
 msgid "More about us"
 msgstr "ເພີ່ມເຕີມກ່ຽວກັບພວກເຮົາ"
 
-#: donate/templates/pages/base_page_master.html:111
+#: donate/templates/pages/base_page_master.html:116
 #: donate/templates/payment/thank_you_master.html:38
-#: donate/thunderbird/templates/pages/base_page.html:36
+#: donate/thunderbird/templates/pages/base_page.html:38
 #: donate/thunderbird/templates/payment/thank_you.html:27
 msgid "Twitter"
 msgstr "Twitter"
 
-#: donate/templates/pages/base_page_master.html:117
+#: donate/templates/pages/base_page_master.html:122
 msgid "Instagram"
 msgstr "Instagram"
 
-#: donate/templates/pages/base_page_master.html:123
+#: donate/templates/pages/base_page_master.html:128
 msgid "GitHub"
 msgstr "GitHub"
 
-#: donate/templates/pages/base_page_master.html:137
-#: donate/thunderbird/templates/pages/base_page.html:59
+#: donate/templates/pages/base_page_master.html:142
+#: donate/thunderbird/templates/pages/base_page.html:61
 msgid "Participation Guidelines"
 msgstr "ແນວທາງການເຂົ້າຮ່ວມ"
 
-#: donate/templates/pages/base_page_master.html:140
-#: donate/thunderbird/templates/pages/base_page.html:51
+#: donate/templates/pages/base_page_master.html:145
+#: donate/thunderbird/templates/pages/base_page.html:53
 msgid "Legal"
 msgstr "ຖືກກົດຫມາຍ"
 
-#: donate/templates/pages/base_page_master.html:143
-#: donate/thunderbird/templates/pages/base_page.html:54
+#: donate/templates/pages/base_page_master.html:148
+#: donate/thunderbird/templates/pages/base_page.html:56
 msgid "Privacy"
 msgstr "ຄວາມເປັນສ່ວນຕົວ"
 
-#: donate/templates/pages/base_page_master.html:146
+#: donate/templates/pages/base_page_master.html:151
 msgid "License"
 msgstr "ໃບອະນຸຍາດ"
 
-#: donate/templates/pages/base_page_master.html:167
+#: donate/templates/pages/base_page_master.html:172
 #, python-format
 msgid "Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a %(link_attributes)s>%(site_url)s</a>."
 msgstr ""
@@ -715,7 +719,7 @@ msgid "Share on Facebook"
 msgstr "ແບ່ງປັນໃນ Facebook"
 
 #: donate/templates/payment/thank_you_master.html:31
-#: donate/thunderbird/templates/pages/base_page.html:42
+#: donate/thunderbird/templates/pages/base_page.html:44
 #: donate/thunderbird/templates/payment/thank_you.html:20
 msgid "Facebook"
 msgstr "Facebook"
@@ -747,9 +751,9 @@ msgid "Back"
 msgstr "ກັບຄືນ"
 
 #: donate/thunderbird/templates/base.html:9
-#: donate/thunderbird/templates/pages/base_page.html:7
-#: donate/thunderbird/templates/pages/base_page.html:14
-#: donate/thunderbird/templates/pages/base_page.html:15
+#: donate/thunderbird/templates/pages/base_page.html:9
+#: donate/thunderbird/templates/pages/base_page.html:16
+#: donate/thunderbird/templates/pages/base_page.html:17
 #, fuzzy
 #| msgctxt "Email subject line"
 #| msgid "I donated to Thunderbird today"
@@ -781,11 +785,11 @@ msgstr ""
 msgid "Contributions go to MZLA Technologies Corporation, a California corporation wholly owned by the Mozilla Foundation. Funds will be reserved for use in the Thunderbird project. Contributions are not tax-deductible as charitable contributions."
 msgstr ""
 
-#: donate/thunderbird/templates/pages/base_page.html:57
+#: donate/thunderbird/templates/pages/base_page.html:59
 msgid "Cookies"
 msgstr ""
 
-#: donate/thunderbird/templates/pages/base_page.html:69
+#: donate/thunderbird/templates/pages/base_page.html:71
 #, python-format
 msgid "Portions of this content are ©1998–%(current_year)s by individual contributors. Content available under a <a %(link_attributes)s>Creative Commons license</a>"
 msgstr ""
@@ -869,6 +873,15 @@ msgstr ""
 msgctxt "Email subject line"
 msgid "I donated to Thunderbird today"
 msgstr "ຂ້ອຍໄດ້ບໍລິຈາກໃຫ້ Thunderbird ໃນມື້ນີ້"
+
+#~ msgid "Initiatives"
+#~ msgstr "ການເລີ່ມຕົ້ນ"
+
+#~ msgid "Participate"
+#~ msgstr "ເຂົ້າຮ່ວມ"
+
+#~ msgid "About Us"
+#~ msgstr "ກ່ຽວກັບພວກເຮົາ"
 
 #~ msgid "Donate <span class=\"%(span_class)s\">%(formatted_amount)s per month</span>"
 #~ msgstr "ບໍລິຈາກ <span class=\"%(span_class)s\">%(formatted_amount)s</span>"

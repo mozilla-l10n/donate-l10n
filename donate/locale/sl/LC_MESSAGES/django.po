@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-12 14:01+0000\n"
+"POT-Creation-Date: 2020-11-16 17:48+0000\n"
 "PO-Revision-Date: 2020-07-25 11:56+0000\n"
 "Last-Translator: Matjaž Horvat <matjaz.horvat@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -71,7 +71,7 @@ msgstr "Poštna številka"
 msgid "Country"
 msgstr "Država"
 
-#: donate/payments/forms.py:131 donate/templates/pages/base_page_master.html:87
+#: donate/payments/forms.py:131 donate/templates/pages/base_page_master.html:92
 #, python-format
 msgid "I’m okay with Mozilla handling my info as explained in this <a href='%(url)s'>Privacy Notice</a>."
 msgstr "Strinjam se, da Mozilla obdela te podatke, kot je razloženo v tem <a href='%(url)s'>obvestilu o zasebnosti</a>."
@@ -129,9 +129,9 @@ msgid "Go to our home page"
 msgstr "Obiščite začetno stran"
 
 #: donate/templates/base_master.html:8
-#: donate/templates/pages/base_page_master.html:6
-#: donate/templates/pages/base_page_master.html:13
-#: donate/templates/pages/base_page_master.html:14
+#: donate/templates/pages/base_page_master.html:8
+#: donate/templates/pages/base_page_master.html:15
+#: donate/templates/pages/base_page_master.html:16
 msgctxt "Page title"
 msgid "Donate to Mozilla"
 msgstr "Donirajte Mozilli"
@@ -164,7 +164,7 @@ msgstr "VARNO"
 
 #: donate/templates/fragments/donate_form.html:60
 #: donate/templates/fragments/donate_form.html:124
-#: donate/templates/pages/base_page_master.html:134
+#: donate/templates/pages/base_page_master.html:139
 msgid "Donate"
 msgstr "Prispevajte"
 
@@ -201,89 +201,93 @@ msgstr "Prispevke prejme ustanova Mozilla Foundation, to je organizacija, kot jo
 msgid "Language"
 msgstr "Jezik"
 
-#: donate/templates/pages/base_page_master.html:26
-msgid "Initiatives"
-msgstr "Pobude"
+#: donate/templates/pages/base_page_master.html:28
+msgid "Who we are"
+msgstr ""
 
-#: donate/templates/pages/base_page_master.html:29
-msgid "Participate"
-msgstr "Sodelujte"
+#: donate/templates/pages/base_page_master.html:31
+msgid "What we do"
+msgstr ""
 
-#: donate/templates/pages/base_page_master.html:32
-msgid "Internet Health"
-msgstr "Zdravje interneta"
+#: donate/templates/pages/base_page_master.html:34
+msgid "What we fund"
+msgstr ""
 
-#: donate/templates/pages/base_page_master.html:35
-msgid "About Us"
-msgstr "O nas"
+#: donate/templates/pages/base_page_master.html:37
+msgid "What you can do"
+msgstr ""
 
-#: donate/templates/pages/base_page_master.html:46
+#: donate/templates/pages/base_page_master.html:40
+msgid "Blog"
+msgstr ""
+
+#: donate/templates/pages/base_page_master.html:51
 msgid "Menu"
 msgstr "Meni"
 
-#: donate/templates/pages/base_page_master.html:71
+#: donate/templates/pages/base_page_master.html:76
 msgid "Protect the internet as a global public resource"
 msgstr "Zaščitite internet kot globalen javni vir"
 
-#: donate/templates/pages/base_page_master.html:79
+#: donate/templates/pages/base_page_master.html:84
 msgid "Join our email list to take action and stay updated!"
 msgstr "Pridružite se e-poštnemu seznamu ter ostanite dejavni in obveščeni!"
 
-#: donate/templates/pages/base_page_master.html:80
+#: donate/templates/pages/base_page_master.html:85
 msgid "Enter email address"
 msgstr "Vnesite e-poštni naslov"
 
-#: donate/templates/pages/base_page_master.html:83
+#: donate/templates/pages/base_page_master.html:88
 msgid "Sign up"
 msgstr "Prijava"
 
-#: donate/templates/pages/base_page_master.html:91
+#: donate/templates/pages/base_page_master.html:96
 msgid "Thanks!"
 msgstr "Hvala!"
 
-#: donate/templates/pages/base_page_master.html:92
+#: donate/templates/pages/base_page_master.html:97
 msgid "If you haven’t previously confirmed a subscription to a Mozilla-related newsletter you may have to do so. Please check your inbox or your spam filter for an email from us."
 msgstr "Če v preteklosti še niste potrdili naročnine na Mozillino okrožnico, boste morda to morali storiti zdaj. Poiščite našo pošto v poštnem predalu ali mapi z neželeno pošto."
 
-#: donate/templates/pages/base_page_master.html:107
+#: donate/templates/pages/base_page_master.html:112
 msgid "More about us"
 msgstr "Več o nas"
 
-#: donate/templates/pages/base_page_master.html:111
+#: donate/templates/pages/base_page_master.html:116
 #: donate/templates/payment/thank_you_master.html:38
-#: donate/thunderbird/templates/pages/base_page.html:36
+#: donate/thunderbird/templates/pages/base_page.html:38
 #: donate/thunderbird/templates/payment/thank_you.html:27
 msgid "Twitter"
 msgstr "Twitter"
 
-#: donate/templates/pages/base_page_master.html:117
+#: donate/templates/pages/base_page_master.html:122
 msgid "Instagram"
 msgstr "Instagram"
 
-#: donate/templates/pages/base_page_master.html:123
+#: donate/templates/pages/base_page_master.html:128
 msgid "GitHub"
 msgstr "GitHub"
 
-#: donate/templates/pages/base_page_master.html:137
-#: donate/thunderbird/templates/pages/base_page.html:59
+#: donate/templates/pages/base_page_master.html:142
+#: donate/thunderbird/templates/pages/base_page.html:61
 msgid "Participation Guidelines"
 msgstr "Smernice za sodelovanje"
 
-#: donate/templates/pages/base_page_master.html:140
-#: donate/thunderbird/templates/pages/base_page.html:51
+#: donate/templates/pages/base_page_master.html:145
+#: donate/thunderbird/templates/pages/base_page.html:53
 msgid "Legal"
 msgstr "Pravno obvestilo"
 
-#: donate/templates/pages/base_page_master.html:143
-#: donate/thunderbird/templates/pages/base_page.html:54
+#: donate/templates/pages/base_page_master.html:148
+#: donate/thunderbird/templates/pages/base_page.html:56
 msgid "Privacy"
 msgstr "Zasebnost"
 
-#: donate/templates/pages/base_page_master.html:146
+#: donate/templates/pages/base_page_master.html:151
 msgid "License"
 msgstr "Licenca"
 
-#: donate/templates/pages/base_page_master.html:167
+#: donate/templates/pages/base_page_master.html:172
 #, python-format
 msgid "Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a %(link_attributes)s>%(site_url)s</a>."
 msgstr "Mozilla je globalna neprofitna organizacija in mar nam je za to, da imaš ti nadzor nad uporabo spleta. Želimo, da si dejaven pri ustvarjanju njegove prihodnosti, ki bo v dobro vseh. Obišči nas na <a %(link_attributes)s>%(site_url)s</a>."
@@ -715,7 +719,7 @@ msgid "Share on Facebook"
 msgstr "Deli na Facebooku"
 
 #: donate/templates/payment/thank_you_master.html:31
-#: donate/thunderbird/templates/pages/base_page.html:42
+#: donate/thunderbird/templates/pages/base_page.html:44
 #: donate/thunderbird/templates/payment/thank_you.html:20
 msgid "Facebook"
 msgstr "Facebook"
@@ -747,9 +751,9 @@ msgid "Back"
 msgstr "Nazaj"
 
 #: donate/thunderbird/templates/base.html:9
-#: donate/thunderbird/templates/pages/base_page.html:7
-#: donate/thunderbird/templates/pages/base_page.html:14
-#: donate/thunderbird/templates/pages/base_page.html:15
+#: donate/thunderbird/templates/pages/base_page.html:9
+#: donate/thunderbird/templates/pages/base_page.html:16
+#: donate/thunderbird/templates/pages/base_page.html:17
 msgctxt "Page title"
 msgid "Give to Thunderbird"
 msgstr "Danes sem doniral Thunderbirdu"
@@ -778,11 +782,11 @@ msgstr "Imate težave pri izvedbi donacije? Obiščite <a href=\"%(faq_url)s\">s
 msgid "Contributions go to MZLA Technologies Corporation, a California corporation wholly owned by the Mozilla Foundation. Funds will be reserved for use in the Thunderbird project. Contributions are not tax-deductible as charitable contributions."
 msgstr "Prispevke prejme MZLA Technologies Corporation, kalifornijska družba v stoodstotni lasti Fundacije Mozilla. Sredstva bodo rezervirana za projekt Thunderbird. Prispevki niso oproščeni plačila davka kot dobrodelni prispevki."
 
-#: donate/thunderbird/templates/pages/base_page.html:57
+#: donate/thunderbird/templates/pages/base_page.html:59
 msgid "Cookies"
 msgstr "Piškotki"
 
-#: donate/thunderbird/templates/pages/base_page.html:69
+#: donate/thunderbird/templates/pages/base_page.html:71
 #, python-format
 msgid "Portions of this content are ©1998–%(current_year)s by individual contributors. Content available under a <a %(link_attributes)s>Creative Commons license</a>"
 msgstr "Deli vsebine so avtorsko zaščiteni ©1998–%(current_year)s s strani posameznih sodelavcev. Vsebina je na voljo pod dovoljenjem <a %(link_attributes)s>Creative Commons</a>"
@@ -863,6 +867,18 @@ msgstr "Danes sem doniral @mozthunderbird za #freetheinbox. Pridruži se mi in p
 msgctxt "Email subject line"
 msgid "I donated to Thunderbird today"
 msgstr "Danes sem doniral Thunderbirdu"
+
+#~ msgid "Initiatives"
+#~ msgstr "Pobude"
+
+#~ msgid "Participate"
+#~ msgstr "Sodelujte"
+
+#~ msgid "Internet Health"
+#~ msgstr "Zdravje interneta"
+
+#~ msgid "About Us"
+#~ msgstr "O nas"
 
 #~ msgid "Donate <span class=\"%(span_class)s\">%(formatted_amount)s per month</span>"
 #~ msgstr "Prispevajte <span class=\"%(span_class)s\">%(formatted_amount)s</span>"
