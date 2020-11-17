@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-16 17:48+0000\n"
-"PO-Revision-Date: 2020-11-17 02:16+0000\n"
+"PO-Revision-Date: 2020-11-17 02:27+0000\n"
 "Last-Translator: 你我皆凡人 <eloli@foxmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -195,19 +195,19 @@ msgstr "语言"
 
 #: donate/templates/pages/base_page_master.html:28
 msgid "Who we are"
-msgstr ""
+msgstr "我们是谁"
 
 #: donate/templates/pages/base_page_master.html:31
 msgid "What we do"
-msgstr ""
+msgstr "我们做什么"
 
 #: donate/templates/pages/base_page_master.html:34
 msgid "What we fund"
-msgstr ""
+msgstr "我们资助哪些"
 
 #: donate/templates/pages/base_page_master.html:37
 msgid "What you can do"
-msgstr ""
+msgstr "您可以做什么"
 
 #: donate/templates/pages/base_page_master.html:40
 msgid "Blog"
