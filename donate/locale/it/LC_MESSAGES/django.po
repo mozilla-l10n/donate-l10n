@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-16 17:48+0000\n"
-"PO-Revision-Date: 2020-11-17 09:04+0000\n"
-"Last-Translator: Michele Rodaro <michele.rodaro@mozillaitalia.org>\n"
+"PO-Revision-Date: 2020-11-17 13:38+0000\n"
+"Last-Translator: Sara Todaro <sara.todaro@mozillaitalia.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -214,7 +214,7 @@ msgstr "Che cosa finanziamo"
 
 #: donate/templates/pages/base_page_master.html:37
 msgid "What you can do"
-msgstr ""
+msgstr "Che cosa puoi fare tu"
 
 #: donate/templates/pages/base_page_master.html:40
 msgid "Blog"
