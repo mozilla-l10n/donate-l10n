@@ -2,13 +2,13 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-16 17:48+0000\n"
+"POT-Creation-Date: 2020-11-18 08:12+0000\n"
 "PO-Revision-Date: 2020-11-17 14:31+0000\n"
 "Last-Translator: Grk <gurkan_gullu@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -36,7 +36,8 @@ msgstr "Geçerli bir e-posta adresi yazın."
 msgid "Donations must be %(amount)s or more"
 msgstr "Bağışlar en az %(amount)s olabilir"
 
-#: donate/payments/forms.py:52 donate/payments/forms.py:66 donate/payments/forms.py:113
+#: donate/payments/forms.py:52 donate/payments/forms.py:66
+#: donate/payments/forms.py:113
 msgid "Amount"
 msgstr "Tutar"
 
@@ -48,7 +49,8 @@ msgstr "Ad"
 msgid "Last name"
 msgstr "Soyadı"
 
-#: donate/payments/forms.py:81 donate/payments/forms.py:123 donate/templates/pages/core/contributor_support_page_master.html:45
+#: donate/payments/forms.py:81 donate/payments/forms.py:123
+#: donate/templates/pages/core/contributor_support_page_master.html:45
 msgid "Email"
 msgstr "E-posta"
 
@@ -126,7 +128,10 @@ msgstr "Üzgünüz, sayfa bulunamadı"
 msgid "Go to our home page"
 msgstr "Ana sayfamıza gidin"
 
-#: donate/templates/base_master.html:8 donate/templates/pages/base_page_master.html:8 donate/templates/pages/base_page_master.html:15 donate/templates/pages/base_page_master.html:16
+#: donate/templates/base_master.html:8
+#: donate/templates/pages/base_page_master.html:8
+#: donate/templates/pages/base_page_master.html:15
+#: donate/templates/pages/base_page_master.html:16
 msgctxt "Page title"
 msgid "Donate to Mozilla"
 msgstr "Mozilla’ya bağış yapın"
@@ -139,19 +144,27 @@ msgstr "BİR KEZ"
 msgid "MONTHLY"
 msgstr "HER AY"
 
-#: donate/templates/fragments/donate_form.html:41 donate/templates/fragments/donate_form.html:42 donate/templates/fragments/donate_form.html:105 donate/templates/fragments/donate_form.html:106
+#: donate/templates/fragments/donate_form.html:41
+#: donate/templates/fragments/donate_form.html:42
+#: donate/templates/fragments/donate_form.html:105
+#: donate/templates/fragments/donate_form.html:106
 msgid "Other amount"
 msgstr "Başka bir miktar"
 
-#: donate/templates/fragments/donate_form.html:48 donate/templates/fragments/donate_form.html:112
+#: donate/templates/fragments/donate_form.html:48
+#: donate/templates/fragments/donate_form.html:112
 msgid "Choose Payment"
 msgstr "Ödeme yöntemini seçin"
 
-#: donate/templates/fragments/donate_form.html:54 donate/templates/fragments/donate_form.html:118 donate/templates/payment/card_master.html:97
+#: donate/templates/fragments/donate_form.html:54
+#: donate/templates/fragments/donate_form.html:118
+#: donate/templates/payment/card_master.html:97
 msgid "SECURE"
 msgstr "GÜVENLİ"
 
-#: donate/templates/fragments/donate_form.html:60 donate/templates/fragments/donate_form.html:124 donate/templates/pages/base_page_master.html:139
+#: donate/templates/fragments/donate_form.html:60
+#: donate/templates/fragments/donate_form.html:124
+#: donate/templates/pages/base_page_master.html:139
 msgid "Donate"
 msgstr "Bağış Yap"
 
@@ -161,12 +174,8 @@ msgstr "her ay"
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:6
 #, python-format
-msgid ""
-"Mozilla is committed to your privacy; please read our <a href=\"%(privacy_url)s\">privacy policy here</a>. Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a "
-"PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Mozilla."
-msgstr ""
-"Mozilla için gizliliğiniz önemlidir. Lütfen <a href=\"%(privacy_url)s\">gizlilik ilkelerimizi</a> okuyun. Ödeme bilgileriniz PayPal şirketi olan <a href=\"%(braintree_url)s\">Braintree</a> "
-"(kredi/banka kartları için) veya <a href=\"%(paypal_url)s\">PayPal</a> tarafından işlenecektir ve bağışınızın kaydı Mozilla tarafından saklanacaktır."
+msgid "Mozilla is committed to your privacy; please read our <a href=\"%(privacy_url)s\">privacy policy here</a>. Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Mozilla."
+msgstr "Mozilla için gizliliğiniz önemlidir. Lütfen <a href=\"%(privacy_url)s\">gizlilik ilkelerimizi</a> okuyun. Ödeme bilgileriniz PayPal şirketi olan <a href=\"%(braintree_url)s\">Braintree</a> (kredi/banka kartları için) veya <a href=\"%(paypal_url)s\">PayPal</a> tarafından işlenecektir ve bağışınızın kaydı Mozilla tarafından saklanacaktır."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:9
 #, python-format
@@ -184,14 +193,11 @@ msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers 
 msgstr "Bağış yapmayla ilgili sorularınız mı var? Sık sorulan sorular için <a href=\"%(faq_url)s\">SSS</a>'ye bakabilirsiniz. Başka bir sorunuz var mı? <a href=\"mailto:%(email)s\">Bize e-posta gönderin</a>."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:30
-msgid ""
-"Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in Mountain View, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S."
-" to the fullest extent permitted by law."
-msgstr ""
-"Bağışlarınız, ABD’nin California eyaletindeki Mountain View merkezli bir 501(c)(3) kuruluşu olan Mozilla Foundation’a gider. Mozilla Foundation bu bağışları uygun gördüğü şekilde, hayır amacıyla "
-"kullanır. Yasalar tarafından izin verilen en geniş ölçüde ABD’de vergiden düşülebilirler."
+msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in Mountain View, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
+msgstr "Bağışlarınız, ABD’nin California eyaletindeki Mountain View merkezli bir 501(c)(3) kuruluşu olan Mozilla Foundation’a gider. Mozilla Foundation bu bağışları uygun gördüğü şekilde, hayır amacıyla kullanır. Yasalar tarafından izin verilen en geniş ölçüde ABD’de vergiden düşülebilirler."
 
-#: donate/templates/fragments/language_switcher.html:10 donate/templates/pages/core/contributor_support_page_master.html:50
+#: donate/templates/fragments/language_switcher.html:10
+#: donate/templates/pages/core/contributor_support_page_master.html:50
 msgid "Language"
 msgstr "Dil"
 
@@ -247,7 +253,9 @@ msgstr "Daha önce bir Mozilla bültenine abone olmadıysanız aboneliğinizi on
 msgid "More about us"
 msgstr "Hakkımızda"
 
-#: donate/templates/pages/base_page_master.html:116 donate/templates/payment/thank_you_master.html:38 donate/thunderbird/templates/pages/base_page.html:38
+#: donate/templates/pages/base_page_master.html:116
+#: donate/templates/payment/thank_you_master.html:38
+#: donate/thunderbird/templates/pages/base_page.html:38
 #: donate/thunderbird/templates/payment/thank_you.html:27
 msgid "Twitter"
 msgstr "Twitter"
@@ -260,15 +268,18 @@ msgstr "Instagram"
 msgid "GitHub"
 msgstr "GitHub"
 
-#: donate/templates/pages/base_page_master.html:142 donate/thunderbird/templates/pages/base_page.html:61
+#: donate/templates/pages/base_page_master.html:142
+#: donate/thunderbird/templates/pages/base_page.html:61
 msgid "Participation Guidelines"
 msgstr "Katılım Kuralları"
 
-#: donate/templates/pages/base_page_master.html:145 donate/thunderbird/templates/pages/base_page.html:53
+#: donate/templates/pages/base_page_master.html:145
+#: donate/thunderbird/templates/pages/base_page.html:53
 msgid "Legal"
 msgstr "Yasal Bilgiler"
 
-#: donate/templates/pages/base_page_master.html:148 donate/thunderbird/templates/pages/base_page.html:56
+#: donate/templates/pages/base_page_master.html:148
+#: donate/thunderbird/templates/pages/base_page.html:56
 msgid "Privacy"
 msgstr "Gizlilik"
 
@@ -278,27 +289,28 @@ msgstr "Lisans"
 
 #: donate/templates/pages/base_page_master.html:172
 #, python-format
-msgid ""
-"Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a "
-"%(link_attributes)s>%(site_url)s</a>."
-msgstr ""
-"Mozilla, sizi internet deneyiminizin merkezine koyan ve herkesin iyiliği için web’in geleceğini şekillendirmeyi amaçlayan, kâr amacı gütmeyen, küresel bir kuruluştur. Bizi <a "
-"%(link_attributes)s>%(site_url)s</a> adresinde bulabilirsiniz."
+msgid "Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a %(link_attributes)s>%(site_url)s</a>."
+msgstr "Mozilla, sizi internet deneyiminizin merkezine koyan ve herkesin iyiliği için web’in geleceğini şekillendirmeyi amaçlayan, kâr amacı gütmeyen, küresel bir kuruluştur. Bizi <a %(link_attributes)s>%(site_url)s</a> adresinde bulabilirsiniz."
 
-#: donate/templates/pages/core/campaign_page.html:38 donate/templates/pages/core/ways_to_give_page_master.html:12
+#: donate/templates/pages/core/campaign_page.html:43
+#: donate/templates/pages/core/ways_to_give_page_master.html:12
 msgctxt "Button"
 msgid "DONATE NOW"
 msgstr "ŞİMDİ BAĞIŞ YAP"
 
-#: donate/templates/pages/core/campaign_page.html:52 donate/templates/pages/core/landing_page_master.html:36 donate/templates/payment/card_master.html:159
+#: donate/templates/pages/core/campaign_page.html:57
+#: donate/templates/pages/core/landing_page_master.html:36
+#: donate/templates/payment/card_master.html:159
 msgid "Seal of Charity Navigator 4-Star"
 msgstr "Charity Navigator 4-Star damgası"
 
-#: donate/templates/pages/core/campaign_page.html:55 donate/templates/pages/core/landing_page_master.html:39 donate/templates/payment/card_master.html:162
+#: donate/templates/pages/core/campaign_page.html:60
+#: donate/templates/pages/core/landing_page_master.html:39
+#: donate/templates/payment/card_master.html:162
 msgid "Seal of GuideStar Gold 2019"
 msgstr "GuideStar Gold 2019 damgası"
 
-#: donate/templates/pages/core/campaign_page.html:65
+#: donate/templates/pages/core/campaign_page.html:70
 msgctxt "Header"
 msgid "Donate now"
 msgstr "Şimdi bağış yapın"
@@ -370,7 +382,8 @@ msgstr "Mozilla, gönderilen bilgilerinizi yalnızca talebiniz hakkında sizinle
 msgid "Submit"
 msgstr "Gönder"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:4 donate/templates/pages/core/ways_to_give_page_master.html:11
+#: donate/templates/pages/core/ways_to_give_page_master.html:4
+#: donate/templates/pages/core/ways_to_give_page_master.html:11
 msgid "Ways to Give"
 msgstr "Bağış Yapma Yolları"
 
@@ -383,7 +396,8 @@ msgstr "Kredi/banka kartı ve PayPal"
 msgid "<a href=\"%(ways_to_give_link)s\">Go to this link</a> to make a secure online donation right now."
 msgstr "Güvenli bir şekilde çevrimiçi bağış yapmak için <a href=\"%(ways_to_give_link)s\">buraya tıklayın</a>."
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:23 donate/thunderbird/templates/pages/core/ways_to_give_page.html:7
+#: donate/templates/pages/core/ways_to_give_page_master.html:23
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:7
 msgid "Bank Transfer / SEPA"
 msgstr "Banka transferi / SEPA"
 
@@ -392,132 +406,147 @@ msgid "We accept donations in Euros through Single European Payment Area (SEPA) 
 msgstr "SEPA transferi yoluyla Euro bağışlarınızı ve BACS transferi yoluyla İngiliz sterlini bağışlarınızı kabul edebiliyoruz."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:26
-msgid ""
-"Note that for smaller (under 10 EUR or equivalent) donations, <strong>and especially for donations under 5 EUR or equivalent</strong>, we request that you donate via credit card or PayPal to help "
-"reduce Mozilla’s processing fees."
+msgid "Note that for smaller (under 10 EUR or equivalent) donations, <strong>and especially for donations under 5 EUR or equivalent</strong>, we request that you donate via credit card or PayPal to help reduce Mozilla’s processing fees."
 msgstr ""
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:30
+#: donate/templates/pages/core/ways_to_give_page_master.html:31
+#, python-format
+msgid "Please also note that the Mozilla Foundation cannot accept SEPA or BACS transfers for MZLA/Thunderbird. To contribute to MZLA/Thunderbird via SEPA or BACS transfer, please follow <a href=\"%(instruction_url)s\">these instructions</a>."
+msgstr ""
+
+#: donate/templates/pages/core/ways_to_give_page_master.html:35
 msgid "Please remember that donations are deductible for U.S. income tax purposes only."
 msgstr "Bağışların yalnızca ABD gelir vergisi kapsamında vergiden düşülebileceğini hatırlatırız."
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:32 donate/thunderbird/templates/pages/core/ways_to_give_page.html:15
+#: donate/templates/pages/core/ways_to_give_page_master.html:37
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:15
 #, python-format
 msgid "If your bank requests our physical address, it is %(address)s."
 msgstr "Bankanız fiziksel adresimizi soracak olursa, adresimiz %(address)s."
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:38 donate/thunderbird/templates/pages/core/ways_to_give_page.html:22
+#: donate/templates/pages/core/ways_to_give_page_master.html:43
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:22
 msgid "Euros:"
 msgstr "Avro:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:40 donate/templates/pages/core/ways_to_give_page_master.html:53 donate/thunderbird/templates/pages/core/ways_to_give_page.html:24
+#: donate/templates/pages/core/ways_to_give_page_master.html:45
+#: donate/templates/pages/core/ways_to_give_page_master.html:58
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:24
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:37
 msgid "Account Currency:"
 msgstr "Hesap para birimi:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:40 donate/thunderbird/templates/pages/core/ways_to_give_page.html:24
+#: donate/templates/pages/core/ways_to_give_page_master.html:45
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:24
 msgid "Euro (EUR)"
 msgstr "Avro (EUR)"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:41 donate/templates/pages/core/ways_to_give_page_master.html:54 donate/thunderbird/templates/pages/core/ways_to_give_page.html:25
+#: donate/templates/pages/core/ways_to_give_page_master.html:46
+#: donate/templates/pages/core/ways_to_give_page_master.html:59
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:25
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:38
 msgid "Receiving Bank (Pay to):"
 msgstr "Alıcı Banka:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:42 donate/templates/pages/core/ways_to_give_page_master.html:55 donate/thunderbird/templates/pages/core/ways_to_give_page.html:26
+#: donate/templates/pages/core/ways_to_give_page_master.html:47
+#: donate/templates/pages/core/ways_to_give_page_master.html:60
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:26
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:39
 msgid "City & Country/Region:"
 msgstr "Şehir ve Ülke/Bölge:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:42 donate/thunderbird/templates/pages/core/ways_to_give_page.html:26
+#: donate/templates/pages/core/ways_to_give_page_master.html:47
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:26
 msgid "Frankfurt, Germany"
 msgstr "Frankfurt, Almanya"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:43 donate/templates/pages/core/ways_to_give_page_master.html:61 donate/thunderbird/templates/pages/core/ways_to_give_page.html:27
+#: donate/templates/pages/core/ways_to_give_page_master.html:48
+#: donate/templates/pages/core/ways_to_give_page_master.html:66
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:27
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:45
 msgid "SWIFT/BIC Code:"
 msgstr "SWIFT/BIC kodu:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:44 donate/templates/pages/core/ways_to_give_page_master.html:58 donate/thunderbird/templates/pages/core/ways_to_give_page.html:28
+#: donate/templates/pages/core/ways_to_give_page_master.html:49
+#: donate/templates/pages/core/ways_to_give_page_master.html:63
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:28
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:42
 msgid "Beneficiary Name (For credit to):"
 msgstr "Lehdar Adı (alıcı):"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:45 donate/templates/pages/core/ways_to_give_page_master.html:62 donate/thunderbird/templates/pages/core/ways_to_give_page.html:29
+#: donate/templates/pages/core/ways_to_give_page_master.html:50
+#: donate/templates/pages/core/ways_to_give_page_master.html:67
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:29
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:46
 msgid "IBAN:"
 msgstr "IBAN:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:51 donate/thunderbird/templates/pages/core/ways_to_give_page.html:35
+#: donate/templates/pages/core/ways_to_give_page_master.html:56
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:35
 msgid "British Pound Sterling:"
 msgstr "İngiliz Sterlini:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:53 donate/thunderbird/templates/pages/core/ways_to_give_page.html:37
+#: donate/templates/pages/core/ways_to_give_page_master.html:58
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:37
 msgid "British Pound Sterling (GBP)"
 msgstr "İngiliz Sterlini (GBP)"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:55 donate/thunderbird/templates/pages/core/ways_to_give_page.html:39
+#: donate/templates/pages/core/ways_to_give_page_master.html:60
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:39
 msgid "London, United Kingdom"
 msgstr "Londra, Birleşik Krallık"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:56 donate/thunderbird/templates/pages/core/ways_to_give_page.html:40
+#: donate/templates/pages/core/ways_to_give_page_master.html:61
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:40
 msgid "Bank Sort Code:"
 msgstr "Banka sort kodu:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:57 donate/thunderbird/templates/pages/core/ways_to_give_page.html:41
+#: donate/templates/pages/core/ways_to_give_page_master.html:62
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:41
 msgid "Account Number (8 digits):"
 msgstr "Hesap Numarası (8 rakamlı):"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:68
+#: donate/templates/pages/core/ways_to_give_page_master.html:73
 msgid "Check (via postal service)"
 msgstr "Çek (posta yoluyla)"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:72 donate/thunderbird/templates/pages/core/ways_to_give_page.html:52
-msgid "UPDATE March 20, 2020:"
+#: donate/templates/pages/core/ways_to_give_page_master.html:77
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:52
+#, fuzzy
+#| msgid "UPDATE March 20, 2020:"
+msgid "UPDATE October 2020:"
 msgstr "GÜNCELLEME 20 Mart 2020:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:73
-msgid ""
-"Please note that due to the “shelter in place” order recently implemented for California, processing and acknowledgment of check donations to the Mozilla Foundation will be indefinitely delayed. "
-"Rather than sending us a check, please consider making an <a href=\"/\">online donation</a> instead."
+#: donate/templates/pages/core/ways_to_give_page_master.html:78
+msgid "The Mozilla Foundation is happy to accept your donation (made payable to “Mozilla Foundation”) via check; however please note that processing and acknowledgment of your gift may be delayed by changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
 msgstr ""
-"Kaliforniya için yakın zamanda uygulanan “yerinde barınak” emri nedeniyle, Mozilla Foundation'a yapılan çek bağışlarının işleme koyulmasının ve onaylanmasının süresiz olarak erteleneceğini lütfen "
-"unutmayın. Bize çek göndermek yerine lütfen <a href=\"/\">çevrimiçi bağış</a> yapmayı düşünün."
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:83
+#: donate/templates/pages/core/ways_to_give_page_master.html:95
+msgid "Please include your email address on the memo line of your check to help us track and attribute your gift."
+msgstr ""
+
+#: donate/templates/pages/core/ways_to_give_page_master.html:102
 #, python-format
-msgid "Please send a check <strong>including your email address on the memo line</strong>, and payable (payee) to “%(payee)s”."
+msgid "Please also note that the Mozilla Foundation can <strong>only</strong> accept checks in U.S. dollars drawn on a U.S. bank, and <strong>cannot</strong> accept contributions for MZLA/Thunderbird. (Contributions to MZLA/Thunderbird via check can be made by following <a href=\"%(instruction_url)s\" target=\"_blank\">these instructions</a>.)"
 msgstr ""
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:86
-msgid "Please note that the Mozilla Foundation can only accept checks in US dollars drawn on a US bank. Please do <strong>not</strong> send cash."
-msgstr "Mozilla Foundation'ın sadece bir ABD bankasından tahsil edilebilen ABD doları cinsinden çekleri kabul edebileceğini lütfen unutmayın. Lütfen nakit <strong>göndermeyin</strong>."
-
-#: donate/templates/pages/core/ways_to_give_page_master.html:101
+#: donate/templates/pages/core/ways_to_give_page_master.html:109
 msgid "Currencies"
 msgstr "Para birimleri"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:102
+#: donate/templates/pages/core/ways_to_give_page_master.html:110
 msgid "Select your currency to make a secure online donation:"
 msgstr "Güvenli bir şekilde çevrimiçi bağış yapmak için para biriminizi seçin:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:112
+#: donate/templates/pages/core/ways_to_give_page_master.html:120
 msgid "Bitcoin"
 msgstr "Bitcoin"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:114
-msgid ""
-"The Mozilla Foundation is a California non-profit corporation exempt from United States federal income taxation under IRC 501(c)(3) and a public charity classified under IRC sections 170(b)(1)(A) "
-"and 509(a)(1). Bitcoin donations Mozilla receives are considered charitable contributions under U.S. federal tax laws, to be used in its discretion for its charitable purposes. Because the IRS has "
-"indicated that it will treat bitcoin as property for U.S. tax purposes (see IRS Notice 2014-21), donations of bitcoin may be subject to special rules as to the amount of your charitable deduction, "
-"the documentation that must be provided to claim a tax deduction, or other matters."
-msgstr ""
-"Mozilla Foundation, IRC 501(c)(3)'e göre kâr amacı gütmeyen bir Kaliforniya şirketidir ve IRC bölümleri 170(b)(1)(A) ve 509(a)(1)a'ya göre bir kamusal hayır cemiyetidir. Mozilla'nın aldığı bitcoin "
-"bağışları ABD federal vergi yasalarına göre hayır amacı taşıyan katkılardır ve vakfın uygun gördüğü şekilde hayır işleri için kullanılacaktır. IRS bitcoin para birimini ABD vergi yasalarında bir "
-"mülk olarak değerlendireceğinden (bkz. IRS 2014-21 sayılı duyurusu); söz konusu bitcoin bağışları; hayırlı işe konu olan gelirin vergi muafiyeti, vergi muafiyeti için zorunlu olan belgeler ve diğer "
-"meseleler bağlamında özel kurallara tâbi olabilir."
+#: donate/templates/pages/core/ways_to_give_page_master.html:122
+msgid "The Mozilla Foundation is a California non-profit corporation exempt from United States federal income taxation under IRC 501(c)(3) and a public charity classified under IRC sections 170(b)(1)(A) and 509(a)(1). Bitcoin donations Mozilla receives are considered charitable contributions under U.S. federal tax laws, to be used in its discretion for its charitable purposes. Because the IRS has indicated that it will treat bitcoin as property for U.S. tax purposes (see IRS Notice 2014-21), donations of bitcoin may be subject to special rules as to the amount of your charitable deduction, the documentation that must be provided to claim a tax deduction, or other matters."
+msgstr "Mozilla Foundation, IRC 501(c)(3)'e göre kâr amacı gütmeyen bir Kaliforniya şirketidir ve IRC bölümleri 170(b)(1)(A) ve 509(a)(1)a'ya göre bir kamusal hayır cemiyetidir. Mozilla'nın aldığı bitcoin bağışları ABD federal vergi yasalarına göre hayır amacı taşıyan katkılardır ve vakfın uygun gördüğü şekilde hayır işleri için kullanılacaktır. IRS bitcoin para birimini ABD vergi yasalarında bir mülk olarak değerlendireceğinden (bkz. IRS 2014-21 sayılı duyurusu); söz konusu bitcoin bağışları; hayırlı işe konu olan gelirin vergi muafiyeti, vergi muafiyeti için zorunlu olan belgeler ve diğer meseleler bağlamında özel kurallara tâbi olabilir."
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:119
+#: donate/templates/pages/core/ways_to_give_page_master.html:127
 #, python-format
 msgid "Learn more about bitcoin donations <a href=\"%(bitcoin_wiki)s\">here</a>. To donate bitcoin, <a href=\"%(bitcoin_donate)s\">please visit this link.</a>"
 msgstr "Bitcoin bağışları hakkında daha fazla bilgiyi <a href=\"%(bitcoin_wiki)s\">buradan</a> alabilirsiniz. Bitcoin bağışlamak için <a href=\"%(bitcoin_donate)s\">lütfen bu bağlantıyı ziyaret edin</a>."
@@ -552,7 +581,9 @@ msgstr "Onaylayın"
 msgid "Your Details"
 msgstr "Bilgileriniz"
 
-#: donate/templates/payment/card_master.html:60 donate/templates/payment/card_upsell_master.html:34 donate/templates/payment/newsletter_signup_master.html:30
+#: donate/templates/payment/card_master.html:60
+#: donate/templates/payment/card_upsell_master.html:34
+#: donate/templates/payment/newsletter_signup_master.html:30
 #: donate/templates/payment/paypal_upsell_master.html:34
 msgid "There were some errors with your form. Please amend the fields highlighted below."
 msgstr "Formunuzda bazı hatalar vardı. Lütfen aşağıda işaretlenen alanları düzeltin."
@@ -583,13 +614,8 @@ msgstr "CVV"
 
 #: donate/templates/payment/card_master.html:126
 #, python-format
-msgid ""
-"I authorize Mozilla Foundation to automatically charge my card every month in the amount indicated above, starting today and continuing each month on the same day, until I cancel. I understand that "
-"I must cancel at least 5 days before the next scheduled donation by email to <a href='mailto:%(email)s'>%(email)s</a>, and that I may only request a refund within 15 days from the date of a "
-"donation."
-msgstr ""
-"Bugünden itibaren her ayın aynı gününde, ben iptal edene dek Mozilla Foundation'ın yukarıda belirtilen tutarı otomatik olarak kartımdan çekmesine izin veriyorum. Planlı bağışlarımı en az 5 gün önce "
-"<a href='mailto:%(email)s'>%(email)s</a> adresine e-posta göndererek iptal edebileceğimi, bağıştan sonraki 15 gün içinde iade talep edebileceğimi anladım."
+msgid "I authorize Mozilla Foundation to automatically charge my card every month in the amount indicated above, starting today and continuing each month on the same day, until I cancel. I understand that I must cancel at least 5 days before the next scheduled donation by email to <a href='mailto:%(email)s'>%(email)s</a>, and that I may only request a refund within 15 days from the date of a donation."
+msgstr "Bugünden itibaren her ayın aynı gününde, ben iptal edene dek Mozilla Foundation'ın yukarıda belirtilen tutarı otomatik olarak kartımdan çekmesine izin veriyorum. Planlı bağışlarımı en az 5 gün önce <a href='mailto:%(email)s'>%(email)s</a> adresine e-posta göndererek iptal edebileceğimi, bağıştan sonraki 15 gün içinde iade talep edebileceğimi anladım."
 
 #: donate/templates/payment/card_master.html:128
 msgid "I authorize Mozilla Foundation to charge my card in the amount indicated above. I understand that I may only request a refund within 15 days from the date of the donation."
@@ -609,20 +635,27 @@ msgstr "<span class=\"%(span_class)s\">%(formatted_amount)s</span> bağış yap"
 msgid "Your donation helps keep the Web open and free. Thank you in advance for your gift."
 msgstr "Bağışlarınız sayesinde açık ve özgür web’i koruyabiliyoruz. Katkılarınız için şimdiden teşekkür ederiz."
 
-#: donate/templates/payment/card_upsell_master.html:4 donate/templates/payment/paypal_upsell_master.html:4 donate/templates/payment/thank_you_master.html:4
+#: donate/templates/payment/card_upsell_master.html:4
+#: donate/templates/payment/paypal_upsell_master.html:4
+#: donate/templates/payment/thank_you_master.html:4
 msgid "Thank you"
 msgstr "Teşekkür ederiz"
 
-#: donate/templates/payment/card_upsell_master.html:13 donate/templates/payment/newsletter_signup_master.html:13 donate/templates/payment/paypal_upsell_master.html:13
-#: donate/templates/payment/thank_you_master.html:12 donate/thunderbird/templates/payment/newsletter_signup.html:6
+#: donate/templates/payment/card_upsell_master.html:13
+#: donate/templates/payment/newsletter_signup_master.html:13
+#: donate/templates/payment/paypal_upsell_master.html:13
+#: donate/templates/payment/thank_you_master.html:12
+#: donate/thunderbird/templates/payment/newsletter_signup.html:6
 msgid "Thank you for your generous gift"
 msgstr "Bağışınız için teşekkür ederiz"
 
-#: donate/templates/payment/card_upsell_master.html:17 donate/templates/payment/paypal_upsell_master.html:17
+#: donate/templates/payment/card_upsell_master.html:17
+#: donate/templates/payment/paypal_upsell_master.html:17
 msgid "We’d love to have you as a sustaining supporter of Mozilla. <b>Could you add a monthly donation starting next month?</b>"
 msgstr "Sizi Mozilla'nın sürekli destekçisi olarak görmeyi çok isteriz. <b>Gelecek aydan itibaren aylık bağış yapmak ister misiniz?</b>"
 
-#: donate/templates/payment/card_upsell_master.html:21 donate/templates/payment/paypal_upsell_master.html:21
+#: donate/templates/payment/card_upsell_master.html:21
+#: donate/templates/payment/paypal_upsell_master.html:21
 msgid "Yes, I will give:"
 msgstr "Olur. Yapmak istediğim bağış miktarı:"
 
@@ -632,18 +665,15 @@ msgstr "Her ay"
 
 #: donate/templates/payment/card_upsell_master.html:48
 #, python-format
-msgid ""
-"I authorize Mozilla Foundation to automatically charge my card every month in the amount indicated above, starting next month on the same date as today, and continuing each month afterwards until I "
-"cancel. I understand that I must cancel at least 5 days before the next scheduled donation by email to %(email)s, and that I may only request a refund within 15 days from the date of a donation."
-msgstr ""
-"Bugünden bir ay sonra başlamak üzere, ben iptal edene dek Mozilla Foundation'ın yukarıda belirtilen tutarı otomatik olarak kartımdan çekmesine izin veriyorum. Planlı bağışlarımı en az 5 gün önce "
-"%(email)s adresine e-posta göndererek iptal edebileceğimi, bağıştan sonraki 15 gün içinde iade talep edebileceğimi anladım."
+msgid "I authorize Mozilla Foundation to automatically charge my card every month in the amount indicated above, starting next month on the same date as today, and continuing each month afterwards until I cancel. I understand that I must cancel at least 5 days before the next scheduled donation by email to %(email)s, and that I may only request a refund within 15 days from the date of a donation."
+msgstr "Bugünden bir ay sonra başlamak üzere, ben iptal edene dek Mozilla Foundation'ın yukarıda belirtilen tutarı otomatik olarak kartımdan çekmesine izin veriyorum. Planlı bağışlarımı en az 5 gün önce %(email)s adresine e-posta göndererek iptal edebileceğimi, bağıştan sonraki 15 gün içinde iade talep edebileceğimi anladım."
 
 #: donate/templates/payment/card_upsell_master.html:53
 msgid "Donate Monthly"
 msgstr "Aylık bağış"
 
-#: donate/templates/payment/card_upsell_master.html:56 donate/templates/payment/newsletter_signup_master.html:42
+#: donate/templates/payment/card_upsell_master.html:56
+#: donate/templates/payment/newsletter_signup_master.html:42
 msgid "No Thanks"
 msgstr "Gerek yok"
 
@@ -690,29 +720,36 @@ msgctxt "Email subject line"
 msgid "I donated to Mozilla today"
 msgstr "Bugün Mozilla'ya bağış yaptım"
 
-#: donate/templates/payment/thank_you_master.html:27 donate/thunderbird/templates/payment/thank_you.html:16
+#: donate/templates/payment/thank_you_master.html:27
+#: donate/thunderbird/templates/payment/thank_you.html:16
 msgid "Share on Facebook"
 msgstr "Facebook’ta paylaş"
 
-#: donate/templates/payment/thank_you_master.html:31 donate/thunderbird/templates/pages/base_page.html:44 donate/thunderbird/templates/payment/thank_you.html:20
+#: donate/templates/payment/thank_you_master.html:31
+#: donate/thunderbird/templates/pages/base_page.html:44
+#: donate/thunderbird/templates/payment/thank_you.html:20
 msgid "Facebook"
 msgstr "Facebook"
 
-#: donate/templates/payment/thank_you_master.html:34 donate/thunderbird/templates/payment/thank_you.html:23
+#: donate/templates/payment/thank_you_master.html:34
+#: donate/thunderbird/templates/payment/thank_you.html:23
 msgid "Share on Twitter"
 msgstr "Twitter’da paylaş"
 
-#: donate/templates/payment/thank_you_master.html:44 donate/thunderbird/templates/payment/thank_you.html:33
+#: donate/templates/payment/thank_you_master.html:44
+#: donate/thunderbird/templates/payment/thank_you.html:33
 msgctxt "Share button"
 msgid "Email"
 msgstr "E-posta"
 
-#: donate/templates/payment/thank_you_master.html:54 donate/thunderbird/templates/payment/thank_you.html:43
+#: donate/templates/payment/thank_you_master.html:54
+#: donate/thunderbird/templates/payment/thank_you.html:43
 msgctxt "Share button"
 msgid "Link"
 msgstr "Bağlantı"
 
-#: donate/templates/payment/thank_you_master.html:55 donate/thunderbird/templates/payment/thank_you.html:44
+#: donate/templates/payment/thank_you_master.html:55
+#: donate/thunderbird/templates/payment/thank_you.html:44
 msgid "Copied"
 msgstr "Kopyalandı"
 
@@ -720,7 +757,9 @@ msgstr "Kopyalandı"
 msgid "Back"
 msgstr "Geri dön"
 
-#: donate/thunderbird/templates/base.html:9 donate/thunderbird/templates/pages/base_page.html:9 donate/thunderbird/templates/pages/base_page.html:16
+#: donate/thunderbird/templates/base.html:9
+#: donate/thunderbird/templates/pages/base_page.html:9
+#: donate/thunderbird/templates/pages/base_page.html:16
 #: donate/thunderbird/templates/pages/base_page.html:17
 msgctxt "Page title"
 msgid "Give to Thunderbird"
@@ -733,12 +772,8 @@ msgstr "Diğer bağış yöntemleri: <a href=\"%(wire_transfer_url)s\">SEPA/BACS
 
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:12
 #, python-format
-msgid ""
-"Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your "
-"donation will be stored by Thunderbird. Please read our <a href=\"%(privacy_url)s\">privacy policy here</a>."
-msgstr ""
-"Ödeme bilgileriniz PayPal şirketi olan <a href=\"%(braintree_url)s\">Braintree</a> (kredi/banka kartları için) veya <a href=\"%(paypal_url)s\">PayPal</a> tarafından işlenecektir ve bağışınızın kaydı"
-" Thunderbird tarafından saklanacaktır. Lütfen <a href=\"%(privacy_url)s\">gizlilik ilkelerimizi</a> okuyun."
+msgid "Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Thunderbird. Please read our <a href=\"%(privacy_url)s\">privacy policy here</a>."
+msgstr "Ödeme bilgileriniz PayPal şirketi olan <a href=\"%(braintree_url)s\">Braintree</a> (kredi/banka kartları için) veya <a href=\"%(paypal_url)s\">PayPal</a> tarafından işlenecektir ve bağışınızın kaydı Thunderbird tarafından saklanacaktır. Lütfen <a href=\"%(privacy_url)s\">gizlilik ilkelerimizi</a> okuyun."
 
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:15
 #, python-format
@@ -748,17 +783,11 @@ msgstr "Aylık bağışlar her ayın aynı günü (bugün) çekilir ve iptal edi
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:21
 #, python-format
 msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"%(help_url)s\">Contact us</a>."
-msgstr ""
-"Bağış yapmayla ilgili sorularınız mı var? Sık sorulan sorular için <a href=\"%(faq_url)s\">SSS</a>'ye bakabilirsiniz. Başka bir sorun mu yaşıyorsunuz? <a href=\"%(help_url)s\">Bizimle iletişime "
-"geçin</a>."
+msgstr "Bağış yapmayla ilgili sorularınız mı var? Sık sorulan sorular için <a href=\"%(faq_url)s\">SSS</a>'ye bakabilirsiniz. Başka bir sorun mu yaşıyorsunuz? <a href=\"%(help_url)s\">Bizimle iletişime geçin</a>."
 
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:27
-msgid ""
-"Contributions go to MZLA Technologies Corporation, a California corporation wholly owned by the Mozilla Foundation. Funds will be reserved for use in the Thunderbird project. Contributions are not "
-"tax-deductible as charitable contributions."
-msgstr ""
-"Bağışlarınız, tamamı Mozilla Foundation'a ait olan California merkezli MZLA Technologies Corporation'a gitmektedir. Bağışlar Thunderbird projesinde kullanılmak üzere ayrılır. Bu bağışlar vergiden "
-"düşülemez."
+msgid "Contributions go to MZLA Technologies Corporation, a California corporation wholly owned by the Mozilla Foundation. Funds will be reserved for use in the Thunderbird project. Contributions are not tax-deductible as charitable contributions."
+msgstr "Bağışlarınız, tamamı Mozilla Foundation'a ait olan California merkezli MZLA Technologies Corporation'a gitmektedir. Bağışlar Thunderbird projesinde kullanılmak üzere ayrılır. Bu bağışlar vergiden düşülemez."
 
 #: donate/thunderbird/templates/pages/base_page.html:59
 msgid "Cookies"
@@ -779,31 +808,17 @@ msgid "We accept contributions in Euros through Single European Payment Area (SE
 msgstr "SEPA transferi yoluyla euro bağışlarınızı ve BACS transferi yoluyla İngiliz sterlini bağışlarınızı kabul edebiliyoruz."
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:10
-msgid ""
-"Please note that for smaller (under 10 EUR or equivalent) contributions, <strong>and especially for contributions under 5 EUR or equivalent</strong>, we request that you contribute via credit card "
-"or PayPal to help reduce our processing fees."
+msgid "Please note that for smaller (under 10 EUR or equivalent) contributions, <strong>and especially for contributions under 5 EUR or equivalent</strong>, we request that you contribute via credit card or PayPal to help reduce our processing fees."
 msgstr ""
 
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:30 donate/thunderbird/templates/pages/core/ways_to_give_page.html:47
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:30
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:47
 msgid "Memo field:"
 msgstr "Not alanı:"
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:53
-msgid ""
-"Please note that due to the “shelter in place” order recently implemented for California, processing and acknowledgment of check donations to Thunderbird/MZLA Technologies will be indefinitely "
-"delayed. Rather than sending us a check, please consider making an <a href=\"/\">online donation</a> instead."
+msgid "MZLA/Thunderbird is happy to accept your donation (made payable to “MZLA Technologies”) via check; however please note that processing and acknowledgment of your gift may be delayed by changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
 msgstr ""
-"Kaliforniya için yakın zamanda uygulanan “yerinde barınak” emri nedeniyle, Thunderbird/MZLA Technologies'e yapılan çek bağışlarının işleme koyulmasının ve onaylanmasının süresiz olarak "
-"erteleneceğini lütfen unutmayın. Bize çek göndermek yerine lütfen <a href=\"/\">çevrimiçi bağış</a> yapmayı düşünün."
-
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:61
-#, python-format
-msgid "Please send a check <strong>with “%(thunderbird)s” on the memo line</strong>, and payable (payee) to “%(payee)s”."
-msgstr ""
-
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:64
-msgid "Please note that we can only accept checks in US dollars drawn on a US bank. Please do <strong>not</strong> send cash."
-msgstr "Sadece bir ABD bankasından tahsil edilebilen ABD doları cinsinden çekleri kabul edebileceğimizi lütfen unutmayın. Lütfen nakit <strong>göndermeyin</strong>."
 
 #: donate/thunderbird/templates/payment/card.html:6
 msgid "Thank you in advance for your gift."
@@ -811,31 +826,22 @@ msgstr "Bağışınız için teşekkür ederiz."
 
 #: donate/thunderbird/templates/payment/card.html:12
 #, python-format
-msgid ""
-"I authorize MZLA Technologies Corporation to automatically charge my card every month in the amount indicated above, starting today and continuing each month on the same day, until I cancel. I "
-"understand that I must cancel at least 5 days before the next scheduled donation by <a href='%(help_url)s'>submitting a request</a>, and that I may only request a refund within 15 days from the date"
-" of a donation."
-msgstr ""
-"Bugünden itibaren her ayın aynı gününde, ben iptal edene dek MZLA Technologies Corporation'ın yukarıda belirtilen tutarı otomatik olarak kartımdan çekmesine izin veriyorum. Planlı bağışlarımı en az "
-"5 gün önceden <a href='%(help_url)s'>talepte bulunarak</a> iptal edebileceğimi, bağıştan sonraki 15 gün içinde iade talep edebileceğimi anladım."
+msgid "I authorize MZLA Technologies Corporation to automatically charge my card every month in the amount indicated above, starting today and continuing each month on the same day, until I cancel. I understand that I must cancel at least 5 days before the next scheduled donation by <a href='%(help_url)s'>submitting a request</a>, and that I may only request a refund within 15 days from the date of a donation."
+msgstr "Bugünden itibaren her ayın aynı gününde, ben iptal edene dek MZLA Technologies Corporation'ın yukarıda belirtilen tutarı otomatik olarak kartımdan çekmesine izin veriyorum. Planlı bağışlarımı en az 5 gün önceden <a href='%(help_url)s'>talepte bulunarak</a> iptal edebileceğimi, bağıştan sonraki 15 gün içinde iade talep edebileceğimi anladım."
 
 #: donate/thunderbird/templates/payment/card.html:14
 msgid "I authorize MZLA Technologies Corporation to charge my card in the amount indicated above. I understand that I may only request a refund within 15 days from the date of the donation."
 msgstr "Yukarıda belirtilen miktarı kartımdan çekmesi için MZLA Technologies Corporation’a yetki veriyorum. Bağıştan sonraki 15 gün içinde iade talep edebileceğimi anladım."
 
-#: donate/thunderbird/templates/payment/card_upsell.html:6 donate/thunderbird/templates/payment/paypal_upsell.html:6
+#: donate/thunderbird/templates/payment/card_upsell.html:6
+#: donate/thunderbird/templates/payment/paypal_upsell.html:6
 msgid "We’d love to have you as a sustaining supporter of Thunderbird. <b>Could you add a monthly donation starting next month?</b>"
 msgstr "Sizi Thunderbird’ün sürekli destekçisi olarak görmeyi çok isteriz. <b>Gelecek aydan itibaren aylık bağış yapmak ister misiniz?</b>"
 
 #: donate/thunderbird/templates/payment/card_upsell.html:10
 #, python-format
-msgid ""
-"I authorize MZLA Technologies Corporation to automatically charge my card every month in the amount indicated above, starting next month on the same date as today, and continuing each month "
-"afterwards until I cancel. I understand that I must cancel at least 5 days before the next scheduled donation by <a href=\"%(help_url)s\">submitting this form</a>, and that I may only request a "
-"refund within 15 days from the date of a donation."
-msgstr ""
-"Bugünden bir ay sonra başlayıp her ay devam etmek üzere, ben iptal edene dek MZLA Technologies Corporation'ın yukarıda belirtilen tutarı otomatik olarak kartımdan çekmesine izin veriyorum. Planlı "
-"bağışlarımı en az 5 gün önceden <a href=\"%(help_url)s\">bu formu doldurarak</a> iptal edebileceğimi, bağıştan sonraki 15 gün içinde iade talep edebileceğimi anladım."
+msgid "I authorize MZLA Technologies Corporation to automatically charge my card every month in the amount indicated above, starting next month on the same date as today, and continuing each month afterwards until I cancel. I understand that I must cancel at least 5 days before the next scheduled donation by <a href=\"%(help_url)s\">submitting this form</a>, and that I may only request a refund within 15 days from the date of a donation."
+msgstr "Bugünden bir ay sonra başlayıp her ay devam etmek üzere, ben iptal edene dek MZLA Technologies Corporation'ın yukarıda belirtilen tutarı otomatik olarak kartımdan çekmesine izin veriyorum. Planlı bağışlarımı en az 5 gün önceden <a href=\"%(help_url)s\">bu formu doldurarak</a> iptal edebileceğimi, bağıştan sonraki 15 gün içinde iade talep edebileceğimi anladım."
 
 #: donate/thunderbird/templates/payment/newsletter_signup.html:8
 msgid "We’re working hard to protect your inbox. Sign up to receive email messages concerning Thunderbird, including updates and requests for feedback."
@@ -859,6 +865,18 @@ msgstr "Bugün @mozthunderbird'e bağış yaptım, gelen kutumu özgür bırakt�
 msgctxt "Email subject line"
 msgid "I donated to Thunderbird today"
 msgstr "Bugün Thunderbird'e bağış yaptım"
+
+#~ msgid "Please note that due to the “shelter in place” order recently implemented for California, processing and acknowledgment of check donations to the Mozilla Foundation will be indefinitely delayed. Rather than sending us a check, please consider making an <a href=\"/\">online donation</a> instead."
+#~ msgstr "Kaliforniya için yakın zamanda uygulanan “yerinde barınak” emri nedeniyle, Mozilla Foundation'a yapılan çek bağışlarının işleme koyulmasının ve onaylanmasının süresiz olarak erteleneceğini lütfen unutmayın. Bize çek göndermek yerine lütfen <a href=\"/\">çevrimiçi bağış</a> yapmayı düşünün."
+
+#~ msgid "Please note that the Mozilla Foundation can only accept checks in US dollars drawn on a US bank. Please do <strong>not</strong> send cash."
+#~ msgstr "Mozilla Foundation'ın sadece bir ABD bankasından tahsil edilebilen ABD doları cinsinden çekleri kabul edebileceğini lütfen unutmayın. Lütfen nakit <strong>göndermeyin</strong>."
+
+#~ msgid "Please note that due to the “shelter in place” order recently implemented for California, processing and acknowledgment of check donations to Thunderbird/MZLA Technologies will be indefinitely delayed. Rather than sending us a check, please consider making an <a href=\"/\">online donation</a> instead."
+#~ msgstr "Kaliforniya için yakın zamanda uygulanan “yerinde barınak” emri nedeniyle, Thunderbird/MZLA Technologies'e yapılan çek bağışlarının işleme koyulmasının ve onaylanmasının süresiz olarak erteleneceğini lütfen unutmayın. Bize çek göndermek yerine lütfen <a href=\"/\">çevrimiçi bağış</a> yapmayı düşünün."
+
+#~ msgid "Please note that we can only accept checks in US dollars drawn on a US bank. Please do <strong>not</strong> send cash."
+#~ msgstr "Sadece bir ABD bankasından tahsil edilebilen ABD doları cinsinden çekleri kabul edebileceğimizi lütfen unutmayın. Lütfen nakit <strong>göndermeyin</strong>."
 
 #~ msgid "Initiatives"
 #~ msgstr "Girişimler"

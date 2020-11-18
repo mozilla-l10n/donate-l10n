@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-16 17:48+0000\n"
+"POT-Creation-Date: 2020-11-18 08:13+0000\n"
 "PO-Revision-Date: 2019-10-09 13:11+0000\n"
 "Last-Translator: passionforlife <eloli@foxmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,15 +18,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pontoon\n"
-
-#: donate/frontend/_js/main.compiled.js:16 maintenance/static/_js/main.js:16
-#: source/js/components/currency-selector.js:91
-msgid "per month"
-msgstr "每月"
-
-#: donate/frontend/_js/main.compiled.js:16 maintenance/static/_js/main.js:16
-msgid "Other amount"
-msgstr "其他金额"
 
 #: donate/frontend/_js/payments-card.compiled.js:1
 #: donate/frontend/_js/payments-paypal-upsell.compiled.js:1
@@ -52,3 +43,12 @@ msgstr "下方存在无效字段。请修正并重试。"
 #: source/js/components/paypal.js:94
 msgid "Payment cancelled"
 msgstr "已取消付款"
+
+#: maintenance/static/_js/main.js:16
+#: source/js/components/currency-selector.js:91
+msgid "per month"
+msgstr "每月"
+
+#: maintenance/static/_js/main.js:16
+msgid "Other amount"
+msgstr "其他金额"
