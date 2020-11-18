@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-18 08:51+0000\n"
-"PO-Revision-Date: 2020-11-18 12:45+0000\n"
+"PO-Revision-Date: 2020-11-18 12:48+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -503,7 +503,7 @@ msgstr ""
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:95
 msgid "Please include your email address on the memo line of your check to help us track and attribute your gift."
-msgstr ""
+msgstr "Por favor, inclua seu endereço de e-mail na linha de memorando de seu cheque para nos ajudar a acompanhar e atribuir sua oferta."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:102
 #, python-format
