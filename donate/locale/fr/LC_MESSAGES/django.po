@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-18 08:51+0000\n"
-"PO-Revision-Date: 2020-11-18 08:56+0000\n"
+"PO-Revision-Date: 2020-11-18 09:30+0000\n"
 "Last-Translator: Théo Chevalier <theo.chevalier11@gmail.com>\n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -501,7 +501,7 @@ msgstr ""
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:95
 msgid "Please include your email address on the memo line of your check to help us track and attribute your gift."
-msgstr ""
+msgstr "Veuillez inclure votre adresse électronique sur la ligne mémo de votre chèque pour nous aider à suivre et à attribuer votre don."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:102
 #, python-format
@@ -819,6 +819,8 @@ msgid ""
 "MZLA/Thunderbird is happy to accept your donation (made payable to “MZLA Technologies”) via check; however please note that processing and acknowledgment of your gift may be delayed by changes to "
 "our office procedures due to the COVID-19 pandemic. You can send checks to:"
 msgstr ""
+"MZLA/Thunderbird accepte volontiers votre don (à l’ordre de « MZLA Technologies ») par chèque ; toutefois, veuillez noter que le traitement et l’accusé de réception de votre don peuvent être "
+"retardés en raison de changements de nos procédures liés à la pandémie de COVID-19. Vous pouvez envoyer des chèques à l’adresse :"
 
 #: donate/thunderbird/templates/payment/card.html:6
 msgid "Thank you in advance for your gift."
