@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-16 17:48+0000\n"
+"POT-Creation-Date: 2020-11-18 08:51+0000\n"
 "PO-Revision-Date: 2020-08-25 11:01+0000\n"
 "Last-Translator: robbp <robbpaun@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -292,25 +292,25 @@ msgstr "Licență"
 msgid "Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a %(link_attributes)s>%(site_url)s</a>."
 msgstr "Mozilla este o organizație nonprofit globală dedicată să îți redea controlul asupra experienței online și să modeleze viitorul webului pentru binele public. Vizitează-ne pe <a %(link_attributes)s>%(site_url)s</a>."
 
-#: donate/templates/pages/core/campaign_page.html:38
+#: donate/templates/pages/core/campaign_page.html:43
 #: donate/templates/pages/core/ways_to_give_page_master.html:12
 msgctxt "Button"
 msgid "DONATE NOW"
 msgstr "DONEAZĂ ACUM"
 
-#: donate/templates/pages/core/campaign_page.html:52
+#: donate/templates/pages/core/campaign_page.html:57
 #: donate/templates/pages/core/landing_page_master.html:36
 #: donate/templates/payment/card_master.html:159
 msgid "Seal of Charity Navigator 4-Star"
 msgstr "Sigiliu Charity Navigator 4 stele"
 
-#: donate/templates/pages/core/campaign_page.html:55
+#: donate/templates/pages/core/campaign_page.html:60
 #: donate/templates/pages/core/landing_page_master.html:39
 #: donate/templates/payment/card_master.html:162
 msgid "Seal of GuideStar Gold 2019"
 msgstr "Sigiliu GuideStar Gold 2019"
 
-#: donate/templates/pages/core/campaign_page.html:65
+#: donate/templates/pages/core/campaign_page.html:70
 msgctxt "Header"
 msgid "Donate now"
 msgstr "Donează acum"
@@ -409,137 +409,144 @@ msgstr "Acceptăm donații în euro prin viramente SEPA (Zona unică de plăți 
 msgid "Note that for smaller (under 10 EUR or equivalent) donations, <strong>and especially for donations under 5 EUR or equivalent</strong>, we request that you donate via credit card or PayPal to help reduce Mozilla’s processing fees."
 msgstr "De reținut că pentru donații mai mici (sub 10 euro sau valoarea echivalentă), <strong>și în special pentru donații sub 5 euro sau valoarea echivalentă</strong>, avem rugămintea să efectuați donația prin card de credit sau PayPal pentru a ajuta la reducerea comisioanelor de prelucrare Mozilla."
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:30
+#: donate/templates/pages/core/ways_to_give_page_master.html:31
+#, python-format
+msgid "Please also note that the Mozilla Foundation cannot accept SEPA or BACS transfers for MZLA/Thunderbird. To contribute to MZLA/Thunderbird via SEPA or BACS transfer, please follow <a href=\"%(instruction_url)s\">these instructions</a>."
+msgstr ""
+
+#: donate/templates/pages/core/ways_to_give_page_master.html:35
 msgid "Please remember that donations are deductible for U.S. income tax purposes only."
 msgstr "Îți reamintim că donațiile sunt cheltuieli deductibile în scopul impozitului pe venit numai în SUA."
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:32
+#: donate/templates/pages/core/ways_to_give_page_master.html:37
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:15
 #, python-format
 msgid "If your bank requests our physical address, it is %(address)s."
 msgstr "Dacă banca solicită adresa noastră poștală, acesta este: %(address)s."
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:38
+#: donate/templates/pages/core/ways_to_give_page_master.html:43
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:22
 msgid "Euros:"
 msgstr "Euro:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:40
-#: donate/templates/pages/core/ways_to_give_page_master.html:53
+#: donate/templates/pages/core/ways_to_give_page_master.html:45
+#: donate/templates/pages/core/ways_to_give_page_master.html:58
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:24
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:37
 msgid "Account Currency:"
 msgstr "Moneda contului:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:40
+#: donate/templates/pages/core/ways_to_give_page_master.html:45
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:24
 msgid "Euro (EUR)"
 msgstr "Euro (EUR)"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:41
-#: donate/templates/pages/core/ways_to_give_page_master.html:54
+#: donate/templates/pages/core/ways_to_give_page_master.html:46
+#: donate/templates/pages/core/ways_to_give_page_master.html:59
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:25
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:38
 msgid "Receiving Bank (Pay to):"
 msgstr "Banca beneficiarului (plată către):"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:42
-#: donate/templates/pages/core/ways_to_give_page_master.html:55
+#: donate/templates/pages/core/ways_to_give_page_master.html:47
+#: donate/templates/pages/core/ways_to_give_page_master.html:60
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:26
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:39
 msgid "City & Country/Region:"
 msgstr "Orașul și țara/regiunea:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:42
+#: donate/templates/pages/core/ways_to_give_page_master.html:47
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:26
 msgid "Frankfurt, Germany"
 msgstr "Frankfurt, Germania"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:43
-#: donate/templates/pages/core/ways_to_give_page_master.html:61
+#: donate/templates/pages/core/ways_to_give_page_master.html:48
+#: donate/templates/pages/core/ways_to_give_page_master.html:66
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:27
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:45
 msgid "SWIFT/BIC Code:"
 msgstr "Cod SWIFT/BIC:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:44
-#: donate/templates/pages/core/ways_to_give_page_master.html:58
+#: donate/templates/pages/core/ways_to_give_page_master.html:49
+#: donate/templates/pages/core/ways_to_give_page_master.html:63
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:28
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:42
 msgid "Beneficiary Name (For credit to):"
 msgstr "Numele beneficiarului (creditare către):"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:45
-#: donate/templates/pages/core/ways_to_give_page_master.html:62
+#: donate/templates/pages/core/ways_to_give_page_master.html:50
+#: donate/templates/pages/core/ways_to_give_page_master.html:67
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:29
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:46
 msgid "IBAN:"
 msgstr "IBAN:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:51
+#: donate/templates/pages/core/ways_to_give_page_master.html:56
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:35
 msgid "British Pound Sterling:"
 msgstr "Lire sterline:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:53
+#: donate/templates/pages/core/ways_to_give_page_master.html:58
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:37
 msgid "British Pound Sterling (GBP)"
 msgstr "Lire sterline (GBP)"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:55
+#: donate/templates/pages/core/ways_to_give_page_master.html:60
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:39
 msgid "London, United Kingdom"
 msgstr "Londra, Regatul Unit"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:56
+#: donate/templates/pages/core/ways_to_give_page_master.html:61
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:40
 msgid "Bank Sort Code:"
 msgstr "Codul de sort al băncii:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:57
+#: donate/templates/pages/core/ways_to_give_page_master.html:62
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:41
 msgid "Account Number (8 digits):"
 msgstr "Numărul contului (8 cifre):"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:68
+#: donate/templates/pages/core/ways_to_give_page_master.html:73
 msgid "Check (via postal service)"
 msgstr "Cec (prin serviciu poștal)"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:72
+#: donate/templates/pages/core/ways_to_give_page_master.html:77
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:52
-msgid "UPDATE March 20, 2020:"
+#, fuzzy
+#| msgid "UPDATE March 20, 2020:"
+msgid "UPDATE October 2020:"
 msgstr "ACTUALIZARE 20 martie 2020:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:73
-msgid "Please note that due to the “shelter in place” order recently implemented for California, processing and acknowledgment of check donations to the Mozilla Foundation will be indefinitely delayed. Rather than sending us a check, please consider making an <a href=\"/\">online donation</a> instead."
-msgstr "Te rugăm să reții că, din cauza ordinului „stăm acasă”, implementat recent pentru California, procesarea și confirmarea donațiilor prin cec efectuate către Fundația Mozilla vor fi întârziate pe o perioadă nedeterminată. În loc să ne trimiți un cec, te rugăm să iei în considerare să faci o <a href=\"/\"> donație online </a>."
+#: donate/templates/pages/core/ways_to_give_page_master.html:78
+msgid "The Mozilla Foundation is happy to accept your donation (made payable to “Mozilla Foundation”) via check; however please note that processing and acknowledgment of your gift may be delayed by changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
+msgstr ""
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:83
+#: donate/templates/pages/core/ways_to_give_page_master.html:95
+msgid "Please include your email address on the memo line of your check to help us track and attribute your gift."
+msgstr ""
+
+#: donate/templates/pages/core/ways_to_give_page_master.html:102
 #, python-format
-msgid "Please send a check <strong>including your email address on the memo line</strong>, and payable (payee) to “%(payee)s”."
-msgstr "Te rugăm să trimiți un cec <strong>incluzând adresa ta de e-mail pe rândul de mențiuni</strong>, de plată către (beneficiar) „%(payee)s”."
+msgid "Please also note that the Mozilla Foundation can <strong>only</strong> accept checks in U.S. dollars drawn on a U.S. bank, and <strong>cannot</strong> accept contributions for MZLA/Thunderbird. (Contributions to MZLA/Thunderbird via check can be made by following <a href=\"%(instruction_url)s\" target=\"_blank\">these instructions</a>.)"
+msgstr ""
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:86
-msgid "Please note that the Mozilla Foundation can only accept checks in US dollars drawn on a US bank. Please do <strong>not</strong> send cash."
-msgstr "De reținut că Fundația Mozilla poate accepta doar cecuri în dolari americani, trase de o bancă americană. Te rugăm să <strong>nu</strong> ne trimiți numerar."
-
-#: donate/templates/pages/core/ways_to_give_page_master.html:101
+#: donate/templates/pages/core/ways_to_give_page_master.html:109
 msgid "Currencies"
 msgstr "Monede"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:102
+#: donate/templates/pages/core/ways_to_give_page_master.html:110
 msgid "Select your currency to make a secure online donation:"
 msgstr "Selectează moneda pentru donația online securizată:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:112
+#: donate/templates/pages/core/ways_to_give_page_master.html:120
 msgid "Bitcoin"
 msgstr "Bitcoin"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:114
+#: donate/templates/pages/core/ways_to_give_page_master.html:122
 msgid "The Mozilla Foundation is a California non-profit corporation exempt from United States federal income taxation under IRC 501(c)(3) and a public charity classified under IRC sections 170(b)(1)(A) and 509(a)(1). Bitcoin donations Mozilla receives are considered charitable contributions under U.S. federal tax laws, to be used in its discretion for its charitable purposes. Because the IRS has indicated that it will treat bitcoin as property for U.S. tax purposes (see IRS Notice 2014-21), donations of bitcoin may be subject to special rules as to the amount of your charitable deduction, the documentation that must be provided to claim a tax deduction, or other matters."
 msgstr "Fundația Mozilla este o corporație nonprofit din California, scutită de impozit federal pe venit în temeiul secțiunii 501(c)(3) IRC (Codul Fiscal privind Veniturile Interne din S.U.A.) și este o organizație caritabilă publică, clasificată sub secțiunile 170(b)(1)(A) și 509(a)(1) IRC. Donațiile primite de Mozilla în bitcoin sunt considerate contribuții caritabile în temeiul legislației fiscale federale S.U.A., de utilizat la libera sa alegere în scopuri caritabile. Deoarece Agenția de Administrare Fiscală a Statelor Unite (IRS) a indicat faptul că va trata bitcoinul ca proprietate în scopuri fiscale în S.U.A. (a se vedea Notificarea IRS 2014-21), donațiile în bitcoin pot face obiectul unor reguli speciale privind sumele deductibile aplicabile donațiilor în scopuri caritabile și documentația justificativă necesară pentru deducerile din impozit sau alte aspecte."
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:119
+#: donate/templates/pages/core/ways_to_give_page_master.html:127
 #, python-format
 msgid "Learn more about bitcoin donations <a href=\"%(bitcoin_wiki)s\">here</a>. To donate bitcoin, <a href=\"%(bitcoin_donate)s\">please visit this link.</a>"
 msgstr "Află mai multe despre donațiile în bitcoin <a href=\"%(bitcoin_wiki)s\">aici</a>. Pentru a dona în bitcoin, <a href=\"%(bitcoin_donate)s\">accesează acest link.</a>"
@@ -810,17 +817,8 @@ msgid "Memo field:"
 msgstr "Câmp de mențiuni:"
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:53
-msgid "Please note that due to the “shelter in place” order recently implemented for California, processing and acknowledgment of check donations to Thunderbird/MZLA Technologies will be indefinitely delayed. Rather than sending us a check, please consider making an <a href=\"/\">online donation</a> instead."
-msgstr "Te rugăm să reții că, din cauza ordinului „stăm acasă”, implementat recent pentru California, procesarea și confirmarea donațiilor prin cec efectuate către Thunderbird/MZLA Technologies vor fi întârziate pe o perioadă nedeterminată. În loc să ne trimiți un cec, te rugăm să iei în considerare să faci o <a href=\"/\"> donație online </a>."
-
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:61
-#, python-format
-msgid "Please send a check <strong>with “%(thunderbird)s” on the memo line</strong>, and payable (payee) to “%(payee)s”."
-msgstr "Te rugăm să trimiți un cec <strong>incluzând „%(thunderbird)s” pe rândul de mențiuni</strong>, de plată către (beneficiar) „%(payee)s”."
-
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:64
-msgid "Please note that we can only accept checks in US dollars drawn on a US bank. Please do <strong>not</strong> send cash."
-msgstr "De reținut că putem accepta numai cecuri în dolari americani, trase de o bancă americană. Te rugăm să nu ne trimiți<strong>not</strong> numerar."
+msgid "MZLA/Thunderbird is happy to accept your donation (made payable to “MZLA Technologies”) via check; however please note that processing and acknowledgment of your gift may be delayed by changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
+msgstr ""
 
 #: donate/thunderbird/templates/payment/card.html:6
 msgid "Thank you in advance for your gift."
@@ -867,6 +865,24 @@ msgstr "Am donat azi la @mozthunderbird pentru #freetheinbox. Donați și voi ca
 msgctxt "Email subject line"
 msgid "I donated to Thunderbird today"
 msgstr "Am donat astăzi pentru Thunderbird"
+
+#~ msgid "Please note that due to the “shelter in place” order recently implemented for California, processing and acknowledgment of check donations to the Mozilla Foundation will be indefinitely delayed. Rather than sending us a check, please consider making an <a href=\"/\">online donation</a> instead."
+#~ msgstr "Te rugăm să reții că, din cauza ordinului „stăm acasă”, implementat recent pentru California, procesarea și confirmarea donațiilor prin cec efectuate către Fundația Mozilla vor fi întârziate pe o perioadă nedeterminată. În loc să ne trimiți un cec, te rugăm să iei în considerare să faci o <a href=\"/\"> donație online </a>."
+
+#~ msgid "Please send a check <strong>including your email address on the memo line</strong>, and payable (payee) to “%(payee)s”."
+#~ msgstr "Te rugăm să trimiți un cec <strong>incluzând adresa ta de e-mail pe rândul de mențiuni</strong>, de plată către (beneficiar) „%(payee)s”."
+
+#~ msgid "Please note that the Mozilla Foundation can only accept checks in US dollars drawn on a US bank. Please do <strong>not</strong> send cash."
+#~ msgstr "De reținut că Fundația Mozilla poate accepta doar cecuri în dolari americani, trase de o bancă americană. Te rugăm să <strong>nu</strong> ne trimiți numerar."
+
+#~ msgid "Please note that due to the “shelter in place” order recently implemented for California, processing and acknowledgment of check donations to Thunderbird/MZLA Technologies will be indefinitely delayed. Rather than sending us a check, please consider making an <a href=\"/\">online donation</a> instead."
+#~ msgstr "Te rugăm să reții că, din cauza ordinului „stăm acasă”, implementat recent pentru California, procesarea și confirmarea donațiilor prin cec efectuate către Thunderbird/MZLA Technologies vor fi întârziate pe o perioadă nedeterminată. În loc să ne trimiți un cec, te rugăm să iei în considerare să faci o <a href=\"/\"> donație online </a>."
+
+#~ msgid "Please send a check <strong>with “%(thunderbird)s” on the memo line</strong>, and payable (payee) to “%(payee)s”."
+#~ msgstr "Te rugăm să trimiți un cec <strong>incluzând „%(thunderbird)s” pe rândul de mențiuni</strong>, de plată către (beneficiar) „%(payee)s”."
+
+#~ msgid "Please note that we can only accept checks in US dollars drawn on a US bank. Please do <strong>not</strong> send cash."
+#~ msgstr "De reținut că putem accepta numai cecuri în dolari americani, trase de o bancă americană. Te rugăm să nu ne trimiți<strong>not</strong> numerar."
 
 #~ msgid "Initiatives"
 #~ msgstr "Inițiative"
