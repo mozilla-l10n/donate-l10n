@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-16 17:48+0000\n"
+"POT-Creation-Date: 2020-11-18 08:51+0000\n"
 "PO-Revision-Date: 2020-07-25 11:56+0000\n"
 "Last-Translator: Matjaž Horvat <matjaz.horvat@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -292,25 +292,25 @@ msgstr "Licenca"
 msgid "Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a %(link_attributes)s>%(site_url)s</a>."
 msgstr "Mozilla je globalna neprofitna organizacija in mar nam je za to, da imaš ti nadzor nad uporabo spleta. Želimo, da si dejaven pri ustvarjanju njegove prihodnosti, ki bo v dobro vseh. Obišči nas na <a %(link_attributes)s>%(site_url)s</a>."
 
-#: donate/templates/pages/core/campaign_page.html:38
+#: donate/templates/pages/core/campaign_page.html:43
 #: donate/templates/pages/core/ways_to_give_page_master.html:12
 msgctxt "Button"
 msgid "DONATE NOW"
 msgstr "PRISPEVAJ ZDAJ"
 
-#: donate/templates/pages/core/campaign_page.html:52
+#: donate/templates/pages/core/campaign_page.html:57
 #: donate/templates/pages/core/landing_page_master.html:36
 #: donate/templates/payment/card_master.html:159
 msgid "Seal of Charity Navigator 4-Star"
 msgstr "Pečat Charity Navigator: 4 zvezdice"
 
-#: donate/templates/pages/core/campaign_page.html:55
+#: donate/templates/pages/core/campaign_page.html:60
 #: donate/templates/pages/core/landing_page_master.html:39
 #: donate/templates/payment/card_master.html:162
 msgid "Seal of GuideStar Gold 2019"
 msgstr "Zlati pečat GuideStar 2019"
 
-#: donate/templates/pages/core/campaign_page.html:65
+#: donate/templates/pages/core/campaign_page.html:70
 msgctxt "Header"
 msgid "Donate now"
 msgstr "Prispevaj zdaj"
@@ -409,137 +409,142 @@ msgstr "Sprejemamo donacije v evrih prek SEPA (Single European Payment Area) ter
 msgid "Note that for smaller (under 10 EUR or equivalent) donations, <strong>and especially for donations under 5 EUR or equivalent</strong>, we request that you donate via credit card or PayPal to help reduce Mozilla’s processing fees."
 msgstr ""
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:30
+#: donate/templates/pages/core/ways_to_give_page_master.html:31
+#, python-format
+msgid "Please also note that the Mozilla Foundation cannot accept SEPA or BACS transfers for MZLA/Thunderbird. To contribute to MZLA/Thunderbird via SEPA or BACS transfer, please follow <a href=\"%(instruction_url)s\">these instructions</a>."
+msgstr ""
+
+#: donate/templates/pages/core/ways_to_give_page_master.html:35
 msgid "Please remember that donations are deductible for U.S. income tax purposes only."
 msgstr "Upoštevajte, da se donacije lahko uveljavijo kot davčne olajšave zgolj v ZDA."
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:32
+#: donate/templates/pages/core/ways_to_give_page_master.html:37
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:15
 #, python-format
 msgid "If your bank requests our physical address, it is %(address)s."
 msgstr "Če vaša banka zahteva naš fizični naslov, uporabite %(address)s."
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:38
+#: donate/templates/pages/core/ways_to_give_page_master.html:43
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:22
 msgid "Euros:"
 msgstr "Evri:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:40
-#: donate/templates/pages/core/ways_to_give_page_master.html:53
+#: donate/templates/pages/core/ways_to_give_page_master.html:45
+#: donate/templates/pages/core/ways_to_give_page_master.html:58
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:24
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:37
 msgid "Account Currency:"
 msgstr "Valuta računa:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:40
+#: donate/templates/pages/core/ways_to_give_page_master.html:45
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:24
 msgid "Euro (EUR)"
 msgstr "Evro (EUR)"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:41
-#: donate/templates/pages/core/ways_to_give_page_master.html:54
+#: donate/templates/pages/core/ways_to_give_page_master.html:46
+#: donate/templates/pages/core/ways_to_give_page_master.html:59
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:25
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:38
 msgid "Receiving Bank (Pay to):"
 msgstr "Banka prejemnika:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:42
-#: donate/templates/pages/core/ways_to_give_page_master.html:55
+#: donate/templates/pages/core/ways_to_give_page_master.html:47
+#: donate/templates/pages/core/ways_to_give_page_master.html:60
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:26
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:39
 msgid "City & Country/Region:"
 msgstr "Mesto in država/regija:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:42
+#: donate/templates/pages/core/ways_to_give_page_master.html:47
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:26
 msgid "Frankfurt, Germany"
 msgstr "Frankfurt, Nemčija"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:43
-#: donate/templates/pages/core/ways_to_give_page_master.html:61
+#: donate/templates/pages/core/ways_to_give_page_master.html:48
+#: donate/templates/pages/core/ways_to_give_page_master.html:66
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:27
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:45
 msgid "SWIFT/BIC Code:"
 msgstr "Koda SWIFT/BIC:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:44
-#: donate/templates/pages/core/ways_to_give_page_master.html:58
+#: donate/templates/pages/core/ways_to_give_page_master.html:49
+#: donate/templates/pages/core/ways_to_give_page_master.html:63
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:28
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:42
 msgid "Beneficiary Name (For credit to):"
 msgstr "Ime upravičenca (za kredite):"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:45
-#: donate/templates/pages/core/ways_to_give_page_master.html:62
+#: donate/templates/pages/core/ways_to_give_page_master.html:50
+#: donate/templates/pages/core/ways_to_give_page_master.html:67
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:29
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:46
 msgid "IBAN:"
 msgstr "IBAN:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:51
+#: donate/templates/pages/core/ways_to_give_page_master.html:56
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:35
 msgid "British Pound Sterling:"
 msgstr "Britanski funti:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:53
+#: donate/templates/pages/core/ways_to_give_page_master.html:58
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:37
 msgid "British Pound Sterling (GBP)"
 msgstr "Britanski funt (GBP)"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:55
+#: donate/templates/pages/core/ways_to_give_page_master.html:60
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:39
 msgid "London, United Kingdom"
 msgstr "London, Združeno kraljestvo"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:56
+#: donate/templates/pages/core/ways_to_give_page_master.html:61
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:40
 msgid "Bank Sort Code:"
 msgstr "Številčna oznaka banke:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:57
+#: donate/templates/pages/core/ways_to_give_page_master.html:62
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:41
 msgid "Account Number (8 digits):"
 msgstr "Številka računa (8 številk):"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:68
+#: donate/templates/pages/core/ways_to_give_page_master.html:73
 msgid "Check (via postal service)"
 msgstr "Ček (po pošti)"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:72
+#: donate/templates/pages/core/ways_to_give_page_master.html:77
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:52
-msgid "UPDATE March 20, 2020:"
+msgid "UPDATE October 2020:"
 msgstr ""
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:73
-msgid "Please note that due to the “shelter in place” order recently implemented for California, processing and acknowledgment of check donations to the Mozilla Foundation will be indefinitely delayed. Rather than sending us a check, please consider making an <a href=\"/\">online donation</a> instead."
+#: donate/templates/pages/core/ways_to_give_page_master.html:78
+msgid "The Mozilla Foundation is happy to accept your donation (made payable to “Mozilla Foundation”) via check; however please note that processing and acknowledgment of your gift may be delayed by changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
 msgstr ""
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:83
+#: donate/templates/pages/core/ways_to_give_page_master.html:95
+msgid "Please include your email address on the memo line of your check to help us track and attribute your gift."
+msgstr ""
+
+#: donate/templates/pages/core/ways_to_give_page_master.html:102
 #, python-format
-msgid "Please send a check <strong>including your email address on the memo line</strong>, and payable (payee) to “%(payee)s”."
+msgid "Please also note that the Mozilla Foundation can <strong>only</strong> accept checks in U.S. dollars drawn on a U.S. bank, and <strong>cannot</strong> accept contributions for MZLA/Thunderbird. (Contributions to MZLA/Thunderbird via check can be made by following <a href=\"%(instruction_url)s\" target=\"_blank\">these instructions</a>.)"
 msgstr ""
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:86
-msgid "Please note that the Mozilla Foundation can only accept checks in US dollars drawn on a US bank. Please do <strong>not</strong> send cash."
-msgstr ""
-
-#: donate/templates/pages/core/ways_to_give_page_master.html:101
+#: donate/templates/pages/core/ways_to_give_page_master.html:109
 msgid "Currencies"
 msgstr "Valute"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:102
+#: donate/templates/pages/core/ways_to_give_page_master.html:110
 msgid "Select your currency to make a secure online donation:"
 msgstr "Izberite valuto za izvedbo varne spletne donacije:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:112
+#: donate/templates/pages/core/ways_to_give_page_master.html:120
 msgid "Bitcoin"
 msgstr "Bitcoin"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:114
+#: donate/templates/pages/core/ways_to_give_page_master.html:122
 msgid "The Mozilla Foundation is a California non-profit corporation exempt from United States federal income taxation under IRC 501(c)(3) and a public charity classified under IRC sections 170(b)(1)(A) and 509(a)(1). Bitcoin donations Mozilla receives are considered charitable contributions under U.S. federal tax laws, to be used in its discretion for its charitable purposes. Because the IRS has indicated that it will treat bitcoin as property for U.S. tax purposes (see IRS Notice 2014-21), donations of bitcoin may be subject to special rules as to the amount of your charitable deduction, the documentation that must be provided to claim a tax deduction, or other matters."
 msgstr "Ustanova Mozilla Foundation je kalifornijska neprofitna družba, oproščena plačila davka v ZDA na podlagi člena 501 (c) (3) notranjega davčnega zakonika, in javna dobrodelna ustanova, kot je opredeljeno v notranjem davčnem zakoniku v členih 170 (b) (1) (A) in 509 (a) (1). Donacije, ki jih Mozilla prejme v bitcoinih, se štejejo kot dobrodelni prispevek po zveznih zakonih ZDA, ki se uporabljajo po lastni presoji za dobrodelne namene. Ker je ameriška davčna uprava sporočila, da bo za davčne namene (glejte objavo davčne uprave 2014-21) bitcoine štela kot lastnino, bodo donacije v bitcoinih predmet posebnih pravil, odvisno od zneska olajšave, zahtevane dokumentacije za olajšavo ali drugih zadev."
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:119
+#: donate/templates/pages/core/ways_to_give_page_master.html:127
 #, python-format
 msgid "Learn more about bitcoin donations <a href=\"%(bitcoin_wiki)s\">here</a>. To donate bitcoin, <a href=\"%(bitcoin_donate)s\">please visit this link.</a>"
 msgstr ""
@@ -810,16 +815,7 @@ msgid "Memo field:"
 msgstr "Polje za beležke:"
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:53
-msgid "Please note that due to the “shelter in place” order recently implemented for California, processing and acknowledgment of check donations to Thunderbird/MZLA Technologies will be indefinitely delayed. Rather than sending us a check, please consider making an <a href=\"/\">online donation</a> instead."
-msgstr ""
-
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:61
-#, python-format
-msgid "Please send a check <strong>with “%(thunderbird)s” on the memo line</strong>, and payable (payee) to “%(payee)s”."
-msgstr ""
-
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:64
-msgid "Please note that we can only accept checks in US dollars drawn on a US bank. Please do <strong>not</strong> send cash."
+msgid "MZLA/Thunderbird is happy to accept your donation (made payable to “MZLA Technologies”) via check; however please note that processing and acknowledgment of your gift may be delayed by changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
 msgstr ""
 
 #: donate/thunderbird/templates/payment/card.html:6
