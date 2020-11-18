@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-18 08:51+0000\n"
-"PO-Revision-Date: 2020-11-18 13:15+0000\n"
+"PO-Revision-Date: 2020-11-18 13:16+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fy_NL\n"
@@ -502,7 +502,7 @@ msgstr ""
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:95
 msgid "Please include your email address on the memo line of your check to help us track and attribute your gift."
-msgstr ""
+msgstr "Fermeld jo e-mailadres yn de memorigel fan jo sjek, om ús te helpen jo jefte te folgjen en ta te skriuwen."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:102
 #, python-format
