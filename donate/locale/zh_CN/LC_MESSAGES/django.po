@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-18 08:51+0000\n"
-"PO-Revision-Date: 2020-11-19 01:41+0000\n"
+"PO-Revision-Date: 2020-11-19 01:53+0000\n"
 "Last-Translator: 你我皆凡人 <eloli@foxmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -398,7 +398,7 @@ msgstr "请注意，对于较小金额（不超过 10 欧元或其等值货币�
 msgid ""
 "Please also note that the Mozilla Foundation cannot accept SEPA or BACS transfers for MZLA/Thunderbird. To contribute to MZLA/Thunderbird via SEPA or BACS transfer, please follow <a "
 "href=\"%(instruction_url)s\">these instructions</a>."
-msgstr ""
+msgstr "也请注意 Mozilla 基金会无法代表 MZLA/Thunderbird 接受欧洲 SEPA 或 BACS 系统的银行转账款项。若要通过 SEPA 或 BACS 系统转账向 MZLA/Thunderbird 捐款，请按照<a href=\"%(instruction_url)s\">下列步骤</a>。"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:35
 msgid "Please remember that donations are deductible for U.S. income tax purposes only."
@@ -488,14 +488,14 @@ msgstr "Mozilla 基金会很乐意接受您的捐款支票（抬头请填 MZLA T
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:95
 msgid "Please include your email address on the memo line of your check to help us track and attribute your gift."
-msgstr ""
+msgstr "请在支票备注栏注明您的电子邮件地址，以帮助我们能够更好地追踪并处理您的捐款。"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:102
 #, python-format
 msgid ""
 "Please also note that the Mozilla Foundation can <strong>only</strong> accept checks in U.S. dollars drawn on a U.S. bank, and <strong>cannot</strong> accept contributions for MZLA/Thunderbird. "
 "(Contributions to MZLA/Thunderbird via check can be made by following <a href=\"%(instruction_url)s\" target=\"_blank\">these instructions</a>.)"
-msgstr ""
+msgstr "另外也请注意，Mozilla 基金会<strong>只接受</strong>由美国国内各银行开立的美元支票，也<strong>无法</strong>代表 MZLA/Thunderbird 接受捐款。（若要向 MZLA/Thunderbird 捐款，请按照<a href=\"%(instruction_url)s\" target=\"_blank\">下列步骤</a>。）"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:109
 msgid "Currencies"
