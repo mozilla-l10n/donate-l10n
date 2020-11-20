@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-18 08:51+0000\n"
-"PO-Revision-Date: 2020-11-20 09:51+0000\n"
+"PO-Revision-Date: 2020-11-20 10:06+0000\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sq\n"
@@ -410,6 +410,8 @@ msgid ""
 "Please also note that the Mozilla Foundation cannot accept SEPA or BACS transfers for MZLA/Thunderbird. To contribute to MZLA/Thunderbird via SEPA or BACS transfer, please follow <a "
 "href=\"%(instruction_url)s\">these instructions</a>."
 msgstr ""
+"Ju lutemi, mbani gjithashtu parasysh që Mozilla Foundation s’mund të pranojë dërgesa SEPA ose BACS për MZLA/Thunderbird. Që të jepni ndihmesë për MZLA/Thunderbird përmes dërgesash SEPA ose BACS, ju "
+"lutemi, ndiqni <a href=\"%(instruction_url)s\">këto udhëzime</a>."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:35
 msgid "Please remember that donations are deductible for U.S. income tax purposes only."
@@ -496,10 +498,12 @@ msgid ""
 "The Mozilla Foundation is happy to accept your donation (made payable to “Mozilla Foundation”) via check; however please note that processing and acknowledgment of your gift may be delayed by "
 "changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
 msgstr ""
+"Mozilla Foundation është e gëzuar të pranojë dhurimin tuaj (të pagueshëm për “Mozilla Foundation”) përmes çeqesh; por, ju lutemi, kini parasysh se përpunimi dhe pranimi i dhuratës tuaj mund të "
+"vonohet nga ndryshime te procedura të zyrës tonë për shkak të pandemisë COVID-19. Mund të dërgoni çeqe te:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:95
 msgid "Please include your email address on the memo line of your check to help us track and attribute your gift."
-msgstr ""
+msgstr "Ju utemi, përfshini adresën tuaj email te rreshti memo i çekut tuaj, që të na ndihmoni të ndjekim dhe t’ju atribuojmë dhuratën tuaj."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:102
 #, python-format
@@ -507,6 +511,9 @@ msgid ""
 "Please also note that the Mozilla Foundation can <strong>only</strong> accept checks in U.S. dollars drawn on a U.S. bank, and <strong>cannot</strong> accept contributions for MZLA/Thunderbird. "
 "(Contributions to MZLA/Thunderbird via check can be made by following <a href=\"%(instruction_url)s\" target=\"_blank\">these instructions</a>.)"
 msgstr ""
+"Ju lutemi, mbani gjithashtu parasysh se Mozilla Foundation mund të pranojë <strong>vetëm</strong> çeqe në dollarë amerikanë që mund të thyhen në një bankë të Sh.B.A.-ve, dhe <strong>nuk "
+"mund</strong> të pranojë kontribute për MZLA/Thunderbird. (Kontribute për MZLA/Thunderbird përmes çeqesh mund të bëhen duke ndjekur <a href=\"%(instruction_url)s\" target=\"_blank\">këto "
+"udhëzime</a>.)"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:109
 msgid "Currencies"
@@ -812,6 +819,8 @@ msgid ""
 "MZLA/Thunderbird is happy to accept your donation (made payable to “MZLA Technologies”) via check; however please note that processing and acknowledgment of your gift may be delayed by changes to "
 "our office procedures due to the COVID-19 pandemic. You can send checks to:"
 msgstr ""
+"MZLA/Thunderbird është e kënaqur të pranojë dhurimin tuaj (të pagueshëm për “MZLA Technologies”) përmes çeku; por, ju lutemi, kini parasysh se përpunimi dhe pranimi i dhuratës tuaj mund të vonohet "
+"nga ndryshime te procedura të zyrës tonë për shkak të pandemisë COVID-19. Mund të dërgoni çeqe te:"
 
 #: donate/thunderbird/templates/payment/card.html:6
 msgid "Thank you in advance for your gift."
@@ -849,7 +858,7 @@ msgstr ""
 
 #: donate/thunderbird/templates/payment/newsletter_signup.html:8
 msgid "We’re working hard to protect your inbox. Sign up to receive email messages concerning Thunderbird, including updates and requests for feedback."
-msgstr ""
+msgstr "Punojmë fort për të mbrojtur kutinë tuaj postare. Pajtohuni për të marrë mesazhe që lidhen me Thunderbird-in, përfshi përditësime dhe kërkesa për përshtypjet tuaja."
 
 #: donate/thunderbird/templates/payment/thank_you.html:6
 #, python-format
