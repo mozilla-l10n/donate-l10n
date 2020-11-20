@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-18 08:51+0000\n"
-"PO-Revision-Date: 2020-11-20 23:44+0000\n"
+"PO-Revision-Date: 2020-11-20 23:49+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -507,7 +507,7 @@ msgstr ""
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:95
 msgid "Please include your email address on the memo line of your check to help us track and attribute your gift."
-msgstr ""
+msgstr "Παρακαλούμε γράψτε τη διεύθυνση email σας στη γραμμή υπομνήματος της επιταγής σας, ώστε να μας βοηθήσετε να εντοπίσουμε και να αναγνωρίσουμε τη δωρεά σας."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:102
 #, python-format
@@ -515,6 +515,8 @@ msgid ""
 "Please also note that the Mozilla Foundation can <strong>only</strong> accept checks in U.S. dollars drawn on a U.S. bank, and <strong>cannot</strong> accept contributions for MZLA/Thunderbird. "
 "(Contributions to MZLA/Thunderbird via check can be made by following <a href=\"%(instruction_url)s\" target=\"_blank\">these instructions</a>.)"
 msgstr ""
+"Παρακαλούμε σημειώστε επίσης ότι το Ίδρυμα Mozilla μπορεί να δεχτεί επιταγές <strong>μόνο</strong> σε δολάρια ΗΠΑ από τράπεζα των ΗΠΑ, ενώ <strong>δεν</strong> μπορεί να δεχθεί συνεισφορές για το "
+"MZLA/Thunderbird. (Συνεισφορές στο MZLA/Thunderbird με επιταγή μπορείτε να κάνετε ακολουθώντας <a href=\"%(instruction_url)s\" target=\"_blank\">αυτές τις οδηγίες</a>.)"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:109
 msgid "Currencies"
@@ -823,6 +825,8 @@ msgid ""
 "MZLA/Thunderbird is happy to accept your donation (made payable to “MZLA Technologies”) via check; however please note that processing and acknowledgment of your gift may be delayed by changes to "
 "our office procedures due to the COVID-19 pandemic. You can send checks to:"
 msgstr ""
+"Το MZLA/Thunderbird θα δεχθεί με χαρά τη δωρεά σας (καταβλητέα στο “MZLA/Thunderbird”) μέσω επιταγής· ωστόσο, παρακαλούμε σημειώστε ότι η επεξεργασία και η αναγνώριση της συνεισφοράς σας ενδέχεται "
+"να καθυστερήσει λόγω των αλλαγών για την πανδημία COVID-19. Μπορείτε να στείλετε τις επιταγές σας στη διεύθυνση:"
 
 #: donate/thunderbird/templates/payment/card.html:6
 msgid "Thank you in advance for your gift."
