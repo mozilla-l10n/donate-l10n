@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-18 08:51+0000\n"
-"PO-Revision-Date: 2020-11-18 11:05+0000\n"
+"PO-Revision-Date: 2020-11-21 13:31+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hu\n"
@@ -411,6 +411,8 @@ msgid ""
 "Please also note that the Mozilla Foundation cannot accept SEPA or BACS transfers for MZLA/Thunderbird. To contribute to MZLA/Thunderbird via SEPA or BACS transfer, please follow <a "
 "href=\"%(instruction_url)s\">these instructions</a>."
 msgstr ""
+"Felhívjuk figyelmét arra is, hogy a Mozilla Alapítvány nem fogad el SEPA- vagy BACS-átutalásokat az MZLA/Thunderbirdhöz. Ha SEPA- vagy BACS-átutalással szeretne hozzájárulni az MZLA/Thunderbirdhöz, "
+"kövesse <a href=\"%(instruction_url)s\">ezeket az utasításokat</a>."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:35
 msgid "Please remember that donations are deductible for U.S. income tax purposes only."
@@ -497,10 +499,12 @@ msgid ""
 "The Mozilla Foundation is happy to accept your donation (made payable to “Mozilla Foundation”) via check; however please note that processing and acknowledgment of your gift may be delayed by "
 "changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
 msgstr ""
+"A Mozilla Alapítvány örömmel fogadja el a csekken küldött (a „Mozilla Foundation” számára kiállított) adományát; azonban vegye figyelembe, hogy adományának feldolgozását és átvételét késleltethetik "
+"az irodai eljárásaink COVID-19-járvány miatti változásai. Csekkeket a következő címre küldhet:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:95
 msgid "Please include your email address on the memo line of your check to help us track and attribute your gift."
-msgstr ""
+msgstr "Kérjük, adja meg e-mail-címét a csekk emlékeztető sorában, hogy segítsen nekünk az adomány nyomon követésében és névhez kötésében."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:102
 #, python-format
@@ -508,6 +512,8 @@ msgid ""
 "Please also note that the Mozilla Foundation can <strong>only</strong> accept checks in U.S. dollars drawn on a U.S. bank, and <strong>cannot</strong> accept contributions for MZLA/Thunderbird. "
 "(Contributions to MZLA/Thunderbird via check can be made by following <a href=\"%(instruction_url)s\" target=\"_blank\">these instructions</a>.)"
 msgstr ""
+"Felhívjuk figyelmét arra is, hogy a Mozilla Alapítvány <strong>csak</strong> amerikai dollárban fogadhat el amerikai bank általi csekkeket, és <strong>nem fogadhat el</strong> hozzájárulást az "
+"MZLA/Thunderbirdhöz. (Az MZLA/Thunderbirdhöz való csekken keresztüli hozzájáruláshoz kövesse <a href=\"%(instruction_url)s\" target=\"_blank\">ezeket az utasításokat</a>.)"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:109
 msgid "Currencies"
