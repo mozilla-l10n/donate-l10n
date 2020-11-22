@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-18 08:51+0000\n"
-"PO-Revision-Date: 2020-11-22 13:54+0000\n"
+"PO-Revision-Date: 2020-11-22 14:00+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -502,7 +502,7 @@ msgstr ""
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:95
 msgid "Please include your email address on the memo line of your check to help us track and attribute your gift."
-msgstr ""
+msgstr "Prosimy podać swój adres e-mail w polu informacji na czeku, aby pomóc nam w śledzeniu i określeniu autorstwa datku."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:102
 #, python-format
@@ -510,6 +510,8 @@ msgid ""
 "Please also note that the Mozilla Foundation can <strong>only</strong> accept checks in U.S. dollars drawn on a U.S. bank, and <strong>cannot</strong> accept contributions for MZLA/Thunderbird. "
 "(Contributions to MZLA/Thunderbird via check can be made by following <a href=\"%(instruction_url)s\" target=\"_blank\">these instructions</a>.)"
 msgstr ""
+"Prosimy także pamiętać, że Fundacja Mozilla może przyjmować czeki <strong>wyłącznie</strong> w dolarach amerykańskich wystawione w amerykańskim banku, a także <strong>nie może</strong> przyjmować "
+"datków na rzecz MZLA/Thunderbirda. (Datki na rzecz MZLA/Thunderbirda za pomocą czeku można wykonać postępując zgodnie z <a href=\"%(instruction_url)s\" target=\"_blank\">tymi instrukcjami</a>)."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:109
 msgid "Currencies"
@@ -817,6 +819,8 @@ msgid ""
 "MZLA/Thunderbird is happy to accept your donation (made payable to “MZLA Technologies”) via check; however please note that processing and acknowledgment of your gift may be delayed by changes to "
 "our office procedures due to the COVID-19 pandemic. You can send checks to:"
 msgstr ""
+"MZLA/Thunderbird z przyjemnością przyjmie Twój datek czekiem (wystawionym na „MZLA Technologies”). Prosimy jednak pamiętać, że przetworzenie i potwierdzenie datku może się opóźnić ze względu na "
+"zmiany w naszych procedurach z powodu pandemii COVID-19. Czeki można wysyłać na adres:"
 
 #: donate/thunderbird/templates/payment/card.html:6
 msgid "Thank you in advance for your gift."
