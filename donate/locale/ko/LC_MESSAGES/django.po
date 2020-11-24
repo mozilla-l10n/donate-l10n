@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-18 08:51+0000\n"
+"POT-Creation-Date: 2020-11-24 08:16+0000\n"
 "PO-Revision-Date: 2020-08-20 17:15+0000\n"
 "Last-Translator: Channy Yun <channy@mozilla.or.kr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -396,157 +396,166 @@ msgstr "신용 / 직불카드 및 PayPal"
 msgid "<a href=\"%(ways_to_give_link)s\">Go to this link</a> to make a secure online donation right now."
 msgstr "<a href=\"%(ways_to_give_link)s\">이 링크로 가서</a> 지금 바로 안전한 온라인 기부를 하세요."
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:23
+#: donate/templates/pages/core/ways_to_give_page_master.html:24
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:7
 msgid "Bank Transfer / SEPA"
 msgstr "은행 송금 / SEPA"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:24
+#: donate/templates/pages/core/ways_to_give_page_master.html:25
 msgid "We accept donations in Euros through Single European Payment Area (SEPA) transfer, and British Pounds through BACS transfer."
 msgstr "이제 단일 유로 결제 지역(SEPA) 송금으로 유로와 BACS 송금을 통해 영국 파운드를 기부 받을 수 있게 되었습니다."
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:26
+#: donate/templates/pages/core/ways_to_give_page_master.html:27
 msgid "Note that for smaller (under 10 EUR or equivalent) donations, <strong>and especially for donations under 5 EUR or equivalent</strong>, we request that you donate via credit card or PayPal to help reduce Mozilla’s processing fees."
 msgstr "소규모 (10 유로 이하 또는 이에 상응하는 금액) 기부, 특히 <strong>5유로 이하 또는 이에 상응하는 금액 </ strong> 기부의 경우 Mozilla의 처리 수수료를 줄이기 위해 신용 카드 또는 PayPal을 통해 기부 할 것을 요청합니다."
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:31
+#: donate/templates/pages/core/ways_to_give_page_master.html:32
 #, python-format
 msgid "Please also note that the Mozilla Foundation cannot accept SEPA or BACS transfers for MZLA/Thunderbird. To contribute to MZLA/Thunderbird via SEPA or BACS transfer, please follow <a href=\"%(instruction_url)s\">these instructions</a>."
 msgstr ""
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:35
+#: donate/templates/pages/core/ways_to_give_page_master.html:36
 msgid "Please remember that donations are deductible for U.S. income tax purposes only."
 msgstr "기부금은 미국 소득세 목적으로만 공제될 수 있습니다."
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:37
+#: donate/templates/pages/core/ways_to_give_page_master.html:38
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:15
 #, python-format
 msgid "If your bank requests our physical address, it is %(address)s."
 msgstr "은행에서 실제 주소를 요청하는 경우, %(address)s입니다."
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:43
+#: donate/templates/pages/core/ways_to_give_page_master.html:45
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:22
 msgid "Euros:"
 msgstr "유로:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:45
-#: donate/templates/pages/core/ways_to_give_page_master.html:58
+#: donate/templates/pages/core/ways_to_give_page_master.html:47
+#: donate/templates/pages/core/ways_to_give_page_master.html:60
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:24
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:37
 msgid "Account Currency:"
 msgstr "계좌 통화:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:45
+#: donate/templates/pages/core/ways_to_give_page_master.html:47
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:24
 msgid "Euro (EUR)"
 msgstr "유로화 (EUR)"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:46
-#: donate/templates/pages/core/ways_to_give_page_master.html:59
+#: donate/templates/pages/core/ways_to_give_page_master.html:48
+#: donate/templates/pages/core/ways_to_give_page_master.html:61
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:25
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:38
 msgid "Receiving Bank (Pay to):"
 msgstr "받는 은행(송금할 곳):"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:47
-#: donate/templates/pages/core/ways_to_give_page_master.html:60
+#: donate/templates/pages/core/ways_to_give_page_master.html:49
+#: donate/templates/pages/core/ways_to_give_page_master.html:62
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:26
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:39
 msgid "City & Country/Region:"
 msgstr "도시 및 국가/지역:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:47
+#: donate/templates/pages/core/ways_to_give_page_master.html:49
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:26
 msgid "Frankfurt, Germany"
 msgstr "독일 프랑크푸르트"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:48
-#: donate/templates/pages/core/ways_to_give_page_master.html:66
+#: donate/templates/pages/core/ways_to_give_page_master.html:50
+#: donate/templates/pages/core/ways_to_give_page_master.html:68
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:27
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:45
 msgid "SWIFT/BIC Code:"
 msgstr "SWIFT/BIC 코드:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:49
-#: donate/templates/pages/core/ways_to_give_page_master.html:63
+#: donate/templates/pages/core/ways_to_give_page_master.html:51
+#: donate/templates/pages/core/ways_to_give_page_master.html:65
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:28
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:42
 msgid "Beneficiary Name (For credit to):"
 msgstr "수취인 이름(받는 사람):"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:50
-#: donate/templates/pages/core/ways_to_give_page_master.html:67
+#: donate/templates/pages/core/ways_to_give_page_master.html:52
+#: donate/templates/pages/core/ways_to_give_page_master.html:69
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:29
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:46
 msgid "IBAN:"
 msgstr "IBAN:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:56
+#: donate/templates/pages/core/ways_to_give_page_master.html:58
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:35
 msgid "British Pound Sterling:"
 msgstr "영국 파운드 스털링:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:58
+#: donate/templates/pages/core/ways_to_give_page_master.html:60
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:37
 msgid "British Pound Sterling (GBP)"
 msgstr "영국령 파운드 스털링 (GBP)"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:60
+#: donate/templates/pages/core/ways_to_give_page_master.html:62
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:39
 msgid "London, United Kingdom"
 msgstr "영국 런던"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:61
+#: donate/templates/pages/core/ways_to_give_page_master.html:63
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:40
 msgid "Bank Sort Code:"
 msgstr "은행 분류 코드:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:62
+#: donate/templates/pages/core/ways_to_give_page_master.html:64
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:41
 msgid "Account Number (8 digits):"
 msgstr "계좌 번호(8자리):"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:73
+#: donate/templates/pages/core/ways_to_give_page_master.html:75
+msgid "Donation of Stock/Securities:"
+msgstr ""
+
+#: donate/templates/pages/core/ways_to_give_page_master.html:77
+#, python-format
+msgid "The Mozilla Foundation is happy to accept your gift of publicly-traded stocks or bonds through our brokerage account at Northern Trust Securities. Please contact Major Gift Officer %(name)s at <a href=\"mailto:%(email)s\">%(email)s</a> to initiate the process."
+msgstr ""
+
+#: donate/templates/pages/core/ways_to_give_page_master.html:86
 msgid "Check (via postal service)"
 msgstr "수표 (우편 서비스)"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:77
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:52
+#: donate/templates/pages/core/ways_to_give_page_master.html:90
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:54
 #, fuzzy
 #| msgid "UPDATE March 20, 2020:"
 msgid "UPDATE October 2020:"
 msgstr "2020년 3월 20일에 업데이트:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:78
+#: donate/templates/pages/core/ways_to_give_page_master.html:91
 msgid "The Mozilla Foundation is happy to accept your donation (made payable to “Mozilla Foundation”) via check; however please note that processing and acknowledgment of your gift may be delayed by changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
 msgstr ""
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:95
+#: donate/templates/pages/core/ways_to_give_page_master.html:108
 msgid "Please include your email address on the memo line of your check to help us track and attribute your gift."
 msgstr ""
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:102
+#: donate/templates/pages/core/ways_to_give_page_master.html:115
 #, python-format
 msgid "Please also note that the Mozilla Foundation can <strong>only</strong> accept checks in U.S. dollars drawn on a U.S. bank, and <strong>cannot</strong> accept contributions for MZLA/Thunderbird. (Contributions to MZLA/Thunderbird via check can be made by following <a href=\"%(instruction_url)s\" target=\"_blank\">these instructions</a>.)"
 msgstr ""
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:109
+#: donate/templates/pages/core/ways_to_give_page_master.html:122
 msgid "Currencies"
 msgstr "통화"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:110
+#: donate/templates/pages/core/ways_to_give_page_master.html:123
 msgid "Select your currency to make a secure online donation:"
 msgstr "안전한 온라인 후원에 사용할 통화를 선택해 주세요:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:120
+#: donate/templates/pages/core/ways_to_give_page_master.html:133
 msgid "Bitcoin"
 msgstr "비트코인"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:122
+#: donate/templates/pages/core/ways_to_give_page_master.html:135
 msgid "The Mozilla Foundation is a California non-profit corporation exempt from United States federal income taxation under IRC 501(c)(3) and a public charity classified under IRC sections 170(b)(1)(A) and 509(a)(1). Bitcoin donations Mozilla receives are considered charitable contributions under U.S. federal tax laws, to be used in its discretion for its charitable purposes. Because the IRS has indicated that it will treat bitcoin as property for U.S. tax purposes (see IRS Notice 2014-21), donations of bitcoin may be subject to special rules as to the amount of your charitable deduction, the documentation that must be provided to claim a tax deduction, or other matters."
 msgstr "Mozilla 재단은 IRC 501(c)(3)에 따라 캘리포니아 비 영리 회사로서 미 연방 정부 소득 과세로 부터 면제를 받고 있고 IRC 섹션 170(b)(1)(A)와 509(a)(1)에 따라 공공 자선 단체입니다. Mozilla가 기부 받는 비트 코인 후원은 미국 연방 정부 세법에 의해서 자선 기부로 여겨지고 자선 목적을 위해서 재량에 의해 사용됩니다. IRS가 비트코인을 U.S. 과세 목적을 위해 재산으로 삼겠다고 명시(IRS Notice 2014-21)했기 때문에, 비트 코인을 이용한 기부는 기부자의 기부 공제 규모나 세금 감면을 위해 제출되어져야 하는 문서나 다른 부분에 따라 특별한 규정에 의해 처리될 수 있습니다."
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:127
+#: donate/templates/pages/core/ways_to_give_page_master.html:140
 #, python-format
 msgid "Learn more about bitcoin donations <a href=\"%(bitcoin_wiki)s\">here</a>. To donate bitcoin, <a href=\"%(bitcoin_donate)s\">please visit this link.</a>"
 msgstr "<a href=\"%(bitcoin_wiki)s\">여기</a>에서 비트코인 기부에 대해 자세히 알아보세요. 비트코인으로 기부하려면 <a href=\"%(bitcoin_donate)s\">이 링크</a>를 방문하세요"
@@ -816,7 +825,7 @@ msgstr "더 적은 금액 (10 유로 이하 또는 이에 상응하는 금액) �
 msgid "Memo field:"
 msgstr "메모 영역:"
 
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:53
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:55
 msgid "MZLA/Thunderbird is happy to accept your donation (made payable to “MZLA Technologies”) via check; however please note that processing and acknowledgment of your gift may be delayed by changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
 msgstr ""
 

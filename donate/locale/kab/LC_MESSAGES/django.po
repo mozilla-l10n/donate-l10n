@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-18 08:51+0000\n"
+"POT-Creation-Date: 2020-11-24 08:16+0000\n"
 "PO-Revision-Date: 2020-08-18 10:30+0000\n"
 "Last-Translator: KAHINA <kahinamessaoudi03@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -396,157 +396,166 @@ msgstr "Asmad / Aktum akked PayPal"
 msgid "<a href=\"%(ways_to_give_link)s\">Go to this link</a> to make a secure online donation right now."
 msgstr "<a href=\"%(ways_to_give_link)s\">Ddu ɣer useɣwen-a</a> akken ad tmuddeḍ tawsa srid s wudem aɣelsan tura."
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:23
+#: donate/templates/pages/core/ways_to_give_page_master.html:24
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:7
 msgid "Bank Transfer / SEPA"
 msgstr "Asiweḍ s lbanka / SEPA"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:24
+#: donate/templates/pages/core/ways_to_give_page_master.html:25
 msgid "We accept donations in Euros through Single European Payment Area (SEPA) transfer, and British Pounds through BACS transfer."
 msgstr "Nqebbel tawsa s yuru s usureg deg temnaḍt n lexlaṣ n turuft kan (SEPA), neɣ s upawnd sterling s usureg BACS."
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:26
+#: donate/templates/pages/core/ways_to_give_page_master.html:27
 msgid "Note that for smaller (under 10 EUR or equivalent) donations, <strong>and especially for donations under 5 EUR or equivalent</strong>, we request that you donate via credit card or PayPal to help reduce Mozilla’s processing fees."
 msgstr "Ẓer belli i tewsa tamecṭuḥt (ddaw n 10 uruten neɣ ssuma tagdazalt), <strong>aṭas aṭas i tewsa ddaw 5 uruten neɣ ssuma tagddazalt</strong>, ad awen-nsuter ad tmuddem tawsa s tkarḍa n usmad neɣ PayPal akken ad tallem ad d-iṣubb wazal n usesfer n Mozilla."
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:31
+#: donate/templates/pages/core/ways_to_give_page_master.html:32
 #, python-format
 msgid "Please also note that the Mozilla Foundation cannot accept SEPA or BACS transfers for MZLA/Thunderbird. To contribute to MZLA/Thunderbird via SEPA or BACS transfer, please follow <a href=\"%(instruction_url)s\">these instructions</a>."
 msgstr ""
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:35
+#: donate/templates/pages/core/ways_to_give_page_master.html:36
 msgid "Please remember that donations are deductible for U.S. income tax purposes only."
 msgstr "Ma ulac aɣilif cfu belli tawsa tettwakas-d seg tevzart n tjeṛnaṭ ḥala deg U.S."
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:37
+#: donate/templates/pages/core/ways_to_give_page_master.html:38
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:15
 #, python-format
 msgid "If your bank requests our physical address, it is %(address)s."
 msgstr "Ma yella tabankat tessuter-d tansa-nneɣ n lpusṭa, mudd %(address)s."
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:43
+#: donate/templates/pages/core/ways_to_give_page_master.html:45
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:22
 msgid "Euros:"
 msgstr "Uruten:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:45
-#: donate/templates/pages/core/ways_to_give_page_master.html:58
+#: donate/templates/pages/core/ways_to_give_page_master.html:47
+#: donate/templates/pages/core/ways_to_give_page_master.html:60
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:24
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:37
 msgid "Account Currency:"
 msgstr "Tadrimt n umiḍan:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:45
+#: donate/templates/pages/core/ways_to_give_page_master.html:47
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:24
 msgid "Euro (EUR)"
 msgstr "Uru (Turuft)"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:46
-#: donate/templates/pages/core/ways_to_give_page_master.html:59
+#: donate/templates/pages/core/ways_to_give_page_master.html:48
+#: donate/templates/pages/core/ways_to_give_page_master.html:61
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:25
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:38
 msgid "Receiving Bank (Pay to):"
 msgstr "Tabankat n uremmas (Lexlaṣ i):"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:47
-#: donate/templates/pages/core/ways_to_give_page_master.html:60
+#: donate/templates/pages/core/ways_to_give_page_master.html:49
+#: donate/templates/pages/core/ways_to_give_page_master.html:62
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:26
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:39
 msgid "City & Country/Region:"
 msgstr "Tamdint & Tamurt/Tamnaḍt:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:47
+#: donate/templates/pages/core/ways_to_give_page_master.html:49
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:26
 msgid "Frankfurt, Germany"
 msgstr "Frankfurt, Alman"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:48
-#: donate/templates/pages/core/ways_to_give_page_master.html:66
+#: donate/templates/pages/core/ways_to_give_page_master.html:50
+#: donate/templates/pages/core/ways_to_give_page_master.html:68
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:27
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:45
 msgid "SWIFT/BIC Code:"
 msgstr "Tangalt SWIFT/BIC:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:49
-#: donate/templates/pages/core/ways_to_give_page_master.html:63
+#: donate/templates/pages/core/ways_to_give_page_master.html:51
+#: donate/templates/pages/core/ways_to_give_page_master.html:65
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:28
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:42
 msgid "Beneficiary Name (For credit to):"
 msgstr "ISem n uremmas (i usmad i):"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:50
-#: donate/templates/pages/core/ways_to_give_page_master.html:67
+#: donate/templates/pages/core/ways_to_give_page_master.html:52
+#: donate/templates/pages/core/ways_to_give_page_master.html:69
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:29
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:46
 msgid "IBAN:"
 msgstr "IBAN:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:56
+#: donate/templates/pages/core/ways_to_give_page_master.html:58
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:35
 msgid "British Pound Sterling:"
 msgstr "Ipawnden n tgelda yedduklen:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:58
+#: donate/templates/pages/core/ways_to_give_page_master.html:60
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:37
 msgid "British Pound Sterling (GBP)"
 msgstr "Apawnd Sterling n Britanya (GBP)"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:60
+#: donate/templates/pages/core/ways_to_give_page_master.html:62
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:39
 msgid "London, United Kingdom"
 msgstr "London, Tagduda Yedduklen"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:61
+#: donate/templates/pages/core/ways_to_give_page_master.html:63
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:40
 msgid "Bank Sort Code:"
 msgstr "Tangalt n tbankat:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:62
+#: donate/templates/pages/core/ways_to_give_page_master.html:64
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:41
 msgid "Account Number (8 digits):"
 msgstr "Uṭṭun n umiḍan (8 n izwilen):"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:73
+#: donate/templates/pages/core/ways_to_give_page_master.html:75
+msgid "Donation of Stock/Securities:"
+msgstr ""
+
+#: donate/templates/pages/core/ways_to_give_page_master.html:77
+#, python-format
+msgid "The Mozilla Foundation is happy to accept your gift of publicly-traded stocks or bonds through our brokerage account at Northern Trust Securities. Please contact Major Gift Officer %(name)s at <a href=\"mailto:%(email)s\">%(email)s</a> to initiate the process."
+msgstr ""
+
+#: donate/templates/pages/core/ways_to_give_page_master.html:86
 msgid "Check (via postal service)"
 msgstr "Ccik (s uweẓlu n tanazant)"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:77
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:52
+#: donate/templates/pages/core/ways_to_give_page_master.html:90
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:54
 #, fuzzy
 #| msgid "UPDATE March 20, 2020:"
 msgid "UPDATE October 2020:"
 msgstr "LQEM n MEƔRES 20, 2020:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:78
+#: donate/templates/pages/core/ways_to_give_page_master.html:91
 msgid "The Mozilla Foundation is happy to accept your donation (made payable to “Mozilla Foundation”) via check; however please note that processing and acknowledgment of your gift may be delayed by changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
 msgstr ""
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:95
+#: donate/templates/pages/core/ways_to_give_page_master.html:108
 msgid "Please include your email address on the memo line of your check to help us track and attribute your gift."
 msgstr ""
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:102
+#: donate/templates/pages/core/ways_to_give_page_master.html:115
 #, python-format
 msgid "Please also note that the Mozilla Foundation can <strong>only</strong> accept checks in U.S. dollars drawn on a U.S. bank, and <strong>cannot</strong> accept contributions for MZLA/Thunderbird. (Contributions to MZLA/Thunderbird via check can be made by following <a href=\"%(instruction_url)s\" target=\"_blank\">these instructions</a>.)"
 msgstr ""
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:109
+#: donate/templates/pages/core/ways_to_give_page_master.html:122
 msgid "Currencies"
 msgstr "Tidrimin"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:110
+#: donate/templates/pages/core/ways_to_give_page_master.html:123
 msgid "Select your currency to make a secure online donation:"
 msgstr "Fren tadrimt inek akken ad tmuddeḍ srid s wudem aɣelsan:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:120
+#: donate/templates/pages/core/ways_to_give_page_master.html:133
 msgid "Bitcoin"
 msgstr "Bitcoin"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:122
+#: donate/templates/pages/core/ways_to_give_page_master.html:135
 msgid "The Mozilla Foundation is a California non-profit corporation exempt from United States federal income taxation under IRC 501(c)(3) and a public charity classified under IRC sections 170(b)(1)(A) and 509(a)(1). Bitcoin donations Mozilla receives are considered charitable contributions under U.S. federal tax laws, to be used in its discretion for its charitable purposes. Because the IRS has indicated that it will treat bitcoin as property for U.S. tax purposes (see IRS Notice 2014-21), donations of bitcoin may be subject to special rules as to the amount of your charitable deduction, the documentation that must be provided to claim a tax deduction, or other matters."
 msgstr "Mozilla Foundation d tasbeddit ur yettnadin ara tadrimt, n Kalifurnya, ue yettmuddun ara tabzert ɣef wayen i d-sekcam dui Marikan aken tella tgezmi 501(c)(3) n Internal Revenue Code (IRC) udiɣ tettwammel d tuddsa n txiṛ akken llant tgezmiiyin 170(b)(1)(A) akked 509(a)(1) nIRC. Tawsa s bitcoin i d-remmes Mozilla ttwahsaben d tawsa i tuddsiwin n lxiṛ akken yella usaḍuf̣ ɣef tebzert di Marikan, ihi ad tettwaseqdec kan di lecɣal icudden ar lxiṛ.  Ameẓulu Internal Revenue yemmal-d d akken ad isesfer bitcoin am yedrimen di tebzert di Marikan (wali alɣu 2014-21 n IRS). Tawsa s bivoin tezmer ad tili daw n kra n ilugan ɣef tnecta n tukkist inek icudden ar tewsa n lxiṛ, ɣef wayen i yessefk ad tmuddeḍ akken ad tessutreḍ tukkist n tebzert, akked wayen-nniḍen."
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:127
+#: donate/templates/pages/core/ways_to_give_page_master.html:140
 #, python-format
 msgid "Learn more about bitcoin donations <a href=\"%(bitcoin_wiki)s\">here</a>. To donate bitcoin, <a href=\"%(bitcoin_donate)s\">please visit this link.</a>"
 msgstr "Issin ugar ɣef tewsa s bitcoin <a href=\"%(bitcoin_wiki)s\">dagi</a>. Akken ad tmuddeḍ tawsa s bitcoin, <a href=\"%(bitcoin_donate)s\">rzu ma ulac aɣilif ɣe useɣwen-a.</a>"
@@ -816,7 +825,7 @@ msgstr "Ma ulac aɣilif, ẓer belli i uttekki wezzilen (ddaw n 10 uruten neɣ s
 msgid "Memo field:"
 msgstr "Tabzimt:"
 
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:53
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:55
 msgid "MZLA/Thunderbird is happy to accept your donation (made payable to “MZLA Technologies”) via check; however please note that processing and acknowledgment of your gift may be delayed by changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
 msgstr ""
 
