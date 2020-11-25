@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-25 08:55+0000\n"
-"PO-Revision-Date: 2020-11-25 18:33+0000\n"
+"PO-Revision-Date: 2020-11-25 18:39+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: \n"
 "Language: ia\n"
@@ -172,6 +172,7 @@ msgstr ""
 #, python-format
 msgid "Monthly donations are charged each month on the same day that you donate today, and will continue until you cancel. To cancel, email us at <a href=\"mailto:%(email)s\">%(email)s</a>."
 msgstr ""
+"Le donationes mensual es cargate cata mense al mesme die que tu ha donate hodie e continuara usque tu lo cancellara. Pro cancellar, invia nos un e-mail a <a href=\"mailto:%(email)s\">%(email)s</a>."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:17
 #, python-format
