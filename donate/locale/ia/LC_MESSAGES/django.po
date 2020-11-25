@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-25 08:55+0000\n"
-"PO-Revision-Date: 2020-11-25 18:54+0000\n"
+"PO-Revision-Date: 2020-11-25 22:31+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: \n"
 "Language: ia\n"
@@ -182,61 +182,63 @@ msgstr "Altere manieras pro donar: <a href=\"%(wire_transfer_url)s\">transaction
 #: donate/templates/fragments/donate_form_disclaimer_master.html:23
 #, python-format
 msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"mailto:%(email)s\">Send us an email</a>."
-msgstr ""
+msgstr "Problemas a donar? Visita nostre <a href=\"%(faq_url)s\">Demandas Frequente</a> pro responsas al questiones plus commun. Ancora problemas? <a href=\"mailto:%(email)s\">Invia nos un e-mail</a>."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:30
 msgid ""
 "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in Mountain View, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S."
 " to the fullest extent permitted by law."
 msgstr ""
+"Le contributiones va al Fundation Mozilla, un 501(c)(3) organisation basate in Mountain View, California, a esser usate in su discretion pro su propositos caritabile. Illos es deducibile del taxas "
+"in le SUA, usque al maxime mensura permittite per lege."
 
 #: donate/templates/fragments/language_switcher.html:10 donate/templates/pages/core/contributor_support_page_master.html:50
 msgid "Language"
-msgstr ""
+msgstr "Lingua"
 
 #: donate/templates/pages/base_page_master.html:28
 msgid "Who we are"
-msgstr ""
+msgstr "Qui es nos"
 
 #: donate/templates/pages/base_page_master.html:31
 msgid "What we do"
-msgstr ""
+msgstr "Que face nos"
 
 #: donate/templates/pages/base_page_master.html:34
 msgid "What we fund"
-msgstr ""
+msgstr "Que financia nos"
 
 #: donate/templates/pages/base_page_master.html:37
 msgid "What you can do"
-msgstr ""
+msgstr "Que pote facer tu"
 
 #: donate/templates/pages/base_page_master.html:40
 msgid "Blog"
-msgstr ""
+msgstr "Blog"
 
 #: donate/templates/pages/base_page_master.html:51
 msgid "Menu"
-msgstr ""
+msgstr "Menu"
 
 #: donate/templates/pages/base_page_master.html:76
 msgid "Protect the internet as a global public resource"
-msgstr ""
+msgstr "Proteger internet como ressource public global"
 
 #: donate/templates/pages/base_page_master.html:84
 msgid "Join our email list to take action and stay updated!"
-msgstr ""
+msgstr "Junge te a nostre lista e-mail pro interprender action e star actualisate!"
 
 #: donate/templates/pages/base_page_master.html:85
 msgid "Enter email address"
-msgstr ""
+msgstr "Insere tu adresse de e-mail"
 
 #: donate/templates/pages/base_page_master.html:88
 msgid "Sign up"
-msgstr ""
+msgstr "Inscribe te"
 
 #: donate/templates/pages/base_page_master.html:96
 msgid "Thanks!"
-msgstr ""
+msgstr "Gratias!"
 
 #: donate/templates/pages/base_page_master.html:97
 msgid "If you haven’t previously confirmed a subscription to a Mozilla-related newsletter you may have to do so. Please check your inbox or your spam filter for an email from us."
