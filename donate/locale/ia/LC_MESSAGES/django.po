@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-25 08:55+0000\n"
-"PO-Revision-Date: 2020-11-25 18:29+0000\n"
+"PO-Revision-Date: 2020-11-25 18:33+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: \n"
 "Language: ia\n"
@@ -156,7 +156,7 @@ msgstr "Face un donation"
 
 #: donate/templates/fragments/donate_form.html:97
 msgid "per month"
-msgstr ""
+msgstr "cata mense"
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:6
 #, python-format
@@ -164,6 +164,9 @@ msgid ""
 "Mozilla is committed to your privacy; please read our <a href=\"%(privacy_url)s\">privacy policy here</a>. Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a "
 "PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Mozilla."
 msgstr ""
+"Mozilla es dedicate a tu confidentialitate; per favor lege nostre <a href=\"%(privacy_url)s\">politica de confidentialitate hic</a>. Tu datos de pagamento sera processate per <a "
+"href=\"%(braintree_url)s\">Braintree</a>, un compania de Paypal (pro cartas de credito/debito) o <a href=\"%(paypal_url)s\">Paypal</a>, e un registration de tu donation sera immagazinate per "
+"Mozilla."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:9
 #, python-format
