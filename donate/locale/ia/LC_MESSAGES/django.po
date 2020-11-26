@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-25 08:55+0000\n"
-"PO-Revision-Date: 2020-11-26 08:24+0000\n"
+"PO-Revision-Date: 2020-11-26 09:53+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: \n"
 "Language: ia\n"
@@ -392,7 +392,7 @@ msgstr "Transferentia bancari / SEPA"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:25
 msgid "We accept donations in Euros through Single European Payment Area (SEPA) transfer, and British Pounds through BACS transfer."
-msgstr ""
+msgstr "Nos accepta donationes in Euros per transferentia SEPA (Area Europee pro Singule Pagamento), e libras sterling britannic per transferentia BACS."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:27
 msgid ""
