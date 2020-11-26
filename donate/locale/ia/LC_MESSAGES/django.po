@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-25 08:55+0000\n"
-"PO-Revision-Date: 2020-11-26 11:36+0000\n"
+"PO-Revision-Date: 2020-11-26 12:04+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: \n"
 "Language: ia\n"
@@ -521,14 +521,16 @@ msgid ""
 "Please also note that the Mozilla Foundation can <strong>only</strong> accept checks in U.S. dollars drawn on a U.S. bank, and <strong>cannot</strong> accept contributions for MZLA/Thunderbird. "
 "(Contributions to MZLA/Thunderbird via check can be made by following <a href=\"%(instruction_url)s\" target=\"_blank\">these instructions</a>.)"
 msgstr ""
+"Nota alsi que le Fundation Mozilla pote <strong>solo</strong> acceptar cheques in dollars SUA, proveniente de un banca SUA,  e <strong>non pote </strong> acceptar contributiones pro "
+"MZLA/Thunderbird. (Le contributiones pro MZLA/Thunderbird via cheques pote esser facite sequente <a href=\"%(instruction_url)s\" target=\"_blank\">iste instructiones</a>.)"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:122
 msgid "Currencies"
-msgstr ""
+msgstr "Monetas"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:123
 msgid "Select your currency to make a secure online donation:"
-msgstr ""
+msgstr "Elige tu moneta pro facer un donation secur online:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:133
 msgid "Bitcoin"
@@ -549,7 +551,7 @@ msgstr ""
 
 #: donate/templates/payment/card_master.html:4
 msgid "Your information"
-msgstr ""
+msgstr "Tu informationes"
 
 #: donate/templates/payment/card_master.html:20
 #, python-format
