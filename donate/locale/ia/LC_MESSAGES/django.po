@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-25 08:55+0000\n"
-"PO-Revision-Date: 2020-11-26 12:08+0000\n"
+"PO-Revision-Date: 2020-11-26 12:52+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: \n"
 "Language: ia\n"
@@ -484,7 +484,7 @@ msgstr "Numero de conto (8 cifras):"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:75
 msgid "Donation of Stock/Securities:"
-msgstr ""
+msgstr "Donation de stock/valores:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:77
 #, python-format
@@ -569,7 +569,7 @@ msgstr "Cambiar amonta"
 
 #: donate/templates/payment/card_master.html:34
 msgid "Donation Amount"
-msgstr ""
+msgstr "Amonta del donation"
 
 #: donate/templates/payment/card_master.html:39
 msgid "Confirm"
