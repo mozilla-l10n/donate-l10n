@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-25 08:55+0000\n"
-"PO-Revision-Date: 2020-11-26 16:44+0000\n"
+"PO-Revision-Date: 2020-11-26 16:53+0000\n"
 "Last-Translator: Rhoslyn Prys <rprys@posteo.net>\n"
 "Language-Team: \n"
 "Language: cy\n"
@@ -171,109 +171,114 @@ msgstr ""
 #, python-format
 msgid "Monthly donations are charged each month on the same day that you donate today, and will continue until you cancel. To cancel, email us at <a href=\"mailto:%(email)s\">%(email)s</a>."
 msgstr ""
-"Mae rhoddion misol yn cael eu codi bob mis ar yr un diwrnod ag y byddwch yn ei roi heddiw, a byddant yn parhau nes i chi eu hatal. I'w hatal, anfonwch e-bost atom at <a href=\"mailto:%(email)s\">% "
-"(e-bost) s </a>."
+"Mae rhoddion misol yn cael eu codi bob mis ar yr un diwrnod ag y byddwch yn ei roi heddiw, a byddant yn parhau nes i chi eu hatal. I'w hatal, anfonwch e-bost atom at <a "
+"href=\"mailto:%(email)s\">%(email)s%(email)s</a>"
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:17
 #, python-format
 msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a> | <a href=\"%(bitcoin_url)s\">Bitcoin</a>"
-msgstr ""
+msgstr "Ffyrdd eraill o roi: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Sieciau</a> | <a href=\"%(bitcoin_url)s\">Bitcoin</a>"
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:23
 #, python-format
 msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"mailto:%(email)s\">Send us an email</a>."
 msgstr ""
+"Problemau yn rhoi? Ewch i'n <a href=\"%(faq_url)s\">Cwestiynau Cyffredin</a> i gael atebion i'r cwestiynau mwyaf cyffredin. Yn dal i gael problemau? <a href=\"mailto:%(email)s\">Anfonwch e-bost "
+"atom</a>."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:30
 msgid ""
 "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in Mountain View, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S."
 " to the fullest extent permitted by law."
 msgstr ""
+"Mae cyfraniadau'n mynd i'r Mozilla Foundation, sefydliad 501(c)(3) wedi'i leoli yn Mountain View, California, i'w ddefnyddio yn ôl ei ddisgresiwn at ei ddibenion elusennol. Maent yn ddidynadwy o ran"
+" treth yn yr Unol Daleithiau i'r graddau eithaf y mae'n cael ei ganiatáu gan y gyfraith. ID Treth y Mozilla Foundation yw 20-0097189."
 
 #: donate/templates/fragments/language_switcher.html:10 donate/templates/pages/core/contributor_support_page_master.html:50
 msgid "Language"
-msgstr ""
+msgstr "Iaith"
 
 #: donate/templates/pages/base_page_master.html:28
 msgid "Who we are"
-msgstr ""
+msgstr "Pwy ydyn ni"
 
 #: donate/templates/pages/base_page_master.html:31
 msgid "What we do"
-msgstr ""
+msgstr "Beth rydyn ni'n ei wneud"
 
 #: donate/templates/pages/base_page_master.html:34
 msgid "What we fund"
-msgstr ""
+msgstr "Beth rydyn ni'n ei ariannu"
 
 #: donate/templates/pages/base_page_master.html:37
 msgid "What you can do"
-msgstr ""
+msgstr "Beth allwch chi ei wneud"
 
 #: donate/templates/pages/base_page_master.html:40
 msgid "Blog"
-msgstr ""
+msgstr "Blog"
 
 #: donate/templates/pages/base_page_master.html:51
 msgid "Menu"
-msgstr ""
+msgstr "Dewislen"
 
 #: donate/templates/pages/base_page_master.html:76
 msgid "Protect the internet as a global public resource"
-msgstr ""
+msgstr "Diogelu'r rhyngrwyd fel adnodd cyhoeddus byd-eang"
 
 #: donate/templates/pages/base_page_master.html:84
 msgid "Join our email list to take action and stay updated!"
-msgstr ""
+msgstr "Ymunwch â'n rhestr e-bost i weithredu ac i gael y wybodaeth ddiweddaraf!"
 
 #: donate/templates/pages/base_page_master.html:85
 msgid "Enter email address"
-msgstr ""
+msgstr "Rhowch eich cyfeiriad e-bost"
 
 #: donate/templates/pages/base_page_master.html:88
 msgid "Sign up"
-msgstr ""
+msgstr "Ymuno"
 
 #: donate/templates/pages/base_page_master.html:96
 msgid "Thanks!"
-msgstr ""
+msgstr "Diolch!"
 
 #: donate/templates/pages/base_page_master.html:97
 msgid "If you haven’t previously confirmed a subscription to a Mozilla-related newsletter you may have to do so. Please check your inbox or your spam filter for an email from us."
 msgstr ""
+"Os nad ydych eisoes wedi cadarnhau tanysgrifiad i gylchlythyr gan Mozilla, mae'n bosib y bydd yn rhaid i chi wneud hynny. Edrychwch yn eich blwch derbyn neu eich hidl sbam am e-bost gennym ni."
 
 #: donate/templates/pages/base_page_master.html:112
 msgid "More about us"
-msgstr ""
+msgstr "Rhagor amdanom ni"
 
 #: donate/templates/pages/base_page_master.html:116 donate/templates/payment/thank_you_master.html:38 donate/thunderbird/templates/pages/base_page.html:38
 #: donate/thunderbird/templates/payment/thank_you.html:27
 msgid "Twitter"
-msgstr ""
+msgstr "Twitter"
 
 #: donate/templates/pages/base_page_master.html:122
 msgid "Instagram"
-msgstr ""
+msgstr "Instagram"
 
 #: donate/templates/pages/base_page_master.html:128
 msgid "GitHub"
-msgstr ""
+msgstr "GitHub"
 
 #: donate/templates/pages/base_page_master.html:142 donate/thunderbird/templates/pages/base_page.html:61
 msgid "Participation Guidelines"
-msgstr ""
+msgstr "Canllawiau Cyfranogi"
 
 #: donate/templates/pages/base_page_master.html:145 donate/thunderbird/templates/pages/base_page.html:53
 msgid "Legal"
-msgstr ""
+msgstr "Cyfreithiol"
 
 #: donate/templates/pages/base_page_master.html:148 donate/thunderbird/templates/pages/base_page.html:56
 msgid "Privacy"
-msgstr ""
+msgstr "Preifatrwydd"
 
 #: donate/templates/pages/base_page_master.html:151
 msgid "License"
-msgstr ""
+msgstr "Trwydded"
 
 #: donate/templates/pages/base_page_master.html:172
 #, python-format
@@ -281,82 +286,84 @@ msgid ""
 "Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a "
 "%(link_attributes)s>%(site_url)s</a>."
 msgstr ""
+"Mae Mozilla yn gorff dim-er-elw byd-eang sy'n ymroddedig i'ch rhoi mewn rheolaeth dros eich profiad ar-lein a siapio dyfodol y we er budd y cyhoedd. Dewch i'r cyfarfod yn <a "
+"%(link_attributes)s>%(site_url)s</a>."
 
 #: donate/templates/pages/core/campaign_page.html:43 donate/templates/pages/core/ways_to_give_page_master.html:12
 msgctxt "Button"
 msgid "DONATE NOW"
-msgstr ""
+msgstr "RHOWCH NAWR"
 
 #: donate/templates/pages/core/campaign_page.html:57 donate/templates/pages/core/landing_page_master.html:36 donate/templates/payment/card_master.html:159
 msgid "Seal of Charity Navigator 4-Star"
-msgstr ""
+msgstr "Seal of Charity Navigator 4-Star"
 
 #: donate/templates/pages/core/campaign_page.html:60 donate/templates/pages/core/landing_page_master.html:39 donate/templates/payment/card_master.html:162
 msgid "Seal of GuideStar Gold 2019"
-msgstr ""
+msgstr "Seal of GuideStar Gold 2019"
 
 #: donate/templates/pages/core/campaign_page.html:70
 msgctxt "Header"
 msgid "Donate now"
-msgstr ""
+msgstr "Rhowch nawr"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:18
 msgid "Thank you for contacting us. A case has been created for your issue and we will be in touch shortly."
-msgstr ""
+msgstr "Diolch am gysylltu â ni. Mae achos wedi'i greu ar gyfer eich mater a byddwn mewn cysylltiad yn fuan."
 
 #: donate/templates/pages/core/contributor_support_page_master.html:24
 msgid "We will get back to you soon."
-msgstr ""
+msgstr "Byddwn yn cysylltu â chi yn fuan."
 
 #: donate/templates/pages/core/contributor_support_page_master.html:28
 msgid "If you need help with a contribution to MZLA/Thunderbird, fill out this form and a Thunderbird donor care representative will get back to you as soon as possible."
-msgstr ""
+msgstr "Os oes angen help arnoch gyda rhodd i MZLA/Thunderbird, llenwch y ffurflen hon a bydd cynrychiolydd gofal rhoddwr Thunderbird yn cysylltu â chi cyn gynted â phosibl."
 
 #: donate/templates/pages/core/contributor_support_page_master.html:40
 msgid "Contact Name"
-msgstr ""
+msgstr "Enw Cyswllt"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:53
 msgctxt "Option in 'Language' dropdown"
 msgid "None"
-msgstr ""
+msgstr "Dim"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:54
 msgid "English"
-msgstr ""
+msgstr "Saesneg"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:55
 msgid "French"
-msgstr ""
+msgstr "Ffrangeg"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:56
 msgid "German"
-msgstr ""
+msgstr "Almaeneg"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:57
 msgid "Spanish"
-msgstr ""
+msgstr "Sbaeneg"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:58
 msgid "Polish"
-msgstr ""
+msgstr "Pwyleg"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:59
 msgid "Portuguese"
-msgstr ""
+msgstr "Portiwgaleg"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:60
 msgctxt "Option in 'Language' dropdown"
 msgid "Other"
-msgstr ""
+msgstr "Arall"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:66
 msgid "Subject"
-msgstr ""
+msgstr "Pwnc"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:71
 msgid "Description"
-msgstr ""
+msgstr "Disgrifiad"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:75
 #, python-format
