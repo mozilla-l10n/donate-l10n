@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-25 08:55+0000\n"
-"PO-Revision-Date: 2020-11-26 12:04+0000\n"
+"PO-Revision-Date: 2020-11-26 12:08+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: \n"
 "Language: ia\n"
@@ -565,7 +565,7 @@ msgstr ""
 
 #: donate/templates/payment/card_master.html:26
 msgid "Change amount"
-msgstr ""
+msgstr "Cambiar amonta"
 
 #: donate/templates/payment/card_master.html:34
 msgid "Donation Amount"
@@ -577,12 +577,12 @@ msgstr "Confirmar"
 
 #: donate/templates/payment/card_master.html:44
 msgid "Your Details"
-msgstr ""
+msgstr "Tu datos"
 
 #: donate/templates/payment/card_master.html:60 donate/templates/payment/card_upsell_master.html:34 donate/templates/payment/newsletter_signup_master.html:30
 #: donate/templates/payment/paypal_upsell_master.html:34
 msgid "There were some errors with your form. Please amend the fields highlighted below."
-msgstr ""
+msgstr "Il ha alcun errores con tu modulo. Emenda le campos evidentiate infra."
 
 #: donate/templates/payment/card_master.html:64
 msgid "We were unable to take payment because the payment processor reported an error with your address information:"
@@ -590,7 +590,7 @@ msgstr ""
 
 #: donate/templates/payment/card_master.html:68
 msgid "Please correct these errors and try again."
-msgstr ""
+msgstr "Corrige iste errores e reproba."
 
 #: donate/templates/payment/card_master.html:91
 msgid "Payment"
