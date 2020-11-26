@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-25 08:55+0000\n"
-"PO-Revision-Date: 2020-11-26 17:04+0000\n"
+"PO-Revision-Date: 2020-11-26 17:05+0000\n"
 "Last-Translator: Rhoslyn Prys <rprys@posteo.net>\n"
 "Language-Team: \n"
 "Language: cy\n"
@@ -475,19 +475,19 @@ msgstr "Sterling, Punt Prydain (GBP)"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:62 donate/thunderbird/templates/pages/core/ways_to_give_page.html:39
 msgid "London, United Kingdom"
-msgstr ""
+msgstr "Llundain, y Deyrnas Unedig"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:63 donate/thunderbird/templates/pages/core/ways_to_give_page.html:40
 msgid "Bank Sort Code:"
-msgstr ""
+msgstr "Cod Trefnu'r Banc:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:64 donate/thunderbird/templates/pages/core/ways_to_give_page.html:41
 msgid "Account Number (8 digits):"
-msgstr ""
+msgstr "Rhif Cyfrif (8 digid):"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:75
 msgid "Donation of Stock/Securities:"
-msgstr ""
+msgstr "Rhoi Stoc/Gwarantau:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:77
 #, python-format
