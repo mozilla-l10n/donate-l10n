@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-25 08:55+0000\n"
-"PO-Revision-Date: 2020-11-26 09:53+0000\n"
+"PO-Revision-Date: 2020-11-26 10:02+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: \n"
 "Language: ia\n"
@@ -399,6 +399,8 @@ msgid ""
 "Note that for smaller (under 10 EUR or equivalent) donations, <strong>and especially for donations under 5 EUR or equivalent</strong>, we request that you donate via credit card or PayPal to help "
 "reduce Mozilla’s processing fees."
 msgstr ""
+"Nota que pro donationes minor (sub 10 EUROS o equivalente), <strong>e specialmente pro donationes sub 5 EUROS o equivalente</strong>, nos require que tu dona via carta de credito o Paypal pro "
+"adjutar reducer le oneres de processo de Mozilla."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:32
 #, python-format
@@ -406,6 +408,8 @@ msgid ""
 "Please also note that the Mozilla Foundation cannot accept SEPA or BACS transfers for MZLA/Thunderbird. To contribute to MZLA/Thunderbird via SEPA or BACS transfer, please follow <a "
 "href=\"%(instruction_url)s\">these instructions</a>."
 msgstr ""
+"Per favor alsi nota que le Fundation Mozilla non pote acceptar transferentias SEPA o BACS pro MZLA/Thunderbird. Pro contribuer a MZLA/Thunderbird via SEPA o transferentia BACS, seque <a "
+"href=\"%(instruction_url)s\">iste instructiones</a>."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:36
 msgid "Please remember that donations are deductible for U.S. income tax purposes only."
