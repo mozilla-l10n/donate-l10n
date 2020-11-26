@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-25 08:55+0000\n"
-"PO-Revision-Date: 2020-11-26 11:06+0000\n"
-"Last-Translator: Théo Chevalier <theo.chevalier11@gmail.com>\n"
+"PO-Revision-Date: 2020-11-26 11:36+0000\n"
+"Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: \n"
 "Language: ia\n"
 "MIME-Version: 1.0\n"
@@ -492,24 +492,28 @@ msgid ""
 "The Mozilla Foundation is happy to accept your gift of publicly-traded stocks or bonds through our brokerage account at Northern Trust Securities. Please contact Major Gift Officer %(name)s at <a "
 "href=\"mailto:%(email)s\">%(email)s</a> to initiate the process."
 msgstr ""
+"Le Fundation Mozilla es felice de acceptar tu donation de stocks o obligationes publicamente excambiate a transverso de nostre conto de brokerage al Northern Trust Securities. Continge le "
+"Functionario del donos major %(name)s a <a href=\"mailto:%(email)s\">%(email)s</a> pro comenciar le procedura."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:86
 msgid "Check (via postal service)"
-msgstr ""
+msgstr "Cheque (via servicio postal)"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:90 donate/thunderbird/templates/pages/core/ways_to_give_page.html:54
 msgid "UPDATE October 2020:"
-msgstr ""
+msgstr "ACTUALISATE octobre 2020:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:91
 msgid ""
 "The Mozilla Foundation is happy to accept your donation (made payable to “Mozilla Foundation”) via check; however please note that processing and acknowledgment of your gift may be delayed by "
 "changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
 msgstr ""
+"Le Fundation Mozilla es felice de acceptar tu donation (rendite pagabile a “Mozilla Foundation”) via cheque; totevia nota que le procedura e le recognition de tu dono pote esser retardate per "
+"cambiamentos a nostre proceduras de officio per le pandemia de COVID-19. Tu pote inviar le cheques a:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:108
 msgid "Please include your email address on the memo line of your check to help us track and attribute your gift."
-msgstr ""
+msgstr "Per favor include tu adresse e-mail sur le linea memento de tu cheque pro adjutar nos a traciar e attribuer tu dono."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:115
 #, python-format
