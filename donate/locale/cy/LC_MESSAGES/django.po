@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-25 08:55+0000\n"
-"PO-Revision-Date: 2020-11-27 11:42+0000\n"
+"PO-Revision-Date: 2020-11-27 11:52+0000\n"
 "Last-Translator: Rhoslyn Prys <rprys@posteo.net>\n"
 "Language-Team: \n"
 "Language: cy\n"
@@ -689,83 +689,83 @@ msgstr "Cadw mewn cysylltiad"
 
 #: donate/templates/payment/newsletter_signup_master.html:14
 msgid "Protect the internet as a global public resource. Join our email list to take action and stay updated!"
-msgstr ""
+msgstr "Diogelwch y rhyngrwyd fel adnodd cyhoeddus byd-eang. Ymunwch â'n rhestr e-bost i weithredu ac i gael y wybodaeth ddiweddaraf!"
 
 #: donate/templates/payment/newsletter_signup_master.html:40
 msgid "Sign Up"
-msgstr ""
+msgstr "Ymuno"
 
 #: donate/templates/payment/paypal_upsell_master.html:41
 msgid "/ Monthly"
-msgstr ""
+msgstr "/ Misol"
 
 #: donate/templates/payment/paypal_upsell_master.html:52
 msgid "No"
-msgstr ""
+msgstr "Na"
 
 #: donate/templates/payment/thank_you_master.html:15
 msgid "Your donation will go right to work protecting the web, keeping it open and available to all."
-msgstr ""
+msgstr "Bydd eich rhodd yn mynd yn syth tuag at ddiogelu'r, gan ei chadw ar agor ac ar gael i bawb."
 
 #: donate/templates/payment/thank_you_master.html:15
 #, python-format
 msgid "We’ve emailed you a donation receipt; if it’s missing, please check your junk/spam folders, then contact us at <a href=\"mailto:%(email)s\">%(email)s</a>."
-msgstr ""
+msgstr "Rydym wedi e-bostio derbynneb rhodd atoch; os yw ar goll, edrychwch yn eich ffolderau sothach/sbam, yna cysylltwch â ni ar <a href=\"mailto:%(email)s\">%(email)s</a>."
 
 #: donate/templates/payment/thank_you_master.html:17
 msgid "Lastly, can you multiply your impact by sharing about the important work Mozilla is doing? Thank you again!"
-msgstr ""
+msgstr "Yn olaf, oes modd i chi gynyddu'ch effaith trwy rannu am y gwaith pwysig y mae Mozilla yn ei wneud? Diolch i chi unwaith eto!"
 
 #: donate/templates/payment/thank_you_master.html:22
 msgctxt "Used as a tweet"
 msgid "I donated to @mozilla today because I #lovetheweb. Join me and help fight for a better and healthier internet, for all."
-msgstr ""
+msgstr "Rwyf wedi rhoi i @mozilla heddiw oherwydd fy mod i'n #carurwe #lovetheweb. Ymunwch â mi a helpu i frwydro am rhyngrwyd gwell ac iachach, i bawb."
 
 #: donate/templates/payment/thank_you_master.html:23
 msgctxt "Email subject line"
 msgid "I donated to Mozilla today"
-msgstr ""
+msgstr "Rwyf wedi rhoi i Mozilla heddiw"
 
 #: donate/templates/payment/thank_you_master.html:27 donate/thunderbird/templates/payment/thank_you.html:16
 msgid "Share on Facebook"
-msgstr ""
+msgstr "Rhannu ar Facebook"
 
 #: donate/templates/payment/thank_you_master.html:31 donate/thunderbird/templates/pages/base_page.html:44 donate/thunderbird/templates/payment/thank_you.html:20
 msgid "Facebook"
-msgstr ""
+msgstr "Facebook"
 
 #: donate/templates/payment/thank_you_master.html:34 donate/thunderbird/templates/payment/thank_you.html:23
 msgid "Share on Twitter"
-msgstr ""
+msgstr "Rhannu ar Twitter"
 
 #: donate/templates/payment/thank_you_master.html:44 donate/thunderbird/templates/payment/thank_you.html:33
 msgctxt "Share button"
 msgid "Email"
-msgstr ""
+msgstr "E-bost"
 
 #: donate/templates/payment/thank_you_master.html:54 donate/thunderbird/templates/payment/thank_you.html:43
 msgctxt "Share button"
 msgid "Link"
-msgstr ""
+msgstr "Dolen"
 
 #: donate/templates/payment/thank_you_master.html:55 donate/thunderbird/templates/payment/thank_you.html:44
 msgid "Copied"
-msgstr ""
+msgstr "Copiwyd"
 
 #: donate/templates/tags/primarynav.html:10
 msgid "Back"
-msgstr ""
+msgstr "Nôl"
 
 #: donate/thunderbird/templates/base.html:9 donate/thunderbird/templates/pages/base_page.html:9 donate/thunderbird/templates/pages/base_page.html:16
 #: donate/thunderbird/templates/pages/base_page.html:17
 msgctxt "Page title"
 msgid "Give to Thunderbird"
-msgstr ""
+msgstr "Rhoi i Thunderbird"
 
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:7
 #, python-format
 msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a>"
-msgstr ""
+msgstr "Ffyrdd eraill o roi: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Sieciau</a>"
 
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:12
 #, python-format
@@ -773,31 +773,35 @@ msgid ""
 "Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your "
 "donation will be stored by Thunderbird. Please read our <a href=\"%(privacy_url)s\">privacy policy here</a>."
 msgstr ""
+"Bydd eich manylion talu yn cael eu prosesu gan <a href=\"%(braintree_url)s\">Braintree</a>, cwmni PayPal (ar gyfer cardiau credyd/debyd) neu <a href=\"%(paypal_url)s\">PayPal< / a>, a bydd cofnod "
+"o'ch rhodd yn cael ei gadw gan Thunderbird. Darllenwch ein polisi preifatrwydd <a href=\"%(privacy_url)s\">yma</a>."
 
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:15
 #, python-format
 msgid "Monthly donations are charged each month on the same day that you donate today, and will continue until you cancel. To cancel, fill out <a href=\"%(help_url)s\">this form</a>."
-msgstr ""
+msgstr "Mae rhoddion misol yn cael eu codi bob mis ar yr un diwrnod ag y byddwch yn ei roi heddiw, a byddant yn parhau nes i chi eu hatal. I'w hatal, llenwch <a href=\"%(help_url)s\">y ffurflen hon</a>."
 
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:21
 #, python-format
 msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"%(help_url)s\">Contact us</a>."
-msgstr ""
+msgstr "Problemau yn rhoi? Ewch i'n <a href=\"%(faq_url)s\">Cwestiynau Cyffredin</a> i gael atebion i'r cwestiynau mwyaf cyffredin. Yn dal i gael problemau? <a href=\"%(help_url)s\">Cysylltwch â ni</a>."
 
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:27
 msgid ""
 "Contributions go to MZLA Technologies Corporation, a California corporation wholly owned by the Mozilla Foundation. Funds will be reserved for use in the Thunderbird project. Contributions are not "
 "tax-deductible as charitable contributions."
 msgstr ""
+"Mae cyfraniadau yn mynd i MZLA Technologies Corporation, corfforaeth o California sy'n eiddo llwyr i'r Mozilla Foundation. Bydd arian yn cael ei gadw i'w ddefnyddio gan broject Thunderbird. Nid oes "
+"modd didynnu treth ar gyfraniadau fel cyfraniadau elusennol."
 
 #: donate/thunderbird/templates/pages/base_page.html:59
 msgid "Cookies"
-msgstr ""
+msgstr "Cwcis"
 
 #: donate/thunderbird/templates/pages/base_page.html:71
 #, python-format
 msgid "Portions of this content are ©1998–%(current_year)s by individual contributors. Content available under a <a %(link_attributes)s>Creative Commons license</a>"
-msgstr ""
+msgstr "Mae darnau o'r cynnwys yn ©1998–%(current_year)s gan gyfranwyr unigol. Mae'r cynnwys ar gael o dan <a href=\"%(url)s\">drwydded Creative Commons</a>."
 
 #: donate/thunderbird/templates/pages/core/landing_page.html:7
 #, python-format
