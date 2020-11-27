@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-25 08:55+0000\n"
-"PO-Revision-Date: 2020-11-27 11:23+0000\n"
+"PO-Revision-Date: 2020-11-27 11:32+0000\n"
 "Last-Translator: Rhoslyn Prys <rprys@posteo.net>\n"
 "Language-Team: \n"
 "Language: cy\n"
@@ -516,7 +516,7 @@ msgstr ""
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:108
 msgid "Please include your email address on the memo line of your check to help us track and attribute your gift."
-msgstr ""
+msgstr "Cofiwch gynnwys eich cyfeiriad e-bost ar linell memo eich siec i'n helpu i olrhain a phriodoli'ch rhodd."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:115
 #, python-format
@@ -524,18 +524,20 @@ msgid ""
 "Please also note that the Mozilla Foundation can <strong>only</strong> accept checks in U.S. dollars drawn on a U.S. bank, and <strong>cannot</strong> accept contributions for MZLA/Thunderbird. "
 "(Contributions to MZLA/Thunderbird via check can be made by following <a href=\"%(instruction_url)s\" target=\"_blank\">these instructions</a>.)"
 msgstr ""
+"Sylwch hefyd y gall y Mozilla Foundation dderbyn sieciau mewn doleri yr Unol Daleithiau <b>yn unig</b>, wedi'u tynnu ar fanc yn yr Unol Daleithiau, ac nid yw'n gallu derbyn cyfraniadau ar gyfer "
+"MZLA/Thunderbird. (Mae modd gwneud cyfraniadau i MZLA/Thunderbird trwy siec trwy ddilyn <a id=\"a1\">y cyfarwyddiadau hyn</a>.)"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:122
 msgid "Currencies"
-msgstr ""
+msgstr "Arian cyfred"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:123
 msgid "Select your currency to make a secure online donation:"
-msgstr ""
+msgstr "Dewiswch eich arian cyfred i wneud rhoddion diogel ar-lein:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:133
 msgid "Bitcoin"
-msgstr ""
+msgstr "Bitcoin"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:135
 msgid ""
@@ -544,50 +546,54 @@ msgid ""
 "indicated that it will treat bitcoin as property for U.S. tax purposes (see IRS Notice 2014-21), donations of bitcoin may be subject to special rules as to the amount of your charitable deduction, "
 "the documentation that must be provided to claim a tax deduction, or other matters."
 msgstr ""
+"Mae'r Mozilla Foundation  yn gorfforaeth ddim-er-elw yng Nghalifornia sydd wedi'i heithrio rhag trethiant incwm ffederal yr Unol Daleithiau o dan IRC 501(c)(3) ac yn elusen gyhoeddus sy'n cael ei "
+"ddosbarthu o dan adrannau IRC 170(b)(1)(A) a 509(a)(1). Mae rhoddion bitcoin y mae Mozilla yn eu derbyn yn cael eu hystyried yn gyfraniadau elusennol o dan gyfreithiau treth ffederal yr Unol "
+"Daleithiau, i'w defnyddio yn ôl ei ddisgresiwn at ei ddibenion elusennol. Oherwydd bod yr IRS wedi nodi y bydd yn trin bitcoin fel eiddo at ddibenion treth yr Unol Daleithiau (gweler IRS Notice "
+"2014-21), gall rhoddion o bitcoin fod yn ddarostyngedig i reolau arbennig ynghylch swm eich didyniad elusennol, y ddogfennaeth y mae'n rhaid ei darparu i hawlio didyniad treth, neu faterion eraill."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:140
 #, python-format
 msgid "Learn more about bitcoin donations <a href=\"%(bitcoin_wiki)s\">here</a>. To donate bitcoin, <a href=\"%(bitcoin_donate)s\">please visit this link.</a>"
-msgstr ""
+msgstr "Darllenwch ragor am roddion bitcoin <a href=\"%(bitcoin_wiki)s\"> yma </a>. I roi drwy bitcoin, <a href=\"%(bitcoin_donate)s\">ewch i'r ddolen hon.</a>"
 
 #: donate/templates/payment/card_master.html:4
 msgid "Your information"
-msgstr ""
+msgstr "Eich manylion"
 
 #: donate/templates/payment/card_master.html:20
 #, python-format
 msgid "You are donating <span class=\"%(span_class)s\">%(formatted_amount)s</span> per month"
-msgstr ""
+msgstr "Rydych yn rhoi <span class = \"% (span_class)s\">%(formatted_amount)s</span> y mis"
 
 #: donate/templates/payment/card_master.html:22
 #, python-format
 msgid "You are donating <span class=\"%(span_class)s\">%(formatted_amount)s</span>"
-msgstr ""
+msgstr "Rydych chi'n rhoi <span class = \"%(span_class)s\">%(formatted_amount)s</span>"
 
 #: donate/templates/payment/card_master.html:26
 msgid "Change amount"
-msgstr ""
+msgstr "Newid y swm"
 
 #: donate/templates/payment/card_master.html:34
 msgid "Donation Amount"
-msgstr ""
+msgstr "Swm y Rhoddion"
 
 #: donate/templates/payment/card_master.html:39
 msgid "Confirm"
-msgstr ""
+msgstr "Cadarnhau"
 
 #: donate/templates/payment/card_master.html:44
 msgid "Your Details"
-msgstr ""
+msgstr "Eich Manylion"
 
 #: donate/templates/payment/card_master.html:60 donate/templates/payment/card_upsell_master.html:34 donate/templates/payment/newsletter_signup_master.html:30
 #: donate/templates/payment/paypal_upsell_master.html:34
 msgid "There were some errors with your form. Please amend the fields highlighted below."
-msgstr ""
+msgstr "Roedd rhai gwallau gyda'ch ffurflen. Newidiwch y meysydd sy'n cael eu hamlygu isod."
 
 #: donate/templates/payment/card_master.html:64
 msgid "We were unable to take payment because the payment processor reported an error with your address information:"
-msgstr ""
+msgstr "Nid oeddem yn gallu cymryd taliad oherwydd bod y prosesydd talu wedi adrodd am wall gyda manylion eich cyfeiriad:"
 
 #: donate/templates/payment/card_master.html:68
 msgid "Please correct these errors and try again."
