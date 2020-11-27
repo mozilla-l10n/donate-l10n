@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-25 08:55+0000\n"
-"PO-Revision-Date: 2020-11-27 13:34+0000\n"
+"PO-Revision-Date: 2020-11-27 13:36+0000\n"
 "Last-Translator: Théo Chevalier <theo.chevalier11@gmail.com>\n"
 "Language-Team: \n"
 "Language: cy\n"
@@ -563,12 +563,12 @@ msgstr "Eich manylion"
 #: donate/templates/payment/card_master.html:20
 #, python-format
 msgid "You are donating <span class=\"%(span_class)s\">%(formatted_amount)s</span> per month"
-msgstr "Rydych yn rhoi <span class = \"% (span_class)s\">%(formatted_amount)s</span> y mis"
+msgstr "Rydych yn rhoi <span class=\"%(span_class)s\">%(formatted_amount)s</span> y mis"
 
 #: donate/templates/payment/card_master.html:22
 #, python-format
 msgid "You are donating <span class=\"%(span_class)s\">%(formatted_amount)s</span>"
-msgstr "Rydych yn rhoi <span class = \"%(span_class)s\">%(formatted_amount)s</span>"
+msgstr "Rydych yn rhoi <span class=\"%(span_class)s\">%(formatted_amount)s</span>"
 
 #: donate/templates/payment/card_master.html:26
 msgid "Change amount"
