@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-25 08:55+0000\n"
-"PO-Revision-Date: 2020-11-27 12:04+0000\n"
+"PO-Revision-Date: 2020-11-27 12:12+0000\n"
 "Last-Translator: Rhoslyn Prys <rprys@posteo.net>\n"
 "Language-Team: \n"
 "Language: cy\n"
@@ -546,7 +546,7 @@ msgid ""
 "indicated that it will treat bitcoin as property for U.S. tax purposes (see IRS Notice 2014-21), donations of bitcoin may be subject to special rules as to the amount of your charitable deduction, "
 "the documentation that must be provided to claim a tax deduction, or other matters."
 msgstr ""
-"Mae'r Mozilla Foundation  yn gorfforaeth ddim-er-elw yng Nghalifornia sydd wedi'i heithrio rhag trethiant incwm ffederal yr Unol Daleithiau o dan IRC 501(c)(3) ac yn elusen gyhoeddus sy'n cael ei "
+"Mae'r Mozilla Foundation  yn gorfforaeth ddim-er-elw yng Nghalifornia sydd wedi'i heithrio rhag treth incwm ffederal yr Unol Daleithiau o dan IRC 501(c)(3) ac yn elusen gyhoeddus sy'n cael ei "
 "ddosbarthu o dan adrannau IRC 170(b)(1)(A) a 509(a)(1). Mae rhoddion bitcoin y mae Mozilla yn eu derbyn yn cael eu hystyried yn gyfraniadau elusennol o dan gyfreithiau treth ffederal yr Unol "
 "Daleithiau, i'w defnyddio yn ôl ei ddisgresiwn at ei ddibenion elusennol. Oherwydd bod yr IRS wedi nodi y bydd yn trin bitcoin fel eiddo at ddibenion treth yr Unol Daleithiau (gweler IRS Notice "
 "2014-21), gall rhoddion o bitcoin fod yn ddarostyngedig i reolau arbennig ynghylch swm eich didyniad elusennol, y ddogfennaeth y mae'n rhaid ei darparu i hawlio didyniad treth, neu faterion eraill."
@@ -568,7 +568,7 @@ msgstr "Rydych yn rhoi <span class = \"% (span_class)s\">%(formatted_amount)s</s
 #: donate/templates/payment/card_master.html:22
 #, python-format
 msgid "You are donating <span class=\"%(span_class)s\">%(formatted_amount)s</span>"
-msgstr "Rydych chi'n rhoi <span class = \"%(span_class)s\">%(formatted_amount)s</span>"
+msgstr "Rydych yn rhoi <span class = \"%(span_class)s\">%(formatted_amount)s</span>"
 
 #: donate/templates/payment/card_master.html:26
 msgid "Change amount"
@@ -622,7 +622,7 @@ msgid ""
 "I must cancel at least 5 days before the next scheduled donation by email to <a href='mailto:%(email)s'>%(email)s</a>, and that I may only request a refund within 15 days from the date of a "
 "donation."
 msgstr ""
-"Rwy'n awdurdodi i'r Mozilla Foundation godi tâl ar fy ngherdyn yn awtomatig bob mis yn y swm sy'n cael ei nodi uchod, gan ddechrau heddiw a pharhau bob mis ar yr un diwrnod, nes i mi ei atal. Rwy'n "
+"Rwy'n awdurdodi'r Mozilla Foundation i godi tâl ar fy ngherdyn yn awtomatig bob mis am y swm sy'n cael ei nodi uchod, gan ddechrau heddiw a pharhau bob mis ar yr un diwrnod, nes i mi ei atal. Rwy'n "
 "deall bod yn rhaid i mi ei atal o leiaf 5 diwrnod cyn y rhodd nesaf a drefnwyd trwy e-bost i <a href='mailto:%(email)s'>% (e-mail)s</a>, ac mai dim ond o fewn 15 diwrnod o ddyddiad rhodd y gallaf "
 "ofyn am ad-daliad."
 
@@ -671,7 +671,7 @@ msgid ""
 "I authorize Mozilla Foundation to automatically charge my card every month in the amount indicated above, starting next month on the same date as today, and continuing each month afterwards until I "
 "cancel. I understand that I must cancel at least 5 days before the next scheduled donation by email to %(email)s, and that I may only request a refund within 15 days from the date of a donation."
 msgstr ""
-"Rwy'n awdurdodi'r Mozilla Foundation i godi tâl ar fy ngherdyn yn awtomatig bob mis yn y swm sy'n cael ei nodi uchod, gan ddechrau fis nesaf ar yr un dyddiad â heddiw, a pharhau bob mis wedi hynny "
+"Rwy'n awdurdodi'r Mozilla Foundation i godi tâl ar fy ngherdyn yn awtomatig bob mis am y swm sy'n cael ei nodi uchod, gan ddechrau fis nesaf ar yr un dyddiad â heddiw, a pharhau bob mis wedi hynny "
 "nes i mi ei atal. Rwy'n deall bod yn rhaid i mi ei atal o leiaf 5 diwrnod cyn y rhodd nesaf a drefnwyd trwy e-bost at %(email)s, ac mai dim ond cyn pen 15 diwrnod o ddyddiad rhoi y gallaf ofyn am "
 "ad-daliad."
 
@@ -705,12 +705,12 @@ msgstr "Na"
 
 #: donate/templates/payment/thank_you_master.html:15
 msgid "Your donation will go right to work protecting the web, keeping it open and available to all."
-msgstr "Bydd eich rhodd yn mynd yn syth tuag at ddiogelu'r, gan ei chadw ar agor ac ar gael i bawb."
+msgstr "Bydd eich rhodd yn mynd yn syth tuag at ddiogelu'r we, gan ei chadw ar agor ac ar gael i bawb."
 
 #: donate/templates/payment/thank_you_master.html:15
 #, python-format
 msgid "We’ve emailed you a donation receipt; if it’s missing, please check your junk/spam folders, then contact us at <a href=\"mailto:%(email)s\">%(email)s</a>."
-msgstr "Rydym wedi e-bostio derbynneb rhodd atoch; os yw ar goll, edrychwch yn eich ffolderau sothach/sbam, yna cysylltwch â ni ar <a href=\"mailto:%(email)s\">%(email)s</a>."
+msgstr "Rydym wedi e-bostio derbynneb rhodd atoch; os yw ar goll, edrychwch yn eich ffolderi sothach/sbam, yna cysylltwch â ni ar <a href=\"mailto:%(email)s\">%(email)s</a>."
 
 #: donate/templates/payment/thank_you_master.html:17
 msgid "Lastly, can you multiply your impact by sharing about the important work Mozilla is doing? Thank you again!"
@@ -750,7 +750,7 @@ msgstr "Dolen"
 
 #: donate/templates/payment/thank_you_master.html:55 donate/thunderbird/templates/payment/thank_you.html:44
 msgid "Copied"
-msgstr "Copiwyd"
+msgstr "Copïwyd"
 
 #: donate/templates/tags/primarynav.html:10
 msgid "Back"
@@ -784,14 +784,14 @@ msgstr "Mae rhoddion misol yn cael eu codi bob mis ar yr un diwrnod ag y byddwch
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:21
 #, python-format
 msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"%(help_url)s\">Contact us</a>."
-msgstr "Problemau yn rhoi? Ewch i'n <a href=\"%(faq_url)s\">Cwestiynau Cyffredin</a> i gael atebion i'r cwestiynau mwyaf cyffredin. Yn dal i gael problemau? <a href=\"%(help_url)s\">Cysylltwch â ni</a>."
+msgstr "Problemau wrth roi? Ewch i'n <a href=\"%(faq_url)s\">Cwestiynau Cyffredin</a> i gael atebion i'r cwestiynau mwyaf cyffredin. Yn dal i gael problemau? <a href=\"%(help_url)s\">Cysylltwch â ni</a>."
 
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:27
 msgid ""
 "Contributions go to MZLA Technologies Corporation, a California corporation wholly owned by the Mozilla Foundation. Funds will be reserved for use in the Thunderbird project. Contributions are not "
 "tax-deductible as charitable contributions."
 msgstr ""
-"Mae cyfraniadau yn mynd i MZLA Technologies Corporation, corfforaeth o California sy'n eiddo llwyr i'r Mozilla Foundation. Bydd arian yn cael ei gadw i'w ddefnyddio gan broject Thunderbird. Nid oes "
+"Mae cyfraniadau'n mynd i MZLA Technologies Corporation, corfforaeth o California sy'n eiddo llwyr i'r Mozilla Foundation. Bydd arian yn cael ei gadw i'w ddefnyddio gan broject Thunderbird. Nid oes "
 "modd didynnu treth ar gyfraniadau fel cyfraniadau elusennol."
 
 #: donate/thunderbird/templates/pages/base_page.html:59
@@ -801,7 +801,7 @@ msgstr "Cwcis"
 #: donate/thunderbird/templates/pages/base_page.html:71
 #, python-format
 msgid "Portions of this content are ©1998–%(current_year)s by individual contributors. Content available under a <a %(link_attributes)s>Creative Commons license</a>"
-msgstr "Mae darnau o'r cynnwys yn ©1998–%(current_year)s gan gyfranwyr unigol. Mae'r cynnwys ar gael o dan <a href=\"%(url)s\">drwydded Creative Commons</a>."
+msgstr "Mae darnau o'r cynnwys o dan ©1998–%(current_year)s i gyfranwyr unigol. Mae'r cynnwys ar gael o dan <a href=\"%(url)s\">drwydded Creative Commons</a>."
 
 #: donate/thunderbird/templates/pages/core/landing_page.html:7
 #, python-format
