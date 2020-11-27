@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-25 08:55+0000\n"
-"PO-Revision-Date: 2020-11-27 13:03+0000\n"
+"PO-Revision-Date: 2020-11-27 13:34+0000\n"
 "Last-Translator: Théo Chevalier <theo.chevalier11@gmail.com>\n"
 "Language-Team: \n"
 "Language: cy\n"
@@ -801,7 +801,7 @@ msgstr "Cwcis"
 #: donate/thunderbird/templates/pages/base_page.html:71
 #, python-format
 msgid "Portions of this content are ©1998–%(current_year)s by individual contributors. Content available under a <a %(link_attributes)s>Creative Commons license</a>"
-msgstr "Mae darnau o'r cynnwys o dan ©1998–%(current_year)s i gyfranwyr unigol. Mae'r cynnwys ar gael o dan <a href=\"%(url)s\">drwydded Creative Commons</a>."
+msgstr "Mae darnau o'r cynnwys o dan ©1998–%(current_year)s i gyfranwyr unigol. Mae'r cynnwys ar gael o dan <a %(link_attributes)s>drwydded Creative Commons</a>."
 
 #: donate/thunderbird/templates/pages/core/landing_page.html:7
 #, python-format
