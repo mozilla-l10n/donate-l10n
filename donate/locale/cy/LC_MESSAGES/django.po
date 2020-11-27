@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-25 08:55+0000\n"
-"PO-Revision-Date: 2020-11-27 11:52+0000\n"
+"PO-Revision-Date: 2020-11-27 12:04+0000\n"
 "Last-Translator: Rhoslyn Prys <rprys@posteo.net>\n"
 "Language-Team: \n"
 "Language: cy\n"
@@ -115,7 +115,7 @@ msgstr "Heb ganfod y dudalen"
 
 #: donate/templates/404.html:12
 msgid "Uh oh!"
-msgstr ""
+msgstr "Uh oh!"
 
 #: donate/templates/404.html:13
 msgid "Sorry, the page does not exist"
@@ -806,31 +806,35 @@ msgstr "Mae darnau o'r cynnwys yn ©1998–%(current_year)s gan gyfranwyr unigol
 #: donate/thunderbird/templates/pages/core/landing_page.html:7
 #, python-format
 msgid "Your download should have begun automatically. If it didn’t work, <a href=\"%(url)s\">try downloading again here</a>."
-msgstr ""
+msgstr "Dylai'r llwytho ddigwydd yn awtomatig. Os yw heb weithio <a href=\"%(url)s\">ceisiwch llwytho i lawr yma eto</a>."
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:8
 msgid "We accept contributions in Euros through Single European Payment Area (SEPA) transfer, and British Pounds through BACS transfer."
-msgstr ""
+msgstr "Rydym yn derbyn rhoddion mewn Ewros trwy drosglwyddiad Single European Payment Area (SEPA), a Phunnoedd Prydain trwy drosglwyddiad BACS."
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:10
 msgid ""
 "Please note that for smaller (under 10 EUR or equivalent) contributions, <strong>and especially for contributions under 5 EUR or equivalent</strong>, we request that you contribute via credit card "
 "or PayPal to help reduce our processing fees."
 msgstr ""
+"Sylwch, ar gyfer cyfraniadau llai (o dan 10 EUR neu gyfwerth), <strong>ac yn arbennig ar gyfer cyfraniadau o dan 5 EUR neu gyfwerth</strong>, gofynnwn i chi gyfrannu gyda cherdyn credyd neu PayPal i"
+" helpu i leihau ein ffioedd prosesu."
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:30 donate/thunderbird/templates/pages/core/ways_to_give_page.html:47
 msgid "Memo field:"
-msgstr ""
+msgstr "Maes memo:"
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:55
 msgid ""
 "MZLA/Thunderbird is happy to accept your donation (made payable to “MZLA Technologies”) via check; however please note that processing and acknowledgment of your gift may be delayed by changes to "
 "our office procedures due to the COVID-19 pandemic. You can send checks to:"
 msgstr ""
+"<b>DIWEDDARIAD Hydref 2020:</b> Mae MZL/Thunderbird yn hapus i dderbyn eich rhodd (yn daladwy i “MZLA Technologies”) trwy siec; fodd bynnag, nodwch y gallai prosesu a chydnabod eich rhodd gael ei "
+"ohirio gan newidiadau i'n gweithdrefnau swyddfa oherwydd y pandemig COVID-19. Gallwch anfon sieciau at:"
 
 #: donate/thunderbird/templates/payment/card.html:6
 msgid "Thank you in advance for your gift."
-msgstr ""
+msgstr "Diolch ymlaen llaw am eich rhodd."
 
 #: donate/thunderbird/templates/payment/card.html:12
 #, python-format
@@ -839,14 +843,17 @@ msgid ""
 "understand that I must cancel at least 5 days before the next scheduled donation by <a href='%(help_url)s'>submitting a request</a>, and that I may only request a refund within 15 days from the date"
 " of a donation."
 msgstr ""
+"Rwy'n awdurdodi i MZLA Technologies godi tâl ar fy ngherdyn yn awtomatig bob mis yn y swm sy'n cael ei nodi uchod, gan ddechrau heddiw a pharhau bob mis ar yr un diwrnod, nes i mi ei atal. Rwy'n "
+"deall bod yn rhaid i mi ei atal o leiaf 5 diwrnod cyn y rhodd nesaf a drefnwyd trwy e-bost i <a href='%(help_url)s'>drwy gyflwyno cais</a>, ac mai dim ond o fewn 15 diwrnod o ddyddiad rhodd y gallaf"
+" ofyn am ad-daliad."
 
 #: donate/thunderbird/templates/payment/card.html:14
 msgid "I authorize MZLA Technologies Corporation to charge my card in the amount indicated above. I understand that I may only request a refund within 15 days from the date of the donation."
-msgstr ""
+msgstr "Rwy'n awdurdodi MZLA Technologies i godi tâl ar fy ngherdyn am y swm sy'n cael ei nodi uchod. Deallaf mai dim ond cyn pen 15 diwrnod o ddyddiad y rhodd y gallaf ofyn am ad-daliad."
 
 #: donate/thunderbird/templates/payment/card_upsell.html:6 donate/thunderbird/templates/payment/paypal_upsell.html:6
 msgid "We’d love to have you as a sustaining supporter of Thunderbird. <b>Could you add a monthly donation starting next month?</b>"
-msgstr ""
+msgstr "Byddem wrth ein bodd yn eich cael chi fel cefnogwr cynhaliol i MZLA Technologies. <b>A fyddai modd i chi ychwanegu rhodd fisol yn cychwyn y mis nesaf?</b>"
 
 #: donate/thunderbird/templates/payment/card_upsell.html:10
 #, python-format
@@ -855,26 +862,29 @@ msgid ""
 "afterwards until I cancel. I understand that I must cancel at least 5 days before the next scheduled donation by <a href=\"%(help_url)s\">submitting this form</a>, and that I may only request a "
 "refund within 15 days from the date of a donation."
 msgstr ""
+"Rwy'n awdurdodi i MZLA Technologies godi tâl ar fy ngherdyn yn awtomatig bob mis yn y swm sy'n cael ei nodi uchod, gan ddechrau mis nesaf ar yr un dyddiad a heddiw a pharhau bob mis, nes i mi ei "
+"atal. Rwy'n deall bod yn rhaid i mi ei atal o leiaf 5 diwrnod cyn y rhodd nesaf a drefnwyd trwy'r ffurflen hon i<a href=\"%(help_url)s\">drwy gyflwyno cais</a>, ac mai dim ond o fewn 15 diwrnod o "
+"ddyddiad rhodd y gallaf ofyn am ad-daliad."
 
 #: donate/thunderbird/templates/payment/newsletter_signup.html:8
 msgid "We’re working hard to protect your inbox. Sign up to receive email messages concerning Thunderbird, including updates and requests for feedback."
-msgstr ""
+msgstr "Rydyn ni'n gweithio'n galed i ddiogelu eich blwch derbyn. Cofrestrwch i dderbyn negeseuon e-bost yn ymwneud â Thunderbird, gan gynnwys diweddariadau a cheisiadau am adborth."
 
 #: donate/thunderbird/templates/payment/thank_you.html:6
 #, python-format
 msgid "We’ve emailed you a donation receipt; if it’s missing, please check your junk/spam folders, then contact us using <a href=\"%(url)s\">this form</a>."
-msgstr ""
+msgstr "Rydym wedi e-bostio derbynneb rhodd atoch; os yw ar goll, edrychwch yn eich ffolderau sothach/sbam, yna cysylltwch â ni gan ddefnyddio'r <a href=\"%(url)s\">ffurflen hon</a>"
 
 #: donate/thunderbird/templates/payment/thank_you.html:7
 msgid "Lastly, can you multiply your impact by sharing about the important work Thunderbird is doing? Thank you again!"
-msgstr ""
+msgstr "Yn olaf, oes modd i chi gynyddu'ch effaith trwy rannu am y gwaith pwysig y mae Thunderbird yn ei wneud? Diolch i chi unwaith eto!"
 
 #: donate/thunderbird/templates/payment/thank_you.html:11
 msgctxt "Used as a tweet"
 msgid "I donated to @mozthunderbird today to #freetheinbox. Join me to support communication privacy."
-msgstr ""
+msgstr "Rwyf wedi rhoi i @mozthunderbird heddiw i #freetheinbox. Ymunwch â mi i gefnogi preifatrwydd cyfathrebu."
 
 #: donate/thunderbird/templates/payment/thank_you.html:12
 msgctxt "Email subject line"
 msgid "I donated to Thunderbird today"
-msgstr ""
+msgstr "Rwyf wedi rhoi i Thunderbird heddiw"
