@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-25 08:55+0000\n"
-"PO-Revision-Date: 2020-11-27 11:32+0000\n"
+"PO-Revision-Date: 2020-11-27 11:42+0000\n"
 "Last-Translator: Rhoslyn Prys <rprys@posteo.net>\n"
 "Language-Team: \n"
 "Language: cy\n"
@@ -597,23 +597,23 @@ msgstr "Nid oeddem yn gallu cymryd taliad oherwydd bod y prosesydd talu wedi adr
 
 #: donate/templates/payment/card_master.html:68
 msgid "Please correct these errors and try again."
-msgstr ""
+msgstr "Cywirwch y gwallau hyn a cheisio eto."
 
 #: donate/templates/payment/card_master.html:91
 msgid "Payment"
-msgstr ""
+msgstr "Taliad"
 
 #: donate/templates/payment/card_master.html:106
 msgid "Card number"
-msgstr ""
+msgstr "Rhif y cerdyn"
 
 #: donate/templates/payment/card_master.html:112
 msgid "Expiration date"
-msgstr ""
+msgstr "Dyddiad dod i ben"
 
 #: donate/templates/payment/card_master.html:117
 msgid "CVV"
-msgstr ""
+msgstr "CVV"
 
 #: donate/templates/payment/card_master.html:126
 #, python-format
@@ -622,45 +622,48 @@ msgid ""
 "I must cancel at least 5 days before the next scheduled donation by email to <a href='mailto:%(email)s'>%(email)s</a>, and that I may only request a refund within 15 days from the date of a "
 "donation."
 msgstr ""
+"Rwy'n awdurdodi i'r Mozilla Foundation godi tâl ar fy ngherdyn yn awtomatig bob mis yn y swm sy'n cael ei nodi uchod, gan ddechrau heddiw a pharhau bob mis ar yr un diwrnod, nes i mi ei atal. Rwy'n "
+"deall bod yn rhaid i mi ei atal o leiaf 5 diwrnod cyn y rhodd nesaf a drefnwyd trwy e-bost i <a href='mailto:%(email)s'>% (e-mail)s</a>, ac mai dim ond o fewn 15 diwrnod o ddyddiad rhodd y gallaf "
+"ofyn am ad-daliad."
 
 #: donate/templates/payment/card_master.html:128
 msgid "I authorize Mozilla Foundation to charge my card in the amount indicated above. I understand that I may only request a refund within 15 days from the date of the donation."
-msgstr ""
+msgstr "Rwy'n awdurdodi'r Mozilla Foundation i godi tâl ar fy ngherdyn am y swm sy'n cael ei nodi uchod. Deallaf mai dim ond cyn pen 15 diwrnod o ddyddiad y rhodd y gallaf ofyn am ad-daliad."
 
 #: donate/templates/payment/card_master.html:144
 #, python-format
 msgid "Donate <span class=\"%(span_class)s\">%(formatted_amount)s</span> per month"
-msgstr ""
+msgstr "Rhoi <span class=\"%(span_class)s\"><span class=\"%(span_class)s\">%(formatted_amount)s</span> y mis"
 
 #: donate/templates/payment/card_master.html:146
 #, python-format
 msgid "Donate <span class=\"%(span_class)s\">%(formatted_amount)s</span>"
-msgstr ""
+msgstr "Rhoi <span class=\"%(span_class)s\"><span class=\"%(span_class)s\">%(formatted_amount)s</span>"
 
 #: donate/templates/payment/card_master.html:155
 msgid "Your donation helps keep the Web open and free. Thank you in advance for your gift."
-msgstr ""
+msgstr "Mae eich rhodd yn helpu i gadw'r We yn agored a rhydd. Diolch ymlaen llaw am eich rhodd."
 
 #: donate/templates/payment/card_upsell_master.html:4 donate/templates/payment/paypal_upsell_master.html:4 donate/templates/payment/thank_you_master.html:4
 msgid "Thank you"
-msgstr ""
+msgstr "Diolch yn fawr"
 
 #: donate/templates/payment/card_upsell_master.html:13 donate/templates/payment/newsletter_signup_master.html:13 donate/templates/payment/paypal_upsell_master.html:13
 #: donate/templates/payment/thank_you_master.html:12 donate/thunderbird/templates/payment/newsletter_signup.html:6
 msgid "Thank you for your generous gift"
-msgstr ""
+msgstr "Diolch am eich anrheg hael"
 
 #: donate/templates/payment/card_upsell_master.html:17 donate/templates/payment/paypal_upsell_master.html:17
 msgid "We’d love to have you as a sustaining supporter of Mozilla. <b>Could you add a monthly donation starting next month?</b>"
-msgstr ""
+msgstr "Byddem wrth ein bodd yn eich cael chi fel cefnogwr cynhaliol i Mozilla. <b>A fyddai modd i chi ychwanegu rhodd fisol yn cychwyn y mis nesaf?</b>"
 
 #: donate/templates/payment/card_upsell_master.html:21 donate/templates/payment/paypal_upsell_master.html:21
 msgid "Yes, I will give:"
-msgstr ""
+msgstr "Iawn, rwyf am roi:"
 
 #: donate/templates/payment/card_upsell_master.html:40
 msgid "Monthly"
-msgstr ""
+msgstr "Yn fisol"
 
 #: donate/templates/payment/card_upsell_master.html:48
 #, python-format
@@ -668,18 +671,21 @@ msgid ""
 "I authorize Mozilla Foundation to automatically charge my card every month in the amount indicated above, starting next month on the same date as today, and continuing each month afterwards until I "
 "cancel. I understand that I must cancel at least 5 days before the next scheduled donation by email to %(email)s, and that I may only request a refund within 15 days from the date of a donation."
 msgstr ""
+"Rwy'n awdurdodi'r Mozilla Foundation i godi tâl ar fy ngherdyn yn awtomatig bob mis yn y swm sy'n cael ei nodi uchod, gan ddechrau fis nesaf ar yr un dyddiad â heddiw, a pharhau bob mis wedi hynny "
+"nes i mi ei atal. Rwy'n deall bod yn rhaid i mi ei atal o leiaf 5 diwrnod cyn y rhodd nesaf a drefnwyd trwy e-bost at %(email)s, ac mai dim ond cyn pen 15 diwrnod o ddyddiad rhoi y gallaf ofyn am "
+"ad-daliad."
 
 #: donate/templates/payment/card_upsell_master.html:53
 msgid "Donate Monthly"
-msgstr ""
+msgstr "Rhoi'n Fisol"
 
 #: donate/templates/payment/card_upsell_master.html:56 donate/templates/payment/newsletter_signup_master.html:42
 msgid "No Thanks"
-msgstr ""
+msgstr "Dim Diolch"
 
 #: donate/templates/payment/newsletter_signup_master.html:4
 msgid "Stay in touch"
-msgstr ""
+msgstr "Cadw mewn cysylltiad"
 
 #: donate/templates/payment/newsletter_signup_master.html:14
 msgid "Protect the internet as a global public resource. Join our email list to take action and stay updated!"
