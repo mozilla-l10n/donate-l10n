@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-25 08:55+0000\n"
-"PO-Revision-Date: 2020-11-26 18:01+0000\n"
-"Last-Translator: Théo Chevalier <theo.chevalier11@gmail.com>\n"
+"PO-Revision-Date: 2020-11-27 11:23+0000\n"
+"Last-Translator: Rhoslyn Prys <rprys@posteo.net>\n"
 "Language-Team: \n"
 "Language: cy\n"
 "MIME-Version: 1.0\n"
@@ -495,20 +495,24 @@ msgid ""
 "The Mozilla Foundation is happy to accept your gift of publicly-traded stocks or bonds through our brokerage account at Northern Trust Securities. Please contact Major Gift Officer %(name)s at <a "
 "href=\"mailto:%(email)s\">%(email)s</a> to initiate the process."
 msgstr ""
+"Mae'r Mozilla Foundation yn hapus i dderbyn eich rhodd o stociau neu fondiau sy'n cael eu masnachu'n gyhoeddus trwy ein cyfrif broceriaeth yn Northern Trust Securities. Cysylltwch â'n Major Gift "
+"Officer %(name)s drwy <a href=\"mailto:%(email)s\">%(email)s</a> i gychwyn y broses."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:86
 msgid "Check (via postal service)"
-msgstr ""
+msgstr "Sieciau (trwy'r gwasanaeth post)"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:90 donate/thunderbird/templates/pages/core/ways_to_give_page.html:54
 msgid "UPDATE October 2020:"
-msgstr ""
+msgstr "DIWEDDARIAD Hydref 2020:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:91
 msgid ""
 "The Mozilla Foundation is happy to accept your donation (made payable to “Mozilla Foundation”) via check; however please note that processing and acknowledgment of your gift may be delayed by "
 "changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
 msgstr ""
+"<b>DIWEDDARIAD Hydref 2020:</b> Mae'r Mozilla Foundation yn hapus i dderbyn eich rhodd (yn daladwy i'r “Mozilla Foundation”) trwy siec; fodd bynnag, nodwch y gallai prosesu a chydnabod eich rhodd "
+"gael ei ohirio gan newidiadau i'n gweithdrefnau swyddfa oherwydd y pandemig COVID-19. Gallwch anfon sieciau at:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:108
 msgid "Please include your email address on the memo line of your check to help us track and attribute your gift."
