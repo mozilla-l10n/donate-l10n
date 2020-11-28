@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-25 08:55+0000\n"
-"PO-Revision-Date: 2020-11-28 09:59+0000\n"
+"PO-Revision-Date: 2020-11-28 14:35+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: \n"
 "Language: ia\n"
@@ -551,7 +551,7 @@ msgstr ""
 #: donate/templates/pages/core/ways_to_give_page_master.html:140
 #, python-format
 msgid "Learn more about bitcoin donations <a href=\"%(bitcoin_wiki)s\">here</a>. To donate bitcoin, <a href=\"%(bitcoin_donate)s\">please visit this link.</a>"
-msgstr ""
+msgstr "Saper plus re donationes bitcoin <a href=\"%(bitcoin_wiki)s\">hic</a>. Pro donar bitcoin, <a href=\"%(bitcoin_donate)s\">visita iste ligamine.</a>"
 
 #: donate/templates/payment/card_master.html:4
 msgid "Your information"
