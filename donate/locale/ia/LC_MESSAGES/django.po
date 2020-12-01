@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-25 08:55+0000\n"
-"PO-Revision-Date: 2020-11-28 14:35+0000\n"
+"PO-Revision-Date: 2020-12-01 07:52+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: \n"
 "Language: ia\n"
@@ -560,12 +560,12 @@ msgstr "Tu informationes"
 #: donate/templates/payment/card_master.html:20
 #, python-format
 msgid "You are donating <span class=\"%(span_class)s\">%(formatted_amount)s</span> per month"
-msgstr ""
+msgstr "Tu dona <span class=\"%(span_class)s\"> nunc e lo donara cata mense"
 
 #: donate/templates/payment/card_master.html:22
 #, python-format
 msgid "You are donating <span class=\"%(span_class)s\">%(formatted_amount)s</span>"
-msgstr ""
+msgstr "Tu dona <span class=\"%(span_class)s\">%(formatted_amount)s"
 
 #: donate/templates/payment/card_master.html:26
 msgid "Change amount"
@@ -590,7 +590,7 @@ msgstr "Il ha alcun errores con tu modulo. Emenda le campos evidentiate infra."
 
 #: donate/templates/payment/card_master.html:64
 msgid "We were unable to take payment because the payment processor reported an error with your address information:"
-msgstr ""
+msgstr "Nos non pote acceptar le pagamento perque le processor de pagamento signala un error con tu informationes de adresse:"
 
 #: donate/templates/payment/card_master.html:68
 msgid "Please correct these errors and try again."
