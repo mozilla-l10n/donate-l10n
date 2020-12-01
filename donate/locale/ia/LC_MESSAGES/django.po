@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-25 08:55+0000\n"
-"PO-Revision-Date: 2020-12-01 10:41+0000\n"
+"PO-Revision-Date: 2020-12-01 10:46+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: \n"
 "Language: ia\n"
@@ -711,7 +711,7 @@ msgstr "Nos te ha inviate per e-mail un quitantia de donation; si illo es mancan
 
 #: donate/templates/payment/thank_you_master.html:17
 msgid "Lastly, can you multiply your impact by sharing about the important work Mozilla is doing? Thank you again!"
-msgstr ""
+msgstr "Al fin, pote tu multiplicar tu impacto per le compartimento del labor importante que Mozilla face? Gratias ancora!"
 
 #: donate/templates/payment/thank_you_master.html:22
 msgctxt "Used as a tweet"
