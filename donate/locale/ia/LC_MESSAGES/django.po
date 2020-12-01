@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-25 08:55+0000\n"
-"PO-Revision-Date: 2020-12-01 08:03+0000\n"
+"PO-Revision-Date: 2020-12-01 08:11+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: \n"
 "Language: ia\n"
@@ -668,10 +668,13 @@ msgid ""
 "I authorize Mozilla Foundation to automatically charge my card every month in the amount indicated above, starting next month on the same date as today, and continuing each month afterwards until I "
 "cancel. I understand that I must cancel at least 5 days before the next scheduled donation by email to %(email)s, and that I may only request a refund within 15 days from the date of a donation."
 msgstr ""
+"Io autorisa Mozilla Fundation a cargar automaticamente cata mense le amonta indicate supra a mi carta, comenciante le mense proxime al mesme data como hodie, e continuar cata mense postea usque io "
+"lo cancellara. Io comprende que io debe cancellar al minus 5 dies ante le proxime donation programmate, per e-mail a %(e-mail)s, e que io pote solo requirer un reimbursamento intra 15 dies depost le"
+" data de un donation."
 
 #: donate/templates/payment/card_upsell_master.html:53
 msgid "Donate Monthly"
-msgstr ""
+msgstr "Donar mensualmente"
 
 #: donate/templates/payment/card_upsell_master.html:56 donate/templates/payment/newsletter_signup_master.html:42
 msgid "No Thanks"
@@ -691,7 +694,7 @@ msgstr "Inscribe te"
 
 #: donate/templates/payment/paypal_upsell_master.html:41
 msgid "/ Monthly"
-msgstr ""
+msgstr "/ Mensualmente"
 
 #: donate/templates/payment/paypal_upsell_master.html:52
 msgid "No"
