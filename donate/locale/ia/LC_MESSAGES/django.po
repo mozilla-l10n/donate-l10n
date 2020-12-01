@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-25 08:55+0000\n"
-"PO-Revision-Date: 2020-12-01 07:52+0000\n"
+"PO-Revision-Date: 2020-12-01 08:03+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: \n"
 "Language: ia\n"
@@ -652,11 +652,11 @@ msgstr "Gratias pro tu dono generose"
 
 #: donate/templates/payment/card_upsell_master.html:17 donate/templates/payment/paypal_upsell_master.html:17
 msgid "We’d love to have you as a sustaining supporter of Mozilla. <b>Could you add a monthly donation starting next month?</b>"
-msgstr ""
+msgstr "Nos es felice de haber te como partisano sustenente Mozilla. <b>Poterea tu adder un donation mensual comenciante le mense proxime?</b>"
 
 #: donate/templates/payment/card_upsell_master.html:21 donate/templates/payment/paypal_upsell_master.html:21
 msgid "Yes, I will give:"
-msgstr ""
+msgstr "Si, io donara:"
 
 #: donate/templates/payment/card_upsell_master.html:40
 msgid "Monthly"
