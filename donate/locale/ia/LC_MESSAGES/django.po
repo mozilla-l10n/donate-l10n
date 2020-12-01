@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-25 08:55+0000\n"
-"PO-Revision-Date: 2020-12-01 20:41+0000\n"
+"PO-Revision-Date: 2020-12-01 20:58+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: \n"
 "Language: ia\n"
@@ -798,7 +798,7 @@ msgstr "Cookies"
 #: donate/thunderbird/templates/pages/base_page.html:71
 #, python-format
 msgid "Portions of this content are ©1998–%(current_year)s by individual contributors. Content available under a <a %(link_attributes)s>Creative Commons license</a>"
-msgstr ""
+msgstr "Partes de iste contento es ©1998–%(current_year)s per collaboratores individual. Contento disponibile sub un <a %(link_attributes)s>licentia Creative Commons</a>"
 
 #: donate/thunderbird/templates/pages/core/landing_page.html:7
 #, python-format
@@ -859,24 +859,27 @@ msgid ""
 "afterwards until I cancel. I understand that I must cancel at least 5 days before the next scheduled donation by <a href=\"%(help_url)s\">submitting this form</a>, and that I may only request a "
 "refund within 15 days from the date of a donation."
 msgstr ""
+"Io autorisa MZLA Technologies Corporation a cargar automaticamente cata mense le amonta indicate supra a mi carta, comenciante le mense proxime al mesme data como hodie, e continuar cata mense "
+"postea usque io lo cancellara. Io comprende que io debe cancellar al minus 5 dies ante le proxime donation programmate per <a href=\"%(help_url)s\">invio de iste formulario</a> e que io pote solo "
+"requirer un reimbursamento intra 15 dies depost le data de un donation."
 
 #: donate/thunderbird/templates/payment/newsletter_signup.html:8
 msgid "We’re working hard to protect your inbox. Sign up to receive email messages concerning Thunderbird, including updates and requests for feedback."
-msgstr ""
+msgstr "Nos labora durmente pro proteger tu cassa de ingresso. Inscribe te pro reciper messages e-mail concernente Thunderbird, includite le actualisationes e la requestas pro commentarios."
 
 #: donate/thunderbird/templates/payment/thank_you.html:6
 #, python-format
 msgid "We’ve emailed you a donation receipt; if it’s missing, please check your junk/spam folders, then contact us using <a href=\"%(url)s\">this form</a>."
-msgstr ""
+msgstr "Nos te ha inviate per e-mail un quitantia de donation; si illo manca, verifica tu plicas de immunditia e SPAM, pois continge nos per <a href=\"%(url)s\">iste modulo</a>."
 
 #: donate/thunderbird/templates/payment/thank_you.html:7
 msgid "Lastly, can you multiply your impact by sharing about the important work Thunderbird is doing? Thank you again!"
-msgstr ""
+msgstr "Al fin, pote tu multiplicar tu impacto per le compartimento del labor importante que Thunderbird face? Gratias ancora!"
 
 #: donate/thunderbird/templates/payment/thank_you.html:11
 msgctxt "Used as a tweet"
 msgid "I donated to @mozthunderbird today to #freetheinbox. Join me to support communication privacy."
-msgstr ""
+msgstr "Io ha donate a @mozthunderbird hodie pro #freetheinbox. Junge me pro supportar le confidentialitate del communication."
 
 #: donate/thunderbird/templates/payment/thank_you.html:12
 msgctxt "Email subject line"
