@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-25 08:55+0000\n"
-"PO-Revision-Date: 2020-12-01 20:21+0000\n"
+"PO-Revision-Date: 2020-12-01 20:34+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: \n"
 "Language: ia\n"
@@ -819,17 +819,19 @@ msgstr ""
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:30 donate/thunderbird/templates/pages/core/ways_to_give_page.html:47
 msgid "Memo field:"
-msgstr ""
+msgstr "Campo memento:"
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:55
 msgid ""
 "MZLA/Thunderbird is happy to accept your donation (made payable to “MZLA Technologies”) via check; however please note that processing and acknowledgment of your gift may be delayed by changes to "
 "our office procedures due to the COVID-19 pandemic. You can send checks to:"
 msgstr ""
+"MZLA/Thunderbird es felice de acceptar tu donation (rendite pagabile a “MZLA Technologies”) via cheque; totevia nota que le processo e le recognoscimento de tu dono pote esser retardate per "
+"cambiamentos al proceduras de nostre officio per le pandemia de COVID-19. Tu pote inviar le cheques a:"
 
 #: donate/thunderbird/templates/payment/card.html:6
 msgid "Thank you in advance for your gift."
-msgstr ""
+msgstr "Gratias anticipate pro tu dono."
 
 #: donate/thunderbird/templates/payment/card.html:12
 #, python-format
