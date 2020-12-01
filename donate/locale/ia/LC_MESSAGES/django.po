@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-25 08:55+0000\n"
-"PO-Revision-Date: 2020-12-01 10:27+0000\n"
+"PO-Revision-Date: 2020-12-01 10:41+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: \n"
 "Language: ia\n"
@@ -707,7 +707,7 @@ msgstr "Tu donation vadera justo laborar pro proteger le Web, mantenente lo aper
 #: donate/templates/payment/thank_you_master.html:15
 #, python-format
 msgid "We’ve emailed you a donation receipt; if it’s missing, please check your junk/spam folders, then contact us at <a href=\"mailto:%(email)s\">%(email)s</a>."
-msgstr ""
+msgstr "Nos te ha inviate per e-mail un quitantia de donation; si illo es mancante, verifica tu plicas de immunditia e SPAM, pois continge nos a <a href=\"mailto:%(e-mail)s\">%(e-mail)s</a>."
 
 #: donate/templates/payment/thank_you_master.html:17
 msgid "Lastly, can you multiply your impact by sharing about the important work Mozilla is doing? Thank you again!"
