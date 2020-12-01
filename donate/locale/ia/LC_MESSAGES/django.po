@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-25 08:55+0000\n"
-"PO-Revision-Date: 2020-12-01 20:06+0000\n"
+"PO-Revision-Date: 2020-12-01 20:14+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: \n"
 "Language: ia\n"
@@ -788,6 +788,8 @@ msgid ""
 "Contributions go to MZLA Technologies Corporation, a California corporation wholly owned by the Mozilla Foundation. Funds will be reserved for use in the Thunderbird project. Contributions are not "
 "tax-deductible as charitable contributions."
 msgstr ""
+"Le contributiones va a MZLA Technologies Corporation, un corporation del California integremente proprietari per Mozilla Fundation. Le financiamentos sera reservate pro uso in le projecto "
+"Thunderbird. Le contributiones non es deducibile del taxas como contributiones caritabile."
 
 #: donate/thunderbird/templates/pages/base_page.html:59
 msgid "Cookies"
@@ -801,7 +803,7 @@ msgstr ""
 #: donate/thunderbird/templates/pages/core/landing_page.html:7
 #, python-format
 msgid "Your download should have begun automatically. If it didn’t work, <a href=\"%(url)s\">try downloading again here</a>."
-msgstr ""
+msgstr "Tu discargamento deberea haber comenciate automaticamente. Si illo non functiona, <a href=\"%(url)s\">prova a discargar de novo hic</a>."
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:8
 msgid "We accept contributions in Euros through Single European Payment Area (SEPA) transfer, and British Pounds through BACS transfer."
