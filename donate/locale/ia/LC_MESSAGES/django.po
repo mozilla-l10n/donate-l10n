@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-25 08:55+0000\n"
-"PO-Revision-Date: 2020-12-01 20:14+0000\n"
+"PO-Revision-Date: 2020-12-01 20:21+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: \n"
 "Language: ia\n"
@@ -807,13 +807,15 @@ msgstr "Tu discargamento deberea haber comenciate automaticamente. Si illo non f
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:8
 msgid "We accept contributions in Euros through Single European Payment Area (SEPA) transfer, and British Pounds through BACS transfer."
-msgstr ""
+msgstr "Nos accepta contributiones in Euros per transferentia bancari SEPA e in Libras sterling britannic per transferentia BACS."
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:10
 msgid ""
 "Please note that for smaller (under 10 EUR or equivalent) contributions, <strong>and especially for contributions under 5 EUR or equivalent</strong>, we request that you contribute via credit card "
 "or PayPal to help reduce our processing fees."
 msgstr ""
+"Nota que pro contributiones minor (sub 10 EUROS o equivalente), <strong>e specialmente pro illos sub 5 EUR o equivalente</strong>, nos require que tu contribue via carta de credito o Paypal pro "
+"adjutar reducer nostre oneres de processo."
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:30 donate/thunderbird/templates/pages/core/ways_to_give_page.html:47
 msgid "Memo field:"
