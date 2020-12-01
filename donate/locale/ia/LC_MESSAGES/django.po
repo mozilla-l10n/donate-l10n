@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-25 08:55+0000\n"
-"PO-Revision-Date: 2020-12-01 08:11+0000\n"
-"Last-Translator: Melo46 <melo@carmu.com>\n"
+"PO-Revision-Date: 2020-12-01 09:01+0000\n"
+"Last-Translator: Théo Chevalier <theo.chevalier11@gmail.com>\n"
 "Language-Team: \n"
 "Language: ia\n"
 "MIME-Version: 1.0\n"
@@ -565,7 +565,7 @@ msgstr "Tu dona <span class=\"%(span_class)s\"> nunc e lo donara cata mense"
 #: donate/templates/payment/card_master.html:22
 #, python-format
 msgid "You are donating <span class=\"%(span_class)s\">%(formatted_amount)s</span>"
-msgstr "Tu dona <span class=\"%(span_class)s\">%(formatted_amount)s"
+msgstr "Tu dona <span class=\"%(span_class)s\">%(formatted_amount)s</span>"
 
 #: donate/templates/payment/card_master.html:26
 msgid "Change amount"
@@ -630,12 +630,12 @@ msgstr "Io autorisa Mozilla Fundation a cargar mi carta del amonta indicate supr
 #: donate/templates/payment/card_master.html:144
 #, python-format
 msgid "Donate <span class=\"%(span_class)s\">%(formatted_amount)s</span> per month"
-msgstr "Donar <span classe=\"%(span_class)s\">%(formatted_amount)s</span> cata mense"
+msgstr "Donar <span class=\"%(span_class)s\">%(formatted_amount)s</span> cata mense"
 
 #: donate/templates/payment/card_master.html:146
 #, python-format
 msgid "Donate <span class=\"%(span_class)s\">%(formatted_amount)s</span>"
-msgstr "Donar <span classe=\"%(span_class)s\">%(formatted_amount)s</span>"
+msgstr "Donar <span class=\"%(span_class)s\">%(formatted_amount)s</span>"
 
 #: donate/templates/payment/card_master.html:155
 msgid "Your donation helps keep the Web open and free. Thank you in advance for your gift."
