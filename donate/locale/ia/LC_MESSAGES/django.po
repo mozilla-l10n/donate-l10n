@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-25 08:55+0000\n"
-"PO-Revision-Date: 2020-12-01 19:55+0000\n"
+"PO-Revision-Date: 2020-12-01 20:06+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: \n"
 "Language: ia\n"
@@ -757,12 +757,12 @@ msgstr "Retro"
 #: donate/thunderbird/templates/pages/base_page.html:17
 msgctxt "Page title"
 msgid "Give to Thunderbird"
-msgstr ""
+msgstr "Donar a Thunderbird"
 
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:7
 #, python-format
 msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a>"
-msgstr ""
+msgstr "Altere manieras pro donar: <a href=\"%(wire_transfer_url)s\">transferentia bancari SEPA/BACS</a> | <a href=\"%(check_url)s\">Cheque</a>"
 
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:12
 #, python-format
@@ -770,16 +770,18 @@ msgid ""
 "Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your "
 "donation will be stored by Thunderbird. Please read our <a href=\"%(privacy_url)s\">privacy policy here</a>."
 msgstr ""
+"Tu datos de pagamento sera processate per <a href=\"%(braintree_url)s\">Braintree</a>, un compania Paypal (pro cartas de credito/debito) o <a href=\"%(paypal_url)s\">PayPal</a> e un registration de "
+"tu donation sera immagazinate per Thunderbird. Lege nostre <a href=\"%(privacy_url)s\">politica de confidentialitate hic</a>."
 
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:15
 #, python-format
 msgid "Monthly donations are charged each month on the same day that you donate today, and will continue until you cancel. To cancel, fill out <a href=\"%(help_url)s\">this form</a>."
-msgstr ""
+msgstr "Le donationes mensual es cargate cata mense al mesme die que tu ha donate hodie e continuara usque tu lo cancellara. Pro cancellar, plena <a href=\"%(help_url)s\">iste formulario</a>."
 
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:21
 #, python-format
 msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"%(help_url)s\">Contact us</a>."
-msgstr ""
+msgstr "Problemas a donar? Visita nostre <a href=\"%(faq_url)s\">Demandas Frequente</a> pro responsas al questiones plus commun. Ancora problemas? <a href=\"%(help_url)s\">Continge nos</a>."
 
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:27
 msgid ""
