@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-04 09:02+0000\n"
-"PO-Revision-Date: 2020-12-05 14:22+0000\n"
+"PO-Revision-Date: 2020-12-05 14:31+0000\n"
 "Last-Translator: Quế Tùng <best.cloney.1301@gmail.com>\n"
 "Language-Team: \n"
 "Language: vi\n"
@@ -369,26 +369,28 @@ msgstr ""
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:16
 msgid "Credit / Debit and PayPal"
-msgstr ""
+msgstr "Thẻ tín dụng / ghi nợ và PayPal"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:18
 #, python-format
 msgid "<a href=\"%(ways_to_give_link)s\">Go to this link</a> to make a secure online donation right now."
-msgstr ""
+msgstr "<a href=\"%(ways_to_give_link)s\">Đi đến liên kết này</a> để đóng góp trực tuyến an toàn ngay bây giờ."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:24 donate/thunderbird/templates/pages/core/ways_to_give_page.html:7
 msgid "Bank Transfer / SEPA"
-msgstr ""
+msgstr "Chuyển khoản ngân hàng / SEPA"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:25
 msgid "We accept donations in Euros through Single European Payment Area (SEPA) transfer, and British Pounds through BACS transfer."
-msgstr ""
+msgstr "Chúng tôi chấp nhận các khoản đóng góp bằng Euro thông qua Khu vực thanh toán bằng đồng Euro (SEPA) và Bảng Anh thông qua chuyển khoản BACS."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:27
 msgid ""
 "Note that for smaller (under 10 EUR or equivalent) donations, <strong>and especially for donations under 5 EUR or equivalent</strong>, we request that you donate via credit card or PayPal to help "
 "reduce Mozilla’s processing fees."
 msgstr ""
+"Lưu ý rằng đối với các khoản đóng góp nhỏ hơn (dưới 10 EUR hoặc tương đương), <strong>và đặc biệt đối với các khoản đóng góp dưới 5 EUR hoặc tương đương</strong>, chúng tôi yêu cầu bạn đóng góp qua "
+"thẻ tín dụng hoặc PayPal để giúp giảm phí xử lý của Mozilla."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:32
 #, python-format
@@ -396,47 +398,49 @@ msgid ""
 "Please also note that the Mozilla Foundation cannot accept SEPA or BACS transfers for MZLA/Thunderbird. To contribute to MZLA/Thunderbird via SEPA or BACS transfer, please follow <a "
 "href=\"%(instruction_url)s\">these instructions</a>."
 msgstr ""
+"Cũng xin lưu ý rằng Tổ chức Mozilla không thể chấp nhận chuyển giao SEPA hoặc BACS cho MZLA/Thunderbird. Để đóng góp cho MZLA/Thunderbird thông qua chuyển SEPA hoặc BACS, vui lòng làm theo <a "
+"href=\"%(instruction_url)s\">các hướng dẫn này</a>."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:36
 msgid "Please remember that donations are deductible for U.S. income tax purposes only."
-msgstr ""
+msgstr "Hãy nhớ rằng các khoản đóng góp chỉ được khấu trừ cho mục đích thuế thu nhập của Hoa Kỳ."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:38 donate/thunderbird/templates/pages/core/ways_to_give_page.html:15
 #, python-format
 msgid "If your bank requests our physical address, it is %(address)s."
-msgstr ""
+msgstr "Nếu ngân hàng của bạn yêu cầu địa chỉ thực của chúng tôi, đó là %(address)s."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:45 donate/thunderbird/templates/pages/core/ways_to_give_page.html:22
 msgid "Euros:"
-msgstr ""
+msgstr "Euro:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:47 donate/templates/pages/core/ways_to_give_page_master.html:60 donate/thunderbird/templates/pages/core/ways_to_give_page.html:24
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:37
 msgid "Account Currency:"
-msgstr ""
+msgstr "Đơn vị tiền tệ của tài khoản:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:47 donate/thunderbird/templates/pages/core/ways_to_give_page.html:24
 msgid "Euro (EUR)"
-msgstr ""
+msgstr "Euro (EUR)"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:48 donate/templates/pages/core/ways_to_give_page_master.html:61 donate/thunderbird/templates/pages/core/ways_to_give_page.html:25
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:38
 msgid "Receiving Bank (Pay to):"
-msgstr ""
+msgstr "Ngân hàng nhận (Trả cho):"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:49 donate/templates/pages/core/ways_to_give_page_master.html:62 donate/thunderbird/templates/pages/core/ways_to_give_page.html:26
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:39
 msgid "City & Country/Region:"
-msgstr ""
+msgstr "Thành phố & Quốc gia/Vùng:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:49 donate/thunderbird/templates/pages/core/ways_to_give_page.html:26
 msgid "Frankfurt, Germany"
-msgstr ""
+msgstr "Frankfurt, Đức"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:50 donate/templates/pages/core/ways_to_give_page_master.html:68 donate/thunderbird/templates/pages/core/ways_to_give_page.html:27
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:45
 msgid "SWIFT/BIC Code:"
-msgstr ""
+msgstr "Mã SWIFT/BIC:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:51 donate/templates/pages/core/ways_to_give_page_master.html:65 donate/thunderbird/templates/pages/core/ways_to_give_page.html:28
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:42
@@ -446,19 +450,19 @@ msgstr ""
 #: donate/templates/pages/core/ways_to_give_page_master.html:52 donate/templates/pages/core/ways_to_give_page_master.html:69 donate/thunderbird/templates/pages/core/ways_to_give_page.html:29
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:46
 msgid "IBAN:"
-msgstr ""
+msgstr "IBAN:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:58 donate/thunderbird/templates/pages/core/ways_to_give_page.html:35
 msgid "British Pound Sterling:"
-msgstr ""
+msgstr "Bảng Anh:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:60 donate/thunderbird/templates/pages/core/ways_to_give_page.html:37
 msgid "British Pound Sterling (GBP)"
-msgstr ""
+msgstr "Bảng Anh (GBP)"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:62 donate/thunderbird/templates/pages/core/ways_to_give_page.html:39
 msgid "London, United Kingdom"
-msgstr ""
+msgstr "London, Vương Quốc Anh"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:63 donate/thunderbird/templates/pages/core/ways_to_give_page.html:40
 msgid "Bank Sort Code:"
@@ -466,11 +470,11 @@ msgstr ""
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:64 donate/thunderbird/templates/pages/core/ways_to_give_page.html:41
 msgid "Account Number (8 digits):"
-msgstr ""
+msgstr "Số tài khoản (8 chữ số):"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:75
 msgid "Donation of Stock/Securities:"
-msgstr ""
+msgstr "Tặng cổ phiếu/chứng khoán:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:77
 #, python-format
@@ -506,15 +510,15 @@ msgstr ""
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:122
 msgid "Currencies"
-msgstr ""
+msgstr "Các loại tiền"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:123
 msgid "Select your currency to make a secure online donation:"
-msgstr ""
+msgstr "Chọn đơn vị tiền tệ của bạn để đóng góp trực tuyến an toàn:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:133
 msgid "Bitcoin"
-msgstr ""
+msgstr "Bitcoin"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:135
 msgid ""
@@ -527,66 +531,66 @@ msgstr ""
 #: donate/templates/pages/core/ways_to_give_page_master.html:140
 #, python-format
 msgid "Learn more about bitcoin donations <a href=\"%(bitcoin_wiki)s\">here</a>. To donate bitcoin, <a href=\"%(bitcoin_donate)s\">please visit this link.</a>"
-msgstr ""
+msgstr "Tìm hiểu thêm về quyên góp bitcoin <a href=\"%(bitcoin_wiki)s\">tại đây</a>. Để quyên góp bitcoin, <a href=\"%(bitcoin_donate)s\">vui lòng truy cập liên kết này.</a>"
 
 #: donate/templates/payment/card_master.html:4
 msgid "Your information"
-msgstr ""
+msgstr "Thông tin của bạn"
 
 #: donate/templates/payment/card_master.html:20
 #, python-format
 msgid "You are donating <span class=\"%(span_class)s\">%(formatted_amount)s</span> per month"
-msgstr ""
+msgstr "Bạn đang quyên góp <span class=\"%(span_class)s\">%(formatted_amount)s</span> mỗi tháng"
 
 #: donate/templates/payment/card_master.html:22
 #, python-format
 msgid "You are donating <span class=\"%(span_class)s\">%(formatted_amount)s</span>"
-msgstr ""
+msgstr "Bạn đang quyên góp <span class=\"%(span_class)s\">%(formatted_amount)s</span>"
 
 #: donate/templates/payment/card_master.html:26
 msgid "Change amount"
-msgstr ""
+msgstr "Thay đổi số tiền"
 
 #: donate/templates/payment/card_master.html:34
 msgid "Donation Amount"
-msgstr ""
+msgstr "Số tiền đóng góp"
 
 #: donate/templates/payment/card_master.html:39
 msgid "Confirm"
-msgstr ""
+msgstr "Xác nhận"
 
 #: donate/templates/payment/card_master.html:44
 msgid "Your Details"
-msgstr ""
+msgstr "Chi tiết của bạn"
 
 #: donate/templates/payment/card_master.html:60 donate/templates/payment/card_upsell_master.html:34 donate/templates/payment/newsletter_signup_master.html:30
 #: donate/templates/payment/paypal_upsell_master.html:34
 msgid "There were some errors with your form. Please amend the fields highlighted below."
-msgstr ""
+msgstr "Có một số lỗi với biểu mẫu của bạn. Vui lòng sửa đổi các trường được đánh dấu bên dưới."
 
 #: donate/templates/payment/card_master.html:64
 msgid "We were unable to take payment because the payment processor reported an error with your address information:"
-msgstr ""
+msgstr "Chúng tôi không thể nhận thanh toán vì bộ xử lý thanh toán đã báo cáo lỗi với thông tin địa chỉ của bạn:"
 
 #: donate/templates/payment/card_master.html:68
 msgid "Please correct these errors and try again."
-msgstr ""
+msgstr "Vui lòng sửa những lỗi này và thử lại."
 
 #: donate/templates/payment/card_master.html:91
 msgid "Payment"
-msgstr ""
+msgstr "Thanh toán"
 
 #: donate/templates/payment/card_master.html:106
 msgid "Card number"
-msgstr ""
+msgstr "Số thẻ"
 
 #: donate/templates/payment/card_master.html:112
 msgid "Expiration date"
-msgstr ""
+msgstr "Ngày hết hạn"
 
 #: donate/templates/payment/card_master.html:117
 msgid "CVV"
-msgstr ""
+msgstr "CVV"
 
 #: donate/templates/payment/card_master.html:126
 #, python-format
@@ -603,12 +607,12 @@ msgstr ""
 #: donate/templates/payment/card_master.html:144
 #, python-format
 msgid "Donate <span class=\"%(span_class)s\">%(formatted_amount)s</span> per month"
-msgstr ""
+msgstr "Quyên góp <span class=\"%(span_class)s\">%(formatted_amount)s</span> mỗi tháng"
 
 #: donate/templates/payment/card_master.html:146
 #, python-format
 msgid "Donate <span class=\"%(span_class)s\">%(formatted_amount)s</span>"
-msgstr ""
+msgstr "Quyên góp <span class=\"%(span_class)s\">%(formatted_amount)s</span>"
 
 #: donate/templates/payment/card_master.html:155
 msgid "Your donation helps keep the Web open and free. Thank you in advance for your gift."
