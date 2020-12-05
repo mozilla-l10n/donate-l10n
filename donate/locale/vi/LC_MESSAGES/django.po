@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-04 09:02+0000\n"
-"PO-Revision-Date: 2020-12-05 14:31+0000\n"
+"PO-Revision-Date: 2020-12-05 14:42+0000\n"
 "Last-Translator: Quế Tùng <best.cloney.1301@gmail.com>\n"
 "Language-Team: \n"
 "Language: vi\n"
@@ -41,11 +41,11 @@ msgstr "Số tiền"
 
 #: donate/payments/forms.py:79
 msgid "First name"
-msgstr ""
+msgstr "Tên"
 
 #: donate/payments/forms.py:80
 msgid "Last name"
-msgstr ""
+msgstr "Họ"
 
 #: donate/payments/forms.py:81 donate/payments/forms.py:123 donate/templates/pages/core/contributor_support_page_master.html:45
 msgid "Email"
@@ -169,16 +169,20 @@ msgstr ""
 #, python-format
 msgid "Monthly donations are charged each month on the same day that you donate today, and will continue until you cancel. To cancel, email us at <a href=\"mailto:%(email)s\">%(email)s</a>."
 msgstr ""
+"Các khoản đóng góp hàng tháng được tính phí mỗi tháng vào cùng ngày bạn đóng góp hôm nay và sẽ tiếp tục cho đến khi bạn hủy. Để hủy, hãy gửi email cho chúng tôi theo địa chỉ <a "
+"href=\"mailto:%(email)s\">%(email)s</a>."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:17
 #, python-format
 msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a> | <a href=\"%(bitcoin_url)s\">Bitcoin</a>"
-msgstr ""
+msgstr "Các cách khác để cung cấp: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a> | <a href=\"%(bitcoin_url)s\">Bitcoin</a>"
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:23
 #, python-format
 msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"mailto:%(email)s\">Send us an email</a>."
 msgstr ""
+"Sự cố khi quyên góp? Truy cập <a href=\"%(faq_url)s\">Câu hỏi thường gặp</a> của chúng tôi để có câu trả lời cho hầu hết các câu hỏi phổ biến. Vẫn có vấn đề? <a href=\"mailto:%(email)s\">Gửi cho "
+"chúng tôi một email</a>."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:30
 msgid ""
@@ -485,11 +489,11 @@ msgstr ""
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:86
 msgid "Check (via postal service)"
-msgstr ""
+msgstr "Check (qua dịch vụ bưu điện)"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:90 donate/thunderbird/templates/pages/core/ways_to_give_page.html:54
 msgid "UPDATE October 2020:"
-msgstr ""
+msgstr "CẬP NHẬT Tháng 10 năm 2020:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:91
 msgid ""
@@ -616,28 +620,28 @@ msgstr "Quyên góp <span class=\"%(span_class)s\">%(formatted_amount)s</span>"
 
 #: donate/templates/payment/card_master.html:155
 msgid "Your donation helps keep the Web open and free. Thank you in advance for your gift."
-msgstr ""
+msgstr "Khoản quyên góp của bạn giúp giữ cho trang Web luôn mở và miễn phí. Cảm ơn trước món quà của bạn."
 
 #: donate/templates/payment/card_upsell_master.html:4 donate/templates/payment/paypal_upsell_master.html:4 donate/templates/payment/thank_you_master.html:4
 msgid "Thank you"
-msgstr ""
+msgstr "Cảm ơn bạn"
 
 #: donate/templates/payment/card_upsell_master.html:13 donate/templates/payment/newsletter_signup_master.html:13 donate/templates/payment/paypal_upsell_master.html:13
 #: donate/templates/payment/thank_you_master.html:12 donate/thunderbird/templates/payment/newsletter_signup.html:6
 msgid "Thank you for your generous gift"
-msgstr ""
+msgstr "Cảm ơn vì món quà hào phóng của bạn"
 
 #: donate/templates/payment/card_upsell_master.html:17 donate/templates/payment/paypal_upsell_master.html:17
 msgid "We’d love to have you as a sustaining supporter of Mozilla. <b>Could you add a monthly donation starting next month?</b>"
-msgstr ""
+msgstr "Chúng tôi rất muốn có bạn là người ủng hộ lâu dài của Mozilla. <b>Bạn có thể thêm khoản đóng góp hàng tháng bắt đầu từ tháng sau không?</b>"
 
 #: donate/templates/payment/card_upsell_master.html:21 donate/templates/payment/paypal_upsell_master.html:21
 msgid "Yes, I will give:"
-msgstr ""
+msgstr "Có, tôi sẽ đóng góp:"
 
 #: donate/templates/payment/card_upsell_master.html:40
 msgid "Monthly"
-msgstr ""
+msgstr "Hàng tháng"
 
 #: donate/templates/payment/card_upsell_master.html:48
 #, python-format
@@ -645,98 +649,100 @@ msgid ""
 "I authorize Mozilla Foundation to automatically charge my card every month in the amount indicated above, starting next month on the same date as today, and continuing each month afterwards until I "
 "cancel. I understand that I must cancel at least 5 days before the next scheduled donation by email to %(email)s, and that I may only request a refund within 15 days from the date of a donation."
 msgstr ""
+"Tôi cho phép Tổ chức Mozilla tự động tính phí thẻ của tôi hàng tháng với số tiền đã nêu ở trên, bắt đầu từ tháng sau vào cùng ngày với ngày hôm nay và tiếp tục hàng tháng sau đó cho đến khi tôi hủy."
+" Tôi hiểu rằng tôi phải hủy ít nhất 5 ngày trước khi đóng góp theo lịch trình tiếp theo qua email tới %(email)s, và tôi chỉ có thể yêu cầu hoàn lại tiền trong vòng 15 ngày kể từ ngày đóng góp."
 
 #: donate/templates/payment/card_upsell_master.html:53
 msgid "Donate Monthly"
-msgstr ""
+msgstr "Quyên góp hàng tháng"
 
 #: donate/templates/payment/card_upsell_master.html:56 donate/templates/payment/newsletter_signup_master.html:42
 msgid "No Thanks"
-msgstr ""
+msgstr "Không, cảm ơn"
 
 #: donate/templates/payment/newsletter_signup_master.html:4
 msgid "Stay in touch"
-msgstr ""
+msgstr "Giữ liên lạc"
 
 #: donate/templates/payment/newsletter_signup_master.html:14
 msgid "Protect the internet as a global public resource. Join our email list to take action and stay updated!"
-msgstr ""
+msgstr "Bảo vệ internet như một tài nguyên công cộng toàn cầu. Tham gia danh sách email của chúng tôi để thực hiện hành động và luôn cập nhật!"
 
 #: donate/templates/payment/newsletter_signup_master.html:40
 msgid "Sign Up"
-msgstr ""
+msgstr "Đăng ký"
 
 #: donate/templates/payment/paypal_upsell_master.html:41
 msgid "/ Monthly"
-msgstr ""
+msgstr "/ Hàng tháng"
 
 #: donate/templates/payment/paypal_upsell_master.html:52
 msgid "No"
-msgstr ""
+msgstr "Không"
 
 #: donate/templates/payment/thank_you_master.html:15
 msgid "Your donation will go right to work protecting the web, keeping it open and available to all."
-msgstr ""
+msgstr "Khoản đóng góp của bạn sẽ có tác dụng bảo vệ web, giữ cho web luôn mở và có sẵn cho tất cả mọi người."
 
 #: donate/templates/payment/thank_you_master.html:15
 #, python-format
 msgid "We’ve emailed you a donation receipt; if it’s missing, please check your junk/spam folders, then contact us at <a href=\"mailto:%(email)s\">%(email)s</a>."
-msgstr ""
+msgstr "Chúng tôi đã gửi cho bạn biên nhận đóng góp qua email; nếu thiếu, vui lòng kiểm tra thư mục rác/thư rác của bạn, sau đó liên hệ với chúng tôi tại <a href=\"mailto:%(email)s\">%(email)s</a>."
 
 #: donate/templates/payment/thank_you_master.html:17
 msgid "Lastly, can you multiply your impact by sharing about the important work Mozilla is doing? Thank you again!"
-msgstr ""
+msgstr "Cuối cùng, bạn có thể nhân rộng tầm ảnh hưởng của mình bằng cách chia sẻ về công việc quan trọng mà Mozilla đang làm không? Cám ơn bạn một lần nữa!"
 
 #: donate/templates/payment/thank_you_master.html:22
 msgctxt "Used as a tweet"
 msgid "I donated to @mozilla today because I #lovetheweb. Join me and help fight for a better and healthier internet, for all."
-msgstr ""
+msgstr "Tôi đã quyên góp cho @mozilla hôm nay vì tôi #lovetheweb. Hãy tham gia cùng tôi và giúp đấu tranh vì một Internet tốt hơn và lành mạnh hơn cho tất cả mọi người."
 
 #: donate/templates/payment/thank_you_master.html:23
 msgctxt "Email subject line"
 msgid "I donated to Mozilla today"
-msgstr ""
+msgstr "Tôi đã tặng cho Mozilla hôm nay"
 
 #: donate/templates/payment/thank_you_master.html:27 donate/thunderbird/templates/payment/thank_you.html:16
 msgid "Share on Facebook"
-msgstr ""
+msgstr "Chia sẻ trên Facebook"
 
 #: donate/templates/payment/thank_you_master.html:31 donate/thunderbird/templates/pages/base_page.html:44 donate/thunderbird/templates/payment/thank_you.html:20
 msgid "Facebook"
-msgstr ""
+msgstr "Facebook"
 
 #: donate/templates/payment/thank_you_master.html:34 donate/thunderbird/templates/payment/thank_you.html:23
 msgid "Share on Twitter"
-msgstr ""
+msgstr "Chia sẻ trên Twitter"
 
 #: donate/templates/payment/thank_you_master.html:44 donate/thunderbird/templates/payment/thank_you.html:33
 msgctxt "Share button"
 msgid "Email"
-msgstr ""
+msgstr "Email"
 
 #: donate/templates/payment/thank_you_master.html:54 donate/thunderbird/templates/payment/thank_you.html:43
 msgctxt "Share button"
 msgid "Link"
-msgstr ""
+msgstr "Liên kết"
 
 #: donate/templates/payment/thank_you_master.html:55 donate/thunderbird/templates/payment/thank_you.html:44
 msgid "Copied"
-msgstr ""
+msgstr "Đã sao chép"
 
 #: donate/templates/tags/primarynav.html:10
 msgid "Back"
-msgstr ""
+msgstr "Quay lại"
 
 #: donate/thunderbird/templates/base.html:9 donate/thunderbird/templates/pages/base_page.html:9 donate/thunderbird/templates/pages/base_page.html:16
 #: donate/thunderbird/templates/pages/base_page.html:17
 msgctxt "Page title"
 msgid "Give to Thunderbird"
-msgstr ""
+msgstr "Tặng cho Thunderbird"
 
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:7
 #, python-format
 msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a>"
-msgstr ""
+msgstr "Các cách khác để cung cấp: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a>"
 
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:12
 #, python-format
@@ -744,16 +750,20 @@ msgid ""
 "Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your "
 "donation will be stored by Thunderbird. Please read our <a href=\"%(privacy_url)s\">privacy policy here</a>."
 msgstr ""
+"Chi tiết thanh toán của bạn sẽ được xử lý bởi <a href=\"%(braintree_url)s\">Braintree</a>, một công ty PayPal (đối với thẻ tín dụng/thẻ ghi nợ) hoặc <a href=\"%(paypal_url)s\">PayPal</a> và hồ sơ về"
+" khoản đóng góp của bạn sẽ được Thunderbird lưu trữ. Vui lòng đọc <a href=\"%(privacy_url)s\">chính sách riêng tư của chúng tôi tại đây</a>."
 
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:15
 #, python-format
 msgid "Monthly donations are charged each month on the same day that you donate today, and will continue until you cancel. To cancel, fill out <a href=\"%(help_url)s\">this form</a>."
-msgstr ""
+msgstr "Các khoản đóng góp hàng tháng được tính phí mỗi tháng vào cùng ngày bạn đóng góp hôm nay và sẽ tiếp tục cho đến khi bạn hủy. Để hủy, hãy điền vào <a href=\"%(help_url)s\">biểu mẫu này</a>."
 
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:21
 #, python-format
 msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"%(help_url)s\">Contact us</a>."
 msgstr ""
+"Sự cố khi quyên góp? Truy cập <a href=\"%(faq_url)s\">Câu hỏi thường gặp</a> của chúng tôi để có câu trả lời cho hầu hết các câu hỏi phổ biến. Vẫn có vấn đề? <a href=\"%(help_url)s\">Liên hệ với "
+"chúng tôi</a>."
 
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:27
 msgid ""
@@ -763,31 +773,35 @@ msgstr ""
 
 #: donate/thunderbird/templates/pages/base_page.html:59
 msgid "Cookies"
-msgstr ""
+msgstr "Cookie"
 
 #: donate/thunderbird/templates/pages/base_page.html:71
 #, python-format
 msgid "Portions of this content are ©1998–%(current_year)s by individual contributors. Content available under a <a %(link_attributes)s>Creative Commons license</a>"
 msgstr ""
+"Các phần nội dung trong trang này được giữ bản quyền ©1998–%(current_year)s bởi những người đóng góp cho mozilla.org. Nội dung được phát hành với <a %(link_attributes)s>giấy phép Creative "
+"Commons</a>"
 
 #: donate/thunderbird/templates/pages/core/landing_page.html:7
 #, python-format
 msgid "Your download should have begun automatically. If it didn’t work, <a href=\"%(url)s\">try downloading again here</a>."
-msgstr ""
+msgstr "Quá trình tải xuống của bạn sẽ tự động bắt đầu. Nếu nó không hoạt động, hãy <a href=\"%(url)s\">thử tải xuống lại tại đây</a>."
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:8
 msgid "We accept contributions in Euros through Single European Payment Area (SEPA) transfer, and British Pounds through BACS transfer."
-msgstr ""
+msgstr "Chúng tôi chấp nhận các khoản đóng góp bằng Euro thông qua Khu vực thanh toán bằng đồng Euro (SEPA) và Bảng Anh thông qua chuyển khoản BACS."
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:10
 msgid ""
 "Please note that for smaller (under 10 EUR or equivalent) contributions, <strong>and especially for contributions under 5 EUR or equivalent</strong>, we request that you contribute via credit card "
 "or PayPal to help reduce our processing fees."
 msgstr ""
+"Lưu ý rằng đối với các khoản đóng góp nhỏ hơn (dưới 10 EUR hoặc tương đương), <strong>và đặc biệt đối với các khoản đóng góp dưới 5 EUR hoặc tương đương</strong>, chúng tôi yêu cầu bạn đóng góp qua "
+"thẻ tín dụng hoặc PayPal để giúp giảm phí xử lý của chúng tôi."
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:30 donate/thunderbird/templates/pages/core/ways_to_give_page.html:47
 msgid "Memo field:"
-msgstr ""
+msgstr "Trường ghi chú:"
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:55
 msgid ""
