@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-04 09:02+0000\n"
-"PO-Revision-Date: 2020-12-05 14:42+0000\n"
+"PO-Revision-Date: 2020-12-05 14:51+0000\n"
 "Last-Translator: Quế Tùng <best.cloney.1301@gmail.com>\n"
 "Language-Team: \n"
 "Language: vi\n"
@@ -175,7 +175,7 @@ msgstr ""
 #: donate/templates/fragments/donate_form_disclaimer_master.html:17
 #, python-format
 msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a> | <a href=\"%(bitcoin_url)s\">Bitcoin</a>"
-msgstr "Các cách khác để cung cấp: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a> | <a href=\"%(bitcoin_url)s\">Bitcoin</a>"
+msgstr "Các cách khác để đóng góp: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Séc</a> | <a href=\"%(bitcoin_url)s\">Bitcoin</a>"
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:23
 #, python-format
@@ -240,7 +240,7 @@ msgstr "Cảm ơn!"
 
 #: donate/templates/pages/base_page_master.html:97
 msgid "If you haven’t previously confirmed a subscription to a Mozilla-related newsletter you may have to do so. Please check your inbox or your spam filter for an email from us."
-msgstr ""
+msgstr "Nếu trước đây bạn chưa xác nhận đăng ký nhận bản tin liên quan đến Mozilla, bạn có thể phải làm như vậy. Vui lòng kiểm tra hộp thư đến hoặc bộ lọc thư rác của bạn để tìm email từ chúng tôi."
 
 #: donate/templates/pages/base_page_master.html:112
 msgid "More about us"
@@ -489,7 +489,7 @@ msgstr ""
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:86
 msgid "Check (via postal service)"
-msgstr "Check (qua dịch vụ bưu điện)"
+msgstr "Séc (qua dịch vụ bưu chính)"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:90 donate/thunderbird/templates/pages/core/ways_to_give_page.html:54
 msgid "UPDATE October 2020:"
@@ -500,10 +500,12 @@ msgid ""
 "The Mozilla Foundation is happy to accept your donation (made payable to “Mozilla Foundation”) via check; however please note that processing and acknowledgment of your gift may be delayed by "
 "changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
 msgstr ""
+"Tổ chức Mozilla rất vui khi chấp nhận khoản đóng góp của bạn (được trả cho “Mozilla Foundation”) qua séc; tuy nhiên, xin lưu ý rằng việc xử lý và nhận quà của bạn có thể bị trì hoãn do những thay "
+"đổi đối với thủ tục văn phòng của chúng tôi do đại dịch COVID-19. Bạn có thể gửi séc tới:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:108
 msgid "Please include your email address on the memo line of your check to help us track and attribute your gift."
-msgstr ""
+msgstr "Vui lòng ghi địa chỉ email của bạn vào dòng ghi nhớ của séc để giúp chúng tôi theo dõi và xác định quà tặng của bạn."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:115
 #, python-format
@@ -511,6 +513,8 @@ msgid ""
 "Please also note that the Mozilla Foundation can <strong>only</strong> accept checks in U.S. dollars drawn on a U.S. bank, and <strong>cannot</strong> accept contributions for MZLA/Thunderbird. "
 "(Contributions to MZLA/Thunderbird via check can be made by following <a href=\"%(instruction_url)s\" target=\"_blank\">these instructions</a>.)"
 msgstr ""
+"Cũng xin lưu ý rằng Tổ chức Mozilla <strong>chỉ có thể</strong> chấp nhận séc bằng đô la Mỹ được rút tại ngân hàng Hoa Kỳ và <strong>không thể</strong> chấp nhận các khoản đóng góp cho "
+"MZLA/Thunderbird. (Bạn có thể đóng góp cho MZLA/Thunderbird qua séc bằng cách làm theo <a href=\"%(instruction_url)s\" target=\"_blank\">hướng dẫn này</a>.)"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:122
 msgid "Currencies"
@@ -742,7 +746,7 @@ msgstr "Tặng cho Thunderbird"
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:7
 #, python-format
 msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a>"
-msgstr "Các cách khác để cung cấp: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a>"
+msgstr "Các cách khác để đóng góp: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Séc</a>"
 
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:12
 #, python-format
@@ -808,6 +812,8 @@ msgid ""
 "MZLA/Thunderbird is happy to accept your donation (made payable to “MZLA Technologies”) via check; however please note that processing and acknowledgment of your gift may be delayed by changes to "
 "our office procedures due to the COVID-19 pandemic. You can send checks to:"
 msgstr ""
+"MZLA/Thunderbird sẵn lòng chấp nhận khoản đóng góp của bạn (được trả cho “MZLA Technologies”) bằng séc; tuy nhiên, xin lưu ý rằng việc xử lý và nhận quà của bạn có thể bị trì hoãn do những thay đổi "
+"đối với thủ tục văn phòng của chúng tôi do đại dịch COVID-19. Bạn có thể gửi séc tới:"
 
 #: donate/thunderbird/templates/payment/card.html:6
 msgid "Thank you in advance for your gift."
@@ -845,6 +851,7 @@ msgstr ""
 #, python-format
 msgid "We’ve emailed you a donation receipt; if it’s missing, please check your junk/spam folders, then contact us using <a href=\"%(url)s\">this form</a>."
 msgstr ""
+"Chúng tôi đã gửi cho bạn biên nhận đóng góp qua email; nếu thiếu, vui lòng kiểm tra thư mục rác/thư rác của bạn, sau đó liên hệ với chúng tôi bằng cách sử dụng <a href=\"%(url)s\">biểu mẫu này</a>."
 
 #: donate/thunderbird/templates/payment/thank_you.html:7
 msgid "Lastly, can you multiply your impact by sharing about the important work Thunderbird is doing? Thank you again!"
