@@ -4,12 +4,13 @@
 #
 #    pip-compile requirements.in
 #
+asgiref==3.3.1            # via django
 certifi==2019.11.28       # via requests
 chardet==3.0.4            # via requests
-django-environ==0.4.5     # via -r requirements.in (line 2)
-django==2.2.14            # via -r requirements.in (line 1)
+django-environ==0.4.5     # via -r requirements.in
+django==3.1.4             # via -r requirements.in
 idna==2.9                 # via requests
 pytz==2019.3              # via django
-requests==2.24.0          # via -r requirements.in (line 3)
+requests==2.24.0          # via -r requirements.in
 sqlparse==0.3.0           # via django
 urllib3==1.25.8           # via requests
