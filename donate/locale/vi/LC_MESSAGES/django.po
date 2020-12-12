@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-04 09:02+0000\n"
-"PO-Revision-Date: 2020-12-12 09:14+0000\n"
+"PO-Revision-Date: 2020-12-12 09:16+0000\n"
 "Last-Translator: Quế Tùng <best.cloney.1301@gmail.com>\n"
 "Language-Team: \n"
 "Language: vi\n"
@@ -543,6 +543,10 @@ msgid ""
 "indicated that it will treat bitcoin as property for U.S. tax purposes (see IRS Notice 2014-21), donations of bitcoin may be subject to special rules as to the amount of your charitable deduction, "
 "the documentation that must be provided to claim a tax deduction, or other matters."
 msgstr ""
+"Tổ chức Mozilla là một công ty phi lợi nhuận của California được miễn thuế thu nhập liên bang Hoa Kỳ theo IRC 501(c)(3) và là một tổ chức từ thiện công cộng được phân loại theo IRC mục 170(b)(1)(A) "
+"và 509(a)(1). Các khoản đóng góp bitcoin mà Mozilla nhận được được coi là các khoản đóng góp từ thiện theo luật thuế liên bang của Hoa Kỳ, được sử dụng tùy ý cho các mục đích từ thiện của mình. Vì "
+"IRS đã chỉ ra rằng họ sẽ coi bitcoin là tài sản cho các mục đích đánh thuế của Hoa Kỳ (xem Thông báo IRS 2014-21), việc quyên góp bitcoin có thể tuân theo các quy tắc đặc biệt về số tiền khấu trừ từ"
+" thiện của bạn, tài liệu phải được cung cấp cho yêu cầu khấu trừ thuế, hoặc các vấn đề khác."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:140
 #, python-format
@@ -828,7 +832,7 @@ msgstr ""
 
 #: donate/thunderbird/templates/payment/card.html:6
 msgid "Thank you in advance for your gift."
-msgstr ""
+msgstr "Cảm ơn vì món quà của bạn."
 
 #: donate/thunderbird/templates/payment/card.html:12
 #, python-format
