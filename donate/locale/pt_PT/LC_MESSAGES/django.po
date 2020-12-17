@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-04 09:02+0000\n"
-"PO-Revision-Date: 2020-12-17 22:05+0000\n"
+"PO-Revision-Date: 2020-12-17 22:13+0000\n"
 "Last-Translator: Cláudio Esperança <cesperanc@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_PT\n"
@@ -498,6 +498,8 @@ msgid ""
 "The Mozilla Foundation is happy to accept your gift of publicly-traded stocks or bonds through our brokerage account at Northern Trust Securities. Please contact Major Gift Officer %(name)s at <a "
 "href=\"mailto:%(email)s\">%(email)s</a> to initiate the process."
 msgstr ""
+"A Fundação Mozilla tem todo o prazer em aceitar a sua oferta de ações ou títulos negociados publicamente por meio da nossa conta de mediação na Northern Trust Securities. Por favor, entre em "
+"contacto com o oficial principal de presentes %(name)s em <a href=\"mailto:%(email)s\">%(email)s</a> para iniciar o processo."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:86
 msgid "Check (via postal service)"
@@ -512,10 +514,12 @@ msgid ""
 "The Mozilla Foundation is happy to accept your donation (made payable to “Mozilla Foundation”) via check; however please note that processing and acknowledgment of your gift may be delayed by "
 "changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
 msgstr ""
+"A Fundação Mozilla tem todo o prazer em aceitar o seu donativo (em nome da “Mozilla Foundation”) via cheque; no entanto, observe que o processamento e o reconhecimento do seu presente podem sofrer "
+"atrasos por alterações nos nossos procedimentos de expediente devido à pandemia de COVID-19. Pode enviar cheques para:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:108
 msgid "Please include your email address on the memo line of your check to help us track and attribute your gift."
-msgstr ""
+msgstr "Por favor, inclua o seu endereço de e-mail na linha de notas do seu cheque para ajudar-nos a rastrear e a referenciar o seu presente."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:115
 #, python-format
@@ -523,6 +527,8 @@ msgid ""
 "Please also note that the Mozilla Foundation can <strong>only</strong> accept checks in U.S. dollars drawn on a U.S. bank, and <strong>cannot</strong> accept contributions for MZLA/Thunderbird. "
 "(Contributions to MZLA/Thunderbird via check can be made by following <a href=\"%(instruction_url)s\" target=\"_blank\">these instructions</a>.)"
 msgstr ""
+"Observe também que a Fundação Mozilla pode <strong>apenas</strong> aceitar cheques em dólares americanos obtidos a partir de um banco nos EUA e <strong>não pode</strong> aceitar contribuições para "
+"MZLA/Thunderbird. (Donativos para MZLA/Thunderbird via cheque podem ser feitos seguindo <a href=\"%(instruction_url)s\" target=\"_blank\">estas instruções </a>.)"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:122
 msgid "Currencies"
@@ -831,6 +837,8 @@ msgid ""
 "MZLA/Thunderbird is happy to accept your donation (made payable to “MZLA Technologies”) via check; however please note that processing and acknowledgment of your gift may be delayed by changes to "
 "our office procedures due to the COVID-19 pandemic. You can send checks to:"
 msgstr ""
+"MZLA/Thunderbird tem todo o prazer em aceitar o seu donativo (em nome da “MZLA Technologies”) via cheque; no entanto, observe que o processamento e o reconhecimento do seu presente podem sofrer "
+"atrasos por alterações nos nossos procedimentos de expediente devido à pandemia de COVID-19. Pode enviar cheques para:"
 
 #: donate/thunderbird/templates/payment/card.html:6
 msgid "Thank you in advance for your gift."
@@ -868,7 +876,7 @@ msgstr ""
 
 #: donate/thunderbird/templates/payment/newsletter_signup.html:8
 msgid "We’re working hard to protect your inbox. Sign up to receive email messages concerning Thunderbird, including updates and requests for feedback."
-msgstr ""
+msgstr "Estamos a trabalhar com afinco para proteger a sua caixa de entrada. Subscreva para receber mensagens de email relacionadas com o Thunderbird, incluindo atualizações e pedidos de feedback."
 
 #: donate/thunderbird/templates/payment/thank_you.html:6
 #, python-format
