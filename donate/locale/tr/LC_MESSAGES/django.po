@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-04 09:02+0000\n"
+"POT-Creation-Date: 2020-12-22 10:22+0000\n"
 "PO-Revision-Date: 2020-11-18 18:11+0000\n"
 "Last-Translator: Selim Şumlu <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -76,35 +76,35 @@ msgstr "Ülke"
 msgid "I’m okay with Mozilla handling my info as explained in this <a href='%(url)s'>Privacy Notice</a>."
 msgstr "Mozilla’nın bilgilerimi bu <a href='%(url)s'>Gizlilik Bildirimi’nde</a> açıklandığı şekilde kullanmasını kabul ediyorum."
 
-#: donate/payments/views.py:159
+#: donate/payments/views.py:161
 msgid "The type of card you used is not accepted."
 msgstr "Kullandığınız kart türü kabul edilmiyor."
 
-#: donate/payments/views.py:160 donate/payments/views.py:161
+#: donate/payments/views.py:162 donate/payments/views.py:163
 msgid "The CVV code you entered was invalid."
 msgstr "Girdiğiniz CVV kodu geçersiz."
 
-#: donate/payments/views.py:162
+#: donate/payments/views.py:164
 msgid "The expiration date you entered was invalid."
 msgstr "Girdiğiniz son kullanma tarihi geçersiz."
 
-#: donate/payments/views.py:163
+#: donate/payments/views.py:165
 msgid "The credit card number you entered was invalid."
 msgstr "Girdiğiniz kredi kartı numarası geçersiz."
 
-#: donate/payments/views.py:172 donate/payments/views.py:173
+#: donate/payments/views.py:174 donate/payments/views.py:175
 msgid "The post code you provided is not valid."
 msgstr "Girdiğiniz posta kodu geçersiz."
 
-#: donate/payments/views.py:187
+#: donate/payments/views.py:189
 msgid "Sorry there was an error processing your payment. Please try again later or use a different payment method."
 msgstr "Maalesef ödemeniz işleme koyulurken bir hata oluştu. Lütfen daha sonra tekrar deneyin veya farklı bir ödeme yöntemi kullanın."
 
-#: donate/payments/views.py:381
+#: donate/payments/views.py:383
 msgid "Something went wrong. We were unable to process your payment."
 msgstr "Bir sorun oluştu. Ödemenizi işleyemedik."
 
-#: donate/payments/views.py:633 donate/payments/views.py:742
+#: donate/payments/views.py:635 donate/payments/views.py:744
 msgid "Sorry there was an error processing your payment. Please try again later."
 msgstr "Maalesef ödemeniz işlenirken bir hata oluştu. Lütfen daha sonra tekrar deneyin."
 
@@ -529,6 +529,7 @@ msgid "The Mozilla Foundation is happy to accept your donation (made payable to 
 msgstr ""
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:108
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:67
 msgid "Please include your email address on the memo line of your check to help us track and attribute your gift."
 msgstr ""
 
@@ -827,6 +828,12 @@ msgstr "Not alanı:"
 msgid "MZLA/Thunderbird is happy to accept your donation (made payable to “MZLA Technologies”) via check; however please note that processing and acknowledgment of your gift may be delayed by changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
 msgstr ""
 
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:71
+#, fuzzy
+#| msgid "Please note that we can only accept checks in US dollars drawn on a US bank. Please do <strong>not</strong> send cash."
+msgid "Please also note that MZLA/Thunderbird can <strong>only</strong> accept checks in U.S. dollars drawn on a U.S. bank."
+msgstr "Sadece bir ABD bankasından tahsil edilebilen ABD doları cinsinden çekleri kabul edebileceğimizi lütfen unutmayın. Lütfen nakit <strong>göndermeyin</strong>."
+
 #: donate/thunderbird/templates/payment/card.html:6
 msgid "Thank you in advance for your gift."
 msgstr "Bağışınız için teşekkür ederiz."
@@ -881,9 +888,6 @@ msgstr "Bugün Thunderbird'e bağış yaptım"
 
 #~ msgid "Please note that due to the “shelter in place” order recently implemented for California, processing and acknowledgment of check donations to Thunderbird/MZLA Technologies will be indefinitely delayed. Rather than sending us a check, please consider making an <a href=\"/\">online donation</a> instead."
 #~ msgstr "Kaliforniya için yakın zamanda uygulanan “yerinde barınak” emri nedeniyle, Thunderbird/MZLA Technologies'e yapılan çek bağışlarının işleme koyulmasının ve onaylanmasının süresiz olarak erteleneceğini lütfen unutmayın. Bize çek göndermek yerine lütfen <a href=\"/\">çevrimiçi bağış</a> yapmayı düşünün."
-
-#~ msgid "Please note that we can only accept checks in US dollars drawn on a US bank. Please do <strong>not</strong> send cash."
-#~ msgstr "Sadece bir ABD bankasından tahsil edilebilen ABD doları cinsinden çekleri kabul edebileceğimizi lütfen unutmayın. Lütfen nakit <strong>göndermeyin</strong>."
 
 #~ msgid "Initiatives"
 #~ msgstr "Girişimler"

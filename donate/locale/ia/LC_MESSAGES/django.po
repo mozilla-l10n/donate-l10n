@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-04 09:02+0000\n"
+"POT-Creation-Date: 2020-12-22 10:22+0000\n"
 "PO-Revision-Date: 2020-12-01 20:58+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: \n"
@@ -75,35 +75,35 @@ msgstr "Pais"
 msgid "I’m okay with Mozilla handling my info as explained in this <a href='%(url)s'>Privacy Notice</a>."
 msgstr "Io es de accordo con le tractamento de mi informationes per Mozilla como explicate in iste <a href='%(url)s'>aviso de confidentialitate</a>"
 
-#: donate/payments/views.py:159
+#: donate/payments/views.py:161
 msgid "The type of card you used is not accepted."
 msgstr "Le typo de carta que tu ha usate non es acceptate."
 
-#: donate/payments/views.py:160 donate/payments/views.py:161
+#: donate/payments/views.py:162 donate/payments/views.py:163
 msgid "The CVV code you entered was invalid."
 msgstr "Le codice CVV que tu ha inserite non era valide."
 
-#: donate/payments/views.py:162
+#: donate/payments/views.py:164
 msgid "The expiration date you entered was invalid."
 msgstr "Le data de expiration que tu ha inserite non era valide."
 
-#: donate/payments/views.py:163
+#: donate/payments/views.py:165
 msgid "The credit card number you entered was invalid."
 msgstr "Le numero de carta de credito que tu ha inserite non era valide."
 
-#: donate/payments/views.py:172 donate/payments/views.py:173
+#: donate/payments/views.py:174 donate/payments/views.py:175
 msgid "The post code you provided is not valid."
 msgstr "Le codice postal que tu ha fornite non es valide."
 
-#: donate/payments/views.py:187
+#: donate/payments/views.py:189
 msgid "Sorry there was an error processing your payment. Please try again later or use a different payment method."
 msgstr "Desolate, un error occurreva durante le elaboration de tu pagamento. Reproba plus tarde o usa un differente methodo de pagamento."
 
-#: donate/payments/views.py:381
+#: donate/payments/views.py:383
 msgid "Something went wrong. We were unable to process your payment."
 msgstr "Alco errate eveniva. Impossibile elaborar tu pagamento."
 
-#: donate/payments/views.py:633 donate/payments/views.py:742
+#: donate/payments/views.py:635 donate/payments/views.py:744
 msgid "Sorry there was an error processing your payment. Please try again later."
 msgstr "Desolate un error occurreva durante le elaboration de tu pagamento. Reproba plus tarde."
 
@@ -528,6 +528,7 @@ msgid "The Mozilla Foundation is happy to accept your donation (made payable to 
 msgstr "Le Fundation Mozilla es felice de acceptar tu donation (rendite pagabile a “Mozilla Foundation”) via cheque; totevia nota que le procedura e le recognition de tu dono pote esser retardate per cambiamentos a nostre proceduras de officio per le pandemia de COVID-19. Tu pote inviar le cheques a:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:108
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:67
 msgid "Please include your email address on the memo line of your check to help us track and attribute your gift."
 msgstr "Per favor include tu adresse e-mail sur le linea memento de tu cheque pro adjutar nos a traciar e attribuer tu dono."
 
@@ -825,6 +826,10 @@ msgstr "Campo memento:"
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:55
 msgid "MZLA/Thunderbird is happy to accept your donation (made payable to “MZLA Technologies”) via check; however please note that processing and acknowledgment of your gift may be delayed by changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
 msgstr "MZLA/Thunderbird es felice de acceptar tu donation (rendite pagabile a “MZLA Technologies”) via cheque; totevia nota que le processo e le recognoscimento de tu dono pote esser retardate per cambiamentos al proceduras de nostre officio per le pandemia de COVID-19. Tu pote inviar le cheques a:"
+
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:71
+msgid "Please also note that MZLA/Thunderbird can <strong>only</strong> accept checks in U.S. dollars drawn on a U.S. bank."
+msgstr ""
 
 #: donate/thunderbird/templates/payment/card.html:6
 msgid "Thank you in advance for your gift."

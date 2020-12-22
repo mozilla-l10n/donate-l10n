@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-04 09:02+0000\n"
+"POT-Creation-Date: 2020-12-22 10:22+0000\n"
 "PO-Revision-Date: 2020-09-04 19:19+0000\n"
 "Last-Translator: Hariom Panchal <hariompanchal6647@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -76,35 +76,35 @@ msgstr "દેશ"
 msgid "I’m okay with Mozilla handling my info as explained in this <a href='%(url)s'>Privacy Notice</a>."
 msgstr "આ <a href='%(url)s'>ગોપનીયતા સૂચના</a>માં સમજાવ્યા મુજબ મોઝિલા મારી માહિતીને સંચાલિત કરવાથી હું ઠીક છું."
 
-#: donate/payments/views.py:159
+#: donate/payments/views.py:161
 msgid "The type of card you used is not accepted."
 msgstr "તમે જે પ્રકારનો કાર્ડ ઉપયોગ કર્યો છે તે સ્વીકાર્ય નથી."
 
-#: donate/payments/views.py:160 donate/payments/views.py:161
+#: donate/payments/views.py:162 donate/payments/views.py:163
 msgid "The CVV code you entered was invalid."
 msgstr "તમે દાખલ કરેલો CVV કોડ અમાન્ય હતો."
 
-#: donate/payments/views.py:162
+#: donate/payments/views.py:164
 msgid "The expiration date you entered was invalid."
 msgstr "તમે દાખલ કરેલી સમાપ્તિ તારીખ અમાન્ય હતી."
 
-#: donate/payments/views.py:163
+#: donate/payments/views.py:165
 msgid "The credit card number you entered was invalid."
 msgstr "તમે દાખલ કરેલ ક્રેડિટ કાર્ડ નંબર અમાન્ય હતો."
 
-#: donate/payments/views.py:172 donate/payments/views.py:173
+#: donate/payments/views.py:174 donate/payments/views.py:175
 msgid "The post code you provided is not valid."
 msgstr "તમે પ્રદાન કરેલો પોસ્ટ કોડ માન્ય નથી."
 
-#: donate/payments/views.py:187
+#: donate/payments/views.py:189
 msgid "Sorry there was an error processing your payment. Please try again later or use a different payment method."
 msgstr "માફ કરશો તમારી ચુકવણીની પ્રક્રિયા કરવામાં ભૂલ આવી હતી. કૃપા કરીને પછીથી ફરી પ્રયાસ કરો અથવા અન્ય ચુકવણી પદ્ધતિનો ઉપયોગ કરો."
 
-#: donate/payments/views.py:381
+#: donate/payments/views.py:383
 msgid "Something went wrong. We were unable to process your payment."
 msgstr "કંઈક ખોટું થયું. અમે તમારી ચુકવણી પર પ્રક્રિયા કરવામાં અસમર્થ છીએ."
 
-#: donate/payments/views.py:633 donate/payments/views.py:742
+#: donate/payments/views.py:635 donate/payments/views.py:744
 msgid "Sorry there was an error processing your payment. Please try again later."
 msgstr "માફ કરશો તમારી ચુકવણીની પ્રક્રિયા કરવામાં ભૂલ આવી હતી. પછીથી ફરી પ્રયત્ન કરો."
 
@@ -531,6 +531,7 @@ msgid "The Mozilla Foundation is happy to accept your donation (made payable to 
 msgstr ""
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:108
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:67
 msgid "Please include your email address on the memo line of your check to help us track and attribute your gift."
 msgstr ""
 
@@ -829,6 +830,12 @@ msgstr "મેમો ક્ષેત્ર:"
 msgid "MZLA/Thunderbird is happy to accept your donation (made payable to “MZLA Technologies”) via check; however please note that processing and acknowledgment of your gift may be delayed by changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
 msgstr ""
 
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:71
+#, fuzzy
+#| msgid "Please note that we can only accept checks in US dollars drawn on a US bank. Please do <strong>not</strong> send cash."
+msgid "Please also note that MZLA/Thunderbird can <strong>only</strong> accept checks in U.S. dollars drawn on a U.S. bank."
+msgstr "કૃપા કરીને નોંધો કે અમે ફક્ત યુ.એસ. બેંક પર દોરેલા યુ.એસ. ડોલરમાં જ ચેક સ્વીકારી શકીએ છીએ. કૃપા કરીને રોકડ <strong>ના</strong> મોકલશો."
+
 #: donate/thunderbird/templates/payment/card.html:6
 msgid "Thank you in advance for your gift."
 msgstr "તમારી ઉદાર ભેટ બદલ આભાર."
@@ -889,9 +896,6 @@ msgstr "મેં આજે Thunderbirdને દાન આપ્યું છ�
 
 #~ msgid "Please send a check <strong>with “%(thunderbird)s” on the memo line</strong>, and payable (payee) to “%(payee)s”."
 #~ msgstr "કૃપા કરી મેમો લાઇન <strong>પર “%(thunderbird)s” સાથે</strong>અને “%(payee)s”ને ચૂકવણીપાત્ર (ચૂકવણી કરનાર) ચેક મોકલો."
-
-#~ msgid "Please note that we can only accept checks in US dollars drawn on a US bank. Please do <strong>not</strong> send cash."
-#~ msgstr "કૃપા કરીને નોંધો કે અમે ફક્ત યુ.એસ. બેંક પર દોરેલા યુ.એસ. ડોલરમાં જ ચેક સ્વીકારી શકીએ છીએ. કૃપા કરીને રોકડ <strong>ના</strong> મોકલશો."
 
 #~ msgid "Initiatives"
 #~ msgstr "પહેલ"

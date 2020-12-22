@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-04 09:02+0000\n"
+"POT-Creation-Date: 2020-12-22 10:22+0000\n"
 "PO-Revision-Date: 2020-11-24 08:36+0000\n"
 "Last-Translator: Michael Köhler <michael.koehler1@gmx.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -76,35 +76,35 @@ msgstr "Land"
 msgid "I’m okay with Mozilla handling my info as explained in this <a href='%(url)s'>Privacy Notice</a>."
 msgstr "Ich bin einverstanden, dass Mozilla meine Daten wie in diesem <a href='%(url)s'>Datenschutzhinweis</a> angegeben verwendet."
 
-#: donate/payments/views.py:159
+#: donate/payments/views.py:161
 msgid "The type of card you used is not accepted."
 msgstr "Der von Ihnen verwendete Kartentyp wird nicht akzeptiert."
 
-#: donate/payments/views.py:160 donate/payments/views.py:161
+#: donate/payments/views.py:162 donate/payments/views.py:163
 msgid "The CVV code you entered was invalid."
 msgstr "Der eingegebene CVV-Code war ungültig."
 
-#: donate/payments/views.py:162
+#: donate/payments/views.py:164
 msgid "The expiration date you entered was invalid."
 msgstr "Das eingegebene Ablaufdatum war ungültig."
 
-#: donate/payments/views.py:163
+#: donate/payments/views.py:165
 msgid "The credit card number you entered was invalid."
 msgstr "Die eingegebene Kreditkartennummer war ungültig."
 
-#: donate/payments/views.py:172 donate/payments/views.py:173
+#: donate/payments/views.py:174 donate/payments/views.py:175
 msgid "The post code you provided is not valid."
 msgstr "Die von Ihnen angegebene Postleitzahl ist ungültig."
 
-#: donate/payments/views.py:187
+#: donate/payments/views.py:189
 msgid "Sorry there was an error processing your payment. Please try again later or use a different payment method."
 msgstr "Bei der Verarbeitung Ihrer Zahlung ist leider ein Fehler aufgetreten. Bitte versuchen Sie es später noch einmal oder verwenden Sie eine andere Zahlungsmethode."
 
-#: donate/payments/views.py:381
+#: donate/payments/views.py:383
 msgid "Something went wrong. We were unable to process your payment."
 msgstr "Etwas ist schief gelaufen. Wir konnten Ihre Zahlung nicht verarbeiten."
 
-#: donate/payments/views.py:633 donate/payments/views.py:742
+#: donate/payments/views.py:635 donate/payments/views.py:744
 msgid "Sorry there was an error processing your payment. Please try again later."
 msgstr "Bei der Verarbeitung Ihrer Zahlung ist leider ein Fehler aufgetreten. Bitte versuchen Sie es später noch einmal."
 
@@ -529,6 +529,7 @@ msgid "The Mozilla Foundation is happy to accept your donation (made payable to 
 msgstr "Die Mozilla Foundation nimmt Ihre Spende (zahlbar an die „Mozilla Foundation“) gerne per Scheck entgegen. Bitte beachten Sie jedoch, dass die Bearbeitung und Bestätigung Ihrer Spende durch Änderungen unserer Büroabläufe aufgrund der COVID-19-Pandemie verzögert werden kann. Sie können Schecks an folgende Adresse senden:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:108
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:67
 msgid "Please include your email address on the memo line of your check to help us track and attribute your gift."
 msgstr "Bitte geben Sie Ihre E-Mail-Adresse im Verwendungszweck Ihres Schecks an, damit wir Ihre Spende nachverfolgen und zuordnen können."
 
@@ -827,6 +828,12 @@ msgstr "Verwendungszweck:"
 msgid "MZLA/Thunderbird is happy to accept your donation (made payable to “MZLA Technologies”) via check; however please note that processing and acknowledgment of your gift may be delayed by changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
 msgstr "MZLA/Thunderbird nimmt Ihre Spende (zahlbar an „MZLA Technologies“) gerne per Scheck entgegen. Bitte beachten Sie jedoch, dass die Bearbeitung und Bestätigung Ihrer Spende durch Änderungen unserer Büroabläufe aufgrund der COVID-19-Pandemie verzögert werden kann. Sie können Schecks an folgende Adresse senden:"
 
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:71
+#, fuzzy
+#| msgid "Please note that we can only accept checks in US dollars drawn on a US bank. Please do <strong>not</strong> send cash."
+msgid "Please also note that MZLA/Thunderbird can <strong>only</strong> accept checks in U.S. dollars drawn on a U.S. bank."
+msgstr "Beachten Sie bitte, dass wir nur Schecks in US-Dollar akzeptieren können, die von einer US-Bank ausgestellt wurde. Bitte senden Sie <strong>kein</strong> Bargeld."
+
 #: donate/thunderbird/templates/payment/card.html:6
 msgid "Thank you in advance for your gift."
 msgstr "Vielen Dank im Voraus für Ihre großzügige Spende."
@@ -887,9 +894,6 @@ msgstr "Ich habe heute an Thunderbird gespendet"
 
 #~ msgid "Please send a check <strong>with “%(thunderbird)s” on the memo line</strong>, and payable (payee) to “%(payee)s”."
 #~ msgstr "Bitte senden Sie einen Scheck <strong>mit „%(thunderbird)s“ im Verwendungszweck</strong> und zahlbar an (Zahlungsempfänger) „%(payee)s“."
-
-#~ msgid "Please note that we can only accept checks in US dollars drawn on a US bank. Please do <strong>not</strong> send cash."
-#~ msgstr "Beachten Sie bitte, dass wir nur Schecks in US-Dollar akzeptieren können, die von einer US-Bank ausgestellt wurde. Bitte senden Sie <strong>kein</strong> Bargeld."
 
 #~ msgid "Initiatives"
 #~ msgstr "Initiativen"

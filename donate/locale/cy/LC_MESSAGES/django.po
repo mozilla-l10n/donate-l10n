@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-04 09:02+0000\n"
+"POT-Creation-Date: 2020-12-22 10:22+0000\n"
 "PO-Revision-Date: 2020-12-01 14:05+0000\n"
 "Last-Translator: Théo Chevalier <theo.chevalier11@gmail.com>\n"
 "Language-Team: \n"
@@ -75,35 +75,35 @@ msgstr "Gwlad"
 msgid "I’m okay with Mozilla handling my info as explained in this <a href='%(url)s'>Privacy Notice</a>."
 msgstr "Rwy'n fodlon i Mozilla drin fy manylion fel mae'n cael ei esbonio yn y <a href='%(url)s'>Datganiad Preifatrwydd hwn</a>"
 
-#: donate/payments/views.py:159
+#: donate/payments/views.py:161
 msgid "The type of card you used is not accepted."
 msgstr "Nid yw'r math o gerdyn rydych wedi'i ddefnyddio'n dderbyniol."
 
-#: donate/payments/views.py:160 donate/payments/views.py:161
+#: donate/payments/views.py:162 donate/payments/views.py:163
 msgid "The CVV code you entered was invalid."
 msgstr "Roedd y cod CVV rydych wedi'i roi'n annilys."
 
-#: donate/payments/views.py:162
+#: donate/payments/views.py:164
 msgid "The expiration date you entered was invalid."
 msgstr "Roedd y dyddiad dod i ben rydych wedi'i roi'n annilys."
 
-#: donate/payments/views.py:163
+#: donate/payments/views.py:165
 msgid "The credit card number you entered was invalid."
 msgstr "Roedd y rhif cerdyn credyd rydych wedi'i roi'n annilys."
 
-#: donate/payments/views.py:172 donate/payments/views.py:173
+#: donate/payments/views.py:174 donate/payments/views.py:175
 msgid "The post code you provided is not valid."
 msgstr "Nid yw'r cod post rydych wedi'i roi'n ddilys."
 
-#: donate/payments/views.py:187
+#: donate/payments/views.py:189
 msgid "Sorry there was an error processing your payment. Please try again later or use a different payment method."
 msgstr "Ymddiheuriadau, bu gwall wrth brosesu'ch taliad. Ceisiwch eto yn nes ymlaen neu defnyddiwch ddull talu gwahanol."
 
-#: donate/payments/views.py:381
+#: donate/payments/views.py:383
 msgid "Something went wrong. We were unable to process your payment."
 msgstr "Aeth rhywbeth o'i le. Nid oedd modd i ni brosesu'ch taliad."
 
-#: donate/payments/views.py:633 donate/payments/views.py:742
+#: donate/payments/views.py:635 donate/payments/views.py:744
 msgid "Sorry there was an error processing your payment. Please try again later."
 msgstr "Ymddiheuriadau, bu gwall wrth brosesu eich taliad. Ceisiwch eto'n hwyrach."
 
@@ -528,6 +528,7 @@ msgid "The Mozilla Foundation is happy to accept your donation (made payable to 
 msgstr "Mae'r Mozilla Foundation yn hapus i dderbyn eich rhodd (yn daladwy i'r “Mozilla Foundation”) trwy siec; fodd bynnag, nodwch y gallai prosesu a chydnabod eich rhodd gael ei ohirio gan newidiadau i'n gweithdrefnau swyddfa oherwydd y pandemig COVID-19. Gallwch anfon sieciau at:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:108
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:67
 msgid "Please include your email address on the memo line of your check to help us track and attribute your gift."
 msgstr "Cofiwch gynnwys eich cyfeiriad e-bost ar linell memo eich siec i'n helpu i olrhain a phriodoli'ch rhodd."
 
@@ -825,6 +826,10 @@ msgstr "Maes memo:"
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:55
 msgid "MZLA/Thunderbird is happy to accept your donation (made payable to “MZLA Technologies”) via check; however please note that processing and acknowledgment of your gift may be delayed by changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
 msgstr "Mae MZLA/Thunderbird yn hapus i dderbyn eich rhodd (yn daladwy i “MZLA Technologies”) trwy siec; fodd bynnag, nodwch y gallai prosesu a chydnabod eich rhodd gael ei ohirio gan newidiadau i'n gweithdrefnau swyddfa oherwydd y pandemig COVID-19. Gallwch anfon sieciau at:"
+
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:71
+msgid "Please also note that MZLA/Thunderbird can <strong>only</strong> accept checks in U.S. dollars drawn on a U.S. bank."
+msgstr ""
 
 #: donate/thunderbird/templates/payment/card.html:6
 msgid "Thank you in advance for your gift."

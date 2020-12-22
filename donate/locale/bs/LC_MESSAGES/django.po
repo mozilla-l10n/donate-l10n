@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-04 09:02+0000\n"
+"POT-Creation-Date: 2020-12-22 10:22+0000\n"
 "PO-Revision-Date: 2020-08-01 19:50+0000\n"
 "Last-Translator: Kerim Kalamujić <kerim@mozilla.ba>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -76,35 +76,35 @@ msgstr "Država"
 msgid "I’m okay with Mozilla handling my info as explained in this <a href='%(url)s'>Privacy Notice</a>."
 msgstr "Slažem se da Mozilla upravlja mojim informacijama, kao što je objašnjeno u <a href='%(url)s'>politici privatnosti</a>."
 
-#: donate/payments/views.py:159
+#: donate/payments/views.py:161
 msgid "The type of card you used is not accepted."
 msgstr "Vrsta kartice koju ste koristili nije prihvaćena."
 
-#: donate/payments/views.py:160 donate/payments/views.py:161
+#: donate/payments/views.py:162 donate/payments/views.py:163
 msgid "The CVV code you entered was invalid."
 msgstr "CVV kod koji ste unijeli nije važeći."
 
-#: donate/payments/views.py:162
+#: donate/payments/views.py:164
 msgid "The expiration date you entered was invalid."
 msgstr "Datum isteka koji ste unijeli nije važeći."
 
-#: donate/payments/views.py:163
+#: donate/payments/views.py:165
 msgid "The credit card number you entered was invalid."
 msgstr "Broj kreditne kartice koji ste unijeli nije važeći."
 
-#: donate/payments/views.py:172 donate/payments/views.py:173
+#: donate/payments/views.py:174 donate/payments/views.py:175
 msgid "The post code you provided is not valid."
 msgstr "Poštanski broj koji ste naveli nije važeći."
 
-#: donate/payments/views.py:187
+#: donate/payments/views.py:189
 msgid "Sorry there was an error processing your payment. Please try again later or use a different payment method."
 msgstr "Žao nam je, došlo je do greške prilikom obrade vaše uplate. Pokušajte ponovo kasnije ili koristite drugi način plaćanja."
 
-#: donate/payments/views.py:381
+#: donate/payments/views.py:383
 msgid "Something went wrong. We were unable to process your payment."
 msgstr "Nešto je pošlo po zlu. Nismo mogli obraditi vašu uplatu."
 
-#: donate/payments/views.py:633 donate/payments/views.py:742
+#: donate/payments/views.py:635 donate/payments/views.py:744
 msgid "Sorry there was an error processing your payment. Please try again later."
 msgstr "Žao nam je, došlo je do greške prilikom obrade vaše uplate. Pokušajte ponovo kasnije."
 
@@ -531,6 +531,7 @@ msgid "The Mozilla Foundation is happy to accept your donation (made payable to 
 msgstr ""
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:108
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:67
 msgid "Please include your email address on the memo line of your check to help us track and attribute your gift."
 msgstr ""
 
@@ -829,6 +830,12 @@ msgstr "Polja dopisa:"
 msgid "MZLA/Thunderbird is happy to accept your donation (made payable to “MZLA Technologies”) via check; however please note that processing and acknowledgment of your gift may be delayed by changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
 msgstr ""
 
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:71
+#, fuzzy
+#| msgid "Please note that we can only accept checks in US dollars drawn on a US bank. Please do <strong>not</strong> send cash."
+msgid "Please also note that MZLA/Thunderbird can <strong>only</strong> accept checks in U.S. dollars drawn on a U.S. bank."
+msgstr "Imajte na umu da možemo prihvatiti samo čekove u američkim dolarima izvučeni u američkoj banci. Molimo <strong>ne</strong> šaljite gotovinu."
+
 #: donate/thunderbird/templates/payment/card.html:6
 msgid "Thank you in advance for your gift."
 msgstr "Unaprijed hvala na poklonu."
@@ -889,9 +896,6 @@ msgstr "Donirao sam za Thunderbird danas"
 
 #~ msgid "Please send a check <strong>with “%(thunderbird)s” on the memo line</strong>, and payable (payee) to “%(payee)s”."
 #~ msgstr "Molimo, pošaljite ček <strong>s “%(thunderbird)s” u retku bilješke</strong> i naplatu (primaoca) na “%(payee)s”."
-
-#~ msgid "Please note that we can only accept checks in US dollars drawn on a US bank. Please do <strong>not</strong> send cash."
-#~ msgstr "Imajte na umu da možemo prihvatiti samo čekove u američkim dolarima izvučeni u američkoj banci. Molimo <strong>ne</strong> šaljite gotovinu."
 
 #~ msgid "Initiatives"
 #~ msgstr "Inicijative"

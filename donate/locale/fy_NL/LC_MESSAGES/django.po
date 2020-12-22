@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-04 09:02+0000\n"
+"POT-Creation-Date: 2020-12-22 10:22+0000\n"
 "PO-Revision-Date: 2020-11-26 09:51+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -76,35 +76,35 @@ msgstr "Lân"
 msgid "I’m okay with Mozilla handling my info as explained in this <a href='%(url)s'>Privacy Notice</a>."
 msgstr "Ik gean akkoard mei hoe't Mozilla omgiet mei myn ynformaasje as útlein yn dizze <a href='%(url)s'>privacyferklearring</a>."
 
-#: donate/payments/views.py:159
+#: donate/payments/views.py:161
 msgid "The type of card you used is not accepted."
 msgstr "It brûkte kaarttype wurdt net akseptearre."
 
-#: donate/payments/views.py:160 donate/payments/views.py:161
+#: donate/payments/views.py:162 donate/payments/views.py:163
 msgid "The CVV code you entered was invalid."
 msgstr "De ynfierde CVV-koade is ûnjildich."
 
-#: donate/payments/views.py:162
+#: donate/payments/views.py:164
 msgid "The expiration date you entered was invalid."
 msgstr "De ynfierde ferfaldatum wie ûnjildich."
 
-#: donate/payments/views.py:163
+#: donate/payments/views.py:165
 msgid "The credit card number you entered was invalid."
 msgstr "It ynfierde creditcardnûmer is ûnjildich."
 
-#: donate/payments/views.py:172 donate/payments/views.py:173
+#: donate/payments/views.py:174 donate/payments/views.py:175
 msgid "The post code you provided is not valid."
 msgstr "De opjûne postkoade is ûnjildich."
 
-#: donate/payments/views.py:187
+#: donate/payments/views.py:189
 msgid "Sorry there was an error processing your payment. Please try again later or use a different payment method."
 msgstr "Sorry, der is in flater bard by it ferwurkjen fan jo betelling. Probearje it letter opnij of brûk in oare betelmetoade."
 
-#: donate/payments/views.py:381
+#: donate/payments/views.py:383
 msgid "Something went wrong. We were unable to process your payment."
 msgstr "Der is wat mis gien. Wy koene jo betelling net ferwurkje."
 
-#: donate/payments/views.py:633 donate/payments/views.py:742
+#: donate/payments/views.py:635 donate/payments/views.py:744
 msgid "Sorry there was an error processing your payment. Please try again later."
 msgstr "Sorry, der is in flater bard by it ferwurkjen fan jo betelling. Probearje it letter nochris."
 
@@ -529,6 +529,7 @@ msgid "The Mozilla Foundation is happy to accept your donation (made payable to 
 msgstr "De Mozilla Foundation akseptearret graach jo donaasje (ta namme fan ‘Mozilla Foundation’) fia sjek; hâld der echter rekkening mei dat it ferwurkjen en befêstigjen fan jo jefte fertraging oprinne kin, troch wizigingen yn ús kantoarprosedueren ta gefolch fan de COVID-19-pandemy. Jo kinne sjeks ferstjoere nei:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:108
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:67
 msgid "Please include your email address on the memo line of your check to help us track and attribute your gift."
 msgstr "Fermeld jo e-mailadres yn de memorigel fan jo sjek, om ús te helpen jo jefte te folgjen en ta te skriuwen."
 
@@ -827,6 +828,12 @@ msgstr "Memofjild:"
 msgid "MZLA/Thunderbird is happy to accept your donation (made payable to “MZLA Technologies”) via check; however please note that processing and acknowledgment of your gift may be delayed by changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
 msgstr "MZLA/Thunderbird akseptearret graach jo donaasje (ta namme fan ‘MZLA Technologies’) fia sjek; hâld der echter rekkening mei dat it ferwurkjen en befêstigjen fan jo jefte fertraging oprinne kin, troch wizigingen yn ús kantoarprosedueren ta gefolch fan de COVID-19-pandemy. Jo kinne sjeks ferstjoere nei:"
 
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:71
+#, fuzzy
+#| msgid "Please note that we can only accept checks in US dollars drawn on a US bank. Please do <strong>not</strong> send cash."
+msgid "Please also note that MZLA/Thunderbird can <strong>only</strong> accept checks in U.S. dollars drawn on a U.S. bank."
+msgstr "Merk op dat de Mozilla Foundation allinnich sjeks yn Amerikaanske dollars akseptearret dy't útjûn binne troch in Amerikaanske bank. Stjoer <strong>gjin</strong> kontanten."
+
 #: donate/thunderbird/templates/payment/card.html:6
 msgid "Thank you in advance for your gift."
 msgstr "Tige tank yn it foar foar jo donaasje."
@@ -887,9 +894,6 @@ msgstr "Ik haw hjoed oan Thunderbird donearre"
 
 #~ msgid "Please send a check <strong>with “%(thunderbird)s” on the memo line</strong>, and payable (payee) to “%(payee)s”."
 #~ msgstr "Stjoer in sjek <strong>mei dêrop “%(thunderbird)s” yn de opmerkingenrigel</strong>, en betelber (begeunstige) oan “%(payee)s”."
-
-#~ msgid "Please note that we can only accept checks in US dollars drawn on a US bank. Please do <strong>not</strong> send cash."
-#~ msgstr "Merk op dat de Mozilla Foundation allinnich sjeks yn Amerikaanske dollars akseptearret dy't útjûn binne troch in Amerikaanske bank. Stjoer <strong>gjin</strong> kontanten."
 
 #~ msgid "Initiatives"
 #~ msgstr "Inisjativen"

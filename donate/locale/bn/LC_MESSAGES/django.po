@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-04 09:02+0000\n"
+"POT-Creation-Date: 2020-12-22 10:22+0000\n"
 "PO-Revision-Date: 2019-11-15 15:10+0000\n"
 "Last-Translator: Belayet Hossain <bellayet@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -76,35 +76,35 @@ msgstr "দেশ"
 msgid "I’m okay with Mozilla handling my info as explained in this <a href='%(url)s'>Privacy Notice</a>."
 msgstr "আমি এই <a href='%(url)s'>গোপনীয়তা বিজ্ঞপ্তি</a> তে বর্ণিত যেভাবে Mozilla আমার তথ্য পরিচালনা করার তার সাথে একমত আছি।"
 
-#: donate/payments/views.py:159
+#: donate/payments/views.py:161
 msgid "The type of card you used is not accepted."
 msgstr "আপনি যে ধরণের কার্ড ব্যবহার করেছেন তা গ্রহণযোগ্য নয়।"
 
-#: donate/payments/views.py:160 donate/payments/views.py:161
+#: donate/payments/views.py:162 donate/payments/views.py:163
 msgid "The CVV code you entered was invalid."
 msgstr "আপনার দেয়া CVV সঠিক নয়।"
 
-#: donate/payments/views.py:162
+#: donate/payments/views.py:164
 msgid "The expiration date you entered was invalid."
 msgstr "আপনি মেয়াদ উত্তীর্ণের যে তারিখ দিয়েছেন তা অকার্যকর।"
 
-#: donate/payments/views.py:163
+#: donate/payments/views.py:165
 msgid "The credit card number you entered was invalid."
 msgstr "আপনার দেয়া ক্রেডিট কার্ড নম্বরটি অবৈধ।"
 
-#: donate/payments/views.py:172 donate/payments/views.py:173
+#: donate/payments/views.py:174 donate/payments/views.py:175
 msgid "The post code you provided is not valid."
 msgstr "আপনার প্রদত্ত পোস্ট কোডটি বৈধ নয়।"
 
-#: donate/payments/views.py:187
+#: donate/payments/views.py:189
 msgid "Sorry there was an error processing your payment. Please try again later or use a different payment method."
 msgstr "দুঃখিত, আপনার অর্থ প্রদান প্রক্রিয়াকরনের সময় একটি ত্রুটি হয়েছিল। দয়া করে পরে আবার চেষ্টা করুন বা অর্থ প্রদানের অন্য পদ্ধতি ব্যবহার করুন।"
 
-#: donate/payments/views.py:381
+#: donate/payments/views.py:383
 msgid "Something went wrong. We were unable to process your payment."
 msgstr "কিছু ভুল হয়েছে। আমরা আপনার অর্থ প্রদান প্রক্রিয়াকরনে অক্ষম।"
 
-#: donate/payments/views.py:633 donate/payments/views.py:742
+#: donate/payments/views.py:635 donate/payments/views.py:744
 msgid "Sorry there was an error processing your payment. Please try again later."
 msgstr "দুঃখিত, আপনার অর্থ প্রদানের প্রক্রিয়া করার সময় একটি ত্রুটি হয়েছিল। পরে আবার চেষ্টা করুন।"
 
@@ -530,6 +530,7 @@ msgid "The Mozilla Foundation is happy to accept your donation (made payable to 
 msgstr ""
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:108
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:67
 msgid "Please include your email address on the memo line of your check to help us track and attribute your gift."
 msgstr ""
 
@@ -839,6 +840,10 @@ msgstr ""
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:55
 msgid "MZLA/Thunderbird is happy to accept your donation (made payable to “MZLA Technologies”) via check; however please note that processing and acknowledgment of your gift may be delayed by changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
+msgstr ""
+
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:71
+msgid "Please also note that MZLA/Thunderbird can <strong>only</strong> accept checks in U.S. dollars drawn on a U.S. bank."
 msgstr ""
 
 #: donate/thunderbird/templates/payment/card.html:6

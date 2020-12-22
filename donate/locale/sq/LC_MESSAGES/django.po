@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-04 09:02+0000\n"
+"POT-Creation-Date: 2020-12-22 10:22+0000\n"
 "PO-Revision-Date: 2020-11-20 10:06+0000\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -76,35 +76,35 @@ msgstr "Vend"
 msgid "I’m okay with Mozilla handling my info as explained in this <a href='%(url)s'>Privacy Notice</a>."
 msgstr "Pajtohem me trajtimin që Mozilla u bën të dhënave të mia, ashtu si shpjegohet në këtë <a href='%(url)s'>Shënim mbi Privatësinë</a>."
 
-#: donate/payments/views.py:159
+#: donate/payments/views.py:161
 msgid "The type of card you used is not accepted."
 msgstr "Lloji i kartës që përdorët s’është i pranueshëm."
 
-#: donate/payments/views.py:160 donate/payments/views.py:161
+#: donate/payments/views.py:162 donate/payments/views.py:163
 msgid "The CVV code you entered was invalid."
 msgstr "Kodi CVV që dhatë është i pavlefshëm."
 
-#: donate/payments/views.py:162
+#: donate/payments/views.py:164
 msgid "The expiration date you entered was invalid."
 msgstr "Data e skadimit që dhatë është e pavlefshme."
 
-#: donate/payments/views.py:163
+#: donate/payments/views.py:165
 msgid "The credit card number you entered was invalid."
 msgstr "Numri i kartës së kreditit që dhatë është i pavlefshëm."
 
-#: donate/payments/views.py:172 donate/payments/views.py:173
+#: donate/payments/views.py:174 donate/payments/views.py:175
 msgid "The post code you provided is not valid."
 msgstr "Kodi postar që dhatë, nuk është i vlefshëm."
 
-#: donate/payments/views.py:187
+#: donate/payments/views.py:189
 msgid "Sorry there was an error processing your payment. Please try again later or use a different payment method."
 msgstr "Na ndjeni, pati një gabim në përpunimin e pagesës tuaj. Ju lutemi, riprovoni më vonë ose përdorni një metodë tjetër pagesash."
 
-#: donate/payments/views.py:381
+#: donate/payments/views.py:383
 msgid "Something went wrong. We were unable to process your payment."
 msgstr "Diç shkoi ters. S’qemë në gjendje të kryejmë pagesën tuaj."
 
-#: donate/payments/views.py:633 donate/payments/views.py:742
+#: donate/payments/views.py:635 donate/payments/views.py:744
 msgid "Sorry there was an error processing your payment. Please try again later."
 msgstr "Na ndjeni, pati një gabim në kryerjen e pagesës tuaj. Ju lutemi, riprovoni më vonë."
 
@@ -529,6 +529,7 @@ msgid "The Mozilla Foundation is happy to accept your donation (made payable to 
 msgstr "Mozilla Foundation është e gëzuar të pranojë dhurimin tuaj (të pagueshëm për “Mozilla Foundation”) përmes çeqesh; por, ju lutemi, kini parasysh se përpunimi dhe pranimi i dhuratës tuaj mund të vonohet nga ndryshime te procedura të zyrës tonë për shkak të pandemisë COVID-19. Mund të dërgoni çeqe te:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:108
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:67
 msgid "Please include your email address on the memo line of your check to help us track and attribute your gift."
 msgstr "Ju utemi, përfshini adresën tuaj email te rreshti memo i çekut tuaj, që të na ndihmoni të ndjekim dhe t’ju atribuojmë dhuratën tuaj."
 
@@ -827,6 +828,12 @@ msgstr "Fushë memo:"
 msgid "MZLA/Thunderbird is happy to accept your donation (made payable to “MZLA Technologies”) via check; however please note that processing and acknowledgment of your gift may be delayed by changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
 msgstr "MZLA/Thunderbird është e kënaqur të pranojë dhurimin tuaj (të pagueshëm për “MZLA Technologies”) përmes çeku; por, ju lutemi, kini parasysh se përpunimi dhe pranimi i dhuratës tuaj mund të vonohet nga ndryshime te procedura të zyrës tonë për shkak të pandemisë COVID-19. Mund të dërgoni çeqe te:"
 
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:71
+#, fuzzy
+#| msgid "Please note that we can only accept checks in US dollars drawn on a US bank. Please do <strong>not</strong> send cash."
+msgid "Please also note that MZLA/Thunderbird can <strong>only</strong> accept checks in U.S. dollars drawn on a U.S. bank."
+msgstr "Ju lutemi, kini parasysh që mund të pranojmë vetëm çeqe në dollarë amerikanë të tërheqshëm në një bankë amerikane. Ju lutemi, <strong>mos</strong> dërgoni para të thata."
+
 #: donate/thunderbird/templates/payment/card.html:6
 msgid "Thank you in advance for your gift."
 msgstr "Faleminderit paraprakisht për dhuratën tuaj."
@@ -887,9 +894,6 @@ msgstr "Sot dhurova për Thunderbird-in"
 
 #~ msgid "Please send a check <strong>with “%(thunderbird)s” on the memo line</strong>, and payable (payee) to “%(payee)s”."
 #~ msgstr "Ju lutemi, dërgoni një çek <strong>me “%(thunderbird)s” te rreshti kujtesë</strong>, dhe të pagueshëm (përfituesi) për “%(payee)s”."
-
-#~ msgid "Please note that we can only accept checks in US dollars drawn on a US bank. Please do <strong>not</strong> send cash."
-#~ msgstr "Ju lutemi, kini parasysh që mund të pranojmë vetëm çeqe në dollarë amerikanë të tërheqshëm në një bankë amerikane. Ju lutemi, <strong>mos</strong> dërgoni para të thata."
 
 #~ msgid "Initiatives"
 #~ msgstr "Nisma"

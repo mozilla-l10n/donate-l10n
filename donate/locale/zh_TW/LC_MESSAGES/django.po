@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-04 09:02+0000\n"
+"POT-Creation-Date: 2020-12-22 10:22+0000\n"
 "PO-Revision-Date: 2020-11-24 08:52+0000\n"
 "Last-Translator: Pin-guang Chen <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -76,35 +76,35 @@ msgstr "國家"
 msgid "I’m okay with Mozilla handling my info as explained in this <a href='%(url)s'>Privacy Notice</a>."
 msgstr "我同意 Mozilla 依照<a href='%(url)s'>這份隱私權公告</a>當中描述的方式處理我的資訊。"
 
-#: donate/payments/views.py:159
+#: donate/payments/views.py:161
 msgid "The type of card you used is not accepted."
 msgstr "您選擇的卡片類型不被接受。"
 
-#: donate/payments/views.py:160 donate/payments/views.py:161
+#: donate/payments/views.py:162 donate/payments/views.py:163
 msgid "The CVV code you entered was invalid."
 msgstr "您輸入的 CVV 安全碼無效。"
 
-#: donate/payments/views.py:162
+#: donate/payments/views.py:164
 msgid "The expiration date you entered was invalid."
 msgstr "您輸入的到期日無效。"
 
-#: donate/payments/views.py:163
+#: donate/payments/views.py:165
 msgid "The credit card number you entered was invalid."
 msgstr "您輸入的卡號無效。"
 
-#: donate/payments/views.py:172 donate/payments/views.py:173
+#: donate/payments/views.py:174 donate/payments/views.py:175
 msgid "The post code you provided is not valid."
 msgstr "您輸入的郵遞區號無效。"
 
-#: donate/payments/views.py:187
+#: donate/payments/views.py:189
 msgid "Sorry there was an error processing your payment. Please try again later or use a different payment method."
 msgstr "抱歉，處理付款時發生錯誤。請稍後再試或使用其他付款方式。"
 
-#: donate/payments/views.py:381
+#: donate/payments/views.py:383
 msgid "Something went wrong. We were unable to process your payment."
 msgstr "有些地方怪怪的，我們無法處理付款。"
 
-#: donate/payments/views.py:633 donate/payments/views.py:742
+#: donate/payments/views.py:635 donate/payments/views.py:744
 msgid "Sorry there was an error processing your payment. Please try again later."
 msgstr "抱歉，處理付款時發生錯誤，請再試一次。"
 
@@ -529,6 +529,7 @@ msgid "The Mozilla Foundation is happy to accept your donation (made payable to 
 msgstr "Mozilla 基金會很高興能接受您的捐款支票（抬頭請填 Mozilla Foundation），但請注意，由於 COVID-19 疫情造成我們的辦公程序調整，處理並確認捐款的時程可能會稍有延誤。請將支票寄到："
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:108
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:67
 msgid "Please include your email address on the memo line of your check to help us track and attribute your gift."
 msgstr "請在支票的備註欄註明您的電子郵件地址，幫助我們能夠更快追蹤您的捐款進度。"
 
@@ -827,6 +828,12 @@ msgstr "記事欄:"
 msgid "MZLA/Thunderbird is happy to accept your donation (made payable to “MZLA Technologies”) via check; however please note that processing and acknowledgment of your gift may be delayed by changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
 msgstr "MZLA/Thunderbird 很高興能接受您的捐款支票（抬頭請填 MZLA Technologies），但請注意，由於 COVID-19 疫情造成我們的辦公程序調整，處理並確認您的捐款贈品的時程可能會稍有延誤。請將支票寄到："
 
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:71
+#, fuzzy
+#| msgid "Please note that we can only accept checks in US dollars drawn on a US bank. Please do <strong>not</strong> send cash."
+msgid "Please also note that MZLA/Thunderbird can <strong>only</strong> accept checks in U.S. dollars drawn on a U.S. bank."
+msgstr "請注意，我們僅接受由美國國內銀行所發行，並以美金開立的支票。請<strong>不要</strong>直接寄現金過來。"
+
 #: donate/thunderbird/templates/payment/card.html:6
 msgid "Thank you in advance for your gift."
 msgstr "感謝您慷慨捐款！"
@@ -887,9 +894,6 @@ msgstr "我今天捐款給 Thunderbird 保護收件匣了！"
 
 #~ msgid "Please send a check <strong>with “%(thunderbird)s” on the memo line</strong>, and payable (payee) to “%(payee)s”."
 #~ msgstr "請發送受款人為「%(payee)s」的支票，<strong>並在記事欄註明「%(thunderbird)s」</strong>。"
-
-#~ msgid "Please note that we can only accept checks in US dollars drawn on a US bank. Please do <strong>not</strong> send cash."
-#~ msgstr "請注意，我們僅接受由美國國內銀行所發行，並以美金開立的支票。請<strong>不要</strong>直接寄現金過來。"
 
 #~ msgid "Initiatives"
 #~ msgstr "倡議"
