@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-22 10:22+0000\n"
-"PO-Revision-Date: 2020-12-24 16:39+0000\n"
+"PO-Revision-Date: 2020-12-24 16:51+0000\n"
 "Last-Translator: ZiriSut <rgebbid@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -209,11 +209,11 @@ msgstr ""
 
 #: donate/templates/pages/base_page_master.html:37
 msgid "What you can do"
-msgstr ""
+msgstr "Acu i nezmer ad nexdem"
 
 #: donate/templates/pages/base_page_master.html:40
 msgid "Blog"
-msgstr ""
+msgstr "Ablug"
 
 #: donate/templates/pages/base_page_master.html:51
 msgid "Menu"
