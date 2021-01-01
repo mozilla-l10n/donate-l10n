@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-22 10:22+0000\n"
-"PO-Revision-Date: 2020-12-24 16:51+0000\n"
-"Last-Translator: ZiriSut <rgebbid@gmail.com>\n"
+"PO-Revision-Date: 2021-01-01 20:02+0000\n"
+"Last-Translator: Muhend Belkacem <taqbaylitassa@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
 "MIME-Version: 1.0\n"
@@ -205,7 +205,7 @@ msgstr "Acu i nxeddem"
 
 #: donate/templates/pages/base_page_master.html:34
 msgid "What we fund"
-msgstr ""
+msgstr "Ayen i nesseftay"
 
 #: donate/templates/pages/base_page_master.html:37
 msgid "What you can do"
@@ -405,6 +405,8 @@ msgid ""
 "Please also note that the Mozilla Foundation cannot accept SEPA or BACS transfers for MZLA/Thunderbird. To contribute to MZLA/Thunderbird via SEPA or BACS transfer, please follow <a "
 "href=\"%(instruction_url)s\">these instructions</a>."
 msgstr ""
+"Ilaq ad teẓreḍ dakken Tasbeddit Mozilla ur tqebbel ara isawaḍen SEPA neɣ BACS i MZLA/Thunderbird. Akken ad tmuddeḍ tawsa i MZLA/Thunderbird s usiweḍ SEPA neɣ BACS, ttxil-k wali <a "
+"href=\"%(instruction_url)s\">tinaḍin-a</a>."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:36
 msgid "Please remember that donations are deductible for U.S. income tax purposes only."
@@ -479,7 +481,7 @@ msgstr "Uṭṭun n umiḍan (8 n izwilen):"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:75
 msgid "Donation of Stock/Securities:"
-msgstr ""
+msgstr "Tawsa n tigawt/izwilen:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:77
 #, python-format
