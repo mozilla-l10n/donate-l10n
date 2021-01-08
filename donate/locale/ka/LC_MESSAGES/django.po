@@ -2,14 +2,14 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-22 10:22+0000\n"
-"PO-Revision-Date: 2020-12-08 11:45+0000\n"
+"PO-Revision-Date: 2021-01-08 19:00+0000\n"
 "Last-Translator: G12r <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ka\n"
@@ -36,8 +36,7 @@ msgstr "მიუთითეთ მოქმედი ელფოსტის 
 msgid "Donations must be %(amount)s or more"
 msgstr "შემოწირულობა უნდა იყოს სულ მცირე %(amount)s"
 
-#: donate/payments/forms.py:52 donate/payments/forms.py:66
-#: donate/payments/forms.py:113
+#: donate/payments/forms.py:52 donate/payments/forms.py:66 donate/payments/forms.py:113
 msgid "Amount"
 msgstr "ოდენობა"
 
@@ -49,8 +48,7 @@ msgstr "სახელი"
 msgid "Last name"
 msgstr "გვარი"
 
-#: donate/payments/forms.py:81 donate/payments/forms.py:123
-#: donate/templates/pages/core/contributor_support_page_master.html:45
+#: donate/payments/forms.py:81 donate/payments/forms.py:123 donate/templates/pages/core/contributor_support_page_master.html:45
 msgid "Email"
 msgstr "ელფოსტა"
 
@@ -128,10 +126,7 @@ msgstr "უკაცრავად, გვერდი არ არსებ�
 msgid "Go to our home page"
 msgstr "მთავარ გვერდზე გადასვლა"
 
-#: donate/templates/base_master.html:8
-#: donate/templates/pages/base_page_master.html:8
-#: donate/templates/pages/base_page_master.html:15
-#: donate/templates/pages/base_page_master.html:16
+#: donate/templates/base_master.html:8 donate/templates/pages/base_page_master.html:8 donate/templates/pages/base_page_master.html:15 donate/templates/pages/base_page_master.html:16
 msgctxt "Page title"
 msgid "Donate to Mozilla"
 msgstr "დაეხმარეთ Mozilla-ს"
@@ -144,27 +139,19 @@ msgstr "ერთჯერადი"
 msgid "MONTHLY"
 msgstr "ყოველთვიური"
 
-#: donate/templates/fragments/donate_form.html:41
-#: donate/templates/fragments/donate_form.html:42
-#: donate/templates/fragments/donate_form.html:105
-#: donate/templates/fragments/donate_form.html:106
+#: donate/templates/fragments/donate_form.html:41 donate/templates/fragments/donate_form.html:42 donate/templates/fragments/donate_form.html:105 donate/templates/fragments/donate_form.html:106
 msgid "Other amount"
 msgstr "სხვა ოდენობა"
 
-#: donate/templates/fragments/donate_form.html:48
-#: donate/templates/fragments/donate_form.html:112
+#: donate/templates/fragments/donate_form.html:48 donate/templates/fragments/donate_form.html:112
 msgid "Choose Payment"
 msgstr "გადახდის საშუალების არჩევა"
 
-#: donate/templates/fragments/donate_form.html:54
-#: donate/templates/fragments/donate_form.html:118
-#: donate/templates/payment/card_master.html:97
+#: donate/templates/fragments/donate_form.html:54 donate/templates/fragments/donate_form.html:118 donate/templates/payment/card_master.html:97
 msgid "SECURE"
 msgstr "დაცული"
 
-#: donate/templates/fragments/donate_form.html:60
-#: donate/templates/fragments/donate_form.html:124
-#: donate/templates/pages/base_page_master.html:139
+#: donate/templates/fragments/donate_form.html:60 donate/templates/fragments/donate_form.html:124 donate/templates/pages/base_page_master.html:139
 msgid "Donate"
 msgstr "შემოწირულობა"
 
@@ -174,13 +161,20 @@ msgstr "ყოველთვიურად"
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:6
 #, python-format
-msgid "Mozilla is committed to your privacy; please read our <a href=\"%(privacy_url)s\">privacy policy here</a>. Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Mozilla."
-msgstr "Mozilla ერთგულია თქვენი მონაცემების დაცვის; გთხოვთ იხილოთ ჩვენი <a href=\"%(privacy_url)s\">პირადულობის დებულება აქ</a>. თქვენი ანგარიშის მონაცემებს ამუშავებს <a href=\"%(braintree_url)s\">Braintree</a>, PayPal-ის შვილობილი კომპანია (საკრედიტო/სადებეტო ბარათების შემთხვევაში) ან <a href=\"%(paypal_url)s\">Paypal</a>, ხოლო თქვენს შემოწირულობებს აღრიცხავს Mozilla."
+msgid ""
+"Mozilla is committed to your privacy; please read our <a href=\"%(privacy_url)s\">privacy policy here</a>. Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a "
+"PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Mozilla."
+msgstr ""
+"Mozilla ერთგულია თქვენი მონაცემების დაცვის; გთხოვთ იხილოთ ჩვენი <a href=\"%(privacy_url)s\">პირადულობის დებულება აქ</a>. თქვენი ანგარიშის მონაცემებს ამუშავებს <a "
+"href=\"%(braintree_url)s\">Braintree</a>, PayPal-ის შვილობილი კომპანია (საკრედიტო/სადებეტო ბარათების შემთხვევაში) ან <a href=\"%(paypal_url)s\">Paypal</a>, ხოლო თქვენს შემოწირულობებს აღრიცხავს "
+"Mozilla."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:9
 #, python-format
 msgid "Monthly donations are charged each month on the same day that you donate today, and will continue until you cancel. To cancel, email us at <a href=\"mailto:%(email)s\">%(email)s</a>."
-msgstr "ყოველთვიური შემოწირულობისთვის თანხა ჩამოგეჭრებათ თვის იმავე დღეს, როცა პირველ შემოწირულობას გააკეთებთ და გაგრძელდება, სანამ არ გააუქმებთ. გასაუქმებლად, მოგვწერეთ ელფოსტაზე <a href=\"mailto:%(email)s\">%(email)s</a>."
+msgstr ""
+"ყოველთვიური შემოწირულობისთვის თანხა ჩამოგეჭრებათ თვის იმავე დღეს, როცა პირველ შემოწირულობას გააკეთებთ და გაგრძელდება, სანამ არ გააუქმებთ. გასაუქმებლად, მოგვწერეთ ელფოსტაზე <a "
+"href=\"mailto:%(email)s\">%(email)s</a>."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:17
 #, python-format
@@ -193,11 +187,14 @@ msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers 
 msgstr "ხარვეზებია შემოწირულობისას? იხილეთ ჩვენი <a href=\"%(faq_url)s\">ხ.დ.კ.</a> ხშირად დასმულ კითხვებზე პასუხის მისაღებად. კვლავ ხარვეზებია? <a href=\"mailto:%(email)s\">მოგვწერეთ ელფოსტაზე</a>."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:30
-msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in Mountain View, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
-msgstr "შემოწირულობები ირიცხება Mozilla-ფონდში, 501(c)(3) არამომგებიან დაწესებულებაში, რომელიც მდებარეობს მაუნტინ-ვიუში, კალიფორნიაში, საქველმოქმედო მიზნებით გამოსაყენებლად. შენატანები ექვემდებარება საგადასახადო გამოქვითვებს აშშ-ში, კანონით ნებადართული სრული მოცულობით."
+msgid ""
+"Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in Mountain View, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S."
+" to the fullest extent permitted by law."
+msgstr ""
+"შემოწირულობები ირიცხება Mozilla-ფონდში, 501(c)(3) არამომგებიან დაწესებულებაში, რომელიც მდებარეობს მაუნტინ-ვიუში, კალიფორნიაში, საქველმოქმედო მიზნებით გამოსაყენებლად. შენატანები ექვემდებარება "
+"საგადასახადო გამოქვითვებს აშშ-ში, კანონით ნებადართული სრული მოცულობით."
 
-#: donate/templates/fragments/language_switcher.html:10
-#: donate/templates/pages/core/contributor_support_page_master.html:50
+#: donate/templates/fragments/language_switcher.html:10 donate/templates/pages/core/contributor_support_page_master.html:50
 msgid "Language"
 msgstr "ენა"
 
@@ -253,9 +250,7 @@ msgstr "თუ ჯერ არ დაგიმოწმებიათ Mozilla-
 msgid "More about us"
 msgstr "მეტი ჩვენ შესახებ"
 
-#: donate/templates/pages/base_page_master.html:116
-#: donate/templates/payment/thank_you_master.html:38
-#: donate/thunderbird/templates/pages/base_page.html:38
+#: donate/templates/pages/base_page_master.html:116 donate/templates/payment/thank_you_master.html:38 donate/thunderbird/templates/pages/base_page.html:38
 #: donate/thunderbird/templates/payment/thank_you.html:27
 msgid "Twitter"
 msgstr "Twitter"
@@ -268,18 +263,15 @@ msgstr "Instagram"
 msgid "GitHub"
 msgstr "GitHub"
 
-#: donate/templates/pages/base_page_master.html:142
-#: donate/thunderbird/templates/pages/base_page.html:61
+#: donate/templates/pages/base_page_master.html:142 donate/thunderbird/templates/pages/base_page.html:61
 msgid "Participation Guidelines"
 msgstr "მონაწილის გზამკვლევი"
 
-#: donate/templates/pages/base_page_master.html:145
-#: donate/thunderbird/templates/pages/base_page.html:53
+#: donate/templates/pages/base_page_master.html:145 donate/thunderbird/templates/pages/base_page.html:53
 msgid "Legal"
 msgstr "სამართლებრივი"
 
-#: donate/templates/pages/base_page_master.html:148
-#: donate/thunderbird/templates/pages/base_page.html:56
+#: donate/templates/pages/base_page_master.html:148 donate/thunderbird/templates/pages/base_page.html:56
 msgid "Privacy"
 msgstr "პირადულობა"
 
@@ -289,24 +281,23 @@ msgstr "ლიცენზია"
 
 #: donate/templates/pages/base_page_master.html:172
 #, python-format
-msgid "Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a %(link_attributes)s>%(site_url)s</a>."
-msgstr "Mozilla არის საერთაშორისო არამომგებიანი დაწესებულება, რომელსაც სურს ხალხს დაუბრუნოს, თავიანთი ინტერნეტცხოვრების სრულად განკარგვის უფლება და გახადოს ინტერნეტი საზოგადოებრივი სარგებლის მომტანი. გვეწვიეთ საიტზე <a %(link_attributes)s>%(site_url)s</a>."
+msgid ""
+"Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a "
+"%(link_attributes)s>%(site_url)s</a>."
+msgstr ""
+"Mozilla არის საერთაშორისო არამომგებიანი დაწესებულება, რომელსაც სურს ხალხს დაუბრუნოს, თავიანთი ინტერნეტცხოვრების სრულად განკარგვის უფლება და გახადოს ინტერნეტი საზოგადოებრივი სარგებლის მომტანი. "
+"გვეწვიეთ საიტზე <a %(link_attributes)s>%(site_url)s</a>."
 
-#: donate/templates/pages/core/campaign_page.html:43
-#: donate/templates/pages/core/ways_to_give_page_master.html:12
+#: donate/templates/pages/core/campaign_page.html:43 donate/templates/pages/core/ways_to_give_page_master.html:12
 msgctxt "Button"
 msgid "DONATE NOW"
 msgstr "თანხის გაღება"
 
-#: donate/templates/pages/core/campaign_page.html:57
-#: donate/templates/pages/core/landing_page_master.html:36
-#: donate/templates/payment/card_master.html:159
+#: donate/templates/pages/core/campaign_page.html:57 donate/templates/pages/core/landing_page_master.html:36 donate/templates/payment/card_master.html:159
 msgid "Seal of Charity Navigator 4-Star"
 msgstr "4-ვარკვლავიანი სიგელი Charity Navigator-ის"
 
-#: donate/templates/pages/core/campaign_page.html:60
-#: donate/templates/pages/core/landing_page_master.html:39
-#: donate/templates/payment/card_master.html:162
+#: donate/templates/pages/core/campaign_page.html:60 donate/templates/pages/core/landing_page_master.html:39 donate/templates/payment/card_master.html:162
 msgid "Seal of GuideStar Gold 2019"
 msgstr "Goldenes ოქროს სიგელი 2019 წლის"
 
@@ -376,14 +367,15 @@ msgstr "აღწერა"
 #: donate/templates/pages/core/contributor_support_page_master.html:75
 #, python-format
 msgid "Mozilla will only use your submitted information for purposes of communicating with you about your request. See our <a href=\"%(privacy_policy)s\">privacy policy</a> for further information."
-msgstr "Mozilla თქვენ მიერ გამოგზავნილ ინფორმაციას გამოიყენებს მხოლოდ თქვენთან დასაკავშირებლად, მოთხოვნის თაობაზე. იხილეთ <a href=\"%(privacy_policy)s\">პირადი მონაცემების დაცვის ჩვენი დებულება</a> დაწვრილებითი ინფორმაციისთვის."
+msgstr ""
+"Mozilla თქვენ მიერ გამოგზავნილ ინფორმაციას გამოიყენებს მხოლოდ თქვენთან დასაკავშირებლად, მოთხოვნის თაობაზე. იხილეთ <a href=\"%(privacy_policy)s\">პირადი მონაცემების დაცვის ჩვენი დებულება</a> "
+"დაწვრილებითი ინფორმაციისთვის."
 
 #: donate/templates/pages/core/contributor_support_page_master.html:77
 msgid "Submit"
 msgstr "გაგზავნა"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:4
-#: donate/templates/pages/core/ways_to_give_page_master.html:11
+#: donate/templates/pages/core/ways_to_give_page_master.html:4 donate/templates/pages/core/ways_to_give_page_master.html:11
 msgid "Ways to Give"
 msgstr "მხარდაჭერის გზები"
 
@@ -396,8 +388,7 @@ msgstr "საკრედიტო / სადებეტო ბარათ�
 msgid "<a href=\"%(ways_to_give_link)s\">Go to this link</a> to make a secure online donation right now."
 msgstr "<a href=\"%(ways_to_give_link)s\">გადადით ამ ბმულზე</a>, ინტერნეტით უსაფრთხო შემოწირვისთვის, ახლავე."
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:24
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:7
+#: donate/templates/pages/core/ways_to_give_page_master.html:24 donate/thunderbird/templates/pages/core/ways_to_give_page.html:7
 msgid "Bank Transfer / SEPA"
 msgstr "საბანკო გადარიცხვა / SEPA"
 
@@ -406,136 +397,127 @@ msgid "We accept donations in Euros through Single European Payment Area (SEPA) 
 msgstr "ჩვენ ვიღებთ შემოწირულობებს ევროში, Single European Payment Area (SEPA) სისტემის მეშვეობით და ასევე, ბრიტანულ გირვანქას, BACS-ის საშუალებით."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:27
-msgid "Note that for smaller (under 10 EUR or equivalent) donations, <strong>and especially for donations under 5 EUR or equivalent</strong>, we request that you donate via credit card or PayPal to help reduce Mozilla’s processing fees."
-msgstr "გაითვალისწინეთ, რომ მცირე (10 ევრო ან ნაკლები) შემოწირულობის, <strong>განსაკუთრებით კი 5 ევროს ან უფრო მცირე შემოწირულობის გაღებისას</strong>, ვითხოვთ საკრეტიდო ბარათის ან PayPal-ის გამოყენებას, ეს ეხმარება Mozilla-ს თანხის მიღების დანახარჯების შემცირებაში."
+msgid ""
+"Note that for smaller (under 10 EUR or equivalent) donations, <strong>and especially for donations under 5 EUR or equivalent</strong>, we request that you donate via credit card or PayPal to help "
+"reduce Mozilla’s processing fees."
+msgstr ""
+"გაითვალისწინეთ, რომ მცირე (10 ევრო ან ნაკლები) შემოწირულობის, <strong>განსაკუთრებით კი 5 ევროს ან უფრო მცირე შემოწირულობის გაღებისას</strong>, ვითხოვთ საკრეტიდო ბარათის ან PayPal-ის გამოყენებას, ეს "
+"ეხმარება Mozilla-ს თანხის მიღების დანახარჯების შემცირებაში."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:32
 #, python-format
-msgid "Please also note that the Mozilla Foundation cannot accept SEPA or BACS transfers for MZLA/Thunderbird. To contribute to MZLA/Thunderbird via SEPA or BACS transfer, please follow <a href=\"%(instruction_url)s\">these instructions</a>."
+msgid ""
+"Please also note that the Mozilla Foundation cannot accept SEPA or BACS transfers for MZLA/Thunderbird. To contribute to MZLA/Thunderbird via SEPA or BACS transfer, please follow <a "
+"href=\"%(instruction_url)s\">these instructions</a>."
 msgstr ""
+"გთხოვთ გაითვალისწინოთ, რომ Mozilla Foundation ვერ მიიღებს SEPA ან BACS გადარიცხვებს MZLA/Thunderbird-ისთვის. თუ როგორ უნდა გამოიყენოთ SEPA ან BACS წვლილის შესატანად MZLA/Thunderbird-ში, გაეცანით <a "
+"href=\"%(instruction_url)s\">მოცემულ მითითებებს</a>."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:36
 msgid "Please remember that donations are deductible for U.S. income tax purposes only."
 msgstr "გთხოვთ გაითვალისწინოთ, რომ შემოწირულობები თავისუფლდება, მხოლოდ აშშ-ს საშემოსავლო გადასახადისგან."
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:38
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:15
+#: donate/templates/pages/core/ways_to_give_page_master.html:38 donate/thunderbird/templates/pages/core/ways_to_give_page.html:15
 #, python-format
 msgid "If your bank requests our physical address, it is %(address)s."
 msgstr "თუ თქვენი ბანკი ითხოვს ჩვენს ფიზიკურ მისამართს, მიუთითეთ %(address)s."
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:45
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:22
+#: donate/templates/pages/core/ways_to_give_page_master.html:45 donate/thunderbird/templates/pages/core/ways_to_give_page.html:22
 msgid "Euros:"
 msgstr "ევრო:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:47
-#: donate/templates/pages/core/ways_to_give_page_master.html:60
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:24
+#: donate/templates/pages/core/ways_to_give_page_master.html:47 donate/templates/pages/core/ways_to_give_page_master.html:60 donate/thunderbird/templates/pages/core/ways_to_give_page.html:24
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:37
 msgid "Account Currency:"
 msgstr "ანგარიშის ვალუტა:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:47
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:24
+#: donate/templates/pages/core/ways_to_give_page_master.html:47 donate/thunderbird/templates/pages/core/ways_to_give_page.html:24
 msgid "Euro (EUR)"
 msgstr "ევრო (EUR)"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:48
-#: donate/templates/pages/core/ways_to_give_page_master.html:61
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:25
+#: donate/templates/pages/core/ways_to_give_page_master.html:48 donate/templates/pages/core/ways_to_give_page_master.html:61 donate/thunderbird/templates/pages/core/ways_to_give_page.html:25
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:38
 msgid "Receiving Bank (Pay to):"
 msgstr "მიმღები ბანკი (განაღდება):"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:49
-#: donate/templates/pages/core/ways_to_give_page_master.html:62
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:26
+#: donate/templates/pages/core/ways_to_give_page_master.html:49 donate/templates/pages/core/ways_to_give_page_master.html:62 donate/thunderbird/templates/pages/core/ways_to_give_page.html:26
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:39
 msgid "City & Country/Region:"
 msgstr "ქალაქი და ქვეყანა/მხარე:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:49
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:26
+#: donate/templates/pages/core/ways_to_give_page_master.html:49 donate/thunderbird/templates/pages/core/ways_to_give_page.html:26
 msgid "Frankfurt, Germany"
 msgstr "ფრანკფურტი, გერმანია"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:50
-#: donate/templates/pages/core/ways_to_give_page_master.html:68
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:27
+#: donate/templates/pages/core/ways_to_give_page_master.html:50 donate/templates/pages/core/ways_to_give_page_master.html:68 donate/thunderbird/templates/pages/core/ways_to_give_page.html:27
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:45
 msgid "SWIFT/BIC Code:"
 msgstr "SWIFT/BIC კოდი:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:51
-#: donate/templates/pages/core/ways_to_give_page_master.html:65
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:28
+#: donate/templates/pages/core/ways_to_give_page_master.html:51 donate/templates/pages/core/ways_to_give_page_master.html:65 donate/thunderbird/templates/pages/core/ways_to_give_page.html:28
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:42
 msgid "Beneficiary Name (For credit to):"
 msgstr "მიმღების სახელი (ბენეფიციარი):"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:52
-#: donate/templates/pages/core/ways_to_give_page_master.html:69
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:29
+#: donate/templates/pages/core/ways_to_give_page_master.html:52 donate/templates/pages/core/ways_to_give_page_master.html:69 donate/thunderbird/templates/pages/core/ways_to_give_page.html:29
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:46
 msgid "IBAN:"
 msgstr "IBAN:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:58
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:35
+#: donate/templates/pages/core/ways_to_give_page_master.html:58 donate/thunderbird/templates/pages/core/ways_to_give_page.html:35
 msgid "British Pound Sterling:"
 msgstr "ბრიტანული გირვანქა სტერლინგი:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:60
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:37
+#: donate/templates/pages/core/ways_to_give_page_master.html:60 donate/thunderbird/templates/pages/core/ways_to_give_page.html:37
 msgid "British Pound Sterling (GBP)"
 msgstr "ბრიტანული გირვანქა სტერლინგი (GBP)"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:62
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:39
+#: donate/templates/pages/core/ways_to_give_page_master.html:62 donate/thunderbird/templates/pages/core/ways_to_give_page.html:39
 msgid "London, United Kingdom"
 msgstr "ლონდონი, გაერთიანებული სამეფო"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:63
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:40
+#: donate/templates/pages/core/ways_to_give_page_master.html:63 donate/thunderbird/templates/pages/core/ways_to_give_page.html:40
 msgid "Bank Sort Code:"
 msgstr "საბანკო (Sort) კოდი:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:64
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:41
+#: donate/templates/pages/core/ways_to_give_page_master.html:64 donate/thunderbird/templates/pages/core/ways_to_give_page.html:41
 msgid "Account Number (8 digits):"
 msgstr "ანგარიშის ნომერი (8 ციფრი):"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:75
 msgid "Donation of Stock/Securities:"
-msgstr ""
+msgstr "შემოწირულობა აქციების/ფასიანი ქაღალდების მეშვეობით:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:77
 #, python-format
-msgid "The Mozilla Foundation is happy to accept your gift of publicly-traded stocks or bonds through our brokerage account at Northern Trust Securities. Please contact Major Gift Officer %(name)s at <a href=\"mailto:%(email)s\">%(email)s</a> to initiate the process."
+msgid ""
+"The Mozilla Foundation is happy to accept your gift of publicly-traded stocks or bonds through our brokerage account at Northern Trust Securities. Please contact Major Gift Officer %(name)s at <a "
+"href=\"mailto:%(email)s\">%(email)s</a> to initiate the process."
 msgstr ""
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:86
 msgid "Check (via postal service)"
 msgstr "ჩეკი (ფოსტის საშუალებით)"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:90
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:54
+#: donate/templates/pages/core/ways_to_give_page_master.html:90 donate/thunderbird/templates/pages/core/ways_to_give_page.html:54
 msgid "UPDATE October 2020:"
 msgstr "ᲒᲐᲜᲐᲮᲚᲔᲑᲐ ოქტომბერი, 2020:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:91
-msgid "The Mozilla Foundation is happy to accept your donation (made payable to “Mozilla Foundation”) via check; however please note that processing and acknowledgment of your gift may be delayed by changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
+msgid ""
+"The Mozilla Foundation is happy to accept your donation (made payable to “Mozilla Foundation”) via check; however please note that processing and acknowledgment of your gift may be delayed by "
+"changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
 msgstr ""
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:108
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:67
+#: donate/templates/pages/core/ways_to_give_page_master.html:108 donate/thunderbird/templates/pages/core/ways_to_give_page.html:67
 msgid "Please include your email address on the memo line of your check to help us track and attribute your gift."
 msgstr "გთხოვთ დაურთოთ თქვენი ელფოსტა ჩეკის სამახსოვროში, რომლის მეშვეობითაც შეგვეძლება გამოხმაურება და საჩუქრის მოძღვნა."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:115
 #, python-format
-msgid "Please also note that the Mozilla Foundation can <strong>only</strong> accept checks in U.S. dollars drawn on a U.S. bank, and <strong>cannot</strong> accept contributions for MZLA/Thunderbird. (Contributions to MZLA/Thunderbird via check can be made by following <a href=\"%(instruction_url)s\" target=\"_blank\">these instructions</a>.)"
+msgid ""
+"Please also note that the Mozilla Foundation can <strong>only</strong> accept checks in U.S. dollars drawn on a U.S. bank, and <strong>cannot</strong> accept contributions for MZLA/Thunderbird. "
+"(Contributions to MZLA/Thunderbird via check can be made by following <a href=\"%(instruction_url)s\" target=\"_blank\">these instructions</a>.)"
 msgstr ""
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:122
@@ -551,8 +533,17 @@ msgid "Bitcoin"
 msgstr "ბიტკოინი"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:135
-msgid "The Mozilla Foundation is a California non-profit corporation exempt from United States federal income taxation under IRC 501(c)(3) and a public charity classified under IRC sections 170(b)(1)(A) and 509(a)(1). Bitcoin donations Mozilla receives are considered charitable contributions under U.S. federal tax laws, to be used in its discretion for its charitable purposes. Because the IRS has indicated that it will treat bitcoin as property for U.S. tax purposes (see IRS Notice 2014-21), donations of bitcoin may be subject to special rules as to the amount of your charitable deduction, the documentation that must be provided to claim a tax deduction, or other matters."
-msgstr "Mozilla-ს ფონდი არის კალიფორნიაში მდებარე, არამომგებიანი დაწესებულება, რომელიც შეერთებული შტატების ფედერალური საშემოსავლო გადასახადებისგან გათავისუფლებულია IRC 501(c)(3)-სა და საზოგადოებრივი ქველმოქმედების შესახებ IRC კოდექსის 170(b)(1)(A) და 509(a)(1) ნაწილებით გათვალისწინებული დებულებების შესაბამისად. აშშ-ს ფედერალური საგადასახადო კანონმდებლობის შესაბამისად, ბიტკოინით მიღებული შემოწირულობა, განიხილება ქველმოქმედებად, რომელიც გამოყენებული უნდა იყოს კეთილგონივრულად და დანიშნულებისამებრ. ვინაიდან, IRS მიუთითებს, რომ ბიტკოინი განისაზღვრება როგორც კერძო საკუთრება და იბეგრება აშშ-ს საგადასახადო კოდექსის შესაბამისად (იხილეთ IRS-დანართი 2014-21), შემოწირულობები ბიტკოინის საშუალებით შეიძლება დაექვემდებაროს გარკვეულ წესებს, საქველმოქმედო გამოქვითვის რაოდენობიდან, საშემოსავლო გამოქვითვის შესახებ საჭირო საბუთებიდან ან სხვა გარემოებებიდან გამომდინარე."
+msgid ""
+"The Mozilla Foundation is a California non-profit corporation exempt from United States federal income taxation under IRC 501(c)(3) and a public charity classified under IRC sections 170(b)(1)(A) "
+"and 509(a)(1). Bitcoin donations Mozilla receives are considered charitable contributions under U.S. federal tax laws, to be used in its discretion for its charitable purposes. Because the IRS has "
+"indicated that it will treat bitcoin as property for U.S. tax purposes (see IRS Notice 2014-21), donations of bitcoin may be subject to special rules as to the amount of your charitable deduction, "
+"the documentation that must be provided to claim a tax deduction, or other matters."
+msgstr ""
+"Mozilla-ს ფონდი არის კალიფორნიაში მდებარე, არამომგებიანი დაწესებულება, რომელიც შეერთებული შტატების ფედერალური საშემოსავლო გადასახადებისგან გათავისუფლებულია IRC 501(c)(3)-სა და საზოგადოებრივი "
+"ქველმოქმედების შესახებ IRC კოდექსის 170(b)(1)(A) და 509(a)(1) ნაწილებით გათვალისწინებული დებულებების შესაბამისად. აშშ-ს ფედერალური საგადასახადო კანონმდებლობის შესაბამისად, ბიტკოინით მიღებული "
+"შემოწირულობა, განიხილება ქველმოქმედებად, რომელიც გამოყენებული უნდა იყოს კეთილგონივრულად და დანიშნულებისამებრ. ვინაიდან, IRS მიუთითებს, რომ ბიტკოინი განისაზღვრება როგორც კერძო საკუთრება და იბეგრება "
+"აშშ-ს საგადასახადო კოდექსის შესაბამისად (იხილეთ IRS-დანართი 2014-21), შემოწირულობები ბიტკოინის საშუალებით შეიძლება დაექვემდებაროს გარკვეულ წესებს, საქველმოქმედო გამოქვითვის რაოდენობიდან, საშემოსავლო"
+" გამოქვითვის შესახებ საჭირო საბუთებიდან ან სხვა გარემოებებიდან გამომდინარე."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:140
 #, python-format
@@ -589,9 +580,7 @@ msgstr "დასტური"
 msgid "Your Details"
 msgstr "თქვენი მონაცემები"
 
-#: donate/templates/payment/card_master.html:60
-#: donate/templates/payment/card_upsell_master.html:34
-#: donate/templates/payment/newsletter_signup_master.html:30
+#: donate/templates/payment/card_master.html:60 donate/templates/payment/card_upsell_master.html:34 donate/templates/payment/newsletter_signup_master.html:30
 #: donate/templates/payment/paypal_upsell_master.html:34
 msgid "There were some errors with your form. Please amend the fields highlighted below."
 msgstr "თქვენს ველებში შეცდომები იყო. გთხოვთ, შეასწოროთ ქვემოთ მითითებულები."
@@ -622,8 +611,14 @@ msgstr "CVV"
 
 #: donate/templates/payment/card_master.html:126
 #, python-format
-msgid "I authorize Mozilla Foundation to automatically charge my card every month in the amount indicated above, starting today and continuing each month on the same day, until I cancel. I understand that I must cancel at least 5 days before the next scheduled donation by email to <a href='mailto:%(email)s'>%(email)s</a>, and that I may only request a refund within 15 days from the date of a donation."
-msgstr "ვანიჭებ Mozilla-ფონდს უფლებას, თავად ჩამოჭრას ჩემი ბარათიდან ზემოთ მოცემული ოდენობის თანხა დღეიდან ყოველთვიურად ამავე დღეს, სანამ არ გავაუქმებ. ვითვალისწინებ, რომ შემოწირულობის გასაუქმებლად მოთხოვნა, დაგეგმილ მომდევნო გადარიცხვამდე არანაკლებ 5 დღით ადრე უნდა გავგზავნო ელფოსტაზე <a href='mailto:%(email)s'>%(email)s</a>, ხოლო თანხის დაბრუნების მოთხოვნა, შემოწირულობის ჩამოჭრიდან, 15 დღის განმავლობაში შემეძლება."
+msgid ""
+"I authorize Mozilla Foundation to automatically charge my card every month in the amount indicated above, starting today and continuing each month on the same day, until I cancel. I understand that "
+"I must cancel at least 5 days before the next scheduled donation by email to <a href='mailto:%(email)s'>%(email)s</a>, and that I may only request a refund within 15 days from the date of a "
+"donation."
+msgstr ""
+"ვანიჭებ Mozilla-ფონდს უფლებას, თავად ჩამოჭრას ჩემი ბარათიდან ზემოთ მოცემული ოდენობის თანხა დღეიდან ყოველთვიურად ამავე დღეს, სანამ არ გავაუქმებ. ვითვალისწინებ, რომ შემოწირულობის გასაუქმებლად "
+"მოთხოვნა, დაგეგმილ მომდევნო გადარიცხვამდე არანაკლებ 5 დღით ადრე უნდა გავგზავნო ელფოსტაზე <a href='mailto:%(email)s'>%(email)s</a>, ხოლო თანხის დაბრუნების მოთხოვნა, შემოწირულობის ჩამოჭრიდან, 15 დღის "
+"განმავლობაში შემეძლება."
 
 #: donate/templates/payment/card_master.html:128
 msgid "I authorize Mozilla Foundation to charge my card in the amount indicated above. I understand that I may only request a refund within 15 days from the date of the donation."
@@ -643,27 +638,20 @@ msgstr "შემოწირულობა <span class=\"%(span_class)s\">%(fo
 msgid "Your donation helps keep the Web open and free. Thank you in advance for your gift."
 msgstr "თქვენი შემოწირულობა ხელს უწყობს ვებსამყაროს გახსნილობასა და თავისუფლებას. წინასწარ გმადლობთ საჩუქრისთვის."
 
-#: donate/templates/payment/card_upsell_master.html:4
-#: donate/templates/payment/paypal_upsell_master.html:4
-#: donate/templates/payment/thank_you_master.html:4
+#: donate/templates/payment/card_upsell_master.html:4 donate/templates/payment/paypal_upsell_master.html:4 donate/templates/payment/thank_you_master.html:4
 msgid "Thank you"
 msgstr "გმადლობთ"
 
-#: donate/templates/payment/card_upsell_master.html:13
-#: donate/templates/payment/newsletter_signup_master.html:13
-#: donate/templates/payment/paypal_upsell_master.html:13
-#: donate/templates/payment/thank_you_master.html:12
-#: donate/thunderbird/templates/payment/newsletter_signup.html:6
+#: donate/templates/payment/card_upsell_master.html:13 donate/templates/payment/newsletter_signup_master.html:13 donate/templates/payment/paypal_upsell_master.html:13
+#: donate/templates/payment/thank_you_master.html:12 donate/thunderbird/templates/payment/newsletter_signup.html:6
 msgid "Thank you for your generous gift"
 msgstr "გმადლობთ, გულუხვი საჩუქრისთვის"
 
-#: donate/templates/payment/card_upsell_master.html:17
-#: donate/templates/payment/paypal_upsell_master.html:17
+#: donate/templates/payment/card_upsell_master.html:17 donate/templates/payment/paypal_upsell_master.html:17
 msgid "We’d love to have you as a sustaining supporter of Mozilla. <b>Could you add a monthly donation starting next month?</b>"
 msgstr "მეტად მოხარულები ვიქნებით, თუ Mozilla-ს მტკიცე და მუდმივი მხარდამჭერი გახდებით. <b>გაქვთ სურვილი მომდევნო თვიდან, გაიღოთ შემოწირულობა ყოველთვიურად?</b>"
 
-#: donate/templates/payment/card_upsell_master.html:21
-#: donate/templates/payment/paypal_upsell_master.html:21
+#: donate/templates/payment/card_upsell_master.html:21 donate/templates/payment/paypal_upsell_master.html:21
 msgid "Yes, I will give:"
 msgstr "დიახ, შემიძლია გავიღო:"
 
@@ -673,15 +661,19 @@ msgstr "ყოველთვიური"
 
 #: donate/templates/payment/card_upsell_master.html:48
 #, python-format
-msgid "I authorize Mozilla Foundation to automatically charge my card every month in the amount indicated above, starting next month on the same date as today, and continuing each month afterwards until I cancel. I understand that I must cancel at least 5 days before the next scheduled donation by email to %(email)s, and that I may only request a refund within 15 days from the date of a donation."
-msgstr "ვანიჭებ Mozilla-ფონდს უფლებას, თავად ჩამოჭრას ჩემი ბარათიდან ზემოთ მოცემული ოდენობის თანხა ყოველთვიურად, დაწყებული მომდევნო თვიდან ამავე დღეს, სანამ არ გავაუქმებ. ვითვალისწინებ, რომ შემოწირულობის გასაუქმებლად მოთხოვნა, დაგეგმილ მომდევნო გადარიცხვამდე არანაკლებ 5 დღით ადრე უნდა გავგზავნო ელფოსტაზე %(email)s, ხოლო თანხის დაბრუნების მოთხოვნა, შემოწირულობის ჩამოჭრიდან, 15 დღის განმავლობაში შემეძლება."
+msgid ""
+"I authorize Mozilla Foundation to automatically charge my card every month in the amount indicated above, starting next month on the same date as today, and continuing each month afterwards until I "
+"cancel. I understand that I must cancel at least 5 days before the next scheduled donation by email to %(email)s, and that I may only request a refund within 15 days from the date of a donation."
+msgstr ""
+"ვანიჭებ Mozilla-ფონდს უფლებას, თავად ჩამოჭრას ჩემი ბარათიდან ზემოთ მოცემული ოდენობის თანხა ყოველთვიურად, დაწყებული მომდევნო თვიდან ამავე დღეს, სანამ არ გავაუქმებ. ვითვალისწინებ, რომ შემოწირულობის "
+"გასაუქმებლად მოთხოვნა, დაგეგმილ მომდევნო გადარიცხვამდე არანაკლებ 5 დღით ადრე უნდა გავგზავნო ელფოსტაზე %(email)s, ხოლო თანხის დაბრუნების მოთხოვნა, შემოწირულობის ჩამოჭრიდან, 15 დღის განმავლობაში "
+"შემეძლება."
 
 #: donate/templates/payment/card_upsell_master.html:53
 msgid "Donate Monthly"
 msgstr "შემოწირულობა ყოველთვიურად"
 
-#: donate/templates/payment/card_upsell_master.html:56
-#: donate/templates/payment/newsletter_signup_master.html:42
+#: donate/templates/payment/card_upsell_master.html:56 donate/templates/payment/newsletter_signup_master.html:42
 msgid "No Thanks"
 msgstr "არა, გმადლობთ"
 
@@ -712,7 +704,8 @@ msgstr "თქვენი შემოწირულობა მიმარ�
 #: donate/templates/payment/thank_you_master.html:15
 #, python-format
 msgid "We’ve emailed you a donation receipt; if it’s missing, please check your junk/spam folders, then contact us at <a href=\"mailto:%(email)s\">%(email)s</a>."
-msgstr "ჩვენ გამოგიგზავნეთ შემოწირულების ქვითარი; თუ არ მიგიღიათ, გთხოვთ, ჯერ გადაამოწმოთ თქვენი ჯართის/სპამის საქაღალდეები, შემდეგ კი დაგვიკავშირდეთ მისამართზე <a href=\"mailto:%(email)s\">%(email)s</a>."
+msgstr ""
+"ჩვენ გამოგიგზავნეთ შემოწირულების ქვითარი; თუ არ მიგიღიათ, გთხოვთ, ჯერ გადაამოწმოთ თქვენი ჯართის/სპამის საქაღალდეები, შემდეგ კი დაგვიკავშირდეთ მისამართზე <a href=\"mailto:%(email)s\">%(email)s</a>."
 
 #: donate/templates/payment/thank_you_master.html:17
 msgid "Lastly, can you multiply your impact by sharing about the important work Mozilla is doing? Thank you again!"
@@ -728,36 +721,29 @@ msgctxt "Email subject line"
 msgid "I donated to Mozilla today"
 msgstr "მე დღეს დავეხმარე Mozilla-ს"
 
-#: donate/templates/payment/thank_you_master.html:27
-#: donate/thunderbird/templates/payment/thank_you.html:16
+#: donate/templates/payment/thank_you_master.html:27 donate/thunderbird/templates/payment/thank_you.html:16
 msgid "Share on Facebook"
 msgstr "გაზიარება Facebook-ზე"
 
-#: donate/templates/payment/thank_you_master.html:31
-#: donate/thunderbird/templates/pages/base_page.html:44
-#: donate/thunderbird/templates/payment/thank_you.html:20
+#: donate/templates/payment/thank_you_master.html:31 donate/thunderbird/templates/pages/base_page.html:44 donate/thunderbird/templates/payment/thank_you.html:20
 msgid "Facebook"
 msgstr "Facebook"
 
-#: donate/templates/payment/thank_you_master.html:34
-#: donate/thunderbird/templates/payment/thank_you.html:23
+#: donate/templates/payment/thank_you_master.html:34 donate/thunderbird/templates/payment/thank_you.html:23
 msgid "Share on Twitter"
 msgstr "გაზიარება Twitter-ით"
 
-#: donate/templates/payment/thank_you_master.html:44
-#: donate/thunderbird/templates/payment/thank_you.html:33
+#: donate/templates/payment/thank_you_master.html:44 donate/thunderbird/templates/payment/thank_you.html:33
 msgctxt "Share button"
 msgid "Email"
 msgstr "ელფოსტა"
 
-#: donate/templates/payment/thank_you_master.html:54
-#: donate/thunderbird/templates/payment/thank_you.html:43
+#: donate/templates/payment/thank_you_master.html:54 donate/thunderbird/templates/payment/thank_you.html:43
 msgctxt "Share button"
 msgid "Link"
 msgstr "ბმული"
 
-#: donate/templates/payment/thank_you_master.html:55
-#: donate/thunderbird/templates/payment/thank_you.html:44
+#: donate/templates/payment/thank_you_master.html:55 donate/thunderbird/templates/payment/thank_you.html:44
 msgid "Copied"
 msgstr "ასლი აღებულია"
 
@@ -765,9 +751,7 @@ msgstr "ასლი აღებულია"
 msgid "Back"
 msgstr "უკან"
 
-#: donate/thunderbird/templates/base.html:9
-#: donate/thunderbird/templates/pages/base_page.html:9
-#: donate/thunderbird/templates/pages/base_page.html:16
+#: donate/thunderbird/templates/base.html:9 donate/thunderbird/templates/pages/base_page.html:9 donate/thunderbird/templates/pages/base_page.html:16
 #: donate/thunderbird/templates/pages/base_page.html:17
 msgctxt "Page title"
 msgid "Give to Thunderbird"
@@ -780,13 +764,19 @@ msgstr "სხვა გზები, შემოწირულობის �
 
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:12
 #, python-format
-msgid "Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Thunderbird. Please read our <a href=\"%(privacy_url)s\">privacy policy here</a>."
-msgstr "თქვენი ანგარიშის მონაცემებს ამუშავებს <a href=\"%(braintree_url)s\">Braintree</a>, PayPal-ის შვილობილი კომპანია (საკრედიტო/სადებეტო ბარათების შემთხვევაში) ან <a href=\"%(paypal_url)s\">Paypal</a>, ხოლო თქვენს შემოწირულობებს აღრიცხავს Thunderbird. გთხოვთ, იხილოთ ჩვენი <a href=\"%(privacy_url)s\">პირადულობის დებულება აქ</a>."
+msgid ""
+"Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your "
+"donation will be stored by Thunderbird. Please read our <a href=\"%(privacy_url)s\">privacy policy here</a>."
+msgstr ""
+"თქვენი ანგარიშის მონაცემებს ამუშავებს <a href=\"%(braintree_url)s\">Braintree</a>, PayPal-ის შვილობილი კომპანია (საკრედიტო/სადებეტო ბარათების შემთხვევაში) ან <a href=\"%(paypal_url)s\">Paypal</a>, "
+"ხოლო თქვენს შემოწირულობებს აღრიცხავს Thunderbird. გთხოვთ, იხილოთ ჩვენი <a href=\"%(privacy_url)s\">პირადულობის დებულება აქ</a>."
 
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:15
 #, python-format
 msgid "Monthly donations are charged each month on the same day that you donate today, and will continue until you cancel. To cancel, fill out <a href=\"%(help_url)s\">this form</a>."
-msgstr "ყოველთვიური შემოწირულობისთვის თანხა ჩამოგეჭრებათ თვის იმავე დღეს, როცა პირველ შემოწირულობას გააკეთებთ და გაგრძელდება, სანამ არ გააუქმებთ. გასაუქმებლად, შეავსეთ <a href=\"%(help_url)s\">ეს ანკეტა</a>."
+msgstr ""
+"ყოველთვიური შემოწირულობისთვის თანხა ჩამოგეჭრებათ თვის იმავე დღეს, როცა პირველ შემოწირულობას გააკეთებთ და გაგრძელდება, სანამ არ გააუქმებთ. გასაუქმებლად, შეავსეთ <a href=\"%(help_url)s\">ეს "
+"ანკეტა</a>."
 
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:21
 #, python-format
@@ -794,8 +784,12 @@ msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers 
 msgstr "ხარვეზებია შემოწირულობისას? იხილეთ ჩვენი <a href=\"%(faq_url)s\">ხ.დ.კ.</a> ხშირად დასმულ კითხვებზე პასუხის მისაღებად. კვლავ ხარვეზებია? <a href=\"%(help_url)s\">დაგვიკავშირდით</a>."
 
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:27
-msgid "Contributions go to MZLA Technologies Corporation, a California corporation wholly owned by the Mozilla Foundation. Funds will be reserved for use in the Thunderbird project. Contributions are not tax-deductible as charitable contributions."
-msgstr "შემოწირულობების მიმღებია MZLA Technologies Corporation, კალიფორნიის კორპორაცია, რომლის სრული მესაკუთრეა Mozilla Foundation. თანხები შეგროვდება Thunderbird-პროექტში გამოყენებისთვის. შენატანები არ ექვემდებარება საგადასახადო გამოქვითვებს, საქველმოქმედო შემოწირულობების მსგავსად."
+msgid ""
+"Contributions go to MZLA Technologies Corporation, a California corporation wholly owned by the Mozilla Foundation. Funds will be reserved for use in the Thunderbird project. Contributions are not "
+"tax-deductible as charitable contributions."
+msgstr ""
+"შემოწირულობების მიმღებია MZLA Technologies Corporation, კალიფორნიის კორპორაცია, რომლის სრული მესაკუთრეა Mozilla Foundation. თანხები შეგროვდება Thunderbird-პროექტში გამოყენებისთვის. შენატანები არ "
+"ექვემდებარება საგადასახადო გამოქვითვებს, საქველმოქმედო შემოწირულობების მსგავსად."
 
 #: donate/thunderbird/templates/pages/base_page.html:59
 msgid "Cookies"
@@ -816,16 +810,21 @@ msgid "We accept contributions in Euros through Single European Payment Area (SE
 msgstr "ჩვენ ვიღებთ შემოწირულობებს ევროში, Single European Payment Area (SEPA) სისტემის მეშვეობით და ასევე, ბრიტანულ გირვანქას, BACS-ის საშუალებით."
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:10
-msgid "Please note that for smaller (under 10 EUR or equivalent) contributions, <strong>and especially for contributions under 5 EUR or equivalent</strong>, we request that you contribute via credit card or PayPal to help reduce our processing fees."
-msgstr "გთხოვთ გაითვალისწინეთ, რომ მცირე (10 ევრო ან ნაკლები) შემოწირულობის, <strong>განსაკუთრებით კი 5 ევროს ან უფრო მცირე შემოწირულობის გაღებისას</strong>, ვითხოვთ საკრეტიდო ბარათის ან PayPal-ის გამოყენებას, ეს ეხმარება Mozilla-ს თანხის მიღების დანახარჯების შემცირებაში."
+msgid ""
+"Please note that for smaller (under 10 EUR or equivalent) contributions, <strong>and especially for contributions under 5 EUR or equivalent</strong>, we request that you contribute via credit card "
+"or PayPal to help reduce our processing fees."
+msgstr ""
+"გთხოვთ გაითვალისწინეთ, რომ მცირე (10 ევრო ან ნაკლები) შემოწირულობის, <strong>განსაკუთრებით კი 5 ევროს ან უფრო მცირე შემოწირულობის გაღებისას</strong>, ვითხოვთ საკრეტიდო ბარათის ან PayPal-ის "
+"გამოყენებას, ეს ეხმარება Mozilla-ს თანხის მიღების დანახარჯების შემცირებაში."
 
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:30
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:47
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:30 donate/thunderbird/templates/pages/core/ways_to_give_page.html:47
 msgid "Memo field:"
 msgstr "სამახსოვრო ველი:"
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:55
-msgid "MZLA/Thunderbird is happy to accept your donation (made payable to “MZLA Technologies”) via check; however please note that processing and acknowledgment of your gift may be delayed by changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
+msgid ""
+"MZLA/Thunderbird is happy to accept your donation (made payable to “MZLA Technologies”) via check; however please note that processing and acknowledgment of your gift may be delayed by changes to "
+"our office procedures due to the COVID-19 pandemic. You can send checks to:"
 msgstr ""
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:71
@@ -840,22 +839,35 @@ msgstr "წინასწარ გმადლობთ, საჩუქრი
 
 #: donate/thunderbird/templates/payment/card.html:12
 #, python-format
-msgid "I authorize MZLA Technologies Corporation to automatically charge my card every month in the amount indicated above, starting today and continuing each month on the same day, until I cancel. I understand that I must cancel at least 5 days before the next scheduled donation by <a href='%(help_url)s'>submitting a request</a>, and that I may only request a refund within 15 days from the date of a donation."
-msgstr "ვანიჭებ MZLA Technologies Corporation-ს უფლებას, თავად ჩამოჭრას ჩემი ბარათიდან ზემოთ მოცემული ოდენობის თანხა დღეიდან ყოველთვიურად ამავე დღეს, სანამ არ გავაუქმებ. ვითვალისწინებ, რომ შემოწირულობის გასაუქმებლად, დაგეგმილ მომდევნო გადარიცხვამდე არანაკლებ 5 დღით ადრე უნდა გავგზავნო ელფოსტაზე <a href='%(help_url)s'>მოთხოვნა</a>, ხოლო თანხის დაბრუნებაზე განაცხადის გაკეთება, შემოწირულობის ჩამოჭრიდან, 15 დღის განმავლობაში შემეძლება."
+msgid ""
+"I authorize MZLA Technologies Corporation to automatically charge my card every month in the amount indicated above, starting today and continuing each month on the same day, until I cancel. I "
+"understand that I must cancel at least 5 days before the next scheduled donation by <a href='%(help_url)s'>submitting a request</a>, and that I may only request a refund within 15 days from the date"
+" of a donation."
+msgstr ""
+"ვანიჭებ MZLA Technologies Corporation-ს უფლებას, თავად ჩამოჭრას ჩემი ბარათიდან ზემოთ მოცემული ოდენობის თანხა დღეიდან ყოველთვიურად ამავე დღეს, სანამ არ გავაუქმებ. ვითვალისწინებ, რომ შემოწირულობის "
+"გასაუქმებლად, დაგეგმილ მომდევნო გადარიცხვამდე არანაკლებ 5 დღით ადრე უნდა გავგზავნო ელფოსტაზე <a href='%(help_url)s'>მოთხოვნა</a>, ხოლო თანხის დაბრუნებაზე განაცხადის გაკეთება, შემოწირულობის "
+"ჩამოჭრიდან, 15 დღის განმავლობაში შემეძლება."
 
 #: donate/thunderbird/templates/payment/card.html:14
 msgid "I authorize MZLA Technologies Corporation to charge my card in the amount indicated above. I understand that I may only request a refund within 15 days from the date of the donation."
-msgstr "ვანიჭებ MZLA Technologies Corporation-ს უფლებას, ჩამოჭრას ჩემი ბარათიდან ზემოთ მოცემული ოდენობის თანხა. ვითვალისწინებ, რომ თანხის დაბრუნების მოთხოვნა, შემოწირულობის გაკეთებიდან 15 დღის განმავლობაში შემეძლება."
+msgstr ""
+"ვანიჭებ MZLA Technologies Corporation-ს უფლებას, ჩამოჭრას ჩემი ბარათიდან ზემოთ მოცემული ოდენობის თანხა. ვითვალისწინებ, რომ თანხის დაბრუნების მოთხოვნა, შემოწირულობის გაკეთებიდან 15 დღის განმავლობაში "
+"შემეძლება."
 
-#: donate/thunderbird/templates/payment/card_upsell.html:6
-#: donate/thunderbird/templates/payment/paypal_upsell.html:6
+#: donate/thunderbird/templates/payment/card_upsell.html:6 donate/thunderbird/templates/payment/paypal_upsell.html:6
 msgid "We’d love to have you as a sustaining supporter of Thunderbird. <b>Could you add a monthly donation starting next month?</b>"
 msgstr "მეტად მოხარულები ვიქნებით, თუ Thunderbird-ის მტკიცე და მუდმივი მხარდამჭერი გახდებით. <b>გაქვთ სურვილი მომდევნო თვიდან, გაიღოთ შემოწირულობა ყოველთვიურად?</b>"
 
 #: donate/thunderbird/templates/payment/card_upsell.html:10
 #, python-format
-msgid "I authorize MZLA Technologies Corporation to automatically charge my card every month in the amount indicated above, starting next month on the same date as today, and continuing each month afterwards until I cancel. I understand that I must cancel at least 5 days before the next scheduled donation by <a href=\"%(help_url)s\">submitting this form</a>, and that I may only request a refund within 15 days from the date of a donation."
-msgstr "ვანიჭებ MZLA Technologies Corporation-ს უფლებას, თავად ჩამოჭრას ჩემი ბარათიდან ზემოთ მოცემული ოდენობის თანხა ყოველთვიურად, დაწყებული მომდევნო თვიდან ამავე დღეს, სანამ არ გავაუქმებ. ვითვალისწინებ, რომ შემოწირულობის გასაუქმებლად, დაგეგმილ მომდევნო გადარიცხვამდე არანაკლებ 5 დღით ადრე უნდა გავგზავნო ელფოსტაზე <a href=\"%(help_url)s\">მოთხოვნის ეს ფორმა</a>, ხოლო თანხის დაბრუნებაზე განაცხადის გაკეთება, შემოწირულობის ჩამოჭრიდან, 15 დღის განმავლობაში შემეძლება."
+msgid ""
+"I authorize MZLA Technologies Corporation to automatically charge my card every month in the amount indicated above, starting next month on the same date as today, and continuing each month "
+"afterwards until I cancel. I understand that I must cancel at least 5 days before the next scheduled donation by <a href=\"%(help_url)s\">submitting this form</a>, and that I may only request a "
+"refund within 15 days from the date of a donation."
+msgstr ""
+"ვანიჭებ MZLA Technologies Corporation-ს უფლებას, თავად ჩამოჭრას ჩემი ბარათიდან ზემოთ მოცემული ოდენობის თანხა ყოველთვიურად, დაწყებული მომდევნო თვიდან ამავე დღეს, სანამ არ გავაუქმებ. ვითვალისწინებ, "
+"რომ შემოწირულობის გასაუქმებლად, დაგეგმილ მომდევნო გადარიცხვამდე არანაკლებ 5 დღით ადრე უნდა გავგზავნო ელფოსტაზე <a href=\"%(help_url)s\">მოთხოვნის ეს ფორმა</a>, ხოლო თანხის დაბრუნებაზე განაცხადის "
+"გაკეთება, შემოწირულობის ჩამოჭრიდან, 15 დღის განმავლობაში შემეძლება."
 
 #: donate/thunderbird/templates/payment/newsletter_signup.html:8
 msgid "We’re working hard to protect your inbox. Sign up to receive email messages concerning Thunderbird, including updates and requests for feedback."
@@ -880,8 +892,12 @@ msgctxt "Email subject line"
 msgid "I donated to Thunderbird today"
 msgstr "მე დღეს შემოწირულობით დავეხმარე Thunderbird-ს"
 
-#~ msgid "Please note that due to the “shelter in place” order recently implemented for California, processing and acknowledgment of check donations to the Mozilla Foundation will be indefinitely delayed. Rather than sending us a check, please consider making an <a href=\"/\">online donation</a> instead."
-#~ msgstr "გთხოვთ გაითვალისწინოთ, რომ კალიფორნიაში „დარჩი სახლში” დადგენილების გამოცემის გამო, Mozilla-ფონდისთვის ჩეკით გამოგზავნილი შემოწირულობების დამუშავება და დამოწმება, გადაიდო განუსაზღვრელი ვადით. შემოწირულობები ჩეკის ნაცვლად, გთხოვთ გააკეთოთ <a href=\"/\">ინტერნეტის მეშვეობით</a>."
+#~ msgid ""
+#~ "Please note that due to the “shelter in place” order recently implemented for California, processing and acknowledgment of check donations to the Mozilla Foundation will be indefinitely delayed. "
+#~ "Rather than sending us a check, please consider making an <a href=\"/\">online donation</a> instead."
+#~ msgstr ""
+#~ "გთხოვთ გაითვალისწინოთ, რომ კალიფორნიაში „დარჩი სახლში” დადგენილების გამოცემის გამო, Mozilla-ფონდისთვის ჩეკით გამოგზავნილი შემოწირულობების დამუშავება და დამოწმება, გადაიდო განუსაზღვრელი ვადით. "
+#~ "შემოწირულობები ჩეკის ნაცვლად, გთხოვთ გააკეთოთ <a href=\"/\">ინტერნეტის მეშვეობით</a>."
 
 #~ msgid "Please send a check <strong>including your email address on the memo line</strong>, and payable (payee) to “%(payee)s”."
 #~ msgstr "გთხოვთ, გამოგზავნისას ჩეკს <strong>სამახსოვრო არეში დაურთოთ თქვენი ელფოსტა</strong>, ასევე მიმღები (payee) „%(payee)s“."
@@ -889,8 +905,12 @@ msgstr "მე დღეს შემოწირულობით დავე
 #~ msgid "Please note that the Mozilla Foundation can only accept checks in US dollars drawn on a US bank. Please do <strong>not</strong> send cash."
 #~ msgstr "გთხოვთ გაითვალისწინოთ, რომ Mozilla-ფონდს შეუძლია მიიღოს მხოლოდ აშშ დოლარში გამოწერილი ჩეკები, ამერიკული ბანკების მიერ. გთხოვთ, <strong>არ</strong> გამოგზავნოთ ნაღდი ფული."
 
-#~ msgid "Please note that due to the “shelter in place” order recently implemented for California, processing and acknowledgment of check donations to Thunderbird/MZLA Technologies will be indefinitely delayed. Rather than sending us a check, please consider making an <a href=\"/\">online donation</a> instead."
-#~ msgstr "გთხოვთ გაითვალისწინოთ, რომ კალიფორნიაში „დარჩი სახლში” დადგენილების გამოცემის გამო, Thunderbird/MZLA Technologies-ისთვის ჩეკით გამოგზავნილი შემოწირულობების დამუშავება და დამოწმება, გადაიდო განუსაზღვრელი ვადით. შემოწირულობები ჩეკის ნაცვლად, გთხოვთ გააკეთოთ <a href=\"/\">ინტერნეტის მეშვეობით</a>."
+#~ msgid ""
+#~ "Please note that due to the “shelter in place” order recently implemented for California, processing and acknowledgment of check donations to Thunderbird/MZLA Technologies will be indefinitely "
+#~ "delayed. Rather than sending us a check, please consider making an <a href=\"/\">online donation</a> instead."
+#~ msgstr ""
+#~ "გთხოვთ გაითვალისწინოთ, რომ კალიფორნიაში „დარჩი სახლში” დადგენილების გამოცემის გამო, Thunderbird/MZLA Technologies-ისთვის ჩეკით გამოგზავნილი შემოწირულობების დამუშავება და დამოწმება, გადაიდო "
+#~ "განუსაზღვრელი ვადით. შემოწირულობები ჩეკის ნაცვლად, გთხოვთ გააკეთოთ <a href=\"/\">ინტერნეტის მეშვეობით</a>."
 
 #~ msgid "Please send a check <strong>with “%(thunderbird)s” on the memo line</strong>, and payable (payee) to “%(payee)s”."
 #~ msgstr "გთხოვთ, გამოგზავნისას ჩეკს <strong>სამახსოვრო არეში დაურთოთ „%(thunderbird)s“</strong>, ასევე მიმღები (payee) „%(payee)s“."
