@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-22 10:22+0000\n"
-"PO-Revision-Date: 2021-01-10 10:37+0000\n"
+"PO-Revision-Date: 2021-01-16 12:26+0000\n"
 "Last-Translator: G12r <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ka\n"
@@ -715,7 +715,7 @@ msgstr ""
 
 #: donate/templates/payment/thank_you_master.html:17
 msgid "Lastly, can you multiply your impact by sharing about the important work Mozilla is doing? Thank you again!"
-msgstr "და ბოლოს, შეგიძლიათ დაგვეხმაროთ იმ მნიშვნელოვანი საქმის გაზიარებაში, რომელსაც Mozilla აკეთებს? გმადლობთ, კიდევ ერთხელ!"
+msgstr "დაბოლოს, შეგიძლიათ დაგვეხმაროთ იმ მნიშვნელოვანი საქმის გაზიარებაში, რომელსაც Mozilla აკეთებს? გმადლობთ, კიდევ ერთხელ!"
 
 #: donate/templates/payment/thank_you_master.html:22
 msgctxt "Used as a tweet"
