@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-22 10:22+0000\n"
-"PO-Revision-Date: 2021-01-31 16:02+0000\n"
+"PO-Revision-Date: 2021-01-31 18:17+0000\n"
 "Last-Translator: Milo <mail@milotype.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
@@ -532,7 +532,7 @@ msgstr ""
 #: donate/templates/pages/core/ways_to_give_page_master.html:140
 #, python-format
 msgid "Learn more about bitcoin donations <a href=\"%(bitcoin_wiki)s\">here</a>. To donate bitcoin, <a href=\"%(bitcoin_donate)s\">please visit this link.</a>"
-msgstr ""
+msgstr "Saznaj više o donacijama putem bitcoina <a href=\"%(bitcoin_wiki)s\">ovdje</a>. Za bitcoin doancije <a href=\"%(bitcoin_donate)s\">posjeti ovu poveznicu.</a>"
 
 #: donate/templates/payment/card_master.html:4
 msgid "Your information"
