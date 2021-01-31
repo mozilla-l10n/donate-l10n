@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-22 10:22+0000\n"
-"PO-Revision-Date: 2021-01-27 01:18+0000\n"
-"Last-Translator: Zachinquarantine <mihaljeza@gmail.com>\n"
+"PO-Revision-Date: 2021-01-31 16:02+0000\n"
+"Last-Translator: Milo <mail@milotype.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
@@ -129,7 +129,7 @@ msgstr "Idite na početnu stranicu"
 #: donate/templates/base_master.html:8 donate/templates/pages/base_page_master.html:8 donate/templates/pages/base_page_master.html:15 donate/templates/pages/base_page_master.html:16
 msgctxt "Page title"
 msgid "Donate to Mozilla"
-msgstr "Donirajte Mozilli"
+msgstr "Doniraj Mozilli"
 
 #: donate/templates/fragments/donate_form.html:12
 msgid "ONE TIME"
@@ -145,7 +145,7 @@ msgstr "Drugi iznos"
 
 #: donate/templates/fragments/donate_form.html:48 donate/templates/fragments/donate_form.html:112
 msgid "Choose Payment"
-msgstr "Odaberite plaćanje"
+msgstr "Odaberi način plaćanja"
 
 #: donate/templates/fragments/donate_form.html:54 donate/templates/fragments/donate_form.html:118 donate/templates/payment/card_master.html:97
 msgid "SECURE"
@@ -286,7 +286,7 @@ msgstr ""
 #: donate/templates/pages/core/campaign_page.html:43 donate/templates/pages/core/ways_to_give_page_master.html:12
 msgctxt "Button"
 msgid "DONATE NOW"
-msgstr "DONIRAJTE SADA"
+msgstr "DONIRAJ SADA"
 
 #: donate/templates/pages/core/campaign_page.html:57 donate/templates/pages/core/landing_page_master.html:36 donate/templates/payment/card_master.html:159
 msgid "Seal of Charity Navigator 4-Star"
@@ -299,7 +299,7 @@ msgstr "Pečat GuideStar zlato 2019"
 #: donate/templates/pages/core/campaign_page.html:70
 msgctxt "Header"
 msgid "Donate now"
-msgstr "Donirajte sada"
+msgstr "Doniraj sada"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:18
 msgid "Thank you for contacting us. A case has been created for your issue and we will be in touch shortly."
