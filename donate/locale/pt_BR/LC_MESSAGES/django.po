@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-22 10:22+0000\n"
-"PO-Revision-Date: 2020-12-24 08:12+0000\n"
+"PO-Revision-Date: 2021-02-05 02:55+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -29,7 +29,7 @@ msgstr "Digite um número."
 
 #: donate/core/translation.py:18
 msgid "Enter a valid email address."
-msgstr "Digite um endereço de e-mail válido."
+msgstr "Digite um endereço de email válido."
 
 #: donate/payments/forms.py:45
 #, python-format
@@ -50,7 +50,7 @@ msgstr "Último nome"
 
 #: donate/payments/forms.py:81 donate/payments/forms.py:123 donate/templates/pages/core/contributor_support_page_master.html:45
 msgid "Email"
-msgstr "E-mail"
+msgstr "Email"
 
 #: donate/payments/forms.py:82
 msgid "Street"
@@ -172,7 +172,7 @@ msgstr ""
 #: donate/templates/fragments/donate_form_disclaimer_master.html:9
 #, python-format
 msgid "Monthly donations are charged each month on the same day that you donate today, and will continue until you cancel. To cancel, email us at <a href=\"mailto:%(email)s\">%(email)s</a>."
-msgstr "Doações mensais são cobradas a cada mês no mesmo dia da sua doação de hoje e continuam até você cancelar. Para cancelar, envie um e-mail para <a href=\"mailto:%(email)s\">%(email)s</a>."
+msgstr "Doações mensais são cobradas a cada mês no mesmo dia da sua doação de hoje e continuam até você cancelar. Para cancelar, envie um email para <a href=\"mailto:%(email)s\">%(email)s</a>."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:17
 #, python-format
@@ -182,7 +182,7 @@ msgstr "Outras formas de doar: <a href=\"%(wire_transfer_url)s\">Transferência 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:23
 #, python-format
 msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"mailto:%(email)s\">Send us an email</a>."
-msgstr "Problemas ao doar? Veja em nossa <a href=\"%(faq_url)s\">FAQ</a> respostas para as perguntas mais comuns. Não resolveu? <a href=\"mailto:%(email)s\">Envie um e-mail para nós</a>."
+msgstr "Problemas ao doar? Veja em nossa <a href=\"%(faq_url)s\">FAQ</a> respostas para as perguntas mais comuns. Não resolveu? <a href=\"mailto:%(email)s\">Envie um email para nós</a>."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:30
 msgid ""
@@ -226,11 +226,11 @@ msgstr "Proteja a internet como um recurso público global"
 
 #: donate/templates/pages/base_page_master.html:84
 msgid "Join our email list to take action and stay updated!"
-msgstr "Participe da nossa lista de e-mails para tomar atitudes e se manter atualizado!"
+msgstr "Participe da nossa lista de emails para tomar atitudes e se manter atualizado!"
 
 #: donate/templates/pages/base_page_master.html:85
 msgid "Enter email address"
-msgstr "Digite um endereço de e-mail"
+msgstr "Digite um endereço de email"
 
 #: donate/templates/pages/base_page_master.html:88
 msgid "Sign up"
@@ -243,7 +243,7 @@ msgstr "Obrigado!"
 #: donate/templates/pages/base_page_master.html:97
 msgid "If you haven’t previously confirmed a subscription to a Mozilla-related newsletter you may have to do so. Please check your inbox or your spam filter for an email from us."
 msgstr ""
-"Se você não confirmou anteriormente uma inscrição em um boletim informativo relacionado à Mozilla, pode precisar fazê-lo. Verifique se recebeu um e-mail nosso em sua caixa de entrada ou filtro de "
+"Se você não confirmou anteriormente uma inscrição em um boletim informativo relacionado à Mozilla, pode precisar fazê-lo. Verifique se recebeu um email nosso em sua caixa de entrada ou filtro de "
 "spam."
 
 #: donate/templates/pages/base_page_master.html:112
@@ -515,7 +515,7 @@ msgstr ""
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:108 donate/thunderbird/templates/pages/core/ways_to_give_page.html:67
 msgid "Please include your email address on the memo line of your check to help us track and attribute your gift."
-msgstr "Por favor, inclua seu endereço de e-mail na linha de memorando de seu cheque para nos ajudar a acompanhar e atribuir sua oferta."
+msgstr "Por favor, inclua seu endereço de email na linha de memorando de seu cheque para nos ajudar a acompanhar e atribuir sua oferta."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:115
 #, python-format
@@ -622,7 +622,7 @@ msgid ""
 "donation."
 msgstr ""
 "Autorizo à Fundação Mozilla cobrar automaticamente meu cartão todo mês o valor indicado acima, iniciando hoje e continuando cada mês no mesmo dia, até que eu cancele. Compreendo que devo cancelar "
-"pelo menos 5 dias antes da próxima doação agendada, por e-mail para <a href='mailto:%(email)s'>%(email)s</a>, e que só posso solicitar devolução de uma doação até 15 dias após sua data."
+"pelo menos 5 dias antes da próxima doação agendada, por email para <a href='mailto:%(email)s'>%(email)s</a>, e que só posso solicitar devolução de uma doação até 15 dias após sua data."
 
 #: donate/templates/payment/card_master.html:128
 msgid "I authorize Mozilla Foundation to charge my card in the amount indicated above. I understand that I may only request a refund within 15 days from the date of the donation."
@@ -670,7 +670,7 @@ msgid ""
 "cancel. I understand that I must cancel at least 5 days before the next scheduled donation by email to %(email)s, and that I may only request a refund within 15 days from the date of a donation."
 msgstr ""
 "Autorizo à Fundação Mozilla cobrar automaticamente meu cartão todo mês o valor indicado acima, iniciando mês que vem no mesmo dia de hoje e continuando a partir daí cada mês até que eu cancele. "
-"Compreendo que devo cancelar pelo menos 5 dias antes da próxima doação agendada, por e-mail para %(email)s, e que só posso solicitar devolução de uma doação até 15 dias após sua data."
+"Compreendo que devo cancelar pelo menos 5 dias antes da próxima doação agendada, por email para %(email)s, e que só posso solicitar devolução de uma doação até 15 dias após sua data."
 
 #: donate/templates/payment/card_upsell_master.html:53
 msgid "Donate Monthly"
@@ -686,7 +686,7 @@ msgstr "Mantenha-se em contato"
 
 #: donate/templates/payment/newsletter_signup_master.html:14
 msgid "Protect the internet as a global public resource. Join our email list to take action and stay updated!"
-msgstr "Proteja a internet como um recurso público global. Participe da nossa lista de e-mails para tomar atitudes e se manter atualizado!"
+msgstr "Proteja a internet como um recurso público global. Participe da nossa lista de emails para tomar atitudes e se manter atualizado!"
 
 #: donate/templates/payment/newsletter_signup_master.html:40
 msgid "Sign Up"
@@ -707,7 +707,7 @@ msgstr "Sua doação será direcionada ao trabalho de proteção da web, mantend
 #: donate/templates/payment/thank_you_master.html:15
 #, python-format
 msgid "We’ve emailed you a donation receipt; if it’s missing, please check your junk/spam folders, then contact us at <a href=\"mailto:%(email)s\">%(email)s</a>."
-msgstr "Enviamos por e-mail um recibo de doação. Se não encontrar, verifique suas pastas de lixo eletrônico e spam. Se precisar, entre em contato com <a href=\"mailto:%(email)s\">%(email)s</a>."
+msgstr "Enviamos por email um recibo de doação. Se não encontrar, verifique suas pastas de lixo eletrônico e spam. Se precisar, entre em contato com <a href=\"mailto:%(email)s\">%(email)s</a>."
 
 #: donate/templates/payment/thank_you_master.html:17
 msgid "Lastly, can you multiply your impact by sharing about the important work Mozilla is doing? Thank you again!"
@@ -738,7 +738,7 @@ msgstr "Compartilhar no Twitter"
 #: donate/templates/payment/thank_you_master.html:44 donate/thunderbird/templates/payment/thank_you.html:33
 msgctxt "Share button"
 msgid "Email"
-msgstr "E-mail"
+msgstr "Email"
 
 #: donate/templates/payment/thank_you_master.html:54 donate/thunderbird/templates/payment/thank_you.html:43
 msgctxt "Share button"
@@ -871,12 +871,12 @@ msgstr ""
 
 #: donate/thunderbird/templates/payment/newsletter_signup.html:8
 msgid "We’re working hard to protect your inbox. Sign up to receive email messages concerning Thunderbird, including updates and requests for feedback."
-msgstr "Estamos trabalhando muito para proteger sua caixa de entrada. Inscreva-se para receber mensagens de e-mail relacionadas ao Thunderbird, incluindo novidades e solicitações de comentários."
+msgstr "Estamos trabalhando muito para proteger sua caixa de entrada. Inscreva-se para receber mensagens de email relacionadas ao Thunderbird, incluindo novidades e solicitações de comentários."
 
 #: donate/thunderbird/templates/payment/thank_you.html:6
 #, python-format
 msgid "We’ve emailed you a donation receipt; if it’s missing, please check your junk/spam folders, then contact us using <a href=\"%(url)s\">this form</a>."
-msgstr "Enviamos por e-mail um recibo de doação. Se não encontrar, verifique suas pastas de lixo eletrônico e spam. Se precisar, entre em contato através <a href=\"%(url)s\">deste formulário</a>."
+msgstr "Enviamos por email um recibo de doação. Se não encontrar, verifique suas pastas de lixo eletrônico e spam. Se precisar, entre em contato através <a href=\"%(url)s\">deste formulário</a>."
 
 #: donate/thunderbird/templates/payment/thank_you.html:7
 msgid "Lastly, can you multiply your impact by sharing about the important work Thunderbird is doing? Thank you again!"
