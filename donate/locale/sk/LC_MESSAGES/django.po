@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-22 10:22+0000\n"
-"PO-Revision-Date: 2021-01-10 20:26+0000\n"
+"PO-Revision-Date: 2021-02-10 18:32+0000\n"
 "Last-Translator: Juraj Cigáň <kusavica@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sk\n"
@@ -483,7 +483,7 @@ msgstr "Číslo účtu (8 číslic):"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:75
 msgid "Donation of Stock/Securities:"
-msgstr ""
+msgstr "Darovanie akcií a cenných papierov:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:77
 #, python-format
