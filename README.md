@@ -1,6 +1,6 @@
 # UI translations for donate.mozilla.org and give.thunderbird.net
 
-[![Build Status](https://travis-ci.org/mozilla-l10n/donate-l10n.svg?branch=master)](https://travis-ci.org/mozilla-l10n/donate-l10n)
+[![Build Status](https://github.com/mozilla-l10n/donate-l10n/workflows/Continuous%20Integration/badge.svg)](https://github.com/mozilla-l10n/donate-l10n/actions?query=workflow%3A%22Continuous+Integration%22)
 
 Process UI translations for donate.mozilla.org and give.thunderbird.net and upload them to S3.
 
