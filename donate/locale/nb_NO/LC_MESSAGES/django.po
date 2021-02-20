@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-22 10:22+0000\n"
-"PO-Revision-Date: 2020-12-22 18:09+0000\n"
+"PO-Revision-Date: 2021-02-20 11:51+0000\n"
 "Last-Translator: Håvar Henriksen <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nb_NO\n"
@@ -511,7 +511,7 @@ msgstr ""
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:108 donate/thunderbird/templates/pages/core/ways_to_give_page.html:67
 msgid "Please include your email address on the memo line of your check to help us track and attribute your gift."
-msgstr ""
+msgstr "Inkluder e-postadressen din i notatlinjen i sjekken din for å hjelpe oss med å spore og tildele gaven din."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:115
 #, python-format
