@@ -635,10 +635,9 @@ msgid "Yes, I will give:"
 msgstr "はい、寄付します:"
 
 #: donate/templates/payment/card_upsell_master.html:40
-#, fuzzy
 #| msgid "/ Monthly"
 msgid "Monthly"
-msgstr "/ 毎月"
+msgstr "毎月"
 
 #: donate/templates/payment/card_upsell_master.html:48
 #, python-format
