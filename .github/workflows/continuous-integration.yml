@@ -26,19 +26,13 @@ jobs:
       run: sudo apt-get install -y gettext
     - name: Check translations
       run: python ./manage.py compilemessages_ci
-
-  deploy:
-    name: Deploy translation package to S3
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - name: Configure AWS Credentials
-        uses: aws-actions/configure-aws-credentials@v1
-        with:
-          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY }}
-          aws-secret-access-key: ${{ secrets.AWS_SECRET_KEY }}
-          aws-region: us-east-1
-      - name: Generate translation package
-        run: ./archive.sh
-      - name: Deploy translation package to S3 bucket
-        run: aws s3 sync ./to_upload/ s3://donate-wagtail-translations --delete
+    - name: Configure AWS Credentials
+      uses: aws-actions/configure-aws-credentials@v1
+      with:
+        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY }}
+        aws-secret-access-key: ${{ secrets.AWS_SECRET_KEY }}
+        aws-region: us-east-1
+    - name: Generate translation package
+      run: ./archive.sh
+    - name: Deploy translation package to S3 bucket
+      run: aws s3 sync ./to_upload/ s3://donate-wagtail-translations --delete --acl public-read
