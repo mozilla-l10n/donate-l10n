@@ -2,7 +2,7 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
@@ -33,7 +33,7 @@ msgstr "Veuillez saisir une adresse électronique valide."
 #: donate/payments/forms.py:45
 #, python-format
 msgid "Donations must be %(amount)s or more"
-msgstr "Nous acceptons les dons à partir de %(amount)s"
+msgstr "Nous acceptons les dons à partir de %(aunt)s"
 
 #: donate/payments/forms.py:52 donate/payments/forms.py:66 donate/payments/forms.py:113
 msgid "Amount"
