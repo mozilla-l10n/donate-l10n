@@ -13,6 +13,7 @@ jobs:
       DEBUG: False
       SECRET_KEY: secret
       SLACK_WEBHOOK_PONTOON: ${{ secrets.SLACK_WEBHOOK_PONTOON }}
+      CI_JOB_URL: https://github.com/${{github.repository}}/actions/runs/${{github.run_id}}
     steps:
     - uses: actions/checkout@v2
     - uses: actions/setup-python@v2

@@ -4,7 +4,9 @@ import io
 from django.core.management import call_command
 from django.core.management.base import BaseCommand, CommandError
 from django.conf import settings
+
 import requests
+import hashlib
 
 
 class DoubleOutput:
@@ -25,12 +27,28 @@ class Command(BaseCommand):
     help = 'Run compilemessages and send a message to Slack if it returns an error.'
 
     def handle(self, *args, **options):
+        send_slack_message = False
+        compile_error = False
+
         output = io.StringIO()
+
         try:
             call_command("compilemessages", verbosity=1, stderr=DoubleOutput(self.stderr, output))
         except CommandError as err:
-            travis_job_web_url = settings.TRAVIS_JOB_WEB_URL
+            send_slack_message = True
+            compile_error = err
+
+        # Send failure notice to Slack in a new codeblock, so we don't get nested throws.
+        if send_slack_message:
+            ci_job_url = settings.CI_JOB_URL
             slack_webhook = settings.SLACK_WEBHOOK_PONTOON
+            error_output_value = output.getvalue()
+
+            hash = hashlib.sha256()
+            hash.update(slack_webhook.encode('UTF-8'))
+
+            print(f'Slack webhook digest: {hash.digest()}')
+            print(f'Initial compile error: {error_output_value}')
 
             slack_payload = {
                 "blocks": [
@@ -39,8 +57,8 @@ class Command(BaseCommand):
                         "text": {
                             "type": "mrkdwn",
                             "text": "<!here> An error occurred while compiling `.po` files for "
-                                    "donate-wagtail on Travis:\n"
-                                    f"```{err}\n{output.getvalue()}```\n"
+                                    "donate-wagtail on Continuous Integration:\n"
+                                    f"```{compile_error}\n{error_output_value}```\n"
                         }
                     },
                     {
@@ -52,20 +70,28 @@ class Command(BaseCommand):
                                     "type": "plain_text",
                                     "text": "View logs"
                                 },
-                                "url": f"{travis_job_web_url}"
+                                "url": f"{ci_job_url}"
                             }
                         ]
                     }
                 ]
             }
 
-            r = requests.post(f'{slack_webhook}',
+            r = requests.post(slack_webhook,
                               json=slack_payload,
                               headers={'Content-Type': 'application/json'}
                               )
 
-            # Raise if post request was a 4xx or 5xx
-            r.raise_for_status()
+            print(f'Slack response: {r.text}')
 
-            # Raise exception to make travis run fail
-            raise err
+            # Raise if post request was a 4xx or 5xx
+            try:
+                r.raise_for_status()
+            except requests.exceptions.HTTPError as err:
+                print(f'ERROR: POST request to Slack failed')
+
+                # Error we can't discover through slack...
+                raise err
+
+            # Raise exception to make CI run fail
+            raise compile_error
