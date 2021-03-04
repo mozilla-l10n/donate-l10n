@@ -1,0 +1,37 @@
+name: Continuous Integration
+
+on:
+  push:
+    branches: [ 'master' ]
+
+jobs:
+  check_translations:
+    name: Check translations
+    runs-on: ubuntu-latest
+    env:
+      ALLOWED_HOSTS: localhost
+      DEBUG: False
+      SECRET_KEY: secret
+      SLACK_WEBHOOK_PONTOON: ${{ secrets.SLACK_WEBHOOK_PONTOON }}
+      CI_JOB_URL: https://github.com/${{github.repository}}/actions/runs/${{github.run_id}}
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-python@v2
+      with:
+        python-version: 3.8
+    - name: Install Python Dependencies
+      run: pip install -r requirements.txt
+    - name: Install additional tooling
+      run: sudo apt-get install -y gettext
+    - name: Check translations
+      run: python ./manage.py compilemessages_ci
+    - name: Configure AWS Credentials
+      uses: aws-actions/configure-aws-credentials@v1
+      with:
+        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY }}
+        aws-secret-access-key: ${{ secrets.AWS_SECRET_KEY }}
+        aws-region: us-east-1
+    - name: Generate translation package
+      run: ./archive.sh
+    - name: Deploy translation package to S3 bucket
+      run: aws s3 sync ./to_upload/ s3://donate-wagtail-translations --delete --acl public-read
