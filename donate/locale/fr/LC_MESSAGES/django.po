@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-22 10:22+0000\n"
-"PO-Revision-Date: 2021-03-04 18:18+0000\n"
+"PO-Revision-Date: 2020-01-07 18:12+0000\n"
 "Last-Translator: Théo Chevalier <theo.chevalier11@gmail.com>\n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -33,7 +33,7 @@ msgstr "Veuillez saisir une adresse électronique valide."
 #: donate/payments/forms.py:45
 #, python-format
 msgid "Donations must be %(amount)s or more"
-msgstr "Nous acceptons les dons à partir de %(unt)s"
+msgstr "Nous acceptons les dons à partir de %(amount)s"
 
 #: donate/payments/forms.py:52 donate/payments/forms.py:66 donate/payments/forms.py:113
 msgid "Amount"
