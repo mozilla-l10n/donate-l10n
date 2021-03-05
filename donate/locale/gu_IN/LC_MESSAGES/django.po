@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-22 10:22+0000\n"
+"POT-Creation-Date: 2021-03-05 16:22+0000\n"
 "PO-Revision-Date: 2020-09-04 19:19+0000\n"
 "Last-Translator: Hariom Panchal <hariompanchal6647@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -164,7 +164,6 @@ msgstr "સલામત"
 
 #: donate/templates/fragments/donate_form.html:60
 #: donate/templates/fragments/donate_form.html:124
-#: donate/templates/pages/base_page_master.html:139
 msgid "Donate"
 msgstr "દાન કરો"
 
@@ -268,28 +267,35 @@ msgstr "Instagram"
 msgid "GitHub"
 msgstr "GitHub"
 
-#: donate/templates/pages/base_page_master.html:142
-#: donate/thunderbird/templates/pages/base_page.html:61
-msgid "Participation Guidelines"
-msgstr "સહભાગી માર્ગદર્શિકા"
-
-#: donate/templates/pages/base_page_master.html:145
+#: donate/templates/pages/base_page_master.html:139
 #: donate/thunderbird/templates/pages/base_page.html:53
+msgid "Cookies"
+msgstr "કૂકીઝ"
+
+#: donate/templates/pages/base_page_master.html:142
+#: donate/thunderbird/templates/pages/base_page.html:56
 msgid "Legal"
 msgstr "કાયદાકીય"
 
+#: donate/templates/pages/base_page_master.html:145
+#: donate/thunderbird/templates/pages/base_page.html:59
+msgid "Participation Guidelines"
+msgstr "સહભાગી માર્ગદર્શિકા"
+
 #: donate/templates/pages/base_page_master.html:148
-#: donate/thunderbird/templates/pages/base_page.html:56
+#: donate/thunderbird/templates/pages/base_page.html:62
+msgid "Press Center"
+msgstr ""
+
+#: donate/templates/pages/base_page_master.html:151
+#: donate/thunderbird/templates/pages/base_page.html:65
 msgid "Privacy"
 msgstr "ગોપનીયતા"
 
-#: donate/templates/pages/base_page_master.html:151
-msgid "License"
-msgstr "પરવાનો"
-
 #: donate/templates/pages/base_page_master.html:172
-#, python-format
-msgid "Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a %(link_attributes)s>%(site_url)s</a>."
+#, fuzzy, python-format
+#| msgid "Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a %(link_attributes)s>%(site_url)s</a>."
+msgid "Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a %(fomo_link_attributes)s>%(fomo_site_url)s</a>. Most content available under a <a %(cc_link_attributes)s>Creative Commons license</a>."
 msgstr "Mozilla એ વૈશ્વિક બિન-નફાકારક છે જે તમને તમારા ઓનલાઇન અનુભવને નિયંત્રણમાં રાખવા માટે અને વેબના ભાવિને લોકોના હિત માટે આકાર આપવા માટે સમર્પિત છે. <a %(link_attributes)s>%(site_url)s</a>પર અમારી મુલાકાત લો."
 
 #: donate/templates/pages/core/campaign_page.html:43
@@ -799,11 +805,7 @@ msgstr "દાન કરવામાં સમસ્યા છે? મોટા�
 msgid "Contributions go to MZLA Technologies Corporation, a California corporation wholly owned by the Mozilla Foundation. Funds will be reserved for use in the Thunderbird project. Contributions are not tax-deductible as charitable contributions."
 msgstr "ફાળો MZLA ટેક્નોલોજીસ કોર્પોરેશન, California કોર્પોરેશન પાસે છે જેની સંપૂર્ણ માલિકી Mozilla ફાઉન્ડેશનની છે. Thunderbird પ્રોજેક્ટમાં ઉપયોગ માટે ભંડોળ અનામત રહેશે. ફાળો ચેરિટેબલ યોગદાન તરીકે કર-કપાતપાત્ર નથી."
 
-#: donate/thunderbird/templates/pages/base_page.html:59
-msgid "Cookies"
-msgstr "કૂકીઝ"
-
-#: donate/thunderbird/templates/pages/base_page.html:71
+#: donate/thunderbird/templates/pages/base_page.html:75
 #, python-format
 msgid "Portions of this content are ©1998–%(current_year)s by individual contributors. Content available under a <a %(link_attributes)s>Creative Commons license</a>"
 msgstr "આ સામગ્રીના ભાગો વ્યક્તિગત ફાળો આપનારા દ્વારા ©1998–%(current_year)s છે. <a%(link_attributes)s>ક્રિએટિવ કોમન્સ લાઇસેંસ</a> હેઠળ સામગ્રી ઉપલબ્ધ છે"
@@ -881,6 +883,9 @@ msgstr "મેં આજે #freetheinbox માટે @mozthunderbirdને દ
 msgctxt "Email subject line"
 msgid "I donated to Thunderbird today"
 msgstr "મેં આજે Thunderbirdને દાન આપ્યું છે"
+
+#~ msgid "License"
+#~ msgstr "પરવાનો"
 
 #~ msgid "Please note that due to the “shelter in place” order recently implemented for California, processing and acknowledgment of check donations to the Mozilla Foundation will be indefinitely delayed. Rather than sending us a check, please consider making an <a href=\"/\">online donation</a> instead."
 #~ msgstr "મહેરબાની કરીને નોંધ કરો કે તાજેતરમાં California માટે લાગુ \"આશ્રયસ્થાનમાં\" ઓર્ડરને કારણે, Mozilla ફાઉન્ડેશનને ચેક દાનની પ્રક્રિયા અને સ્વીકૃતિ અનિશ્ચિત સમય માટે વિલંબિત થશે. અમને ચેક મોકલવાને બદલે, કૃપા કરીને તેના બદલે <a href=\"/\">ઓનલાઇન દાન</a> બનાવવાનું ધ્યાનમાં લો."

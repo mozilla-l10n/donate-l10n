@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-22 10:22+0000\n"
+"POT-Creation-Date: 2021-03-05 16:22+0000\n"
 "PO-Revision-Date: 2020-12-21 18:15+0000\n"
 "Last-Translator: Théo Chevalier <theo.chevalier11@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -164,7 +164,6 @@ msgstr "SEGUROS"
 
 #: donate/templates/fragments/donate_form.html:60
 #: donate/templates/fragments/donate_form.html:124
-#: donate/templates/pages/base_page_master.html:139
 msgid "Donate"
 msgstr "Donar"
 
@@ -268,28 +267,35 @@ msgstr "Instagram"
 msgid "GitHub"
 msgstr "GitHub"
 
-#: donate/templates/pages/base_page_master.html:142
-#: donate/thunderbird/templates/pages/base_page.html:61
-msgid "Participation Guidelines"
-msgstr "Pautas para la participación"
-
-#: donate/templates/pages/base_page_master.html:145
+#: donate/templates/pages/base_page_master.html:139
 #: donate/thunderbird/templates/pages/base_page.html:53
+msgid "Cookies"
+msgstr "Cookies"
+
+#: donate/templates/pages/base_page_master.html:142
+#: donate/thunderbird/templates/pages/base_page.html:56
 msgid "Legal"
 msgstr "Aviso legal"
 
+#: donate/templates/pages/base_page_master.html:145
+#: donate/thunderbird/templates/pages/base_page.html:59
+msgid "Participation Guidelines"
+msgstr "Pautas para la participación"
+
 #: donate/templates/pages/base_page_master.html:148
-#: donate/thunderbird/templates/pages/base_page.html:56
+#: donate/thunderbird/templates/pages/base_page.html:62
+msgid "Press Center"
+msgstr ""
+
+#: donate/templates/pages/base_page_master.html:151
+#: donate/thunderbird/templates/pages/base_page.html:65
 msgid "Privacy"
 msgstr "Privacidad"
 
-#: donate/templates/pages/base_page_master.html:151
-msgid "License"
-msgstr "Licencia"
-
 #: donate/templates/pages/base_page_master.html:172
-#, python-format
-msgid "Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a %(link_attributes)s>%(site_url)s</a>."
+#, fuzzy, python-format
+#| msgid "Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a %(link_attributes)s>%(site_url)s</a>."
+msgid "Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a %(fomo_link_attributes)s>%(fomo_site_url)s</a>. Most content available under a <a %(cc_link_attributes)s>Creative Commons license</a>."
 msgstr "Mozilla es una organización sin fines de lucro que se dedica a ponerte a ti en control de tu experiencia en línea y a conformar el futuro de Internet para beneficio del público <a %(link_attributes)s>%(site_url)s</a>."
 
 #: donate/templates/pages/core/campaign_page.html:43
@@ -797,11 +803,7 @@ msgstr "¿Tuviste problemas al donar? Visita nuestras <a href=\"%(faq_url)s\">pr
 msgid "Contributions go to MZLA Technologies Corporation, a California corporation wholly owned by the Mozilla Foundation. Funds will be reserved for use in the Thunderbird project. Contributions are not tax-deductible as charitable contributions."
 msgstr "Las contribuciones se destinan a MZLA Technologies Corporation, una compañía de California 100 %% propiedad de la Fundación Mozilla. Los fondos se reservarán para utilizarlos en el Proyecto Thunderbird. Las contribuciones no son deducibles de impuestos como donación para beneficencia."
 
-#: donate/thunderbird/templates/pages/base_page.html:59
-msgid "Cookies"
-msgstr "Cookies"
-
-#: donate/thunderbird/templates/pages/base_page.html:71
+#: donate/thunderbird/templates/pages/base_page.html:75
 #, python-format
 msgid "Portions of this content are ©1998–%(current_year)s by individual contributors. Content available under a <a %(link_attributes)s>Creative Commons license</a>"
 msgstr "Partes de este contenido son ©1998–%(current_year)s de colaboradores individuales. El contenido está disponible bajo una <a %(link_attributes)s>Licencia Creative Commons</a>"
@@ -877,6 +879,9 @@ msgstr "Doné a @mozthunderbird hoy para #MiInboxLibre. Hagamos equipo para apoy
 msgctxt "Email subject line"
 msgid "I donated to Thunderbird today"
 msgstr "Doné a Thunderbird hoy"
+
+#~ msgid "License"
+#~ msgstr "Licencia"
 
 #~ msgid "Initiatives"
 #~ msgstr "Iniciativas"

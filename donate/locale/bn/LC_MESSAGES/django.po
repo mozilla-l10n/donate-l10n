@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-22 10:22+0000\n"
+"POT-Creation-Date: 2021-03-05 16:22+0000\n"
 "PO-Revision-Date: 2019-11-15 15:10+0000\n"
 "Last-Translator: Belayet Hossain <bellayet@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -164,7 +164,6 @@ msgstr "নিরাপদ"
 
 #: donate/templates/fragments/donate_form.html:60
 #: donate/templates/fragments/donate_form.html:124
-#: donate/templates/pages/base_page_master.html:139
 msgid "Donate"
 msgstr "অনুদান"
 
@@ -269,28 +268,35 @@ msgstr "ইনস্টাগ্রাম"
 msgid "GitHub"
 msgstr "GitHub"
 
-#: donate/templates/pages/base_page_master.html:142
-#: donate/thunderbird/templates/pages/base_page.html:61
-msgid "Participation Guidelines"
-msgstr "অংশগ্রহণের নির্দেশিকা"
-
-#: donate/templates/pages/base_page_master.html:145
+#: donate/templates/pages/base_page_master.html:139
 #: donate/thunderbird/templates/pages/base_page.html:53
+msgid "Cookies"
+msgstr ""
+
+#: donate/templates/pages/base_page_master.html:142
+#: donate/thunderbird/templates/pages/base_page.html:56
 msgid "Legal"
 msgstr "আইনগত"
 
+#: donate/templates/pages/base_page_master.html:145
+#: donate/thunderbird/templates/pages/base_page.html:59
+msgid "Participation Guidelines"
+msgstr "অংশগ্রহণের নির্দেশিকা"
+
 #: donate/templates/pages/base_page_master.html:148
-#: donate/thunderbird/templates/pages/base_page.html:56
+#: donate/thunderbird/templates/pages/base_page.html:62
+msgid "Press Center"
+msgstr ""
+
+#: donate/templates/pages/base_page_master.html:151
+#: donate/thunderbird/templates/pages/base_page.html:65
 msgid "Privacy"
 msgstr "গোপনীয়তা"
 
-#: donate/templates/pages/base_page_master.html:151
-msgid "License"
-msgstr "লাইসেন্স"
-
 #: donate/templates/pages/base_page_master.html:172
-#, python-format
-msgid "Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a %(link_attributes)s>%(site_url)s</a>."
+#, fuzzy, python-format
+#| msgid "Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a %(link_attributes)s>%(site_url)s</a>."
+msgid "Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a %(fomo_link_attributes)s>%(fomo_site_url)s</a>. Most content available under a <a %(cc_link_attributes)s>Creative Commons license</a>."
 msgstr "Mozilla হ'ল একটি বিশ্বব্যাপী অলাভজনক যা আপনার অনলাইন অভিজ্ঞতার নিয়ন্ত্রণে রাখার জন্য এবং ওয়েবের সার্বজনীন ভবিষ্যতের জন্য রূপদানের জন্য নিবেদিত। দেখুন <a %(link_attributes)s>%(site_url)s</a>।"
 
 #: donate/templates/pages/core/campaign_page.html:43
@@ -811,11 +817,7 @@ msgstr "দান করতে সমস্যা? সর্বাধিক স�
 msgid "Contributions go to MZLA Technologies Corporation, a California corporation wholly owned by the Mozilla Foundation. Funds will be reserved for use in the Thunderbird project. Contributions are not tax-deductible as charitable contributions."
 msgstr ""
 
-#: donate/thunderbird/templates/pages/base_page.html:59
-msgid "Cookies"
-msgstr ""
-
-#: donate/thunderbird/templates/pages/base_page.html:71
+#: donate/thunderbird/templates/pages/base_page.html:75
 #, python-format
 msgid "Portions of this content are ©1998–%(current_year)s by individual contributors. Content available under a <a %(link_attributes)s>Creative Commons license</a>"
 msgstr ""
@@ -900,6 +902,9 @@ msgstr "আমি আজ @mozthunderbird কে #freetheinbox এ অনুদ�
 msgctxt "Email subject line"
 msgid "I donated to Thunderbird today"
 msgstr "আমি আজ Thunderbird কে অনুদান দিয়েছি"
+
+#~ msgid "License"
+#~ msgstr "লাইসেন্স"
 
 #~ msgid "Initiatives"
 #~ msgstr "উদ্যোগসমূহ"
