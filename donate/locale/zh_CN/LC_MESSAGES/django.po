@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 16:22+0000\n"
-"PO-Revision-Date: 2021-03-05 23:31+0000\n"
+"PO-Revision-Date: 2021-03-05 23:41+0000\n"
 "Last-Translator: 你我皆凡人 <eloli@foxmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -279,14 +279,14 @@ msgid "Privacy"
 msgstr "隐私"
 
 #: donate/templates/pages/base_page_master.html:172
-#, fuzzy, python-format
+#, python-format
 #| msgid ""
 #| "Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a "
 #| "%(link_attributes)s>%(site_url)s</a>."
 msgid ""
 "Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a "
 "%(fomo_link_attributes)s>%(fomo_site_url)s</a>. Most content available under a <a %(cc_link_attributes)s>Creative Commons license</a>."
-msgstr "Mozilla 是一个全球性的的非营利组织，致力于让您掌控自己的网络体验，并为了公众利益塑造 Web 的未来。欢迎访问 <a %(link_attributes)s>%(site_url)s</a> 了解更多信息。"
+msgstr "Mozilla 是一个全球性的的非营利组织，致力于让您掌控自己的网络体验，并为了公众利益塑造 Web 的未来。欢迎访问 <a %(fomo_link_attributes)s>%(fomo_site_url)s</a> 了解更多信息。大多数内容可按<a %(cc_link_attributes)s>知识共享许可协议</a>使用。"
 
 #: donate/templates/pages/core/campaign_page.html:43 donate/templates/pages/core/ways_to_give_page_master.html:12
 msgctxt "Button"
