@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 16:22+0000\n"
-"PO-Revision-Date: 2021-03-05 20:49+0000\n"
-"Last-Translator: ZzEdovec <zzedovec@yahoo.com>\n"
+"PO-Revision-Date: 2021-03-07 14:56+0000\n"
+"Last-Translator: Alexander Slovesnik <unghost@mozilla-russia.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
@@ -285,7 +285,7 @@ msgid "Privacy"
 msgstr "Приватность"
 
 #: donate/templates/pages/base_page_master.html:172
-#, fuzzy, python-format
+#, python-format
 #| msgid ""
 #| "Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a "
 #| "%(link_attributes)s>%(site_url)s</a>."
@@ -294,7 +294,7 @@ msgid ""
 "%(fomo_link_attributes)s>%(fomo_site_url)s</a>. Most content available under a <a %(cc_link_attributes)s>Creative Commons license</a>."
 msgstr ""
 "Mozilla - глобальная некоммерческая организация, чьей миссией является предоставления вам контроля над вашей работой в Интернете, и формирование будущего Интернета, чтобы он приносил пользу всему "
-"обществу. Посетите нас на <a %(link_attributes)s>%(site_url)s</a>."
+"обществу. Посетите нас на <a %(fomo_link_attributes)s>%(fomo_site_url)s</a>. Большая часть содержимого доступно под <a %(cc_link_attributes)s>лицензией Creative Commons</a>."
 
 #: donate/templates/pages/core/campaign_page.html:43 donate/templates/pages/core/ways_to_give_page_master.html:12
 msgctxt "Button"
