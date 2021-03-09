@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 16:22+0000\n"
-"PO-Revision-Date: 2021-03-08 16:18+0000\n"
+"PO-Revision-Date: 2021-03-09 10:35+0000\n"
 "Last-Translator: Théo Chevalier <theo.chevalier11@gmail.com>\n"
 "Language-Team: \n"
 "Language: cy\n"
@@ -172,7 +172,7 @@ msgstr ""
 msgid "Monthly donations are charged each month on the same day that you donate today, and will continue until you cancel. To cancel, email us at <a href=\"mailto:%(email)s\">%(email)s</a>."
 msgstr ""
 "Mae rhoddion misol yn cael eu codi bob mis ar yr un diwrnod ag y byddwch yn ei roi heddiw, a byddant yn parhau nes i chi eu hatal. I'w hatal, anfonwch e-bost atom at <a "
-"href=\"mailto:%(email)s\">%(email)s%(email)s</a>"
+"href=\"mailto:%(email)s\">%(email)s</a>"
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:17
 #, python-format
