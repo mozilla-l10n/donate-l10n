@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 16:22+0000\n"
-"PO-Revision-Date: 2021-03-09 10:35+0000\n"
+"PO-Revision-Date: 2021-03-09 10:46+0000\n"
 "Last-Translator: Théo Chevalier <theo.chevalier11@gmail.com>\n"
 "Language-Team: \n"
 "Language: cy\n"
@@ -192,7 +192,7 @@ msgid ""
 " to the fullest extent permitted by law."
 msgstr ""
 "Mae cyfraniadau'n mynd i'r Mozilla Foundation, sefydliad 501(c)(3) wedi'i leoli yn Mountain View, California, i'w ddefnyddio yn ôl ei ddisgresiwn at ei ddibenion elusennol. Maent yn ddidynadwy o ran"
-" treth yn yr Unol Daleithiau i'r graddau eithaf y mae'n cael ei ganiatáu gan y gyfraith. ID Treth y Mozilla Foundation yw 20-0097189."
+" treth yn yr Unol Daleithiau i'r graddau eithaf y mae'n cael ei ganiatáu gan y gyfraith."
 
 #: donate/templates/fragments/language_switcher.html:10 donate/templates/pages/core/contributor_support_page_master.html:50
 msgid "Language"
@@ -376,8 +376,6 @@ msgstr "Disgrifiad"
 #, python-format
 msgid "Mozilla will only use your submitted information for purposes of communicating with you about your request. See our <a href=\"%(privacy_policy)s\">privacy policy</a> for further information."
 msgstr ""
-"Dim ond at ddibenion cyfathrebu â chi am eich cais y bydd Mozilla yn defnyddio'r manylion rydych wedi'i gyflwyno. Darllenwch ein polisi preifatrwydd <a href=\"%(privacy_policy)s\"> i gael rhagor o "
-"wybodaeth."
 
 #: donate/templates/pages/core/contributor_support_page_master.html:77
 msgid "Submit"
@@ -640,12 +638,12 @@ msgstr "Rwy'n awdurdodi'r Mozilla Foundation i godi tâl ar fy ngherdyn am y swm
 #: donate/templates/payment/card_master.html:144
 #, python-format
 msgid "Donate <span class=\"%(span_class)s\">%(formatted_amount)s</span> per month"
-msgstr "Rhoi <span class=\"%(span_class)s\"><span class=\"%(span_class)s\">%(formatted_amount)s</span> y mis"
+msgstr "Rhoi <span class=\"%(span_class)s\">%(formatted_amount)s</span> y mis"
 
 #: donate/templates/payment/card_master.html:146
 #, python-format
 msgid "Donate <span class=\"%(span_class)s\">%(formatted_amount)s</span>"
-msgstr "Rhoi <span class=\"%(span_class)s\"><span class=\"%(span_class)s\">%(formatted_amount)s</span>"
+msgstr "Rhoi <span class=\"%(span_class)s\">%(formatted_amount)s</span>"
 
 #: donate/templates/payment/card_master.html:155
 msgid "Your donation helps keep the Web open and free. Thank you in advance for your gift."
@@ -780,8 +778,8 @@ msgid ""
 "Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your "
 "donation will be stored by Thunderbird. Please read our <a href=\"%(privacy_url)s\">privacy policy here</a>."
 msgstr ""
-"Bydd eich manylion talu yn cael eu prosesu gan <a href=\"%(braintree_url)s\">Braintree</a>, cwmni PayPal (ar gyfer cardiau credyd/debyd) neu <a href=\"%(paypal_url)s\">PayPal< / a>, a bydd cofnod "
-"o'ch rhodd yn cael ei gadw gan Thunderbird. Darllenwch ein polisi preifatrwydd <a href=\"%(privacy_url)s\">yma</a>."
+"Bydd eich manylion talu yn cael eu prosesu gan <a href=\"%(braintree_url)s\">Braintree</a>, cwmni PayPal (ar gyfer cardiau credyd/debyd) neu <a href=\"%(paypal_url)s\">PayPal</a>, a bydd cofnod o'ch"
+" rhodd yn cael ei gadw gan Thunderbird. Darllenwch ein polisi preifatrwydd <a href=\"%(privacy_url)s\">yma</a>."
 
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:15
 #, python-format
@@ -850,9 +848,9 @@ msgid ""
 "understand that I must cancel at least 5 days before the next scheduled donation by <a href='%(help_url)s'>submitting a request</a>, and that I may only request a refund within 15 days from the date"
 " of a donation."
 msgstr ""
-"Rwy'n awdurdodi i MZLA Technologies godi tâl ar fy ngherdyn yn awtomatig bob mis yn y swm sy'n cael ei nodi uchod, gan ddechrau heddiw a pharhau bob mis ar yr un diwrnod, nes i mi ei atal. Rwy'n "
-"deall bod yn rhaid i mi ei atal o leiaf 5 diwrnod cyn y rhodd nesaf a drefnwyd trwy e-bost i <a href='%(help_url)s'>drwy gyflwyno cais</a>, ac mai dim ond o fewn 15 diwrnod o ddyddiad rhodd y gallaf"
-" ofyn am ad-daliad."
+"Rwy'n awdurdodi i MZLA Technologies Corporation godi tâl ar fy ngherdyn yn awtomatig bob mis yn y swm sy'n cael ei nodi uchod, gan ddechrau heddiw a pharhau bob mis ar yr un diwrnod, nes i mi ei "
+"atal. Rwy'n deall bod yn rhaid i mi ei atal o leiaf 5 diwrnod cyn y rhodd nesaf a drefnwyd trwy e-bost i <a href='%(help_url)s'>drwy gyflwyno cais</a>, ac mai dim ond o fewn 15 diwrnod o ddyddiad "
+"rhodd y gallaf ofyn am ad-daliad."
 
 #: donate/thunderbird/templates/payment/card.html:14
 msgid "I authorize MZLA Technologies Corporation to charge my card in the amount indicated above. I understand that I may only request a refund within 15 days from the date of the donation."
