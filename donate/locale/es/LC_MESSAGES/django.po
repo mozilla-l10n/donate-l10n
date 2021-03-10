@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 16:22+0000\n"
-"PO-Revision-Date: 2021-03-10 08:13+0000\n"
+"PO-Revision-Date: 2021-03-10 10:09+0000\n"
 "Last-Translator: Théo Chevalier <theo.chevalier11@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
@@ -280,7 +280,7 @@ msgstr "Pautas para la participación"
 
 #: donate/templates/pages/base_page_master.html:148 donate/thunderbird/templates/pages/base_page.html:62
 msgid "Press Center"
-msgstr ""
+msgstr "Centro de prensa"
 
 #: donate/templates/pages/base_page_master.html:151 donate/thunderbird/templates/pages/base_page.html:65
 msgid "Privacy"
