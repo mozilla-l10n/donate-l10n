@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 16:22+0000\n"
-"PO-Revision-Date: 2021-03-15 12:52+0000\n"
+"PO-Revision-Date: 2021-03-15 13:04+0000\n"
 "Last-Translator: Björn I. <bjorni.svindseth@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -499,6 +499,8 @@ msgid ""
 "The Mozilla Foundation is happy to accept your gift of publicly-traded stocks or bonds through our brokerage account at Northern Trust Securities. Please contact Major Gift Officer %(name)s at <a "
 "href=\"mailto:%(email)s\">%(email)s</a> to initiate the process."
 msgstr ""
+"Mozilla Foundation godtar gjerne di gåve av børsnoterte aksjar eller obligasjonar gjennom meklarkontoen vår hos Northern Trust Securities. Ta kontakt med donasjonsoffiseren vår %(name)s på <a "
+"href=\"mailto:%(email)s\">%(email)s</a> for å starte prosessen."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:86
 msgid "Check (via postal service)"
@@ -514,10 +516,12 @@ msgid ""
 "The Mozilla Foundation is happy to accept your donation (made payable to “Mozilla Foundation”) via check; however please note that processing and acknowledgment of your gift may be delayed by "
 "changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
 msgstr ""
+"Mozilla Foundation godtar gjerne donasjonen din (betal til: «Mozilla Foundation») via sjekk; Merk at behandling og stadfesting av gåva di kan verte forseinka av endringar av kontorrutinene våre på "
+"grunn av COVID-19-pandemien. Du kan sende sjekkar til:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:108 donate/thunderbird/templates/pages/core/ways_to_give_page.html:67
 msgid "Please include your email address on the memo line of your check to help us track and attribute your gift."
-msgstr ""
+msgstr "Inkluder e-postadressa di i notatlinja i sjekken din for å hjelpe oss med å spore og tildele gåva di."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:115
 #, python-format
