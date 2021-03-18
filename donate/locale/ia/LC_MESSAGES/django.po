@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 16:22+0000\n"
-"PO-Revision-Date: 2021-03-07 06:18+0000\n"
-"Last-Translator: Melo46 <melo@carmu.com>\n"
+"PO-Revision-Date: 2021-03-18 23:01+0000\n"
+"Last-Translator: Martijn Dekker <martijn@inlv.org>\n"
 "Language-Team: \n"
 "Language: ia\n"
 "MIME-Version: 1.0\n"
@@ -246,7 +246,7 @@ msgstr "Si tu non habeva antea confirmate un subscription a un newsletter re Moz
 
 #: donate/templates/pages/base_page_master.html:112
 msgid "More about us"
-msgstr "Altero re nos"
+msgstr "Plus sur nos"
 
 #: donate/templates/pages/base_page_master.html:116 donate/templates/payment/thank_you_master.html:38 donate/thunderbird/templates/pages/base_page.html:38
 #: donate/thunderbird/templates/payment/thank_you.html:27
