@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 16:22+0000\n"
-"PO-Revision-Date: 2021-03-18 23:01+0000\n"
-"Last-Translator: Martijn Dekker <martijn@inlv.org>\n"
+"PO-Revision-Date: 2021-03-31 10:24+0000\n"
+"Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: \n"
 "Language: ia\n"
 "MIME-Version: 1.0\n"
@@ -182,7 +182,7 @@ msgstr "Altere manieras pro donar: <a href=\"%(wire_transfer_url)s\">transaction
 #: donate/templates/fragments/donate_form_disclaimer_master.html:23
 #, python-format
 msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"mailto:%(email)s\">Send us an email</a>."
-msgstr "Problemas a donar? Visita nostre <a href=\"%(faq_url)s\">Demandas Frequente</a> pro responsas al questiones plus commun. Ancora problemas? <a href=\"mailto:%(email)s\">Invia nos un e-mail</a>."
+msgstr "Problemas a donar? Visita nostre <a href=\"%(faq_url)s\">folio a questiones</a> pro responsas al questiones plus commun. Ancora problemas? <a href=\"mailto:%(email)s\">Invia nos un e-mail</a>."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:30
 msgid ""
@@ -788,7 +788,7 @@ msgstr "Le donationes mensual es cargate cata mense al mesme die que tu ha donat
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:21
 #, python-format
 msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"%(help_url)s\">Contact us</a>."
-msgstr "Problemas a donar? Visita nostre <a href=\"%(faq_url)s\">Demandas Frequente</a> pro responsas al questiones plus commun. Ancora problemas? <a href=\"%(help_url)s\">Continge nos</a>."
+msgstr "Problemas a donar? Visita nostre <a href=\"%(faq_url)s\">folio a questiones</a> pro responsas al questiones plus commun. Ancora problemas? <a href=\"%(help_url)s\">Continge nos</a>."
 
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:27
 msgid ""
