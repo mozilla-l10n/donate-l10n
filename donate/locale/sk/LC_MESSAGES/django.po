@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 16:22+0000\n"
-"PO-Revision-Date: 2021-02-10 18:32+0000\n"
+"PO-Revision-Date: 2021-03-29 13:13+0000\n"
 "Last-Translator: Juraj Cigáň <kusavica@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sk\n"
@@ -280,7 +280,7 @@ msgstr "Pravidlá pre prispievanie"
 
 #: donate/templates/pages/base_page_master.html:148 donate/thunderbird/templates/pages/base_page.html:62
 msgid "Press Center"
-msgstr ""
+msgstr "Tlačové centrum"
 
 #: donate/templates/pages/base_page_master.html:151 donate/thunderbird/templates/pages/base_page.html:65
 msgid "Privacy"
@@ -295,6 +295,8 @@ msgid ""
 "Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a "
 "%(fomo_link_attributes)s>%(fomo_site_url)s</a>. Most content available under a <a %(cc_link_attributes)s>Creative Commons license</a>."
 msgstr ""
+"Mozilla je nezisková organizácia odhodlaná dať vám kontrolu nad vašim online svetom a nad utváraním budúcnosti webu. Navštívte nás na <a %(fomo_link_attributes)s>%(fomo_site_url)s</a>. Väčšina "
+"obsahu je dostupná v rámci licencie <a %(cc_link_attributes)s>Creative Commons</a>."
 
 #: donate/templates/pages/core/campaign_page.html:43 donate/templates/pages/core/ways_to_give_page_master.html:12
 msgctxt "Button"
@@ -416,6 +418,8 @@ msgid ""
 "Please also note that the Mozilla Foundation cannot accept SEPA or BACS transfers for MZLA/Thunderbird. To contribute to MZLA/Thunderbird via SEPA or BACS transfer, please follow <a "
 "href=\"%(instruction_url)s\">these instructions</a>."
 msgstr ""
+"Upozorňujeme, že Mozilla Foundation nemôže prijímať dary pre MZLA/Thunderbird zaslané formou SEPA alebo BACS prevodu. Ak chcete prispieť pre MZLA/Thunderbird prostredníctvom SEPA alebo BACS prevodu,"
+" prosím, postupujte podľa <a href=\"%(instruction_url)s\">týchto pokynov</a>."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:36
 msgid "Please remember that donations are deductible for U.S. income tax purposes only."
