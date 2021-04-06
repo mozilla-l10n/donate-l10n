@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-05 16:22+0000\n"
+"POT-Creation-Date: 2021-04-06 07:15+0000\n"
 "PO-Revision-Date: 2020-09-08 20:14+0000\n"
 "Last-Translator: Akmal <uzbadmin@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -71,7 +71,7 @@ msgstr "Pochta indeksi"
 msgid "Country"
 msgstr "Mamlakat"
 
-#: donate/payments/forms.py:131 donate/templates/pages/base_page_master.html:92
+#: donate/payments/forms.py:131 donate/templates/pages/base_page_master.html:87
 #, python-format
 msgid "I’m okay with Mozilla handling my info as explained in this <a href='%(url)s'>Privacy Notice</a>."
 msgstr "Ushbu <a href='%(url)s'> maxfiylik toʻgʻrisidagi bildirishnomada </a> tushuntirilganidek, Mozilla mening maʼlumotlarim bilan ishlashiga roziman."
@@ -192,7 +192,7 @@ msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers 
 msgstr ""
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:30
-msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in Mountain View, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
+msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in San Francisco, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
 msgstr ""
 
 #: donate/templates/fragments/language_switcher.html:10
@@ -228,7 +228,7 @@ msgstr ""
 msgid "Protect the internet as a global public resource"
 msgstr ""
 
-#: donate/templates/pages/base_page_master.html:84
+#: donate/templates/pages/base_page_master.html:82
 msgid "Join our email list to take action and stay updated!"
 msgstr ""
 
@@ -236,7 +236,7 @@ msgstr ""
 msgid "Enter email address"
 msgstr ""
 
-#: donate/templates/pages/base_page_master.html:88
+#: donate/templates/pages/base_page_master.html:90
 msgid "Sign up"
 msgstr ""
 
@@ -683,7 +683,6 @@ msgstr ""
 
 #: donate/templates/payment/card_upsell_master.html:53
 #, fuzzy
-#| msgid "Donate"
 msgid "Donate Monthly"
 msgstr "Xayriya"
 

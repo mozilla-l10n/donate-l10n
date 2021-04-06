@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-05 16:22+0000\n"
+"POT-Creation-Date: 2021-04-06 07:15+0000\n"
 "PO-Revision-Date: 2020-12-08 21:04+0000\n"
 "Last-Translator: Jordi Serratosa <jordis@softcatala.cat>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -71,7 +71,7 @@ msgstr "Codi postal"
 msgid "Country"
 msgstr "País"
 
-#: donate/payments/forms.py:131 donate/templates/pages/base_page_master.html:92
+#: donate/payments/forms.py:131 donate/templates/pages/base_page_master.html:87
 #, python-format
 msgid "I’m okay with Mozilla handling my info as explained in this <a href='%(url)s'>Privacy Notice</a>."
 msgstr "Accepto que Mozilla gestioni la meva informació en els termes descrits en aquest <a href='%(url)s'>avís de privadesa</a>."
@@ -192,8 +192,8 @@ msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers 
 msgstr "Teniu problemes per fer el donatiu? Vegeu les <a href=\"%(faq_url)s\">preguntes més freqüents</a> per obtenir respostes a les preguntes més habituals. Encara teniu problemes? <a href=\"mailto:%(email)s\">Envieu-nos un correu electrònic</a>."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:30
-msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in Mountain View, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
-msgstr "Els donatius van destinats a la Mozilla Foundation, una organització sense ànim de lucre amb seu a Mountain View, Califòrnia (EUA), que els utilitzarà segons cregui convenient per a finalitats benèfiques. Als Estats Units d'Amèrica són deduïbles fiscalment."
+msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in San Francisco, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
+msgstr ""
 
 #: donate/templates/fragments/language_switcher.html:10
 #: donate/templates/pages/core/contributor_support_page_master.html:50
@@ -228,7 +228,7 @@ msgstr "Menú"
 msgid "Protect the internet as a global public resource"
 msgstr "Protegiu Internet com a recurs públic global"
 
-#: donate/templates/pages/base_page_master.html:84
+#: donate/templates/pages/base_page_master.html:82
 msgid "Join our email list to take action and stay updated!"
 msgstr "Subscriviu-vos a la nostra llista de correu per actuar i estar informat."
 
@@ -236,7 +236,7 @@ msgstr "Subscriviu-vos a la nostra llista de correu per actuar i estar informat.
 msgid "Enter email address"
 msgstr "Escriviu una adreça electrònica"
 
-#: donate/templates/pages/base_page_master.html:88
+#: donate/templates/pages/base_page_master.html:90
 msgid "Sign up"
 msgstr "Registre"
 
@@ -294,7 +294,6 @@ msgstr "Privadesa"
 
 #: donate/templates/pages/base_page_master.html:172
 #, fuzzy, python-format
-#| msgid "Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a %(link_attributes)s>%(site_url)s</a>."
 msgid "Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a %(fomo_link_attributes)s>%(fomo_site_url)s</a>. Most content available under a <a %(cc_link_attributes)s>Creative Commons license</a>."
 msgstr "Mozilla és una organització internacional sense ànim de lucre dedicada a retornar-vos el control de la vostra experiència en línia i a donar forma al futur del web en benefici de tots. Visiteu-nos a <a %(link_attributes)s>%(site_url)s</a>."
 
@@ -528,7 +527,6 @@ msgstr "Xec (mitjançant servei postal)"
 #: donate/templates/pages/core/ways_to_give_page_master.html:90
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:54
 #, fuzzy
-#| msgid "UPDATE March 20, 2020:"
 msgid "UPDATE October 2020:"
 msgstr "ACTUALITZACIÓ del 20 de març de 2020:"
 
@@ -834,7 +832,6 @@ msgstr ""
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:71
 #, fuzzy
-#| msgid "Please note that we can only accept checks in US dollars drawn on a US bank. Please do <strong>not</strong> send cash."
 msgid "Please also note that MZLA/Thunderbird can <strong>only</strong> accept checks in U.S. dollars drawn on a U.S. bank."
 msgstr "Tingueu en compte que només podem acceptar xecs en dòlars nord-americans emesos en un banc nord-americà. <strong>No</strong> envieu diners en efectiu."
 
@@ -883,6 +880,9 @@ msgstr "Avui he fet un donatiu al @mozthunderbird. Participeu-hi i doneu suport 
 msgctxt "Email subject line"
 msgid "I donated to Thunderbird today"
 msgstr "Avui he fet un donatiu al Thunderbird"
+
+#~ msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in Mountain View, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
+#~ msgstr "Els donatius van destinats a la Mozilla Foundation, una organització sense ànim de lucre amb seu a Mountain View, Califòrnia (EUA), que els utilitzarà segons cregui convenient per a finalitats benèfiques. Als Estats Units d'Amèrica són deduïbles fiscalment."
 
 #~ msgid "License"
 #~ msgstr "Llicència"

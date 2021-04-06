@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-05 16:22+0000\n"
+"POT-Creation-Date: 2021-04-06 07:15+0000\n"
 "PO-Revision-Date: 2020-12-09 00:58+0000\n"
 "Last-Translator: Hyeonseok Shin <hyeonseok@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -71,7 +71,7 @@ msgstr "우편 번호"
 msgid "Country"
 msgstr "국가"
 
-#: donate/payments/forms.py:131 donate/templates/pages/base_page_master.html:92
+#: donate/payments/forms.py:131 donate/templates/pages/base_page_master.html:87
 #, python-format
 msgid "I’m okay with Mozilla handling my info as explained in this <a href='%(url)s'>Privacy Notice</a>."
 msgstr "<a href='%(url)s'>개인 정보 보호 공지</a>에 나타난대로 Mozilla가 개인 정보를 다루는 것에 대해서 동의합니다."
@@ -192,8 +192,8 @@ msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers 
 msgstr "기부에 문제가 있나요? <a href=\"%(faq_url)s\">FAQ</a>에서 자주 묻는 질문에 대한 답을 찾아 보세요. 여전히 문제가 있다면 <a href=\"mailto:%(email)s\">메일을 보내 주세요</a>."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:30
-msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in Mountain View, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
-msgstr "후원금은 캘리포니아 마운틴뷰에 본사를 둔 501(c)(3) 조직인 Mozilla Foundation으로 모아져서 자선활동의 목적을 가지고 자유 재량에 의해서 사용됩니다. 미국에서 법률이 허용한 최대한으로 세금 공제가 됩니다."
+msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in San Francisco, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
+msgstr ""
 
 #: donate/templates/fragments/language_switcher.html:10
 #: donate/templates/pages/core/contributor_support_page_master.html:50
@@ -228,7 +228,7 @@ msgstr "메뉴"
 msgid "Protect the internet as a global public resource"
 msgstr "세계 공공 자원인 인터넷 보호"
 
-#: donate/templates/pages/base_page_master.html:84
+#: donate/templates/pages/base_page_master.html:82
 msgid "Join our email list to take action and stay updated!"
 msgstr "이메일 구독 신청을 하시고 최신 정보를 받아보세요!"
 
@@ -236,7 +236,7 @@ msgstr "이메일 구독 신청을 하시고 최신 정보를 받아보세요!"
 msgid "Enter email address"
 msgstr "이메일을 입력하세요"
 
-#: donate/templates/pages/base_page_master.html:88
+#: donate/templates/pages/base_page_master.html:90
 msgid "Sign up"
 msgstr "가입하기"
 
@@ -294,7 +294,6 @@ msgstr "개인정보처리방침"
 
 #: donate/templates/pages/base_page_master.html:172
 #, fuzzy, python-format
-#| msgid "Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a %(link_attributes)s>%(site_url)s</a>."
 msgid "Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a %(fomo_link_attributes)s>%(fomo_site_url)s</a>. Most content available under a <a %(cc_link_attributes)s>Creative Commons license</a>."
 msgstr "Mozilla는 사용자가 온라인 경험을 주도하고 웹의 미래를 형성하여 공공의 이익을 얻는 데 전념하는 세계적인 비영리 단체입니다. <a %(link_attributes)s>%(site_url)s</a> 통해 방문해주세요."
 
@@ -832,7 +831,6 @@ msgstr ""
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:71
 #, fuzzy
-#| msgid "Please note that we can only accept checks in US dollars drawn on a US bank. Please do <strong>not</strong> send cash."
 msgid "Please also note that MZLA/Thunderbird can <strong>only</strong> accept checks in U.S. dollars drawn on a U.S. bank."
 msgstr "미국 은행에서 발행 된 미국 달러로만 수표를 받을 수 있습니다. 현금을 직접 보내지 <strong>마세요</strong>."
 
@@ -881,6 +879,9 @@ msgstr "오늘 @mozthunderbird 에 기부했습니다. 의사 소통 정보 보�
 msgctxt "Email subject line"
 msgid "I donated to Thunderbird today"
 msgstr "오늘 Thunderbird에 기부했습니다."
+
+#~ msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in Mountain View, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
+#~ msgstr "후원금은 캘리포니아 마운틴뷰에 본사를 둔 501(c)(3) 조직인 Mozilla Foundation으로 모아져서 자선활동의 목적을 가지고 자유 재량에 의해서 사용됩니다. 미국에서 법률이 허용한 최대한으로 세금 공제가 됩니다."
 
 #~ msgid "License"
 #~ msgstr "라이선스"

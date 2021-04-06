@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-05 16:22+0000\n"
+"POT-Creation-Date: 2021-04-06 07:15+0000\n"
 "PO-Revision-Date: 2020-08-01 19:50+0000\n"
 "Last-Translator: Kerim Kalamujić <kerim@mozilla.ba>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -71,7 +71,7 @@ msgstr "Poštanski broj"
 msgid "Country"
 msgstr "Država"
 
-#: donate/payments/forms.py:131 donate/templates/pages/base_page_master.html:92
+#: donate/payments/forms.py:131 donate/templates/pages/base_page_master.html:87
 #, python-format
 msgid "I’m okay with Mozilla handling my info as explained in this <a href='%(url)s'>Privacy Notice</a>."
 msgstr "Slažem se da Mozilla upravlja mojim informacijama, kao što je objašnjeno u <a href='%(url)s'>politici privatnosti</a>."
@@ -192,8 +192,8 @@ msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers 
 msgstr "Problemi s donacijama? Posjetite stranicu <a href=\"%(faq_url)s\">ČPP</a> da biste dobili odgovore na najčešća pitanja. Još uvijek imate problema? <a href=\"mailto:%(email)s\">Pošaljite nam email</a>."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:30
-msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in Mountain View, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
-msgstr "Donacije su za Mozilla Foundation, organizaciju zasnovanu u Mountain Viewu, Kalifornija, osnovana zakonom 501(c)(3) i namenjena je za dobrobit. U SAD-u, moguće ih je odbiti od poreza u maksimalnoj mjeri dozvoljenoj zakonom."
+msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in San Francisco, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
+msgstr ""
 
 #: donate/templates/fragments/language_switcher.html:10
 #: donate/templates/pages/core/contributor_support_page_master.html:50
@@ -228,7 +228,7 @@ msgstr "Meni"
 msgid "Protect the internet as a global public resource"
 msgstr "Zaštitite Internet kao globalni javni resurs"
 
-#: donate/templates/pages/base_page_master.html:84
+#: donate/templates/pages/base_page_master.html:82
 msgid "Join our email list to take action and stay updated!"
 msgstr "Pridružite se našoj email listi da biste poduzeli akciju i budite ažurirani!"
 
@@ -236,7 +236,7 @@ msgstr "Pridružite se našoj email listi da biste poduzeli akciju i budite ažu
 msgid "Enter email address"
 msgstr "Unesite vašu email adresu"
 
-#: donate/templates/pages/base_page_master.html:88
+#: donate/templates/pages/base_page_master.html:90
 msgid "Sign up"
 msgstr "Registruj se"
 
@@ -294,7 +294,6 @@ msgstr "Privatnost"
 
 #: donate/templates/pages/base_page_master.html:172
 #, fuzzy, python-format
-#| msgid "Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a %(link_attributes)s>%(site_url)s</a>."
 msgid "Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a %(fomo_link_attributes)s>%(fomo_site_url)s</a>. Most content available under a <a %(cc_link_attributes)s>Creative Commons license</a>."
 msgstr "Mozilla je globalna neprofitna organizacija koja ima misiju omogućiti vam kontrolu nad svojim radom na internetu, a također se zalaže za stvaranje budućnosti interneta u korist svih. Posjetite nas na <a %(link_attributes)s>%(site_url)s</a>."
 
@@ -528,7 +527,6 @@ msgstr "Ček (putem poštanske usluge)"
 #: donate/templates/pages/core/ways_to_give_page_master.html:90
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:54
 #, fuzzy
-#| msgid "UPDATE March 20, 2020:"
 msgid "UPDATE October 2020:"
 msgstr "AŽURIRANJE 20 marta 2020:"
 
@@ -834,7 +832,6 @@ msgstr ""
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:71
 #, fuzzy
-#| msgid "Please note that we can only accept checks in US dollars drawn on a US bank. Please do <strong>not</strong> send cash."
 msgid "Please also note that MZLA/Thunderbird can <strong>only</strong> accept checks in U.S. dollars drawn on a U.S. bank."
 msgstr "Imajte na umu da možemo prihvatiti samo čekove u američkim dolarima izvučeni u američkoj banci. Molimo <strong>ne</strong> šaljite gotovinu."
 
@@ -883,6 +880,9 @@ msgstr "Donirao sam za @mozthunderbird danas kako bi #freetheinbox. Pridružite 
 msgctxt "Email subject line"
 msgid "I donated to Thunderbird today"
 msgstr "Donirao sam za Thunderbird danas"
+
+#~ msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in Mountain View, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
+#~ msgstr "Donacije su za Mozilla Foundation, organizaciju zasnovanu u Mountain Viewu, Kalifornija, osnovana zakonom 501(c)(3) i namenjena je za dobrobit. U SAD-u, moguće ih je odbiti od poreza u maksimalnoj mjeri dozvoljenoj zakonom."
 
 #~ msgid "License"
 #~ msgstr "Licenca"

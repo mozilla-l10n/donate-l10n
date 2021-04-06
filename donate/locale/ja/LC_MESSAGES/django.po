@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-05 16:22+0000\n"
+"POT-Creation-Date: 2021-04-06 07:15+0000\n"
 "PO-Revision-Date: 2020-02-20 16:59+0000\n"
 "Last-Translator: siam <iwata@mxq.mesh.ne.jp>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -71,7 +71,7 @@ msgstr "郵便番号"
 msgid "Country"
 msgstr "国"
 
-#: donate/payments/forms.py:131 donate/templates/pages/base_page_master.html:92
+#: donate/payments/forms.py:131 donate/templates/pages/base_page_master.html:87
 #, python-format
 msgid "I’m okay with Mozilla handling my info as explained in this <a href='%(url)s'>Privacy Notice</a>."
 msgstr "Mozilla がこの <a href='%(url)s'>プライバシー通知</a> に従って私の個人情報を扱うことに同意します。"
@@ -192,8 +192,8 @@ msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers 
 msgstr "寄付で問題が起こった時は、<a href=\"%(faq_url)s\">FAQ</a> のページでよくある質問を確認してください。まだ問題が解決できない場合は、<a href=\"mailto:%(email)s\">メールでお問い合わせください</a>。"
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:30
-msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in Mountain View, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
-msgstr "あなたの寄付は 501(c)(3) に該当する非営利法人でありカリフォルニア州マウンテンビュー市に拠点を置く Mozilla Foundation が受領し、その自由裁量で慈善目的に使用されます。米国内では、法で定められた最大限の範囲で課税控除の対象となります。"
+msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in San Francisco, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
+msgstr ""
 
 #: donate/templates/fragments/language_switcher.html:10
 #: donate/templates/pages/core/contributor_support_page_master.html:50
@@ -228,7 +228,7 @@ msgstr "メニュー"
 msgid "Protect the internet as a global public resource"
 msgstr "グローバルな公共リソースとしてインターネットを保護する"
 
-#: donate/templates/pages/base_page_master.html:84
+#: donate/templates/pages/base_page_master.html:82
 msgid "Join our email list to take action and stay updated!"
 msgstr "メーリングリストに参加して行動を起こし、最新情報を入手してください！"
 
@@ -236,7 +236,7 @@ msgstr "メーリングリストに参加して行動を起こし、最新情報
 msgid "Enter email address"
 msgstr "メールアドレスを入力してください"
 
-#: donate/templates/pages/base_page_master.html:88
+#: donate/templates/pages/base_page_master.html:90
 msgid "Sign up"
 msgstr "登録"
 
@@ -878,6 +878,9 @@ msgstr ""
 msgctxt "Email subject line"
 msgid "I donated to Thunderbird today"
 msgstr "Thunderbird に寄付しました"
+
+#~ msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in Mountain View, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
+#~ msgstr "あなたの寄付は 501(c)(3) に該当する非営利法人でありカリフォルニア州マウンテンビュー市に拠点を置く Mozilla Foundation が受領し、その自由裁量で慈善目的に使用されます。米国内では、法で定められた最大限の範囲で課税控除の対象となります。"
 
 #~ msgid "License"
 #~ msgstr "ライセンス"

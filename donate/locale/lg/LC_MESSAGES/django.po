@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-05 16:22+0000\n"
+"POT-Creation-Date: 2021-04-06 07:15+0000\n"
 "PO-Revision-Date: 2020-06-22 19:17+0000\n"
 "Last-Translator: Lawk <lawrence@mozilla-uganda.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -71,7 +71,7 @@ msgstr "Postal Code"
 msgid "Country"
 msgstr "Ensi"
 
-#: donate/payments/forms.py:131 donate/templates/pages/base_page_master.html:92
+#: donate/payments/forms.py:131 donate/templates/pages/base_page_master.html:87
 #, python-format
 msgid "I’m okay with Mozilla handling my info as explained in this <a href='%(url)s'>Privacy Notice</a>."
 msgstr "Nzikiriza mukozese ebinkwatako nga bwe mu nyonyodde mu <a href='%(url)s'>Nkola y'ekyama</a> ya Mozilla."
@@ -173,7 +173,6 @@ msgstr "buli mwezi"
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:6
 #, fuzzy, python-format
-#| msgid "Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Mozilla."
 msgid "Mozilla is committed to your privacy; please read our <a href=\"%(privacy_url)s\">privacy policy here</a>. Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Mozilla."
 msgstr "Ebikwata ku kusasula kwo bigenda k'olebwako ne <a href=\"%(braintree_url)s\">Braintree</a>, kampuni ya PayPal (ku kaadi za banka) oba <a href=\"%(paypal_url)s\">PayPal</a>, obukakafu bw'obuyambi bwo bujja kutelekebwa Mozilla."
 
@@ -193,8 +192,8 @@ msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers 
 msgstr "Buzibu ng'ogaba obuyambi? Kyalira <a href=\"%(faq_url)s\">FAQ</a> yaffe okufuna ansa ku bibuuzo ebisinga obuzibwa. Okyayina ebizibu? <a href=\"mailto:%(email)s\">Tusindikire email</a>."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:30
-msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in Mountain View, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
-msgstr "Obuyambi bwona bugenda eli ekitongole kya Mozilla, ekitongole kya 501(c)(3), ekisangibwa mu Mountain View, California, okukozesebwa mungeri gy'esalawo okukola ebitaza magoba. Mu Amerika bujibwako omusolo ku kikomo ekiyinzibwa amateka."
+msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in San Francisco, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
+msgstr ""
 
 #: donate/templates/fragments/language_switcher.html:10
 #: donate/templates/pages/core/contributor_support_page_master.html:50
@@ -229,7 +228,7 @@ msgstr "Olukalala"
 msgid "Protect the internet as a global public resource"
 msgstr "Kuuma internet nga ya buli omu"
 
-#: donate/templates/pages/base_page_master.html:84
+#: donate/templates/pages/base_page_master.html:82
 msgid "Join our email list to take action and stay updated!"
 msgstr "Wegatte ku lisiti yaffe eya email okuteka mu nkola n'okusigala mu bumanyi!"
 
@@ -237,7 +236,7 @@ msgstr "Wegatte ku lisiti yaffe eya email okuteka mu nkola n'okusigala mu bumany
 msgid "Enter email address"
 msgstr "Tekamu email"
 
-#: donate/templates/pages/base_page_master.html:88
+#: donate/templates/pages/base_page_master.html:90
 msgid "Sign up"
 msgstr "Weyungeko"
 
@@ -295,7 +294,6 @@ msgstr "Eby'ekyama"
 
 #: donate/templates/pages/base_page_master.html:172
 #, fuzzy, python-format
-#| msgid "Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a %(link_attributes)s>%(site_url)s</a>."
 msgid "Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a %(fomo_link_attributes)s>%(fomo_site_url)s</a>. Most content available under a <a %(cc_link_attributes)s>Creative Commons license</a>."
 msgstr "Mozilla kitongole kya dduniya ekitaza magoba ekyewayo okusa mu busobozi okwasaganya engeri gy'etwenyumigizamu intaneti n'okuzimba enkozesayo ku lw'abuly'omu. Tukyalire ku <a %(link_attributes)s>%(site_url)s</a>."
 
@@ -787,7 +785,6 @@ msgstr "Engeri endala ez'okugaba: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a
 
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:12
 #, fuzzy, python-format
-#| msgid "Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Mozilla."
 msgid "Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Thunderbird. Please read our <a href=\"%(privacy_url)s\">privacy policy here</a>."
 msgstr "Ebikwata ku kusasula kwo bigenda k'olebwako ne <a href=\"%(braintree_url)s\">Braintree</a>, kampuni ya PayPal (ku kaadi za banka) oba <a href=\"%(paypal_url)s\">PayPal</a>, obukakafu bw'obuyambi bwo bujja kutelekebwa Mozilla."
 
@@ -881,6 +878,9 @@ msgstr ""
 msgctxt "Email subject line"
 msgid "I donated to Thunderbird today"
 msgstr "N'agabidde Thunderbird leero"
+
+#~ msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in Mountain View, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
+#~ msgstr "Obuyambi bwona bugenda eli ekitongole kya Mozilla, ekitongole kya 501(c)(3), ekisangibwa mu Mountain View, California, okukozesebwa mungeri gy'esalawo okukola ebitaza magoba. Mu Amerika bujibwako omusolo ku kikomo ekiyinzibwa amateka."
 
 #~ msgid "License"
 #~ msgstr "Layisensi"

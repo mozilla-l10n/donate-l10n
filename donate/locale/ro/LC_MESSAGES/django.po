@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-05 16:22+0000\n"
+"POT-Creation-Date: 2021-04-06 07:15+0000\n"
 "PO-Revision-Date: 2020-08-25 11:01+0000\n"
 "Last-Translator: robbp <robbpaun@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -71,7 +71,7 @@ msgstr "Cod poștal"
 msgid "Country"
 msgstr "Țară"
 
-#: donate/payments/forms.py:131 donate/templates/pages/base_page_master.html:92
+#: donate/payments/forms.py:131 donate/templates/pages/base_page_master.html:87
 #, python-format
 msgid "I’m okay with Mozilla handling my info as explained in this <a href='%(url)s'>Privacy Notice</a>."
 msgstr "Sunt de acord ca Mozilla să îmi gestioneze informațiile, conform explicațiilor din această <a href='%(url)s'>Notificare privind confidențialitatea</a>."
@@ -192,8 +192,8 @@ msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers 
 msgstr "Probleme cu donațiile? Intră pe <a href=\"%(faq_url)s\">Întrebări frecvente</a> și caută răspunsuri la cele mai frecvente întrebări. Tot mai ai probleme? <a href=\"mailto:%(email)s\">Scrie-ne pe e-mail</a>."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:30
-msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in Mountain View, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
-msgstr "Contribuțiile merg către Mozilla Foundation, o organizație constituită în temeiul secțiunii 501(c)(3) a codului fiscal S.U.A., cu sediul în Mountain View, California, de utilizat la libera sa alegere în scopuri caritabile. Sumele sunt deductibile fiscal în S.U.A. în măsura maximă permisă de lege."
+msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in San Francisco, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
+msgstr ""
 
 #: donate/templates/fragments/language_switcher.html:10
 #: donate/templates/pages/core/contributor_support_page_master.html:50
@@ -228,7 +228,7 @@ msgstr "Meniu"
 msgid "Protect the internet as a global public resource"
 msgstr "Protejează internetul ca resursă publică globală"
 
-#: donate/templates/pages/base_page_master.html:84
+#: donate/templates/pages/base_page_master.html:82
 msgid "Join our email list to take action and stay updated!"
 msgstr "Înscrie-te pe lista noastră de corespondență prin e-mail pentru variate acțiuni și ca să te menții la curent!"
 
@@ -236,7 +236,7 @@ msgstr "Înscrie-te pe lista noastră de corespondență prin e-mail pentru vari
 msgid "Enter email address"
 msgstr "Introdu adresa de e-mail"
 
-#: donate/templates/pages/base_page_master.html:88
+#: donate/templates/pages/base_page_master.html:90
 msgid "Sign up"
 msgstr "Înregistrare"
 
@@ -294,7 +294,6 @@ msgstr "Confidențialitate"
 
 #: donate/templates/pages/base_page_master.html:172
 #, fuzzy, python-format
-#| msgid "Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a %(link_attributes)s>%(site_url)s</a>."
 msgid "Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a %(fomo_link_attributes)s>%(fomo_site_url)s</a>. Most content available under a <a %(cc_link_attributes)s>Creative Commons license</a>."
 msgstr "Mozilla este o organizație nonprofit globală dedicată să îți redea controlul asupra experienței online și să modeleze viitorul webului pentru binele public. Vizitează-ne pe <a %(link_attributes)s>%(site_url)s</a>."
 
@@ -528,7 +527,6 @@ msgstr "Cec (prin serviciu poștal)"
 #: donate/templates/pages/core/ways_to_give_page_master.html:90
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:54
 #, fuzzy
-#| msgid "UPDATE March 20, 2020:"
 msgid "UPDATE October 2020:"
 msgstr "ACTUALIZARE 20 martie 2020:"
 
@@ -834,7 +832,6 @@ msgstr ""
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:71
 #, fuzzy
-#| msgid "Please note that we can only accept checks in US dollars drawn on a US bank. Please do <strong>not</strong> send cash."
 msgid "Please also note that MZLA/Thunderbird can <strong>only</strong> accept checks in U.S. dollars drawn on a U.S. bank."
 msgstr "De reținut că putem accepta numai cecuri în dolari americani, trase de o bancă americană. Te rugăm să nu ne trimiți<strong>not</strong> numerar."
 
@@ -883,6 +880,9 @@ msgstr "Am donat azi la @mozthunderbird pentru #freetheinbox. Donați și voi ca
 msgctxt "Email subject line"
 msgid "I donated to Thunderbird today"
 msgstr "Am donat astăzi pentru Thunderbird"
+
+#~ msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in Mountain View, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
+#~ msgstr "Contribuțiile merg către Mozilla Foundation, o organizație constituită în temeiul secțiunii 501(c)(3) a codului fiscal S.U.A., cu sediul în Mountain View, California, de utilizat la libera sa alegere în scopuri caritabile. Sumele sunt deductibile fiscal în S.U.A. în măsura maximă permisă de lege."
 
 #~ msgid "License"
 #~ msgstr "Licență"

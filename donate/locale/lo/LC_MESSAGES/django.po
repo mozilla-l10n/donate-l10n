@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-05 16:22+0000\n"
+"POT-Creation-Date: 2021-04-06 07:15+0000\n"
 "PO-Revision-Date: 2019-12-09 02:19+0000\n"
 "Last-Translator: Saikeo <kavhanxay@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -71,7 +71,7 @@ msgstr "ລະຫັດໄປສະນີ"
 msgid "Country"
 msgstr "ປະເທດ"
 
-#: donate/payments/forms.py:131 donate/templates/pages/base_page_master.html:92
+#: donate/payments/forms.py:131 donate/templates/pages/base_page_master.html:87
 #, python-format
 msgid "I’m okay with Mozilla handling my info as explained in this <a href='%(url)s'>Privacy Notice</a>."
 msgstr "ຂ້ອຍອະນຸຍາດໃຫ້ Mozilla ຮອງຮັບຂໍ້ມູນຂອງຂ້ອຍຕາມທີ່ໄດ້ຮ່າງໄວ້ຢູ່ໃນ <a href='%(url)s'>ນະໂຍບາຍຄວາມເປັນສ່ວນຕົວ</a>."
@@ -192,7 +192,7 @@ msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers 
 msgstr ""
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:30
-msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in Mountain View, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
+msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in San Francisco, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
 msgstr ""
 
 #: donate/templates/fragments/language_switcher.html:10
@@ -228,7 +228,7 @@ msgstr "ເມນູ"
 msgid "Protect the internet as a global public resource"
 msgstr "ປົກປ້ອງອິນເຕີເນັດໃນຖານະທີ່ເປັນຊັບພະຍາກອນສາທາລະນະຂອງຄົນທົ່ວໂລກ"
 
-#: donate/templates/pages/base_page_master.html:84
+#: donate/templates/pages/base_page_master.html:82
 msgid "Join our email list to take action and stay updated!"
 msgstr ""
 
@@ -236,7 +236,7 @@ msgstr ""
 msgid "Enter email address"
 msgstr "ກະລຸນາໃສ່ທີ່ຢູ່ອີເມວ"
 
-#: donate/templates/pages/base_page_master.html:88
+#: donate/templates/pages/base_page_master.html:90
 msgid "Sign up"
 msgstr "ລົງ​ທະ​ບຽນ"
 
@@ -775,8 +775,6 @@ msgstr "ກັບຄືນ"
 #: donate/thunderbird/templates/pages/base_page.html:16
 #: donate/thunderbird/templates/pages/base_page.html:17
 #, fuzzy
-#| msgctxt "Email subject line"
-#| msgid "I donated to Thunderbird today"
 msgctxt "Page title"
 msgid "Give to Thunderbird"
 msgstr "ຂ້ອຍໄດ້ບໍລິຈາກໃຫ້ Thunderbird ໃນມື້ນີ້"
@@ -838,7 +836,6 @@ msgstr ""
 
 #: donate/thunderbird/templates/payment/card.html:6
 #, fuzzy
-#| msgid "Thank you for your generous gift"
 msgid "Thank you in advance for your gift."
 msgstr "ຂອບໃຈສຳລັບຂອງຂັວນອັນບໍລິສຸດຂອງທ່ານ"
 
@@ -867,7 +864,6 @@ msgstr ""
 
 #: donate/thunderbird/templates/payment/thank_you.html:6
 #, fuzzy, python-format
-#| msgid "We’ve emailed you a donation receipt; if it’s missing, please check your junk/spam folders, then contact us at <a href=\"mailto:%(email)s\">%(email)s</a>."
 msgid "We’ve emailed you a donation receipt; if it’s missing, please check your junk/spam folders, then contact us using <a href=\"%(url)s\">this form</a>."
 msgstr "ພວກເຮົາໄດ້ສົ່ງອີເມວໃບຮັບເງິນບໍລິຈາກໃຫ້ທ່ານ; ຖ້າຫາກບໍ່ເຫັນ, ກະລຸນາກວດເບິ່ງໃນໂຟລເດີ junk/spam ຂອງທ່ານ, ຫຼັງຈາກນັ້ນຕິດຕໍ່ພວກເຮົາທີ່ <a href=\"mailto:%(email)s\">%(email)s</a>."
 

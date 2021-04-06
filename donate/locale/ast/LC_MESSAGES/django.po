@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-05 16:22+0000\n"
+"POT-Creation-Date: 2021-04-06 07:15+0000\n"
 "PO-Revision-Date: 2021-02-20 02:01+0000\n"
 "Last-Translator: Enol <enolp@softastur.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -71,7 +71,7 @@ msgstr "Códigu postal"
 msgid "Country"
 msgstr "País"
 
-#: donate/payments/forms.py:131 donate/templates/pages/base_page_master.html:92
+#: donate/payments/forms.py:131 donate/templates/pages/base_page_master.html:87
 #, python-format
 msgid "I’m okay with Mozilla handling my info as explained in this <a href='%(url)s'>Privacy Notice</a>."
 msgstr "Toi d'alcuerdu con que Mozilla remane la mio información como desplica nesti <a href='%(url)s'>avisu de privacidá</a>."
@@ -173,7 +173,6 @@ msgstr "per mes"
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:6
 #, fuzzy, python-format
-#| msgid "Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Mozilla."
 msgid "Mozilla is committed to your privacy; please read our <a href=\"%(privacy_url)s\">privacy policy here</a>. Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Mozilla."
 msgstr "Los detalles del pagu va procesalos <a href=\"%(braintree_url)s\">Braintree</a>, una compaña de PayPal (pa tarxetes de creitu/débitu) o <a href=\"%(paypal_url)s\">PayPal</a> y Mozilla va atroxar un rexistru d'esta donación."
 
@@ -193,7 +192,7 @@ msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers 
 msgstr "¿Problemes al donar? Visita'l nuesu <a href=\"%(faq_url)s\">FAQ</a> pa responder a la mayoría d'entrugues comunes. ¿Entá tienes problemes? <a href=\"mailto:%(email)s\">Unvianos un corréu</a>."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:30
-msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in Mountain View, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
+msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in San Francisco, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
 msgstr ""
 
 #: donate/templates/fragments/language_switcher.html:10
@@ -229,7 +228,7 @@ msgstr "Menú"
 msgid "Protect the internet as a global public resource"
 msgstr ""
 
-#: donate/templates/pages/base_page_master.html:84
+#: donate/templates/pages/base_page_master.html:82
 msgid "Join our email list to take action and stay updated!"
 msgstr ""
 
@@ -237,7 +236,7 @@ msgstr ""
 msgid "Enter email address"
 msgstr ""
 
-#: donate/templates/pages/base_page_master.html:88
+#: donate/templates/pages/base_page_master.html:90
 msgid "Sign up"
 msgstr ""
 
@@ -786,7 +785,6 @@ msgstr "Otres formes de donar: <a href=\"%(wire_transfer_url)s\">APUE (SEPA) / B
 
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:12
 #, fuzzy, python-format
-#| msgid "Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Mozilla."
 msgid "Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Thunderbird. Please read our <a href=\"%(privacy_url)s\">privacy policy here</a>."
 msgstr "Los detalles del pagu va procesalos <a href=\"%(braintree_url)s\">Braintree</a>, una compaña de PayPal (pa tarxetes de creitu/débitu) o <a href=\"%(paypal_url)s\">PayPal</a> y Mozilla va atroxar un rexistru d'esta donación."
 

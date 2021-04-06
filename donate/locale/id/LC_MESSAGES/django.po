@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-05 16:22+0000\n"
+"POT-Creation-Date: 2021-04-06 07:15+0000\n"
 "PO-Revision-Date: 2020-06-12 04:14+0000\n"
 "Last-Translator: Lidya Christina <id.lidya@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -71,7 +71,7 @@ msgstr "Kode Pos"
 msgid "Country"
 msgstr "Negara"
 
-#: donate/payments/forms.py:131 donate/templates/pages/base_page_master.html:92
+#: donate/payments/forms.py:131 donate/templates/pages/base_page_master.html:87
 #, python-format
 msgid "I’m okay with Mozilla handling my info as explained in this <a href='%(url)s'>Privacy Notice</a>."
 msgstr "Saya menyetujui Mozilla untuk menangani data tentang saya seperti yang dijelaskan dalam <a href='%(url)s'>Kebijakan Privasi</a> ini."
@@ -192,8 +192,8 @@ msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers 
 msgstr ""
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:30
-msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in Mountain View, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
-msgstr "Kontribusi ditujukan pada Mozilla Foundation, sebuah organisasi 501(c)(3) berbasis di Mountain View, California, digunakan sesuai kebijakan mereka untuk tujuan amal. Donasi dapat mengurangi pajak di AS hingga batas yang dimungkinkan UU."
+msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in San Francisco, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
+msgstr ""
 
 #: donate/templates/fragments/language_switcher.html:10
 #: donate/templates/pages/core/contributor_support_page_master.html:50
@@ -228,7 +228,7 @@ msgstr "Menu"
 msgid "Protect the internet as a global public resource"
 msgstr "Lindungi internet sebagai sumber daya publik global"
 
-#: donate/templates/pages/base_page_master.html:84
+#: donate/templates/pages/base_page_master.html:82
 msgid "Join our email list to take action and stay updated!"
 msgstr ""
 
@@ -236,7 +236,7 @@ msgstr ""
 msgid "Enter email address"
 msgstr "Masukkan alamat surel"
 
-#: donate/templates/pages/base_page_master.html:88
+#: donate/templates/pages/base_page_master.html:90
 msgid "Sign up"
 msgstr "Daftar"
 
@@ -294,7 +294,6 @@ msgstr "Privasi"
 
 #: donate/templates/pages/base_page_master.html:172
 #, fuzzy, python-format
-#| msgid "Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a %(link_attributes)s>%(site_url)s</a>."
 msgid "Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a %(fomo_link_attributes)s>%(fomo_site_url)s</a>. Most content available under a <a %(cc_link_attributes)s>Creative Commons license</a>."
 msgstr "Mozilla adalah organisasi nirlaba global yang berdedikasi untuk menempatkan Anda dalam kendali pengalaman daring Anda dan membentuk masa depan web untuk kebaikan semua. Kunjungi kami di <a%(link_attributes)s>%(site_url)s</a>."
 
@@ -879,6 +878,9 @@ msgstr "Saya telah berdonasi ke @mozthunderbird untuk #freetheinbox. Bergabungla
 msgctxt "Email subject line"
 msgid "I donated to Thunderbird today"
 msgstr ""
+
+#~ msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in Mountain View, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
+#~ msgstr "Kontribusi ditujukan pada Mozilla Foundation, sebuah organisasi 501(c)(3) berbasis di Mountain View, California, digunakan sesuai kebijakan mereka untuk tujuan amal. Donasi dapat mengurangi pajak di AS hingga batas yang dimungkinkan UU."
 
 #~ msgid "License"
 #~ msgstr "Lisensi"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-05 16:22+0000\n"
+"POT-Creation-Date: 2021-04-06 07:15+0000\n"
 "PO-Revision-Date: 2019-11-06 14:06+0000\n"
 "Last-Translator: Théo Chevalier <theo.chevalier11@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -71,7 +71,7 @@ msgstr "पिनकोड"
 msgid "Country"
 msgstr "देश"
 
-#: donate/payments/forms.py:131 donate/templates/pages/base_page_master.html:92
+#: donate/payments/forms.py:131 donate/templates/pages/base_page_master.html:87
 #, python-format
 msgid "I’m okay with Mozilla handling my info as explained in this <a href='%(url)s'>Privacy Notice</a>."
 msgstr "<a href='%(url)s'>ह्या गोपनियता सुचनेमध्ये</a> सांगितल्या प्रमाणे Mozilla ने माझी माहिती हाताळण्याबाबत माझी हरकत नाही."
@@ -173,7 +173,6 @@ msgstr "दरमहा"
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:6
 #, fuzzy, python-format
-#| msgid "Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a> (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Mozilla."
 msgid "Mozilla is committed to your privacy; please read our <a href=\"%(privacy_url)s\">privacy policy here</a>. Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Mozilla."
 msgstr "आपल्या देय तपशीलांवर (क्रेडिट / डेबिट कार्डसाठी) <a href=\"%(braintree_url)s\">Braintree</a> किंवा <a href=\"%(paypal_url)s\">PayPal</a> द्वारे प्रक्रिया केली जाईल, आणि आपल्या देणगीची नोंद Mozilla द्वारे संग्रहित केली जाईल."
 
@@ -184,7 +183,6 @@ msgstr "आपण आज दान करता त्याच दिवशी 
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:17
 #, fuzzy, python-format
-#| msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">Wire Transfer or SEPA</a> | <a href=\"%(check_url)s\">Check</a> | <a href=\"%(bitcoin_url)s\">Bitcoin</a>"
 msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a> | <a href=\"%(bitcoin_url)s\">Bitcoin</a>"
 msgstr "देण्याचे अन्य मार्गः <a href=\"%(wire_transfer_url)s\">वायर ट्रान्सफर किंवा SEPA</a> | <a href=\"%(check_url)s\">तपासा</a> | <a href=\"%(bitcoin_url)s\">Bitcoin</a>"
 
@@ -194,8 +192,8 @@ msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers 
 msgstr "देणगी देण्यात समस्या? बर्‍याच सामान्य प्रश्नांच्या उत्तरांसाठी आमच्या <a href=\"%(faq_url)s\">FAQ</a> वर भेट द्या. अद्याप समस्या आहे? <a href=\"mailto:%(email)s\">आम्हाला ईमेल पाठवा</a>."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:30
-msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in Mountain View, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
-msgstr "देणग्या माउंटन व्ह्यू, कॅलिफोर्निया येथे स्थायिक 501(c)(3) Mozilla फाऊंडेशन ला जातात, त्यांच्या समाजसेवेच्या कार्यासाठी, ते यु.एस. मध्ये नियमाप्रमाणे पूर्णतः करपात्र आहेत."
+msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in San Francisco, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
+msgstr ""
 
 #: donate/templates/fragments/language_switcher.html:10
 #: donate/templates/pages/core/contributor_support_page_master.html:50
@@ -230,7 +228,7 @@ msgstr "मेनू"
 msgid "Protect the internet as a global public resource"
 msgstr "जागतिक सार्वजनिक स्रोत म्हणून इंटरनेटचे संरक्षण करा"
 
-#: donate/templates/pages/base_page_master.html:84
+#: donate/templates/pages/base_page_master.html:82
 msgid "Join our email list to take action and stay updated!"
 msgstr "कारवाई करण्यासाठी आणि अद्ययावत रहाण्यासाठी आमच्या ईमेल यादीमध्ये सामील व्हा!"
 
@@ -238,7 +236,7 @@ msgstr "कारवाई करण्यासाठी आणि अद्य
 msgid "Enter email address"
 msgstr "ईमेल पत्ता प्रविष्ट करा"
 
-#: donate/templates/pages/base_page_master.html:88
+#: donate/templates/pages/base_page_master.html:90
 msgid "Sign up"
 msgstr "साइन अप करा"
 
@@ -296,7 +294,6 @@ msgstr "गोपनीयता"
 
 #: donate/templates/pages/base_page_master.html:172
 #, fuzzy, python-format
-#| msgid "Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a %(link_attributes)s>%(site_url)s</a>."
 msgid "Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a %(fomo_link_attributes)s>%(fomo_site_url)s</a>. Most content available under a <a %(cc_link_attributes)s>Creative Commons license</a>."
 msgstr "आपला ऑनलाईन अनुभव आपल्या ताब्यात देणे व लोकांच्या भल्यासाठी वेब चे भविष्य घडविण्यासाठी समर्पित Mozilla ही एक वैश्विक विना-नफा संस्था आहे. आम्हाला भेट द्या <a %(link_attributes)s>%(site_url)s</a>."
 
@@ -635,13 +632,11 @@ msgstr ""
 
 #: donate/templates/payment/card_master.html:128
 #, fuzzy
-#| msgid "I authorize Mozilla Foundation to charge my card in the amount shown above and to continue doing so each month until I cancel."
 msgid "I authorize Mozilla Foundation to charge my card in the amount indicated above. I understand that I may only request a refund within 15 days from the date of the donation."
 msgstr "मी वर दर्शविलेल्या रकमेवर माझे कार्ड आकारण्यासाठी आणि मी रद्द करेपर्यंत दरमहा असे करणे सुरू ठेवण्यासाठी Mozilla फाऊंडेशनला अधिकृत करतो."
 
 #: donate/templates/payment/card_master.html:144
 #, fuzzy, python-format
-#| msgid "Donate <span class=\"%(span_class)s\">%(formatted_amount)s</span>"
 msgid "Donate <span class=\"%(span_class)s\">%(formatted_amount)s</span> per month"
 msgstr "<span class=\"%(span_class)s\">%(formatted_amount)s</span> चे दान करा"
 
@@ -680,7 +675,6 @@ msgstr "होय, मी देईन:"
 
 #: donate/templates/payment/card_upsell_master.html:40
 #, fuzzy
-#| msgid "/ Monthly"
 msgid "Monthly"
 msgstr "/ दरमहा"
 
@@ -691,7 +685,6 @@ msgstr ""
 
 #: donate/templates/payment/card_upsell_master.html:53
 #, fuzzy
-#| msgid "/ Monthly"
 msgid "Donate Monthly"
 msgstr "/ दरमहा"
 
@@ -785,33 +778,27 @@ msgstr "मागे"
 #: donate/thunderbird/templates/pages/base_page.html:16
 #: donate/thunderbird/templates/pages/base_page.html:17
 #, fuzzy
-#| msgctxt "Email subject line"
-#| msgid "I donated to Thunderbird today"
 msgctxt "Page title"
 msgid "Give to Thunderbird"
 msgstr "मी आज Thunderbird ला देणगी दिली"
 
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:7
 #, fuzzy, python-format
-#| msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">Wire Transfer or SEPA</a> | <a href=\"%(check_url)s\">Check</a>"
 msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a>"
 msgstr "देण्याचे अन्य मार्गः <a href=\"%(wire_transfer_url)s\">वायर ट्रान्सफर किंवा SEPA</a> | <a href=\"%(check_url)s\">तपासा</a>"
 
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:12
 #, fuzzy, python-format
-#| msgid "Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a> (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Mozilla."
 msgid "Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Thunderbird. Please read our <a href=\"%(privacy_url)s\">privacy policy here</a>."
 msgstr "आपल्या देय तपशीलांवर (क्रेडिट / डेबिट कार्डसाठी) <a href=\"%(braintree_url)s\">Braintree</a> किंवा <a href=\"%(paypal_url)s\">PayPal</a> द्वारे प्रक्रिया केली जाईल, आणि आपल्या देणगीची नोंद Mozilla द्वारे संग्रहित केली जाईल."
 
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:15
 #, fuzzy, python-format
-#| msgid "Monthly donations are charged each month on the same day that you donate today, and will continue until you cancel. To cancel, email us at <a href=\"mailto:%(email)s\">%(email)s</a>."
 msgid "Monthly donations are charged each month on the same day that you donate today, and will continue until you cancel. To cancel, fill out <a href=\"%(help_url)s\">this form</a>."
 msgstr "आपण आज दान करता त्याच दिवशी दरमहा देणग्या आकारल्या जातात आणि आपण रद्द करेपर्यंत चालूच राहतील. रद्द करण्यासाठी, आम्हाला <a href=\"mailto:%(email)s\">%(email)s</a> वर ईमेल करा."
 
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:21
 #, fuzzy, python-format
-#| msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"mailto:%(email)s\">Send us an email</a>."
 msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"%(help_url)s\">Contact us</a>."
 msgstr "देणगी देण्यात समस्या? बर्‍याच सामान्य प्रश्नांच्या उत्तरांसाठी आमच्या <a href=\"%(faq_url)s\">FAQ</a> वर भेट द्या. अद्याप समस्या आहे? <a href=\"mailto:%(email)s\">आम्हाला ईमेल पाठवा</a>."
 
@@ -852,7 +839,6 @@ msgstr ""
 
 #: donate/thunderbird/templates/payment/card.html:6
 #, fuzzy
-#| msgid "Thank you for your generous gift"
 msgid "Thank you in advance for your gift."
 msgstr "आपल्या उदार भेटीसाठी धन्यवाद"
 
@@ -863,14 +849,12 @@ msgstr ""
 
 #: donate/thunderbird/templates/payment/card.html:14
 #, fuzzy
-#| msgid "I authorize Mozilla Foundation to charge my card in the amount shown above and to continue doing so each month until I cancel."
 msgid "I authorize MZLA Technologies Corporation to charge my card in the amount indicated above. I understand that I may only request a refund within 15 days from the date of the donation."
 msgstr "मी वर दर्शविलेल्या रकमेवर माझे कार्ड आकारण्यासाठी आणि मी रद्द करेपर्यंत दरमहा असे करणे सुरू ठेवण्यासाठी Mozilla फाऊंडेशनला अधिकृत करतो."
 
 #: donate/thunderbird/templates/payment/card_upsell.html:6
 #: donate/thunderbird/templates/payment/paypal_upsell.html:6
 #, fuzzy
-#| msgid "We’d love to have you as a sustaining supporter of Mozilla. <b>Could you add a monthly donation starting next month?</b>"
 msgid "We’d love to have you as a sustaining supporter of Thunderbird. <b>Could you add a monthly donation starting next month?</b>"
 msgstr "आम्हास आपण Mozilla चे नेहमीचे समर्थक असणे आवडेल. <b>आपण पुढील महिन्यापासून मासिक देणगी द्याल का?</b>"
 
@@ -885,13 +869,11 @@ msgstr ""
 
 #: donate/thunderbird/templates/payment/thank_you.html:6
 #, fuzzy, python-format
-#| msgid "We’ve emailed you a donation receipt; if it’s missing, please check your junk/spam folders, then contact us at <a href=\"mailto:%(email)s\">%(email)s</a>."
 msgid "We’ve emailed you a donation receipt; if it’s missing, please check your junk/spam folders, then contact us using <a href=\"%(url)s\">this form</a>."
 msgstr "आम्ही आपल्याला देणगीची पावती ईमेल केली आहे; हरवले असल्यास, कृपया आपले जंक / स्पॅम फोल्डर्स तपासा, नंतर <a href=\"mailto:%(email)s\">%(email)s</a> येथे आमच्याशी संपर्क साधा."
 
 #: donate/thunderbird/templates/payment/thank_you.html:7
 #, fuzzy
-#| msgid "Lastly, can you multiply your impact by sharing about the important work Mozilla is doing? Thank you again!"
 msgid "Lastly, can you multiply your impact by sharing about the important work Thunderbird is doing? Thank you again!"
 msgstr "अंततः, आपण मोझीला करत असलेल्या महत्त्वपूर्ण कार्याबद्दल शेअर करून आपला प्रभाव वाढवू शकता का? पुन्हा धन्यवाद!"
 
@@ -904,6 +886,9 @@ msgstr "मी आज #freetheinbox ला @mozthunderbird ला देणग�
 msgctxt "Email subject line"
 msgid "I donated to Thunderbird today"
 msgstr "मी आज Thunderbird ला देणगी दिली"
+
+#~ msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in Mountain View, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
+#~ msgstr "देणग्या माउंटन व्ह्यू, कॅलिफोर्निया येथे स्थायिक 501(c)(3) Mozilla फाऊंडेशन ला जातात, त्यांच्या समाजसेवेच्या कार्यासाठी, ते यु.एस. मध्ये नियमाप्रमाणे पूर्णतः करपात्र आहेत."
 
 #~ msgid "License"
 #~ msgstr "परवाना"

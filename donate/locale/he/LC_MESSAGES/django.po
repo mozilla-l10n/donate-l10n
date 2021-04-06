@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-05 16:22+0000\n"
+"POT-Creation-Date: 2021-04-06 07:15+0000\n"
 "PO-Revision-Date: 2020-11-24 13:31+0000\n"
 "Last-Translator: Itiel <itiel_yn8@walla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -71,7 +71,7 @@ msgstr "מיקוד"
 msgid "Country"
 msgstr "מדינה"
 
-#: donate/payments/forms.py:131 donate/templates/pages/base_page_master.html:92
+#: donate/payments/forms.py:131 donate/templates/pages/base_page_master.html:87
 #, python-format
 msgid "I’m okay with Mozilla handling my info as explained in this <a href='%(url)s'>Privacy Notice</a>."
 msgstr "מקובלת עלי הדרך בה Mozilla מטפלת במידע שלי כפי שמוסבר ב<a href='%(url)s'>הצהרת פרטיות</a> זו."
@@ -192,8 +192,8 @@ msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers 
 msgstr "בעיות בתרומה? ניתן לבקר ב<a href=\"%(faq_url)s\">שו״ת</a> שלנו לתשובות על שאלות נפוצות. עדיין יש בעיות? <a href=\"mailto:%(email)s\">ניתן לשלוח לנו דוא״ל</a>."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:30
-msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in Mountain View, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
-msgstr "תרומות לקרן Mozilla, ארגון 501(c)(3) הממוקם במאונטיין ויו שבקליפורניה, ישמשו למטרות צדקה על פי שיקול דעתה של הקרן. תרומות אלו הן פטורות ממס בארה״ב במידה המרבית המותרת בחוק."
+msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in San Francisco, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
+msgstr ""
 
 #: donate/templates/fragments/language_switcher.html:10
 #: donate/templates/pages/core/contributor_support_page_master.html:50
@@ -228,7 +228,7 @@ msgstr "תפריט"
 msgid "Protect the internet as a global public resource"
 msgstr "הגנה על האינטרנט כמשאב ציבורי גלובלי"
 
-#: donate/templates/pages/base_page_master.html:84
+#: donate/templates/pages/base_page_master.html:82
 msgid "Join our email list to take action and stay updated!"
 msgstr ""
 
@@ -236,7 +236,7 @@ msgstr ""
 msgid "Enter email address"
 msgstr "נא להקליד כתובת דוא״ל"
 
-#: donate/templates/pages/base_page_master.html:88
+#: donate/templates/pages/base_page_master.html:90
 msgid "Sign up"
 msgstr "הרשמה"
 
@@ -775,8 +775,6 @@ msgstr "חזרה"
 #: donate/thunderbird/templates/pages/base_page.html:16
 #: donate/thunderbird/templates/pages/base_page.html:17
 #, fuzzy
-#| msgctxt "Email subject line"
-#| msgid "I donated to Thunderbird today"
 msgctxt "Page title"
 msgid "Give to Thunderbird"
 msgstr "תרמתי ל־Thunderbird היום"
@@ -838,7 +836,6 @@ msgstr ""
 
 #: donate/thunderbird/templates/payment/card.html:6
 #, fuzzy
-#| msgid "Thank you for your generous gift"
 msgid "Thank you in advance for your gift."
 msgstr "תודה לך על המתנה הנדיבה שלך"
 
@@ -883,6 +880,9 @@ msgstr ""
 msgctxt "Email subject line"
 msgid "I donated to Thunderbird today"
 msgstr "תרמתי ל־Thunderbird היום"
+
+#~ msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in Mountain View, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
+#~ msgstr "תרומות לקרן Mozilla, ארגון 501(c)(3) הממוקם במאונטיין ויו שבקליפורניה, ישמשו למטרות צדקה על פי שיקול דעתה של הקרן. תרומות אלו הן פטורות ממס בארה״ב במידה המרבית המותרת בחוק."
 
 #~ msgid "License"
 #~ msgstr "רישיון"

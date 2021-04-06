@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-05 16:22+0000\n"
+"POT-Creation-Date: 2021-04-06 07:15+0000\n"
 "PO-Revision-Date: 2020-06-19 16:59+0000\n"
 "Last-Translator: Ritesh Raj <ritesh07raj@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -71,7 +71,7 @@ msgstr "ZIP कोड"
 msgid "Country"
 msgstr "देश"
 
-#: donate/payments/forms.py:131 donate/templates/pages/base_page_master.html:92
+#: donate/payments/forms.py:131 donate/templates/pages/base_page_master.html:87
 #, python-format
 msgid "I’m okay with Mozilla handling my info as explained in this <a href='%(url)s'>Privacy Notice</a>."
 msgstr "इस <a href='%(url)s'>गोपनीयता निति</a> में बताए अनुसार Mozilla द्वारा मेरी जानकारियों के रखे जाने से मुझे कोई आपत्ति नहीं है।"
@@ -192,8 +192,8 @@ msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers 
 msgstr "दान से जुड़ी कोई समस्या है? तो हमारे <a href=\"%(faq_url)s\">FAQ</a> पर जाकर इससे जुड़े कुछ सामान्य सवालों के उत्तर पाएं। अभी भी कोई समस्या है? <a href=\"mailto:%(email)s\">हमें एक ईमेल भेजें</a>।"
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:30
-msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in Mountain View, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
-msgstr "योगदान माउंटेन व्यू, कैलिफ़ोर्निया स्थित एक 501 (c) (3) संगठन Mozilla Foundation में जाते हैं, जिसका उपयोग अपने धर्मार्थ उद्देश्यों के लिए अपने विवेक में किया जाता है। वे अमेरिका में कानून द्वारा अनुमत पूर्ण सीमा तक कर-कटौती योग्य हैं।"
+msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in San Francisco, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
+msgstr ""
 
 #: donate/templates/fragments/language_switcher.html:10
 #: donate/templates/pages/core/contributor_support_page_master.html:50
@@ -228,7 +228,7 @@ msgstr "मेन्यू"
 msgid "Protect the internet as a global public resource"
 msgstr "एक वैश्विक सार्वजनिक संसाधन के रूप में इंटरनेट की रक्षा करें"
 
-#: donate/templates/pages/base_page_master.html:84
+#: donate/templates/pages/base_page_master.html:82
 msgid "Join our email list to take action and stay updated!"
 msgstr "करवाई करने और सूचित रहने के लिए हमारे ईमेल लिस्ट से जुड़ें!"
 
@@ -236,7 +236,7 @@ msgstr "करवाई करने और सूचित रहने के 
 msgid "Enter email address"
 msgstr "ईमेल पता दर्ज करें"
 
-#: donate/templates/pages/base_page_master.html:88
+#: donate/templates/pages/base_page_master.html:90
 msgid "Sign up"
 msgstr "साइन अप"
 
@@ -790,13 +790,11 @@ msgstr ""
 
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:15
 #, fuzzy, python-format
-#| msgid "Monthly donations are charged each month on the same day that you donate today, and will continue until you cancel. To cancel, email us at <a href=\"mailto:%(email)s\">%(email)s</a>."
 msgid "Monthly donations are charged each month on the same day that you donate today, and will continue until you cancel. To cancel, fill out <a href=\"%(help_url)s\">this form</a>."
 msgstr "मासिक दान का भुगतान प्रति माह उसी दिन पर लिया जाता है, जिस दिन पर आपने आज दान किया है और आपके रद्द करने तक यह सिलसिला चलता रहता है। रद्द करने के लिए, <a href=\"mailto:%(email)s\"> %(email)s </a> पर हमें ईमेल करें।"
 
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:21
 #, fuzzy, python-format
-#| msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"mailto:%(email)s\">Send us an email</a>."
 msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"%(help_url)s\">Contact us</a>."
 msgstr "दान से जुड़ी कोई समस्या है? तो हमारे <a href=\"%(faq_url)s\">FAQ</a> पर जाकर इससे जुड़े कुछ सामान्य सवालों के उत्तर पाएं। अभी भी कोई समस्या है? <a href=\"mailto:%(email)s\">हमें एक ईमेल भेजें</a>।"
 
@@ -880,6 +878,9 @@ msgstr ""
 msgctxt "Email subject line"
 msgid "I donated to Thunderbird today"
 msgstr ""
+
+#~ msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in Mountain View, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
+#~ msgstr "योगदान माउंटेन व्यू, कैलिफ़ोर्निया स्थित एक 501 (c) (3) संगठन Mozilla Foundation में जाते हैं, जिसका उपयोग अपने धर्मार्थ उद्देश्यों के लिए अपने विवेक में किया जाता है। वे अमेरिका में कानून द्वारा अनुमत पूर्ण सीमा तक कर-कटौती योग्य हैं।"
 
 #~ msgid "License"
 #~ msgstr "लाइसेंस"
