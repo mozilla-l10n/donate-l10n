@@ -191,8 +191,6 @@ msgid ""
 "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in San Francisco, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S."
 " to the fullest extent permitted by law."
 msgstr ""
-"Mae cyfraniadau'n mynd i'r Mozilla Foundation, sefydliad 501(c)(3) wedi'i leoli yn Mountain View, California, i'w ddefnyddio yn ôl ei ddisgresiwn at ei ddibenion elusennol. Maent yn ddidynadwy o ran"
-" treth yn yr Unol Daleithiau i'r graddau eithaf y mae'n cael ei ganiatáu gan y gyfraith."
 
 #: donate/templates/fragments/language_switcher.html:10 donate/templates/pages/core/contributor_support_page_master.html:50
 msgid "Language"
