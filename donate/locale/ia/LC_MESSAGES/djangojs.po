@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-06 07:15+0000\n"
+"POT-Creation-Date: 2021-04-09 17:15+0000\n"
 "PO-Revision-Date: 2020-12-01 21:02+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: \n"
@@ -17,15 +17,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
-
-#: donate/frontend/_js/main.compiled.js:16 maintenance/static/_js/main.js:16
-#: source/js/components/currency-selector.js:91
-msgid "per month"
-msgstr "cata mense"
-
-#: donate/frontend/_js/main.compiled.js:16 maintenance/static/_js/main.js:16
-msgid "Other amount"
-msgstr "Altere amonta"
 
 #: donate/frontend/_js/payments-card.compiled.js:1
 #: donate/frontend/_js/payments-paypal-upsell.compiled.js:1
@@ -51,3 +42,12 @@ msgstr "Parte del campos infra non es valide. Corrige le campos non valide e rep
 #: source/js/components/paypal.js:94
 msgid "Payment cancelled"
 msgstr "Pagamento cancellate"
+
+#: maintenance/static/_js/main.js:16
+#: source/js/components/currency-selector.js:91
+msgid "per month"
+msgstr "cata mense"
+
+#: maintenance/static/_js/main.js:16
+msgid "Other amount"
+msgstr "Altere amonta"

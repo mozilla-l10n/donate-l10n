@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-06 07:15+0000\n"
+"POT-Creation-Date: 2021-04-09 17:15+0000\n"
 "PO-Revision-Date: 2020-12-24 17:58+0000\n"
 "Last-Translator: వీవెన్ <veeven@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -146,28 +146,33 @@ msgstr "నెలసరి"
 
 #: donate/templates/fragments/donate_form.html:41
 #: donate/templates/fragments/donate_form.html:42
-#: donate/templates/fragments/donate_form.html:105
-#: donate/templates/fragments/donate_form.html:106
+#: donate/templates/fragments/donate_form.html:109
+#: donate/templates/fragments/donate_form.html:110
 msgid "Other amount"
 msgstr "ఇతర మొత్తం"
 
-#: donate/templates/fragments/donate_form.html:48
-#: donate/templates/fragments/donate_form.html:112
+#: donate/templates/fragments/donate_form.html:45
+#: donate/templates/fragments/donate_form.html:113
+msgid "Invalid amount entered."
+msgstr ""
+
+#: donate/templates/fragments/donate_form.html:52
+#: donate/templates/fragments/donate_form.html:120
 msgid "Choose Payment"
 msgstr "చెల్లింపును ఎంచుకోండి"
 
-#: donate/templates/fragments/donate_form.html:54
-#: donate/templates/fragments/donate_form.html:118
+#: donate/templates/fragments/donate_form.html:58
+#: donate/templates/fragments/donate_form.html:126
 #: donate/templates/payment/card_master.html:97
 msgid "SECURE"
 msgstr "సురక్షితం"
 
-#: donate/templates/fragments/donate_form.html:60
-#: donate/templates/fragments/donate_form.html:124
+#: donate/templates/fragments/donate_form.html:64
+#: donate/templates/fragments/donate_form.html:132
 msgid "Donate"
 msgstr "విరాళమివ్వండి"
 
-#: donate/templates/fragments/donate_form.html:97
+#: donate/templates/fragments/donate_form.html:101
 msgid "per month"
 msgstr "నెలకి"
 
