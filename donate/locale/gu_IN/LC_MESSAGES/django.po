@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-09 17:15+0000\n"
+"POT-Creation-Date: 2021-04-29 07:43+0000\n"
 "PO-Revision-Date: 2020-09-04 19:19+0000\n"
 "Last-Translator: Hariom Panchal <hariompanchal6647@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -50,7 +50,7 @@ msgid "Last name"
 msgstr "છેલ્લું નામ"
 
 #: donate/payments/forms.py:81 donate/payments/forms.py:123
-#: donate/templates/pages/core/contributor_support_page_master.html:45
+#: donate/templates/pages/core/contributor_support_page_master.html:49
 msgid "Email"
 msgstr "ઇ-મેલ"
 
@@ -201,7 +201,7 @@ msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization base
 msgstr ""
 
 #: donate/templates/fragments/language_switcher.html:10
-#: donate/templates/pages/core/contributor_support_page_master.html:50
+#: donate/templates/pages/core/contributor_support_page_master.html:54
 msgid "Language"
 msgstr "ભાષા"
 
@@ -334,61 +334,66 @@ msgid "We will get back to you soon."
 msgstr "અમે ટૂંક સમયમાં તમારી પાસે પાછા આવીશું."
 
 #: donate/templates/pages/core/contributor_support_page_master.html:28
-msgid "If you need help with a contribution to MZLA/Thunderbird, fill out this form and a Thunderbird donor care representative will get back to you as soon as possible."
-msgstr "જો તમને MZLA/Thunderbirdમાં ફાળો આપવા માટે સહાયની જરૂર હોય, તો આ ફોર્મ ભરો અને થંડરબર્ડ દાતા સંભાળના પ્રતિનિધિ તમને શક્ય તેટલી વહેલી તકે પાછા મળશે."
+msgid "If you need help with a contribution to MZLA/Thunderbird, please fill out this form and a Thunderbird donor care representative will get back to you as soon as possible."
+msgstr ""
 
-#: donate/templates/pages/core/contributor_support_page_master.html:40
+#: donate/templates/pages/core/contributor_support_page_master.html:32
+#, python-format
+msgid "Unfortunately, donor care representatives are unable to offer support or help with Thunderbird technical issues. For technical support, please visit our <a href=\"%(support_url)s\">support page.</a>"
+msgstr ""
+
+#: donate/templates/pages/core/contributor_support_page_master.html:44
 msgid "Contact Name"
 msgstr "સંપર્ક નામ"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:53
+#: donate/templates/pages/core/contributor_support_page_master.html:57
 msgctxt "Option in 'Language' dropdown"
 msgid "None"
 msgstr "કંઈ નહીં"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:54
+#: donate/templates/pages/core/contributor_support_page_master.html:58
 msgid "English"
 msgstr "English"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:55
+#: donate/templates/pages/core/contributor_support_page_master.html:59
 msgid "French"
 msgstr "French"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:56
+#: donate/templates/pages/core/contributor_support_page_master.html:60
 msgid "German"
 msgstr "German"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:57
+#: donate/templates/pages/core/contributor_support_page_master.html:61
 msgid "Spanish"
 msgstr "Spanish"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:58
+#: donate/templates/pages/core/contributor_support_page_master.html:62
 msgid "Polish"
 msgstr "Polish"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:59
+#: donate/templates/pages/core/contributor_support_page_master.html:63
 msgid "Portuguese"
 msgstr "Portuguese"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:60
+#: donate/templates/pages/core/contributor_support_page_master.html:64
 msgctxt "Option in 'Language' dropdown"
 msgid "Other"
 msgstr "અન્ય"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:66
+#: donate/templates/pages/core/contributor_support_page_master.html:70
 msgid "Subject"
 msgstr "વિષય"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:71
+#: donate/templates/pages/core/contributor_support_page_master.html:75
 msgid "Description"
 msgstr "વર્ણન"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:75
+#: donate/templates/pages/core/contributor_support_page_master.html:79
 #, python-format
 msgid "Mozilla will only use your submitted information for purposes of communicating with you about your request. See our <a href=\"%(privacy_policy)s\">privacy policy</a> for further information."
 msgstr "મોઝિલા ફક્ત તમારી વિનંતી વિશે તમારી સાથે વાતચીત કરવાના હેતુ માટે તમારી સબમિટ કરેલી માહિતીનો ઉપયોગ કરશે. વધુ માહિતી માટે અમારી <a href=\"%(privacy_policy)s\">privacy policy</a> જુઓ."
 
-#: donate/templates/pages/core/contributor_support_page_master.html:77
+#: donate/templates/pages/core/contributor_support_page_master.html:81
 msgid "Submit"
 msgstr "સબમિટ કરો"
 
@@ -885,6 +890,9 @@ msgstr "મેં આજે #freetheinbox માટે @mozthunderbirdને દ
 msgctxt "Email subject line"
 msgid "I donated to Thunderbird today"
 msgstr "મેં આજે Thunderbirdને દાન આપ્યું છે"
+
+#~ msgid "If you need help with a contribution to MZLA/Thunderbird, fill out this form and a Thunderbird donor care representative will get back to you as soon as possible."
+#~ msgstr "જો તમને MZLA/Thunderbirdમાં ફાળો આપવા માટે સહાયની જરૂર હોય, તો આ ફોર્મ ભરો અને થંડરબર્ડ દાતા સંભાળના પ્રતિનિધિ તમને શક્ય તેટલી વહેલી તકે પાછા મળશે."
 
 #~ msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in Mountain View, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
 #~ msgstr "ફાળો Mozilla Foundation, Californiaના Mountain Viewમાં સ્થિત 501(c)(3) સંસ્થા છે, જે તેના સખાવતી હેતુઓ માટેના વિવેકબુદ્ધિમાં ઉપયોગમાં લેવાય છે. તેઓ U.S. માં કાયદા દ્વારા મંજૂર સંપૂર્ણ હદ સુધી કર-કપાતપાત્ર છે."

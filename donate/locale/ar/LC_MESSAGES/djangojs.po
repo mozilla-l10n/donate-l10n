@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-09 17:15+0000\n"
+"POT-Creation-Date: 2021-04-29 07:43+0000\n"
 "PO-Revision-Date: 2020-01-23 16:46+0000\n"
 "Last-Translator: صفا الفليج <safa1996alfulaij@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,6 +18,15 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5);\n"
 "X-Generator: Pontoon\n"
+
+#: donate/frontend/_js/main.compiled.js:16 maintenance/static/_js/main.js:16
+#: source/js/components/currency-selector.js:91
+msgid "per month"
+msgstr "شهريًا"
+
+#: donate/frontend/_js/main.compiled.js:16 maintenance/static/_js/main.js:16
+msgid "Other amount"
+msgstr "مبلغ من عندي"
 
 #: donate/frontend/_js/payments-card.compiled.js:1
 #: donate/frontend/_js/payments-paypal-upsell.compiled.js:1
@@ -43,12 +52,3 @@ msgstr "بعض الحقول في الاستمارة غير صالحة. من فض
 #: source/js/components/paypal.js:94
 msgid "Payment cancelled"
 msgstr "أُلغيت عملية الدفع"
-
-#: maintenance/static/_js/main.js:16
-#: source/js/components/currency-selector.js:91
-msgid "per month"
-msgstr "شهريًا"
-
-#: maintenance/static/_js/main.js:16
-msgid "Other amount"
-msgstr "مبلغ من عندي"

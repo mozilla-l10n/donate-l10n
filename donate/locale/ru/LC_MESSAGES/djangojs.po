@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-09 17:15+0000\n"
+"POT-Creation-Date: 2021-04-29 07:43+0000\n"
 "PO-Revision-Date: 2019-10-09 12:36+0000\n"
 "Last-Translator: Victor Bychek <a@bychek.ru>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,6 +18,15 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pontoon\n"
+
+#: donate/frontend/_js/main.compiled.js:16 maintenance/static/_js/main.js:16
+#: source/js/components/currency-selector.js:91
+msgid "per month"
+msgstr "в месяц"
+
+#: donate/frontend/_js/main.compiled.js:16 maintenance/static/_js/main.js:16
+msgid "Other amount"
+msgstr "Другая сумма"
 
 #: donate/frontend/_js/payments-card.compiled.js:1
 #: donate/frontend/_js/payments-paypal-upsell.compiled.js:1
@@ -43,12 +52,3 @@ msgstr "Некоторые из полей ниже заполнены неве�
 #: source/js/components/paypal.js:94
 msgid "Payment cancelled"
 msgstr "Платёж отменён"
-
-#: maintenance/static/_js/main.js:16
-#: source/js/components/currency-selector.js:91
-msgid "per month"
-msgstr "в месяц"
-
-#: maintenance/static/_js/main.js:16
-msgid "Other amount"
-msgstr "Другая сумма"
