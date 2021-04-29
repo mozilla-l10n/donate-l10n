@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-29 07:43+0000\n"
-"PO-Revision-Date: 2021-04-29 10:35+0000\n"
+"PO-Revision-Date: 2021-04-29 10:37+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fy_NL\n"
@@ -332,6 +332,7 @@ msgstr "As jo help nedich hawwe by in donaasje oan MZLA/Thunderbird, folje dan d
 msgid ""
 "Unfortunately, donor care representatives are unable to offer support or help with Thunderbird technical issues. For technical support, please visit our <a href=\"%(support_url)s\">support page.</a>"
 msgstr ""
+"Spitigernôch kinne fertsjintwurdigers fan donateurssoarch gjin stipe of help biede by technyske problemen mei Thunderbird. Besykje foar technyske stipe ús <a href=\"%(support_url)s\">stipeside.</a>"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:44
 msgid "Contact Name"
