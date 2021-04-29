@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-29 07:43+0000\n"
-"PO-Revision-Date: 2021-04-29 10:40+0000\n"
+"PO-Revision-Date: 2021-04-29 11:14+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: \n"
 "Language: ia\n"
@@ -329,6 +329,8 @@ msgstr "Si tu desira adjuta pro un donation a MZLA/Thunderbird, plena iste modul
 msgid ""
 "Unfortunately, donor care representatives are unable to offer support or help with Thunderbird technical issues. For technical support, please visit our <a href=\"%(support_url)s\">support page.</a>"
 msgstr ""
+"Infortunatemente, le representantes pro le cura de donatores non pote offerer assistentia o adjutar con problemas technic de Thunderbird. Pro assistentia technic, visita nostre <a "
+"href=\"%(support_url)s\">pagina de assistentia.</a>"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:44
 msgid "Contact Name"
