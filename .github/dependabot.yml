@@ -6,7 +6,7 @@ updates:
     interval: weekly
   open-pull-requests-limit: 10
   reviewers:
-  - cadecairos
+  - TheoChevalier
   ignore:
   - dependency-name: django
     versions:
