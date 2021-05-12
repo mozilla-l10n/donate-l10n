@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-29 07:43+0000\n"
+"POT-Creation-Date: 2021-05-12 18:17+0000\n"
 "PO-Revision-Date: 2021-04-10 01:10+0000\n"
 "Last-Translator: Grk <gu0townkg@relay.firefox.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -50,7 +50,7 @@ msgid "Last name"
 msgstr "Soyadı"
 
 #: donate/payments/forms.py:81 donate/payments/forms.py:123
-#: donate/templates/pages/core/contributor_support_page_master.html:49
+#: donate/templates/pages/core/contributor_support_page_master.html:56
 msgid "Email"
 msgstr "E-posta"
 
@@ -192,16 +192,17 @@ msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a 
 msgstr "Diğer bağış yöntemleri: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Çek</a> | <a href=\"%(bitcoin_url)s\">Bitcoin</a>"
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:23
+#: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:21
 #, python-format
-msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"mailto:%(email)s\">Send us an email</a>."
-msgstr "Bağış yapmayla ilgili sorularınız mı var? Sık sorulan sorular için <a href=\"%(faq_url)s\">SSS</a>'ye bakabilirsiniz. Başka bir sorunuz var mı? <a href=\"mailto:%(email)s\">Bize e-posta gönderin</a>."
+msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"%(help_url)s\">Contact us</a>."
+msgstr "Bağış yapmayla ilgili sorularınız mı var? Sık sorulan sorular için <a href=\"%(faq_url)s\">SSS</a>'ye bakabilirsiniz. Başka bir sorun mu yaşıyorsunuz? <a href=\"%(help_url)s\">Bizimle iletişime geçin</a>."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:30
 msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in San Francisco, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
 msgstr ""
 
 #: donate/templates/fragments/language_switcher.html:10
-#: donate/templates/pages/core/contributor_support_page_master.html:54
+#: donate/templates/pages/core/contributor_support_page_master.html:61
 msgid "Language"
 msgstr "Dil"
 
@@ -325,75 +326,70 @@ msgctxt "Header"
 msgid "Donate now"
 msgstr "Şimdi bağış yapın"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:18
+#: donate/templates/pages/core/contributor_support_page_master.html:24
 msgid "Thank you for contacting us. A case has been created for your issue and we will be in touch shortly."
 msgstr "Bizimle iletişime geçtiğiniz için teşekkürler. Sorununuzla ilgili bir kayıt oluşturuldu. Kısa süre içinde sizinle iletişime geçeceğiz."
 
-#: donate/templates/pages/core/contributor_support_page_master.html:24
+#: donate/templates/pages/core/contributor_support_page_master.html:30
 msgid "We will get back to you soon."
 msgstr "Yakında sizinle iletişime geçeceğiz."
 
-#: donate/templates/pages/core/contributor_support_page_master.html:28
-msgid "If you need help with a contribution to MZLA/Thunderbird, please fill out this form and a Thunderbird donor care representative will get back to you as soon as possible."
+#: donate/templates/pages/core/contributor_support_page_master.html:37
+msgid "If you need help with a donation to the Mozilla Foundation, please fill out this form and a donor care representative will get back to you as soon as possible."
 msgstr ""
 
-#: donate/templates/pages/core/contributor_support_page_master.html:32
-#, python-format
-msgid "Unfortunately, donor care representatives are unable to offer support or help with Thunderbird technical issues. For technical support, please visit our <a href=\"%(support_url)s\">support page.</a>"
-msgstr ""
-
-#: donate/templates/pages/core/contributor_support_page_master.html:44
+#: donate/templates/pages/core/contributor_support_page_master.html:51
 msgid "Contact Name"
 msgstr "Adınız"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:57
+#: donate/templates/pages/core/contributor_support_page_master.html:64
 msgctxt "Option in 'Language' dropdown"
 msgid "None"
 msgstr "Hiçbiri"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:58
+#: donate/templates/pages/core/contributor_support_page_master.html:65
 msgid "English"
 msgstr "İngilizce"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:59
+#: donate/templates/pages/core/contributor_support_page_master.html:66
 msgid "French"
 msgstr "Fransızca"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:60
+#: donate/templates/pages/core/contributor_support_page_master.html:67
 msgid "German"
 msgstr "Almanca"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:61
+#: donate/templates/pages/core/contributor_support_page_master.html:68
 msgid "Spanish"
 msgstr "İspanyolca"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:62
+#: donate/templates/pages/core/contributor_support_page_master.html:69
 msgid "Polish"
 msgstr "Lehçe"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:63
+#: donate/templates/pages/core/contributor_support_page_master.html:70
 msgid "Portuguese"
 msgstr "Portekizce"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:64
+#: donate/templates/pages/core/contributor_support_page_master.html:71
 msgctxt "Option in 'Language' dropdown"
 msgid "Other"
 msgstr "Diğer"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:70
+#: donate/templates/pages/core/contributor_support_page_master.html:77
 msgid "Subject"
 msgstr "Konu"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:75
+#: donate/templates/pages/core/contributor_support_page_master.html:82
 msgid "Description"
 msgstr "Açıklama"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:79
+#: donate/templates/pages/core/contributor_support_page_master.html:86
 #, python-format
 msgid "Mozilla will only use your submitted information for purposes of communicating with you about your request. See our <a href=\"%(privacy_policy)s\">privacy policy</a> for further information."
 msgstr "Mozilla, gönderilen bilgilerinizi yalnızca talebiniz hakkında sizinle iletişim kurmak amacıyla kullanacaktır. Daha fazla bilgi için <a href=\"%(privacy_policy)s\">gizlilik politikamıza</a> bakın."
 
-#: donate/templates/pages/core/contributor_support_page_master.html:81
+#: donate/templates/pages/core/contributor_support_page_master.html:88
 msgid "Submit"
 msgstr "Gönder"
 
@@ -803,11 +799,6 @@ msgstr "Ödeme bilgileriniz PayPal şirketi olan <a href=\"%(braintree_url)s\">B
 msgid "Monthly donations are charged each month on the same day that you donate today, and will continue until you cancel. To cancel, fill out <a href=\"%(help_url)s\">this form</a>."
 msgstr "Aylık bağışlar her ayın aynı günü (bugün) çekilir ve iptal edilinceye kadar devam eder. İptal etmek isterseniz <a href=\"%(help_url)s\">bu formu</a> doldurun."
 
-#: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:21
-#, python-format
-msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"%(help_url)s\">Contact us</a>."
-msgstr "Bağış yapmayla ilgili sorularınız mı var? Sık sorulan sorular için <a href=\"%(faq_url)s\">SSS</a>'ye bakabilirsiniz. Başka bir sorun mu yaşıyorsunuz? <a href=\"%(help_url)s\">Bizimle iletişime geçin</a>."
-
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:27
 msgid "Contributions go to MZLA Technologies Corporation, a California corporation wholly owned by the Mozilla Foundation. Funds will be reserved for use in the Thunderbird project. Contributions are not tax-deductible as charitable contributions."
 msgstr "Bağışlarınız, tamamı Mozilla Foundation'a ait olan California merkezli MZLA Technologies Corporation'a gitmektedir. Bağışlar Thunderbird projesinde kullanılmak üzere ayrılır. Bu bağışlar vergiden düşülemez."
@@ -816,6 +807,15 @@ msgstr "Bağışlarınız, tamamı Mozilla Foundation'a ait olan California merk
 #, python-format
 msgid "Portions of this content are ©1998–%(current_year)s by individual contributors. Content available under a <a %(link_attributes)s>Creative Commons license</a>"
 msgstr "©1998–%(current_year)s Bu içeriğin bazı kısımları bireysel gönüllülere aittir. İçerik, <a %(link_attributes)s>Creative Commons lisansı</a> ile sunulmaktadır."
+
+#: donate/thunderbird/templates/pages/core/contributor_support_page.html:6
+msgid "If you need help with a contribution to MZLA/Thunderbird, please fill out this form and a Thunderbird donor care representative will get back to you as soon as possible."
+msgstr ""
+
+#: donate/thunderbird/templates/pages/core/contributor_support_page.html:12
+#, python-format
+msgid "Unfortunately, donor care representatives are unable to offer support or help with Thunderbird technical issues. For technical support, please visit our <a href=\"%(support_url)s\">support page.</a>"
+msgstr ""
 
 #: donate/thunderbird/templates/pages/core/landing_page.html:7
 #, python-format
@@ -888,6 +888,9 @@ msgstr "Bugün @mozthunderbird'e bağış yaptım, gelen kutumu özgür bırakt�
 msgctxt "Email subject line"
 msgid "I donated to Thunderbird today"
 msgstr "Bugün Thunderbird'e bağış yaptım"
+
+#~ msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"mailto:%(email)s\">Send us an email</a>."
+#~ msgstr "Bağış yapmayla ilgili sorularınız mı var? Sık sorulan sorular için <a href=\"%(faq_url)s\">SSS</a>'ye bakabilirsiniz. Başka bir sorunuz var mı? <a href=\"mailto:%(email)s\">Bize e-posta gönderin</a>."
 
 #~ msgid "If you need help with a contribution to MZLA/Thunderbird, fill out this form and a Thunderbird donor care representative will get back to you as soon as possible."
 #~ msgstr "MZLA/Thunderbird'e katkıda bulunmak için yardıma ihtiyacınız varsa bu formu doldurun. Thunderbird bağış hizmeti temsilcisi en kısa sürede size geri dönecektir."

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-29 07:43+0000\n"
+"POT-Creation-Date: 2021-05-12 18:17+0000\n"
 "PO-Revision-Date: 2021-04-11 13:29+0000\n"
 "Last-Translator: Joergen <joergenr@stofanet.dk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -50,7 +50,7 @@ msgid "Last name"
 msgstr "Efternavn"
 
 #: donate/payments/forms.py:81 donate/payments/forms.py:123
-#: donate/templates/pages/core/contributor_support_page_master.html:49
+#: donate/templates/pages/core/contributor_support_page_master.html:56
 msgid "Email"
 msgstr "Mailadresse"
 
@@ -192,16 +192,17 @@ msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a 
 msgstr "Andre måder at give bidrag på: <a href=\"%(wire_transfer_url)s\">Pengeoverførsel eller SEPA</a> | <a href=\"%(check_url)s\">Check</a> | <a href=\"%(bitcoin_url)s\">Bitcoin</a>"
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:23
+#: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:21
 #, python-format
-msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"mailto:%(email)s\">Send us an email</a>."
-msgstr "Problemer med dit bidrag? Se vores <a href=\"%(faq_url)s\">FAQ</a> med svar på de oftest stillede spørgsmål. Stadig problemer? <a href=\"mailto:%(email)s\">Send os en mail</a>."
+msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"%(help_url)s\">Contact us</a>."
+msgstr "Har du problemer med at give et bidrag? Se vores <a href=\"%(faq_url)s\">FAQ</a> med svar på de oftest stillede spørgsmål. Stadig problemer? <a href=\"%(help_url)s\">Kontakt os</a>."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:30
 msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in San Francisco, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
 msgstr "Bidrag går til Mozilla Foundation, en 501(c)(3)-organisation beliggende i San Francisco, Californien og anvendes til deres velgørende formål. Bidrag er fradragsberettigede i USA i henhold til gældende lovgivning."
 
 #: donate/templates/fragments/language_switcher.html:10
-#: donate/templates/pages/core/contributor_support_page_master.html:54
+#: donate/templates/pages/core/contributor_support_page_master.html:61
 msgid "Language"
 msgstr "Sprog"
 
@@ -325,75 +326,70 @@ msgctxt "Header"
 msgid "Donate now"
 msgstr "Giv et bidrag nu"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:18
+#: donate/templates/pages/core/contributor_support_page_master.html:24
 msgid "Thank you for contacting us. A case has been created for your issue and we will be in touch shortly."
 msgstr "Tak fordi du kontaktede os. Vi har oprettet en sag vedrørende dit problem og kontakter dig snarest."
 
-#: donate/templates/pages/core/contributor_support_page_master.html:24
+#: donate/templates/pages/core/contributor_support_page_master.html:30
 msgid "We will get back to you soon."
 msgstr "Vi vil kontakte dig snarest."
 
-#: donate/templates/pages/core/contributor_support_page_master.html:28
-msgid "If you need help with a contribution to MZLA/Thunderbird, please fill out this form and a Thunderbird donor care representative will get back to you as soon as possible."
+#: donate/templates/pages/core/contributor_support_page_master.html:37
+msgid "If you need help with a donation to the Mozilla Foundation, please fill out this form and a donor care representative will get back to you as soon as possible."
 msgstr ""
 
-#: donate/templates/pages/core/contributor_support_page_master.html:32
-#, python-format
-msgid "Unfortunately, donor care representatives are unable to offer support or help with Thunderbird technical issues. For technical support, please visit our <a href=\"%(support_url)s\">support page.</a>"
-msgstr ""
-
-#: donate/templates/pages/core/contributor_support_page_master.html:44
+#: donate/templates/pages/core/contributor_support_page_master.html:51
 msgid "Contact Name"
 msgstr "Kontaktnavn"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:57
+#: donate/templates/pages/core/contributor_support_page_master.html:64
 msgctxt "Option in 'Language' dropdown"
 msgid "None"
 msgstr "Intet"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:58
+#: donate/templates/pages/core/contributor_support_page_master.html:65
 msgid "English"
 msgstr "Engelsk"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:59
+#: donate/templates/pages/core/contributor_support_page_master.html:66
 msgid "French"
 msgstr "Fransk"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:60
+#: donate/templates/pages/core/contributor_support_page_master.html:67
 msgid "German"
 msgstr "Tysk"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:61
+#: donate/templates/pages/core/contributor_support_page_master.html:68
 msgid "Spanish"
 msgstr "Spansk"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:62
+#: donate/templates/pages/core/contributor_support_page_master.html:69
 msgid "Polish"
 msgstr "Polsk"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:63
+#: donate/templates/pages/core/contributor_support_page_master.html:70
 msgid "Portuguese"
 msgstr "Portugisisk"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:64
+#: donate/templates/pages/core/contributor_support_page_master.html:71
 msgctxt "Option in 'Language' dropdown"
 msgid "Other"
 msgstr "Andre"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:70
+#: donate/templates/pages/core/contributor_support_page_master.html:77
 msgid "Subject"
 msgstr "Emne"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:75
+#: donate/templates/pages/core/contributor_support_page_master.html:82
 msgid "Description"
 msgstr "Beskrivelse"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:79
+#: donate/templates/pages/core/contributor_support_page_master.html:86
 #, python-format
 msgid "Mozilla will only use your submitted information for purposes of communicating with you about your request. See our <a href=\"%(privacy_policy)s\">privacy policy</a> for further information."
 msgstr "Mozilla bruger kun dine indsendte oplysninger til at kommunikere med dig om din anmodning. Læs vores <a href=\"%(privacy_policy)s\">privatlivspolitik</a> for yderligere oplysninger."
 
-#: donate/templates/pages/core/contributor_support_page_master.html:81
+#: donate/templates/pages/core/contributor_support_page_master.html:88
 msgid "Submit"
 msgstr "Indsend"
 
@@ -803,11 +799,6 @@ msgstr "Dine betalingsoplysninger vil blive behandlet af <a href=\"%(braintree_u
 msgid "Monthly donations are charged each month on the same day that you donate today, and will continue until you cancel. To cancel, fill out <a href=\"%(help_url)s\">this form</a>."
 msgstr "Månedlige bidrag opkræves hver måned på samme månedsdag som den, du donerer på i dag, og opkrævningerne vil fortsætte, indtil du annullerer betalingen. Hvis du vil annullere dine månedlige bidrag, så udfyld <a href=\"%(help_url)s\">denne formular</a>."
 
-#: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:21
-#, python-format
-msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"%(help_url)s\">Contact us</a>."
-msgstr "Har du problemer med at give et bidrag? Se vores <a href=\"%(faq_url)s\">FAQ</a> med svar på de oftest stillede spørgsmål. Stadig problemer? <a href=\"%(help_url)s\">Kontakt os</a>."
-
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:27
 msgid "Contributions go to MZLA Technologies Corporation, a California corporation wholly owned by the Mozilla Foundation. Funds will be reserved for use in the Thunderbird project. Contributions are not tax-deductible as charitable contributions."
 msgstr "Bidrag går til MZLA Technologies Corporation, et selskab i Californien, der ejes 100%% af Mozilla Foundation. Midlerne vil være reserveret til brug i Thunderbird-projektet. Bidrag er ikke fradragsberettigede som velgørende bidrag."
@@ -816,6 +807,15 @@ msgstr "Bidrag går til MZLA Technologies Corporation, et selskab i Californien,
 #, python-format
 msgid "Portions of this content are ©1998–%(current_year)s by individual contributors. Content available under a <a %(link_attributes)s>Creative Commons license</a>"
 msgstr "Dele af dette indhold er ©1998–%(current_year)s af individuelle bidragsydere. Indholdet er tilgængeligt under en <a %(link_attributes)s>Creative Commons-licens</a>."
+
+#: donate/thunderbird/templates/pages/core/contributor_support_page.html:6
+msgid "If you need help with a contribution to MZLA/Thunderbird, please fill out this form and a Thunderbird donor care representative will get back to you as soon as possible."
+msgstr ""
+
+#: donate/thunderbird/templates/pages/core/contributor_support_page.html:12
+#, python-format
+msgid "Unfortunately, donor care representatives are unable to offer support or help with Thunderbird technical issues. For technical support, please visit our <a href=\"%(support_url)s\">support page.</a>"
+msgstr ""
 
 #: donate/thunderbird/templates/pages/core/landing_page.html:7
 #, python-format
@@ -888,6 +888,9 @@ msgstr "Jeg har givet et bidrag til @mozthunderbird i dag - #freetheinbox. Vær 
 msgctxt "Email subject line"
 msgid "I donated to Thunderbird today"
 msgstr "Jeg gav et bidrag til Thunderbird i dag"
+
+#~ msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"mailto:%(email)s\">Send us an email</a>."
+#~ msgstr "Problemer med dit bidrag? Se vores <a href=\"%(faq_url)s\">FAQ</a> med svar på de oftest stillede spørgsmål. Stadig problemer? <a href=\"mailto:%(email)s\">Send os en mail</a>."
 
 #~ msgid "If you need help with a contribution to MZLA/Thunderbird, fill out this form and a Thunderbird donor care representative will get back to you as soon as possible."
 #~ msgstr "Udfyld denne formular, hvis du har brug for hjælp med et bidrag til MZLA/Thunderbird. Så kontakter vi dig snarest."

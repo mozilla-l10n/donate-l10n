@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-29 07:43+0000\n"
+"POT-Creation-Date: 2021-05-12 18:17+0000\n"
 "PO-Revision-Date: 2021-04-21 14:49+0000\n"
 "Last-Translator: Paulina Rodriguez <pauli.rodriguez.c@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -50,7 +50,7 @@ msgid "Last name"
 msgstr "Apellidos"
 
 #: donate/payments/forms.py:81 donate/payments/forms.py:123
-#: donate/templates/pages/core/contributor_support_page_master.html:49
+#: donate/templates/pages/core/contributor_support_page_master.html:56
 msgid "Email"
 msgstr "Correo electrónico"
 
@@ -192,16 +192,17 @@ msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a 
 msgstr "Otras maneras de dar: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Cheque</a> | <a href=\"%(bitcoin_url)s\">Bitcoin</a>"
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:23
+#: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:21
 #, python-format
-msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"mailto:%(email)s\">Send us an email</a>."
-msgstr "¿Tuviste problemas al donar? Visita nuestras <a href=\"%(faq_url)s\">preguntas frecuentes</a> para que veas la respuesta a las consultas más comunes. ¿Sigues sin poder solucionar tu problema? <a href=\"mailto:%(email)s\">Envíanos un correo electrónico</a>."
+msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"%(help_url)s\">Contact us</a>."
+msgstr "¿Tuviste problemas al donar? Visita nuestras <a href=\"%(faq_url)s\">preguntas frecuentes</a> para ver la respuesta a las consultas más comunes. ¿Sigues sin poder solucionar tu problema? <a href=\"%(help_url)s\">Ponte en contacto</a>."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:30
 msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in San Francisco, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
 msgstr "Las contribuciones se destinan a la Fundación Mozilla, una organización sin fines de lucro conforme al inciso 501(c)(3) del código fiscal de EE. UU., con sede en San Francisco, California, para utilizarlas a su discreción con fines de caridad. Son deducibles de impuestos en EE. UU. hasta donde lo permita la legislación."
 
 #: donate/templates/fragments/language_switcher.html:10
-#: donate/templates/pages/core/contributor_support_page_master.html:54
+#: donate/templates/pages/core/contributor_support_page_master.html:61
 msgid "Language"
 msgstr "Idioma"
 
@@ -325,75 +326,70 @@ msgctxt "Header"
 msgid "Donate now"
 msgstr "Donar ahora"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:18
+#: donate/templates/pages/core/contributor_support_page_master.html:24
 msgid "Thank you for contacting us. A case has been created for your issue and we will be in touch shortly."
 msgstr "Gracias por contactarnos. Se ha creado un caso para tu problema y nos pondremos en contacto en breve."
 
-#: donate/templates/pages/core/contributor_support_page_master.html:24
+#: donate/templates/pages/core/contributor_support_page_master.html:30
 msgid "We will get back to you soon."
 msgstr "Muy pronto nos pondremos en contacto contigo."
 
-#: donate/templates/pages/core/contributor_support_page_master.html:28
-msgid "If you need help with a contribution to MZLA/Thunderbird, please fill out this form and a Thunderbird donor care representative will get back to you as soon as possible."
+#: donate/templates/pages/core/contributor_support_page_master.html:37
+msgid "If you need help with a donation to the Mozilla Foundation, please fill out this form and a donor care representative will get back to you as soon as possible."
 msgstr ""
 
-#: donate/templates/pages/core/contributor_support_page_master.html:32
-#, python-format
-msgid "Unfortunately, donor care representatives are unable to offer support or help with Thunderbird technical issues. For technical support, please visit our <a href=\"%(support_url)s\">support page.</a>"
-msgstr ""
-
-#: donate/templates/pages/core/contributor_support_page_master.html:44
+#: donate/templates/pages/core/contributor_support_page_master.html:51
 msgid "Contact Name"
 msgstr "Nombre del contacto"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:57
+#: donate/templates/pages/core/contributor_support_page_master.html:64
 msgctxt "Option in 'Language' dropdown"
 msgid "None"
 msgstr "Ninguno"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:58
+#: donate/templates/pages/core/contributor_support_page_master.html:65
 msgid "English"
 msgstr "Inglés"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:59
+#: donate/templates/pages/core/contributor_support_page_master.html:66
 msgid "French"
 msgstr "Francés"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:60
+#: donate/templates/pages/core/contributor_support_page_master.html:67
 msgid "German"
 msgstr "Alemán"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:61
+#: donate/templates/pages/core/contributor_support_page_master.html:68
 msgid "Spanish"
 msgstr "Español"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:62
+#: donate/templates/pages/core/contributor_support_page_master.html:69
 msgid "Polish"
 msgstr "Polaco"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:63
+#: donate/templates/pages/core/contributor_support_page_master.html:70
 msgid "Portuguese"
 msgstr "Portugués"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:64
+#: donate/templates/pages/core/contributor_support_page_master.html:71
 msgctxt "Option in 'Language' dropdown"
 msgid "Other"
 msgstr "Otro"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:70
+#: donate/templates/pages/core/contributor_support_page_master.html:77
 msgid "Subject"
 msgstr "Asunto"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:75
+#: donate/templates/pages/core/contributor_support_page_master.html:82
 msgid "Description"
 msgstr "Descripción"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:79
+#: donate/templates/pages/core/contributor_support_page_master.html:86
 #, python-format
 msgid "Mozilla will only use your submitted information for purposes of communicating with you about your request. See our <a href=\"%(privacy_policy)s\">privacy policy</a> for further information."
 msgstr "Mozilla solo utilizará la información que has enviado para comunicarse contigo acerca de tu solicitud. Consulta nuestra <a href=\"%(privacy_policy)s\">política de privacidad</a> si deseas más información."
 
-#: donate/templates/pages/core/contributor_support_page_master.html:81
+#: donate/templates/pages/core/contributor_support_page_master.html:88
 msgid "Submit"
 msgstr "Enviar"
 
@@ -803,11 +799,6 @@ msgstr "Los detalles de tu pago serán procesados por <a href=\"%(braintree_url)
 msgid "Monthly donations are charged each month on the same day that you donate today, and will continue until you cancel. To cancel, fill out <a href=\"%(help_url)s\">this form</a>."
 msgstr "El cargo por las donaciones mensuales se realiza cada mes, el mismo día en que estás donando hoy, y continuará hasta que lo canceles. Para cancelar tus donaciones, rellena <a href=\"%(help_url)s\">este formulario</a>."
 
-#: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:21
-#, python-format
-msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"%(help_url)s\">Contact us</a>."
-msgstr "¿Tuviste problemas al donar? Visita nuestras <a href=\"%(faq_url)s\">preguntas frecuentes</a> para ver la respuesta a las consultas más comunes. ¿Sigues sin poder solucionar tu problema? <a href=\"%(help_url)s\">Ponte en contacto</a>."
-
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:27
 msgid "Contributions go to MZLA Technologies Corporation, a California corporation wholly owned by the Mozilla Foundation. Funds will be reserved for use in the Thunderbird project. Contributions are not tax-deductible as charitable contributions."
 msgstr "Las contribuciones se destinan a MZLA Technologies Corporation, una compañía de California 100 %% propiedad de la Fundación Mozilla. Los fondos se reservarán para utilizarlos en el Proyecto Thunderbird. Las contribuciones no son deducibles de impuestos como donación para beneficencia."
@@ -816,6 +807,15 @@ msgstr "Las contribuciones se destinan a MZLA Technologies Corporation, una comp
 #, python-format
 msgid "Portions of this content are ©1998–%(current_year)s by individual contributors. Content available under a <a %(link_attributes)s>Creative Commons license</a>"
 msgstr "Partes de este contenido son ©1998–%(current_year)s de colaboradores individuales. El contenido está disponible bajo una <a %(link_attributes)s>Licencia Creative Commons</a>"
+
+#: donate/thunderbird/templates/pages/core/contributor_support_page.html:6
+msgid "If you need help with a contribution to MZLA/Thunderbird, please fill out this form and a Thunderbird donor care representative will get back to you as soon as possible."
+msgstr ""
+
+#: donate/thunderbird/templates/pages/core/contributor_support_page.html:12
+#, python-format
+msgid "Unfortunately, donor care representatives are unable to offer support or help with Thunderbird technical issues. For technical support, please visit our <a href=\"%(support_url)s\">support page.</a>"
+msgstr ""
 
 #: donate/thunderbird/templates/pages/core/landing_page.html:7
 #, python-format
@@ -888,6 +888,9 @@ msgstr "Doné a @mozthunderbird hoy para #MiInboxLibre. Hagamos equipo para apoy
 msgctxt "Email subject line"
 msgid "I donated to Thunderbird today"
 msgstr "Doné a Thunderbird hoy"
+
+#~ msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"mailto:%(email)s\">Send us an email</a>."
+#~ msgstr "¿Tuviste problemas al donar? Visita nuestras <a href=\"%(faq_url)s\">preguntas frecuentes</a> para que veas la respuesta a las consultas más comunes. ¿Sigues sin poder solucionar tu problema? <a href=\"mailto:%(email)s\">Envíanos un correo electrónico</a>."
 
 #~ msgid "If you need help with a contribution to MZLA/Thunderbird, fill out this form and a Thunderbird donor care representative will get back to you as soon as possible."
 #~ msgstr "Si necesita ayuda con una contribución a MZLA/Thunderbird, completa este formulario y un representante de atención de donantes de Thunderbird se pondrá en contacto contigo lo antes posible."

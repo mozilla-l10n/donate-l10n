@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-29 07:43+0000\n"
+"POT-Creation-Date: 2021-05-12 18:17+0000\n"
 "PO-Revision-Date: 2020-12-09 00:58+0000\n"
 "Last-Translator: Hyeonseok Shin <hyeonseok@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -50,7 +50,7 @@ msgid "Last name"
 msgstr "성"
 
 #: donate/payments/forms.py:81 donate/payments/forms.py:123
-#: donate/templates/pages/core/contributor_support_page_master.html:49
+#: donate/templates/pages/core/contributor_support_page_master.html:56
 msgid "Email"
 msgstr "이메일"
 
@@ -192,16 +192,17 @@ msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a 
 msgstr "다른 기부 방법: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">수표</a> | <a href=\"%(bitcoin_url)s\">비트코인</a>"
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:23
+#: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:21
 #, python-format
-msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"mailto:%(email)s\">Send us an email</a>."
-msgstr "기부에 문제가 있나요? <a href=\"%(faq_url)s\">FAQ</a>에서 자주 묻는 질문에 대한 답을 찾아 보세요. 여전히 문제가 있다면 <a href=\"mailto:%(email)s\">메일을 보내 주세요</a>."
+msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"%(help_url)s\">Contact us</a>."
+msgstr "기부하는데 문제가 있나요? <a href=\"%(faq_url)s\">FAQ</a>에서 자주 묻는 질문에 대한 답을 찾으세요. 문제가 해결되지 않는다면 <a href=\"%(help_url)s\">문의하기</a>링크로 이동해 주세요."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:30
 msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in San Francisco, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
 msgstr ""
 
 #: donate/templates/fragments/language_switcher.html:10
-#: donate/templates/pages/core/contributor_support_page_master.html:54
+#: donate/templates/pages/core/contributor_support_page_master.html:61
 msgid "Language"
 msgstr "언어"
 
@@ -325,75 +326,70 @@ msgctxt "Header"
 msgid "Donate now"
 msgstr "지금 기부하기"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:18
+#: donate/templates/pages/core/contributor_support_page_master.html:24
 msgid "Thank you for contacting us. A case has been created for your issue and we will be in touch shortly."
 msgstr "연락해 주셔서 감사합니다. 문제에 대한 사건이 생성되었으며 곧 연락을 드리겠습니다."
 
-#: donate/templates/pages/core/contributor_support_page_master.html:24
+#: donate/templates/pages/core/contributor_support_page_master.html:30
 msgid "We will get back to you soon."
 msgstr "곧 다시 연락 드리겠습니다."
 
-#: donate/templates/pages/core/contributor_support_page_master.html:28
-msgid "If you need help with a contribution to MZLA/Thunderbird, please fill out this form and a Thunderbird donor care representative will get back to you as soon as possible."
+#: donate/templates/pages/core/contributor_support_page_master.html:37
+msgid "If you need help with a donation to the Mozilla Foundation, please fill out this form and a donor care representative will get back to you as soon as possible."
 msgstr ""
 
-#: donate/templates/pages/core/contributor_support_page_master.html:32
-#, python-format
-msgid "Unfortunately, donor care representatives are unable to offer support or help with Thunderbird technical issues. For technical support, please visit our <a href=\"%(support_url)s\">support page.</a>"
-msgstr ""
-
-#: donate/templates/pages/core/contributor_support_page_master.html:44
+#: donate/templates/pages/core/contributor_support_page_master.html:51
 msgid "Contact Name"
 msgstr "담당자 이름"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:57
+#: donate/templates/pages/core/contributor_support_page_master.html:64
 msgctxt "Option in 'Language' dropdown"
 msgid "None"
 msgstr "없음"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:58
+#: donate/templates/pages/core/contributor_support_page_master.html:65
 msgid "English"
 msgstr "영어"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:59
+#: donate/templates/pages/core/contributor_support_page_master.html:66
 msgid "French"
 msgstr "프랑스어"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:60
+#: donate/templates/pages/core/contributor_support_page_master.html:67
 msgid "German"
 msgstr "독일어"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:61
+#: donate/templates/pages/core/contributor_support_page_master.html:68
 msgid "Spanish"
 msgstr "스페인어"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:62
+#: donate/templates/pages/core/contributor_support_page_master.html:69
 msgid "Polish"
 msgstr "폴란드어"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:63
+#: donate/templates/pages/core/contributor_support_page_master.html:70
 msgid "Portuguese"
 msgstr "포르투갈어"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:64
+#: donate/templates/pages/core/contributor_support_page_master.html:71
 msgctxt "Option in 'Language' dropdown"
 msgid "Other"
 msgstr "그 외"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:70
+#: donate/templates/pages/core/contributor_support_page_master.html:77
 msgid "Subject"
 msgstr "제목"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:75
+#: donate/templates/pages/core/contributor_support_page_master.html:82
 msgid "Description"
 msgstr "설명"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:79
+#: donate/templates/pages/core/contributor_support_page_master.html:86
 #, python-format
 msgid "Mozilla will only use your submitted information for purposes of communicating with you about your request. See our <a href=\"%(privacy_policy)s\">privacy policy</a> for further information."
 msgstr "Mozilla는 귀하의 요청에 대해 귀하와의 통신용으로만 제출된 정보를 사용합니다. 자세한 내용은 <a href=\"%(privacy_policy)s\">개인 정보 보호 정책</a>을 참조하십시오."
 
-#: donate/templates/pages/core/contributor_support_page_master.html:81
+#: donate/templates/pages/core/contributor_support_page_master.html:88
 msgid "Submit"
 msgstr "제출"
 
@@ -803,11 +799,6 @@ msgstr "결제 세부 정보는 <a href=\"%(braintree_url)s\">Braintree</a>, Pay
 msgid "Monthly donations are charged each month on the same day that you donate today, and will continue until you cancel. To cancel, fill out <a href=\"%(help_url)s\">this form</a>."
 msgstr "월간 기부금은 오늘 기부 한 날에 매달 청구되며 취소 할 때까지 계속됩니다. 취소하려면 <a href=\"%(help_url)s\">이 양식</a>을 작성하세요."
 
-#: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:21
-#, python-format
-msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"%(help_url)s\">Contact us</a>."
-msgstr "기부하는데 문제가 있나요? <a href=\"%(faq_url)s\">FAQ</a>에서 자주 묻는 질문에 대한 답을 찾으세요. 문제가 해결되지 않는다면 <a href=\"%(help_url)s\">문의하기</a>링크로 이동해 주세요."
-
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:27
 msgid "Contributions go to MZLA Technologies Corporation, a California corporation wholly owned by the Mozilla Foundation. Funds will be reserved for use in the Thunderbird project. Contributions are not tax-deductible as charitable contributions."
 msgstr "기부금은 Mozilla 재단이 전액 소유 한 캘리포니아 기업인 MZLA Technologies Corporation에 전달됩니다. 자금은 Thunderbird 프로젝트에서 사용하기 위해 예약됩니다. 기부금은 자선 기부금으로 세금 공제 대상이 아닙니다."
@@ -816,6 +807,15 @@ msgstr "기부금은 Mozilla 재단이 전액 소유 한 캘리포니아 기업�
 #, python-format
 msgid "Portions of this content are ©1998–%(current_year)s by individual contributors. Content available under a <a %(link_attributes)s>Creative Commons license</a>"
 msgstr "©1998 – %(current_year)s 본 문서의 일부는 개별 기여자에게도 권한이 있습니다. <a %(link_attributes)s>크리에이티브 커먼즈 라이선스</a>에 따라 사용할 수 있습니다."
+
+#: donate/thunderbird/templates/pages/core/contributor_support_page.html:6
+msgid "If you need help with a contribution to MZLA/Thunderbird, please fill out this form and a Thunderbird donor care representative will get back to you as soon as possible."
+msgstr ""
+
+#: donate/thunderbird/templates/pages/core/contributor_support_page.html:12
+#, python-format
+msgid "Unfortunately, donor care representatives are unable to offer support or help with Thunderbird technical issues. For technical support, please visit our <a href=\"%(support_url)s\">support page.</a>"
+msgstr ""
 
 #: donate/thunderbird/templates/pages/core/landing_page.html:7
 #, python-format
@@ -889,6 +889,9 @@ msgstr "오늘 @mozthunderbird 에 기부했습니다. 의사 소통 정보 보�
 msgctxt "Email subject line"
 msgid "I donated to Thunderbird today"
 msgstr "오늘 Thunderbird에 기부했습니다."
+
+#~ msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"mailto:%(email)s\">Send us an email</a>."
+#~ msgstr "기부에 문제가 있나요? <a href=\"%(faq_url)s\">FAQ</a>에서 자주 묻는 질문에 대한 답을 찾아 보세요. 여전히 문제가 있다면 <a href=\"mailto:%(email)s\">메일을 보내 주세요</a>."
 
 #~ msgid "If you need help with a contribution to MZLA/Thunderbird, fill out this form and a Thunderbird donor care representative will get back to you as soon as possible."
 #~ msgstr "MZLA/Thunderbird에 대한 도움이 필요한 경우, 이 양식을 작성하면 Thunderbird 기증자 관리 담당자가 최대한 빨리 연락을 드릴 것입니다."
