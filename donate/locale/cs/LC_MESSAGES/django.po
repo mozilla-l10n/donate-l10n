@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-12 18:17+0000\n"
-"PO-Revision-Date: 2021-05-14 12:46+0000\n"
+"PO-Revision-Date: 2021-05-16 13:42+0000\n"
 "Last-Translator: Michal Stanke <mstanke@mozilla.cz>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cs\n"
@@ -324,7 +324,7 @@ msgstr "Brzy se vám ozveme."
 
 #: donate/templates/pages/core/contributor_support_page_master.html:37
 msgid "If you need help with a donation to the Mozilla Foundation, please fill out this form and a donor care representative will get back to you as soon as possible."
-msgstr ""
+msgstr "Pokud potřebujete pomoci se zasláním daru pro Mozilla Foundation, vyplňte tento formulář a zástupce péče Thunderbirdu se vám co nejdříve ozve zpět."
 
 #: donate/templates/pages/core/contributor_support_page_master.html:51
 msgid "Contact Name"
