@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-12 18:17+0000\n"
+"POT-Creation-Date: 2021-05-19 16:41+0000\n"
 "PO-Revision-Date: 2020-09-08 20:14+0000\n"
 "Last-Translator: Akmal <uzbadmin@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -50,7 +50,7 @@ msgid "Last name"
 msgstr "Familiyasi"
 
 #: donate/payments/forms.py:81 donate/payments/forms.py:123
-#: donate/templates/pages/core/contributor_support_page_master.html:56
+#: donate/templates/pages/core/contributor_support_page_master.html:61
 msgid "Email"
 msgstr "Email"
 
@@ -202,7 +202,7 @@ msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization base
 msgstr ""
 
 #: donate/templates/fragments/language_switcher.html:10
-#: donate/templates/pages/core/contributor_support_page_master.html:61
+#: donate/templates/pages/core/contributor_support_page_master.html:66
 msgid "Language"
 msgstr ""
 
@@ -338,58 +338,62 @@ msgstr ""
 msgid "If you need help with a donation to the Mozilla Foundation, please fill out this form and a donor care representative will get back to you as soon as possible."
 msgstr ""
 
-#: donate/templates/pages/core/contributor_support_page_master.html:51
+#: donate/templates/pages/core/contributor_support_page_master.html:42
+msgid "Unfortunately, donor care representatives are unable to offer support or help with Firefox technical issues."
+msgstr ""
+
+#: donate/templates/pages/core/contributor_support_page_master.html:56
 msgid "Contact Name"
 msgstr ""
 
-#: donate/templates/pages/core/contributor_support_page_master.html:64
+#: donate/templates/pages/core/contributor_support_page_master.html:69
 msgctxt "Option in 'Language' dropdown"
 msgid "None"
 msgstr ""
 
-#: donate/templates/pages/core/contributor_support_page_master.html:65
+#: donate/templates/pages/core/contributor_support_page_master.html:70
 msgid "English"
 msgstr ""
 
-#: donate/templates/pages/core/contributor_support_page_master.html:66
+#: donate/templates/pages/core/contributor_support_page_master.html:71
 msgid "French"
 msgstr ""
 
-#: donate/templates/pages/core/contributor_support_page_master.html:67
+#: donate/templates/pages/core/contributor_support_page_master.html:72
 msgid "German"
 msgstr ""
 
-#: donate/templates/pages/core/contributor_support_page_master.html:68
+#: donate/templates/pages/core/contributor_support_page_master.html:73
 msgid "Spanish"
 msgstr ""
 
-#: donate/templates/pages/core/contributor_support_page_master.html:69
+#: donate/templates/pages/core/contributor_support_page_master.html:74
 msgid "Polish"
 msgstr ""
 
-#: donate/templates/pages/core/contributor_support_page_master.html:70
+#: donate/templates/pages/core/contributor_support_page_master.html:75
 msgid "Portuguese"
 msgstr ""
 
-#: donate/templates/pages/core/contributor_support_page_master.html:71
+#: donate/templates/pages/core/contributor_support_page_master.html:76
 msgctxt "Option in 'Language' dropdown"
 msgid "Other"
 msgstr ""
 
-#: donate/templates/pages/core/contributor_support_page_master.html:77
+#: donate/templates/pages/core/contributor_support_page_master.html:82
 msgid "Subject"
 msgstr ""
 
-#: donate/templates/pages/core/contributor_support_page_master.html:82
+#: donate/templates/pages/core/contributor_support_page_master.html:87
 msgid "Description"
 msgstr ""
 
-#: donate/templates/pages/core/contributor_support_page_master.html:86
+#: donate/templates/pages/core/contributor_support_page_master.html:91
 #, python-format
 msgid "Mozilla will only use your submitted information for purposes of communicating with you about your request. See our <a href=\"%(privacy_policy)s\">privacy policy</a> for further information."
 msgstr ""
 
-#: donate/templates/pages/core/contributor_support_page_master.html:88
+#: donate/templates/pages/core/contributor_support_page_master.html:93
 msgid "Submit"
 msgstr ""
 
