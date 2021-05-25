@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-19 16:41+0000\n"
-"PO-Revision-Date: 2021-05-21 21:40+0000\n"
+"PO-Revision-Date: 2021-05-25 19:03+0000\n"
 "Last-Translator: Théo Chevalier <theo.chevalier11@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
@@ -331,7 +331,7 @@ msgstr "Si necesitas ayuda para hacer una donación a la Fundación Mozilla, rel
 
 #: donate/templates/pages/core/contributor_support_page_master.html:42
 msgid "Unfortunately, donor care representatives are unable to offer support or help with Firefox technical issues."
-msgstr ""
+msgstr "Lamentablemente, los responsables de donaciones no pueden ofrecer soporte o ayuda con incidencias técnicas de Firefox."
 
 #: donate/templates/pages/core/contributor_support_page_master.html:56
 msgid "Contact Name"
