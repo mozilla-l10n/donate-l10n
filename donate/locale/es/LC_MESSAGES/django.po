@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-19 16:41+0000\n"
-"PO-Revision-Date: 2021-05-25 19:03+0000\n"
-"Last-Translator: Théo Chevalier <theo.chevalier11@gmail.com>\n"
+"PO-Revision-Date: 2021-06-30 15:22+0000\n"
+"Last-Translator: Paulina Rodriguez <pauli.rodriguez.c@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -741,7 +741,7 @@ msgstr "Doné a @mozilla hoy porque #MeEncantaLaWeb. Hagamos equipo en la lucha 
 #: donate/templates/payment/thank_you_master.html:23
 msgctxt "Email subject line"
 msgid "I donated to Mozilla today"
-msgstr "Doné a Mozilla hoy."
+msgstr "Doné a Mozilla hoy"
 
 #: donate/templates/payment/thank_you_master.html:27 donate/thunderbird/templates/payment/thank_you.html:16
 msgid "Share on Facebook"
@@ -908,7 +908,7 @@ msgstr ""
 
 #: donate/thunderbird/templates/payment/thank_you.html:7
 msgid "Lastly, can you multiply your impact by sharing about the important work Thunderbird is doing? Thank you again!"
-msgstr "Por último, puedes muliplicar el efecto de la importante labor que Thunderbird realiza si la divulgas. ¡De nuevo, gracias!"
+msgstr "Por último, puedes multiplicar el efecto de la importante labor que Thunderbird realiza si la divulgas. ¡De nuevo, gracias!"
 
 #: donate/thunderbird/templates/payment/thank_you.html:11
 msgctxt "Used as a tweet"
