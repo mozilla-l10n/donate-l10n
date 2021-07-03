@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-19 16:41+0000\n"
-"PO-Revision-Date: 2021-06-30 15:22+0000\n"
+"PO-Revision-Date: 2021-07-03 19:00+0000\n"
 "Last-Translator: Paulina Rodriguez <pauli.rodriguez.c@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
@@ -233,11 +233,11 @@ msgstr "Protección de Internet por ser un recurso público mundial"
 
 #: donate/templates/pages/base_page_master.html:82
 msgid "Join our email list to take action and stay updated!"
-msgstr "Únete a nuestra lista de envío de correos para actuar y mantenerte actualizado."
+msgstr "¡Únete a nuestra lista de envío de correos para actuar y mantenerte actualizado!"
 
 #: donate/templates/pages/base_page_master.html:85
 msgid "Enter email address"
-msgstr "Introducir dirección de correo"
+msgstr "Ingresar dirección de correo electrónico"
 
 #: donate/templates/pages/base_page_master.html:90
 msgid "Sign up"
@@ -255,7 +255,7 @@ msgstr ""
 
 #: donate/templates/pages/base_page_master.html:112
 msgid "More about us"
-msgstr "Saber más "
+msgstr "Saber más"
 
 #: donate/templates/pages/base_page_master.html:116 donate/templates/payment/thank_you_master.html:38 donate/thunderbird/templates/pages/base_page.html:38
 #: donate/thunderbird/templates/payment/thank_you.html:27
