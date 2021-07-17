@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-19 16:41+0000\n"
-"PO-Revision-Date: 2021-07-17 15:44+0000\n"
+"PO-Revision-Date: 2021-07-17 20:27+0000\n"
 "Last-Translator: ZiriSut <rgebbid@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -192,6 +192,8 @@ msgid ""
 "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in San Francisco, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S."
 " to the fullest extent permitted by law."
 msgstr ""
+"Tiwsiwin ad ttwa ḥerzent kan i tesbeddit Mozilla, tuddsa 501 (c)(3) i d-yezgan deg San Fransisku, California, daɣen ad tettwaseqdec i uxeddim-nniḍen n uɛawen. Ad ttwakksent seg tebzert di Marikan "
+"akken yella usaḍuf."
 
 #: donate/templates/fragments/language_switcher.html:10 donate/templates/pages/core/contributor_support_page_master.html:66
 msgid "Language"
@@ -319,7 +321,7 @@ msgstr "Ad d-nuɣal ɣur-k akka kra n wussan."
 
 #: donate/templates/pages/core/contributor_support_page_master.html:37
 msgid "If you need help with a donation to the Mozilla Foundation, please fill out this form and a donor care representative will get back to you as soon as possible."
-msgstr ""
+msgstr "Ma teḥwaǧeḍ tallalt i uttekki deg tawsa i tkebbanit Mozilla, ttxil-k·m ččar tiferkit-a sakin albaɛḍ seg ad d-yezzi ɣur-k deg kra n wussan."
 
 #: donate/templates/pages/core/contributor_support_page_master.html:42
 msgid "Unfortunately, donor care representatives are unable to offer support or help with Firefox technical issues."
@@ -793,7 +795,7 @@ msgstr "Kra n yeḥricen n ugbur-agi d ©1998–%(current_year)s sɣur imttekkiy
 
 #: donate/thunderbird/templates/pages/core/contributor_support_page.html:6
 msgid "If you need help with a contribution to MZLA/Thunderbird, please fill out this form and a Thunderbird donor care representative will get back to you as soon as possible."
-msgstr ""
+msgstr "Ma teḥwaǧeḍ tallalt i uttekki deg MZLA/Thunderbird, ttxil-k·m ččar tiferkit-a sakin albaɛḍ seg Thunderbird ad d-yezzi ɣur-k deg kra n wussan."
 
 #: donate/thunderbird/templates/pages/core/contributor_support_page.html:12
 #, python-format
