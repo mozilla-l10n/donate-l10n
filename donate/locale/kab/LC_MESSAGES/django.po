@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-19 16:41+0000\n"
-"PO-Revision-Date: 2021-06-10 08:14+0000\n"
+"PO-Revision-Date: 2021-07-17 15:44+0000\n"
 "Last-Translator: ZiriSut <rgebbid@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -869,7 +869,7 @@ msgstr ""
 
 #: donate/thunderbird/templates/payment/newsletter_signup.html:8
 msgid "We’re working hard to protect your inbox. Sign up to receive email messages concerning Thunderbird, including updates and requests for feedback."
-msgstr ""
+msgstr "Aql-aɣ ad nqeddec ayen nezmer i wakken ad nemmesten tirawt-inek·inem. Jerred i wakken ad d-tremseḍ iznan ɣef Thunderbird, am yisallen akked yiznan d usuter n tikti-inek·inem."
 
 #: donate/thunderbird/templates/payment/thank_you.html:6
 #, python-format
