@@ -6,17 +6,17 @@
 #
 certifi==2019.11.28
     # via requests
-chardet==3.0.4
+charset-normalizer==2.0.3
     # via requests
-django-environ==0.4.5
-    # via -r requirements.in
 django==2.2.24
+    # via -r requirements.in
+django-environ==0.4.5
     # via -r requirements.in
 idna==2.9
     # via requests
 pytz==2019.3
     # via django
-requests==2.25.1
+requests==2.26.0
     # via -r requirements.in
 sqlparse==0.3.0
     # via django
