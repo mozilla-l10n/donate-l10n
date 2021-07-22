@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-19 16:41+0000\n"
+"POT-Creation-Date: 2021-07-22 06:51+0000\n"
 "PO-Revision-Date: 2020-12-08 21:04+0000\n"
 "Last-Translator: Jordi Serratosa <jordis@softcatala.cat>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: donate/core/translation.py:12
+#: donate/core/translation.py:12 donate/payments/forms.py:83
 msgid "This field is required."
 msgstr "Aquest camp és obligatori."
 
@@ -31,80 +31,80 @@ msgstr "Introduïu una xifra."
 msgid "Enter a valid email address."
 msgstr "Introduïu una adreça electrònica vàlida."
 
-#: donate/payments/forms.py:45
+#: donate/payments/forms.py:54
 #, python-format
 msgid "Donations must be %(amount)s or more"
 msgstr "Els donatius han de ser com a mínim de %(amount)s"
 
-#: donate/payments/forms.py:52 donate/payments/forms.py:66
-#: donate/payments/forms.py:113
+#: donate/payments/forms.py:88 donate/payments/forms.py:102
+#: donate/payments/forms.py:150
 msgid "Amount"
 msgstr "Import"
 
-#: donate/payments/forms.py:79
+#: donate/payments/forms.py:115
 msgid "First name"
 msgstr "Nom"
 
-#: donate/payments/forms.py:80
+#: donate/payments/forms.py:116
 msgid "Last name"
 msgstr "Cognoms"
 
-#: donate/payments/forms.py:81 donate/payments/forms.py:123
-#: donate/templates/pages/core/contributor_support_page_master.html:61
+#: donate/payments/forms.py:117 donate/payments/forms.py:160
+#: donate/templates/pages/core/contributor_support_page_master.html:62
 msgid "Email"
 msgstr "Adreça electrònica"
 
-#: donate/payments/forms.py:82
+#: donate/payments/forms.py:118
 msgid "Street"
 msgstr "Carrer"
 
-#: donate/payments/forms.py:83
+#: donate/payments/forms.py:119
 msgid "City"
 msgstr "Ciutat"
 
-#: donate/payments/forms.py:87
+#: donate/payments/forms.py:123
 msgctxt "Feel free to replace with “Postal code” or equivalent"
 msgid "ZIP Code"
 msgstr "Codi postal"
 
-#: donate/payments/forms.py:90
+#: donate/payments/forms.py:127
 msgid "Country"
 msgstr "País"
 
-#: donate/payments/forms.py:131 donate/templates/pages/base_page_master.html:87
+#: donate/payments/forms.py:168
 #, python-format
 msgid "I’m okay with Mozilla handling my info as explained in this <a href='%(url)s'>Privacy Notice</a>."
 msgstr "Accepto que Mozilla gestioni la meva informació en els termes descrits en aquest <a href='%(url)s'>avís de privadesa</a>."
 
-#: donate/payments/views.py:161
+#: donate/payments/views.py:160
 msgid "The type of card you used is not accepted."
 msgstr "Aquest tipus de targeta no s'accepta."
 
-#: donate/payments/views.py:162 donate/payments/views.py:163
+#: donate/payments/views.py:161 donate/payments/views.py:162
 msgid "The CVV code you entered was invalid."
 msgstr "El codi CVV que heu introduït no és vàlid."
 
-#: donate/payments/views.py:164
+#: donate/payments/views.py:163
 msgid "The expiration date you entered was invalid."
 msgstr "La data de venciment que heu introduït no és vàlida."
 
-#: donate/payments/views.py:165
+#: donate/payments/views.py:164
 msgid "The credit card number you entered was invalid."
 msgstr "El número de targeta de crèdit que heu introduït no és vàlid."
 
-#: donate/payments/views.py:174 donate/payments/views.py:175
+#: donate/payments/views.py:173 donate/payments/views.py:174
 msgid "The post code you provided is not valid."
 msgstr "El codi postal que heu indicat no és vàlid."
 
-#: donate/payments/views.py:189
+#: donate/payments/views.py:188
 msgid "Sorry there was an error processing your payment. Please try again later or use a different payment method."
 msgstr "S'ha produït un error en processar el pagament. Torneu-ho a intentar més tard o feu servir un altre mètode de pagament."
 
-#: donate/payments/views.py:383
+#: donate/payments/views.py:384
 msgid "Something went wrong. We were unable to process your payment."
 msgstr "Alguna cosa ha anat malament. No hem pogut processar el pagament."
 
-#: donate/payments/views.py:635 donate/payments/views.py:744
+#: donate/payments/views.py:638 donate/payments/views.py:747
 msgid "Sorry there was an error processing your payment. Please try again later."
 msgstr "S'ha produït un error en processar el pagament. Torneu-ho a intentar més tard."
 
@@ -202,7 +202,7 @@ msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization base
 msgstr ""
 
 #: donate/templates/fragments/language_switcher.html:10
-#: donate/templates/pages/core/contributor_support_page_master.html:66
+#: donate/templates/pages/core/contributor_support_page_master.html:67
 msgid "Language"
 msgstr "Llengua"
 
@@ -226,79 +226,7 @@ msgstr "Què podeu fer"
 msgid "Blog"
 msgstr "Blog"
 
-#: donate/templates/pages/base_page_master.html:51
-msgid "Menu"
-msgstr "Menú"
-
-#: donate/templates/pages/base_page_master.html:76
-msgid "Protect the internet as a global public resource"
-msgstr "Protegiu Internet com a recurs públic global"
-
-#: donate/templates/pages/base_page_master.html:82
-msgid "Join our email list to take action and stay updated!"
-msgstr "Subscriviu-vos a la nostra llista de correu per actuar i estar informat."
-
-#: donate/templates/pages/base_page_master.html:85
-msgid "Enter email address"
-msgstr "Escriviu una adreça electrònica"
-
-#: donate/templates/pages/base_page_master.html:90
-msgid "Sign up"
-msgstr "Registre"
-
-#: donate/templates/pages/base_page_master.html:96
-msgid "Thanks!"
-msgstr "Gràcies!"
-
-#: donate/templates/pages/base_page_master.html:97
-msgid "If you haven’t previously confirmed a subscription to a Mozilla-related newsletter you may have to do so. Please check your inbox or your spam filter for an email from us."
-msgstr "Si anteriorment no heu confirmat la subscripció a algun butlletí de notícies relacionat amb Mozilla, és possible que ho hàgiu de fer. Comproveu la safata d'entrada o el filtre de correu brossa per veure si hi ha algun missatge de Mozilla."
-
-#: donate/templates/pages/base_page_master.html:112
-msgid "More about us"
-msgstr "Més informació sobre nosaltres"
-
-#: donate/templates/pages/base_page_master.html:116
-#: donate/templates/payment/thank_you_master.html:38
-#: donate/thunderbird/templates/pages/base_page.html:38
-#: donate/thunderbird/templates/payment/thank_you.html:27
-msgid "Twitter"
-msgstr "Twitter"
-
-#: donate/templates/pages/base_page_master.html:122
-msgid "Instagram"
-msgstr "Instagram"
-
-#: donate/templates/pages/base_page_master.html:128
-msgid "GitHub"
-msgstr "GitHub"
-
-#: donate/templates/pages/base_page_master.html:139
-#: donate/thunderbird/templates/pages/base_page.html:53
-msgid "Cookies"
-msgstr "Galetes"
-
-#: donate/templates/pages/base_page_master.html:142
-#: donate/thunderbird/templates/pages/base_page.html:56
-msgid "Legal"
-msgstr "Avisos legals"
-
-#: donate/templates/pages/base_page_master.html:145
-#: donate/thunderbird/templates/pages/base_page.html:59
-msgid "Participation Guidelines"
-msgstr "Directrius per a la participació"
-
-#: donate/templates/pages/base_page_master.html:148
-#: donate/thunderbird/templates/pages/base_page.html:62
-msgid "Press Center"
-msgstr ""
-
-#: donate/templates/pages/base_page_master.html:151
-#: donate/thunderbird/templates/pages/base_page.html:65
-msgid "Privacy"
-msgstr "Privadesa"
-
-#: donate/templates/pages/base_page_master.html:172
+#: donate/templates/pages/base_page_master.html:184
 #, fuzzy, python-format
 msgid "Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a %(fomo_link_attributes)s>%(fomo_site_url)s</a>. Most content available under a <a %(cc_link_attributes)s>Creative Commons license</a>."
 msgstr "Mozilla és una organització internacional sense ànim de lucre dedicada a retornar-vos el control de la vostra experiència en línia i a donar forma al futur del web en benefici de tots. Visiteu-nos a <a %(link_attributes)s>%(site_url)s</a>."
@@ -342,58 +270,58 @@ msgstr ""
 msgid "Unfortunately, donor care representatives are unable to offer support or help with Firefox technical issues."
 msgstr ""
 
-#: donate/templates/pages/core/contributor_support_page_master.html:56
+#: donate/templates/pages/core/contributor_support_page_master.html:57
 msgid "Contact Name"
 msgstr "Nom de contacte"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:69
+#: donate/templates/pages/core/contributor_support_page_master.html:70
 msgctxt "Option in 'Language' dropdown"
 msgid "None"
 msgstr "Cap"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:70
+#: donate/templates/pages/core/contributor_support_page_master.html:71
 msgid "English"
 msgstr "anglès"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:71
+#: donate/templates/pages/core/contributor_support_page_master.html:72
 msgid "French"
 msgstr "francès"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:72
+#: donate/templates/pages/core/contributor_support_page_master.html:73
 msgid "German"
 msgstr "alemany"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:73
+#: donate/templates/pages/core/contributor_support_page_master.html:74
 msgid "Spanish"
 msgstr "espanyol"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:74
+#: donate/templates/pages/core/contributor_support_page_master.html:75
 msgid "Polish"
 msgstr "polonès"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:75
+#: donate/templates/pages/core/contributor_support_page_master.html:76
 msgid "Portuguese"
 msgstr "portuguès"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:76
+#: donate/templates/pages/core/contributor_support_page_master.html:77
 msgctxt "Option in 'Language' dropdown"
 msgid "Other"
 msgstr "Altres"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:82
+#: donate/templates/pages/core/contributor_support_page_master.html:83
 msgid "Subject"
 msgstr "Assumpte"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:87
+#: donate/templates/pages/core/contributor_support_page_master.html:88
 msgid "Description"
 msgstr "Descripció"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:91
+#: donate/templates/pages/core/contributor_support_page_master.html:92
 #, python-format
 msgid "Mozilla will only use your submitted information for purposes of communicating with you about your request. See our <a href=\"%(privacy_policy)s\">privacy policy</a> for further information."
 msgstr "Mozilla només utilitzarà la informació que envieu per comunicacions relacionades amb la vostra sol·licitud. Vegeu la nostra <a href=\"%(privacy_policy)s\">política de privadesa</a> per a més informació."
 
-#: donate/templates/pages/core/contributor_support_page_master.html:93
+#: donate/templates/pages/core/contributor_support_page_master.html:94
 msgid "Submit"
 msgstr "Envia"
 
@@ -722,57 +650,60 @@ msgid "No"
 msgstr "No"
 
 #: donate/templates/payment/thank_you_master.html:15
-msgid "Your donation will go right to work protecting the web, keeping it open and available to all."
-msgstr "El vostre donatiu servirà per a protegir el web, mantenint-lo obert i accessible per a tothom."
-
-#: donate/templates/payment/thank_you_master.html:15
+#: donate/thunderbird/templates/payment/thank_you.html:6
 #, python-format
-msgid "We’ve emailed you a donation receipt; if it’s missing, please check your junk/spam folders, then contact us at <a href=\"mailto:%(email)s\">%(email)s</a>."
-msgstr "Us hem enviat per correu electrònic un rebut del donatiu; si no us ha arribat, comproveu la carpeta de correu brossa i poseu-vos en contacte amb nosaltres a <a href=\"mailto:%(email)s\">%(email)s</a>."
+msgid "We’ve emailed you a donation receipt; if it’s missing, please check your junk/spam folders, then contact us using <a href=\"%(url)s\">this form</a>."
+msgstr "Us hem enviat per correu electrònic un rebut del donatiu; si no us ha arribat, comproveu la carpeta de correu brossa i poseu-vos en contacte amb nosaltres amb <a href=\"%(url)s\">aquest formulari</a>."
 
-#: donate/templates/payment/thank_you_master.html:17
+#: donate/templates/payment/thank_you_master.html:16
 msgid "Lastly, can you multiply your impact by sharing about the important work Mozilla is doing? Thank you again!"
 msgstr "Per últim, podeu multiplicar el vostre impacte compartint la important tasca que està fent Mozilla? Gràcies de nou!"
 
-#: donate/templates/payment/thank_you_master.html:22
+#: donate/templates/payment/thank_you_master.html:21
 msgctxt "Used as a tweet"
 msgid "I donated to @mozilla today because I #lovetheweb. Join me and help fight for a better and healthier internet, for all."
 msgstr "He fet un donatiu a @mozilla perquè estimo el web. Ajudeu-nos a lluitar per millorar la salut d'Internet per a tothom. #lovetheweb"
 
-#: donate/templates/payment/thank_you_master.html:23
+#: donate/templates/payment/thank_you_master.html:22
 msgctxt "Email subject line"
 msgid "I donated to Mozilla today"
 msgstr "Avui he fet un donatiu a Mozilla"
 
-#: donate/templates/payment/thank_you_master.html:27
+#: donate/templates/payment/thank_you_master.html:26
 #: donate/thunderbird/templates/payment/thank_you.html:16
 msgid "Share on Facebook"
 msgstr "Comparteix al Facebook"
 
-#: donate/templates/payment/thank_you_master.html:31
+#: donate/templates/payment/thank_you_master.html:30
 #: donate/thunderbird/templates/pages/base_page.html:44
 #: donate/thunderbird/templates/payment/thank_you.html:20
 msgid "Facebook"
 msgstr "Facebook"
 
-#: donate/templates/payment/thank_you_master.html:34
+#: donate/templates/payment/thank_you_master.html:33
 #: donate/thunderbird/templates/payment/thank_you.html:23
 msgid "Share on Twitter"
 msgstr "Comparteix al Twitter"
 
-#: donate/templates/payment/thank_you_master.html:44
+#: donate/templates/payment/thank_you_master.html:37
+#: donate/thunderbird/templates/pages/base_page.html:38
+#: donate/thunderbird/templates/payment/thank_you.html:27
+msgid "Twitter"
+msgstr "Twitter"
+
+#: donate/templates/payment/thank_you_master.html:43
 #: donate/thunderbird/templates/payment/thank_you.html:33
 msgctxt "Share button"
 msgid "Email"
 msgstr "Correu electrònic"
 
-#: donate/templates/payment/thank_you_master.html:54
+#: donate/templates/payment/thank_you_master.html:53
 #: donate/thunderbird/templates/payment/thank_you.html:43
 msgctxt "Share button"
 msgid "Link"
 msgstr "Enllaç"
 
-#: donate/templates/payment/thank_you_master.html:55
+#: donate/templates/payment/thank_you_master.html:54
 #: donate/thunderbird/templates/payment/thank_you.html:44
 msgid "Copied"
 msgstr "S'ha copiat"
@@ -807,6 +738,26 @@ msgstr "Els donatius mensuals es cobren cada mes en el mateix dia del mes que fe
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:27
 msgid "Contributions go to MZLA Technologies Corporation, a California corporation wholly owned by the Mozilla Foundation. Funds will be reserved for use in the Thunderbird project. Contributions are not tax-deductible as charitable contributions."
 msgstr "Les contribucions van a MZLA Technologies Corporation, una empresa de Califòrnia propietat exclusiva de la Fundació Mozilla. Els fons es reservaran per utilitzar-los en el projecte Thunderbird. Les contribucions no són deduïbles fiscalment."
+
+#: donate/thunderbird/templates/pages/base_page.html:53
+msgid "Cookies"
+msgstr "Galetes"
+
+#: donate/thunderbird/templates/pages/base_page.html:56
+msgid "Legal"
+msgstr "Avisos legals"
+
+#: donate/thunderbird/templates/pages/base_page.html:59
+msgid "Participation Guidelines"
+msgstr "Directrius per a la participació"
+
+#: donate/thunderbird/templates/pages/base_page.html:62
+msgid "Press Center"
+msgstr ""
+
+#: donate/thunderbird/templates/pages/base_page.html:65
+msgid "Privacy"
+msgstr "Privadesa"
 
 #: donate/thunderbird/templates/pages/base_page.html:75
 #, python-format
@@ -876,11 +827,6 @@ msgstr "Autoritzo a MZLA Technologies Corporation a fer un càrrec automàtic de
 msgid "We’re working hard to protect your inbox. Sign up to receive email messages concerning Thunderbird, including updates and requests for feedback."
 msgstr "Treballem molt per a protegir la vostra safata d’entrada. Inscriviu-vos per a rebre missatges de correu electrònic relacionats amb el Thunderbird, incloses les actualitzacions i les sol·licituds de suggeriments."
 
-#: donate/thunderbird/templates/payment/thank_you.html:6
-#, python-format
-msgid "We’ve emailed you a donation receipt; if it’s missing, please check your junk/spam folders, then contact us using <a href=\"%(url)s\">this form</a>."
-msgstr "Us hem enviat per correu electrònic un rebut del donatiu; si no us ha arribat, comproveu la carpeta de correu brossa i poseu-vos en contacte amb nosaltres amb <a href=\"%(url)s\">aquest formulari</a>."
-
 #: donate/thunderbird/templates/payment/thank_you.html:7
 msgid "Lastly, can you multiply your impact by sharing about the important work Thunderbird is doing? Thank you again!"
 msgstr "Per últim, podeu multiplicar el vostre impacte compartint la important tasca que està fent Thunderbird? Gràcies de nou!"
@@ -894,6 +840,42 @@ msgstr "Avui he fet un donatiu al @mozthunderbird. Participeu-hi i doneu suport 
 msgctxt "Email subject line"
 msgid "I donated to Thunderbird today"
 msgstr "Avui he fet un donatiu al Thunderbird"
+
+#~ msgid "Menu"
+#~ msgstr "Menú"
+
+#~ msgid "Protect the internet as a global public resource"
+#~ msgstr "Protegiu Internet com a recurs públic global"
+
+#~ msgid "Join our email list to take action and stay updated!"
+#~ msgstr "Subscriviu-vos a la nostra llista de correu per actuar i estar informat."
+
+#~ msgid "Enter email address"
+#~ msgstr "Escriviu una adreça electrònica"
+
+#~ msgid "Sign up"
+#~ msgstr "Registre"
+
+#~ msgid "Thanks!"
+#~ msgstr "Gràcies!"
+
+#~ msgid "If you haven’t previously confirmed a subscription to a Mozilla-related newsletter you may have to do so. Please check your inbox or your spam filter for an email from us."
+#~ msgstr "Si anteriorment no heu confirmat la subscripció a algun butlletí de notícies relacionat amb Mozilla, és possible que ho hàgiu de fer. Comproveu la safata d'entrada o el filtre de correu brossa per veure si hi ha algun missatge de Mozilla."
+
+#~ msgid "More about us"
+#~ msgstr "Més informació sobre nosaltres"
+
+#~ msgid "Instagram"
+#~ msgstr "Instagram"
+
+#~ msgid "GitHub"
+#~ msgstr "GitHub"
+
+#~ msgid "Your donation will go right to work protecting the web, keeping it open and available to all."
+#~ msgstr "El vostre donatiu servirà per a protegir el web, mantenint-lo obert i accessible per a tothom."
+
+#~ msgid "We’ve emailed you a donation receipt; if it’s missing, please check your junk/spam folders, then contact us at <a href=\"mailto:%(email)s\">%(email)s</a>."
+#~ msgstr "Us hem enviat per correu electrònic un rebut del donatiu; si no us ha arribat, comproveu la carpeta de correu brossa i poseu-vos en contacte amb nosaltres a <a href=\"mailto:%(email)s\">%(email)s</a>."
 
 #~ msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"mailto:%(email)s\">Send us an email</a>."
 #~ msgstr "Teniu problemes per fer el donatiu? Vegeu les <a href=\"%(faq_url)s\">preguntes més freqüents</a> per obtenir respostes a les preguntes més habituals. Encara teniu problemes? <a href=\"mailto:%(email)s\">Envieu-nos un correu electrònic</a>."

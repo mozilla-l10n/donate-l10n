@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-19 16:41+0000\n"
+"POT-Creation-Date: 2021-07-22 06:51+0000\n"
 "PO-Revision-Date: 2021-01-27 01:20+0000\n"
 "Last-Translator: Zachinquarantine <mihaljeza@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pontoon\n"
 
-#: donate/core/translation.py:12
+#: donate/core/translation.py:12 donate/payments/forms.py:83
 msgid "This field is required."
 msgstr "Ovo je polje obavezno."
 
@@ -31,80 +31,80 @@ msgstr "Unesite broj."
 msgid "Enter a valid email address."
 msgstr "Unesite valjanu adresu e-pošte."
 
-#: donate/payments/forms.py:45
+#: donate/payments/forms.py:54
 #, python-format
 msgid "Donations must be %(amount)s or more"
 msgstr "Donacije moraju iznositi %(amount)s ili više"
 
-#: donate/payments/forms.py:52 donate/payments/forms.py:66
-#: donate/payments/forms.py:113
+#: donate/payments/forms.py:88 donate/payments/forms.py:102
+#: donate/payments/forms.py:150
 msgid "Amount"
 msgstr "Iznos"
 
-#: donate/payments/forms.py:79
+#: donate/payments/forms.py:115
 msgid "First name"
 msgstr "Ime"
 
-#: donate/payments/forms.py:80
+#: donate/payments/forms.py:116
 msgid "Last name"
 msgstr "Prezime"
 
-#: donate/payments/forms.py:81 donate/payments/forms.py:123
-#: donate/templates/pages/core/contributor_support_page_master.html:61
+#: donate/payments/forms.py:117 donate/payments/forms.py:160
+#: donate/templates/pages/core/contributor_support_page_master.html:62
 msgid "Email"
 msgstr "E-pošta"
 
-#: donate/payments/forms.py:82
+#: donate/payments/forms.py:118
 msgid "Street"
 msgstr "Ulica"
 
-#: donate/payments/forms.py:83
+#: donate/payments/forms.py:119
 msgid "City"
 msgstr "Grad"
 
-#: donate/payments/forms.py:87
+#: donate/payments/forms.py:123
 msgctxt "Feel free to replace with “Postal code” or equivalent"
 msgid "ZIP Code"
 msgstr "Poštanski broj"
 
-#: donate/payments/forms.py:90
+#: donate/payments/forms.py:127
 msgid "Country"
 msgstr "Država"
 
-#: donate/payments/forms.py:131 donate/templates/pages/base_page_master.html:87
+#: donate/payments/forms.py:168
 #, python-format
 msgid "I’m okay with Mozilla handling my info as explained in this <a href='%(url)s'>Privacy Notice</a>."
 msgstr "Slažem se da Mozilla upravlja mojim informacijama, kao što je objašnjeno u <a href='%(url)s'>politici privatnosti</a>."
 
-#: donate/payments/views.py:161
+#: donate/payments/views.py:160
 msgid "The type of card you used is not accepted."
 msgstr "Vrsta kartice koju ste koristili se ne prihvaća."
 
-#: donate/payments/views.py:162 donate/payments/views.py:163
+#: donate/payments/views.py:161 donate/payments/views.py:162
 msgid "The CVV code you entered was invalid."
 msgstr "CVV kôd koji ste unijeli nije ispravan."
 
-#: donate/payments/views.py:164
+#: donate/payments/views.py:163
 msgid "The expiration date you entered was invalid."
 msgstr "Datum isteka koji ste unijeli nije ispravan."
 
-#: donate/payments/views.py:165
+#: donate/payments/views.py:164
 msgid "The credit card number you entered was invalid."
 msgstr "Upisani broj kartice nije ispravan."
 
-#: donate/payments/views.py:174 donate/payments/views.py:175
+#: donate/payments/views.py:173 donate/payments/views.py:174
 msgid "The post code you provided is not valid."
 msgstr "Poštanski broj koji ste unijeli nije valjan."
 
-#: donate/payments/views.py:189
+#: donate/payments/views.py:188
 msgid "Sorry there was an error processing your payment. Please try again later or use a different payment method."
 msgstr "Nažalost, došlo je do pogreške prilikom obrade Vašeg plaćanja. Pokušajte ponovno kasnije ili upotrijebite drugi način plaćanja."
 
-#: donate/payments/views.py:383
+#: donate/payments/views.py:384
 msgid "Something went wrong. We were unable to process your payment."
 msgstr "Nešto je pošlo po zlu. Nismo uspjeli obraditi vašu uplatu."
 
-#: donate/payments/views.py:635 donate/payments/views.py:744
+#: donate/payments/views.py:638 donate/payments/views.py:747
 msgid "Sorry there was an error processing your payment. Please try again later."
 msgstr "Dogodila se greška prilikom obrade vašeg plaćanja. Molimo, pokušajte ponovno kasnije."
 
@@ -202,7 +202,7 @@ msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization base
 msgstr ""
 
 #: donate/templates/fragments/language_switcher.html:10
-#: donate/templates/pages/core/contributor_support_page_master.html:66
+#: donate/templates/pages/core/contributor_support_page_master.html:67
 msgid "Language"
 msgstr "Jezik"
 
@@ -226,79 +226,7 @@ msgstr ""
 msgid "Blog"
 msgstr "Blog"
 
-#: donate/templates/pages/base_page_master.html:51
-msgid "Menu"
-msgstr "Izbornik"
-
-#: donate/templates/pages/base_page_master.html:76
-msgid "Protect the internet as a global public resource"
-msgstr ""
-
-#: donate/templates/pages/base_page_master.html:82
-msgid "Join our email list to take action and stay updated!"
-msgstr ""
-
-#: donate/templates/pages/base_page_master.html:85
-msgid "Enter email address"
-msgstr "Unesite adresu e-pošte"
-
-#: donate/templates/pages/base_page_master.html:90
-msgid "Sign up"
-msgstr "Registriraj se"
-
-#: donate/templates/pages/base_page_master.html:96
-msgid "Thanks!"
-msgstr "Hvala!"
-
-#: donate/templates/pages/base_page_master.html:97
-msgid "If you haven’t previously confirmed a subscription to a Mozilla-related newsletter you may have to do so. Please check your inbox or your spam filter for an email from us."
-msgstr "Ako prethodno niste potvrdili prijavu na neki Mozilla bilten, možda to morate učiniti. Potraži našu poruku e-pošte u svom pretincu ili u filteru za neželjenu poštu."
-
-#: donate/templates/pages/base_page_master.html:112
-msgid "More about us"
-msgstr "Više o nama"
-
-#: donate/templates/pages/base_page_master.html:116
-#: donate/templates/payment/thank_you_master.html:38
-#: donate/thunderbird/templates/pages/base_page.html:38
-#: donate/thunderbird/templates/payment/thank_you.html:27
-msgid "Twitter"
-msgstr "Twitter"
-
-#: donate/templates/pages/base_page_master.html:122
-msgid "Instagram"
-msgstr "Instagram"
-
-#: donate/templates/pages/base_page_master.html:128
-msgid "GitHub"
-msgstr "GitHub"
-
-#: donate/templates/pages/base_page_master.html:139
-#: donate/thunderbird/templates/pages/base_page.html:53
-msgid "Cookies"
-msgstr "Kolačići"
-
-#: donate/templates/pages/base_page_master.html:142
-#: donate/thunderbird/templates/pages/base_page.html:56
-msgid "Legal"
-msgstr "Pravne informacije"
-
-#: donate/templates/pages/base_page_master.html:145
-#: donate/thunderbird/templates/pages/base_page.html:59
-msgid "Participation Guidelines"
-msgstr "Smjernice za sudjelovanje"
-
-#: donate/templates/pages/base_page_master.html:148
-#: donate/thunderbird/templates/pages/base_page.html:62
-msgid "Press Center"
-msgstr ""
-
-#: donate/templates/pages/base_page_master.html:151
-#: donate/thunderbird/templates/pages/base_page.html:65
-msgid "Privacy"
-msgstr "Privatnost"
-
-#: donate/templates/pages/base_page_master.html:172
+#: donate/templates/pages/base_page_master.html:184
 #, python-format
 msgid "Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a %(fomo_link_attributes)s>%(fomo_site_url)s</a>. Most content available under a <a %(cc_link_attributes)s>Creative Commons license</a>."
 msgstr "Mozilla je globalna neprofitna organizacija čija je misija omogućiti kontrolu nad vlastitim radom na internetu te se zalaže za stvaranje budućnosti interneta u korist svih. Posjeti nas na <a %(fomo_link_attributes)s>%(fomo_site_url)s</a>. Večina sadržaja je dostupna pod <a %(cc_link_attributes)s>Creative Commons licencom</a>."
@@ -342,58 +270,58 @@ msgstr ""
 msgid "Unfortunately, donor care representatives are unable to offer support or help with Firefox technical issues."
 msgstr ""
 
-#: donate/templates/pages/core/contributor_support_page_master.html:56
+#: donate/templates/pages/core/contributor_support_page_master.html:57
 msgid "Contact Name"
 msgstr "Ime kontakta"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:69
+#: donate/templates/pages/core/contributor_support_page_master.html:70
 msgctxt "Option in 'Language' dropdown"
 msgid "None"
 msgstr "Nijedan"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:70
+#: donate/templates/pages/core/contributor_support_page_master.html:71
 msgid "English"
 msgstr "Engleski"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:71
+#: donate/templates/pages/core/contributor_support_page_master.html:72
 msgid "French"
 msgstr "Francuski"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:72
+#: donate/templates/pages/core/contributor_support_page_master.html:73
 msgid "German"
 msgstr "Njemački"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:73
+#: donate/templates/pages/core/contributor_support_page_master.html:74
 msgid "Spanish"
 msgstr "Španjolski"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:74
+#: donate/templates/pages/core/contributor_support_page_master.html:75
 msgid "Polish"
 msgstr "Poljski"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:75
+#: donate/templates/pages/core/contributor_support_page_master.html:76
 msgid "Portuguese"
 msgstr "Portugalski"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:76
+#: donate/templates/pages/core/contributor_support_page_master.html:77
 msgctxt "Option in 'Language' dropdown"
 msgid "Other"
 msgstr "Ostali"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:82
+#: donate/templates/pages/core/contributor_support_page_master.html:83
 msgid "Subject"
 msgstr "Predmet"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:87
+#: donate/templates/pages/core/contributor_support_page_master.html:88
 msgid "Description"
 msgstr "Opis"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:91
+#: donate/templates/pages/core/contributor_support_page_master.html:92
 #, python-format
 msgid "Mozilla will only use your submitted information for purposes of communicating with you about your request. See our <a href=\"%(privacy_policy)s\">privacy policy</a> for further information."
 msgstr "Mozilla će tvoje poslane podatke koristiti samo u svrhu komunikacije s tobom o tvom zahtjevu. Pogledaj naša <a href=\"%(privacy_policy)s\">pravila o privatnosti</a> za dodatne informacije."
 
-#: donate/templates/pages/core/contributor_support_page_master.html:93
+#: donate/templates/pages/core/contributor_support_page_master.html:94
 msgid "Submit"
 msgstr "Pošalji"
 
@@ -721,57 +649,60 @@ msgid "No"
 msgstr "Ne"
 
 #: donate/templates/payment/thank_you_master.html:15
-msgid "Your donation will go right to work protecting the web, keeping it open and available to all."
-msgstr ""
-
-#: donate/templates/payment/thank_you_master.html:15
+#: donate/thunderbird/templates/payment/thank_you.html:6
 #, python-format
-msgid "We’ve emailed you a donation receipt; if it’s missing, please check your junk/spam folders, then contact us at <a href=\"mailto:%(email)s\">%(email)s</a>."
+msgid "We’ve emailed you a donation receipt; if it’s missing, please check your junk/spam folders, then contact us using <a href=\"%(url)s\">this form</a>."
 msgstr ""
 
-#: donate/templates/payment/thank_you_master.html:17
+#: donate/templates/payment/thank_you_master.html:16
 msgid "Lastly, can you multiply your impact by sharing about the important work Mozilla is doing? Thank you again!"
 msgstr ""
 
-#: donate/templates/payment/thank_you_master.html:22
+#: donate/templates/payment/thank_you_master.html:21
 msgctxt "Used as a tweet"
 msgid "I donated to @mozilla today because I #lovetheweb. Join me and help fight for a better and healthier internet, for all."
 msgstr "Danas sam donirao/donirala @mozilla, jer ja #lovetheweb. Pridruži mi se i pomogni borbi za bolji i zdraviji internet za sve."
 
-#: donate/templates/payment/thank_you_master.html:23
+#: donate/templates/payment/thank_you_master.html:22
 msgctxt "Email subject line"
 msgid "I donated to Mozilla today"
 msgstr "Danas sam donirao Mozilli"
 
-#: donate/templates/payment/thank_you_master.html:27
+#: donate/templates/payment/thank_you_master.html:26
 #: donate/thunderbird/templates/payment/thank_you.html:16
 msgid "Share on Facebook"
 msgstr "Podijeli na Facebook"
 
-#: donate/templates/payment/thank_you_master.html:31
+#: donate/templates/payment/thank_you_master.html:30
 #: donate/thunderbird/templates/pages/base_page.html:44
 #: donate/thunderbird/templates/payment/thank_you.html:20
 msgid "Facebook"
 msgstr "Facebook"
 
-#: donate/templates/payment/thank_you_master.html:34
+#: donate/templates/payment/thank_you_master.html:33
 #: donate/thunderbird/templates/payment/thank_you.html:23
 msgid "Share on Twitter"
 msgstr "Podijeli na Twitter"
 
-#: donate/templates/payment/thank_you_master.html:44
+#: donate/templates/payment/thank_you_master.html:37
+#: donate/thunderbird/templates/pages/base_page.html:38
+#: donate/thunderbird/templates/payment/thank_you.html:27
+msgid "Twitter"
+msgstr "Twitter"
+
+#: donate/templates/payment/thank_you_master.html:43
 #: donate/thunderbird/templates/payment/thank_you.html:33
 msgctxt "Share button"
 msgid "Email"
 msgstr "E-pošta"
 
-#: donate/templates/payment/thank_you_master.html:54
+#: donate/templates/payment/thank_you_master.html:53
 #: donate/thunderbird/templates/payment/thank_you.html:43
 msgctxt "Share button"
 msgid "Link"
 msgstr "Poveznica"
 
-#: donate/templates/payment/thank_you_master.html:55
+#: donate/templates/payment/thank_you_master.html:54
 #: donate/thunderbird/templates/payment/thank_you.html:44
 msgid "Copied"
 msgstr "Kopirano"
@@ -806,6 +737,26 @@ msgstr "Mjesečne donacije naplaćuju se svakog mjeseca na isti dan na koji je i
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:27
 msgid "Contributions go to MZLA Technologies Corporation, a California corporation wholly owned by the Mozilla Foundation. Funds will be reserved for use in the Thunderbird project. Contributions are not tax-deductible as charitable contributions."
 msgstr ""
+
+#: donate/thunderbird/templates/pages/base_page.html:53
+msgid "Cookies"
+msgstr "Kolačići"
+
+#: donate/thunderbird/templates/pages/base_page.html:56
+msgid "Legal"
+msgstr "Pravne informacije"
+
+#: donate/thunderbird/templates/pages/base_page.html:59
+msgid "Participation Guidelines"
+msgstr "Smjernice za sudjelovanje"
+
+#: donate/thunderbird/templates/pages/base_page.html:62
+msgid "Press Center"
+msgstr ""
+
+#: donate/thunderbird/templates/pages/base_page.html:65
+msgid "Privacy"
+msgstr "Privatnost"
 
 #: donate/thunderbird/templates/pages/base_page.html:75
 #, python-format
@@ -874,11 +825,6 @@ msgstr ""
 msgid "We’re working hard to protect your inbox. Sign up to receive email messages concerning Thunderbird, including updates and requests for feedback."
 msgstr ""
 
-#: donate/thunderbird/templates/payment/thank_you.html:6
-#, python-format
-msgid "We’ve emailed you a donation receipt; if it’s missing, please check your junk/spam folders, then contact us using <a href=\"%(url)s\">this form</a>."
-msgstr ""
-
 #: donate/thunderbird/templates/payment/thank_you.html:7
 msgid "Lastly, can you multiply your impact by sharing about the important work Thunderbird is doing? Thank you again!"
 msgstr "Molimo te da obavijestiš svijet oko sebe o važnosti projekta Thunderbird. Hvala!"
@@ -892,6 +838,30 @@ msgstr "Donirao sam @mozthunderbird danas kako bi #freetheinbox. Priključite mi
 msgctxt "Email subject line"
 msgid "I donated to Thunderbird today"
 msgstr "Danas sam donirao Thunderbirdu"
+
+#~ msgid "Menu"
+#~ msgstr "Izbornik"
+
+#~ msgid "Enter email address"
+#~ msgstr "Unesite adresu e-pošte"
+
+#~ msgid "Sign up"
+#~ msgstr "Registriraj se"
+
+#~ msgid "Thanks!"
+#~ msgstr "Hvala!"
+
+#~ msgid "If you haven’t previously confirmed a subscription to a Mozilla-related newsletter you may have to do so. Please check your inbox or your spam filter for an email from us."
+#~ msgstr "Ako prethodno niste potvrdili prijavu na neki Mozilla bilten, možda to morate učiniti. Potraži našu poruku e-pošte u svom pretincu ili u filteru za neželjenu poštu."
+
+#~ msgid "More about us"
+#~ msgstr "Više o nama"
+
+#~ msgid "Instagram"
+#~ msgstr "Instagram"
+
+#~ msgid "GitHub"
+#~ msgstr "GitHub"
 
 #~ msgid "If you need help with a contribution to MZLA/Thunderbird, fill out this form and a Thunderbird donor care representative will get back to you as soon as possible."
 #~ msgstr "Ako trebaš pomoć za doprinos MZLA/Thunderbird-u, ispuni ovaj obrazac i Thunderbird-ov predstavnik koji se brine o donatorima će ti se javiti u najkraćem mogućem roku."

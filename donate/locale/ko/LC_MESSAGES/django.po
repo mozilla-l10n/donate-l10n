@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-19 16:41+0000\n"
+"POT-Creation-Date: 2021-07-22 06:51+0000\n"
 "PO-Revision-Date: 2020-12-09 00:58+0000\n"
 "Last-Translator: Hyeonseok Shin <hyeonseok@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pontoon\n"
 
-#: donate/core/translation.py:12
+#: donate/core/translation.py:12 donate/payments/forms.py:83
 msgid "This field is required."
 msgstr "필수 항목입니다."
 
@@ -31,80 +31,80 @@ msgstr "숫자를 입력하십시오."
 msgid "Enter a valid email address."
 msgstr "유효한 이메일 주소를 입력하십시오."
 
-#: donate/payments/forms.py:45
+#: donate/payments/forms.py:54
 #, python-format
 msgid "Donations must be %(amount)s or more"
 msgstr "기부금은 %(amount)s 이상이어야 합니다."
 
-#: donate/payments/forms.py:52 donate/payments/forms.py:66
-#: donate/payments/forms.py:113
+#: donate/payments/forms.py:88 donate/payments/forms.py:102
+#: donate/payments/forms.py:150
 msgid "Amount"
 msgstr "금액"
 
-#: donate/payments/forms.py:79
+#: donate/payments/forms.py:115
 msgid "First name"
 msgstr "이름"
 
-#: donate/payments/forms.py:80
+#: donate/payments/forms.py:116
 msgid "Last name"
 msgstr "성"
 
-#: donate/payments/forms.py:81 donate/payments/forms.py:123
-#: donate/templates/pages/core/contributor_support_page_master.html:61
+#: donate/payments/forms.py:117 donate/payments/forms.py:160
+#: donate/templates/pages/core/contributor_support_page_master.html:62
 msgid "Email"
 msgstr "이메일"
 
-#: donate/payments/forms.py:82
+#: donate/payments/forms.py:118
 msgid "Street"
 msgstr "거리"
 
-#: donate/payments/forms.py:83
+#: donate/payments/forms.py:119
 msgid "City"
 msgstr "도시"
 
-#: donate/payments/forms.py:87
+#: donate/payments/forms.py:123
 msgctxt "Feel free to replace with “Postal code” or equivalent"
 msgid "ZIP Code"
 msgstr "우편 번호"
 
-#: donate/payments/forms.py:90
+#: donate/payments/forms.py:127
 msgid "Country"
 msgstr "국가"
 
-#: donate/payments/forms.py:131 donate/templates/pages/base_page_master.html:87
+#: donate/payments/forms.py:168
 #, python-format
 msgid "I’m okay with Mozilla handling my info as explained in this <a href='%(url)s'>Privacy Notice</a>."
 msgstr "<a href='%(url)s'>개인 정보 보호 공지</a>에 나타난대로 Mozilla가 개인 정보를 다루는 것에 대해서 동의합니다."
 
-#: donate/payments/views.py:161
+#: donate/payments/views.py:160
 msgid "The type of card you used is not accepted."
 msgstr "사용한 카드 유형이 허용되지 않습니다."
 
-#: donate/payments/views.py:162 donate/payments/views.py:163
+#: donate/payments/views.py:161 donate/payments/views.py:162
 msgid "The CVV code you entered was invalid."
 msgstr "입력한 CVV 코드가 유효하지 않습니다."
 
-#: donate/payments/views.py:164
+#: donate/payments/views.py:163
 msgid "The expiration date you entered was invalid."
 msgstr "입력한 만료 날짜가 유효하지 않습니다."
 
-#: donate/payments/views.py:165
+#: donate/payments/views.py:164
 msgid "The credit card number you entered was invalid."
 msgstr "입력한 신용 카드 번호가 유효하지 않습니다."
 
-#: donate/payments/views.py:174 donate/payments/views.py:175
+#: donate/payments/views.py:173 donate/payments/views.py:174
 msgid "The post code you provided is not valid."
 msgstr "입력한 우편 번호가 유효하지 않습니다."
 
-#: donate/payments/views.py:189
+#: donate/payments/views.py:188
 msgid "Sorry there was an error processing your payment. Please try again later or use a different payment method."
 msgstr "결제 처리 중 오류가 발생했습니다. 나중에 다시 시도하거나 다른 결제 수단을 사용하십시오."
 
-#: donate/payments/views.py:383
+#: donate/payments/views.py:384
 msgid "Something went wrong. We were unable to process your payment."
 msgstr "문제가 발생했습니다. 결제를 처리하지 못했습니다."
 
-#: donate/payments/views.py:635 donate/payments/views.py:744
+#: donate/payments/views.py:638 donate/payments/views.py:747
 msgid "Sorry there was an error processing your payment. Please try again later."
 msgstr "결제 처리 중 오류가 발생했습니다. 나중에 다시 시도하세요."
 
@@ -202,7 +202,7 @@ msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization base
 msgstr ""
 
 #: donate/templates/fragments/language_switcher.html:10
-#: donate/templates/pages/core/contributor_support_page_master.html:66
+#: donate/templates/pages/core/contributor_support_page_master.html:67
 msgid "Language"
 msgstr "언어"
 
@@ -226,79 +226,7 @@ msgstr "할 수있는 일"
 msgid "Blog"
 msgstr "블로그"
 
-#: donate/templates/pages/base_page_master.html:51
-msgid "Menu"
-msgstr "메뉴"
-
-#: donate/templates/pages/base_page_master.html:76
-msgid "Protect the internet as a global public resource"
-msgstr "세계 공공 자원인 인터넷 보호"
-
-#: donate/templates/pages/base_page_master.html:82
-msgid "Join our email list to take action and stay updated!"
-msgstr "이메일 구독 신청을 하시고 최신 정보를 받아보세요!"
-
-#: donate/templates/pages/base_page_master.html:85
-msgid "Enter email address"
-msgstr "이메일을 입력하세요"
-
-#: donate/templates/pages/base_page_master.html:90
-msgid "Sign up"
-msgstr "가입하기"
-
-#: donate/templates/pages/base_page_master.html:96
-msgid "Thanks!"
-msgstr "감사합니다!"
-
-#: donate/templates/pages/base_page_master.html:97
-msgid "If you haven’t previously confirmed a subscription to a Mozilla-related newsletter you may have to do so. Please check your inbox or your spam filter for an email from us."
-msgstr "Mozilla 관련 뉴스레터 구독 인증을 해본 적이 없으면 따로 인증이 필요할 수 있습니다. 메일함을 확인해보시고 메일이 없으면 혹시 스팸 필터에 걸린 메일이 없는지도 살펴보세요."
-
-#: donate/templates/pages/base_page_master.html:112
-msgid "More about us"
-msgstr "더 많은 정보"
-
-#: donate/templates/pages/base_page_master.html:116
-#: donate/templates/payment/thank_you_master.html:38
-#: donate/thunderbird/templates/pages/base_page.html:38
-#: donate/thunderbird/templates/payment/thank_you.html:27
-msgid "Twitter"
-msgstr "트위터"
-
-#: donate/templates/pages/base_page_master.html:122
-msgid "Instagram"
-msgstr "인스타그램"
-
-#: donate/templates/pages/base_page_master.html:128
-msgid "GitHub"
-msgstr "깃 허브"
-
-#: donate/templates/pages/base_page_master.html:139
-#: donate/thunderbird/templates/pages/base_page.html:53
-msgid "Cookies"
-msgstr "쿠키"
-
-#: donate/templates/pages/base_page_master.html:142
-#: donate/thunderbird/templates/pages/base_page.html:56
-msgid "Legal"
-msgstr "법적 고지"
-
-#: donate/templates/pages/base_page_master.html:145
-#: donate/thunderbird/templates/pages/base_page.html:59
-msgid "Participation Guidelines"
-msgstr "참여방법"
-
-#: donate/templates/pages/base_page_master.html:148
-#: donate/thunderbird/templates/pages/base_page.html:62
-msgid "Press Center"
-msgstr ""
-
-#: donate/templates/pages/base_page_master.html:151
-#: donate/thunderbird/templates/pages/base_page.html:65
-msgid "Privacy"
-msgstr "개인정보처리방침"
-
-#: donate/templates/pages/base_page_master.html:172
+#: donate/templates/pages/base_page_master.html:184
 #, fuzzy, python-format
 msgid "Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a %(fomo_link_attributes)s>%(fomo_site_url)s</a>. Most content available under a <a %(cc_link_attributes)s>Creative Commons license</a>."
 msgstr "Mozilla는 사용자가 온라인 경험을 주도하고 웹의 미래를 형성하여 공공의 이익을 얻는 데 전념하는 세계적인 비영리 단체입니다. <a %(link_attributes)s>%(site_url)s</a> 통해 방문해주세요."
@@ -342,58 +270,58 @@ msgstr ""
 msgid "Unfortunately, donor care representatives are unable to offer support or help with Firefox technical issues."
 msgstr ""
 
-#: donate/templates/pages/core/contributor_support_page_master.html:56
+#: donate/templates/pages/core/contributor_support_page_master.html:57
 msgid "Contact Name"
 msgstr "담당자 이름"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:69
+#: donate/templates/pages/core/contributor_support_page_master.html:70
 msgctxt "Option in 'Language' dropdown"
 msgid "None"
 msgstr "없음"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:70
+#: donate/templates/pages/core/contributor_support_page_master.html:71
 msgid "English"
 msgstr "영어"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:71
+#: donate/templates/pages/core/contributor_support_page_master.html:72
 msgid "French"
 msgstr "프랑스어"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:72
+#: donate/templates/pages/core/contributor_support_page_master.html:73
 msgid "German"
 msgstr "독일어"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:73
+#: donate/templates/pages/core/contributor_support_page_master.html:74
 msgid "Spanish"
 msgstr "스페인어"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:74
+#: donate/templates/pages/core/contributor_support_page_master.html:75
 msgid "Polish"
 msgstr "폴란드어"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:75
+#: donate/templates/pages/core/contributor_support_page_master.html:76
 msgid "Portuguese"
 msgstr "포르투갈어"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:76
+#: donate/templates/pages/core/contributor_support_page_master.html:77
 msgctxt "Option in 'Language' dropdown"
 msgid "Other"
 msgstr "그 외"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:82
+#: donate/templates/pages/core/contributor_support_page_master.html:83
 msgid "Subject"
 msgstr "제목"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:87
+#: donate/templates/pages/core/contributor_support_page_master.html:88
 msgid "Description"
 msgstr "설명"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:91
+#: donate/templates/pages/core/contributor_support_page_master.html:92
 #, python-format
 msgid "Mozilla will only use your submitted information for purposes of communicating with you about your request. See our <a href=\"%(privacy_policy)s\">privacy policy</a> for further information."
 msgstr "Mozilla는 귀하의 요청에 대해 귀하와의 통신용으로만 제출된 정보를 사용합니다. 자세한 내용은 <a href=\"%(privacy_policy)s\">개인 정보 보호 정책</a>을 참조하십시오."
 
-#: donate/templates/pages/core/contributor_support_page_master.html:93
+#: donate/templates/pages/core/contributor_support_page_master.html:94
 msgid "Submit"
 msgstr "제출"
 
@@ -721,57 +649,60 @@ msgid "No"
 msgstr "아니요"
 
 #: donate/templates/payment/thank_you_master.html:15
-msgid "Your donation will go right to work protecting the web, keeping it open and available to all."
-msgstr "기부금은 웹을 개방하고 모든 사람이 이용할 수 있도록 보호하는데 사용될 것입니다."
-
-#: donate/templates/payment/thank_you_master.html:15
+#: donate/thunderbird/templates/payment/thank_you.html:6
 #, python-format
-msgid "We’ve emailed you a donation receipt; if it’s missing, please check your junk/spam folders, then contact us at <a href=\"mailto:%(email)s\">%(email)s</a>."
-msgstr "기부금 영수증은 이메일로 발송해 드렸습니다. 만약 받지 못하셨다면, 스팸 혹은 정크 폴더를 확인해 보신 후 <a href=\"mailto:%(email)s\">%(email)s</a>로 저희에게 연락 주시기 바랍니다."
+msgid "We’ve emailed you a donation receipt; if it’s missing, please check your junk/spam folders, then contact us using <a href=\"%(url)s\">this form</a>."
+msgstr "기부금 영수증을 이메일로 발송해 드렸습니다. 만약 받지 못했다면 정크/스팸 폴더를 확인하시고 <a href=\"%(url)s\">이 양식</a>을 사용하여 연락주세요."
 
-#: donate/templates/payment/thank_you_master.html:17
+#: donate/templates/payment/thank_you_master.html:16
 msgid "Lastly, can you multiply your impact by sharing about the important work Mozilla is doing? Thank you again!"
 msgstr "마지막으로, Mozilla가 수행하고 있는 중요한 작업을 공유 하여 영향을 높여주세요. 다시 한번 감사드립니다!"
 
-#: donate/templates/payment/thank_you_master.html:22
+#: donate/templates/payment/thank_you_master.html:21
 msgctxt "Used as a tweet"
 msgid "I donated to @mozilla today because I #lovetheweb. Join me and help fight for a better and healthier internet, for all."
 msgstr "웹을 사랑하는 마음으로 @mozilla 에 기부 했습니다. 모두에게 보다 건강한 인터넷을 만들 수 있게 동참해 주세요. #lovetheweb"
 
-#: donate/templates/payment/thank_you_master.html:23
+#: donate/templates/payment/thank_you_master.html:22
 msgctxt "Email subject line"
 msgid "I donated to Mozilla today"
 msgstr "오늘 Mozilla에 기부했습니다."
 
-#: donate/templates/payment/thank_you_master.html:27
+#: donate/templates/payment/thank_you_master.html:26
 #: donate/thunderbird/templates/payment/thank_you.html:16
 msgid "Share on Facebook"
 msgstr "Facebook에 공유"
 
-#: donate/templates/payment/thank_you_master.html:31
+#: donate/templates/payment/thank_you_master.html:30
 #: donate/thunderbird/templates/pages/base_page.html:44
 #: donate/thunderbird/templates/payment/thank_you.html:20
 msgid "Facebook"
 msgstr "Facebook"
 
-#: donate/templates/payment/thank_you_master.html:34
+#: donate/templates/payment/thank_you_master.html:33
 #: donate/thunderbird/templates/payment/thank_you.html:23
 msgid "Share on Twitter"
 msgstr "Twitter에 공유"
 
-#: donate/templates/payment/thank_you_master.html:44
+#: donate/templates/payment/thank_you_master.html:37
+#: donate/thunderbird/templates/pages/base_page.html:38
+#: donate/thunderbird/templates/payment/thank_you.html:27
+msgid "Twitter"
+msgstr "트위터"
+
+#: donate/templates/payment/thank_you_master.html:43
 #: donate/thunderbird/templates/payment/thank_you.html:33
 msgctxt "Share button"
 msgid "Email"
 msgstr "이메일"
 
-#: donate/templates/payment/thank_you_master.html:54
+#: donate/templates/payment/thank_you_master.html:53
 #: donate/thunderbird/templates/payment/thank_you.html:43
 msgctxt "Share button"
 msgid "Link"
 msgstr "링크"
 
-#: donate/templates/payment/thank_you_master.html:55
+#: donate/templates/payment/thank_you_master.html:54
 #: donate/thunderbird/templates/payment/thank_you.html:44
 msgid "Copied"
 msgstr "복사됨"
@@ -806,6 +737,26 @@ msgstr "월간 기부금은 오늘 기부 한 날에 매달 청구되며 취소 
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:27
 msgid "Contributions go to MZLA Technologies Corporation, a California corporation wholly owned by the Mozilla Foundation. Funds will be reserved for use in the Thunderbird project. Contributions are not tax-deductible as charitable contributions."
 msgstr "기부금은 Mozilla 재단이 전액 소유 한 캘리포니아 기업인 MZLA Technologies Corporation에 전달됩니다. 자금은 Thunderbird 프로젝트에서 사용하기 위해 예약됩니다. 기부금은 자선 기부금으로 세금 공제 대상이 아닙니다."
+
+#: donate/thunderbird/templates/pages/base_page.html:53
+msgid "Cookies"
+msgstr "쿠키"
+
+#: donate/thunderbird/templates/pages/base_page.html:56
+msgid "Legal"
+msgstr "법적 고지"
+
+#: donate/thunderbird/templates/pages/base_page.html:59
+msgid "Participation Guidelines"
+msgstr "참여방법"
+
+#: donate/thunderbird/templates/pages/base_page.html:62
+msgid "Press Center"
+msgstr ""
+
+#: donate/thunderbird/templates/pages/base_page.html:65
+msgid "Privacy"
+msgstr "개인정보처리방침"
 
 #: donate/thunderbird/templates/pages/base_page.html:75
 #, python-format
@@ -875,11 +826,6 @@ msgstr "본인은 MZLA Technologies Corporation이 다음 달부터 오늘과 �
 msgid "We’re working hard to protect your inbox. Sign up to receive email messages concerning Thunderbird, including updates and requests for feedback."
 msgstr ""
 
-#: donate/thunderbird/templates/payment/thank_you.html:6
-#, python-format
-msgid "We’ve emailed you a donation receipt; if it’s missing, please check your junk/spam folders, then contact us using <a href=\"%(url)s\">this form</a>."
-msgstr "기부금 영수증을 이메일로 발송해 드렸습니다. 만약 받지 못했다면 정크/스팸 폴더를 확인하시고 <a href=\"%(url)s\">이 양식</a>을 사용하여 연락주세요."
-
 #: donate/thunderbird/templates/payment/thank_you.html:7
 msgid "Lastly, can you multiply your impact by sharing about the important work Thunderbird is doing? Thank you again!"
 msgstr "마지막으로, Thunderbird가 수행하고 있는 중요한 작업을 공유하여 영향력을 높여주세요. 다시 한번 감사드립니다!"
@@ -893,6 +839,42 @@ msgstr "오늘 @mozthunderbird 에 기부했습니다. 의사 소통 정보 보�
 msgctxt "Email subject line"
 msgid "I donated to Thunderbird today"
 msgstr "오늘 Thunderbird에 기부했습니다."
+
+#~ msgid "Menu"
+#~ msgstr "메뉴"
+
+#~ msgid "Protect the internet as a global public resource"
+#~ msgstr "세계 공공 자원인 인터넷 보호"
+
+#~ msgid "Join our email list to take action and stay updated!"
+#~ msgstr "이메일 구독 신청을 하시고 최신 정보를 받아보세요!"
+
+#~ msgid "Enter email address"
+#~ msgstr "이메일을 입력하세요"
+
+#~ msgid "Sign up"
+#~ msgstr "가입하기"
+
+#~ msgid "Thanks!"
+#~ msgstr "감사합니다!"
+
+#~ msgid "If you haven’t previously confirmed a subscription to a Mozilla-related newsletter you may have to do so. Please check your inbox or your spam filter for an email from us."
+#~ msgstr "Mozilla 관련 뉴스레터 구독 인증을 해본 적이 없으면 따로 인증이 필요할 수 있습니다. 메일함을 확인해보시고 메일이 없으면 혹시 스팸 필터에 걸린 메일이 없는지도 살펴보세요."
+
+#~ msgid "More about us"
+#~ msgstr "더 많은 정보"
+
+#~ msgid "Instagram"
+#~ msgstr "인스타그램"
+
+#~ msgid "GitHub"
+#~ msgstr "깃 허브"
+
+#~ msgid "Your donation will go right to work protecting the web, keeping it open and available to all."
+#~ msgstr "기부금은 웹을 개방하고 모든 사람이 이용할 수 있도록 보호하는데 사용될 것입니다."
+
+#~ msgid "We’ve emailed you a donation receipt; if it’s missing, please check your junk/spam folders, then contact us at <a href=\"mailto:%(email)s\">%(email)s</a>."
+#~ msgstr "기부금 영수증은 이메일로 발송해 드렸습니다. 만약 받지 못하셨다면, 스팸 혹은 정크 폴더를 확인해 보신 후 <a href=\"mailto:%(email)s\">%(email)s</a>로 저희에게 연락 주시기 바랍니다."
 
 #~ msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"mailto:%(email)s\">Send us an email</a>."
 #~ msgstr "기부에 문제가 있나요? <a href=\"%(faq_url)s\">FAQ</a>에서 자주 묻는 질문에 대한 답을 찾아 보세요. 여전히 문제가 있다면 <a href=\"mailto:%(email)s\">메일을 보내 주세요</a>."

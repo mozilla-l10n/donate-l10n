@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-19 16:41+0000\n"
+"POT-Creation-Date: 2021-07-22 06:51+0000\n"
 "PO-Revision-Date: 2021-04-10 01:10+0000\n"
 "Last-Translator: Grk <gu0townkg@relay.firefox.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: donate/core/translation.py:12
+#: donate/core/translation.py:12 donate/payments/forms.py:83
 msgid "This field is required."
 msgstr "Bu alanı doldurmalısınız."
 
@@ -31,80 +31,80 @@ msgstr "Bir sayı girin."
 msgid "Enter a valid email address."
 msgstr "Geçerli bir e-posta adresi yazın."
 
-#: donate/payments/forms.py:45
+#: donate/payments/forms.py:54
 #, python-format
 msgid "Donations must be %(amount)s or more"
 msgstr "Bağışlar en az %(amount)s olabilir"
 
-#: donate/payments/forms.py:52 donate/payments/forms.py:66
-#: donate/payments/forms.py:113
+#: donate/payments/forms.py:88 donate/payments/forms.py:102
+#: donate/payments/forms.py:150
 msgid "Amount"
 msgstr "Tutar"
 
-#: donate/payments/forms.py:79
+#: donate/payments/forms.py:115
 msgid "First name"
 msgstr "Ad"
 
-#: donate/payments/forms.py:80
+#: donate/payments/forms.py:116
 msgid "Last name"
 msgstr "Soyadı"
 
-#: donate/payments/forms.py:81 donate/payments/forms.py:123
-#: donate/templates/pages/core/contributor_support_page_master.html:61
+#: donate/payments/forms.py:117 donate/payments/forms.py:160
+#: donate/templates/pages/core/contributor_support_page_master.html:62
 msgid "Email"
 msgstr "E-posta"
 
-#: donate/payments/forms.py:82
+#: donate/payments/forms.py:118
 msgid "Street"
 msgstr "Sokak"
 
-#: donate/payments/forms.py:83
+#: donate/payments/forms.py:119
 msgid "City"
 msgstr "Şehir"
 
-#: donate/payments/forms.py:87
+#: donate/payments/forms.py:123
 msgctxt "Feel free to replace with “Postal code” or equivalent"
 msgid "ZIP Code"
 msgstr "Posta kodu"
 
-#: donate/payments/forms.py:90
+#: donate/payments/forms.py:127
 msgid "Country"
 msgstr "Ülke"
 
-#: donate/payments/forms.py:131 donate/templates/pages/base_page_master.html:87
+#: donate/payments/forms.py:168
 #, python-format
 msgid "I’m okay with Mozilla handling my info as explained in this <a href='%(url)s'>Privacy Notice</a>."
 msgstr "Mozilla’nın bilgilerimi bu <a href='%(url)s'>Gizlilik Bildirimi’nde</a> açıklandığı şekilde kullanmasını kabul ediyorum."
 
-#: donate/payments/views.py:161
+#: donate/payments/views.py:160
 msgid "The type of card you used is not accepted."
 msgstr "Kullandığınız kart türü kabul edilmiyor."
 
-#: donate/payments/views.py:162 donate/payments/views.py:163
+#: donate/payments/views.py:161 donate/payments/views.py:162
 msgid "The CVV code you entered was invalid."
 msgstr "Girdiğiniz CVV kodu geçersiz."
 
-#: donate/payments/views.py:164
+#: donate/payments/views.py:163
 msgid "The expiration date you entered was invalid."
 msgstr "Girdiğiniz son kullanma tarihi geçersiz."
 
-#: donate/payments/views.py:165
+#: donate/payments/views.py:164
 msgid "The credit card number you entered was invalid."
 msgstr "Girdiğiniz kredi kartı numarası geçersiz."
 
-#: donate/payments/views.py:174 donate/payments/views.py:175
+#: donate/payments/views.py:173 donate/payments/views.py:174
 msgid "The post code you provided is not valid."
 msgstr "Girdiğiniz posta kodu geçersiz."
 
-#: donate/payments/views.py:189
+#: donate/payments/views.py:188
 msgid "Sorry there was an error processing your payment. Please try again later or use a different payment method."
 msgstr "Maalesef ödemeniz işleme koyulurken bir hata oluştu. Lütfen daha sonra tekrar deneyin veya farklı bir ödeme yöntemi kullanın."
 
-#: donate/payments/views.py:383
+#: donate/payments/views.py:384
 msgid "Something went wrong. We were unable to process your payment."
 msgstr "Bir sorun oluştu. Ödemenizi işleyemedik."
 
-#: donate/payments/views.py:635 donate/payments/views.py:744
+#: donate/payments/views.py:638 donate/payments/views.py:747
 msgid "Sorry there was an error processing your payment. Please try again later."
 msgstr "Maalesef ödemeniz işlenirken bir hata oluştu. Lütfen daha sonra tekrar deneyin."
 
@@ -202,7 +202,7 @@ msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization base
 msgstr ""
 
 #: donate/templates/fragments/language_switcher.html:10
-#: donate/templates/pages/core/contributor_support_page_master.html:66
+#: donate/templates/pages/core/contributor_support_page_master.html:67
 msgid "Language"
 msgstr "Dil"
 
@@ -226,79 +226,7 @@ msgstr "Ne yapabilirsiniz?"
 msgid "Blog"
 msgstr "Blog"
 
-#: donate/templates/pages/base_page_master.html:51
-msgid "Menu"
-msgstr "Menü"
-
-#: donate/templates/pages/base_page_master.html:76
-msgid "Protect the internet as a global public resource"
-msgstr "İnterneti birlikte koruyalım"
-
-#: donate/templates/pages/base_page_master.html:82
-msgid "Join our email list to take action and stay updated!"
-msgstr "Harekete geçmek ve yeniliklerden haberdar olmak için e-posta listemize kaydolun."
-
-#: donate/templates/pages/base_page_master.html:85
-msgid "Enter email address"
-msgstr "E-posta adresinizi yazın"
-
-#: donate/templates/pages/base_page_master.html:90
-msgid "Sign up"
-msgstr "Kaydol"
-
-#: donate/templates/pages/base_page_master.html:96
-msgid "Thanks!"
-msgstr "Teşekkürler!"
-
-#: donate/templates/pages/base_page_master.html:97
-msgid "If you haven’t previously confirmed a subscription to a Mozilla-related newsletter you may have to do so. Please check your inbox or your spam filter for an email from us."
-msgstr "Daha önce bir Mozilla bültenine abone olmadıysanız aboneliğinizi onaylamanız gerekebilir. Lütfen gelen kutunuzu veya spam klasörünüzü kontrol edin."
-
-#: donate/templates/pages/base_page_master.html:112
-msgid "More about us"
-msgstr "Hakkımızda"
-
-#: donate/templates/pages/base_page_master.html:116
-#: donate/templates/payment/thank_you_master.html:38
-#: donate/thunderbird/templates/pages/base_page.html:38
-#: donate/thunderbird/templates/payment/thank_you.html:27
-msgid "Twitter"
-msgstr "Twitter"
-
-#: donate/templates/pages/base_page_master.html:122
-msgid "Instagram"
-msgstr "Instagram"
-
-#: donate/templates/pages/base_page_master.html:128
-msgid "GitHub"
-msgstr "GitHub"
-
-#: donate/templates/pages/base_page_master.html:139
-#: donate/thunderbird/templates/pages/base_page.html:53
-msgid "Cookies"
-msgstr "Çerezler"
-
-#: donate/templates/pages/base_page_master.html:142
-#: donate/thunderbird/templates/pages/base_page.html:56
-msgid "Legal"
-msgstr "Yasal Bilgiler"
-
-#: donate/templates/pages/base_page_master.html:145
-#: donate/thunderbird/templates/pages/base_page.html:59
-msgid "Participation Guidelines"
-msgstr "Katılım Kuralları"
-
-#: donate/templates/pages/base_page_master.html:148
-#: donate/thunderbird/templates/pages/base_page.html:62
-msgid "Press Center"
-msgstr "Basın Merkezi"
-
-#: donate/templates/pages/base_page_master.html:151
-#: donate/thunderbird/templates/pages/base_page.html:65
-msgid "Privacy"
-msgstr "Gizlilik"
-
-#: donate/templates/pages/base_page_master.html:172
+#: donate/templates/pages/base_page_master.html:184
 #, python-format
 msgid "Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a %(fomo_link_attributes)s>%(fomo_site_url)s</a>. Most content available under a <a %(cc_link_attributes)s>Creative Commons license</a>."
 msgstr "Mozilla, sizi internet deneyiminizin merkezine koyan ve herkesin iyiliği için web’in geleceğini şekillendirmeyi amaçlayan, kâr amacı gütmeyen, küresel bir kuruluştur. Bizi <a %(fomo_link_attributes)s>%(fomo_site_url)s</a> adresinde bulabilirsiniz. İçeriklerin büyük kısmı <a %(cc_link_attributes)s>Creative Commons lisansı</a> ile kullanıma sunulmuştur."
@@ -342,58 +270,58 @@ msgstr ""
 msgid "Unfortunately, donor care representatives are unable to offer support or help with Firefox technical issues."
 msgstr ""
 
-#: donate/templates/pages/core/contributor_support_page_master.html:56
+#: donate/templates/pages/core/contributor_support_page_master.html:57
 msgid "Contact Name"
 msgstr "Adınız"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:69
+#: donate/templates/pages/core/contributor_support_page_master.html:70
 msgctxt "Option in 'Language' dropdown"
 msgid "None"
 msgstr "Hiçbiri"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:70
+#: donate/templates/pages/core/contributor_support_page_master.html:71
 msgid "English"
 msgstr "İngilizce"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:71
+#: donate/templates/pages/core/contributor_support_page_master.html:72
 msgid "French"
 msgstr "Fransızca"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:72
+#: donate/templates/pages/core/contributor_support_page_master.html:73
 msgid "German"
 msgstr "Almanca"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:73
+#: donate/templates/pages/core/contributor_support_page_master.html:74
 msgid "Spanish"
 msgstr "İspanyolca"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:74
+#: donate/templates/pages/core/contributor_support_page_master.html:75
 msgid "Polish"
 msgstr "Lehçe"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:75
+#: donate/templates/pages/core/contributor_support_page_master.html:76
 msgid "Portuguese"
 msgstr "Portekizce"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:76
+#: donate/templates/pages/core/contributor_support_page_master.html:77
 msgctxt "Option in 'Language' dropdown"
 msgid "Other"
 msgstr "Diğer"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:82
+#: donate/templates/pages/core/contributor_support_page_master.html:83
 msgid "Subject"
 msgstr "Konu"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:87
+#: donate/templates/pages/core/contributor_support_page_master.html:88
 msgid "Description"
 msgstr "Açıklama"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:91
+#: donate/templates/pages/core/contributor_support_page_master.html:92
 #, python-format
 msgid "Mozilla will only use your submitted information for purposes of communicating with you about your request. See our <a href=\"%(privacy_policy)s\">privacy policy</a> for further information."
 msgstr "Mozilla, gönderilen bilgilerinizi yalnızca talebiniz hakkında sizinle iletişim kurmak amacıyla kullanacaktır. Daha fazla bilgi için <a href=\"%(privacy_policy)s\">gizlilik politikamıza</a> bakın."
 
-#: donate/templates/pages/core/contributor_support_page_master.html:93
+#: donate/templates/pages/core/contributor_support_page_master.html:94
 msgid "Submit"
 msgstr "Gönder"
 
@@ -721,57 +649,60 @@ msgid "No"
 msgstr "Hayır"
 
 #: donate/templates/payment/thank_you_master.html:15
-msgid "Your donation will go right to work protecting the web, keeping it open and available to all."
-msgstr "Bağışınızı web’i koruyarak onu herkese açık ve erişilebilir tutmak için kullanacağız."
-
-#: donate/templates/payment/thank_you_master.html:15
+#: donate/thunderbird/templates/payment/thank_you.html:6
 #, python-format
-msgid "We’ve emailed you a donation receipt; if it’s missing, please check your junk/spam folders, then contact us at <a href=\"mailto:%(email)s\">%(email)s</a>."
-msgstr "Bağış makbuzunuzu e-postayla gönderdik. Gelmediyse lütfen önemsiz/spam klasörlerinizi kontrol edin. Yine bulamazsanız<a href=\"mailto:%(email)s\">%(email)s</a> adresinden bize ulaşabilirsiniz."
+msgid "We’ve emailed you a donation receipt; if it’s missing, please check your junk/spam folders, then contact us using <a href=\"%(url)s\">this form</a>."
+msgstr "Bağış makbuzunuzu e-postayla gönderdik. Gelmediyse lütfen önemsiz/spam klasörlerinizi kontrol edin. Yine bulamazsanız <a href=\"%(url)s\">bu formu</a> kullanarak bize ulaşabilirsiniz."
 
-#: donate/templates/payment/thank_you_master.html:17
+#: donate/templates/payment/thank_you_master.html:16
 msgid "Lastly, can you multiply your impact by sharing about the important work Mozilla is doing? Thank you again!"
 msgstr "Son olarak, Mozilla’nın yaptığı önemli çalışmaları paylaşmamıza yardımcı olur musunuz? Tekrar teşekkürler!"
 
-#: donate/templates/payment/thank_you_master.html:22
+#: donate/templates/payment/thank_you_master.html:21
 msgctxt "Used as a tweet"
 msgid "I donated to @mozilla today because I #lovetheweb. Join me and help fight for a better and healthier internet, for all."
 msgstr "Bugün @mozilla'ya bağış yaptım çünkü web'i seviyorum. Daha iyi ve sağlıklı bir interneti birlikte savunalım. #lovetheweb"
 
-#: donate/templates/payment/thank_you_master.html:23
+#: donate/templates/payment/thank_you_master.html:22
 msgctxt "Email subject line"
 msgid "I donated to Mozilla today"
 msgstr "Bugün Mozilla'ya bağış yaptım"
 
-#: donate/templates/payment/thank_you_master.html:27
+#: donate/templates/payment/thank_you_master.html:26
 #: donate/thunderbird/templates/payment/thank_you.html:16
 msgid "Share on Facebook"
 msgstr "Facebook’ta paylaş"
 
-#: donate/templates/payment/thank_you_master.html:31
+#: donate/templates/payment/thank_you_master.html:30
 #: donate/thunderbird/templates/pages/base_page.html:44
 #: donate/thunderbird/templates/payment/thank_you.html:20
 msgid "Facebook"
 msgstr "Facebook"
 
-#: donate/templates/payment/thank_you_master.html:34
+#: donate/templates/payment/thank_you_master.html:33
 #: donate/thunderbird/templates/payment/thank_you.html:23
 msgid "Share on Twitter"
 msgstr "Twitter’da paylaş"
 
-#: donate/templates/payment/thank_you_master.html:44
+#: donate/templates/payment/thank_you_master.html:37
+#: donate/thunderbird/templates/pages/base_page.html:38
+#: donate/thunderbird/templates/payment/thank_you.html:27
+msgid "Twitter"
+msgstr "Twitter"
+
+#: donate/templates/payment/thank_you_master.html:43
 #: donate/thunderbird/templates/payment/thank_you.html:33
 msgctxt "Share button"
 msgid "Email"
 msgstr "E-posta"
 
-#: donate/templates/payment/thank_you_master.html:54
+#: donate/templates/payment/thank_you_master.html:53
 #: donate/thunderbird/templates/payment/thank_you.html:43
 msgctxt "Share button"
 msgid "Link"
 msgstr "Bağlantı"
 
-#: donate/templates/payment/thank_you_master.html:55
+#: donate/templates/payment/thank_you_master.html:54
 #: donate/thunderbird/templates/payment/thank_you.html:44
 msgid "Copied"
 msgstr "Kopyalandı"
@@ -806,6 +737,26 @@ msgstr "Aylık bağışlar her ayın aynı günü (bugün) çekilir ve iptal edi
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:27
 msgid "Contributions go to MZLA Technologies Corporation, a California corporation wholly owned by the Mozilla Foundation. Funds will be reserved for use in the Thunderbird project. Contributions are not tax-deductible as charitable contributions."
 msgstr "Bağışlarınız, tamamı Mozilla Foundation'a ait olan California merkezli MZLA Technologies Corporation'a gitmektedir. Bağışlar Thunderbird projesinde kullanılmak üzere ayrılır. Bu bağışlar vergiden düşülemez."
+
+#: donate/thunderbird/templates/pages/base_page.html:53
+msgid "Cookies"
+msgstr "Çerezler"
+
+#: donate/thunderbird/templates/pages/base_page.html:56
+msgid "Legal"
+msgstr "Yasal Bilgiler"
+
+#: donate/thunderbird/templates/pages/base_page.html:59
+msgid "Participation Guidelines"
+msgstr "Katılım Kuralları"
+
+#: donate/thunderbird/templates/pages/base_page.html:62
+msgid "Press Center"
+msgstr "Basın Merkezi"
+
+#: donate/thunderbird/templates/pages/base_page.html:65
+msgid "Privacy"
+msgstr "Gizlilik"
 
 #: donate/thunderbird/templates/pages/base_page.html:75
 #, python-format
@@ -874,11 +825,6 @@ msgstr "Bugünden bir ay sonra başlayıp her ay devam etmek üzere, ben iptal e
 msgid "We’re working hard to protect your inbox. Sign up to receive email messages concerning Thunderbird, including updates and requests for feedback."
 msgstr "Gelen kutunuzu korumak için çok çalışıyoruz. Thunderbird’le ilgili haberler ve görüş taleplerimiz e-posta adresinize gelsin isterseniz kaydolabilirsiniz."
 
-#: donate/thunderbird/templates/payment/thank_you.html:6
-#, python-format
-msgid "We’ve emailed you a donation receipt; if it’s missing, please check your junk/spam folders, then contact us using <a href=\"%(url)s\">this form</a>."
-msgstr "Bağış makbuzunuzu e-postayla gönderdik. Gelmediyse lütfen önemsiz/spam klasörlerinizi kontrol edin. Yine bulamazsanız <a href=\"%(url)s\">bu formu</a> kullanarak bize ulaşabilirsiniz."
-
 #: donate/thunderbird/templates/payment/thank_you.html:7
 msgid "Lastly, can you multiply your impact by sharing about the important work Thunderbird is doing? Thank you again!"
 msgstr "Son olarak, Thunderbird’ün yaptığı önemli çalışmaları paylaşmamıza yardımcı olur musunuz? Tekrar teşekkürler!"
@@ -892,6 +838,42 @@ msgstr "Bugün @mozthunderbird'e bağış yaptım, gelen kutumu özgür bırakt�
 msgctxt "Email subject line"
 msgid "I donated to Thunderbird today"
 msgstr "Bugün Thunderbird'e bağış yaptım"
+
+#~ msgid "Menu"
+#~ msgstr "Menü"
+
+#~ msgid "Protect the internet as a global public resource"
+#~ msgstr "İnterneti birlikte koruyalım"
+
+#~ msgid "Join our email list to take action and stay updated!"
+#~ msgstr "Harekete geçmek ve yeniliklerden haberdar olmak için e-posta listemize kaydolun."
+
+#~ msgid "Enter email address"
+#~ msgstr "E-posta adresinizi yazın"
+
+#~ msgid "Sign up"
+#~ msgstr "Kaydol"
+
+#~ msgid "Thanks!"
+#~ msgstr "Teşekkürler!"
+
+#~ msgid "If you haven’t previously confirmed a subscription to a Mozilla-related newsletter you may have to do so. Please check your inbox or your spam filter for an email from us."
+#~ msgstr "Daha önce bir Mozilla bültenine abone olmadıysanız aboneliğinizi onaylamanız gerekebilir. Lütfen gelen kutunuzu veya spam klasörünüzü kontrol edin."
+
+#~ msgid "More about us"
+#~ msgstr "Hakkımızda"
+
+#~ msgid "Instagram"
+#~ msgstr "Instagram"
+
+#~ msgid "GitHub"
+#~ msgstr "GitHub"
+
+#~ msgid "Your donation will go right to work protecting the web, keeping it open and available to all."
+#~ msgstr "Bağışınızı web’i koruyarak onu herkese açık ve erişilebilir tutmak için kullanacağız."
+
+#~ msgid "We’ve emailed you a donation receipt; if it’s missing, please check your junk/spam folders, then contact us at <a href=\"mailto:%(email)s\">%(email)s</a>."
+#~ msgstr "Bağış makbuzunuzu e-postayla gönderdik. Gelmediyse lütfen önemsiz/spam klasörlerinizi kontrol edin. Yine bulamazsanız<a href=\"mailto:%(email)s\">%(email)s</a> adresinden bize ulaşabilirsiniz."
 
 #~ msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"mailto:%(email)s\">Send us an email</a>."
 #~ msgstr "Bağış yapmayla ilgili sorularınız mı var? Sık sorulan sorular için <a href=\"%(faq_url)s\">SSS</a>'ye bakabilirsiniz. Başka bir sorunuz var mı? <a href=\"mailto:%(email)s\">Bize e-posta gönderin</a>."

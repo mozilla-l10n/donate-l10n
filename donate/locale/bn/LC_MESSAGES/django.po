@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-19 16:41+0000\n"
+"POT-Creation-Date: 2021-07-22 06:51+0000\n"
 "PO-Revision-Date: 2019-11-15 15:10+0000\n"
 "Last-Translator: Belayet Hossain <bellayet@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Pontoon\n"
 
-#: donate/core/translation.py:12
+#: donate/core/translation.py:12 donate/payments/forms.py:83
 msgid "This field is required."
 msgstr "এই ক্ষেত্রটি প্রয়োজন।"
 
@@ -31,80 +31,80 @@ msgstr "একটি নম্বর লিখুন।"
 msgid "Enter a valid email address."
 msgstr "একটি বৈধ ইমেইল অ্যাড্রেস দিন।"
 
-#: donate/payments/forms.py:45
+#: donate/payments/forms.py:54
 #, python-format
 msgid "Donations must be %(amount)s or more"
 msgstr ""
 
-#: donate/payments/forms.py:52 donate/payments/forms.py:66
-#: donate/payments/forms.py:113
+#: donate/payments/forms.py:88 donate/payments/forms.py:102
+#: donate/payments/forms.py:150
 msgid "Amount"
 msgstr "পরিমাণ"
 
-#: donate/payments/forms.py:79
+#: donate/payments/forms.py:115
 msgid "First name"
 msgstr "নামের প্রথমাংশ"
 
-#: donate/payments/forms.py:80
+#: donate/payments/forms.py:116
 msgid "Last name"
 msgstr "নামের শেষাংশ"
 
-#: donate/payments/forms.py:81 donate/payments/forms.py:123
-#: donate/templates/pages/core/contributor_support_page_master.html:61
+#: donate/payments/forms.py:117 donate/payments/forms.py:160
+#: donate/templates/pages/core/contributor_support_page_master.html:62
 msgid "Email"
 msgstr "ইমেইল"
 
-#: donate/payments/forms.py:82
+#: donate/payments/forms.py:118
 msgid "Street"
 msgstr "রাস্তা"
 
-#: donate/payments/forms.py:83
+#: donate/payments/forms.py:119
 msgid "City"
 msgstr "শহর"
 
-#: donate/payments/forms.py:87
+#: donate/payments/forms.py:123
 msgctxt "Feel free to replace with “Postal code” or equivalent"
 msgid "ZIP Code"
 msgstr "ZIP কোড"
 
-#: donate/payments/forms.py:90
+#: donate/payments/forms.py:127
 msgid "Country"
 msgstr "দেশ"
 
-#: donate/payments/forms.py:131 donate/templates/pages/base_page_master.html:87
+#: donate/payments/forms.py:168
 #, python-format
 msgid "I’m okay with Mozilla handling my info as explained in this <a href='%(url)s'>Privacy Notice</a>."
 msgstr "আমি এই <a href='%(url)s'>গোপনীয়তা বিজ্ঞপ্তি</a> তে বর্ণিত যেভাবে Mozilla আমার তথ্য পরিচালনা করার তার সাথে একমত আছি।"
 
-#: donate/payments/views.py:161
+#: donate/payments/views.py:160
 msgid "The type of card you used is not accepted."
 msgstr "আপনি যে ধরণের কার্ড ব্যবহার করেছেন তা গ্রহণযোগ্য নয়।"
 
-#: donate/payments/views.py:162 donate/payments/views.py:163
+#: donate/payments/views.py:161 donate/payments/views.py:162
 msgid "The CVV code you entered was invalid."
 msgstr "আপনার দেয়া CVV সঠিক নয়।"
 
-#: donate/payments/views.py:164
+#: donate/payments/views.py:163
 msgid "The expiration date you entered was invalid."
 msgstr "আপনি মেয়াদ উত্তীর্ণের যে তারিখ দিয়েছেন তা অকার্যকর।"
 
-#: donate/payments/views.py:165
+#: donate/payments/views.py:164
 msgid "The credit card number you entered was invalid."
 msgstr "আপনার দেয়া ক্রেডিট কার্ড নম্বরটি অবৈধ।"
 
-#: donate/payments/views.py:174 donate/payments/views.py:175
+#: donate/payments/views.py:173 donate/payments/views.py:174
 msgid "The post code you provided is not valid."
 msgstr "আপনার প্রদত্ত পোস্ট কোডটি বৈধ নয়।"
 
-#: donate/payments/views.py:189
+#: donate/payments/views.py:188
 msgid "Sorry there was an error processing your payment. Please try again later or use a different payment method."
 msgstr "দুঃখিত, আপনার অর্থ প্রদান প্রক্রিয়াকরনের সময় একটি ত্রুটি হয়েছিল। দয়া করে পরে আবার চেষ্টা করুন বা অর্থ প্রদানের অন্য পদ্ধতি ব্যবহার করুন।"
 
-#: donate/payments/views.py:383
+#: donate/payments/views.py:384
 msgid "Something went wrong. We were unable to process your payment."
 msgstr "কিছু ভুল হয়েছে। আমরা আপনার অর্থ প্রদান প্রক্রিয়াকরনে অক্ষম।"
 
-#: donate/payments/views.py:635 donate/payments/views.py:744
+#: donate/payments/views.py:638 donate/payments/views.py:747
 msgid "Sorry there was an error processing your payment. Please try again later."
 msgstr "দুঃখিত, আপনার অর্থ প্রদানের প্রক্রিয়া করার সময় একটি ত্রুটি হয়েছিল। পরে আবার চেষ্টা করুন।"
 
@@ -202,7 +202,7 @@ msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization base
 msgstr ""
 
 #: donate/templates/fragments/language_switcher.html:10
-#: donate/templates/pages/core/contributor_support_page_master.html:66
+#: donate/templates/pages/core/contributor_support_page_master.html:67
 msgid "Language"
 msgstr ""
 
@@ -226,79 +226,7 @@ msgstr ""
 msgid "Blog"
 msgstr ""
 
-#: donate/templates/pages/base_page_master.html:51
-msgid "Menu"
-msgstr "মেন্যু"
-
-#: donate/templates/pages/base_page_master.html:76
-msgid "Protect the internet as a global public resource"
-msgstr "ইন্টারনেটকে বিশ্বব্যাপী জনসম্পদ হিসাবে সুরক্ষিত করুন"
-
-#: donate/templates/pages/base_page_master.html:82
-msgid "Join our email list to take action and stay updated!"
-msgstr "পদক্ষেপ নিতে এবং আপডেট থাকার জন্য আমাদের ইমেল তালিকায় যোগ দিন!"
-
-#: donate/templates/pages/base_page_master.html:85
-msgid "Enter email address"
-msgstr "ইমেইল অ্যাড্রেস দিন"
-
-#: donate/templates/pages/base_page_master.html:90
-msgid "Sign up"
-msgstr "সাইন আপ"
-
-#: donate/templates/pages/base_page_master.html:96
-msgid "Thanks!"
-msgstr "ধন্যবাদ!"
-
-#: donate/templates/pages/base_page_master.html:97
-msgid "If you haven’t previously confirmed a subscription to a Mozilla-related newsletter you may have to do so. Please check your inbox or your spam filter for an email from us."
-msgstr "আপনি যদি পূর্বে Mozilla-সম্পর্কিত নিউজলেটারে সাবস্ক্রিপশন নিশ্চিত করে না থাকেন তাহলে তা আপনাকে করতে হবে। আমাদের পাঠানোর ইমেইল দেখতে অনুগ্রহ করে আপনার ইনবক্স অথবা আপনার স্প্যাম ফিল্টার দেখুন।"
-
-#: donate/templates/pages/base_page_master.html:112
-msgid "More about us"
-msgstr "আমাদের সম্পর্কে আরও"
-
-#: donate/templates/pages/base_page_master.html:116
-#: donate/templates/payment/thank_you_master.html:38
-#: donate/thunderbird/templates/pages/base_page.html:38
-#: donate/thunderbird/templates/payment/thank_you.html:27
-msgid "Twitter"
-msgstr "টুইটার"
-
-#: donate/templates/pages/base_page_master.html:122
-msgid "Instagram"
-msgstr "ইনস্টাগ্রাম"
-
-#: donate/templates/pages/base_page_master.html:128
-msgid "GitHub"
-msgstr "GitHub"
-
-#: donate/templates/pages/base_page_master.html:139
-#: donate/thunderbird/templates/pages/base_page.html:53
-msgid "Cookies"
-msgstr ""
-
-#: donate/templates/pages/base_page_master.html:142
-#: donate/thunderbird/templates/pages/base_page.html:56
-msgid "Legal"
-msgstr "আইনগত"
-
-#: donate/templates/pages/base_page_master.html:145
-#: donate/thunderbird/templates/pages/base_page.html:59
-msgid "Participation Guidelines"
-msgstr "অংশগ্রহণের নির্দেশিকা"
-
-#: donate/templates/pages/base_page_master.html:148
-#: donate/thunderbird/templates/pages/base_page.html:62
-msgid "Press Center"
-msgstr ""
-
-#: donate/templates/pages/base_page_master.html:151
-#: donate/thunderbird/templates/pages/base_page.html:65
-msgid "Privacy"
-msgstr "গোপনীয়তা"
-
-#: donate/templates/pages/base_page_master.html:172
+#: donate/templates/pages/base_page_master.html:184
 #, fuzzy, python-format
 msgid "Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a %(fomo_link_attributes)s>%(fomo_site_url)s</a>. Most content available under a <a %(cc_link_attributes)s>Creative Commons license</a>."
 msgstr "Mozilla হ'ল একটি বিশ্বব্যাপী অলাভজনক যা আপনার অনলাইন অভিজ্ঞতার নিয়ন্ত্রণে রাখার জন্য এবং ওয়েবের সার্বজনীন ভবিষ্যতের জন্য রূপদানের জন্য নিবেদিত। দেখুন <a %(link_attributes)s>%(site_url)s</a>।"
@@ -342,58 +270,58 @@ msgstr ""
 msgid "Unfortunately, donor care representatives are unable to offer support or help with Firefox technical issues."
 msgstr ""
 
-#: donate/templates/pages/core/contributor_support_page_master.html:56
+#: donate/templates/pages/core/contributor_support_page_master.html:57
 msgid "Contact Name"
 msgstr ""
 
-#: donate/templates/pages/core/contributor_support_page_master.html:69
+#: donate/templates/pages/core/contributor_support_page_master.html:70
 msgctxt "Option in 'Language' dropdown"
 msgid "None"
 msgstr ""
 
-#: donate/templates/pages/core/contributor_support_page_master.html:70
+#: donate/templates/pages/core/contributor_support_page_master.html:71
 msgid "English"
 msgstr ""
 
-#: donate/templates/pages/core/contributor_support_page_master.html:71
+#: donate/templates/pages/core/contributor_support_page_master.html:72
 msgid "French"
 msgstr ""
 
-#: donate/templates/pages/core/contributor_support_page_master.html:72
+#: donate/templates/pages/core/contributor_support_page_master.html:73
 msgid "German"
 msgstr ""
 
-#: donate/templates/pages/core/contributor_support_page_master.html:73
+#: donate/templates/pages/core/contributor_support_page_master.html:74
 msgid "Spanish"
 msgstr ""
 
-#: donate/templates/pages/core/contributor_support_page_master.html:74
+#: donate/templates/pages/core/contributor_support_page_master.html:75
 msgid "Polish"
 msgstr ""
 
-#: donate/templates/pages/core/contributor_support_page_master.html:75
+#: donate/templates/pages/core/contributor_support_page_master.html:76
 msgid "Portuguese"
 msgstr ""
 
-#: donate/templates/pages/core/contributor_support_page_master.html:76
+#: donate/templates/pages/core/contributor_support_page_master.html:77
 msgctxt "Option in 'Language' dropdown"
 msgid "Other"
 msgstr ""
 
-#: donate/templates/pages/core/contributor_support_page_master.html:82
+#: donate/templates/pages/core/contributor_support_page_master.html:83
 msgid "Subject"
 msgstr ""
 
-#: donate/templates/pages/core/contributor_support_page_master.html:87
+#: donate/templates/pages/core/contributor_support_page_master.html:88
 msgid "Description"
 msgstr ""
 
-#: donate/templates/pages/core/contributor_support_page_master.html:91
+#: donate/templates/pages/core/contributor_support_page_master.html:92
 #, python-format
 msgid "Mozilla will only use your submitted information for purposes of communicating with you about your request. See our <a href=\"%(privacy_policy)s\">privacy policy</a> for further information."
 msgstr ""
 
-#: donate/templates/pages/core/contributor_support_page_master.html:93
+#: donate/templates/pages/core/contributor_support_page_master.html:94
 msgid "Submit"
 msgstr ""
 
@@ -724,57 +652,60 @@ msgid "No"
 msgstr "না"
 
 #: donate/templates/payment/thank_you_master.html:15
-msgid "Your donation will go right to work protecting the web, keeping it open and available to all."
-msgstr "আপনার অনুদানটি ওয়েবকে সুরক্ষিত করে কাজ করার জন্য সরাসরি এটিকে খোলা রাখবে এবং সবার জন্য উপলব্ধ থাকবে।"
-
-#: donate/templates/payment/thank_you_master.html:15
-#, python-format
-msgid "We’ve emailed you a donation receipt; if it’s missing, please check your junk/spam folders, then contact us at <a href=\"mailto:%(email)s\">%(email)s</a>."
+#: donate/thunderbird/templates/payment/thank_you.html:6
+#, fuzzy, python-format
+msgid "We’ve emailed you a donation receipt; if it’s missing, please check your junk/spam folders, then contact us using <a href=\"%(url)s\">this form</a>."
 msgstr "আমরা আপনাকে অনুদানের রশিদ ইমেল করেছি; যদি এটি না পান, তবে দয়া করে আপনার জাঙ্ক/স্প্যাম ফোল্ডার দেখুন, তারপর <a href=\"mailto:%(email)s\">%(email)s</a> এ আমাদের সাথে যোগাযোগ করুন।"
 
-#: donate/templates/payment/thank_you_master.html:17
+#: donate/templates/payment/thank_you_master.html:16
 msgid "Lastly, can you multiply your impact by sharing about the important work Mozilla is doing? Thank you again!"
 msgstr "শেষ অবধি, Mozilla যে গুরুত্বপূর্ণ কাজটি করছে তা শেয়ার করে আপনি কি আপনার প্রভাবকে বহুগুণ করতে পারেন? আবারো আপনাকে ধন্যবাদ!"
 
-#: donate/templates/payment/thank_you_master.html:22
+#: donate/templates/payment/thank_you_master.html:21
 msgctxt "Used as a tweet"
 msgid "I donated to @mozilla today because I #lovetheweb. Join me and help fight for a better and healthier internet, for all."
 msgstr "আমি আজ @mozilla কে অনুদান দিয়েছি কারণ আমি #lovetheweb। আমার সাথে যোগ দিন এবং সবার জন্য আরো ভালো, স্বাস্থ্যকর ইন্টারনেটের জন্য লড়াই করতে সাহায্য করুন।"
 
-#: donate/templates/payment/thank_you_master.html:23
+#: donate/templates/payment/thank_you_master.html:22
 msgctxt "Email subject line"
 msgid "I donated to Mozilla today"
 msgstr "আমি আজ Mozilla তে অনুদান দিয়েছি"
 
-#: donate/templates/payment/thank_you_master.html:27
+#: donate/templates/payment/thank_you_master.html:26
 #: donate/thunderbird/templates/payment/thank_you.html:16
 msgid "Share on Facebook"
 msgstr "Facebook এ শেয়ার করুন"
 
-#: donate/templates/payment/thank_you_master.html:31
+#: donate/templates/payment/thank_you_master.html:30
 #: donate/thunderbird/templates/pages/base_page.html:44
 #: donate/thunderbird/templates/payment/thank_you.html:20
 msgid "Facebook"
 msgstr "Facebook"
 
-#: donate/templates/payment/thank_you_master.html:34
+#: donate/templates/payment/thank_you_master.html:33
 #: donate/thunderbird/templates/payment/thank_you.html:23
 msgid "Share on Twitter"
 msgstr "Twitter এ শেয়ার করুন"
 
-#: donate/templates/payment/thank_you_master.html:44
+#: donate/templates/payment/thank_you_master.html:37
+#: donate/thunderbird/templates/pages/base_page.html:38
+#: donate/thunderbird/templates/payment/thank_you.html:27
+msgid "Twitter"
+msgstr "টুইটার"
+
+#: donate/templates/payment/thank_you_master.html:43
 #: donate/thunderbird/templates/payment/thank_you.html:33
 msgctxt "Share button"
 msgid "Email"
 msgstr "ইমেইল"
 
-#: donate/templates/payment/thank_you_master.html:54
+#: donate/templates/payment/thank_you_master.html:53
 #: donate/thunderbird/templates/payment/thank_you.html:43
 msgctxt "Share button"
 msgid "Link"
 msgstr "লিঙ্ক"
 
-#: donate/templates/payment/thank_you_master.html:55
+#: donate/templates/payment/thank_you_master.html:54
 #: donate/thunderbird/templates/payment/thank_you.html:44
 msgid "Copied"
 msgstr "অনুলিপি হয়েছে"
@@ -810,6 +741,26 @@ msgstr "আপনি আজ যে দিন অনুদান দিয়েছ�
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:27
 msgid "Contributions go to MZLA Technologies Corporation, a California corporation wholly owned by the Mozilla Foundation. Funds will be reserved for use in the Thunderbird project. Contributions are not tax-deductible as charitable contributions."
 msgstr ""
+
+#: donate/thunderbird/templates/pages/base_page.html:53
+msgid "Cookies"
+msgstr ""
+
+#: donate/thunderbird/templates/pages/base_page.html:56
+msgid "Legal"
+msgstr "আইনগত"
+
+#: donate/thunderbird/templates/pages/base_page.html:59
+msgid "Participation Guidelines"
+msgstr "অংশগ্রহণের নির্দেশিকা"
+
+#: donate/thunderbird/templates/pages/base_page.html:62
+msgid "Press Center"
+msgstr ""
+
+#: donate/thunderbird/templates/pages/base_page.html:65
+msgid "Privacy"
+msgstr "গোপনীয়তা"
 
 #: donate/thunderbird/templates/pages/base_page.html:75
 #, python-format
@@ -881,11 +832,6 @@ msgstr ""
 msgid "We’re working hard to protect your inbox. Sign up to receive email messages concerning Thunderbird, including updates and requests for feedback."
 msgstr ""
 
-#: donate/thunderbird/templates/payment/thank_you.html:6
-#, fuzzy, python-format
-msgid "We’ve emailed you a donation receipt; if it’s missing, please check your junk/spam folders, then contact us using <a href=\"%(url)s\">this form</a>."
-msgstr "আমরা আপনাকে অনুদানের রশিদ ইমেল করেছি; যদি এটি না পান, তবে দয়া করে আপনার জাঙ্ক/স্প্যাম ফোল্ডার দেখুন, তারপর <a href=\"mailto:%(email)s\">%(email)s</a> এ আমাদের সাথে যোগাযোগ করুন।"
-
 #: donate/thunderbird/templates/payment/thank_you.html:7
 #, fuzzy
 msgid "Lastly, can you multiply your impact by sharing about the important work Thunderbird is doing? Thank you again!"
@@ -900,6 +846,42 @@ msgstr "আমি আজ @mozthunderbird কে #freetheinbox এ অনুদ�
 msgctxt "Email subject line"
 msgid "I donated to Thunderbird today"
 msgstr "আমি আজ Thunderbird কে অনুদান দিয়েছি"
+
+#~ msgid "Menu"
+#~ msgstr "মেন্যু"
+
+#~ msgid "Protect the internet as a global public resource"
+#~ msgstr "ইন্টারনেটকে বিশ্বব্যাপী জনসম্পদ হিসাবে সুরক্ষিত করুন"
+
+#~ msgid "Join our email list to take action and stay updated!"
+#~ msgstr "পদক্ষেপ নিতে এবং আপডেট থাকার জন্য আমাদের ইমেল তালিকায় যোগ দিন!"
+
+#~ msgid "Enter email address"
+#~ msgstr "ইমেইল অ্যাড্রেস দিন"
+
+#~ msgid "Sign up"
+#~ msgstr "সাইন আপ"
+
+#~ msgid "Thanks!"
+#~ msgstr "ধন্যবাদ!"
+
+#~ msgid "If you haven’t previously confirmed a subscription to a Mozilla-related newsletter you may have to do so. Please check your inbox or your spam filter for an email from us."
+#~ msgstr "আপনি যদি পূর্বে Mozilla-সম্পর্কিত নিউজলেটারে সাবস্ক্রিপশন নিশ্চিত করে না থাকেন তাহলে তা আপনাকে করতে হবে। আমাদের পাঠানোর ইমেইল দেখতে অনুগ্রহ করে আপনার ইনবক্স অথবা আপনার স্প্যাম ফিল্টার দেখুন।"
+
+#~ msgid "More about us"
+#~ msgstr "আমাদের সম্পর্কে আরও"
+
+#~ msgid "Instagram"
+#~ msgstr "ইনস্টাগ্রাম"
+
+#~ msgid "GitHub"
+#~ msgstr "GitHub"
+
+#~ msgid "Your donation will go right to work protecting the web, keeping it open and available to all."
+#~ msgstr "আপনার অনুদানটি ওয়েবকে সুরক্ষিত করে কাজ করার জন্য সরাসরি এটিকে খোলা রাখবে এবং সবার জন্য উপলব্ধ থাকবে।"
+
+#~ msgid "We’ve emailed you a donation receipt; if it’s missing, please check your junk/spam folders, then contact us at <a href=\"mailto:%(email)s\">%(email)s</a>."
+#~ msgstr "আমরা আপনাকে অনুদানের রশিদ ইমেল করেছি; যদি এটি না পান, তবে দয়া করে আপনার জাঙ্ক/স্প্যাম ফোল্ডার দেখুন, তারপর <a href=\"mailto:%(email)s\">%(email)s</a> এ আমাদের সাথে যোগাযোগ করুন।"
 
 #~ msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"mailto:%(email)s\">Send us an email</a>."
 #~ msgstr "দান করতে সমস্যা? সর্বাধিক সাধারণ প্রশ্নের উত্তরের জন্য আমাদের <a href=\"%(faq_url)s\">FAQ</a> দেখুন। এখনও সমস্যা আছে? <a href=\"mailto:%(email)s\">আমাদের ইমেইল করুন</a>।"
