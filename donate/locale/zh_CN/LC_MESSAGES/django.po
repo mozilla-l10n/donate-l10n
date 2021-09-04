@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-22 06:51+0000\n"
-"PO-Revision-Date: 2021-09-04 02:52+0000\n"
+"PO-Revision-Date: 2021-09-04 03:03+0000\n"
 "Last-Translator: 你我皆凡人 <yuanbingyan@mail.ee>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -180,7 +180,7 @@ msgstr "每月捐款会在每月的今天（或捐款日）收款一次，并将
 #: donate/templates/fragments/donate_form_disclaimer_master.html:17
 #, python-format
 msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a> | <a href=\"%(bitcoin_url)s\">Bitcoin</a>"
-msgstr "其他捐款方式：<a href=\"%(wire_transfer_url)s\">单一欧元支付区付款（SEPA）/ 英国银行自动支付清算服务（BACS）</a> | <a href=\"%(check_url)s\">支票</a> | <a href=\"%(bitcoin_url)s\">比特币（Bitcoin）</a>"
+msgstr "其他捐款方式：<a href=\"%(wire_transfer_url)s\">SEPA（欧元）/ BACS（英镑）</a> | <a href=\"%(check_url)s\">支票</a> | <a href=\"%(bitcoin_url)s\">比特币</a>"
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:23 donate/thunderbird/templates/fragments/donate_form_disclaimer.html:21
 #, python-format
@@ -332,7 +332,7 @@ msgstr "银行转账 / 单一欧元支付区转账（SEPA）"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:25
 msgid "We accept donations in Euros through Single European Payment Area (SEPA) transfer, and British Pounds through BACS transfer."
-msgstr "我们接受通过单一欧元支付区（SEPA）网络的欧元转账，以及 BACS 网络的英镑转账捐款。"
+msgstr "我们接受通过 SEPA（欧元）和 BACS（英镑）网络的转账捐款。"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:27
 msgid ""
@@ -345,7 +345,7 @@ msgstr "请注意，对于较小金额（不超过 10 欧元或其等值货币�
 msgid ""
 "Please also note that the Mozilla Foundation cannot accept SEPA or BACS transfers for MZLA/Thunderbird. To contribute to MZLA/Thunderbird via SEPA or BACS transfer, please follow <a "
 "href=\"%(instruction_url)s\">these instructions</a>."
-msgstr "也请注意 Mozilla 基金会无法代表 MZLA/Thunderbird 接受欧洲 SEPA 或 BACS 系统的银行转账款项。若要通过 SEPA 或 BACS 系统转账向 MZLA/Thunderbird 捐款，请按照<a href=\"%(instruction_url)s\">下列步骤</a>。"
+msgstr "也请注意 Mozilla 基金会无法代表 MZLA/Thunderbird 接受 SEPA（欧元）或 BACS（英镑）系统的银行转账款项。若要通过上述方式向 MZLA/Thunderbird 转账捐款，请按照<a href=\"%(instruction_url)s\">下列步骤</a>。"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:36
 msgid "Please remember that donations are deductible for U.S. income tax purposes only."
@@ -684,7 +684,7 @@ msgstr "捐款给 Thunderbird"
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:7
 #, python-format
 msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a>"
-msgstr "其他捐款方式：<a href=\"%(wire_transfer_url)s\">单一欧元支付区付款（SEPA）/ 英国银行自动支付清算服务（BACS）</a> | <a href=\"%(check_url)s\">支票</a>"
+msgstr "其他捐款方式：<a href=\"%(wire_transfer_url)s\">SEPA（欧元）/ BACS（英镑）</a> | <a href=\"%(check_url)s\">支票</a>"
 
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:12
 #, python-format
@@ -746,7 +746,7 @@ msgstr "您的下载将会自动开始。若没有反应，<a href=\"%(url)s\">�
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:8
 msgid "We accept contributions in Euros through Single European Payment Area (SEPA) transfer, and British Pounds through BACS transfer."
-msgstr "我们接受通过单一欧元支付区（SEPA）网络的欧元转账，以及 BACS 网络的英镑转账捐款。"
+msgstr "我们接受通过 SEPA（欧元）和 BACS（英镑）网络的转账捐款。"
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:10
 msgid ""
