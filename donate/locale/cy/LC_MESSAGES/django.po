@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-22 06:51+0000\n"
+"POT-Creation-Date: 2021-09-14 16:43+0000\n"
 "PO-Revision-Date: 2021-05-20 07:53+0000\n"
 "Last-Translator: Rhoslyn Prys <rprys@posteo.net>\n"
 "Language-Team: \n"
@@ -18,7 +18,7 @@ msgstr ""
 "Plural-Forms: nplurals=6; plural=(n == 0) ? 0 : ((n == 1) ? 1 : ((n == 2) ? 2 : ((n == 3) ? 3 : ((n == 6) ? 4 : 5))));\n"
 "X-Generator: Pontoon\n"
 
-#: donate/core/translation.py:12 donate/payments/forms.py:83
+#: donate/core/translation.py:12 donate/payments/forms.py:91
 msgid "This field is required."
 msgstr "Mae angen llanw'r maes hwn"
 
@@ -30,47 +30,47 @@ msgstr "Rhowch rif"
 msgid "Enter a valid email address."
 msgstr "Rhowch gyfeiriad e-bost dilys."
 
-#: donate/payments/forms.py:54
+#: donate/payments/forms.py:61
 #, python-format
 msgid "Donations must be %(amount)s or more"
 msgstr "Rhaid i'r rhoddion fod yn %(amount)s neu fwy"
 
-#: donate/payments/forms.py:88 donate/payments/forms.py:102
-#: donate/payments/forms.py:150
+#: donate/payments/forms.py:96 donate/payments/forms.py:110
+#: donate/payments/forms.py:158
 msgid "Amount"
 msgstr "Swm"
 
-#: donate/payments/forms.py:115
+#: donate/payments/forms.py:123
 msgid "First name"
 msgstr "Enw cyntaf"
 
-#: donate/payments/forms.py:116
+#: donate/payments/forms.py:124
 msgid "Last name"
 msgstr "Enw olaf"
 
-#: donate/payments/forms.py:117 donate/payments/forms.py:160
-#: donate/templates/pages/core/contributor_support_page_master.html:62
+#: donate/payments/forms.py:125 donate/payments/forms.py:168
+#: donate/templates/pages/core/contributor_support_page_master.html:81
 msgid "Email"
 msgstr "E-bost"
 
-#: donate/payments/forms.py:118
+#: donate/payments/forms.py:126
 msgid "Street"
 msgstr "Stryd"
 
-#: donate/payments/forms.py:119
+#: donate/payments/forms.py:127
 msgid "City"
 msgstr "Tref/Dinas"
 
-#: donate/payments/forms.py:123
+#: donate/payments/forms.py:131
 msgctxt "Feel free to replace with “Postal code” or equivalent"
 msgid "ZIP Code"
 msgstr "Cod post"
 
-#: donate/payments/forms.py:127
+#: donate/payments/forms.py:135
 msgid "Country"
 msgstr "Gwlad"
 
-#: donate/payments/forms.py:168
+#: donate/payments/forms.py:176
 #, python-format
 msgid "I’m okay with Mozilla handling my info as explained in this <a href='%(url)s'>Privacy Notice</a>."
 msgstr "Rwy'n fodlon i Mozilla drin fy manylion fel mae'n cael ei esbonio yn y <a href='%(url)s'>Datganiad Preifatrwydd hwn</a>"
@@ -201,7 +201,7 @@ msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization base
 msgstr "Mae cyfraniadau'n mynd i'r Mozilla Foundation, sefydliad 501(c)(3) wedi'i leoli yn San Francisco, California, i'w ddefnyddio yn ôl ei ddisgresiwn at ei ddibenion elusennol. Maent yn ddidynadwy o ran treth yn yr Unol Daleithiau i'r graddau eithaf y mae'n cael ei ganiatáu gan y gyfraith."
 
 #: donate/templates/fragments/language_switcher.html:10
-#: donate/templates/pages/core/contributor_support_page_master.html:67
+#: donate/templates/pages/core/contributor_support_page_master.html:86
 msgid "Language"
 msgstr "Iaith"
 
@@ -253,74 +253,71 @@ msgctxt "Header"
 msgid "Donate now"
 msgstr "Rhowch nawr"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:24
+#: donate/templates/pages/core/contributor_support_page_master.html:39
 msgid "Thank you for contacting us. A case has been created for your issue and we will be in touch shortly."
 msgstr "Diolch am gysylltu â ni. Mae achos wedi'i greu ar gyfer eich mater a byddwn mewn cysylltiad yn fuan."
 
-#: donate/templates/pages/core/contributor_support_page_master.html:30
+#: donate/templates/pages/core/contributor_support_page_master.html:45
 msgid "We will get back to you soon."
 msgstr "Byddwn yn cysylltu â chi yn fuan."
 
-#: donate/templates/pages/core/contributor_support_page_master.html:37
+#: donate/templates/pages/core/contributor_support_page_master.html:52
 msgid "If you need help with a donation to the Mozilla Foundation, please fill out this form and a donor care representative will get back to you as soon as possible."
 msgstr "Os oes angen help arnoch gyda rhodd i'r Mozilla Foundation, llenwch y ffurflen hon a bydd cynrychiolydd gofal rhoddwyr yn cysylltu â chi cyn gynted â phosibl."
 
-#: donate/templates/pages/core/contributor_support_page_master.html:42
-msgid "Unfortunately, donor care representatives are unable to offer support or help with Firefox technical issues."
-msgstr "Yn anffodus, nid yw cynrychiolwyr gofal rhoddwyr yn cynnig cefnogaeth na help gyda materion technegol Firefox."
-
 #: donate/templates/pages/core/contributor_support_page_master.html:57
+#, python-format
+msgid "Unfortunately, donor care representatives are unable to offer support or help with Firefox technical issues. For technical support, please visit the <a href=\"%(support_url)s\">Firefox support page</a>."
+msgstr ""
+
+#: donate/templates/pages/core/contributor_support_page_master.html:76
 msgid "Contact Name"
 msgstr "Enw Cyswllt"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:70
+#: donate/templates/pages/core/contributor_support_page_master.html:89
 msgctxt "Option in 'Language' dropdown"
 msgid "None"
 msgstr "Dim"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:71
+#: donate/templates/pages/core/contributor_support_page_master.html:90
 msgid "English"
 msgstr "Saesneg"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:72
+#: donate/templates/pages/core/contributor_support_page_master.html:91
 msgid "French"
 msgstr "Ffrangeg"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:73
+#: donate/templates/pages/core/contributor_support_page_master.html:92
 msgid "German"
 msgstr "Almaeneg"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:74
+#: donate/templates/pages/core/contributor_support_page_master.html:93
 msgid "Spanish"
 msgstr "Sbaeneg"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:75
+#: donate/templates/pages/core/contributor_support_page_master.html:94
 msgid "Polish"
 msgstr "Pwyleg"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:76
+#: donate/templates/pages/core/contributor_support_page_master.html:95
 msgid "Portuguese"
 msgstr "Portiwgaleg"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:77
+#: donate/templates/pages/core/contributor_support_page_master.html:96
 msgctxt "Option in 'Language' dropdown"
 msgid "Other"
 msgstr "Arall"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:83
-msgid "Subject"
-msgstr "Pwnc"
-
-#: donate/templates/pages/core/contributor_support_page_master.html:88
+#: donate/templates/pages/core/contributor_support_page_master.html:104
 msgid "Description"
 msgstr "Disgrifiad"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:92
+#: donate/templates/pages/core/contributor_support_page_master.html:109
 #, python-format
 msgid "Mozilla will only use your submitted information for purposes of communicating with you about your request. See our <a href=\"%(privacy_policy)s\">privacy policy</a> for further information."
 msgstr "Dim ond at ddibenion cyfathrebu â chi am eich cais y bydd Mozilla yn defnyddio'r manylion rydych wedi'i gyflwyno. Gweler ein <a href=\"%(privacy_policy)s\">polisi preifatrwydd</a> am ragor o wybodaeth."
 
-#: donate/templates/pages/core/contributor_support_page_master.html:94
+#: donate/templates/pages/core/contributor_support_page_master.html:116
 msgid "Submit"
 msgstr "Cyflwyno"
 
@@ -837,6 +834,12 @@ msgstr "Rwyf wedi rhoi i @mozthunderbird heddiw i #freetheinbox. Ymunwch â mi i
 msgctxt "Email subject line"
 msgid "I donated to Thunderbird today"
 msgstr "Rwyf wedi rhoi i Thunderbird heddiw"
+
+#~ msgid "Unfortunately, donor care representatives are unable to offer support or help with Firefox technical issues."
+#~ msgstr "Yn anffodus, nid yw cynrychiolwyr gofal rhoddwyr yn cynnig cefnogaeth na help gyda materion technegol Firefox."
+
+#~ msgid "Subject"
+#~ msgstr "Pwnc"
 
 #~ msgid "Menu"
 #~ msgstr "Dewislen"

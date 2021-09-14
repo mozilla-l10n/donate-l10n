@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-22 06:51+0000\n"
+"POT-Creation-Date: 2021-09-14 16:43+0000\n"
 "PO-Revision-Date: 2021-05-20 03:19+0000\n"
 "Last-Translator: Pin-guang Chen <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pontoon\n"
 
-#: donate/core/translation.py:12 donate/payments/forms.py:83
+#: donate/core/translation.py:12 donate/payments/forms.py:91
 msgid "This field is required."
 msgstr "此欄位必填。"
 
@@ -31,47 +31,47 @@ msgstr "請輸入數字。"
 msgid "Enter a valid email address."
 msgstr "請輸入有效的電子郵件地址。"
 
-#: donate/payments/forms.py:54
+#: donate/payments/forms.py:61
 #, python-format
 msgid "Donations must be %(amount)s or more"
 msgstr "捐款金額必須為 %(amount)s 或以上"
 
-#: donate/payments/forms.py:88 donate/payments/forms.py:102
-#: donate/payments/forms.py:150
+#: donate/payments/forms.py:96 donate/payments/forms.py:110
+#: donate/payments/forms.py:158
 msgid "Amount"
 msgstr "金額"
 
-#: donate/payments/forms.py:115
+#: donate/payments/forms.py:123
 msgid "First name"
 msgstr "名字"
 
-#: donate/payments/forms.py:116
+#: donate/payments/forms.py:124
 msgid "Last name"
 msgstr "姓氏"
 
-#: donate/payments/forms.py:117 donate/payments/forms.py:160
-#: donate/templates/pages/core/contributor_support_page_master.html:62
+#: donate/payments/forms.py:125 donate/payments/forms.py:168
+#: donate/templates/pages/core/contributor_support_page_master.html:81
 msgid "Email"
 msgstr "電子郵件"
 
-#: donate/payments/forms.py:118
+#: donate/payments/forms.py:126
 msgid "Street"
 msgstr "街道"
 
-#: donate/payments/forms.py:119
+#: donate/payments/forms.py:127
 msgid "City"
 msgstr "城市"
 
-#: donate/payments/forms.py:123
+#: donate/payments/forms.py:131
 msgctxt "Feel free to replace with “Postal code” or equivalent"
 msgid "ZIP Code"
 msgstr "郵遞區號"
 
-#: donate/payments/forms.py:127
+#: donate/payments/forms.py:135
 msgid "Country"
 msgstr "國家"
 
-#: donate/payments/forms.py:168
+#: donate/payments/forms.py:176
 #, python-format
 msgid "I’m okay with Mozilla handling my info as explained in this <a href='%(url)s'>Privacy Notice</a>."
 msgstr "我同意 Mozilla 依照<a href='%(url)s'>這份隱私權公告</a>當中描述的方式處理我的資訊。"
@@ -202,7 +202,7 @@ msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization base
 msgstr "Mozilla Foundation 是依照美國稅法 501(c)(3) 條款註冊於美國加州舊金山的組織。對 Mozilla Foundation 的捐款，將可由其依照慈善目的自由運用，捐款人亦可依美國法律規定，扣抵美國國內稅款。"
 
 #: donate/templates/fragments/language_switcher.html:10
-#: donate/templates/pages/core/contributor_support_page_master.html:67
+#: donate/templates/pages/core/contributor_support_page_master.html:86
 msgid "Language"
 msgstr "語言"
 
@@ -254,74 +254,71 @@ msgctxt "Header"
 msgid "Donate now"
 msgstr "立刻捐款"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:24
+#: donate/templates/pages/core/contributor_support_page_master.html:39
 msgid "Thank you for contacting us. A case has been created for your issue and we will be in touch shortly."
 msgstr "感謝您聯絡我們。已針對您的問題建立案件追蹤，我們將盡快回覆。"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:30
+#: donate/templates/pages/core/contributor_support_page_master.html:45
 msgid "We will get back to you soon."
 msgstr "我們將盡快回覆。"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:37
+#: donate/templates/pages/core/contributor_support_page_master.html:52
 msgid "If you need help with a donation to the Mozilla Foundation, please fill out this form and a donor care representative will get back to you as soon as possible."
 msgstr "若您需要對 Mozilla 基金會捐款的相關協助，請填寫下列表單，我們的捐款人服務代表將盡快回覆您。"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:42
-msgid "Unfortunately, donor care representatives are unable to offer support or help with Firefox technical issues."
-msgstr "捐款人服務代表無法協助處理 Firefox 的使用或技術問題。"
-
 #: donate/templates/pages/core/contributor_support_page_master.html:57
+#, python-format
+msgid "Unfortunately, donor care representatives are unable to offer support or help with Firefox technical issues. For technical support, please visit the <a href=\"%(support_url)s\">Firefox support page</a>."
+msgstr ""
+
+#: donate/templates/pages/core/contributor_support_page_master.html:76
 msgid "Contact Name"
 msgstr "聯絡人姓名"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:70
+#: donate/templates/pages/core/contributor_support_page_master.html:89
 msgctxt "Option in 'Language' dropdown"
 msgid "None"
 msgstr "無"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:71
+#: donate/templates/pages/core/contributor_support_page_master.html:90
 msgid "English"
 msgstr "英語"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:72
+#: donate/templates/pages/core/contributor_support_page_master.html:91
 msgid "French"
 msgstr "法語"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:73
+#: donate/templates/pages/core/contributor_support_page_master.html:92
 msgid "German"
 msgstr "德語"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:74
+#: donate/templates/pages/core/contributor_support_page_master.html:93
 msgid "Spanish"
 msgstr "西班牙語"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:75
+#: donate/templates/pages/core/contributor_support_page_master.html:94
 msgid "Polish"
 msgstr "波蘭語"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:76
+#: donate/templates/pages/core/contributor_support_page_master.html:95
 msgid "Portuguese"
 msgstr "葡萄牙語"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:77
+#: donate/templates/pages/core/contributor_support_page_master.html:96
 msgctxt "Option in 'Language' dropdown"
 msgid "Other"
 msgstr "其他"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:83
-msgid "Subject"
-msgstr "主旨"
-
-#: donate/templates/pages/core/contributor_support_page_master.html:88
+#: donate/templates/pages/core/contributor_support_page_master.html:104
 msgid "Description"
 msgstr "描述"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:92
+#: donate/templates/pages/core/contributor_support_page_master.html:109
 #, python-format
 msgid "Mozilla will only use your submitted information for purposes of communicating with you about your request. See our <a href=\"%(privacy_policy)s\">privacy policy</a> for further information."
 msgstr "Mozilla 僅將您提供的資訊用於聯繫處理您的要求。若需更多資訊，請參考我們的<a href=\"%(privacy_policy)s\">隱私權保護政策</a>。"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:94
+#: donate/templates/pages/core/contributor_support_page_master.html:116
 msgid "Submit"
 msgstr "送出"
 
@@ -838,6 +835,12 @@ msgstr "我今天捐款給 @mozthunderbird 保護收件匣了！請與我一起�
 msgctxt "Email subject line"
 msgid "I donated to Thunderbird today"
 msgstr "我今天捐款給 Thunderbird 保護收件匣了！"
+
+#~ msgid "Unfortunately, donor care representatives are unable to offer support or help with Firefox technical issues."
+#~ msgstr "捐款人服務代表無法協助處理 Firefox 的使用或技術問題。"
+
+#~ msgid "Subject"
+#~ msgstr "主旨"
 
 #~ msgid "Menu"
 #~ msgstr "選單"

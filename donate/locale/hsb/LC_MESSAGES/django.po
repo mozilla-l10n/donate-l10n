@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-22 06:51+0000\n"
+"POT-Creation-Date: 2021-09-14 16:43+0000\n"
 "PO-Revision-Date: 2021-05-21 21:47+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);\n"
 "X-Generator: Pontoon\n"
 
-#: donate/core/translation.py:12 donate/payments/forms.py:83
+#: donate/core/translation.py:12 donate/payments/forms.py:91
 msgid "This field is required."
 msgstr "Tute polo je trěbne."
 
@@ -31,47 +31,47 @@ msgstr "Zapodajće ličbu."
 msgid "Enter a valid email address."
 msgstr "Zapodajće płaćiwu e-mejlowu adresu."
 
-#: donate/payments/forms.py:54
+#: donate/payments/forms.py:61
 #, python-format
 msgid "Donations must be %(amount)s or more"
 msgstr "Dary dyrbja znajmjeńša %(amount)s wučinić"
 
-#: donate/payments/forms.py:88 donate/payments/forms.py:102
-#: donate/payments/forms.py:150
+#: donate/payments/forms.py:96 donate/payments/forms.py:110
+#: donate/payments/forms.py:158
 msgid "Amount"
 msgstr "Suma"
 
-#: donate/payments/forms.py:115
+#: donate/payments/forms.py:123
 msgid "First name"
 msgstr "Předmjeno"
 
-#: donate/payments/forms.py:116
+#: donate/payments/forms.py:124
 msgid "Last name"
 msgstr "Swójbne mjeno"
 
-#: donate/payments/forms.py:117 donate/payments/forms.py:160
-#: donate/templates/pages/core/contributor_support_page_master.html:62
+#: donate/payments/forms.py:125 donate/payments/forms.py:168
+#: donate/templates/pages/core/contributor_support_page_master.html:81
 msgid "Email"
 msgstr "E-mejlowa adresa"
 
-#: donate/payments/forms.py:118
+#: donate/payments/forms.py:126
 msgid "Street"
 msgstr "Hasa"
 
-#: donate/payments/forms.py:119
+#: donate/payments/forms.py:127
 msgid "City"
 msgstr "Město"
 
-#: donate/payments/forms.py:123
+#: donate/payments/forms.py:131
 msgctxt "Feel free to replace with “Postal code” or equivalent"
 msgid "ZIP Code"
 msgstr "PWČ"
 
-#: donate/payments/forms.py:127
+#: donate/payments/forms.py:135
 msgid "Country"
 msgstr "Kraj"
 
-#: donate/payments/forms.py:168
+#: donate/payments/forms.py:176
 #, python-format
 msgid "I’m okay with Mozilla handling my info as explained in this <a href='%(url)s'>Privacy Notice</a>."
 msgstr "Sym z tym přezjedny, kak Mozilla po <a href='%(url)s'>tutych prawidłach priwatnosće</a> z mojimi informacijemi wobchadźa."
@@ -202,7 +202,7 @@ msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization base
 msgstr "Dary su za załožbu Mozilla Foundation, organizaciju 501(c)(3) ze sydłom w San Francisco, Kaliforniskej, a su myslene za zaměry, kotrež su powšitkownosći wužitne. Hodźa so w Zjednoćenych statach w najwyšej měrje wot dawka wotsadźić, kotruž zakoń dowoluje."
 
 #: donate/templates/fragments/language_switcher.html:10
-#: donate/templates/pages/core/contributor_support_page_master.html:67
+#: donate/templates/pages/core/contributor_support_page_master.html:86
 msgid "Language"
 msgstr "Rěč"
 
@@ -254,74 +254,71 @@ msgctxt "Header"
 msgid "Donate now"
 msgstr "Nětko darić"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:24
+#: donate/templates/pages/core/contributor_support_page_master.html:39
 msgid "Thank you for contacting us. A case has been created for your issue and we will be in touch shortly."
 msgstr "Dźakujemy so, zo sće nas skontaktował. Pad je so za waš problem wutworił a damy so bórze wot nas słyšeć."
 
-#: donate/templates/pages/core/contributor_support_page_master.html:30
+#: donate/templates/pages/core/contributor_support_page_master.html:45
 msgid "We will get back to you soon."
 msgstr "Stajimy so bórze z wami do zwiska."
 
-#: donate/templates/pages/core/contributor_support_page_master.html:37
+#: donate/templates/pages/core/contributor_support_page_master.html:52
 msgid "If you need help with a donation to the Mozilla Foundation, please fill out this form and a donor care representative will get back to you as soon as possible."
 msgstr "Jeli pomoc z darom za załožbu Mozilla Foundation trjebaće, wupjelńće tutón formular a zastaraćel darow da bórze wot so słyšeć."
 
-#: donate/templates/pages/core/contributor_support_page_master.html:42
-msgid "Unfortunately, donor care representatives are unable to offer support or help with Firefox technical issues."
-msgstr "Bohužel njemóža zastaraćeljo darow podpěru abo pomoc za techniske problemy Firefox poskićić."
-
 #: donate/templates/pages/core/contributor_support_page_master.html:57
+#, python-format
+msgid "Unfortunately, donor care representatives are unable to offer support or help with Firefox technical issues. For technical support, please visit the <a href=\"%(support_url)s\">Firefox support page</a>."
+msgstr ""
+
+#: donate/templates/pages/core/contributor_support_page_master.html:76
 msgid "Contact Name"
 msgstr "Kontaktne mjeno"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:70
+#: donate/templates/pages/core/contributor_support_page_master.html:89
 msgctxt "Option in 'Language' dropdown"
 msgid "None"
 msgstr "Žana"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:71
+#: donate/templates/pages/core/contributor_support_page_master.html:90
 msgid "English"
 msgstr "Jendźelšćina"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:72
+#: donate/templates/pages/core/contributor_support_page_master.html:91
 msgid "French"
 msgstr "Francošćina"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:73
+#: donate/templates/pages/core/contributor_support_page_master.html:92
 msgid "German"
 msgstr "Němčina"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:74
+#: donate/templates/pages/core/contributor_support_page_master.html:93
 msgid "Spanish"
 msgstr "Španišćina"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:75
+#: donate/templates/pages/core/contributor_support_page_master.html:94
 msgid "Polish"
 msgstr "Pólšćina"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:76
+#: donate/templates/pages/core/contributor_support_page_master.html:95
 msgid "Portuguese"
 msgstr "Portugalšćina"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:77
+#: donate/templates/pages/core/contributor_support_page_master.html:96
 msgctxt "Option in 'Language' dropdown"
 msgid "Other"
 msgstr "Druhe"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:83
-msgid "Subject"
-msgstr "Tema"
-
-#: donate/templates/pages/core/contributor_support_page_master.html:88
+#: donate/templates/pages/core/contributor_support_page_master.html:104
 msgid "Description"
 msgstr "Wopisanje"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:92
+#: donate/templates/pages/core/contributor_support_page_master.html:109
 #, python-format
 msgid "Mozilla will only use your submitted information for purposes of communicating with you about your request. See our <a href=\"%(privacy_policy)s\">privacy policy</a> for further information."
 msgstr "Mozilla budźe waše zapodate informacije wužiwać, zo by z wami wo wašim naprašowanju komunikował. Hlejće naše <a href=\"%(privacy_policy)s\">prawidła priwatnosće</a> za dalše informacije."
 
-#: donate/templates/pages/core/contributor_support_page_master.html:94
+#: donate/templates/pages/core/contributor_support_page_master.html:116
 msgid "Submit"
 msgstr "Wotpósłać"
 
@@ -838,6 +835,12 @@ msgstr "Sym dźensa @mozthunderbird darił, za swobodu #dochadpósta. Podpěraj�
 msgctxt "Email subject line"
 msgid "I donated to Thunderbird today"
 msgstr "Sym dźensa Thunderbird darił"
+
+#~ msgid "Unfortunately, donor care representatives are unable to offer support or help with Firefox technical issues."
+#~ msgstr "Bohužel njemóža zastaraćeljo darow podpěru abo pomoc za techniske problemy Firefox poskićić."
+
+#~ msgid "Subject"
+#~ msgstr "Tema"
 
 #~ msgid "Menu"
 #~ msgstr "Meni"

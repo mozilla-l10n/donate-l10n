@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-22 06:51+0000\n"
+"POT-Creation-Date: 2021-09-14 16:43+0000\n"
 "PO-Revision-Date: 2021-05-19 19:58+0000\n"
 "Last-Translator: Іhor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pontoon\n"
 
-#: donate/core/translation.py:12 donate/payments/forms.py:83
+#: donate/core/translation.py:12 donate/payments/forms.py:91
 msgid "This field is required."
 msgstr "Це обов'язкове поле."
 
@@ -31,47 +31,47 @@ msgstr "Введіть число."
 msgid "Enter a valid email address."
 msgstr "Введіть дійсну адресу електронної пошти."
 
-#: donate/payments/forms.py:54
+#: donate/payments/forms.py:61
 #, python-format
 msgid "Donations must be %(amount)s or more"
 msgstr "Внески мають бути не менше %(amount)s"
 
-#: donate/payments/forms.py:88 donate/payments/forms.py:102
-#: donate/payments/forms.py:150
+#: donate/payments/forms.py:96 donate/payments/forms.py:110
+#: donate/payments/forms.py:158
 msgid "Amount"
 msgstr "Сума"
 
-#: donate/payments/forms.py:115
+#: donate/payments/forms.py:123
 msgid "First name"
 msgstr "Ім'я"
 
-#: donate/payments/forms.py:116
+#: donate/payments/forms.py:124
 msgid "Last name"
 msgstr "Прізвище"
 
-#: donate/payments/forms.py:117 donate/payments/forms.py:160
-#: donate/templates/pages/core/contributor_support_page_master.html:62
+#: donate/payments/forms.py:125 donate/payments/forms.py:168
+#: donate/templates/pages/core/contributor_support_page_master.html:81
 msgid "Email"
 msgstr "Ел. пошта"
 
-#: donate/payments/forms.py:118
+#: donate/payments/forms.py:126
 msgid "Street"
 msgstr "Вулиця"
 
-#: donate/payments/forms.py:119
+#: donate/payments/forms.py:127
 msgid "City"
 msgstr "Місто"
 
-#: donate/payments/forms.py:123
+#: donate/payments/forms.py:131
 msgctxt "Feel free to replace with “Postal code” or equivalent"
 msgid "ZIP Code"
 msgstr "Поштовий індекс"
 
-#: donate/payments/forms.py:127
+#: donate/payments/forms.py:135
 msgid "Country"
 msgstr "Країна"
 
-#: donate/payments/forms.py:168
+#: donate/payments/forms.py:176
 #, python-format
 msgid "I’m okay with Mozilla handling my info as explained in this <a href='%(url)s'>Privacy Notice</a>."
 msgstr "Я погоджуюсь з тим, як Mozilla поводиться з моїми даними згідно з цим <a href='%(url)s'>повідомленням про приватність</a>."
@@ -202,7 +202,7 @@ msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization base
 msgstr "Внески надходять до організації Mozilla Foundation 501(c)(3), що знаходиться в San Francisco, California, та будуть використані належним чином для відповідних благодійних проєктів. Внески обходять податки в США в повному обсязі, що дозволено законодавством."
 
 #: donate/templates/fragments/language_switcher.html:10
-#: donate/templates/pages/core/contributor_support_page_master.html:67
+#: donate/templates/pages/core/contributor_support_page_master.html:86
 msgid "Language"
 msgstr "Мова"
 
@@ -254,74 +254,71 @@ msgctxt "Header"
 msgid "Donate now"
 msgstr "Зробити внесок"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:24
+#: donate/templates/pages/core/contributor_support_page_master.html:39
 msgid "Thank you for contacting us. A case has been created for your issue and we will be in touch shortly."
 msgstr "Дякуємо, що звернулися до нас. Ми вже знаємо про вашу проблему і незабаром зв’яжемося з вами."
 
-#: donate/templates/pages/core/contributor_support_page_master.html:30
+#: donate/templates/pages/core/contributor_support_page_master.html:45
 msgid "We will get back to you soon."
 msgstr "Ми повернемося до вас за хвильку."
 
-#: donate/templates/pages/core/contributor_support_page_master.html:37
+#: donate/templates/pages/core/contributor_support_page_master.html:52
 msgid "If you need help with a donation to the Mozilla Foundation, please fill out this form and a donor care representative will get back to you as soon as possible."
 msgstr "Якщо вам потрібна допомога щодо внеску до Фонду Mozilla, заповніть цю форму і представник служби допомоги донорам зв'яжеться з вами якомога швидше."
 
-#: donate/templates/pages/core/contributor_support_page_master.html:42
-msgid "Unfortunately, donor care representatives are unable to offer support or help with Firefox technical issues."
-msgstr "На жаль, меценати не можуть запропонувати підтримку або допомогу щодо технічних проблем Firefox."
-
 #: donate/templates/pages/core/contributor_support_page_master.html:57
+#, python-format
+msgid "Unfortunately, donor care representatives are unable to offer support or help with Firefox technical issues. For technical support, please visit the <a href=\"%(support_url)s\">Firefox support page</a>."
+msgstr ""
+
+#: donate/templates/pages/core/contributor_support_page_master.html:76
 msgid "Contact Name"
 msgstr "Контактна Особа"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:70
+#: donate/templates/pages/core/contributor_support_page_master.html:89
 msgctxt "Option in 'Language' dropdown"
 msgid "None"
 msgstr "Немає"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:71
+#: donate/templates/pages/core/contributor_support_page_master.html:90
 msgid "English"
 msgstr "Англійська"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:72
+#: donate/templates/pages/core/contributor_support_page_master.html:91
 msgid "French"
 msgstr "Французька"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:73
+#: donate/templates/pages/core/contributor_support_page_master.html:92
 msgid "German"
 msgstr "Німецька"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:74
+#: donate/templates/pages/core/contributor_support_page_master.html:93
 msgid "Spanish"
 msgstr "Іспанська"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:75
+#: donate/templates/pages/core/contributor_support_page_master.html:94
 msgid "Polish"
 msgstr "Польська"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:76
+#: donate/templates/pages/core/contributor_support_page_master.html:95
 msgid "Portuguese"
 msgstr "Португальська"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:77
+#: donate/templates/pages/core/contributor_support_page_master.html:96
 msgctxt "Option in 'Language' dropdown"
 msgid "Other"
 msgstr "Інша"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:83
-msgid "Subject"
-msgstr "Тема"
-
-#: donate/templates/pages/core/contributor_support_page_master.html:88
+#: donate/templates/pages/core/contributor_support_page_master.html:104
 msgid "Description"
 msgstr "Опис"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:92
+#: donate/templates/pages/core/contributor_support_page_master.html:109
 #, python-format
 msgid "Mozilla will only use your submitted information for purposes of communicating with you about your request. See our <a href=\"%(privacy_policy)s\">privacy policy</a> for further information."
 msgstr "Mozilla використовуватиме надану вами інформацію лише для зв'язку з вами щодо ваших звернень. Щоб дізнатися більше, перегляньте нашу <a href=\"%(privacy_policy)s\">політику приватності</a>."
 
-#: donate/templates/pages/core/contributor_support_page_master.html:94
+#: donate/templates/pages/core/contributor_support_page_master.html:116
 msgid "Submit"
 msgstr "Відправити"
 
@@ -838,6 +835,12 @@ msgstr "Погляньте на мій сьогоднішній внесок д�
 msgctxt "Email subject line"
 msgid "I donated to Thunderbird today"
 msgstr "Погляньте на мій внесок для Thunderbird"
+
+#~ msgid "Unfortunately, donor care representatives are unable to offer support or help with Firefox technical issues."
+#~ msgstr "На жаль, меценати не можуть запропонувати підтримку або допомогу щодо технічних проблем Firefox."
+
+#~ msgid "Subject"
+#~ msgstr "Тема"
 
 #~ msgid "Menu"
 #~ msgstr "Меню"
