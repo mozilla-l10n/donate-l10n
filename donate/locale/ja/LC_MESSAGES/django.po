@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-14 16:43+0000\n"
-"PO-Revision-Date: 2021-09-19 12:14+0000\n"
+"PO-Revision-Date: 2021-09-19 12:19+0000\n"
 "Last-Translator: Théo Chevalier <theo.chevalier11@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ja\n"
@@ -491,7 +491,7 @@ msgstr "あなたの情報"
 #: donate/templates/payment/card_master.html:20
 #, python-format
 msgid "You are donating <span class=\"%(span_class)s\">%(formatted_amount)s</span> per month"
-msgstr "毎月 <span class = \"%(span_class)s\">%(formatted_amount)s </ span> を寄付します"
+msgstr "毎月 <span class=\"%(span_class)s\">%(formatted_amount)s</span> を寄付します"
 
 #: donate/templates/payment/card_master.html:22
 #, python-format
@@ -771,7 +771,7 @@ msgstr "MZLA/Thunderbird は、小切手での (“MZLA Technologies” に支�
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:71
 msgid "Please also note that MZLA/Thunderbird can <strong>only</strong> accept checks in U.S. dollars drawn on a U.S. bank."
-msgstr "また、MZLA/Thunderbird は、米国の銀行で引き出された米ドルでの小切手<strong>以外は受け入れられない</ strong> ことにも注意してください。"
+msgstr "また、MZLA/Thunderbird は、米国の銀行で引き出された米ドルでの小切手<strong>以外は受け入れられない</strong> ことにも注意してください。"
 
 #: donate/thunderbird/templates/payment/card.html:6
 msgid "Thank you in advance for your gift."
