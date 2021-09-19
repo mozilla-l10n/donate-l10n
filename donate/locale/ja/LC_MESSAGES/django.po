@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-14 16:43+0000\n"
-"PO-Revision-Date: 2021-09-19 12:10+0000\n"
+"PO-Revision-Date: 2021-09-19 12:14+0000\n"
 "Last-Translator: Théo Chevalier <theo.chevalier11@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ja\n"
@@ -346,7 +346,7 @@ msgstr "少額 (10 ユーロ以下) の寄付、<strong>特に 5 ユーロ以下
 msgid ""
 "Please also note that the Mozilla Foundation cannot accept SEPA or BACS transfers for MZLA/Thunderbird. To contribute to MZLA/Thunderbird via SEPA or BACS transfer, please follow <a "
 "href=\"%(instruction_url)s\">these instructions</a>."
-msgstr "また、Mozilla Foundation は、MZLA / Thunderbird への SEPA または BACS 送金を受け付けていないことにも注意してください。 SEPA または BACS 送金を通じて MZLA / Thunderbird に寄付するには、<a href=\"％(instruction_url)s\">これらの手順</a> に従ってください。"
+msgstr "また、Mozilla Foundation は、MZLA / Thunderbird への SEPA または BACS 送金を受け付けていないことにも注意してください。 SEPA または BACS 送金を通じて MZLA / Thunderbird に寄付するには、<a href=\"%(instruction_url)s\">これらの手順</a> に従ってください。"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:36
 msgid "Please remember that donations are deductible for U.S. income tax purposes only."
@@ -454,7 +454,7 @@ msgid ""
 "Please also note that the Mozilla Foundation can <strong>only</strong> accept checks in U.S. dollars drawn on a U.S. bank, and <strong>cannot</strong> accept contributions for MZLA/Thunderbird. "
 "(Contributions to MZLA/Thunderbird via check can be made by following <a href=\"%(instruction_url)s\" target=\"_blank\">these instructions</a>.)"
 msgstr ""
-"また、Mozilla Foundation は、米国の銀行で引き出された米ドルでの小切手<strong>のみ</ strong> を受け入れることができ、MZLA / Thunderbird への寄付は <strong>受け入れることができない</ strong> ことにも注意してください。 (小切手による MZLA / Thunderbird への寄付は、<a "
+"また、Mozilla Foundation は、米国の銀行で引き出された米ドルでの小切手<strong>のみ</strong> を受け入れることができ、MZLA / Thunderbird への寄付は <strong>受け入れることができない</strong> ことにも注意してください。 (小切手による MZLA / Thunderbird への寄付は、<a "
 "href=\"%(instruction_url)s\" target=\"_blank\">こちらの手続き</a> に従ってください。)"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:122
