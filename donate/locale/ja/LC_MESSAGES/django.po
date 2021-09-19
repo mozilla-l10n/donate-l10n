@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-14 16:43+0000\n"
-"PO-Revision-Date: 2021-09-19 00:02+0000\n"
+"PO-Revision-Date: 2021-09-19 00:48+0000\n"
 "Last-Translator: marsf <chimantaea_mirabilis@yahoo.co.jp>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ja\n"
@@ -333,24 +333,24 @@ msgstr "銀行振込 / SEPA"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:25
 msgid "We accept donations in Euros through Single European Payment Area (SEPA) transfer, and British Pounds through BACS transfer."
-msgstr ""
+msgstr "Single European Payment Area (SEPA) 送金を通じたユーロでの寄付と、BACS 送金を通じた英ポンドでの寄付を受け付けています。"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:27
 msgid ""
 "Note that for smaller (under 10 EUR or equivalent) donations, <strong>and especially for donations under 5 EUR or equivalent</strong>, we request that you donate via credit card or PayPal to help "
 "reduce Mozilla’s processing fees."
-msgstr ""
+msgstr "少額 (10 ユーロ以下) の寄付、<strong>特に 5 ユーロ以下の寄付</ strong>の場合は、Mozilla の手数料を削減するため、クレジットカードまたは PayPal 経由での寄付をお願いいたします。"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:32
 #, python-format
 msgid ""
 "Please also note that the Mozilla Foundation cannot accept SEPA or BACS transfers for MZLA/Thunderbird. To contribute to MZLA/Thunderbird via SEPA or BACS transfer, please follow <a "
 "href=\"%(instruction_url)s\">these instructions</a>."
-msgstr ""
+msgstr "また、Mozilla Foundation は、MZLA / Thunderbird への SEPA または BACS 送金を受け付けていないことにも注意してください。 SEPA または BACS 送金を通じて MZLA / Thunderbird に寄付するには、<ahref = \"％（instruction_url）s\">これらの手順</a> に従ってください。"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:36
 msgid "Please remember that donations are deductible for U.S. income tax purposes only."
-msgstr ""
+msgstr "寄付金の控除は米国における所得税のみが対象になりますのでご注意ください。"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:38 donate/thunderbird/templates/pages/core/ways_to_give_page.html:15
 #, python-format
