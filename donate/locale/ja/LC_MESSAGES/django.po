@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-14 16:43+0000\n"
-"PO-Revision-Date: 2021-09-19 01:25+0000\n"
+"PO-Revision-Date: 2021-09-19 01:35+0000\n"
 "Last-Translator: marsf <chimantaea_mirabilis@yahoo.co.jp>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ja\n"
@@ -757,7 +757,7 @@ msgstr "Single European Payment Area (SEPA) 送金を通じたユーロでの寄
 msgid ""
 "Please note that for smaller (under 10 EUR or equivalent) contributions, <strong>and especially for contributions under 5 EUR or equivalent</strong>, we request that you contribute via credit card "
 "or PayPal to help reduce our processing fees."
-msgstr ""
+msgstr "少額 (10 ユーロ以下) の寄付、<strong>特に 5 ユーロ以下の寄付</ strong>の場合は、私たちの手数料を削減するため、クレジットカードまたは PayPal 経由での寄付をお願いいたします。"
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:30 donate/thunderbird/templates/pages/core/ways_to_give_page.html:47
 msgid "Memo field:"
@@ -767,15 +767,15 @@ msgstr "備考欄:"
 msgid ""
 "MZLA/Thunderbird is happy to accept your donation (made payable to “MZLA Technologies”) via check; however please note that processing and acknowledgment of your gift may be delayed by changes to "
 "our office procedures due to the COVID-19 pandemic. You can send checks to:"
-msgstr ""
+msgstr "MZLA/Thunderbird は、小切手での (“MZLA Technologies” に支払われる） 寄付を喜んで受け入れます。ただし、COVID-19 の感染症拡大によりオフィスの手続きが変更されたため、ギフトの処理と承認が遅れる場合がありますのでご注意ください。小切手は次の宛先へお送りください:"
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:71
 msgid "Please also note that MZLA/Thunderbird can <strong>only</strong> accept checks in U.S. dollars drawn on a U.S. bank."
-msgstr ""
+msgstr "また、MZLA/Thunderbird は、米国の銀行で引き出された米ドルでの小切手<strong>以外は受け入れられない</ strong> ことにも注意してください。"
 
 #: donate/thunderbird/templates/payment/card.html:6
 msgid "Thank you in advance for your gift."
-msgstr ""
+msgstr "皆さまのご支援に感謝いたします。"
 
 #: donate/thunderbird/templates/payment/card.html:12
 #, python-format
