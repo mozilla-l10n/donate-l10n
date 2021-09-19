@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-14 16:43+0000\n"
-"PO-Revision-Date: 2021-09-19 10:54+0000\n"
+"PO-Revision-Date: 2021-09-19 12:10+0000\n"
 "Last-Translator: Théo Chevalier <theo.chevalier11@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ja\n"
@@ -339,7 +339,7 @@ msgstr "Single European Payment Area (SEPA) 送金を通じたユーロでの寄
 msgid ""
 "Note that for smaller (under 10 EUR or equivalent) donations, <strong>and especially for donations under 5 EUR or equivalent</strong>, we request that you donate via credit card or PayPal to help "
 "reduce Mozilla’s processing fees."
-msgstr "少額 (10 ユーロ以下) の寄付、<strong>特に 5 ユーロ以下の寄付</ strong>の場合は、Mozilla の手数料を削減するため、クレジットカードまたは PayPal 経由での寄付をお願いいたします。"
+msgstr "少額 (10 ユーロ以下) の寄付、<strong>特に 5 ユーロ以下の寄付</strong>の場合は、Mozilla の手数料を削減するため、クレジットカードまたは PayPal 経由での寄付をお願いいたします。"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:32
 #, python-format
@@ -732,7 +732,7 @@ msgstr "プライバシー"
 #: donate/thunderbird/templates/pages/base_page.html:75
 #, python-format
 msgid "Portions of this content are ©1998–%(current_year)s by individual contributors. Content available under a <a %(link_attributes)s>Creative Commons license</a>"
-msgstr "©1998–%(current_year)s 当サイト上のコンテンツの一部は貢献者によって提供されたものです。 コンテンツは <a href=\"%(url)s\">Creative Commons ライセンス</a> の下で利用可能です。"
+msgstr "©1998–%(current_year)s 当サイト上のコンテンツの一部は貢献者によって提供されたものです。 コンテンツは <a %(link_attributes)s>Creative Commons ライセンス</a> の下で利用可能です。"
 
 #: donate/thunderbird/templates/pages/core/contributor_support_page.html:6
 msgid "If you need help with a contribution to MZLA/Thunderbird, please fill out this form and a Thunderbird donor care representative will get back to you as soon as possible."
@@ -757,7 +757,7 @@ msgstr "Single European Payment Area (SEPA) 送金を通じたユーロでの寄
 msgid ""
 "Please note that for smaller (under 10 EUR or equivalent) contributions, <strong>and especially for contributions under 5 EUR or equivalent</strong>, we request that you contribute via credit card "
 "or PayPal to help reduce our processing fees."
-msgstr "少額 (10 ユーロ以下) の寄付、<strong>特に 5 ユーロ以下の寄付</ strong>の場合は、私たちの手数料を削減するため、クレジットカードまたは PayPal 経由での寄付をお願いいたします。"
+msgstr "少額 (10 ユーロ以下) の寄付、<strong>特に 5 ユーロ以下の寄付</strong>の場合は、私たちの手数料を削減するため、クレジットカードまたは PayPal 経由での寄付をお願いいたします。"
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:30 donate/thunderbird/templates/pages/core/ways_to_give_page.html:47
 msgid "Memo field:"
