@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-14 16:43+0000\n"
-"PO-Revision-Date: 2021-09-18 23:54+0000\n"
+"PO-Revision-Date: 2021-09-19 00:02+0000\n"
 "Last-Translator: marsf <chimantaea_mirabilis@yahoo.co.jp>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ja\n"
@@ -223,6 +223,8 @@ msgid ""
 "Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a "
 "%(fomo_link_attributes)s>%(fomo_site_url)s</a>. Most content available under a <a %(cc_link_attributes)s>Creative Commons license</a>."
 msgstr ""
+"Mozilla は、ユーザーのオンライン体験の管理をユーザー自身に委ね、公共の利益のためにウェブの未来を形作ることに専念する国際的な非営利団体です。 詳しくは、<a %(fomo_link_attributes)s>%(fomo_site_url)s</a> にアクセスしてください。ほとんどのコンテンツは、<a "
+"%(cc_link_attributes)s>クリエイティブコモンズライセンス</a> のもとで公開されています。"
 
 #: donate/templates/pages/core/campaign_page.html:43 donate/templates/pages/core/ways_to_give_page_master.html:12
 msgctxt "Button"
@@ -244,7 +246,7 @@ msgstr "今すぐ寄付"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:39
 msgid "Thank you for contacting us. A case has been created for your issue and we will be in touch shortly."
-msgstr ""
+msgstr "ご連絡いただきありがとうございます。お知らせいただいた問題についてのケースが作成されました。数日中にご連絡いたします。"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:45
 msgid "We will get back to you soon."
@@ -252,14 +254,14 @@ msgstr "折り返しご連絡いたします。"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:52
 msgid "If you need help with a donation to the Mozilla Foundation, please fill out this form and a donor care representative will get back to you as soon as possible."
-msgstr ""
+msgstr "Mozilla Foundation への寄付についてサポートが必要な場合は、このフォームに記入してください。寄付に関するサポートの担当者ができるだけ早くご連絡いたします。"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:57
 #, python-format
 msgid ""
 "Unfortunately, donor care representatives are unable to offer support or help with Firefox technical issues. For technical support, please visit the <a href=\"%(support_url)s\">Firefox support "
 "page</a>."
-msgstr ""
+msgstr "申し訳ありませんが、寄付に関するサポート担当者は Firefox の技術的な問題を解決するためのサポートを提供できません。技術的なサポートについては、<a href=\"%(support_url)s\">Firefox サポート</a> のページにアクセスしてください。"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:76
 msgid "Contact Name"
@@ -306,7 +308,7 @@ msgstr "説明"
 #: donate/templates/pages/core/contributor_support_page_master.html:109
 #, python-format
 msgid "Mozilla will only use your submitted information for purposes of communicating with you about your request. See our <a href=\"%(privacy_policy)s\">privacy policy</a> for further information."
-msgstr ""
+msgstr "Mozilla は、あなたが送信した情報を、お問い合わせいただいた内容について連絡を取る目的にのみ利用します。詳しい情報は、<a href=\"%(privacy_policy)s\">プライバシーポリシー</a> をご覧ください。"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:116
 msgid "Submit"
