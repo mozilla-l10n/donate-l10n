@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-14 16:43+0000\n"
-"PO-Revision-Date: 2021-09-19 00:54+0000\n"
+"PO-Revision-Date: 2021-09-19 01:02+0000\n"
 "Last-Translator: marsf <chimantaea_mirabilis@yahoo.co.jp>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ja\n"
@@ -442,11 +442,11 @@ msgstr "2020 年 10 月の更新:"
 msgid ""
 "The Mozilla Foundation is happy to accept your donation (made payable to “Mozilla Foundation”) via check; however please note that processing and acknowledgment of your gift may be delayed by "
 "changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
-msgstr ""
+msgstr "Mozilla Foundation は、小切手での (“Mozilla Foundation” に支払われる） 寄付を喜んで受け入れます。ただし、COVID-19 の感染症拡大によりオフィスの手続きが変更されたため、ギフトの処理と承認が遅れる場合がありますのでご注意ください。小切手は次の宛先へお送りください:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:108 donate/thunderbird/templates/pages/core/ways_to_give_page.html:67
 msgid "Please include your email address on the memo line of your check to help us track and attribute your gift."
-msgstr ""
+msgstr "小切手のメモ欄にあなたのメールアドレスを記入して、私たちがギフトの追跡と帰属を確認できるようにしてください。"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:115
 #, python-format
@@ -454,6 +454,8 @@ msgid ""
 "Please also note that the Mozilla Foundation can <strong>only</strong> accept checks in U.S. dollars drawn on a U.S. bank, and <strong>cannot</strong> accept contributions for MZLA/Thunderbird. "
 "(Contributions to MZLA/Thunderbird via check can be made by following <a href=\"%(instruction_url)s\" target=\"_blank\">these instructions</a>.)"
 msgstr ""
+"また、Mozilla Foundation は、米国の銀行で引き出された米ドルでの小切手<strong>のみ</ strong> を受け入れることができ、MZLA / Thunderbird への寄付は <strong>受け入れることができない</ strong> ことにも注意してください。 (小切手による MZLA / Thunderbird への寄付は、<a "
+"href=\"%(instruction_url)s\" target=\"_blank\">こちらの手続き</a> に従ってください。)"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:122
 msgid "Currencies"
@@ -461,7 +463,7 @@ msgstr "通貨"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:123
 msgid "Select your currency to make a secure online donation:"
-msgstr ""
+msgstr "安全なオンライン寄付を行う通貨を選択してください:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:133
 msgid "Bitcoin"
