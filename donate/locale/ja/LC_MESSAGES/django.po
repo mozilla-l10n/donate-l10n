@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-14 16:43+0000\n"
-"PO-Revision-Date: 2021-09-19 01:13+0000\n"
+"PO-Revision-Date: 2021-09-19 01:25+0000\n"
 "Last-Translator: marsf <chimantaea_mirabilis@yahoo.co.jp>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ja\n"
@@ -428,7 +428,7 @@ msgstr "株式または証券の寄付:"
 msgid ""
 "The Mozilla Foundation is happy to accept your gift of publicly-traded stocks or bonds through our brokerage account at Northern Trust Securities. Please contact Major Gift Officer %(name)s at <a "
 "href=\"mailto:%(email)s\">%(email)s</a> to initiate the process."
-msgstr ""
+msgstr "Mozilla Foundation は、Northern Trust 証券の証券口座を通じて、上場株式または債券のギフトを喜んで受け入れます。手続きを開始するには、Major Gift Officer の %(name)s にメールでお問い合わせください: <a href=\"mailto:%(email)s\">%(email)s</a> "
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:86
 msgid "Check (via postal service)"
@@ -687,7 +687,7 @@ msgstr "Thunderbird に寄付する"
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:7
 #, python-format
 msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a>"
-msgstr ""
+msgstr "その他の寄付方法: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">小切手</a>"
 
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:12
 #, python-format
@@ -707,7 +707,7 @@ msgstr "毎月の寄付は、あなたが今日寄付したのと同じ日に毎
 msgid ""
 "Contributions go to MZLA Technologies Corporation, a California corporation wholly owned by the Mozilla Foundation. Funds will be reserved for use in the Thunderbird project. Contributions are not "
 "tax-deductible as charitable contributions."
-msgstr ""
+msgstr "寄付は Mozilla Foundation が完全に所有するカリフォルニアの企業 MZLA Technologies へ送金されます。資金は Thunderbird プロジェクトで使用するために積み立てられます。この寄付は慈善寄付の税控除の対象にはなりません。"
 
 #: donate/thunderbird/templates/pages/base_page.html:53
 msgid "Cookies"
@@ -736,22 +736,22 @@ msgstr "©1998–%(current_year)s 当サイト上のコンテンツの一部は�
 
 #: donate/thunderbird/templates/pages/core/contributor_support_page.html:6
 msgid "If you need help with a contribution to MZLA/Thunderbird, please fill out this form and a Thunderbird donor care representative will get back to you as soon as possible."
-msgstr ""
+msgstr "MZLA/Thunderbird への寄付についてサポートが必要な場合は、このフォームに記入してください。Thunderbird の寄付に関するサポートの担当者ができるだけ早くご連絡いたします。"
 
 #: donate/thunderbird/templates/pages/core/contributor_support_page.html:12
 #, python-format
 msgid ""
 "Unfortunately, donor care representatives are unable to offer support or help with Thunderbird technical issues. For technical support, please visit our <a href=\"%(support_url)s\">support page.</a>"
-msgstr ""
+msgstr "申し訳ありませんが、寄付に関するサポート担当者は Thunderbird の技術的な問題を解決するためのサポートを提供できません。技術的なサポートについては、<a href=\"%(support_url)s\">Thunderbird サポートのページ</a> にアクセスしてください。"
 
 #: donate/thunderbird/templates/pages/core/landing_page.html:7
 #, python-format
 msgid "Your download should have begun automatically. If it didn’t work, <a href=\"%(url)s\">try downloading again here</a>."
-msgstr ""
+msgstr "ダウンロードは自動的に開始されます。開始されない場合は、<a href=\"%(url)s\">こちらからダウンロードしてください</a>。"
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:8
 msgid "We accept contributions in Euros through Single European Payment Area (SEPA) transfer, and British Pounds through BACS transfer."
-msgstr ""
+msgstr "Single European Payment Area (SEPA) 送金を通じたユーロでの寄付と、BACS 送金を通じた英ポンドでの寄付を受け付けています。"
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:10
 msgid ""
