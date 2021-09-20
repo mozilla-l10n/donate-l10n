@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-14 16:43+0000\n"
-"PO-Revision-Date: 2021-09-20 01:11+0000\n"
+"PO-Revision-Date: 2021-09-20 01:27+0000\n"
 "Last-Translator: marsf <chimantaea_mirabilis@yahoo.co.jp>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ja\n"
@@ -597,7 +597,7 @@ msgstr "毎月"
 msgid ""
 "I authorize Mozilla Foundation to automatically charge my card every month in the amount indicated above, starting next month on the same date as today, and continuing each month afterwards until I "
 "cancel. I understand that I must cancel at least 5 days before the next scheduled donation by email to %(email)s, and that I may only request a refund within 15 days from the date of a donation."
-msgstr ""
+msgstr "私がキャンセルするまでの間、Mozilla Foundation が今日から 1 か月後の毎月同じ日に上記の金額で自動的にクレジットカードに請求することを承認します。 キャンセルする場合は、次回の寄付予定日の少なくとも 5 日前に %(email)s へのメール連絡によりキャンセルする必要があり、寄付した日から 15 日以内の払い戻しのみをリクエストできることを理解しています。"
 
 #: donate/templates/payment/card_upsell_master.html:53
 msgid "Donate Monthly"
@@ -613,7 +613,7 @@ msgstr ""
 
 #: donate/templates/payment/newsletter_signup_master.html:14
 msgid "Protect the internet as a global public resource. Join our email list to take action and stay updated!"
-msgstr ""
+msgstr "インターネットを世界規模の公共資源として保護します。メーリングリストに参加して行動を起こし、最新情報を入手してください。"
 
 #: donate/templates/payment/newsletter_signup_master.html:40
 msgid "Sign Up"
@@ -786,10 +786,11 @@ msgid ""
 "understand that I must cancel at least 5 days before the next scheduled donation by <a href='%(help_url)s'>submitting a request</a>, and that I may only request a refund within 15 days from the date"
 " of a donation."
 msgstr ""
+"私がキャンセルするまでの間、MZLA Technologies が今日から毎月同じ日に上記の金額で自動的にクレジットカードに請求することを承認します。 キャンセルする場合は、次回の寄付予定日の少なくとも 5 日前に <a href='%(help_url)s'>キャンセル要求を送信</a> する必要があり、寄付した日から 15 日以内の払い戻しのみをリクエストできることを理解しています。"
 
 #: donate/thunderbird/templates/payment/card.html:14
 msgid "I authorize MZLA Technologies Corporation to charge my card in the amount indicated above. I understand that I may only request a refund within 15 days from the date of the donation."
-msgstr ""
+msgstr "私は、MZLA Technologies が上記の金額でクレジットカードに請求することを承認します。寄付した日から 15 日以内の払い戻しのみをリクエストできることを理解しています。"
 
 #: donate/thunderbird/templates/payment/card_upsell.html:6 donate/thunderbird/templates/payment/paypal_upsell.html:6
 msgid "We’d love to have you as a sustaining supporter of Thunderbird. <b>Could you add a monthly donation starting next month?</b>"
