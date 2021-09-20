@@ -804,8 +804,6 @@ msgid ""
 "afterwards until I cancel. I understand that I must cancel at least 5 days before the next scheduled donation by <a href=\"%(help_url)s\">submitting this form</a>, and that I may only request a "
 "refund within 15 days from the date of a donation."
 msgstr ""
-"私がキャンセルするまでの間、MZLA Technologies Corporation が今日から 1 か月後の毎月同じ日に上記の金額で自動的にクレジットカードに請求することを承認します。 キャンセルする場合は、次回の寄付予定日の少なくとも 5 日前に %(email)s へ <a href=\"%(help_url)s\">キャンセル要求を送信</a> する必要があり、寄付した日から 15 "
-"日以内の払い戻しのみをリクエストできることを理解しています。"
 
 #: donate/thunderbird/templates/payment/newsletter_signup.html:8
 msgid "We’re working hard to protect your inbox. Sign up to receive email messages concerning Thunderbird, including updates and requests for feedback."
