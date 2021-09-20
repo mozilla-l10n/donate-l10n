@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-14 16:43+0000\n"
-"PO-Revision-Date: 2021-09-17 15:52+0000\n"
+"PO-Revision-Date: 2021-09-20 05:34+0000\n"
 "Last-Translator: Martijn Dekker <martijn@inlv.org>\n"
 "Language-Team: \n"
 "Language: ia\n"
@@ -257,7 +257,7 @@ msgstr "Nos recedera tosto a te."
 
 #: donate/templates/pages/core/contributor_support_page_master.html:52
 msgid "If you need help with a donation to the Mozilla Foundation, please fill out this form and a donor care representative will get back to you as soon as possible."
-msgstr "Si tu desira adjuta pro un donation a Mozilla Foundation, plena iste modulo e un representante pro le cura de donatores retornara a te al plus tosto possibile."
+msgstr "Si tu require adjuta pro un donation al Fundation Mozilla, plena iste formulario e un representante del assistentia pro le donatores te contactara le plus tosto possibile."
 
 #: donate/templates/pages/core/contributor_support_page_master.html:57
 #, python-format
@@ -534,7 +534,7 @@ msgstr "Tu datos"
 #: donate/templates/payment/card_master.html:60 donate/templates/payment/card_upsell_master.html:34 donate/templates/payment/newsletter_signup_master.html:30
 #: donate/templates/payment/paypal_upsell_master.html:34
 msgid "There were some errors with your form. Please amend the fields highlighted below."
-msgstr "Il ha alcun errores con tu modulo. Emenda le campos evidentiate infra."
+msgstr "Il ha alcun errores con tu formulario. Emenda le campos evidentiate infra."
 
 #: donate/templates/payment/card_master.html:64
 msgid "We were unable to take payment because the payment processor reported an error with your address information:"
@@ -761,7 +761,7 @@ msgstr "Partes de iste contento es ©1998–%(current_year)s per collaboratores 
 
 #: donate/thunderbird/templates/pages/core/contributor_support_page.html:6
 msgid "If you need help with a contribution to MZLA/Thunderbird, please fill out this form and a Thunderbird donor care representative will get back to you as soon as possible."
-msgstr "Si tu desira adjuta pro un donation a MZLA/Thunderbird, plena iste modulo e un representante de Thunderbird pro le cura de donatores retornara a te al plus tosto possibile."
+msgstr "Si tu require adjuta pro un donation a MZLA/Thunderbird, plena iste formulario e un representante del assistentia pro le donatores a Thunderbird te contactara le plus tosto possibile."
 
 #: donate/thunderbird/templates/pages/core/contributor_support_page.html:12
 #, python-format
