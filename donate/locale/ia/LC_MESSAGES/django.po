@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-14 16:43+0000\n"
-"PO-Revision-Date: 2021-09-21 01:18+0000\n"
+"PO-Revision-Date: 2021-09-21 02:23+0000\n"
 "Last-Translator: Martijn Dekker <martijn@inlv.org>\n"
 "Language-Team: \n"
 "Language: ia\n"
@@ -226,7 +226,7 @@ msgid ""
 "Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a "
 "%(fomo_link_attributes)s>%(fomo_site_url)s</a>. Most content available under a <a %(cc_link_attributes)s>Creative Commons license</a>."
 msgstr ""
-"Mozilla es un organisation global non-lucrative dedicate a poner te in controlo de tu experientia online e a formar le futuro del web pro le bon public. Visita nos a <a "
+"Mozilla es un organisation global sin scopo de lucro, dedicate a poner te in controlo de tu experientia in linea e a formar le futuro del web pro le bon public. Visita nos a <a "
 "%(fomo_link_attributes)s>%(fomo_site_url)s</a>. Le major parte del contento es disponibile sub <a %(cc_link_attributes)s>licentia Creative Commons</a>."
 
 #: donate/templates/pages/core/campaign_page.html:43 donate/templates/pages/core/ways_to_give_page_master.html:12
@@ -332,7 +332,7 @@ msgstr "Carta de credito / debito e Paypal"
 #: donate/templates/pages/core/ways_to_give_page_master.html:18
 #, python-format
 msgid "<a href=\"%(ways_to_give_link)s\">Go to this link</a> to make a secure online donation right now."
-msgstr "<a href=\"%(ways_to_give_link)s\">Ir a iste ligamine</a> pro facer subito un donation secur online."
+msgstr "<a href=\"%(ways_to_give_link)s\">Visita iste ligamine</a> pro facer ora un donation secur in linea."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:24 donate/thunderbird/templates/pages/core/ways_to_give_page.html:7
 msgid "Bank Transfer / SEPA"
@@ -478,7 +478,7 @@ msgstr "Monetas"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:123
 msgid "Select your currency to make a secure online donation:"
-msgstr "Elige tu moneta pro facer un donation secur online:"
+msgstr "Selige tu moneta pro facer un donation secur in linea:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:133
 msgid "Bitcoin"
