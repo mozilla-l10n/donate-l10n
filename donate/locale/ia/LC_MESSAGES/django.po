@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-14 16:43+0000\n"
-"PO-Revision-Date: 2021-09-20 05:34+0000\n"
+"PO-Revision-Date: 2021-09-21 01:18+0000\n"
 "Last-Translator: Martijn Dekker <martijn@inlv.org>\n"
 "Language-Team: \n"
 "Language: ia\n"
@@ -186,7 +186,7 @@ msgstr "Altere manieras pro donar: <a href=\"%(wire_transfer_url)s\">transaction
 #: donate/templates/fragments/donate_form_disclaimer_master.html:23 donate/thunderbird/templates/fragments/donate_form_disclaimer.html:21
 #, python-format
 msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"%(help_url)s\">Contact us</a>."
-msgstr "Problemas a donar? Visita nostre <a href=\"%(faq_url)s\">folio a questiones</a> pro responsas al questiones plus commun. Ancora problemas? <a href=\"%(help_url)s\">Continge nos</a>."
+msgstr "Problemas con le donation? Visita nostre <a href=\"%(faq_url)s\">folio a questiones</a> pro responsas al questiones plus commun. Ancora problemas? <a href=\"%(help_url)s\">Contacta nos</a>."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:30
 msgid ""
@@ -249,7 +249,7 @@ msgstr "Face un donation ora"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:39
 msgid "Thank you for contacting us. A case has been created for your issue and we will be in touch shortly."
-msgstr "Gratias pro continger nos. Un caso ha essite create pro tu problema e nos te contingera a breve."
+msgstr "Gratias pro contactar nos. Un caso ha essite create pro tu problema e nos te respondera tosto."
 
 #: donate/templates/pages/core/contributor_support_page_master.html:45
 msgid "We will get back to you soon."
@@ -440,8 +440,8 @@ msgid ""
 "The Mozilla Foundation is happy to accept your gift of publicly-traded stocks or bonds through our brokerage account at Northern Trust Securities. Please contact Major Gift Officer %(name)s at <a "
 "href=\"mailto:%(email)s\">%(email)s</a> to initiate the process."
 msgstr ""
-"Le Fundation Mozilla es felice de acceptar tu donation de stocks o obligationes publicamente excambiate a transverso de nostre conto de brokerage al Northern Trust Securities. Continge le "
-"Functionario del donos major %(name)s a <a href=\"mailto:%(email)s\">%(email)s</a> pro comenciar le procedura."
+"Le Fundation Mozilla es felice de acceptar donationes de stocks o obligationes quotate a transverso nostre conto de valores a Northern Trust Securities. Contacta le responsabile principal de "
+"donationes %(name)s al adresse <a href=\"mailto:%(email)s\">%(email)s</a> pro comenciar le procedura."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:86
 msgid "Check (via postal service)"
