@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-30 15:04+0000\n"
-"PO-Revision-Date: 2021-09-30 15:26+0000\n"
+"PO-Revision-Date: 2021-09-30 15:37+0000\n"
 "Last-Translator: Lan Glad <upwinxp@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
@@ -823,7 +823,7 @@ msgstr ""
 
 #: donate/thunderbird/templates/payment/card.html:14
 msgid "I authorize MZLA Technologies Corporation to charge my card in the amount indicated above. I understand that I may only request a refund within 15 days from the date of the donation."
-msgstr ""
+msgstr "Pooblaščam družbo MZLA Technologies Corporation, da bremeni mojo kartico v znesku, navedenem zgoraj. Razumem, da lahko vračilo zahtevam le 15 dni od datuma donacije."
 
 #: donate/thunderbird/templates/payment/card_upsell.html:6 donate/thunderbird/templates/payment/paypal_upsell.html:6
 msgid "We’d love to have you as a sustaining supporter of Thunderbird. <b>Could you add a monthly donation starting next month?</b>"
