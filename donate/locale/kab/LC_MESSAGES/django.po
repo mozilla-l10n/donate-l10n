@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-14 16:43+0000\n"
+"POT-Creation-Date: 2021-09-30 15:04+0000\n"
 "PO-Revision-Date: 2021-07-17 20:27+0000\n"
 "Last-Translator: ZiriSut <rgebbid@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -281,44 +281,76 @@ msgid "None"
 msgstr "Ula yiwen"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:90
+msgid "Chinese (Simplified)"
+msgstr ""
+
+#: donate/templates/pages/core/contributor_support_page_master.html:91
+msgid "Czech"
+msgstr ""
+
+#: donate/templates/pages/core/contributor_support_page_master.html:92
+msgid "Danish"
+msgstr ""
+
+#: donate/templates/pages/core/contributor_support_page_master.html:93
+msgid "Dutch"
+msgstr ""
+
+#: donate/templates/pages/core/contributor_support_page_master.html:94
 msgid "English"
 msgstr "Taglizit"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:91
+#: donate/templates/pages/core/contributor_support_page_master.html:95
 msgid "French"
 msgstr "Tafransist"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:92
+#: donate/templates/pages/core/contributor_support_page_master.html:96
 msgid "German"
 msgstr "Talmanit"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:93
-msgid "Spanish"
-msgstr "Taspanit"
+#: donate/templates/pages/core/contributor_support_page_master.html:97
+msgid "Italian"
+msgstr ""
 
-#: donate/templates/pages/core/contributor_support_page_master.html:94
+#: donate/templates/pages/core/contributor_support_page_master.html:98
+msgid "Japanese"
+msgstr ""
+
+#: donate/templates/pages/core/contributor_support_page_master.html:99
 msgid "Polish"
 msgstr "Tapulunit"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:95
+#: donate/templates/pages/core/contributor_support_page_master.html:100
 msgid "Portuguese"
 msgstr "Tapuṛṭugit"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:96
+#: donate/templates/pages/core/contributor_support_page_master.html:101
+msgid "Russian"
+msgstr ""
+
+#: donate/templates/pages/core/contributor_support_page_master.html:102
+msgid "Spanish"
+msgstr "Taspanit"
+
+#: donate/templates/pages/core/contributor_support_page_master.html:103
 msgctxt "Option in 'Language' dropdown"
 msgid "Other"
 msgstr "Wiyaḍ"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:104
+#: donate/templates/pages/core/contributor_support_page_master.html:109
+msgid "Subject"
+msgstr "Asentel"
+
+#: donate/templates/pages/core/contributor_support_page_master.html:114
 msgid "Description"
 msgstr "Aglam"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:109
+#: donate/templates/pages/core/contributor_support_page_master.html:119
 #, python-format
 msgid "Mozilla will only use your submitted information for purposes of communicating with you about your request. See our <a href=\"%(privacy_policy)s\">privacy policy</a> for further information."
 msgstr "Mozilla ad tseqdec kan talɣut i d-telqeḍ akken ad temmeslay yid-k ɣef wayen i d-sutreḍ. Ma ulac aɣilif, wali <a href=\"%(privacy_policy)s\">tasertit-nneɣ tabaḍnit</a> ɣef ugar n yisallen."
 
-#: donate/templates/pages/core/contributor_support_page_master.html:116
+#: donate/templates/pages/core/contributor_support_page_master.html:126
 msgid "Submit"
 msgstr "Azen"
 
@@ -835,9 +867,6 @@ msgstr "Muddeɣ tura kan tawsa i @mozthunderbird i #freetheinbox. Ddu-d ɣur-i a
 msgctxt "Email subject line"
 msgid "I donated to Thunderbird today"
 msgstr "Muddeɣ tawsa i Thunderbird ass-a"
-
-#~ msgid "Subject"
-#~ msgstr "Asentel"
 
 #~ msgid "Menu"
 #~ msgstr "Umuɣ"

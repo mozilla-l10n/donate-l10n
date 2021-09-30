@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-14 16:43+0000\n"
+"POT-Creation-Date: 2021-09-30 15:04+0000\n"
 "PO-Revision-Date: 2020-08-01 19:50+0000\n"
 "Last-Translator: Kerim Kalamujić <kerim@mozilla.ba>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -281,44 +281,76 @@ msgid "None"
 msgstr "Nijedan"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:90
+msgid "Chinese (Simplified)"
+msgstr ""
+
+#: donate/templates/pages/core/contributor_support_page_master.html:91
+msgid "Czech"
+msgstr ""
+
+#: donate/templates/pages/core/contributor_support_page_master.html:92
+msgid "Danish"
+msgstr ""
+
+#: donate/templates/pages/core/contributor_support_page_master.html:93
+msgid "Dutch"
+msgstr ""
+
+#: donate/templates/pages/core/contributor_support_page_master.html:94
 msgid "English"
 msgstr "Engleski"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:91
+#: donate/templates/pages/core/contributor_support_page_master.html:95
 msgid "French"
 msgstr "Francuski"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:92
+#: donate/templates/pages/core/contributor_support_page_master.html:96
 msgid "German"
 msgstr "Njemački"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:93
-msgid "Spanish"
-msgstr "Španski"
+#: donate/templates/pages/core/contributor_support_page_master.html:97
+msgid "Italian"
+msgstr ""
 
-#: donate/templates/pages/core/contributor_support_page_master.html:94
+#: donate/templates/pages/core/contributor_support_page_master.html:98
+msgid "Japanese"
+msgstr ""
+
+#: donate/templates/pages/core/contributor_support_page_master.html:99
 msgid "Polish"
 msgstr "Poljski"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:95
+#: donate/templates/pages/core/contributor_support_page_master.html:100
 msgid "Portuguese"
 msgstr "Portugalski"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:96
+#: donate/templates/pages/core/contributor_support_page_master.html:101
+msgid "Russian"
+msgstr ""
+
+#: donate/templates/pages/core/contributor_support_page_master.html:102
+msgid "Spanish"
+msgstr "Španski"
+
+#: donate/templates/pages/core/contributor_support_page_master.html:103
 msgctxt "Option in 'Language' dropdown"
 msgid "Other"
 msgstr "Ostali"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:104
+#: donate/templates/pages/core/contributor_support_page_master.html:109
+msgid "Subject"
+msgstr "Predmet"
+
+#: donate/templates/pages/core/contributor_support_page_master.html:114
 msgid "Description"
 msgstr "Opis"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:109
+#: donate/templates/pages/core/contributor_support_page_master.html:119
 #, python-format
 msgid "Mozilla will only use your submitted information for purposes of communicating with you about your request. See our <a href=\"%(privacy_policy)s\">privacy policy</a> for further information."
 msgstr "Mozilla će tvoje poslane podatke koristiti samo u svrhu komunikacije s tobom o tvom zahtjevu. Pogledaj naša <a href=\"%(privacy_policy)s\">pravila o privatnosti</a> za dodatne informacije."
 
-#: donate/templates/pages/core/contributor_support_page_master.html:116
+#: donate/templates/pages/core/contributor_support_page_master.html:126
 msgid "Submit"
 msgstr "Pošalji"
 
@@ -837,9 +869,6 @@ msgstr "Donirao sam za @mozthunderbird danas kako bi #freetheinbox. Pridružite 
 msgctxt "Email subject line"
 msgid "I donated to Thunderbird today"
 msgstr "Donirao sam za Thunderbird danas"
-
-#~ msgid "Subject"
-#~ msgstr "Predmet"
 
 #~ msgid "Menu"
 #~ msgstr "Meni"

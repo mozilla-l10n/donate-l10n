@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-14 16:43+0000\n"
+"POT-Creation-Date: 2021-09-30 15:04+0000\n"
 "PO-Revision-Date: 2019-11-03 13:56+0000\n"
 "Last-Translator: marsf <chimantaea_mirabilis@yahoo.co.jp>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,6 +18,15 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pontoon\n"
+
+#: donate/frontend/_js/main.compiled.js:16 maintenance/static/_js/main.js:16
+#: source/js/components/currency-selector.js:91
+msgid "per month"
+msgstr "(毎月)"
+
+#: donate/frontend/_js/main.compiled.js:16 maintenance/static/_js/main.js:16
+msgid "Other amount"
+msgstr "その他の金額"
 
 #: donate/frontend/_js/payments-card.compiled.js:1
 #: donate/frontend/_js/payments-paypal-upsell.compiled.js:1
@@ -43,12 +52,3 @@ msgstr "以下のいくつかの入力内容が無効です。無効なフィー
 #: source/js/components/paypal.js:94
 msgid "Payment cancelled"
 msgstr "支払いをキャンセルしました"
-
-#: maintenance/static/_js/main.js:16
-#: source/js/components/currency-selector.js:91
-msgid "per month"
-msgstr "(毎月)"
-
-#: maintenance/static/_js/main.js:16
-msgid "Other amount"
-msgstr "その他の金額"

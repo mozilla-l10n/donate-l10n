@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-14 16:43+0000\n"
+"POT-Creation-Date: 2021-09-30 15:04+0000\n"
 "PO-Revision-Date: 2020-11-26 16:25+0000\n"
 "Last-Translator: Rhoslyn Prys <rprys@posteo.net>\n"
 "Language-Team: \n"
@@ -17,6 +17,15 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=(n == 0) ? 0 : ((n == 1) ? 1 : ((n == 2) ? 2 : ((n == 3) ? 3 : ((n == 6) ? 4 : 5))));\n"
 "X-Generator: Pontoon\n"
+
+#: donate/frontend/_js/main.compiled.js:16 maintenance/static/_js/main.js:16
+#: source/js/components/currency-selector.js:91
+msgid "per month"
+msgstr "y mis"
+
+#: donate/frontend/_js/main.compiled.js:16 maintenance/static/_js/main.js:16
+msgid "Other amount"
+msgstr "Swm arall"
 
 #: donate/frontend/_js/payments-card.compiled.js:1
 #: donate/frontend/_js/payments-paypal-upsell.compiled.js:1
@@ -42,12 +51,3 @@ msgstr "Mae rhai o'r meysydd isod yn annilys. Cywirwch y meysydd annilys a cheis
 #: source/js/components/paypal.js:94
 msgid "Payment cancelled"
 msgstr "Diddymwyd y taliad."
-
-#: maintenance/static/_js/main.js:16
-#: source/js/components/currency-selector.js:91
-msgid "per month"
-msgstr "y mis"
-
-#: maintenance/static/_js/main.js:16
-msgid "Other amount"
-msgstr "Swm arall"
