@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-30 15:04+0000\n"
-"PO-Revision-Date: 2021-09-30 20:43+0000\n"
-"Last-Translator: Melo46 <melo@carmu.com>\n"
+"PO-Revision-Date: 2021-10-03 14:29+0000\n"
+"Last-Translator: Martijn Dekker <martijn@inlv.org>\n"
 "Language-Team: \n"
 "Language: ia\n"
 "MIME-Version: 1.0\n"
@@ -872,7 +872,7 @@ msgstr ""
 
 #: donate/thunderbird/templates/payment/newsletter_signup.html:8
 msgid "We’re working hard to protect your inbox. Sign up to receive email messages concerning Thunderbird, including updates and requests for feedback."
-msgstr "Nos labora durmente pro proteger tu cassa de ingresso. Inscribe te pro reciper messages e-mail concernente Thunderbird, includite le actualisationes e la requestas pro commentarios."
+msgstr "Nos labora durmente pro proteger tu cassa de entrata. Inscribe te pro reciper messages de e-mail concernente Thunderbird, includite actualisationes e requestas de commentarios."
 
 #: donate/thunderbird/templates/payment/thank_you.html:7
 msgid "Lastly, can you multiply your impact by sharing about the important work Thunderbird is doing? Thank you again!"
