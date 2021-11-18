@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-30 15:04+0000\n"
-"PO-Revision-Date: 2021-10-06 07:21+0000\n"
+"PO-Revision-Date: 2021-11-18 11:06+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fy_NL\n"
@@ -522,10 +522,10 @@ msgid ""
 "indicated that it will treat bitcoin as property for U.S. tax purposes (see IRS Notice 2014-21), donations of bitcoin may be subject to special rules as to the amount of your charitable deduction, "
 "the documentation that must be provided to claim a tax deduction, or other matters."
 msgstr ""
-"De Mozilla Foundation is in Kalifornyske non-profitorganisaasje dy't yn de FS útsûndere is fan federale ynkomstebelesting ûnder IRC 501(c)(3) en in ynstelling fan algemien belang ûnder IRC-seksjes "
+"De Mozilla Foundation is in Kalifornyske non-profitorganisaasje dy’t yn de FS útsûndere is fan federale ynkomstebelesting ûnder IRC 501(c)(3) en in ynstelling fan algemien belang ûnder IRC-seksjes "
 "170(b)(1)(A) en 509(a)(1). Troch Mozilla ûntfongen bitcoindonaasjes wurde ûnder federale belestingwetten yn de FS beskôge as bydragen oan in goed doel, nei eigen ynsicht te brûken foar goede doelen."
 " Omdat de IRS oanjûn hat dat bitcoins foar Amerikaanske belestingdoeleinen as ‘property’ beskôge wurde (sjoch IRS Notice 2014-21), kinne donaasjes fan Bitcoin ûnderhavich wêze oan spesjale rigels "
-"mei betrekking ta it bedrach fan jo ôftrek foar goede doelen, de dokumintaasje dy't opjûn wurde moatte om belestingôftrek te krijen, of oare saken."
+"mei betrekking ta it bedrach fan jo ôftrek foar goede doelen, de dokumintaasje dy’t opjûn wurde moatte om belestingôftrek te krijen, of oare saken."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:140
 #, python-format
@@ -836,7 +836,7 @@ msgstr ""
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:71
 msgid "Please also note that MZLA/Thunderbird can <strong>only</strong> accept checks in U.S. dollars drawn on a U.S. bank."
-msgstr "Merk op dat de MZLA/Thunderbird <strong>allinnich</strong> sjeks yn Amerikaanske dollars akseptearret dy't útjûn binne troch in Amerikaanske bank."
+msgstr "Merk op dat de MZLA/Thunderbird <strong>allinnich</strong> sjeks yn Amerikaanske dollars akseptearret dy’t útjûn binne troch in Amerikaanske bank."
 
 #: donate/thunderbird/templates/payment/card.html:6
 msgid "Thank you in advance for your gift."
