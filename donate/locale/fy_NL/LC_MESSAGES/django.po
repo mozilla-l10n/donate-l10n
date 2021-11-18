@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-30 15:04+0000\n"
-"PO-Revision-Date: 2021-11-18 11:46+0000\n"
+"PO-Revision-Date: 2021-11-18 11:55+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fy_NL\n"
@@ -203,7 +203,7 @@ msgstr "Taal"
 
 #: donate/templates/pages/base_page_master.html:28
 msgid "Who we are"
-msgstr "Wa't wy binne"
+msgstr "Wa’t wy binne"
 
 #: donate/templates/pages/base_page_master.html:31
 msgid "What we do"
@@ -539,7 +539,7 @@ msgstr "Jo gegevens"
 #: donate/templates/payment/card_master.html:20
 #, python-format
 msgid "You are donating <span class=\"%(span_class)s\">%(formatted_amount)s</span> per month"
-msgstr "Jo donearje <span class=\"%(span_class)s\">%(formatted_amount)s</span> yn 'e moanne"
+msgstr "Jo donearje <span class=\"%(span_class)s\">%(formatted_amount)s</span> yn de moanne"
 
 #: donate/templates/payment/card_master.html:22
 #, python-format
@@ -609,7 +609,7 @@ msgstr "Ik machtigje Mozilla Foundation om myn kaart te belêsten mei it boppest
 #: donate/templates/payment/card_master.html:144
 #, python-format
 msgid "Donate <span class=\"%(span_class)s\">%(formatted_amount)s</span> per month"
-msgstr "Doneare <span class=\"%(span_class)s\">%(formatted_amount)s</span> yn 'e moanne"
+msgstr "<span class=\"%(span_class)s\">%(formatted_amount)s</span> yn de moanne donearje"
 
 #: donate/templates/payment/card_master.html:146
 #, python-format
