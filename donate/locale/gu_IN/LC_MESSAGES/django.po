@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-30 15:04+0000\n"
+"POT-Creation-Date: 2021-11-24 17:52+0000\n"
 "PO-Revision-Date: 2020-09-04 19:19+0000\n"
 "Last-Translator: Hariom Panchal <hariompanchal6647@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,7 +37,7 @@ msgid "Donations must be %(amount)s or more"
 msgstr "દાન %(amount)s અથવા વધુ હોવું આવશ્યક છે"
 
 #: donate/payments/forms.py:96 donate/payments/forms.py:110
-#: donate/payments/forms.py:158
+#: donate/payments/forms.py:161
 msgid "Amount"
 msgstr "રકમ"
 
@@ -49,7 +49,7 @@ msgstr "પ્રથમ નામ"
 msgid "Last name"
 msgstr "છેલ્લું નામ"
 
-#: donate/payments/forms.py:125 donate/payments/forms.py:168
+#: donate/payments/forms.py:125 donate/payments/forms.py:171
 #: donate/templates/pages/core/contributor_support_page_master.html:81
 msgid "Email"
 msgstr "ઇ-મેલ"
@@ -71,44 +71,44 @@ msgstr "ZIP કોડ"
 msgid "Country"
 msgstr "દેશ"
 
-#: donate/payments/forms.py:176
+#: donate/payments/forms.py:179
 #, python-format
 msgid "I’m okay with Mozilla handling my info as explained in this <a href='%(url)s'>Privacy Notice</a>."
 msgstr "આ <a href='%(url)s'>ગોપનીયતા સૂચના</a>માં સમજાવ્યા મુજબ મોઝિલા મારી માહિતીને સંચાલિત કરવાથી હું ઠીક છું."
 
-#: donate/payments/views.py:160
+#: donate/payments/views.py:170
 msgid "The type of card you used is not accepted."
 msgstr "તમે જે પ્રકારનો કાર્ડ ઉપયોગ કર્યો છે તે સ્વીકાર્ય નથી."
 
-#: donate/payments/views.py:161 donate/payments/views.py:162
+#: donate/payments/views.py:171 donate/payments/views.py:172
 msgid "The CVV code you entered was invalid."
 msgstr "તમે દાખલ કરેલો CVV કોડ અમાન્ય હતો."
 
-#: donate/payments/views.py:163
+#: donate/payments/views.py:173
 msgid "The expiration date you entered was invalid."
 msgstr "તમે દાખલ કરેલી સમાપ્તિ તારીખ અમાન્ય હતી."
 
-#: donate/payments/views.py:164
+#: donate/payments/views.py:174
 msgid "The credit card number you entered was invalid."
 msgstr "તમે દાખલ કરેલ ક્રેડિટ કાર્ડ નંબર અમાન્ય હતો."
 
-#: donate/payments/views.py:173 donate/payments/views.py:174
+#: donate/payments/views.py:183 donate/payments/views.py:184
 msgid "The post code you provided is not valid."
 msgstr "તમે પ્રદાન કરેલો પોસ્ટ કોડ માન્ય નથી."
 
-#: donate/payments/views.py:188
+#: donate/payments/views.py:198
 msgid "Sorry there was an error processing your payment. Please try again later or use a different payment method."
 msgstr "માફ કરશો તમારી ચુકવણીની પ્રક્રિયા કરવામાં ભૂલ આવી હતી. કૃપા કરીને પછીથી ફરી પ્રયાસ કરો અથવા અન્ય ચુકવણી પદ્ધતિનો ઉપયોગ કરો."
 
-#: donate/payments/views.py:384
+#: donate/payments/views.py:394
 msgid "Something went wrong. We were unable to process your payment."
 msgstr "કંઈક ખોટું થયું. અમે તમારી ચુકવણી પર પ્રક્રિયા કરવામાં અસમર્થ છીએ."
 
-#: donate/payments/views.py:638 donate/payments/views.py:747
+#: donate/payments/views.py:648 donate/payments/views.py:757
 msgid "Sorry there was an error processing your payment. Please try again later."
 msgstr "માફ કરશો તમારી ચુકવણીની પ્રક્રિયા કરવામાં ભૂલ આવી હતી. પછીથી ફરી પ્રયત્ન કરો."
 
-#: donate/recaptcha/fields.py:18
+#: donate/recaptcha/fields.py:19
 msgid "Captcha was invalid. Please try again."
 msgstr "Captcha અમાન્ય હતા. મેહરબાની કરી ને ફરી થી પ્રયાસ કરો."
 
@@ -146,33 +146,33 @@ msgstr "મહિને"
 
 #: donate/templates/fragments/donate_form.html:41
 #: donate/templates/fragments/donate_form.html:42
-#: donate/templates/fragments/donate_form.html:109
-#: donate/templates/fragments/donate_form.html:110
+#: donate/templates/fragments/donate_form.html:112
+#: donate/templates/fragments/donate_form.html:113
 msgid "Other amount"
 msgstr "અન્ય રકમ"
 
 #: donate/templates/fragments/donate_form.html:45
-#: donate/templates/fragments/donate_form.html:113
+#: donate/templates/fragments/donate_form.html:116
 msgid "Invalid amount entered."
 msgstr ""
 
 #: donate/templates/fragments/donate_form.html:52
-#: donate/templates/fragments/donate_form.html:120
+#: donate/templates/fragments/donate_form.html:123
 msgid "Choose Payment"
 msgstr "ચુકવણી પસંદ કરો"
 
 #: donate/templates/fragments/donate_form.html:58
-#: donate/templates/fragments/donate_form.html:126
+#: donate/templates/fragments/donate_form.html:129
 #: donate/templates/payment/card_master.html:97
 msgid "SECURE"
 msgstr "સલામત"
 
 #: donate/templates/fragments/donate_form.html:64
-#: donate/templates/fragments/donate_form.html:132
+#: donate/templates/fragments/donate_form.html:135
 msgid "Donate"
 msgstr "દાન કરો"
 
-#: donate/templates/fragments/donate_form.html:101
+#: donate/templates/fragments/donate_form.html:104
 msgid "per month"
 msgstr "દર મહિને"
 
@@ -239,13 +239,13 @@ msgstr "હમણાં જ દાન કરો"
 
 #: donate/templates/pages/core/campaign_page.html:57
 #: donate/templates/pages/core/landing_page_master.html:36
-#: donate/templates/payment/card_master.html:159
+#: donate/templates/payment/card_master.html:167
 msgid "Seal of Charity Navigator 4-Star"
 msgstr "ચેરિટી નેવિગેટર 4-સ્ટારની સીલ"
 
 #: donate/templates/pages/core/campaign_page.html:60
 #: donate/templates/pages/core/landing_page_master.html:39
-#: donate/templates/payment/card_master.html:162
+#: donate/templates/payment/card_master.html:170
 msgid "Seal of GuideStar Gold 2019"
 msgstr "GuideStar ગોલ્ડ 2019 ની સીલ"
 
@@ -353,6 +353,14 @@ msgstr "મોઝિલા ફક્ત તમારી વિનંતી વ�
 #: donate/templates/pages/core/contributor_support_page_master.html:126
 msgid "Submit"
 msgstr "સબમિટ કરો"
+
+#: donate/templates/pages/core/landing_page_master.html:61
+msgid "Your donation is being processed..."
+msgstr ""
+
+#: donate/templates/pages/core/landing_page_master.html:65
+msgid "One moment while we get all the details right!"
+msgstr ""
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:4
 #: donate/templates/pages/core/ways_to_give_page_master.html:11
@@ -602,17 +610,17 @@ msgstr "હું Mozilla ફાઉન્ડેશનને અધિકૃત �
 msgid "I authorize Mozilla Foundation to charge my card in the amount indicated above. I understand that I may only request a refund within 15 days from the date of the donation."
 msgstr "હું Mozilla ફાઉન્ડેશનને ઉપર દર્શાવેલ રકમથી મારા કાર્ડને ચાર્જ કરવા માટે અધિકૃત કરું છું. હું સમજું છું કે હું દાનની તારીખથી 15 દિવસની અંદર જ રિફંડની વિનંતી કરી શકું છું."
 
-#: donate/templates/payment/card_master.html:144
+#: donate/templates/payment/card_master.html:153
 #, python-format
 msgid "Donate <span class=\"%(span_class)s\">%(formatted_amount)s</span> per month"
 msgstr "દર મહિને <span class=\"%(span_class)s\">%(formatted_amount)s</span> દાન કરો"
 
-#: donate/templates/payment/card_master.html:146
+#: donate/templates/payment/card_master.html:155
 #, python-format
 msgid "Donate <span class=\"%(span_class)s\">%(formatted_amount)s</span>"
 msgstr "<span class=\"%(span_class)s\">%(formatted_amount)s</span> દાન કરો"
 
-#: donate/templates/payment/card_master.html:155
+#: donate/templates/payment/card_master.html:163
 msgid "Your donation helps keep the Web open and free. Thank you in advance for your gift."
 msgstr "તમારું દાન વેબને ખુલ્લા અને મફત રાખવામાં મદદ કરે છે. તમારી ભેટ માટે અગાઉથી આભાર."
 

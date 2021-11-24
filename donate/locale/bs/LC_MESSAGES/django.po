@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-30 15:04+0000\n"
+"POT-Creation-Date: 2021-11-24 17:52+0000\n"
 "PO-Revision-Date: 2020-08-01 19:50+0000\n"
 "Last-Translator: Kerim Kalamujić <kerim@mozilla.ba>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,7 +37,7 @@ msgid "Donations must be %(amount)s or more"
 msgstr "Donacije moraju iznositi %(amount)s ili više"
 
 #: donate/payments/forms.py:96 donate/payments/forms.py:110
-#: donate/payments/forms.py:158
+#: donate/payments/forms.py:161
 msgid "Amount"
 msgstr "Iznos"
 
@@ -49,7 +49,7 @@ msgstr "Ime"
 msgid "Last name"
 msgstr "Prezime"
 
-#: donate/payments/forms.py:125 donate/payments/forms.py:168
+#: donate/payments/forms.py:125 donate/payments/forms.py:171
 #: donate/templates/pages/core/contributor_support_page_master.html:81
 msgid "Email"
 msgstr "Email"
@@ -71,44 +71,44 @@ msgstr "Poštanski broj"
 msgid "Country"
 msgstr "Država"
 
-#: donate/payments/forms.py:176
+#: donate/payments/forms.py:179
 #, python-format
 msgid "I’m okay with Mozilla handling my info as explained in this <a href='%(url)s'>Privacy Notice</a>."
 msgstr "Slažem se da Mozilla upravlja mojim informacijama, kao što je objašnjeno u <a href='%(url)s'>politici privatnosti</a>."
 
-#: donate/payments/views.py:160
+#: donate/payments/views.py:170
 msgid "The type of card you used is not accepted."
 msgstr "Vrsta kartice koju ste koristili nije prihvaćena."
 
-#: donate/payments/views.py:161 donate/payments/views.py:162
+#: donate/payments/views.py:171 donate/payments/views.py:172
 msgid "The CVV code you entered was invalid."
 msgstr "CVV kod koji ste unijeli nije važeći."
 
-#: donate/payments/views.py:163
+#: donate/payments/views.py:173
 msgid "The expiration date you entered was invalid."
 msgstr "Datum isteka koji ste unijeli nije važeći."
 
-#: donate/payments/views.py:164
+#: donate/payments/views.py:174
 msgid "The credit card number you entered was invalid."
 msgstr "Broj kreditne kartice koji ste unijeli nije važeći."
 
-#: donate/payments/views.py:173 donate/payments/views.py:174
+#: donate/payments/views.py:183 donate/payments/views.py:184
 msgid "The post code you provided is not valid."
 msgstr "Poštanski broj koji ste naveli nije važeći."
 
-#: donate/payments/views.py:188
+#: donate/payments/views.py:198
 msgid "Sorry there was an error processing your payment. Please try again later or use a different payment method."
 msgstr "Žao nam je, došlo je do greške prilikom obrade vaše uplate. Pokušajte ponovo kasnije ili koristite drugi način plaćanja."
 
-#: donate/payments/views.py:384
+#: donate/payments/views.py:394
 msgid "Something went wrong. We were unable to process your payment."
 msgstr "Nešto je pošlo po zlu. Nismo mogli obraditi vašu uplatu."
 
-#: donate/payments/views.py:638 donate/payments/views.py:747
+#: donate/payments/views.py:648 donate/payments/views.py:757
 msgid "Sorry there was an error processing your payment. Please try again later."
 msgstr "Žao nam je, došlo je do greške prilikom obrade vaše uplate. Pokušajte ponovo kasnije."
 
-#: donate/recaptcha/fields.py:18
+#: donate/recaptcha/fields.py:19
 msgid "Captcha was invalid. Please try again."
 msgstr "Captcha nije ispravno unesena. Pokušajte ponovo."
 
@@ -146,33 +146,33 @@ msgstr "MJESEČNO"
 
 #: donate/templates/fragments/donate_form.html:41
 #: donate/templates/fragments/donate_form.html:42
-#: donate/templates/fragments/donate_form.html:109
-#: donate/templates/fragments/donate_form.html:110
+#: donate/templates/fragments/donate_form.html:112
+#: donate/templates/fragments/donate_form.html:113
 msgid "Other amount"
 msgstr "Drugi iznos"
 
 #: donate/templates/fragments/donate_form.html:45
-#: donate/templates/fragments/donate_form.html:113
+#: donate/templates/fragments/donate_form.html:116
 msgid "Invalid amount entered."
 msgstr ""
 
 #: donate/templates/fragments/donate_form.html:52
-#: donate/templates/fragments/donate_form.html:120
+#: donate/templates/fragments/donate_form.html:123
 msgid "Choose Payment"
 msgstr "Odaberite plaćanje"
 
 #: donate/templates/fragments/donate_form.html:58
-#: donate/templates/fragments/donate_form.html:126
+#: donate/templates/fragments/donate_form.html:129
 #: donate/templates/payment/card_master.html:97
 msgid "SECURE"
 msgstr "SIGURNO"
 
 #: donate/templates/fragments/donate_form.html:64
-#: donate/templates/fragments/donate_form.html:132
+#: donate/templates/fragments/donate_form.html:135
 msgid "Donate"
 msgstr "Doniraj"
 
-#: donate/templates/fragments/donate_form.html:101
+#: donate/templates/fragments/donate_form.html:104
 msgid "per month"
 msgstr "mjesečno"
 
@@ -239,13 +239,13 @@ msgstr "DONIRAJTE SADA"
 
 #: donate/templates/pages/core/campaign_page.html:57
 #: donate/templates/pages/core/landing_page_master.html:36
-#: donate/templates/payment/card_master.html:159
+#: donate/templates/payment/card_master.html:167
 msgid "Seal of Charity Navigator 4-Star"
 msgstr "Pečat Charity Navigator 4 zvjezdice"
 
 #: donate/templates/pages/core/campaign_page.html:60
 #: donate/templates/pages/core/landing_page_master.html:39
-#: donate/templates/payment/card_master.html:162
+#: donate/templates/payment/card_master.html:170
 msgid "Seal of GuideStar Gold 2019"
 msgstr "Pečat GuideStar zlato 2019"
 
@@ -353,6 +353,14 @@ msgstr "Mozilla će tvoje poslane podatke koristiti samo u svrhu komunikacije s 
 #: donate/templates/pages/core/contributor_support_page_master.html:126
 msgid "Submit"
 msgstr "Pošalji"
+
+#: donate/templates/pages/core/landing_page_master.html:61
+msgid "Your donation is being processed..."
+msgstr ""
+
+#: donate/templates/pages/core/landing_page_master.html:65
+msgid "One moment while we get all the details right!"
+msgstr ""
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:4
 #: donate/templates/pages/core/ways_to_give_page_master.html:11
@@ -602,17 +610,17 @@ msgstr "Ovlašćujem Mozilla Foundation da svaki mjesec automatski naplaćuje s 
 msgid "I authorize Mozilla Foundation to charge my card in the amount indicated above. I understand that I may only request a refund within 15 days from the date of the donation."
 msgstr "Ovlašćujem Mozilla Foundation da naplati s moje kartice gore navedeni iznos. Razumijem da mogu zatražiti povrat novca samo u roku od 15 dana od datuma donacije."
 
-#: donate/templates/payment/card_master.html:144
+#: donate/templates/payment/card_master.html:153
 #, python-format
 msgid "Donate <span class=\"%(span_class)s\">%(formatted_amount)s</span> per month"
 msgstr "Donirajte <span class=\"%(span_class)s\">%(formatted_amount)s</span> mjesečno"
 
-#: donate/templates/payment/card_master.html:146
+#: donate/templates/payment/card_master.html:155
 #, python-format
 msgid "Donate <span class=\"%(span_class)s\">%(formatted_amount)s</span>"
 msgstr "Donirajte <span class=\"%(span_class)s\">%(formatted_amount)s</span>"
 
-#: donate/templates/payment/card_master.html:155
+#: donate/templates/payment/card_master.html:163
 msgid "Your donation helps keep the Web open and free. Thank you in advance for your gift."
 msgstr "Vaša donacija pomaže održavanju interneta otvorenim i besplatnim. Unaprijed hvala na poklonu."
 

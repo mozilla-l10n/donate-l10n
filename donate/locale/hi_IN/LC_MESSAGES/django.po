@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-30 15:04+0000\n"
+"POT-Creation-Date: 2021-11-24 17:52+0000\n"
 "PO-Revision-Date: 2021-04-07 06:15+0000\n"
 "Last-Translator: Ritesh Raj <ritesh07raj@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,7 +37,7 @@ msgid "Donations must be %(amount)s or more"
 msgstr "दान %(amount)s या उससे अदिक होनी चाहिए"
 
 #: donate/payments/forms.py:96 donate/payments/forms.py:110
-#: donate/payments/forms.py:158
+#: donate/payments/forms.py:161
 msgid "Amount"
 msgstr "राशि"
 
@@ -49,7 +49,7 @@ msgstr "प्रथम नाम"
 msgid "Last name"
 msgstr "उपनाम"
 
-#: donate/payments/forms.py:125 donate/payments/forms.py:168
+#: donate/payments/forms.py:125 donate/payments/forms.py:171
 #: donate/templates/pages/core/contributor_support_page_master.html:81
 msgid "Email"
 msgstr "ईमेल"
@@ -71,44 +71,44 @@ msgstr "ZIP कोड"
 msgid "Country"
 msgstr "देश"
 
-#: donate/payments/forms.py:176
+#: donate/payments/forms.py:179
 #, python-format
 msgid "I’m okay with Mozilla handling my info as explained in this <a href='%(url)s'>Privacy Notice</a>."
 msgstr "इस <a href='%(url)s'>गोपनीयता निति</a> में बताए अनुसार Mozilla द्वारा मेरी जानकारियों के रखे जाने से मुझे कोई आपत्ति नहीं है।"
 
-#: donate/payments/views.py:160
+#: donate/payments/views.py:170
 msgid "The type of card you used is not accepted."
 msgstr "आपके द्वारा उपयोग कार्ड प्रकार स्वीकृत नहीं हैं।"
 
-#: donate/payments/views.py:161 donate/payments/views.py:162
+#: donate/payments/views.py:171 donate/payments/views.py:172
 msgid "The CVV code you entered was invalid."
 msgstr "आपके द्वारा दर्ज CVV कोड गलत था।"
 
-#: donate/payments/views.py:163
+#: donate/payments/views.py:173
 msgid "The expiration date you entered was invalid."
 msgstr "आपके द्वारा दर्ज की गई समाप्ति तिथि गलत थी।"
 
-#: donate/payments/views.py:164
+#: donate/payments/views.py:174
 msgid "The credit card number you entered was invalid."
 msgstr "आपके द्वारा दर्ज किया गया क्रेडिट कार्ड नंबर गलत था।"
 
-#: donate/payments/views.py:173 donate/payments/views.py:174
+#: donate/payments/views.py:183 donate/payments/views.py:184
 msgid "The post code you provided is not valid."
 msgstr "आपके द्वारा दिया गया पोस्ट कोड सही नहीं है।"
 
-#: donate/payments/views.py:188
+#: donate/payments/views.py:198
 msgid "Sorry there was an error processing your payment. Please try again later or use a different payment method."
 msgstr "क्षमा करें, आपके पेमेंट को पूरा करने में एक समस्या हुई। कृपया बाद में पुनः प्रयास करें या कोई अन्य भुगतान तरीके का उपयोग करें।"
 
-#: donate/payments/views.py:384
+#: donate/payments/views.py:394
 msgid "Something went wrong. We were unable to process your payment."
 msgstr "कुछ समस्या उत्पन्न हुई। हम आपके भुगतान को पूरा करने में असमर्थ रहे।"
 
-#: donate/payments/views.py:638 donate/payments/views.py:747
+#: donate/payments/views.py:648 donate/payments/views.py:757
 msgid "Sorry there was an error processing your payment. Please try again later."
 msgstr "क्षमा करें, आपके भुगतान को पूरा करने में कोई समस्या उत्पन्न हुई। कृपया कुछ देर बाद पुनः प्रयास करें।"
 
-#: donate/recaptcha/fields.py:18
+#: donate/recaptcha/fields.py:19
 msgid "Captcha was invalid. Please try again."
 msgstr "कैप्चा गलत था। कृपया पुनः प्रयास करें।"
 
@@ -146,33 +146,33 @@ msgstr "मासिक"
 
 #: donate/templates/fragments/donate_form.html:41
 #: donate/templates/fragments/donate_form.html:42
-#: donate/templates/fragments/donate_form.html:109
-#: donate/templates/fragments/donate_form.html:110
+#: donate/templates/fragments/donate_form.html:112
+#: donate/templates/fragments/donate_form.html:113
 msgid "Other amount"
 msgstr "अन्य राशि"
 
 #: donate/templates/fragments/donate_form.html:45
-#: donate/templates/fragments/donate_form.html:113
+#: donate/templates/fragments/donate_form.html:116
 msgid "Invalid amount entered."
 msgstr ""
 
 #: donate/templates/fragments/donate_form.html:52
-#: donate/templates/fragments/donate_form.html:120
+#: donate/templates/fragments/donate_form.html:123
 msgid "Choose Payment"
 msgstr "भुगतान प्रकार चुनें"
 
 #: donate/templates/fragments/donate_form.html:58
-#: donate/templates/fragments/donate_form.html:126
+#: donate/templates/fragments/donate_form.html:129
 #: donate/templates/payment/card_master.html:97
 msgid "SECURE"
 msgstr "सुरक्षित"
 
 #: donate/templates/fragments/donate_form.html:64
-#: donate/templates/fragments/donate_form.html:132
+#: donate/templates/fragments/donate_form.html:135
 msgid "Donate"
 msgstr "दान दें"
 
-#: donate/templates/fragments/donate_form.html:101
+#: donate/templates/fragments/donate_form.html:104
 msgid "per month"
 msgstr "प्रति माह"
 
@@ -239,13 +239,13 @@ msgstr "अभी दान करें"
 
 #: donate/templates/pages/core/campaign_page.html:57
 #: donate/templates/pages/core/landing_page_master.html:36
-#: donate/templates/payment/card_master.html:159
+#: donate/templates/payment/card_master.html:167
 msgid "Seal of Charity Navigator 4-Star"
 msgstr ""
 
 #: donate/templates/pages/core/campaign_page.html:60
 #: donate/templates/pages/core/landing_page_master.html:39
-#: donate/templates/payment/card_master.html:162
+#: donate/templates/payment/card_master.html:170
 msgid "Seal of GuideStar Gold 2019"
 msgstr ""
 
@@ -352,6 +352,14 @@ msgstr ""
 
 #: donate/templates/pages/core/contributor_support_page_master.html:126
 msgid "Submit"
+msgstr ""
+
+#: donate/templates/pages/core/landing_page_master.html:61
+msgid "Your donation is being processed..."
+msgstr ""
+
+#: donate/templates/pages/core/landing_page_master.html:65
+msgid "One moment while we get all the details right!"
 msgstr ""
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:4
@@ -601,17 +609,17 @@ msgstr ""
 msgid "I authorize Mozilla Foundation to charge my card in the amount indicated above. I understand that I may only request a refund within 15 days from the date of the donation."
 msgstr ""
 
-#: donate/templates/payment/card_master.html:144
+#: donate/templates/payment/card_master.html:153
 #, python-format
 msgid "Donate <span class=\"%(span_class)s\">%(formatted_amount)s</span> per month"
 msgstr "प्रति माह <span class=\"%(span_class)s\">%(formatted_amount)s</span> दान करें"
 
-#: donate/templates/payment/card_master.html:146
+#: donate/templates/payment/card_master.html:155
 #, python-format
 msgid "Donate <span class=\"%(span_class)s\">%(formatted_amount)s</span>"
 msgstr "<span class=\"%(span_class)s\">%(formatted_amount)s</span> दान करें"
 
-#: donate/templates/payment/card_master.html:155
+#: donate/templates/payment/card_master.html:163
 msgid "Your donation helps keep the Web open and free. Thank you in advance for your gift."
 msgstr ""
 

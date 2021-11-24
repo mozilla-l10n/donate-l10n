@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-30 15:04+0000\n"
+"POT-Creation-Date: 2021-11-24 17:52+0000\n"
 "PO-Revision-Date: 2019-11-09 22:10+0000\n"
 "Last-Translator: Hyeonseok Shin <hyeonseok@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,36 +19,27 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pontoon\n"
 
-#: donate/frontend/_js/main.compiled.js:16 maintenance/static/_js/main.js:16
+#: maintenance/static/_js/main.js:16
 #: source/js/components/currency-selector.js:91
 msgid "per month"
 msgstr "달마다"
 
-#: donate/frontend/_js/main.compiled.js:16 maintenance/static/_js/main.js:16
+#: maintenance/static/_js/main.js:16
 msgid "Other amount"
 msgstr "다른 금액"
 
-#: donate/frontend/_js/payments-card.compiled.js:1
-#: donate/frontend/_js/payments-paypal-upsell.compiled.js:1
-#: donate/frontend/_js/payments-paypal.compiled.js:1
 #: source/js/components/paypal.js:14 source/js/payments-card.js:15
 msgid "An error occurred. Please reload the page or try again later."
 msgstr "오류가 발생하였습니다. 페이지를 다시 로드하거나 나중에 다시 시도하십시오."
 
-#: donate/frontend/_js/payments-card.compiled.js:1
-#: donate/frontend/_js/payments-paypal-upsell.compiled.js:1
-#: donate/frontend/_js/payments-paypal.compiled.js:1
-#: source/js/components/paypal.js:17 source/js/payments-card.js:131
+#: source/js/components/paypal.js:17 source/js/payments-card.js:129
 msgid "There was an error processing your payment. Please try again."
 msgstr "결제 처리 중 오류가 발생했습니다. 다시 시도하십시오."
 
-#: donate/frontend/_js/payments-card.compiled.js:1
-#: source/js/payments-card.js:152
-msgid "Some of the fields below are invalid. Please correct the invalid fields and try again."
-msgstr "아래 필드 중 일부가 유효하지 않습니다. 유효하지 않은 필드를 수정 한 후 다시 시도하십시오."
-
-#: donate/frontend/_js/payments-paypal-upsell.compiled.js:1
-#: donate/frontend/_js/payments-paypal.compiled.js:1
 #: source/js/components/paypal.js:94
 msgid "Payment cancelled"
 msgstr "결제 취소됨"
+
+#: source/js/payments-card.js:149
+msgid "Some of the fields below are invalid. Please correct the invalid fields and try again."
+msgstr "아래 필드 중 일부가 유효하지 않습니다. 유효하지 않은 필드를 수정 한 후 다시 시도하십시오."
