@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-24 17:52+0000\n"
-"PO-Revision-Date: 2021-11-24 18:17+0000\n"
+"PO-Revision-Date: 2021-11-24 18:24+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: dsb\n"
@@ -357,7 +357,7 @@ msgstr "Waš dar se pśeźěłujo..."
 
 #: donate/templates/pages/core/landing_page_master.html:65
 msgid "One moment while we get all the details right!"
-msgstr ""
+msgstr "Wobcakajśo pšosym chylcycku, mjaztym až wšykne drobnostki wobstaramy!"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:4 donate/templates/pages/core/ways_to_give_page_master.html:11
 msgid "Ways to Give"
