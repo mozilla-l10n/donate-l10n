@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-24 17:52+0000\n"
-"PO-Revision-Date: 2021-11-25 11:55+0000\n"
+"PO-Revision-Date: 2021-11-25 12:04+0000\n"
 "Last-Translator: Hariom Panchal <hariompanchal6647@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gu_IN\n"
@@ -220,13 +220,13 @@ msgid "Blog"
 msgstr "Blog"
 
 #: donate/templates/pages/base_page_master.html:184
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a "
 "%(fomo_link_attributes)s>%(fomo_site_url)s</a>. Most content available under a <a %(cc_link_attributes)s>Creative Commons license</a>."
 msgstr ""
-"Mozilla એ વૈશ્વિક બિન-નફાકારક છે જે તમને તમારા ઓનલાઇન અનુભવને નિયંત્રણમાં રાખવા માટે અને વેબના ભાવિને લોકોના હિત માટે આકાર આપવા માટે સમર્પિત છે. <a %(link_attributes)s>%(site_url)s</a>પર અમારી "
-"મુલાકાત લો."
+"Mozilla એ એક વૈશ્વિક બિન-લાભકારી છે જે તમને તમારા ઑનલાઇન અનુભવને નિયંત્રણમાં રાખવા અને જાહેર ભલા માટે વેબના ભાવિને આકાર આપવા માટે સમર્પિત છે. <a%(fomo_link_attributes)s>%(fomo_site_url)s</a>પર અમારી"
+" મુલાકાત લો. <a%(cc_link_attributes)s>ક્રિએટિવ કોમન્સ લાયસન્સ</a>હેઠળ ઉપલબ્ધ મોટાભાગની સામગ્રી."
 
 #: donate/templates/pages/core/campaign_page.html:43 donate/templates/pages/core/ways_to_give_page_master.html:12
 msgctxt "Button"
@@ -484,9 +484,8 @@ msgid "Check (via postal service)"
 msgstr "ચેક (ટપાલ સેવા દ્વારા)"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:90 donate/thunderbird/templates/pages/core/ways_to_give_page.html:54
-#, fuzzy
 msgid "UPDATE October 2020:"
-msgstr "20 માર્ચ, 2020 ના રોજ અપડેટ કરો:"
+msgstr "અપડેટ ઑક્ટોબર 2020:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:91
 msgid ""
@@ -506,6 +505,8 @@ msgid ""
 "Please also note that the Mozilla Foundation can <strong>only</strong> accept checks in U.S. dollars drawn on a U.S. bank, and <strong>cannot</strong> accept contributions for MZLA/Thunderbird. "
 "(Contributions to MZLA/Thunderbird via check can be made by following <a href=\"%(instruction_url)s\" target=\"_blank\">these instructions</a>.)"
 msgstr ""
+"મહેરબાની કરીને એ પણ નોંધો કે Mozilla Foundation U.S. બેંક પર દોરવામાં આવેલ U.S. ડૉલરમાં ચેક <strong>માત્ર</strong> સ્વીકારી શકે છે અને MZLA/થંડરબર્ડ માટે યોગદાન <strong>સ્વીકારતું નથી</strong>. (ચેક"
+" દ્વારા MZLA/Thunderbird માં યોગદાન <a href=\"%(instruction_url)s\" target=\"_blank\">આ સૂચનાઓ</a>ને અનુસરીને કરી શકાય છે.)"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:122
 msgid "Currencies"
@@ -781,7 +782,7 @@ msgstr "સહભાગી માર્ગદર્શિકા"
 
 #: donate/thunderbird/templates/pages/base_page.html:62
 msgid "Press Center"
-msgstr ""
+msgstr "જાહેરાત કેન્દ્ર"
 
 #: donate/thunderbird/templates/pages/base_page.html:65
 msgid "Privacy"
@@ -794,13 +795,14 @@ msgstr "આ સામગ્રીના ભાગો વ્યક્તિગત
 
 #: donate/thunderbird/templates/pages/core/contributor_support_page.html:6
 msgid "If you need help with a contribution to MZLA/Thunderbird, please fill out this form and a Thunderbird donor care representative will get back to you as soon as possible."
-msgstr ""
+msgstr "જો તમને MZLA/Thunderbirdમાં ફાળો આપવા માટે સહાયની જરૂર હોય, તો આ ફોર્મ ભરો અને થંડરબર્ડ દાતા સંભાળના પ્રતિનિધિ તમને શક્ય તેટલી વહેલી તકે પાછા મળશે."
 
 #: donate/thunderbird/templates/pages/core/contributor_support_page.html:12
 #, python-format
 msgid ""
 "Unfortunately, donor care representatives are unable to offer support or help with Thunderbird technical issues. For technical support, please visit our <a href=\"%(support_url)s\">support page.</a>"
 msgstr ""
+"કમનસીબે, દાતા સંભાળના પ્રતિનિધિઓ Firefox ટેકનિકલ સમસ્યાઓ માટે સમર્થન અથવા મદદ ઓફર કરવામાં અસમર્થ છે. તકનીકી સમર્થન માટે, કૃપા કરીને <a href=\"%(support_url)s\">Firefox સપોર્ટ પૃષ્ઠ</a>ની મુલાકાત લો"
 
 #: donate/thunderbird/templates/pages/core/landing_page.html:7
 #, python-format
@@ -828,11 +830,12 @@ msgid ""
 "MZLA/Thunderbird is happy to accept your donation (made payable to “MZLA Technologies”) via check; however please note that processing and acknowledgment of your gift may be delayed by changes to "
 "our office procedures due to the COVID-19 pandemic. You can send checks to:"
 msgstr ""
+"MZLA/Thunderbird તમારા દાન (“MZLA Technologies” ને ચૂકવવાપાત્ર) ચેક દ્વારા સ્વીકારવામાં ખુશ છે; જો કે કૃપા કરીને નોંધો કે તમારી ભેટની પ્રક્રિયા અને સ્વીકૃતિમાં કોવિડ-19રોગચાળાને કારણે અમારી ઓફિસ "
+"પ્રક્રિયાઓમાં ફેરફાર થવાથી વિલંબ થઈ શકે છે. તમે આના પર ચેક મોકલી શકો છો:"
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:71
-#, fuzzy
 msgid "Please also note that MZLA/Thunderbird can <strong>only</strong> accept checks in U.S. dollars drawn on a U.S. bank."
-msgstr "કૃપા કરીને નોંધો કે અમે ફક્ત યુ.એસ. બેંક પર દોરેલા યુ.એસ. ડોલરમાં જ ચેક સ્વીકારી શકીએ છીએ. કૃપા કરીને રોકડ <strong>ના</strong> મોકલશો."
+msgstr "મહેરબાની કરીને એ પણ નોંધો કે MZLA/Thunderbird, U.S. બેંક પર દોરેલા યુએસ ડૉલરમાં ચેક<strong>માત્ર</strong> સ્વીકારી શકે છે."
 
 #: donate/thunderbird/templates/payment/card.html:6
 msgid "Thank you in advance for your gift."
@@ -869,7 +872,7 @@ msgstr ""
 
 #: donate/thunderbird/templates/payment/newsletter_signup.html:8
 msgid "We’re working hard to protect your inbox. Sign up to receive email messages concerning Thunderbird, including updates and requests for feedback."
-msgstr ""
+msgstr "અમે તમારા ઇનબોક્સને સુરક્ષિત રાખવા માટે સખત મહેનત કરીએ છીએ. Thunderbird સંબંધિત ઇમેઇલ સંદેશાઓ પ્રાપ્ત કરવા માટે સાઇન અપ કરો, જેમાં સુધારાઓ અને પ્રતિસાદની વિનંતીઓ સામેલ છે."
 
 #: donate/thunderbird/templates/payment/thank_you.html:7
 msgid "Lastly, can you multiply your impact by sharing about the important work Thunderbird is doing? Thank you again!"
