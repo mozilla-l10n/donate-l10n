@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-24 17:52+0000\n"
-"PO-Revision-Date: 2021-11-25 11:46+0000\n"
+"PO-Revision-Date: 2021-11-25 11:55+0000\n"
 "Last-Translator: Hariom Panchal <hariompanchal6647@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gu_IN\n"
@@ -209,15 +209,15 @@ msgstr "અમે શું કરીએ"
 
 #: donate/templates/pages/base_page_master.html:34
 msgid "What we fund"
-msgstr ""
+msgstr "અમે શું ભંડોળ"
 
 #: donate/templates/pages/base_page_master.html:37
 msgid "What you can do"
-msgstr ""
+msgstr "તું શું કરી શકે"
 
 #: donate/templates/pages/base_page_master.html:40
 msgid "Blog"
-msgstr ""
+msgstr "Blog"
 
 #: donate/templates/pages/base_page_master.html:184
 #, fuzzy, python-format
@@ -256,7 +256,7 @@ msgstr "અમે ટૂંક સમયમાં તમારી પાસે �
 
 #: donate/templates/pages/core/contributor_support_page_master.html:52
 msgid "If you need help with a donation to the Mozilla Foundation, please fill out this form and a donor care representative will get back to you as soon as possible."
-msgstr ""
+msgstr "જો તમને Mozilla Foundationને દાનમાં મદદની જરૂર હોય, તો કૃપા કરીને આ ફોર્મ ભરો અને દાતા સંભાળ પ્રતિનિધિ શક્ય તેટલી વહેલી તકે તમારો સંપર્ક કરશે."
 
 #: donate/templates/pages/core/contributor_support_page_master.html:57
 #, python-format
@@ -264,6 +264,7 @@ msgid ""
 "Unfortunately, donor care representatives are unable to offer support or help with Firefox technical issues. For technical support, please visit the <a href=\"%(support_url)s\">Firefox support "
 "page</a>."
 msgstr ""
+"કમનસીબે, દાતા સંભાળના પ્રતિનિધિઓ Firefox ટેકનિકલ સમસ્યાઓ માટે સમર્થન અથવા મદદ ઓફર કરવામાં અસમર્થ છે. તકનીકી સમર્થન માટે, કૃપા કરીને <a href=\"%(support_url)s\">Firefox સપોર્ટ પૃષ્ઠ</a>ની મુલાકાત લો."
 
 #: donate/templates/pages/core/contributor_support_page_master.html:76
 msgid "Contact Name"
@@ -276,19 +277,19 @@ msgstr "કંઈ નહીં"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:90
 msgid "Chinese (Simplified)"
-msgstr ""
+msgstr "Chinese (Simplified)"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:91
 msgid "Czech"
-msgstr ""
+msgstr "Czech"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:92
 msgid "Danish"
-msgstr ""
+msgstr "Danish"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:93
 msgid "Dutch"
-msgstr ""
+msgstr "Dutch"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:94
 msgid "English"
@@ -304,11 +305,11 @@ msgstr "German"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:97
 msgid "Italian"
-msgstr ""
+msgstr "Italian"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:98
 msgid "Japanese"
-msgstr ""
+msgstr "Japanese"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:99
 msgid "Polish"
@@ -320,7 +321,7 @@ msgstr "Portuguese"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:101
 msgid "Russian"
-msgstr ""
+msgstr "Russian"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:102
 msgid "Spanish"
@@ -350,11 +351,11 @@ msgstr "સબમિટ કરો"
 
 #: donate/templates/pages/core/landing_page_master.html:61
 msgid "Your donation is being processed..."
-msgstr ""
+msgstr "તમારા દાનની પ્રક્રિયા કરવામાં આવી રહી છે..."
 
 #: donate/templates/pages/core/landing_page_master.html:65
 msgid "One moment while we get all the details right!"
-msgstr ""
+msgstr "એક ક્ષણ જ્યારે આપણે બધી વિગતો બરાબર મેળવીએ!"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:4 donate/templates/pages/core/ways_to_give_page_master.html:11
 msgid "Ways to Give"
@@ -391,6 +392,8 @@ msgid ""
 "Please also note that the Mozilla Foundation cannot accept SEPA or BACS transfers for MZLA/Thunderbird. To contribute to MZLA/Thunderbird via SEPA or BACS transfer, please follow <a "
 "href=\"%(instruction_url)s\">these instructions</a>."
 msgstr ""
+"મહેરબાની કરીને એ પણ નોંધો કે Mozilla Foundation MZLA/Thunderbird માટે SEPA અથવા BACS ટ્રાન્સફર સ્વીકારી શકતું નથી. SEPA અથવા BACS ટ્રાન્સફર દ્વારા MZLA/Thunderbird માં યોગદાન આપવા માટે, કૃપા કરીને "
+"<a href=\"%(instruction_url)s\">આ સૂચનાઓ</a>અનુસરો."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:36
 msgid "Please remember that donations are deductible for U.S. income tax purposes only."
@@ -465,7 +468,7 @@ msgstr "ખાતા નંબર (8 અંકો):"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:75
 msgid "Donation of Stock/Securities:"
-msgstr ""
+msgstr "સ્ટોક/સિક્યોરિટીઝનું દાન:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:77
 #, python-format
@@ -473,6 +476,8 @@ msgid ""
 "The Mozilla Foundation is happy to accept your gift of publicly-traded stocks or bonds through our brokerage account at Northern Trust Securities. Please contact Major Gift Officer %(name)s at <a "
 "href=\"mailto:%(email)s\">%(email)s</a> to initiate the process."
 msgstr ""
+"Mozilla Foundation નોર્ધન ટ્રસ્ટ સિક્યોરિટીઝ ખાતે અમારા બ્રોકરેજ એકાઉન્ટ દ્વારા સાર્વજનિક રૂપે ટ્રેડેડ સ્ટોક્સ અથવા બોન્ડ્સની તમારી ભેટ સ્વીકારવામાં ખુશ છે. પ્રક્રિયા શરૂ કરવા માટે કૃપા કરીને મુખ્ય "
+"ભેટ અધિકારી %(name)s નો <a href=\"mailto:%(email)s\">%(email)s</a> પર સંપર્ક કરો."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:86
 msgid "Check (via postal service)"
@@ -488,10 +493,12 @@ msgid ""
 "The Mozilla Foundation is happy to accept your donation (made payable to “Mozilla Foundation”) via check; however please note that processing and acknowledgment of your gift may be delayed by "
 "changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
 msgstr ""
+"Mozilla Foundation ચેક દ્વારા તમારું દાન (“Mozilla Foundation”ને ચૂકવવાપાત્ર) સ્વીકારવામાં ખુશ છે; જો કે કૃપા કરીને નોંધો કે તમારી ભેટની પ્રક્રિયા અને સ્વીકૃતિમાં કોવિડ-19 રોગચાળાને કારણે અમારી ઓફિસ"
+" પ્રક્રિયાઓમાં ફેરફાર થવાથી વિલંબ થઈ શકે છે. તમે આના પર ચેક મોકલી શકો છો:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:108 donate/thunderbird/templates/pages/core/ways_to_give_page.html:67
 msgid "Please include your email address on the memo line of your check to help us track and attribute your gift."
-msgstr ""
+msgstr "તમારી ભેટને ટ્રૅક કરવામાં અને એટ્રિબ્યુટ કરવામાં અમને મદદ કરવા માટે કૃપા કરીને તમારા ચેકની મેમો લાઇન પર તમારું ઇમેઇલ ઍડ્રેસ શામેલ કરો."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:115
 #, python-format
