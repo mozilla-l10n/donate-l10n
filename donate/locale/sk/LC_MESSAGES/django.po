@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-24 17:52+0000\n"
-"PO-Revision-Date: 2021-11-25 19:03+0000\n"
+"PO-Revision-Date: 2021-11-25 19:05+0000\n"
 "Last-Translator: Vlado Valaštiak <valastiak@mozilla.sk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sk\n"
@@ -360,7 +360,7 @@ msgstr "Váš dar sa spracováva..."
 
 #: donate/templates/pages/core/landing_page_master.html:65
 msgid "One moment while we get all the details right!"
-msgstr ""
+msgstr "Počkajte chvíľku, kým spracujeme všetky podrobnosti!"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:4 donate/templates/pages/core/ways_to_give_page_master.html:11
 msgid "Ways to Give"
