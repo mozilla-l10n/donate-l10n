@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-24 17:52+0000\n"
-"PO-Revision-Date: 2021-11-27 01:43+0000\n"
+"PO-Revision-Date: 2021-11-27 01:48+0000\n"
 "Last-Translator: Hyeonseok Shin <hyeonseok@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -218,11 +218,12 @@ msgid "Blog"
 msgstr "블로그"
 
 #: donate/templates/pages/base_page_master.html:184
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a "
 "%(fomo_link_attributes)s>%(fomo_site_url)s</a>. Most content available under a <a %(cc_link_attributes)s>Creative Commons license</a>."
-msgstr "Mozilla는 사용자가 온라인 경험을 주도하고 웹의 미래를 형성하여 공공의 이익을 얻는 데 전념하는 세계적인 비영리 단체입니다. <a %(link_attributes)s>%(site_url)s</a> 통해 방문해주세요."
+msgstr ""
+"Mozilla는 사용자가 온라인 경험을 주도하고 웹의 미래를 형성하여 공공의 이익을 얻는 데 전념하는 세계적인 비영리 단체입니다. <a %(fomo_link_attributes)s>%(fomo_site_url)s</a>로 방문해주세요. 대부분의 콘텐츠는 <a %(cc_link_attributes)s>크리에이티브 커먼즈 라이선스</a>에 따라 제공됩니다."
 
 #: donate/templates/pages/core/campaign_page.html:43 donate/templates/pages/core/ways_to_give_page_master.html:12
 msgctxt "Button"
@@ -466,7 +467,7 @@ msgstr "주식/증권 기부:"
 msgid ""
 "The Mozilla Foundation is happy to accept your gift of publicly-traded stocks or bonds through our brokerage account at Northern Trust Securities. Please contact Major Gift Officer %(name)s at <a "
 "href=\"mailto:%(email)s\">%(email)s</a> to initiate the process."
-msgstr ""
+msgstr "Mozilla Foundation은 Northern Trust Securities의 증권 계좌를 통한 상장주식 또는 채권의 기부를 환영합니다. 기부 절차를 진행하려면 고액기부 담당자 %(name)s <a href=\"mailto:%(email)s\">%(email)s</a> 에게 문의해 주십시오."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:86
 msgid "Check (via postal service)"
@@ -480,11 +481,11 @@ msgstr "2020년 10월 업데이트:"
 msgid ""
 "The Mozilla Foundation is happy to accept your donation (made payable to “Mozilla Foundation”) via check; however please note that processing and acknowledgment of your gift may be delayed by "
 "changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
-msgstr ""
+msgstr "Mozilla Foundation은 귀하의 수표 기부(“Mozilla Foundation” 앞)를 환영합니다. 그러나 코로나19 상황으로 인해 사무 절차가 변경되어 귀하의 기부에 대한 처리 및 승인이 지연될 수 있습니다. 수표를 발송할 주소:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:108 donate/thunderbird/templates/pages/core/ways_to_give_page.html:67
 msgid "Please include your email address on the memo line of your check to help us track and attribute your gift."
-msgstr ""
+msgstr "귀하의 기부를 추적하고 등록할 수 있도록 수표의 메모란에 이메일 주소를 기재해 주십시오."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:115
 #, python-format
@@ -808,9 +809,8 @@ msgid ""
 msgstr ""
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:71
-#, fuzzy
 msgid "Please also note that MZLA/Thunderbird can <strong>only</strong> accept checks in U.S. dollars drawn on a U.S. bank."
-msgstr "미국 은행에서 발행 된 미국 달러로만 수표를 받을 수 있습니다. 현금을 직접 보내지 <strong>마세요</strong>."
+msgstr "또한 MZLA/Thunderbird는 미국 은행에서 발행 된 미국 달러<strong>만</strong> 수표로 받을 수 있음을 확인해 주세요."
 
 #: donate/thunderbird/templates/payment/card.html:6
 msgid "Thank you in advance for your gift."
