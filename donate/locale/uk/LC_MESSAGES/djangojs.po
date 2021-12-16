@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-24 17:52+0000\n"
+"POT-Creation-Date: 2021-12-16 08:18+0000\n"
 "PO-Revision-Date: 2020-12-15 03:22+0000\n"
 "Last-Translator: Maksym Kozub <maksym.kozub@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,27 +19,36 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pontoon\n"
 
-#: maintenance/static/_js/main.js:16
+#: donate/frontend/_js/main.compiled.js:16 maintenance/static/_js/main.js:16
 #: source/js/components/currency-selector.js:91
 msgid "per month"
 msgstr "на місяць"
 
-#: maintenance/static/_js/main.js:16
+#: donate/frontend/_js/main.compiled.js:16 maintenance/static/_js/main.js:16
 msgid "Other amount"
 msgstr "Інша сума"
 
+#: donate/frontend/_js/payments-card.compiled.js:1
+#: donate/frontend/_js/payments-paypal-upsell.compiled.js:1
+#: donate/frontend/_js/payments-paypal.compiled.js:1
 #: source/js/components/paypal.js:14 source/js/payments-card.js:15
 msgid "An error occurred. Please reload the page or try again later."
 msgstr "Трапилася помилка. Перезавантажте сторінку або повторіть спробу пізніше."
 
-#: source/js/components/paypal.js:17 source/js/payments-card.js:129
+#: donate/frontend/_js/payments-card.compiled.js:1
+#: donate/frontend/_js/payments-paypal-upsell.compiled.js:1
+#: donate/frontend/_js/payments-paypal.compiled.js:1
+#: source/js/components/paypal.js:17 source/js/payments-card.js:142
 msgid "There was an error processing your payment. Please try again."
 msgstr "Під час обробки вашого платежу сталася помилка. Cпробуйте ще раз."
 
+#: donate/frontend/_js/payments-card.compiled.js:1
+#: source/js/payments-card.js:162
+msgid "Some of the fields below are invalid. Please correct the invalid fields and try again."
+msgstr "Деякі поля нижче є недійсними. Виправте недійсні поля та повторіть спробу."
+
+#: donate/frontend/_js/payments-paypal-upsell.compiled.js:1
+#: donate/frontend/_js/payments-paypal.compiled.js:1
 #: source/js/components/paypal.js:94
 msgid "Payment cancelled"
 msgstr "Платіж скасовано"
-
-#: source/js/payments-card.js:149
-msgid "Some of the fields below are invalid. Please correct the invalid fields and try again."
-msgstr "Деякі поля нижче є недійсними. Виправте недійсні поля та повторіть спробу."

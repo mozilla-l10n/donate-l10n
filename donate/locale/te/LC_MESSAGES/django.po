@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-24 17:52+0000\n"
+"POT-Creation-Date: 2021-12-16 08:18+0000\n"
 "PO-Revision-Date: 2020-12-24 17:58+0000\n"
 "Last-Translator: వీవెన్ <veeven@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -50,7 +50,7 @@ msgid "Last name"
 msgstr "ఇంటి పేరు"
 
 #: donate/payments/forms.py:125 donate/payments/forms.py:171
-#: donate/templates/pages/core/contributor_support_page_master.html:81
+#: donate/templates/pages/core/contributor_support_page_master.html:92
 msgid "Email"
 msgstr "ఈమెయిలు"
 
@@ -188,7 +188,7 @@ msgstr ""
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:17
 #, python-format
-msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a> | <a href=\"%(bitcoin_url)s\">Bitcoin</a>"
+msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a> | <a href=\"%(cryptocurrency_url)s\">BitPay (cryptocurrencies)</a>"
 msgstr ""
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:23
@@ -202,7 +202,7 @@ msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization base
 msgstr ""
 
 #: donate/templates/fragments/language_switcher.html:10
-#: donate/templates/pages/core/contributor_support_page_master.html:86
+#: donate/templates/pages/core/contributor_support_page_master.html:97
 msgid "Language"
 msgstr "భాష"
 
@@ -254,112 +254,114 @@ msgctxt "Header"
 msgid "Donate now"
 msgstr ""
 
-#: donate/templates/pages/core/contributor_support_page_master.html:39
-msgid "Thank you for contacting us. A case has been created for your issue and we will be in touch shortly."
-msgstr ""
-
-#: donate/templates/pages/core/contributor_support_page_master.html:45
-msgid "We will get back to you soon."
-msgstr ""
-
-#: donate/templates/pages/core/contributor_support_page_master.html:52
-msgid "If you need help with a donation to the Mozilla Foundation, please fill out this form and a donor care representative will get back to you as soon as possible."
-msgstr ""
-
-#: donate/templates/pages/core/contributor_support_page_master.html:57
-#, python-format
-msgid "Unfortunately, donor care representatives are unable to offer support or help with Firefox technical issues. For technical support, please visit the <a href=\"%(support_url)s\">Firefox support page</a>."
-msgstr ""
-
-#: donate/templates/pages/core/contributor_support_page_master.html:76
-msgid "Contact Name"
-msgstr "సంప్రదింపు పేరు"
-
-#: donate/templates/pages/core/contributor_support_page_master.html:89
-msgctxt "Option in 'Language' dropdown"
-msgid "None"
-msgstr "ఏదీ కాదు"
-
-#: donate/templates/pages/core/contributor_support_page_master.html:90
-msgid "Chinese (Simplified)"
-msgstr ""
-
-#: donate/templates/pages/core/contributor_support_page_master.html:91
-msgid "Czech"
-msgstr ""
-
-#: donate/templates/pages/core/contributor_support_page_master.html:92
-msgid "Danish"
-msgstr ""
-
-#: donate/templates/pages/core/contributor_support_page_master.html:93
-msgid "Dutch"
-msgstr ""
-
-#: donate/templates/pages/core/contributor_support_page_master.html:94
-msgid "English"
-msgstr "ఆంగ్లం"
-
-#: donate/templates/pages/core/contributor_support_page_master.html:95
-msgid "French"
-msgstr "ఫ్రెంచి"
-
-#: donate/templates/pages/core/contributor_support_page_master.html:96
-msgid "German"
-msgstr "జర్మన్"
-
-#: donate/templates/pages/core/contributor_support_page_master.html:97
-msgid "Italian"
-msgstr ""
-
-#: donate/templates/pages/core/contributor_support_page_master.html:98
-msgid "Japanese"
-msgstr ""
-
-#: donate/templates/pages/core/contributor_support_page_master.html:99
-msgid "Polish"
-msgstr "పోలిష్"
-
-#: donate/templates/pages/core/contributor_support_page_master.html:100
-msgid "Portuguese"
-msgstr "పోర్చుగీసు"
-
-#: donate/templates/pages/core/contributor_support_page_master.html:101
-msgid "Russian"
-msgstr ""
-
-#: donate/templates/pages/core/contributor_support_page_master.html:102
-msgid "Spanish"
-msgstr "స్పానిష్"
-
-#: donate/templates/pages/core/contributor_support_page_master.html:103
-msgctxt "Option in 'Language' dropdown"
-msgid "Other"
-msgstr "ఇతరాలు"
-
-#: donate/templates/pages/core/contributor_support_page_master.html:109
-msgid "Subject"
-msgstr "విషయం"
-
-#: donate/templates/pages/core/contributor_support_page_master.html:114
-msgid "Description"
-msgstr "వివరణ"
-
-#: donate/templates/pages/core/contributor_support_page_master.html:119
-#, python-format
-msgid "Mozilla will only use your submitted information for purposes of communicating with you about your request. See our <a href=\"%(privacy_policy)s\">privacy policy</a> for further information."
-msgstr ""
-
-#: donate/templates/pages/core/contributor_support_page_master.html:126
-msgid "Submit"
-msgstr ""
-
+#: donate/templates/pages/core/campaign_page.html:84
 #: donate/templates/pages/core/landing_page_master.html:61
 msgid "Your donation is being processed..."
 msgstr ""
 
-#: donate/templates/pages/core/landing_page_master.html:65
+#: donate/templates/pages/core/campaign_page.html:93
+#: donate/templates/pages/core/landing_page_master.html:71
 msgid "One moment while we get all the details right!"
+msgstr ""
+
+#: donate/templates/pages/core/contributor_support_page_master.html:54
+msgid "Thank you for contacting us. A case has been created for your issue and we will be in touch shortly."
+msgstr ""
+
+#: donate/templates/pages/core/contributor_support_page_master.html:60
+msgid "We will get back to you soon."
+msgstr ""
+
+#: donate/templates/pages/core/contributor_support_page_master.html:67
+msgid "If you need help with a donation to the Mozilla Foundation, please fill out this form and a donor care representative will get back to you as soon as possible."
+msgstr ""
+
+#: donate/templates/pages/core/contributor_support_page_master.html:72
+#, python-format
+msgid "Unfortunately, donor care representatives are unable to offer support or help with Firefox technical issues. For technical support, please visit the <a href=\"%(support_url)s\">Firefox support page</a>."
+msgstr ""
+
+#: donate/templates/pages/core/contributor_support_page_master.html:87
+msgid "Contact Name"
+msgstr "సంప్రదింపు పేరు"
+
+#: donate/templates/pages/core/contributor_support_page_master.html:100
+msgctxt "Option in 'Language' dropdown"
+msgid "None"
+msgstr "ఏదీ కాదు"
+
+#: donate/templates/pages/core/contributor_support_page_master.html:101
+msgid "Chinese (Simplified)"
+msgstr ""
+
+#: donate/templates/pages/core/contributor_support_page_master.html:102
+msgid "Czech"
+msgstr ""
+
+#: donate/templates/pages/core/contributor_support_page_master.html:103
+msgid "Danish"
+msgstr ""
+
+#: donate/templates/pages/core/contributor_support_page_master.html:104
+msgid "Dutch"
+msgstr ""
+
+#: donate/templates/pages/core/contributor_support_page_master.html:105
+msgid "English"
+msgstr "ఆంగ్లం"
+
+#: donate/templates/pages/core/contributor_support_page_master.html:106
+msgid "French"
+msgstr "ఫ్రెంచి"
+
+#: donate/templates/pages/core/contributor_support_page_master.html:107
+msgid "German"
+msgstr "జర్మన్"
+
+#: donate/templates/pages/core/contributor_support_page_master.html:108
+msgid "Italian"
+msgstr ""
+
+#: donate/templates/pages/core/contributor_support_page_master.html:109
+msgid "Japanese"
+msgstr ""
+
+#: donate/templates/pages/core/contributor_support_page_master.html:110
+msgid "Polish"
+msgstr "పోలిష్"
+
+#: donate/templates/pages/core/contributor_support_page_master.html:111
+msgid "Portuguese"
+msgstr "పోర్చుగీసు"
+
+#: donate/templates/pages/core/contributor_support_page_master.html:112
+msgid "Russian"
+msgstr ""
+
+#: donate/templates/pages/core/contributor_support_page_master.html:113
+msgid "Spanish"
+msgstr "స్పానిష్"
+
+#: donate/templates/pages/core/contributor_support_page_master.html:114
+msgctxt "Option in 'Language' dropdown"
+msgid "Other"
+msgstr "ఇతరాలు"
+
+#: donate/templates/pages/core/contributor_support_page_master.html:120
+msgid "Subject"
+msgstr "విషయం"
+
+#: donate/templates/pages/core/contributor_support_page_master.html:125
+msgid "Description"
+msgstr "వివరణ"
+
+#: donate/templates/pages/core/contributor_support_page_master.html:130
+#, python-format
+msgid "Mozilla will only use your submitted information for purposes of communicating with you about your request. See our <a href=\"%(privacy_policy)s\">privacy policy</a> for further information."
+msgstr ""
+
+#: donate/templates/pages/core/contributor_support_page_master.html:142
+msgid "Submit"
 msgstr ""
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:4
@@ -527,16 +529,16 @@ msgid "Select your currency to make a secure online donation:"
 msgstr ""
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:133
-msgid "Bitcoin"
-msgstr "బిట్‌కాయిన్"
+msgid "Cryptocurrencies"
+msgstr ""
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:135
-msgid "The Mozilla Foundation is a California non-profit corporation exempt from United States federal income taxation under IRC 501(c)(3) and a public charity classified under IRC sections 170(b)(1)(A) and 509(a)(1). Bitcoin donations Mozilla receives are considered charitable contributions under U.S. federal tax laws, to be used in its discretion for its charitable purposes. Because the IRS has indicated that it will treat bitcoin as property for U.S. tax purposes (see IRS Notice 2014-21), donations of bitcoin may be subject to special rules as to the amount of your charitable deduction, the documentation that must be provided to claim a tax deduction, or other matters."
+msgid "The Mozilla Foundation is a California non-profit corporation exempt from United States federal income taxation under IRC 501(c)(3) and a public charity classified under IRC sections 170(b)(1)(A) and 509(a)(1). Cryptocurrency donations Mozilla receives are considered charitable contributions under U.S. federal tax laws, to be used in its discretion for its charitable purposes. Because the IRS has indicated that it will treat cryptocurrencies as property for U.S. tax purposes (see IRS Notice 2014-21), cryptocurrency donations may be subject to special rules as to the amount of your charitable deduction, the documentation that must be provided to claim a tax deduction, or other matters."
 msgstr ""
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:140
 #, python-format
-msgid "Learn more about bitcoin donations <a href=\"%(bitcoin_wiki)s\">here</a>. To donate bitcoin, <a href=\"%(bitcoin_donate)s\">please visit this link.</a>"
+msgid "Learn more about cryptocurrency donations <a href=\"%(cryptocurrency_wiki)s\">here</a>. To donate using cryptocurrency, <a href=\"%(cryptocurrency_url)s\">please visit this link.</a>"
 msgstr ""
 
 #: donate/templates/payment/card_master.html:4
@@ -875,6 +877,9 @@ msgstr ""
 msgctxt "Email subject line"
 msgid "I donated to Thunderbird today"
 msgstr ""
+
+#~ msgid "Bitcoin"
+#~ msgstr "బిట్‌కాయిన్"
 
 #~ msgid "Menu"
 #~ msgstr "మెనూ"

@@ -2,13 +2,13 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-24 17:52+0000\n"
+"POT-Creation-Date: 2021-12-16 08:18+0000\n"
 "PO-Revision-Date: 2021-11-25 12:04+0000\n"
 "Last-Translator: Hariom Panchal <hariompanchal6647@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -36,7 +36,8 @@ msgstr "યોગ્ય ઇ-મેલ એડ્રેસ આપો."
 msgid "Donations must be %(amount)s or more"
 msgstr "દાન %(amount)s અથવા વધુ હોવું આવશ્યક છે"
 
-#: donate/payments/forms.py:96 donate/payments/forms.py:110 donate/payments/forms.py:161
+#: donate/payments/forms.py:96 donate/payments/forms.py:110
+#: donate/payments/forms.py:161
 msgid "Amount"
 msgstr "રકમ"
 
@@ -48,7 +49,8 @@ msgstr "પ્રથમ નામ"
 msgid "Last name"
 msgstr "છેલ્લું નામ"
 
-#: donate/payments/forms.py:125 donate/payments/forms.py:171 donate/templates/pages/core/contributor_support_page_master.html:81
+#: donate/payments/forms.py:125 donate/payments/forms.py:171
+#: donate/templates/pages/core/contributor_support_page_master.html:92
 msgid "Email"
 msgstr "ઇ-મેલ"
 
@@ -126,7 +128,10 @@ msgstr "માફ કરશો, પૃષ્ઠ અસ્તિત્વમા�
 msgid "Go to our home page"
 msgstr "અમારા મુખ્ય પૃષ્ઠ પર જાઓ"
 
-#: donate/templates/base_master.html:8 donate/templates/pages/base_page_master.html:8 donate/templates/pages/base_page_master.html:15 donate/templates/pages/base_page_master.html:16
+#: donate/templates/base_master.html:8
+#: donate/templates/pages/base_page_master.html:8
+#: donate/templates/pages/base_page_master.html:15
+#: donate/templates/pages/base_page_master.html:16
 msgctxt "Page title"
 msgid "Donate to Mozilla"
 msgstr "Mozillaને દાન આપો"
@@ -139,23 +144,31 @@ msgstr "એક વાર"
 msgid "MONTHLY"
 msgstr "મહિને"
 
-#: donate/templates/fragments/donate_form.html:41 donate/templates/fragments/donate_form.html:42 donate/templates/fragments/donate_form.html:112 donate/templates/fragments/donate_form.html:113
+#: donate/templates/fragments/donate_form.html:41
+#: donate/templates/fragments/donate_form.html:42
+#: donate/templates/fragments/donate_form.html:112
+#: donate/templates/fragments/donate_form.html:113
 msgid "Other amount"
 msgstr "અન્ય રકમ"
 
-#: donate/templates/fragments/donate_form.html:45 donate/templates/fragments/donate_form.html:116
+#: donate/templates/fragments/donate_form.html:45
+#: donate/templates/fragments/donate_form.html:116
 msgid "Invalid amount entered."
 msgstr "અમાન્ય રકમ દાખલ કરી."
 
-#: donate/templates/fragments/donate_form.html:52 donate/templates/fragments/donate_form.html:123
+#: donate/templates/fragments/donate_form.html:52
+#: donate/templates/fragments/donate_form.html:123
 msgid "Choose Payment"
 msgstr "ચુકવણી પસંદ કરો"
 
-#: donate/templates/fragments/donate_form.html:58 donate/templates/fragments/donate_form.html:129 donate/templates/payment/card_master.html:97
+#: donate/templates/fragments/donate_form.html:58
+#: donate/templates/fragments/donate_form.html:129
+#: donate/templates/payment/card_master.html:97
 msgid "SECURE"
 msgstr "સલામત"
 
-#: donate/templates/fragments/donate_form.html:64 donate/templates/fragments/donate_form.html:135
+#: donate/templates/fragments/donate_form.html:64
+#: donate/templates/fragments/donate_form.html:135
 msgid "Donate"
 msgstr "દાન કરો"
 
@@ -165,12 +178,8 @@ msgstr "દર મહિને"
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:6
 #, python-format
-msgid ""
-"Mozilla is committed to your privacy; please read our <a href=\"%(privacy_url)s\">privacy policy here</a>. Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a "
-"PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Mozilla."
-msgstr ""
-"Mozilla તમારી ગોપનીયતા માટે પ્રતિબદ્ધ છે; કૃપા કરી અમારી <a href=\"%(privacy_url)s\"> ગોપનીયતા નીતિ અહીં</a> વાંચો. તમારી ચુકવણીની વિગતો <a href=\"%(braintree_url)s\">બ્રાન્ટ્રી</a>, પેપાલ કંપની "
-"(ક્રેડિટ / ડેબિટ કાર્ડ માટે) અથવા <a href=\"%(paypal_url)s\"> PayPal</a>દ્વારા પ્રક્રિયા કરવામાં આવશે, અને તમારા દાનનો રેકોર્ડ Mozilla દ્વારા સંગ્રહિત કરવામાં આવશે."
+msgid "Mozilla is committed to your privacy; please read our <a href=\"%(privacy_url)s\">privacy policy here</a>. Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Mozilla."
+msgstr "Mozilla તમારી ગોપનીયતા માટે પ્રતિબદ્ધ છે; કૃપા કરી અમારી <a href=\"%(privacy_url)s\"> ગોપનીયતા નીતિ અહીં</a> વાંચો. તમારી ચુકવણીની વિગતો <a href=\"%(braintree_url)s\">બ્રાન્ટ્રી</a>, પેપાલ કંપની (ક્રેડિટ / ડેબિટ કાર્ડ માટે) અથવા <a href=\"%(paypal_url)s\"> PayPal</a>દ્વારા પ્રક્રિયા કરવામાં આવશે, અને તમારા દાનનો રેકોર્ડ Mozilla દ્વારા સંગ્રહિત કરવામાં આવશે."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:9
 #, python-format
@@ -179,23 +188,21 @@ msgstr "તમે આજે દાન કરો છો તે જ દિવસ�
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:17
 #, python-format
-msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a> | <a href=\"%(bitcoin_url)s\">Bitcoin</a>"
-msgstr "આપવાની અન્ય રીતો: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">તપાસો</a> | <a href=\"%(bitcoin_url)s\">Bitcoin</a>"
+msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a> | <a href=\"%(cryptocurrency_url)s\">BitPay (cryptocurrencies)</a>"
+msgstr ""
 
-#: donate/templates/fragments/donate_form_disclaimer_master.html:23 donate/thunderbird/templates/fragments/donate_form_disclaimer.html:21
+#: donate/templates/fragments/donate_form_disclaimer_master.html:23
+#: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:21
 #, python-format
 msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"%(help_url)s\">Contact us</a>."
 msgstr "દાન કરવામાં સમસ્યા છે? મોટાભાગના સામાન્ય પ્રશ્નોના જવાબો માટે અમારી <a href=\"%(faq_url)s\">FAQ</a> ની મુલાકાત લો. હજુ પણ સમસ્યાઓ છે? <a href=\"%(help_url)s\">અમારો સંપર્ક કરો</a>."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:30
-msgid ""
-"Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in San Francisco, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S."
-" to the fullest extent permitted by law."
-msgstr ""
-"યોગદાન Mozilla Foundationને જાય છે, જે San Francisco, California, સ્થિત 501(c)(3) સંસ્થા છે, જેનો ઉપયોગ તેના સખાવતી હેતુઓ માટે તેની વિવેકબુદ્ધિમાં થાય છે. તેઓ U.S.માં કાયદા દ્વારા અનુમતિ આપવામાં "
-"આવેલી સંપૂર્ણ હદ સુધી કર-કપાતપાત્ર છે."
+msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in San Francisco, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
+msgstr "યોગદાન Mozilla Foundationને જાય છે, જે San Francisco, California, સ્થિત 501(c)(3) સંસ્થા છે, જેનો ઉપયોગ તેના સખાવતી હેતુઓ માટે તેની વિવેકબુદ્ધિમાં થાય છે. તેઓ U.S.માં કાયદા દ્વારા અનુમતિ આપવામાં આવેલી સંપૂર્ણ હદ સુધી કર-કપાતપાત્ર છે."
 
-#: donate/templates/fragments/language_switcher.html:10 donate/templates/pages/core/contributor_support_page_master.html:86
+#: donate/templates/fragments/language_switcher.html:10
+#: donate/templates/pages/core/contributor_support_page_master.html:97
 msgid "Language"
 msgstr "ભાષા"
 
@@ -221,23 +228,24 @@ msgstr "Blog"
 
 #: donate/templates/pages/base_page_master.html:184
 #, python-format
-msgid ""
-"Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a "
-"%(fomo_link_attributes)s>%(fomo_site_url)s</a>. Most content available under a <a %(cc_link_attributes)s>Creative Commons license</a>."
-msgstr ""
-"Mozilla એ એક વૈશ્વિક બિન-લાભકારી છે જે તમને તમારા ઑનલાઇન અનુભવને નિયંત્રણમાં રાખવા અને જાહેર ભલા માટે વેબના ભાવિને આકાર આપવા માટે સમર્પિત છે. <a%(fomo_link_attributes)s>%(fomo_site_url)s</a>પર અમારી"
-" મુલાકાત લો. <a%(cc_link_attributes)s>ક્રિએટિવ કોમન્સ લાયસન્સ</a>હેઠળ ઉપલબ્ધ મોટાભાગની સામગ્રી."
+msgid "Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a %(fomo_link_attributes)s>%(fomo_site_url)s</a>. Most content available under a <a %(cc_link_attributes)s>Creative Commons license</a>."
+msgstr "Mozilla એ એક વૈશ્વિક બિન-લાભકારી છે જે તમને તમારા ઑનલાઇન અનુભવને નિયંત્રણમાં રાખવા અને જાહેર ભલા માટે વેબના ભાવિને આકાર આપવા માટે સમર્પિત છે. <a%(fomo_link_attributes)s>%(fomo_site_url)s</a>પર અમારી મુલાકાત લો. <a%(cc_link_attributes)s>ક્રિએટિવ કોમન્સ લાયસન્સ</a>હેઠળ ઉપલબ્ધ મોટાભાગની સામગ્રી."
 
-#: donate/templates/pages/core/campaign_page.html:43 donate/templates/pages/core/ways_to_give_page_master.html:12
+#: donate/templates/pages/core/campaign_page.html:43
+#: donate/templates/pages/core/ways_to_give_page_master.html:12
 msgctxt "Button"
 msgid "DONATE NOW"
 msgstr "હમણાં જ દાન કરો"
 
-#: donate/templates/pages/core/campaign_page.html:57 donate/templates/pages/core/landing_page_master.html:36 donate/templates/payment/card_master.html:167
+#: donate/templates/pages/core/campaign_page.html:57
+#: donate/templates/pages/core/landing_page_master.html:36
+#: donate/templates/payment/card_master.html:167
 msgid "Seal of Charity Navigator 4-Star"
 msgstr "ચેરિટી નેવિગેટર 4-સ્ટારની સીલ"
 
-#: donate/templates/pages/core/campaign_page.html:60 donate/templates/pages/core/landing_page_master.html:39 donate/templates/payment/card_master.html:170
+#: donate/templates/pages/core/campaign_page.html:60
+#: donate/templates/pages/core/landing_page_master.html:39
+#: donate/templates/payment/card_master.html:170
 msgid "Seal of GuideStar Gold 2019"
 msgstr "GuideStar ગોલ્ડ 2019 ની સીલ"
 
@@ -246,118 +254,118 @@ msgctxt "Header"
 msgid "Donate now"
 msgstr "અત્યારે જ દાન કરો"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:39
-msgid "Thank you for contacting us. A case has been created for your issue and we will be in touch shortly."
-msgstr "અમારો સંપર્ક કરવા બદલ આભાર. તમારી સમસ્યાનું એક કેસ બનાવવામાં આવ્યું છે અને અમે ટૂંક સમયમાં જ સંપર્કમાં રહીશું."
-
-#: donate/templates/pages/core/contributor_support_page_master.html:45
-msgid "We will get back to you soon."
-msgstr "અમે ટૂંક સમયમાં તમારી પાસે પાછા આવીશું."
-
-#: donate/templates/pages/core/contributor_support_page_master.html:52
-msgid "If you need help with a donation to the Mozilla Foundation, please fill out this form and a donor care representative will get back to you as soon as possible."
-msgstr "જો તમને Mozilla Foundationને દાનમાં મદદની જરૂર હોય, તો કૃપા કરીને આ ફોર્મ ભરો અને દાતા સંભાળ પ્રતિનિધિ શક્ય તેટલી વહેલી તકે તમારો સંપર્ક કરશે."
-
-#: donate/templates/pages/core/contributor_support_page_master.html:57
-#, python-format
-msgid ""
-"Unfortunately, donor care representatives are unable to offer support or help with Firefox technical issues. For technical support, please visit the <a href=\"%(support_url)s\">Firefox support "
-"page</a>."
-msgstr ""
-"કમનસીબે, દાતા સંભાળના પ્રતિનિધિઓ Firefox ટેકનિકલ સમસ્યાઓ માટે સમર્થન અથવા મદદ ઓફર કરવામાં અસમર્થ છે. તકનીકી સમર્થન માટે, કૃપા કરીને <a href=\"%(support_url)s\">Firefox સપોર્ટ પૃષ્ઠ</a>ની મુલાકાત લો."
-
-#: donate/templates/pages/core/contributor_support_page_master.html:76
-msgid "Contact Name"
-msgstr "સંપર્ક નામ"
-
-#: donate/templates/pages/core/contributor_support_page_master.html:89
-msgctxt "Option in 'Language' dropdown"
-msgid "None"
-msgstr "કંઈ નહીં"
-
-#: donate/templates/pages/core/contributor_support_page_master.html:90
-msgid "Chinese (Simplified)"
-msgstr "Chinese (Simplified)"
-
-#: donate/templates/pages/core/contributor_support_page_master.html:91
-msgid "Czech"
-msgstr "Czech"
-
-#: donate/templates/pages/core/contributor_support_page_master.html:92
-msgid "Danish"
-msgstr "Danish"
-
-#: donate/templates/pages/core/contributor_support_page_master.html:93
-msgid "Dutch"
-msgstr "Dutch"
-
-#: donate/templates/pages/core/contributor_support_page_master.html:94
-msgid "English"
-msgstr "English"
-
-#: donate/templates/pages/core/contributor_support_page_master.html:95
-msgid "French"
-msgstr "French"
-
-#: donate/templates/pages/core/contributor_support_page_master.html:96
-msgid "German"
-msgstr "German"
-
-#: donate/templates/pages/core/contributor_support_page_master.html:97
-msgid "Italian"
-msgstr "Italian"
-
-#: donate/templates/pages/core/contributor_support_page_master.html:98
-msgid "Japanese"
-msgstr "Japanese"
-
-#: donate/templates/pages/core/contributor_support_page_master.html:99
-msgid "Polish"
-msgstr "Polish"
-
-#: donate/templates/pages/core/contributor_support_page_master.html:100
-msgid "Portuguese"
-msgstr "Portuguese"
-
-#: donate/templates/pages/core/contributor_support_page_master.html:101
-msgid "Russian"
-msgstr "Russian"
-
-#: donate/templates/pages/core/contributor_support_page_master.html:102
-msgid "Spanish"
-msgstr "Spanish"
-
-#: donate/templates/pages/core/contributor_support_page_master.html:103
-msgctxt "Option in 'Language' dropdown"
-msgid "Other"
-msgstr "અન્ય"
-
-#: donate/templates/pages/core/contributor_support_page_master.html:109
-msgid "Subject"
-msgstr "વિષય"
-
-#: donate/templates/pages/core/contributor_support_page_master.html:114
-msgid "Description"
-msgstr "વર્ણન"
-
-#: donate/templates/pages/core/contributor_support_page_master.html:119
-#, python-format
-msgid "Mozilla will only use your submitted information for purposes of communicating with you about your request. See our <a href=\"%(privacy_policy)s\">privacy policy</a> for further information."
-msgstr "મોઝિલા ફક્ત તમારી વિનંતી વિશે તમારી સાથે વાતચીત કરવાના હેતુ માટે તમારી સબમિટ કરેલી માહિતીનો ઉપયોગ કરશે. વધુ માહિતી માટે અમારી <a href=\"%(privacy_policy)s\">privacy policy</a> જુઓ."
-
-#: donate/templates/pages/core/contributor_support_page_master.html:126
-msgid "Submit"
-msgstr "સબમિટ કરો"
-
+#: donate/templates/pages/core/campaign_page.html:84
 #: donate/templates/pages/core/landing_page_master.html:61
 msgid "Your donation is being processed..."
 msgstr "તમારા દાનની પ્રક્રિયા કરવામાં આવી રહી છે..."
 
-#: donate/templates/pages/core/landing_page_master.html:65
+#: donate/templates/pages/core/campaign_page.html:93
+#: donate/templates/pages/core/landing_page_master.html:71
 msgid "One moment while we get all the details right!"
 msgstr "એક ક્ષણ જ્યારે આપણે બધી વિગતો બરાબર મેળવીએ!"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:4 donate/templates/pages/core/ways_to_give_page_master.html:11
+#: donate/templates/pages/core/contributor_support_page_master.html:54
+msgid "Thank you for contacting us. A case has been created for your issue and we will be in touch shortly."
+msgstr "અમારો સંપર્ક કરવા બદલ આભાર. તમારી સમસ્યાનું એક કેસ બનાવવામાં આવ્યું છે અને અમે ટૂંક સમયમાં જ સંપર્કમાં રહીશું."
+
+#: donate/templates/pages/core/contributor_support_page_master.html:60
+msgid "We will get back to you soon."
+msgstr "અમે ટૂંક સમયમાં તમારી પાસે પાછા આવીશું."
+
+#: donate/templates/pages/core/contributor_support_page_master.html:67
+msgid "If you need help with a donation to the Mozilla Foundation, please fill out this form and a donor care representative will get back to you as soon as possible."
+msgstr "જો તમને Mozilla Foundationને દાનમાં મદદની જરૂર હોય, તો કૃપા કરીને આ ફોર્મ ભરો અને દાતા સંભાળ પ્રતિનિધિ શક્ય તેટલી વહેલી તકે તમારો સંપર્ક કરશે."
+
+#: donate/templates/pages/core/contributor_support_page_master.html:72
+#, python-format
+msgid "Unfortunately, donor care representatives are unable to offer support or help with Firefox technical issues. For technical support, please visit the <a href=\"%(support_url)s\">Firefox support page</a>."
+msgstr "કમનસીબે, દાતા સંભાળના પ્રતિનિધિઓ Firefox ટેકનિકલ સમસ્યાઓ માટે સમર્થન અથવા મદદ ઓફર કરવામાં અસમર્થ છે. તકનીકી સમર્થન માટે, કૃપા કરીને <a href=\"%(support_url)s\">Firefox સપોર્ટ પૃષ્ઠ</a>ની મુલાકાત લો."
+
+#: donate/templates/pages/core/contributor_support_page_master.html:87
+msgid "Contact Name"
+msgstr "સંપર્ક નામ"
+
+#: donate/templates/pages/core/contributor_support_page_master.html:100
+msgctxt "Option in 'Language' dropdown"
+msgid "None"
+msgstr "કંઈ નહીં"
+
+#: donate/templates/pages/core/contributor_support_page_master.html:101
+msgid "Chinese (Simplified)"
+msgstr "Chinese (Simplified)"
+
+#: donate/templates/pages/core/contributor_support_page_master.html:102
+msgid "Czech"
+msgstr "Czech"
+
+#: donate/templates/pages/core/contributor_support_page_master.html:103
+msgid "Danish"
+msgstr "Danish"
+
+#: donate/templates/pages/core/contributor_support_page_master.html:104
+msgid "Dutch"
+msgstr "Dutch"
+
+#: donate/templates/pages/core/contributor_support_page_master.html:105
+msgid "English"
+msgstr "English"
+
+#: donate/templates/pages/core/contributor_support_page_master.html:106
+msgid "French"
+msgstr "French"
+
+#: donate/templates/pages/core/contributor_support_page_master.html:107
+msgid "German"
+msgstr "German"
+
+#: donate/templates/pages/core/contributor_support_page_master.html:108
+msgid "Italian"
+msgstr "Italian"
+
+#: donate/templates/pages/core/contributor_support_page_master.html:109
+msgid "Japanese"
+msgstr "Japanese"
+
+#: donate/templates/pages/core/contributor_support_page_master.html:110
+msgid "Polish"
+msgstr "Polish"
+
+#: donate/templates/pages/core/contributor_support_page_master.html:111
+msgid "Portuguese"
+msgstr "Portuguese"
+
+#: donate/templates/pages/core/contributor_support_page_master.html:112
+msgid "Russian"
+msgstr "Russian"
+
+#: donate/templates/pages/core/contributor_support_page_master.html:113
+msgid "Spanish"
+msgstr "Spanish"
+
+#: donate/templates/pages/core/contributor_support_page_master.html:114
+msgctxt "Option in 'Language' dropdown"
+msgid "Other"
+msgstr "અન્ય"
+
+#: donate/templates/pages/core/contributor_support_page_master.html:120
+msgid "Subject"
+msgstr "વિષય"
+
+#: donate/templates/pages/core/contributor_support_page_master.html:125
+msgid "Description"
+msgstr "વર્ણન"
+
+#: donate/templates/pages/core/contributor_support_page_master.html:130
+#, python-format
+msgid "Mozilla will only use your submitted information for purposes of communicating with you about your request. See our <a href=\"%(privacy_policy)s\">privacy policy</a> for further information."
+msgstr "મોઝિલા ફક્ત તમારી વિનંતી વિશે તમારી સાથે વાતચીત કરવાના હેતુ માટે તમારી સબમિટ કરેલી માહિતીનો ઉપયોગ કરશે. વધુ માહિતી માટે અમારી <a href=\"%(privacy_policy)s\">privacy policy</a> જુઓ."
+
+#: donate/templates/pages/core/contributor_support_page_master.html:142
+msgid "Submit"
+msgstr "સબમિટ કરો"
+
+#: donate/templates/pages/core/ways_to_give_page_master.html:4
+#: donate/templates/pages/core/ways_to_give_page_master.html:11
 msgid "Ways to Give"
 msgstr "આપવાની રીતો"
 
@@ -370,7 +378,8 @@ msgstr "ક્રેડિટ / ડેબિટ અને PayPal"
 msgid "<a href=\"%(ways_to_give_link)s\">Go to this link</a> to make a secure online donation right now."
 msgstr "હમણાં સુરક્ષિત ઓનલાઇન દાન કરવા માટે <a href=\"%(ways_to_give_link)s\">આ લિંક પર જાઓ</a>."
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:24 donate/thunderbird/templates/pages/core/ways_to_give_page.html:7
+#: donate/templates/pages/core/ways_to_give_page_master.html:24
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:7
 msgid "Bank Transfer / SEPA"
 msgstr "બેન્ક ટ્રાન્સફર / SEPA"
 
@@ -379,90 +388,103 @@ msgid "We accept donations in Euros through Single European Payment Area (SEPA) 
 msgstr "હવે અમે BACS ટ્રાન્સફર મારફતે Single European Payment Area (SEPA) ટ્રાન્સફર મારફતે યુરો માં દાન, અને બ્રિટિશ પાઉન્ડ સ્વીકારવા માટે સમર્થ છે."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:27
-msgid ""
-"Note that for smaller (under 10 EUR or equivalent) donations, <strong>and especially for donations under 5 EUR or equivalent</strong>, we request that you donate via credit card or PayPal to help "
-"reduce Mozilla’s processing fees."
-msgstr ""
-"નોંધ લો કે નાના (10 EUR અથવા સમકક્ષ હેઠળ) દાન માટે, <strong>અને ખાસ કરીને 5 EUR અથવા સમકક્ષ</strong> હેઠળ દાન માટે, અમે વિનંતી કરીએ છીએ કે તમે Mozillaની પ્રોસેસિંગ ફી ઘટાડવામાં મદદ કરવા માટે ક્રેડિટ"
-" કાર્ડ અથવા PayPal દ્વારા દાન કરો."
+msgid "Note that for smaller (under 10 EUR or equivalent) donations, <strong>and especially for donations under 5 EUR or equivalent</strong>, we request that you donate via credit card or PayPal to help reduce Mozilla’s processing fees."
+msgstr "નોંધ લો કે નાના (10 EUR અથવા સમકક્ષ હેઠળ) દાન માટે, <strong>અને ખાસ કરીને 5 EUR અથવા સમકક્ષ</strong> હેઠળ દાન માટે, અમે વિનંતી કરીએ છીએ કે તમે Mozillaની પ્રોસેસિંગ ફી ઘટાડવામાં મદદ કરવા માટે ક્રેડિટ કાર્ડ અથવા PayPal દ્વારા દાન કરો."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:32
 #, python-format
-msgid ""
-"Please also note that the Mozilla Foundation cannot accept SEPA or BACS transfers for MZLA/Thunderbird. To contribute to MZLA/Thunderbird via SEPA or BACS transfer, please follow <a "
-"href=\"%(instruction_url)s\">these instructions</a>."
-msgstr ""
-"મહેરબાની કરીને એ પણ નોંધો કે Mozilla Foundation MZLA/Thunderbird માટે SEPA અથવા BACS ટ્રાન્સફર સ્વીકારી શકતું નથી. SEPA અથવા BACS ટ્રાન્સફર દ્વારા MZLA/Thunderbird માં યોગદાન આપવા માટે, કૃપા કરીને "
-"<a href=\"%(instruction_url)s\">આ સૂચનાઓ</a>અનુસરો."
+msgid "Please also note that the Mozilla Foundation cannot accept SEPA or BACS transfers for MZLA/Thunderbird. To contribute to MZLA/Thunderbird via SEPA or BACS transfer, please follow <a href=\"%(instruction_url)s\">these instructions</a>."
+msgstr "મહેરબાની કરીને એ પણ નોંધો કે Mozilla Foundation MZLA/Thunderbird માટે SEPA અથવા BACS ટ્રાન્સફર સ્વીકારી શકતું નથી. SEPA અથવા BACS ટ્રાન્સફર દ્વારા MZLA/Thunderbird માં યોગદાન આપવા માટે, કૃપા કરીને <a href=\"%(instruction_url)s\">આ સૂચનાઓ</a>અનુસરો."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:36
 msgid "Please remember that donations are deductible for U.S. income tax purposes only."
 msgstr "મહેરબાની કરીને યાદ રાખો કે દાન ફક્ત યુ.એસ. આવક વેરાના હેતુ માટે જ કપાતપાત્ર છે."
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:38 donate/thunderbird/templates/pages/core/ways_to_give_page.html:15
+#: donate/templates/pages/core/ways_to_give_page_master.html:38
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:15
 #, python-format
 msgid "If your bank requests our physical address, it is %(address)s."
 msgstr "જો તમારી બેંક અમારા ભૌતિક સરનામાંની વિનંતી કરે છે, તો તે %(address)s છે."
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:45 donate/thunderbird/templates/pages/core/ways_to_give_page.html:22
+#: donate/templates/pages/core/ways_to_give_page_master.html:45
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:22
 msgid "Euros:"
 msgstr "યુરો:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:47 donate/templates/pages/core/ways_to_give_page_master.html:60 donate/thunderbird/templates/pages/core/ways_to_give_page.html:24
+#: donate/templates/pages/core/ways_to_give_page_master.html:47
+#: donate/templates/pages/core/ways_to_give_page_master.html:60
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:24
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:37
 msgid "Account Currency:"
 msgstr "એકાઉન્ટ કરન્સી:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:47 donate/thunderbird/templates/pages/core/ways_to_give_page.html:24
+#: donate/templates/pages/core/ways_to_give_page_master.html:47
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:24
 msgid "Euro (EUR)"
 msgstr "Euro (EUR)"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:48 donate/templates/pages/core/ways_to_give_page_master.html:61 donate/thunderbird/templates/pages/core/ways_to_give_page.html:25
+#: donate/templates/pages/core/ways_to_give_page_master.html:48
+#: donate/templates/pages/core/ways_to_give_page_master.html:61
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:25
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:38
 msgid "Receiving Bank (Pay to):"
 msgstr "રીસીવિંગ બેન્ક (ચૂકવણી):"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:49 donate/templates/pages/core/ways_to_give_page_master.html:62 donate/thunderbird/templates/pages/core/ways_to_give_page.html:26
+#: donate/templates/pages/core/ways_to_give_page_master.html:49
+#: donate/templates/pages/core/ways_to_give_page_master.html:62
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:26
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:39
 msgid "City & Country/Region:"
 msgstr "શહેર અને દેશ/પ્રદેશ:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:49 donate/thunderbird/templates/pages/core/ways_to_give_page.html:26
+#: donate/templates/pages/core/ways_to_give_page_master.html:49
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:26
 msgid "Frankfurt, Germany"
 msgstr "Frankfurt, Germany"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:50 donate/templates/pages/core/ways_to_give_page_master.html:68 donate/thunderbird/templates/pages/core/ways_to_give_page.html:27
+#: donate/templates/pages/core/ways_to_give_page_master.html:50
+#: donate/templates/pages/core/ways_to_give_page_master.html:68
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:27
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:45
 msgid "SWIFT/BIC Code:"
 msgstr "SWIFT/BIC કોડ:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:51 donate/templates/pages/core/ways_to_give_page_master.html:65 donate/thunderbird/templates/pages/core/ways_to_give_page.html:28
+#: donate/templates/pages/core/ways_to_give_page_master.html:51
+#: donate/templates/pages/core/ways_to_give_page_master.html:65
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:28
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:42
 msgid "Beneficiary Name (For credit to):"
 msgstr "લાભાર્થીનું નામ (ક્રેડિટ માટે):"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:52 donate/templates/pages/core/ways_to_give_page_master.html:69 donate/thunderbird/templates/pages/core/ways_to_give_page.html:29
+#: donate/templates/pages/core/ways_to_give_page_master.html:52
+#: donate/templates/pages/core/ways_to_give_page_master.html:69
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:29
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:46
 msgid "IBAN:"
 msgstr "IBAN:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:58 donate/thunderbird/templates/pages/core/ways_to_give_page.html:35
+#: donate/templates/pages/core/ways_to_give_page_master.html:58
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:35
 msgid "British Pound Sterling:"
 msgstr "બ્રિટીશ પાઉન્ડ સ્ટર્લિંગ:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:60 donate/thunderbird/templates/pages/core/ways_to_give_page.html:37
+#: donate/templates/pages/core/ways_to_give_page_master.html:60
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:37
 msgid "British Pound Sterling (GBP)"
 msgstr "બ્રિટિશ પાઉન્ડ સ્ટર્લીંગ (GBP)"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:62 donate/thunderbird/templates/pages/core/ways_to_give_page.html:39
+#: donate/templates/pages/core/ways_to_give_page_master.html:62
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:39
 msgid "London, United Kingdom"
 msgstr "London, United Kingdom"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:63 donate/thunderbird/templates/pages/core/ways_to_give_page.html:40
+#: donate/templates/pages/core/ways_to_give_page_master.html:63
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:40
 msgid "Bank Sort Code:"
 msgstr "બેન્ક સૉર્ટ કોડ:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:64 donate/thunderbird/templates/pages/core/ways_to_give_page.html:41
+#: donate/templates/pages/core/ways_to_give_page_master.html:64
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:41
 msgid "Account Number (8 digits):"
 msgstr "ખાતા નંબર (8 અંકો):"
 
@@ -472,41 +494,31 @@ msgstr "સ્ટોક/સિક્યોરિટીઝનું દાન:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:77
 #, python-format
-msgid ""
-"The Mozilla Foundation is happy to accept your gift of publicly-traded stocks or bonds through our brokerage account at Northern Trust Securities. Please contact Major Gift Officer %(name)s at <a "
-"href=\"mailto:%(email)s\">%(email)s</a> to initiate the process."
-msgstr ""
-"Mozilla Foundation નોર્ધન ટ્રસ્ટ સિક્યોરિટીઝ ખાતે અમારા બ્રોકરેજ એકાઉન્ટ દ્વારા સાર્વજનિક રૂપે ટ્રેડેડ સ્ટોક્સ અથવા બોન્ડ્સની તમારી ભેટ સ્વીકારવામાં ખુશ છે. પ્રક્રિયા શરૂ કરવા માટે કૃપા કરીને મુખ્ય "
-"ભેટ અધિકારી %(name)s નો <a href=\"mailto:%(email)s\">%(email)s</a> પર સંપર્ક કરો."
+msgid "The Mozilla Foundation is happy to accept your gift of publicly-traded stocks or bonds through our brokerage account at Northern Trust Securities. Please contact Major Gift Officer %(name)s at <a href=\"mailto:%(email)s\">%(email)s</a> to initiate the process."
+msgstr "Mozilla Foundation નોર્ધન ટ્રસ્ટ સિક્યોરિટીઝ ખાતે અમારા બ્રોકરેજ એકાઉન્ટ દ્વારા સાર્વજનિક રૂપે ટ્રેડેડ સ્ટોક્સ અથવા બોન્ડ્સની તમારી ભેટ સ્વીકારવામાં ખુશ છે. પ્રક્રિયા શરૂ કરવા માટે કૃપા કરીને મુખ્ય ભેટ અધિકારી %(name)s નો <a href=\"mailto:%(email)s\">%(email)s</a> પર સંપર્ક કરો."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:86
 msgid "Check (via postal service)"
 msgstr "ચેક (ટપાલ સેવા દ્વારા)"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:90 donate/thunderbird/templates/pages/core/ways_to_give_page.html:54
+#: donate/templates/pages/core/ways_to_give_page_master.html:90
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:54
 msgid "UPDATE October 2020:"
 msgstr "અપડેટ ઑક્ટોબર 2020:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:91
-msgid ""
-"The Mozilla Foundation is happy to accept your donation (made payable to “Mozilla Foundation”) via check; however please note that processing and acknowledgment of your gift may be delayed by "
-"changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
-msgstr ""
-"Mozilla Foundation ચેક દ્વારા તમારું દાન (“Mozilla Foundation”ને ચૂકવવાપાત્ર) સ્વીકારવામાં ખુશ છે; જો કે કૃપા કરીને નોંધો કે તમારી ભેટની પ્રક્રિયા અને સ્વીકૃતિમાં કોવિડ-19 રોગચાળાને કારણે અમારી ઓફિસ"
-" પ્રક્રિયાઓમાં ફેરફાર થવાથી વિલંબ થઈ શકે છે. તમે આના પર ચેક મોકલી શકો છો:"
+msgid "The Mozilla Foundation is happy to accept your donation (made payable to “Mozilla Foundation”) via check; however please note that processing and acknowledgment of your gift may be delayed by changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
+msgstr "Mozilla Foundation ચેક દ્વારા તમારું દાન (“Mozilla Foundation”ને ચૂકવવાપાત્ર) સ્વીકારવામાં ખુશ છે; જો કે કૃપા કરીને નોંધો કે તમારી ભેટની પ્રક્રિયા અને સ્વીકૃતિમાં કોવિડ-19 રોગચાળાને કારણે અમારી ઓફિસ પ્રક્રિયાઓમાં ફેરફાર થવાથી વિલંબ થઈ શકે છે. તમે આના પર ચેક મોકલી શકો છો:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:108 donate/thunderbird/templates/pages/core/ways_to_give_page.html:67
+#: donate/templates/pages/core/ways_to_give_page_master.html:108
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:67
 msgid "Please include your email address on the memo line of your check to help us track and attribute your gift."
 msgstr "તમારી ભેટને ટ્રૅક કરવામાં અને એટ્રિબ્યુટ કરવામાં અમને મદદ કરવા માટે કૃપા કરીને તમારા ચેકની મેમો લાઇન પર તમારું ઇમેઇલ ઍડ્રેસ શામેલ કરો."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:115
 #, python-format
-msgid ""
-"Please also note that the Mozilla Foundation can <strong>only</strong> accept checks in U.S. dollars drawn on a U.S. bank, and <strong>cannot</strong> accept contributions for MZLA/Thunderbird. "
-"(Contributions to MZLA/Thunderbird via check can be made by following <a href=\"%(instruction_url)s\" target=\"_blank\">these instructions</a>.)"
-msgstr ""
-"મહેરબાની કરીને એ પણ નોંધો કે Mozilla Foundation U.S. બેંક પર દોરવામાં આવેલ U.S. ડૉલરમાં ચેક <strong>માત્ર</strong> સ્વીકારી શકે છે અને MZLA/થંડરબર્ડ માટે યોગદાન <strong>સ્વીકારતું નથી</strong>. (ચેક"
-" દ્વારા MZLA/Thunderbird માં યોગદાન <a href=\"%(instruction_url)s\" target=\"_blank\">આ સૂચનાઓ</a>ને અનુસરીને કરી શકાય છે.)"
+msgid "Please also note that the Mozilla Foundation can <strong>only</strong> accept checks in U.S. dollars drawn on a U.S. bank, and <strong>cannot</strong> accept contributions for MZLA/Thunderbird. (Contributions to MZLA/Thunderbird via check can be made by following <a href=\"%(instruction_url)s\" target=\"_blank\">these instructions</a>.)"
+msgstr "મહેરબાની કરીને એ પણ નોંધો કે Mozilla Foundation U.S. બેંક પર દોરવામાં આવેલ U.S. ડૉલરમાં ચેક <strong>માત્ર</strong> સ્વીકારી શકે છે અને MZLA/થંડરબર્ડ માટે યોગદાન <strong>સ્વીકારતું નથી</strong>. (ચેક દ્વારા MZLA/Thunderbird માં યોગદાન <a href=\"%(instruction_url)s\" target=\"_blank\">આ સૂચનાઓ</a>ને અનુસરીને કરી શકાય છે.)"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:122
 msgid "Currencies"
@@ -517,25 +529,17 @@ msgid "Select your currency to make a secure online donation:"
 msgstr "સુરક્ષિત ઑનલાઇન દાન બનાવવા માટે તમારી ચલણ પસંદ કરો:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:133
-msgid "Bitcoin"
-msgstr "Bitcoin"
+msgid "Cryptocurrencies"
+msgstr ""
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:135
-msgid ""
-"The Mozilla Foundation is a California non-profit corporation exempt from United States federal income taxation under IRC 501(c)(3) and a public charity classified under IRC sections 170(b)(1)(A) "
-"and 509(a)(1). Bitcoin donations Mozilla receives are considered charitable contributions under U.S. federal tax laws, to be used in its discretion for its charitable purposes. Because the IRS has "
-"indicated that it will treat bitcoin as property for U.S. tax purposes (see IRS Notice 2014-21), donations of bitcoin may be subject to special rules as to the amount of your charitable deduction, "
-"the documentation that must be provided to claim a tax deduction, or other matters."
+msgid "The Mozilla Foundation is a California non-profit corporation exempt from United States federal income taxation under IRC 501(c)(3) and a public charity classified under IRC sections 170(b)(1)(A) and 509(a)(1). Cryptocurrency donations Mozilla receives are considered charitable contributions under U.S. federal tax laws, to be used in its discretion for its charitable purposes. Because the IRS has indicated that it will treat cryptocurrencies as property for U.S. tax purposes (see IRS Notice 2014-21), cryptocurrency donations may be subject to special rules as to the amount of your charitable deduction, the documentation that must be provided to claim a tax deduction, or other matters."
 msgstr ""
-"Mozilla Foundation કેલિફોર્નિયાના બિન નફાકારક હેઠળ આઈઆરસી 501(c) યુનાઇટેડ સ્ટેટ્સ ફેડરલ આવક કરવેરા મુક્તિ કોર્પોરેશન (3) અને જાહેર ધર્માદા આઈઆરસી વિભાગો હેઠળ વર્ગીકૃત કરવામાં આવે છે 170(B)(1)(A) અને"
-" 509(A)(1).વિકિપીડિયા દાન મોઝિલા યુએસ હેઠળ સખાવતી યોગદાન ગણવામાં આવે ફેડરલ ટેક્સ કાયદા, તેના સખાવતી હેતુઓ માટે તેની મુનસફી ઉપયોગ કરવાની મેળવે છે.કારણ કે આઇઆરએસ સૂચવ્યું છે કે તે અમેરિકી કર હેતુઓ "
-"(જુઓ આઇઆરએસ નોટીસ 2014-21)માટે મિલકત તરીકે વિકિપીડિયા માનશે, વિકિપીડિયા દાન તમારા સખાવતી કપાત જથ્થો, દસ્તાવેજીકરણ કે પૂરી પાડવી જ જોઇએ, કારણ કે ખાસ નિયમો આધીન હોઇ શકે છે ટેક્સ કપાત, અથવા અન્ય બાબતો "
-"દાવો કર્યો હતો."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:140
 #, python-format
-msgid "Learn more about bitcoin donations <a href=\"%(bitcoin_wiki)s\">here</a>. To donate bitcoin, <a href=\"%(bitcoin_donate)s\">please visit this link.</a>"
-msgstr "બિટકોઇન દાન વિશે વધુ જાણો <a href=\"%(bitcoin_wiki)s\">અહીં</a>. બિટકોઇન દાન કરવા, <a href=\"%(bitcoin_donate)s\">કૃપા કરીને આ લિંકની મુલાકાત લો.</a>"
+msgid "Learn more about cryptocurrency donations <a href=\"%(cryptocurrency_wiki)s\">here</a>. To donate using cryptocurrency, <a href=\"%(cryptocurrency_url)s\">please visit this link.</a>"
+msgstr ""
 
 #: donate/templates/payment/card_master.html:4
 msgid "Your information"
@@ -567,7 +571,9 @@ msgstr "પુષ્ટિ કરો"
 msgid "Your Details"
 msgstr "તમારી વિગતો"
 
-#: donate/templates/payment/card_master.html:60 donate/templates/payment/card_upsell_master.html:34 donate/templates/payment/newsletter_signup_master.html:30
+#: donate/templates/payment/card_master.html:60
+#: donate/templates/payment/card_upsell_master.html:34
+#: donate/templates/payment/newsletter_signup_master.html:30
 #: donate/templates/payment/paypal_upsell_master.html:34
 msgid "There were some errors with your form. Please amend the fields highlighted below."
 msgstr "તમારા ફોર્મમાં કેટલીક ભૂલો હતી. કૃપા કરીને નીચે પ્રકાશિત ક્ષેત્રોમાં ફેરફાર કરો."
@@ -598,13 +604,8 @@ msgstr "CVV"
 
 #: donate/templates/payment/card_master.html:126
 #, python-format
-msgid ""
-"I authorize Mozilla Foundation to automatically charge my card every month in the amount indicated above, starting today and continuing each month on the same day, until I cancel. I understand that "
-"I must cancel at least 5 days before the next scheduled donation by email to <a href='mailto:%(email)s'>%(email)s</a>, and that I may only request a refund within 15 days from the date of a "
-"donation."
-msgstr ""
-"હું Mozilla ફાઉન્ડેશનને અધિકૃત કરું છું કે હું રદ કરું ત્યાં સુધી, આજથી શરૂ કરીને અને તે જ દિવસે, દર મહિને ચાલુ રાખીને, ઉપર સૂચવેલી રકમમાં દર મહિને મારું કાર્ડ ચાર્જ કરવા માટે. હું સમજું છું કે <a "
-"href='mailto:%(email)s'>%(email)s</a>ને ઇમેઇલ દ્વારા આગલા અનુસૂચિત દાનના ઓછામાં ઓછા 5 દિવસ પહેલા મારે રદ કરવું આવશ્યક છે, અને હું ફક્ત રિફંડની વિનંતી કરી શકું છું દાનની તારીખથી 15 દિવસની અંદર."
+msgid "I authorize Mozilla Foundation to automatically charge my card every month in the amount indicated above, starting today and continuing each month on the same day, until I cancel. I understand that I must cancel at least 5 days before the next scheduled donation by email to <a href='mailto:%(email)s'>%(email)s</a>, and that I may only request a refund within 15 days from the date of a donation."
+msgstr "હું Mozilla ફાઉન્ડેશનને અધિકૃત કરું છું કે હું રદ કરું ત્યાં સુધી, આજથી શરૂ કરીને અને તે જ દિવસે, દર મહિને ચાલુ રાખીને, ઉપર સૂચવેલી રકમમાં દર મહિને મારું કાર્ડ ચાર્જ કરવા માટે. હું સમજું છું કે <a href='mailto:%(email)s'>%(email)s</a>ને ઇમેઇલ દ્વારા આગલા અનુસૂચિત દાનના ઓછામાં ઓછા 5 દિવસ પહેલા મારે રદ કરવું આવશ્યક છે, અને હું ફક્ત રિફંડની વિનંતી કરી શકું છું દાનની તારીખથી 15 દિવસની અંદર."
 
 #: donate/templates/payment/card_master.html:128
 msgid "I authorize Mozilla Foundation to charge my card in the amount indicated above. I understand that I may only request a refund within 15 days from the date of the donation."
@@ -624,20 +625,27 @@ msgstr "<span class=\"%(span_class)s\">%(formatted_amount)s</span> દાન ક
 msgid "Your donation helps keep the Web open and free. Thank you in advance for your gift."
 msgstr "તમારું દાન વેબને ખુલ્લા અને મફત રાખવામાં મદદ કરે છે. તમારી ભેટ માટે અગાઉથી આભાર."
 
-#: donate/templates/payment/card_upsell_master.html:4 donate/templates/payment/paypal_upsell_master.html:4 donate/templates/payment/thank_you_master.html:4
+#: donate/templates/payment/card_upsell_master.html:4
+#: donate/templates/payment/paypal_upsell_master.html:4
+#: donate/templates/payment/thank_you_master.html:4
 msgid "Thank you"
 msgstr "આભાર"
 
-#: donate/templates/payment/card_upsell_master.html:13 donate/templates/payment/newsletter_signup_master.html:13 donate/templates/payment/paypal_upsell_master.html:13
-#: donate/templates/payment/thank_you_master.html:12 donate/thunderbird/templates/payment/newsletter_signup.html:6
+#: donate/templates/payment/card_upsell_master.html:13
+#: donate/templates/payment/newsletter_signup_master.html:13
+#: donate/templates/payment/paypal_upsell_master.html:13
+#: donate/templates/payment/thank_you_master.html:12
+#: donate/thunderbird/templates/payment/newsletter_signup.html:6
 msgid "Thank you for your generous gift"
 msgstr "તમારી ઉદાર ભેટ બદલ આભાર"
 
-#: donate/templates/payment/card_upsell_master.html:17 donate/templates/payment/paypal_upsell_master.html:17
+#: donate/templates/payment/card_upsell_master.html:17
+#: donate/templates/payment/paypal_upsell_master.html:17
 msgid "We’d love to have you as a sustaining supporter of Mozilla. <b>Could you add a monthly donation starting next month?</b>"
 msgstr "અમે તમને Mozillaના ટકાઉ સમર્થક તરીકે આપવાનું પસંદ કરીશું. <b>શું તમે આવતા મહિનાથી શરૂ થતા માસિક દાનમાં ઉમેરી શકો છો?</b>"
 
-#: donate/templates/payment/card_upsell_master.html:21 donate/templates/payment/paypal_upsell_master.html:21
+#: donate/templates/payment/card_upsell_master.html:21
+#: donate/templates/payment/paypal_upsell_master.html:21
 msgid "Yes, I will give:"
 msgstr "હા, હું આપીશ:"
 
@@ -647,18 +655,15 @@ msgstr "માસિક"
 
 #: donate/templates/payment/card_upsell_master.html:48
 #, python-format
-msgid ""
-"I authorize Mozilla Foundation to automatically charge my card every month in the amount indicated above, starting next month on the same date as today, and continuing each month afterwards until I "
-"cancel. I understand that I must cancel at least 5 days before the next scheduled donation by email to %(email)s, and that I may only request a refund within 15 days from the date of a donation."
-msgstr ""
-"હું Mozilla ફાઉન્ડેશનને અધિકૃત છું કે ઉપર સૂચવેલા જથ્થામાં દર મહિને આપમેળે મારા કાર્ડને ચાર્જ કરવા માટે, જે આજની તારીખે આવતા મહિને શરૂ થાય છે અને હું રદ નહીં કરું ત્યાં સુધી દર મહિને ચાલુ રાખું છું."
-" હું સમજું છું કે મારે %(email)sને ઇમેઇલ દ્વારા આગલા સુનિશ્ચિત દાનના ઓછામાં ઓછા 5 દિવસ પહેલા રદ કરવું આવશ્યક છે, અને હું ફક્ત દાનની તારીખથી 15 દિવસની અંદર રિફંડની વિનંતી કરી શકું છું."
+msgid "I authorize Mozilla Foundation to automatically charge my card every month in the amount indicated above, starting next month on the same date as today, and continuing each month afterwards until I cancel. I understand that I must cancel at least 5 days before the next scheduled donation by email to %(email)s, and that I may only request a refund within 15 days from the date of a donation."
+msgstr "હું Mozilla ફાઉન્ડેશનને અધિકૃત છું કે ઉપર સૂચવેલા જથ્થામાં દર મહિને આપમેળે મારા કાર્ડને ચાર્જ કરવા માટે, જે આજની તારીખે આવતા મહિને શરૂ થાય છે અને હું રદ નહીં કરું ત્યાં સુધી દર મહિને ચાલુ રાખું છું. હું સમજું છું કે મારે %(email)sને ઇમેઇલ દ્વારા આગલા સુનિશ્ચિત દાનના ઓછામાં ઓછા 5 દિવસ પહેલા રદ કરવું આવશ્યક છે, અને હું ફક્ત દાનની તારીખથી 15 દિવસની અંદર રિફંડની વિનંતી કરી શકું છું."
 
 #: donate/templates/payment/card_upsell_master.html:53
 msgid "Donate Monthly"
 msgstr "માસિક દાન કરો"
 
-#: donate/templates/payment/card_upsell_master.html:56 donate/templates/payment/newsletter_signup_master.html:42
+#: donate/templates/payment/card_upsell_master.html:56
+#: donate/templates/payment/newsletter_signup_master.html:42
 msgid "No Thanks"
 msgstr "ના અભાર"
 
@@ -682,7 +687,8 @@ msgstr "/ માસિક"
 msgid "No"
 msgstr "ના"
 
-#: donate/templates/payment/thank_you_master.html:15 donate/thunderbird/templates/payment/thank_you.html:6
+#: donate/templates/payment/thank_you_master.html:15
+#: donate/thunderbird/templates/payment/thank_you.html:6
 #, python-format
 msgid "We’ve emailed you a donation receipt; if it’s missing, please check your junk/spam folders, then contact us using <a href=\"%(url)s\">this form</a>."
 msgstr "અમે તમને દાનની રસીદ ઇમેઇલ કરી છે; જો તે ગુમ થયેલ હોય, તો કૃપા કરીને તમારા જંક/સ્પામ ફોલ્ડર્સને તપાસો, તો પછી <a href=\"%(url)s\">આ ફોર્મ</a>પર અમારો સંપર્ક કરો."
@@ -701,33 +707,42 @@ msgctxt "Email subject line"
 msgid "I donated to Mozilla today"
 msgstr "મેં આજે Mozillaને દાન આપ્યું છે"
 
-#: donate/templates/payment/thank_you_master.html:26 donate/thunderbird/templates/payment/thank_you.html:16
+#: donate/templates/payment/thank_you_master.html:26
+#: donate/thunderbird/templates/payment/thank_you.html:16
 msgid "Share on Facebook"
 msgstr "Facebook પર શેર કરો"
 
-#: donate/templates/payment/thank_you_master.html:30 donate/thunderbird/templates/pages/base_page.html:44 donate/thunderbird/templates/payment/thank_you.html:20
+#: donate/templates/payment/thank_you_master.html:30
+#: donate/thunderbird/templates/pages/base_page.html:44
+#: donate/thunderbird/templates/payment/thank_you.html:20
 msgid "Facebook"
 msgstr "Facebook"
 
-#: donate/templates/payment/thank_you_master.html:33 donate/thunderbird/templates/payment/thank_you.html:23
+#: donate/templates/payment/thank_you_master.html:33
+#: donate/thunderbird/templates/payment/thank_you.html:23
 msgid "Share on Twitter"
 msgstr "Twitter પર શેર કરો"
 
-#: donate/templates/payment/thank_you_master.html:37 donate/thunderbird/templates/pages/base_page.html:38 donate/thunderbird/templates/payment/thank_you.html:27
+#: donate/templates/payment/thank_you_master.html:37
+#: donate/thunderbird/templates/pages/base_page.html:38
+#: donate/thunderbird/templates/payment/thank_you.html:27
 msgid "Twitter"
 msgstr "Twitter"
 
-#: donate/templates/payment/thank_you_master.html:43 donate/thunderbird/templates/payment/thank_you.html:33
+#: donate/templates/payment/thank_you_master.html:43
+#: donate/thunderbird/templates/payment/thank_you.html:33
 msgctxt "Share button"
 msgid "Email"
 msgstr "ઇ-મેલ"
 
-#: donate/templates/payment/thank_you_master.html:53 donate/thunderbird/templates/payment/thank_you.html:43
+#: donate/templates/payment/thank_you_master.html:53
+#: donate/thunderbird/templates/payment/thank_you.html:43
 msgctxt "Share button"
 msgid "Link"
 msgstr "લિંક"
 
-#: donate/templates/payment/thank_you_master.html:54 donate/thunderbird/templates/payment/thank_you.html:44
+#: donate/templates/payment/thank_you_master.html:54
+#: donate/thunderbird/templates/payment/thank_you.html:44
 msgid "Copied"
 msgstr "નકલ કરેલ"
 
@@ -735,7 +750,9 @@ msgstr "નકલ કરેલ"
 msgid "Back"
 msgstr "પાછળ"
 
-#: donate/thunderbird/templates/base.html:9 donate/thunderbird/templates/pages/base_page.html:9 donate/thunderbird/templates/pages/base_page.html:16
+#: donate/thunderbird/templates/base.html:9
+#: donate/thunderbird/templates/pages/base_page.html:9
+#: donate/thunderbird/templates/pages/base_page.html:16
 #: donate/thunderbird/templates/pages/base_page.html:17
 msgctxt "Page title"
 msgid "Give to Thunderbird"
@@ -748,12 +765,8 @@ msgstr "આપવાની અન્ય રીતો: <a href=\"%(wire_transfer_
 
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:12
 #, python-format
-msgid ""
-"Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your "
-"donation will be stored by Thunderbird. Please read our <a href=\"%(privacy_url)s\">privacy policy here</a>."
-msgstr ""
-"તમારી ચુકવણીની વિગતો <a href=\"%(braintree_url)s\">બ્રાન્ટ્રી</a>, PayPal કંપની (ક્રેડિટ / ડેબિટ કાર્ડ માટે) અથવા <a href=\"%(paypal_url)s\">PayPal</a>દ્વારા પ્રક્રિયા કરવામાં આવશે, અને તમારા દાનનો "
-"રેકોર્ડ થંડરબર્ડ દ્વારા સંગ્રહિત કરવામાં આવશે. કૃપા કરી અમારી <a href=\"%(privacy_url)s\">ગોપનીયતા નીતિ અહીં</a>વાંચો."
+msgid "Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Thunderbird. Please read our <a href=\"%(privacy_url)s\">privacy policy here</a>."
+msgstr "તમારી ચુકવણીની વિગતો <a href=\"%(braintree_url)s\">બ્રાન્ટ્રી</a>, PayPal કંપની (ક્રેડિટ / ડેબિટ કાર્ડ માટે) અથવા <a href=\"%(paypal_url)s\">PayPal</a>દ્વારા પ્રક્રિયા કરવામાં આવશે, અને તમારા દાનનો રેકોર્ડ થંડરબર્ડ દ્વારા સંગ્રહિત કરવામાં આવશે. કૃપા કરી અમારી <a href=\"%(privacy_url)s\">ગોપનીયતા નીતિ અહીં</a>વાંચો."
 
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:15
 #, python-format
@@ -761,12 +774,8 @@ msgid "Monthly donations are charged each month on the same day that you donate 
 msgstr "તમે આજે દાન કરો છો તે જ દિવસે દર મહિને માસિક દાન લેવામાં આવે છે, અને તમે રદ નહીં કરો ત્યાં સુધી ચાલુ રહેશે. રદ કરવા માટે, અમને <a href=\"%(help_url)s\">આ ફોર્મ</a>ભરો."
 
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:27
-msgid ""
-"Contributions go to MZLA Technologies Corporation, a California corporation wholly owned by the Mozilla Foundation. Funds will be reserved for use in the Thunderbird project. Contributions are not "
-"tax-deductible as charitable contributions."
-msgstr ""
-"ફાળો MZLA ટેક્નોલોજીસ કોર્પોરેશન, California કોર્પોરેશન પાસે છે જેની સંપૂર્ણ માલિકી Mozilla ફાઉન્ડેશનની છે. Thunderbird પ્રોજેક્ટમાં ઉપયોગ માટે ભંડોળ અનામત રહેશે. ફાળો ચેરિટેબલ યોગદાન તરીકે કર-"
-"કપાતપાત્ર નથી."
+msgid "Contributions go to MZLA Technologies Corporation, a California corporation wholly owned by the Mozilla Foundation. Funds will be reserved for use in the Thunderbird project. Contributions are not tax-deductible as charitable contributions."
+msgstr "ફાળો MZLA ટેક્નોલોજીસ કોર્પોરેશન, California કોર્પોરેશન પાસે છે જેની સંપૂર્ણ માલિકી Mozilla ફાઉન્ડેશનની છે. Thunderbird પ્રોજેક્ટમાં ઉપયોગ માટે ભંડોળ અનામત રહેશે. ફાળો ચેરિટેબલ યોગદાન તરીકે કર-કપાતપાત્ર નથી."
 
 #: donate/thunderbird/templates/pages/base_page.html:53
 msgid "Cookies"
@@ -799,10 +808,8 @@ msgstr "જો તમને MZLA/Thunderbirdમાં ફાળો આપવા 
 
 #: donate/thunderbird/templates/pages/core/contributor_support_page.html:12
 #, python-format
-msgid ""
-"Unfortunately, donor care representatives are unable to offer support or help with Thunderbird technical issues. For technical support, please visit our <a href=\"%(support_url)s\">support page.</a>"
-msgstr ""
-"કમનસીબે, દાતા સંભાળના પ્રતિનિધિઓ Firefox ટેકનિકલ સમસ્યાઓ માટે સમર્થન અથવા મદદ ઓફર કરવામાં અસમર્થ છે. તકનીકી સમર્થન માટે, કૃપા કરીને <a href=\"%(support_url)s\">Firefox સપોર્ટ પૃષ્ઠ</a>ની મુલાકાત લો"
+msgid "Unfortunately, donor care representatives are unable to offer support or help with Thunderbird technical issues. For technical support, please visit our <a href=\"%(support_url)s\">support page.</a>"
+msgstr "કમનસીબે, દાતા સંભાળના પ્રતિનિધિઓ Firefox ટેકનિકલ સમસ્યાઓ માટે સમર્થન અથવા મદદ ઓફર કરવામાં અસમર્થ છે. તકનીકી સમર્થન માટે, કૃપા કરીને <a href=\"%(support_url)s\">Firefox સપોર્ટ પૃષ્ઠ</a>ની મુલાકાત લો"
 
 #: donate/thunderbird/templates/pages/core/landing_page.html:7
 #, python-format
@@ -814,24 +821,17 @@ msgid "We accept contributions in Euros through Single European Payment Area (SE
 msgstr "અમે સિંગલ યુરોપિયન પેમેન્ટ એરિયા (SEPA) ટ્રાન્સફર અને બીએસીએસ ટ્રાન્સફર દ્વારા બ્રિટીશ પાઉન્ડ દ્વારા યુરોમાં યોગદાન સ્વીકારીએ છીએ."
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:10
-msgid ""
-"Please note that for smaller (under 10 EUR or equivalent) contributions, <strong>and especially for contributions under 5 EUR or equivalent</strong>, we request that you contribute via credit card "
-"or PayPal to help reduce our processing fees."
-msgstr ""
-"કૃપા કરીને નોંધો કે નાના (10 EUR અથવા તેના સમકક્ષ હેઠળ) યોગદાન માટે, <strong>અને ખાસ કરીને 5 EUR અથવા સમકક્ષ</strong>હેઠળના યોગદાન માટે, અમે વિનંતી કરીએ છીએ કે તમે અમારી પ્રોસેસિંગ ફી ઘટાડવામાં મદદ "
-"કરવા માટે ક્રેડિટ કાર્ડ અથવા પેપાલ દ્વારા ફાળો આપો."
+msgid "Please note that for smaller (under 10 EUR or equivalent) contributions, <strong>and especially for contributions under 5 EUR or equivalent</strong>, we request that you contribute via credit card or PayPal to help reduce our processing fees."
+msgstr "કૃપા કરીને નોંધો કે નાના (10 EUR અથવા તેના સમકક્ષ હેઠળ) યોગદાન માટે, <strong>અને ખાસ કરીને 5 EUR અથવા સમકક્ષ</strong>હેઠળના યોગદાન માટે, અમે વિનંતી કરીએ છીએ કે તમે અમારી પ્રોસેસિંગ ફી ઘટાડવામાં મદદ કરવા માટે ક્રેડિટ કાર્ડ અથવા પેપાલ દ્વારા ફાળો આપો."
 
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:30 donate/thunderbird/templates/pages/core/ways_to_give_page.html:47
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:30
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:47
 msgid "Memo field:"
 msgstr "મેમો ક્ષેત્ર:"
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:55
-msgid ""
-"MZLA/Thunderbird is happy to accept your donation (made payable to “MZLA Technologies”) via check; however please note that processing and acknowledgment of your gift may be delayed by changes to "
-"our office procedures due to the COVID-19 pandemic. You can send checks to:"
-msgstr ""
-"MZLA/Thunderbird તમારા દાન (“MZLA Technologies” ને ચૂકવવાપાત્ર) ચેક દ્વારા સ્વીકારવામાં ખુશ છે; જો કે કૃપા કરીને નોંધો કે તમારી ભેટની પ્રક્રિયા અને સ્વીકૃતિમાં કોવિડ-19રોગચાળાને કારણે અમારી ઓફિસ "
-"પ્રક્રિયાઓમાં ફેરફાર થવાથી વિલંબ થઈ શકે છે. તમે આના પર ચેક મોકલી શકો છો:"
+msgid "MZLA/Thunderbird is happy to accept your donation (made payable to “MZLA Technologies”) via check; however please note that processing and acknowledgment of your gift may be delayed by changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
+msgstr "MZLA/Thunderbird તમારા દાન (“MZLA Technologies” ને ચૂકવવાપાત્ર) ચેક દ્વારા સ્વીકારવામાં ખુશ છે; જો કે કૃપા કરીને નોંધો કે તમારી ભેટની પ્રક્રિયા અને સ્વીકૃતિમાં કોવિડ-19રોગચાળાને કારણે અમારી ઓફિસ પ્રક્રિયાઓમાં ફેરફાર થવાથી વિલંબ થઈ શકે છે. તમે આના પર ચેક મોકલી શકો છો:"
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:71
 msgid "Please also note that MZLA/Thunderbird can <strong>only</strong> accept checks in U.S. dollars drawn on a U.S. bank."
@@ -843,32 +843,22 @@ msgstr "તમારી ઉદાર ભેટ બદલ આભાર."
 
 #: donate/thunderbird/templates/payment/card.html:12
 #, python-format
-msgid ""
-"I authorize MZLA Technologies Corporation to automatically charge my card every month in the amount indicated above, starting today and continuing each month on the same day, until I cancel. I "
-"understand that I must cancel at least 5 days before the next scheduled donation by <a href='%(help_url)s'>submitting a request</a>, and that I may only request a refund within 15 days from the date"
-" of a donation."
-msgstr ""
-"હું Mozilla ફાઉન્ડેશનને અધિકૃત કરું છું કે હું રદ કરું ત્યાં સુધી, આજથી શરૂ કરીને અને તે જ દિવસે, દર મહિને ચાલુ રાખીને, ઉપર સૂચવેલી રકમમાં દર મહિને મારું કાર્ડ ચાર્જ કરવા માટે. હું સમજું છું કે <a "
-"href='%(help_url)s'>વિનંતી સબમિટ</a>દ્વારા આગલા અનુસૂચિત દાનના ઓછામાં ઓછા 5 દિવસ પહેલા મારે રદ કરવું આવશ્યક છે, અને હું ફક્ત રિફંડની વિનંતી કરી શકું છું દાનની તારીખથી 15 દિવસની અંદર."
+msgid "I authorize MZLA Technologies Corporation to automatically charge my card every month in the amount indicated above, starting today and continuing each month on the same day, until I cancel. I understand that I must cancel at least 5 days before the next scheduled donation by <a href='%(help_url)s'>submitting a request</a>, and that I may only request a refund within 15 days from the date of a donation."
+msgstr "હું Mozilla ફાઉન્ડેશનને અધિકૃત કરું છું કે હું રદ કરું ત્યાં સુધી, આજથી શરૂ કરીને અને તે જ દિવસે, દર મહિને ચાલુ રાખીને, ઉપર સૂચવેલી રકમમાં દર મહિને મારું કાર્ડ ચાર્જ કરવા માટે. હું સમજું છું કે <a href='%(help_url)s'>વિનંતી સબમિટ</a>દ્વારા આગલા અનુસૂચિત દાનના ઓછામાં ઓછા 5 દિવસ પહેલા મારે રદ કરવું આવશ્યક છે, અને હું ફક્ત રિફંડની વિનંતી કરી શકું છું દાનની તારીખથી 15 દિવસની અંદર."
 
 #: donate/thunderbird/templates/payment/card.html:14
 msgid "I authorize MZLA Technologies Corporation to charge my card in the amount indicated above. I understand that I may only request a refund within 15 days from the date of the donation."
 msgstr "હું Mozilla ફાઉન્ડેશનને ઉપર દર્શાવેલ રકમથી મારા કાર્ડને ચાર્જ કરવા માટે અધિકૃત કરું છું. હું સમજું છું કે હું દાનની તારીખથી 15 દિવસની અંદર જ રિફંડની વિનંતી કરી શકું છું."
 
-#: donate/thunderbird/templates/payment/card_upsell.html:6 donate/thunderbird/templates/payment/paypal_upsell.html:6
+#: donate/thunderbird/templates/payment/card_upsell.html:6
+#: donate/thunderbird/templates/payment/paypal_upsell.html:6
 msgid "We’d love to have you as a sustaining supporter of Thunderbird. <b>Could you add a monthly donation starting next month?</b>"
 msgstr "અમે તમને Thunderbirdના ટકાઉ સમર્થક તરીકે મળીને ગમશે. <b>શું તમે આવતા મહિનાથી શરૂ થતા માસિક દાનમાં ઉમેરી શકો છો?</b>"
 
 #: donate/thunderbird/templates/payment/card_upsell.html:10
 #, python-format
-msgid ""
-"I authorize MZLA Technologies Corporation to automatically charge my card every month in the amount indicated above, starting next month on the same date as today, and continuing each month "
-"afterwards until I cancel. I understand that I must cancel at least 5 days before the next scheduled donation by <a href=\"%(help_url)s\">submitting this form</a>, and that I may only request a "
-"refund within 15 days from the date of a donation."
-msgstr ""
-"હું MZLAએ ટેકનોલોજીસ કોર્પોરેશનને અધિકૃત કરું છું કે ઉપર સૂચવેલા જથ્થામાં દર મહિને આપમેળે મારા કાર્ડને ચાર્જ કરવા, જે આજની તારીખે આવતા મહિને શરૂ થાય છે, અને હું રદ નહીં થાય ત્યાં સુધી દર મહિને ચાલુ "
-"રાખું છું. હું સમજું છું કે<a href=\"%(help_url)s\">આ ફોર્મ સબમિટ</a>દ્વારા આગળના અનુસૂચિત દાનના ઓછામાં ઓછા 5 દિવસ પહેલા મારે રદ કરવું આવશ્યક છે, અને હું ફક્ત તારીખથી 15 દિવસની અંદર રિફંડની વિનંતી "
-"કરી શકું છું. દાન."
+msgid "I authorize MZLA Technologies Corporation to automatically charge my card every month in the amount indicated above, starting next month on the same date as today, and continuing each month afterwards until I cancel. I understand that I must cancel at least 5 days before the next scheduled donation by <a href=\"%(help_url)s\">submitting this form</a>, and that I may only request a refund within 15 days from the date of a donation."
+msgstr "હું MZLAએ ટેકનોલોજીસ કોર્પોરેશનને અધિકૃત કરું છું કે ઉપર સૂચવેલા જથ્થામાં દર મહિને આપમેળે મારા કાર્ડને ચાર્જ કરવા, જે આજની તારીખે આવતા મહિને શરૂ થાય છે, અને હું રદ નહીં થાય ત્યાં સુધી દર મહિને ચાલુ રાખું છું. હું સમજું છું કે<a href=\"%(help_url)s\">આ ફોર્મ સબમિટ</a>દ્વારા આગળના અનુસૂચિત દાનના ઓછામાં ઓછા 5 દિવસ પહેલા મારે રદ કરવું આવશ્યક છે, અને હું ફક્ત તારીખથી 15 દિવસની અંદર રિફંડની વિનંતી કરી શકું છું. દાન."
 
 #: donate/thunderbird/templates/payment/newsletter_signup.html:8
 msgid "We’re working hard to protect your inbox. Sign up to receive email messages concerning Thunderbird, including updates and requests for feedback."
@@ -887,6 +877,18 @@ msgstr "મેં આજે #freetheinbox માટે @mozthunderbirdને દ
 msgctxt "Email subject line"
 msgid "I donated to Thunderbird today"
 msgstr "મેં આજે Thunderbirdને દાન આપ્યું છે"
+
+#~ msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a> | <a href=\"%(bitcoin_url)s\">Bitcoin</a>"
+#~ msgstr "આપવાની અન્ય રીતો: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">તપાસો</a> | <a href=\"%(bitcoin_url)s\">Bitcoin</a>"
+
+#~ msgid "Bitcoin"
+#~ msgstr "Bitcoin"
+
+#~ msgid "The Mozilla Foundation is a California non-profit corporation exempt from United States federal income taxation under IRC 501(c)(3) and a public charity classified under IRC sections 170(b)(1)(A) and 509(a)(1). Bitcoin donations Mozilla receives are considered charitable contributions under U.S. federal tax laws, to be used in its discretion for its charitable purposes. Because the IRS has indicated that it will treat bitcoin as property for U.S. tax purposes (see IRS Notice 2014-21), donations of bitcoin may be subject to special rules as to the amount of your charitable deduction, the documentation that must be provided to claim a tax deduction, or other matters."
+#~ msgstr "Mozilla Foundation કેલિફોર્નિયાના બિન નફાકારક હેઠળ આઈઆરસી 501(c) યુનાઇટેડ સ્ટેટ્સ ફેડરલ આવક કરવેરા મુક્તિ કોર્પોરેશન (3) અને જાહેર ધર્માદા આઈઆરસી વિભાગો હેઠળ વર્ગીકૃત કરવામાં આવે છે 170(B)(1)(A) અને 509(A)(1).વિકિપીડિયા દાન મોઝિલા યુએસ હેઠળ સખાવતી યોગદાન ગણવામાં આવે ફેડરલ ટેક્સ કાયદા, તેના સખાવતી હેતુઓ માટે તેની મુનસફી ઉપયોગ કરવાની મેળવે છે.કારણ કે આઇઆરએસ સૂચવ્યું છે કે તે અમેરિકી કર હેતુઓ (જુઓ આઇઆરએસ નોટીસ 2014-21)માટે મિલકત તરીકે વિકિપીડિયા માનશે, વિકિપીડિયા દાન તમારા સખાવતી કપાત જથ્થો, દસ્તાવેજીકરણ કે પૂરી પાડવી જ જોઇએ, કારણ કે ખાસ નિયમો આધીન હોઇ શકે છે ટેક્સ કપાત, અથવા અન્ય બાબતો દાવો કર્યો હતો."
+
+#~ msgid "Learn more about bitcoin donations <a href=\"%(bitcoin_wiki)s\">here</a>. To donate bitcoin, <a href=\"%(bitcoin_donate)s\">please visit this link.</a>"
+#~ msgstr "બિટકોઇન દાન વિશે વધુ જાણો <a href=\"%(bitcoin_wiki)s\">અહીં</a>. બિટકોઇન દાન કરવા, <a href=\"%(bitcoin_donate)s\">કૃપા કરીને આ લિંકની મુલાકાત લો.</a>"
 
 #~ msgid "Menu"
 #~ msgstr "મેનુ"
@@ -930,22 +932,14 @@ msgstr "મેં આજે Thunderbirdને દાન આપ્યું છ�
 #~ msgid "If you need help with a contribution to MZLA/Thunderbird, fill out this form and a Thunderbird donor care representative will get back to you as soon as possible."
 #~ msgstr "જો તમને MZLA/Thunderbirdમાં ફાળો આપવા માટે સહાયની જરૂર હોય, તો આ ફોર્મ ભરો અને થંડરબર્ડ દાતા સંભાળના પ્રતિનિધિ તમને શક્ય તેટલી વહેલી તકે પાછા મળશે."
 
-#~ msgid ""
-#~ "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in Mountain View, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S."
-#~ " to the fullest extent permitted by law."
-#~ msgstr ""
-#~ "ફાળો Mozilla Foundation, Californiaના Mountain Viewમાં સ્થિત 501(c)(3) સંસ્થા છે, જે તેના સખાવતી હેતુઓ માટેના વિવેકબુદ્ધિમાં ઉપયોગમાં લેવાય છે. તેઓ U.S. માં કાયદા દ્વારા મંજૂર સંપૂર્ણ હદ સુધી કર-"
-#~ "કપાતપાત્ર છે."
+#~ msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in Mountain View, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
+#~ msgstr "ફાળો Mozilla Foundation, Californiaના Mountain Viewમાં સ્થિત 501(c)(3) સંસ્થા છે, જે તેના સખાવતી હેતુઓ માટેના વિવેકબુદ્ધિમાં ઉપયોગમાં લેવાય છે. તેઓ U.S. માં કાયદા દ્વારા મંજૂર સંપૂર્ણ હદ સુધી કર-કપાતપાત્ર છે."
 
 #~ msgid "License"
 #~ msgstr "પરવાનો"
 
-#~ msgid ""
-#~ "Please note that due to the “shelter in place” order recently implemented for California, processing and acknowledgment of check donations to the Mozilla Foundation will be indefinitely delayed. "
-#~ "Rather than sending us a check, please consider making an <a href=\"/\">online donation</a> instead."
-#~ msgstr ""
-#~ "મહેરબાની કરીને નોંધ કરો કે તાજેતરમાં California માટે લાગુ \"આશ્રયસ્થાનમાં\" ઓર્ડરને કારણે, Mozilla ફાઉન્ડેશનને ચેક દાનની પ્રક્રિયા અને સ્વીકૃતિ અનિશ્ચિત સમય માટે વિલંબિત થશે. અમને ચેક મોકલવાને બદલે,"
-#~ " કૃપા કરીને તેના બદલે <a href=\"/\">ઓનલાઇન દાન</a> બનાવવાનું ધ્યાનમાં લો."
+#~ msgid "Please note that due to the “shelter in place” order recently implemented for California, processing and acknowledgment of check donations to the Mozilla Foundation will be indefinitely delayed. Rather than sending us a check, please consider making an <a href=\"/\">online donation</a> instead."
+#~ msgstr "મહેરબાની કરીને નોંધ કરો કે તાજેતરમાં California માટે લાગુ \"આશ્રયસ્થાનમાં\" ઓર્ડરને કારણે, Mozilla ફાઉન્ડેશનને ચેક દાનની પ્રક્રિયા અને સ્વીકૃતિ અનિશ્ચિત સમય માટે વિલંબિત થશે. અમને ચેક મોકલવાને બદલે, કૃપા કરીને તેના બદલે <a href=\"/\">ઓનલાઇન દાન</a> બનાવવાનું ધ્યાનમાં લો."
 
 #~ msgid "Please send a check <strong>including your email address on the memo line</strong>, and payable (payee) to “%(payee)s”."
 #~ msgstr "કૃપા કરીને મેમો લાઇન <strong>પર તમારા ઇમેઇલ સરનામાં</strong>અને “%(payee)s”ચૂકવવાપાત્ર (ચૂકવનાર) નો ચેક મોકલો."
@@ -953,12 +947,8 @@ msgstr "મેં આજે Thunderbirdને દાન આપ્યું છ�
 #~ msgid "Please note that the Mozilla Foundation can only accept checks in US dollars drawn on a US bank. Please do <strong>not</strong> send cash."
 #~ msgstr "મહેરબાની કરીને નોંધ કરો કે Mozilla ફાઉન્ડેશન ફક્ત યુએસ બેંક પર દોરેલા યુએસ ડોલરમાં જ ચેક સ્વીકારી શકે છે. કૃપા કરીને રોકડ <strong>ના</strong> મોકલશો."
 
-#~ msgid ""
-#~ "Please note that due to the “shelter in place” order recently implemented for California, processing and acknowledgment of check donations to Thunderbird/MZLA Technologies will be indefinitely "
-#~ "delayed. Rather than sending us a check, please consider making an <a href=\"/\">online donation</a> instead."
-#~ msgstr ""
-#~ "મહેરબાની કરીને નોંધ કરો કે California માટે તાજેતરમાં અમલમાં મૂકાયેલા “સ્થાને આશ્રયસ્થાન” ના હુકમના કારણે Thunderbird/MZLAએ ટેકનોલોજીઓને ચેક દાનની પ્રક્રિયા અને સ્વીકૃતિ અનિશ્ચિત વિલંબમાં આવશે. અમને "
-#~ "ચેક મોકલવાને બદલે, કૃપા કરીને તેના બદલે <a href=\"/\">ઓનલાઇન દાન</a> બનાવવાનું ધ્યાનમાં લો."
+#~ msgid "Please note that due to the “shelter in place” order recently implemented for California, processing and acknowledgment of check donations to Thunderbird/MZLA Technologies will be indefinitely delayed. Rather than sending us a check, please consider making an <a href=\"/\">online donation</a> instead."
+#~ msgstr "મહેરબાની કરીને નોંધ કરો કે California માટે તાજેતરમાં અમલમાં મૂકાયેલા “સ્થાને આશ્રયસ્થાન” ના હુકમના કારણે Thunderbird/MZLAએ ટેકનોલોજીઓને ચેક દાનની પ્રક્રિયા અને સ્વીકૃતિ અનિશ્ચિત વિલંબમાં આવશે. અમને ચેક મોકલવાને બદલે, કૃપા કરીને તેના બદલે <a href=\"/\">ઓનલાઇન દાન</a> બનાવવાનું ધ્યાનમાં લો."
 
 #~ msgid "Please send a check <strong>with “%(thunderbird)s” on the memo line</strong>, and payable (payee) to “%(payee)s”."
 #~ msgstr "કૃપા કરી મેમો લાઇન <strong>પર “%(thunderbird)s” સાથે</strong>અને “%(payee)s”ને ચૂકવણીપાત્ર (ચૂકવણી કરનાર) ચેક મોકલો."

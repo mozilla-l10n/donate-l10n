@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-24 17:52+0000\n"
+"POT-Creation-Date: 2021-12-16 08:18+0000\n"
 "PO-Revision-Date: 2020-09-08 20:14+0000\n"
 "Last-Translator: Akmal <uzbadmin@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,27 +19,36 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: maintenance/static/_js/main.js:16
+#: donate/frontend/_js/main.compiled.js:16 maintenance/static/_js/main.js:16
 #: source/js/components/currency-selector.js:91
 msgid "per month"
 msgstr "har oy"
 
-#: maintenance/static/_js/main.js:16
+#: donate/frontend/_js/main.compiled.js:16 maintenance/static/_js/main.js:16
 msgid "Other amount"
 msgstr "Boshqa pul miqdori"
 
+#: donate/frontend/_js/payments-card.compiled.js:1
+#: donate/frontend/_js/payments-paypal-upsell.compiled.js:1
+#: donate/frontend/_js/payments-paypal.compiled.js:1
 #: source/js/components/paypal.js:14 source/js/payments-card.js:15
 msgid "An error occurred. Please reload the page or try again later."
 msgstr "Xatolik yuz berdi. Iltimos, sahifani qayta yuklang yoki keyinroq qayta urinib koʻring."
 
-#: source/js/components/paypal.js:17 source/js/payments-card.js:129
+#: donate/frontend/_js/payments-card.compiled.js:1
+#: donate/frontend/_js/payments-paypal-upsell.compiled.js:1
+#: donate/frontend/_js/payments-paypal.compiled.js:1
+#: source/js/components/paypal.js:17 source/js/payments-card.js:142
 msgid "There was an error processing your payment. Please try again."
 msgstr "Toʻlovingizni amalga oshirishda xatolik yuz berdi. Iltimos, yana bir bor urinib koʻring."
 
+#: donate/frontend/_js/payments-card.compiled.js:1
+#: source/js/payments-card.js:162
+msgid "Some of the fields below are invalid. Please correct the invalid fields and try again."
+msgstr "Quyidagi maydonlarning baʼzilari yaroqsiz. Iltimos, yaroqsiz maydonlarni toʻgʻrilab, qaytadan urining."
+
+#: donate/frontend/_js/payments-paypal-upsell.compiled.js:1
+#: donate/frontend/_js/payments-paypal.compiled.js:1
 #: source/js/components/paypal.js:94
 msgid "Payment cancelled"
 msgstr "Toʻlov bekor qilindi"
-
-#: source/js/payments-card.js:149
-msgid "Some of the fields below are invalid. Please correct the invalid fields and try again."
-msgstr "Quyidagi maydonlarning baʼzilari yaroqsiz. Iltimos, yaroqsiz maydonlarni toʻgʻrilab, qaytadan urining."
