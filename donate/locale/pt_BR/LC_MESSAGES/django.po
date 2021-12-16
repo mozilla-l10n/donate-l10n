@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-12-16 08:18+0000\n"
-"PO-Revision-Date: 2021-12-16 12:42+0000\n"
+"PO-Revision-Date: 2021-12-16 12:52+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -531,11 +531,15 @@ msgid ""
 "IRS has indicated that it will treat cryptocurrencies as property for U.S. tax purposes (see IRS Notice 2014-21), cryptocurrency donations may be subject to special rules as to the amount of your "
 "charitable deduction, the documentation that must be provided to claim a tax deduction, or other matters."
 msgstr ""
+"A Fundação Mozilla é uma corporação sem fins lucrativos situada na Califórnia, isenta de impostos federais dos Estados Unidos sob IRC 501(c)(3) e classificada como instituição pública de caridade "
+"sob IRC seções 170(b)(1)(A) e 509(a)(1). Doações recebidas pela Mozilla em criptomoedas são consideradas contribuições para caridade, sob leis federais de impostos dos EUA, para ser usadas a seu "
+"critério com propósitos de caridade. Como o IRS indicou que tratará criptomoedas como propriedade para fins de impostos dos EUA (ver o aviso IRS 2014-21), doações de criptomoedas podem estar "
+"sujeitas a regras especiais quanto ao valor de sua dedução de caridade, a documentação que deve ser fornecida para reivindicar dedução fiscal, ou outros assuntos."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:140
 #, python-format
 msgid "Learn more about cryptocurrency donations <a href=\"%(cryptocurrency_wiki)s\">here</a>. To donate using cryptocurrency, <a href=\"%(cryptocurrency_url)s\">please visit this link.</a>"
-msgstr ""
+msgstr "Saiba mais <a href=\"%(cryptocurrency_wiki)s\">aqui</a> sobre doações de criptomoedas. Para doar usando criptomoedas, <a href=\"%(cryptocurrency_url)s\">acesse este link</a>."
 
 #: donate/templates/payment/card_master.html:4
 msgid "Your information"
