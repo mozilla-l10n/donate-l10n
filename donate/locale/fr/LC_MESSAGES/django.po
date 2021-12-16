@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-12-16 08:18+0000\n"
-"PO-Revision-Date: 2021-12-16 08:22+0000\n"
+"PO-Revision-Date: 2021-12-16 08:24+0000\n"
 "Last-Translator: Théo Chevalier <theo.chevalier11@gmail.com>\n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -534,15 +534,17 @@ msgid ""
 "charitable deduction, the documentation that must be provided to claim a tax deduction, or other matters."
 msgstr ""
 "Mozilla Foundation est une entreprise à but non lucratif californienne exonérée de l’impôt sur le revenu aux États-Unis selon la section 501(c)(3) de l’Internal Revenue Code (IRC) et est considérée "
-"comme organisme de bienfaisance selon les sections 170(b)(1)(A) et 509(a)(1) de l’IRC. Les dons en cryptomonnaies reçus par Mozilla sont considérés comme des dons à des organismes de bienfaisance "
+"comme organisme de bienfaisance selon les sections 170(b)(1)(A) et 509(a)(1) de l’IRC. Les dons en cryptomonnaie reçus par Mozilla sont considérés comme des dons à des organismes de bienfaisance "
 "selon la législation fiscale aux États-Unis, et seront utilisés à des fins caritatives, à sa discrétion. L’Internal Revenue Service a indiqué qu’il traitera les cryptomonnaies en tant que biens dans"
-" le cadre des impôts aux États-Unis (voir la notice 2014-21 de l’IRS). Les dons en cryptomonnaies peuvent faire l’objet de règles spécifiques sur le montant de votre déduction liée aux dons à des "
+" le cadre des impôts aux États-Unis (voir la notice 2014-21 de l’IRS). Les dons en cryptomonnaie peuvent faire l’objet de règles spécifiques sur le montant de votre déduction liée aux dons à des "
 "organismes de bienfaisance, sur les justificatifs devant être fournis pour demander une déduction fiscale, et sur d’autres choses."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:140
 #, python-format
 msgid "Learn more about cryptocurrency donations <a href=\"%(cryptocurrency_wiki)s\">here</a>. To donate using cryptocurrency, <a href=\"%(cryptocurrency_url)s\">please visit this link.</a>"
 msgstr ""
+"Si vous souhaitez en savoir plus sur les dons en cryptomonnaie, <a href=\"%(cryptocurrency_wiki)s\">cliquez ici</a>. Pour faire un don en cryptomonnaie, <a href=\"%(cryptocurrency_url)s\">visitez ce"
+" lien</a>."
 
 #: donate/templates/payment/card_master.html:4
 msgid "Your information"
