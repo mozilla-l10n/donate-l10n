@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-12-16 08:18+0000\n"
-"PO-Revision-Date: 2021-12-17 01:14+0000\n"
+"PO-Revision-Date: 2021-12-17 01:47+0000\n"
 "Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sv_SE\n"
@@ -526,11 +526,15 @@ msgid ""
 "IRS has indicated that it will treat cryptocurrencies as property for U.S. tax purposes (see IRS Notice 2014-21), cryptocurrency donations may be subject to special rules as to the amount of your "
 "charitable deduction, the documentation that must be provided to claim a tax deduction, or other matters."
 msgstr ""
+"Mozilla Foundation är ett icke-vinstdrivande företag i Kalifornien som är undantaget från USA:s federala inkomstbeskattning enligt IRC 501(c)(3) och en offentlig välgörenhetsorganisation "
+"klassificerad enligt IRC-avsnitt 170(b)(1)(A) och 509(a)(1). Kryptovalutadonationer som Mozilla tar emot betraktas som välgörenhetsbidrag enligt amerikanska federala skattelagar, för att användas "
+"efter eget gottfinnande för dess välgörande ändamål. Eftersom IRS har indikerat att de kommer att behandla kryptovalutor som egendom för amerikanska skatteändamål (se IRS Notice 2014-21), kan "
+"kryptovalutadonationer vara föremål för särskilda regler för beloppet på ditt välgörenhetsavdrag, den dokumentation som måste tillhandahållas för att göra anspråk på ett skatteavdrag eller annat."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:140
 #, python-format
 msgid "Learn more about cryptocurrency donations <a href=\"%(cryptocurrency_wiki)s\">here</a>. To donate using cryptocurrency, <a href=\"%(cryptocurrency_url)s\">please visit this link.</a>"
-msgstr ""
+msgstr "Läs mer om donationer av kryptovaluta <a href=\"%(cryptocurrency_wiki)s\">här</a>. För att donera med kryptovaluta, <a href=\"%(cryptocurrency_url)s\">besök den här länken.</a>"
 
 #: donate/templates/payment/card_master.html:4
 msgid "Your information"
