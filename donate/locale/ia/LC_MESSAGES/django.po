@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-12-16 08:18+0000\n"
-"PO-Revision-Date: 2021-12-17 20:14+0000\n"
+"PO-Revision-Date: 2021-12-17 20:20+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: \n"
 "Language: ia\n"
@@ -181,7 +181,7 @@ msgstr ""
 #: donate/templates/fragments/donate_form_disclaimer_master.html:17
 #, python-format
 msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a> | <a href=\"%(cryptocurrency_url)s\">BitPay (cryptocurrencies)</a>"
-msgstr ""
+msgstr "Altere manieras pro donar: <a href=\"%(wire_transfer_url)s\">transferentia bancari SEPA/BACS</a> | <a href=\"%(check_url)s\">Consulta</a> | <a href=\"%(cryptocurrency_url)s\">BitPay (cryptovaluta)</a>"
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:23 donate/thunderbird/templates/fragments/donate_form_disclaimer.html:21
 #, python-format
@@ -539,7 +539,7 @@ msgstr ""
 #: donate/templates/pages/core/ways_to_give_page_master.html:140
 #, python-format
 msgid "Learn more about cryptocurrency donations <a href=\"%(cryptocurrency_wiki)s\">here</a>. To donate using cryptocurrency, <a href=\"%(cryptocurrency_url)s\">please visit this link.</a>"
-msgstr ""
+msgstr "Pro saper plus re donationes in cryptovaluta <a href=\"%(cryptocurrency_wiki)s\">hic</a>. A donar per cryptovaluta, <a href=\"%(cryptocurrency_url)s\">visita iste ligamine.</a>"
 
 #: donate/templates/payment/card_master.html:4
 msgid "Your information"
