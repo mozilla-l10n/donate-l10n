@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-12-16 08:18+0000\n"
-"PO-Revision-Date: 2021-12-18 07:39+0000\n"
+"PO-Revision-Date: 2021-12-18 07:43+0000\n"
 "Last-Translator: Vlado Valaštiak <valastiak@mozilla.sk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sk\n"
@@ -532,11 +532,16 @@ msgid ""
 "IRS has indicated that it will treat cryptocurrencies as property for U.S. tax purposes (see IRS Notice 2014-21), cryptocurrency donations may be subject to special rules as to the amount of your "
 "charitable deduction, the documentation that must be provided to claim a tax deduction, or other matters."
 msgstr ""
+"Mozilla Foundation je kalifornská nezisková organizácia oslobodená v Spojených štátoch od platenia dane podľa IRC 501(c)(3) a verejne prospešná organizácia uznaná podľa IRC 170(b)(1)(A) a 509(a)(1)."
+" Príspevky v kryptomenách sa pre účely daňových zákonov USA považujú za príspevok na dobročinné účely. Pretože kryptomena je pre daňové účely v USA považovaná za majetok (IRS Notice 2014-21), môžu "
+"sa na tieto príspevky vzťahovať špeciálne pravidlá týkajúce sa výšky odpočítateľnej položky, dokumentov, ktoré musia byť poskytnuté za účelom odpočtu z dane alebo ďalších záležitostí."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:140
 #, python-format
 msgid "Learn more about cryptocurrency donations <a href=\"%(cryptocurrency_wiki)s\">here</a>. To donate using cryptocurrency, <a href=\"%(cryptocurrency_url)s\">please visit this link.</a>"
 msgstr ""
+"Ďalšie informácie o príspevkoch vo forme kryptomien nájdete <a href=\"%(cryptocurrency_wiki)s\">tu</a>. Ak chcete prispieť v kryptomenách, <a href=\"%(cryptocurrency_url)s\">navštívte túto "
+"stránku</a>."
 
 #: donate/templates/payment/card_master.html:4
 msgid "Your information"
