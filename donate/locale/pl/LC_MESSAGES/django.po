@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-12-16 08:18+0000\n"
-"PO-Revision-Date: 2021-12-27 12:01+0000\n"
+"PO-Revision-Date: 2021-12-27 12:05+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -532,11 +532,16 @@ msgid ""
 "IRS has indicated that it will treat cryptocurrencies as property for U.S. tax purposes (see IRS Notice 2014-21), cryptocurrency donations may be subject to special rules as to the amount of your "
 "charitable deduction, the documentation that must be provided to claim a tax deduction, or other matters."
 msgstr ""
+"Mozilla Foundation to spółka non-profit z siedzibą w Kalifornii, zwolniona z federalnego podatku dochodowego Stanów Zjednoczonych według sekcji 501(c)(3) kodeksu podatkowego oraz publiczna "
+"organizacja charytatywna sklasyfikowana według sekcji 170(b)(1)(A) i 509(a)(1) kodeksu podatkowego. Datki w formie kryptowalut otrzymywane przez Mozillę są traktowane jako wpłaty charytatywne według"
+" federalnego prawa podatkowego Stanów Zjednoczonych, do użytku według jej uznania w jej celach charytatywnych. Ponieważ Urząd skarbowy oświadczył, że w kwestiach podatkowych Stanów Zjednoczonych "
+"będzie on traktował kryptowaluty jako mienie (patrz: Zawiadomienie 2014-21 Urzędu skarbowego), datki w formie kryptowalut mogą być przedmiotem specjalnych zasad w zakresie kwoty odliczonej od "
+"podatku, dokumentów wymaganych do odliczenia i innych kwestii."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:140
 #, python-format
 msgid "Learn more about cryptocurrency donations <a href=\"%(cryptocurrency_wiki)s\">here</a>. To donate using cryptocurrency, <a href=\"%(cryptocurrency_url)s\">please visit this link.</a>"
-msgstr ""
+msgstr "<a href=\"%(cryptocurrency_wiki)s\">Ta strona</a> zawiera więcej informacji o datkach w kryptowalutach. <a href=\"%(cryptocurrency_url)s\">Na tej stronie</a> można wykonać taki datek."
 
 #: donate/templates/payment/card_master.html:4
 msgid "Your information"
