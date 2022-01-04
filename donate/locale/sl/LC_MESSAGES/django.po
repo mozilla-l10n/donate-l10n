@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-12-16 08:18+0000\n"
-"PO-Revision-Date: 2022-01-04 09:15+0000\n"
+"PO-Revision-Date: 2022-01-04 09:16+0000\n"
 "Last-Translator: Gašper Deržanič <gapson@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
@@ -813,7 +813,7 @@ msgstr ""
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:71
 msgid "Please also note that MZLA/Thunderbird can <strong>only</strong> accept checks in U.S. dollars drawn on a U.S. bank."
-msgstr ""
+msgstr "Upoštevajte tudi, da lahko MZLA/Thunderbird sprejema <strong>samo</strong> čeke v ameriških dolarjih, izplačane v ameriški banki."
 
 #: donate/thunderbird/templates/payment/card.html:6
 msgid "Thank you in advance for your gift."
