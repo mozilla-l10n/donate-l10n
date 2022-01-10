@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-16 08:18+0000\n"
+"POT-Creation-Date: 2022-01-10 16:11+0000\n"
 "PO-Revision-Date: 2021-12-07 08:37+0000\n"
 "Last-Translator: Hyeonseok Shin <hyeonseok@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -191,13 +191,19 @@ msgstr "매달 기부하실 경우 오늘 기부하신 날짜와 동일하게 �
 msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a> | <a href=\"%(cryptocurrency_url)s\">BitPay (cryptocurrencies)</a>"
 msgstr ""
 
-#: donate/templates/fragments/donate_form_disclaimer_master.html:23
+#: donate/templates/fragments/donate_form_disclaimer_master.html:24
+#: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:7
+#, python-format
+msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a>"
+msgstr "다른 방법으로 기부하기: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">수표</a>"
+
+#: donate/templates/fragments/donate_form_disclaimer_master.html:34
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:21
 #, python-format
 msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"%(help_url)s\">Contact us</a>."
 msgstr "기부하는데 문제가 있나요? <a href=\"%(faq_url)s\">FAQ</a>에서 자주 묻는 질문에 대한 답을 찾으세요. 문제가 해결되지 않는다면 <a href=\"%(help_url)s\">문의하기</a>링크로 이동해 주세요."
 
-#: donate/templates/fragments/donate_form_disclaimer_master.html:30
+#: donate/templates/fragments/donate_form_disclaimer_master.html:41
 msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in San Francisco, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
 msgstr "후원금은 캘리포니아 샌프란시스코에 본사를 둔 501(c)(3) 조직인 Mozilla Foundation으로 모아져서 자선활동의 목적을 가지고 자유 재량에 의해서 사용됩니다. 미국에서 법률이 허용한 최대한으로 세금 공제가 됩니다."
 
@@ -528,15 +534,15 @@ msgstr "통화"
 msgid "Select your currency to make a secure online donation:"
 msgstr "안전한 온라인 후원에 사용할 통화를 선택해 주세요:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:133
+#: donate/templates/pages/core/ways_to_give_page_master.html:135
 msgid "Cryptocurrencies"
 msgstr ""
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:135
+#: donate/templates/pages/core/ways_to_give_page_master.html:137
 msgid "The Mozilla Foundation is a California non-profit corporation exempt from United States federal income taxation under IRC 501(c)(3) and a public charity classified under IRC sections 170(b)(1)(A) and 509(a)(1). Cryptocurrency donations Mozilla receives are considered charitable contributions under U.S. federal tax laws, to be used in its discretion for its charitable purposes. Because the IRS has indicated that it will treat cryptocurrencies as property for U.S. tax purposes (see IRS Notice 2014-21), cryptocurrency donations may be subject to special rules as to the amount of your charitable deduction, the documentation that must be provided to claim a tax deduction, or other matters."
 msgstr ""
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:140
+#: donate/templates/pages/core/ways_to_give_page_master.html:142
 #, python-format
 msgid "Learn more about cryptocurrency donations <a href=\"%(cryptocurrency_wiki)s\">here</a>. To donate using cryptocurrency, <a href=\"%(cryptocurrency_url)s\">please visit this link.</a>"
 msgstr ""
@@ -757,11 +763,6 @@ msgstr "뒤로"
 msgctxt "Page title"
 msgid "Give to Thunderbird"
 msgstr "Thunderbird에 기부하기"
-
-#: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:7
-#, python-format
-msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a>"
-msgstr "다른 방법으로 기부하기: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">수표</a>"
 
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:12
 #, python-format
