@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-10 16:11+0000\n"
+"POT-Creation-Date: 2022-01-11 17:39+0000\n"
 "PO-Revision-Date: 2021-12-16 12:05+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -186,24 +186,19 @@ msgstr "Η Mozilla σέβεται το απόρρητό σας· παρακαλ�
 msgid "Monthly donations are charged each month on the same day that you donate today, and will continue until you cancel. To cancel, email us at <a href=\"mailto:%(email)s\">%(email)s</a>."
 msgstr "Οι μηνιαίες δωρεές χρεώνονται κάθε μήνα την ίδια μέρα που δωρίσατε και σήμερα και θα συνεχίσουν μέχρι να τις ακυρώσετε. Για ακύρωση, στείλτε μας ένα email στο <a href=\"mailto:%(email)s\">%(email)s</a>."
 
-#: donate/templates/fragments/donate_form_disclaimer_master.html:17
-#, python-format
-msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a> | <a href=\"%(cryptocurrency_url)s\">BitPay (cryptocurrencies)</a>"
-msgstr "Άλλοι τρόποι δωρεάς: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Επιταγή</a> | <a href=\"%(cryptocurrency_url)s\">BitPay (κρυπτονομίσματα)</a>"
-
-#: donate/templates/fragments/donate_form_disclaimer_master.html:24
+#: donate/templates/fragments/donate_form_disclaimer_master.html:28
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:7
 #, python-format
 msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a>"
 msgstr "Άλλοι τρόποι δωρεάς: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a>|<a href=\"%(check_url)s\">Επιταγή</a>"
 
-#: donate/templates/fragments/donate_form_disclaimer_master.html:34
+#: donate/templates/fragments/donate_form_disclaimer_master.html:38
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:21
 #, python-format
 msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"%(help_url)s\">Contact us</a>."
 msgstr "Προβλήματα με τη δωρεά; Επισκεφθείτε τις <a href=\"%(faq_url)s\">συχνές ερωτήσεις</a> για απαντήσεις στις πιο συνηθισμένες ερωτήσεις. Έχετε ακόμα προβλήματα; <a href=\"%(help_url)s\">Επικοινωνήστε μαζί μας</a>."
 
-#: donate/templates/fragments/donate_form_disclaimer_master.html:41
+#: donate/templates/fragments/donate_form_disclaimer_master.html:45
 msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in San Francisco, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
 msgstr "Οι συνεισφορές πηγαίνουν στο Ίδρυμα Mozilla, έναν οργανισμό 501(c)(3) με έδρα το Σαν Φρανσίσκο της Καλιφόρνια, ώστε να χρησιμοποιηθούν σύμφωνα με τη διακριτική ευχέρειά του για τους φιλανθρωπικούς σκοπούς του. Είναι εκπίπτουσες φορολογίας στις ΗΠΑ στο μέγιστο, επιτρεπτό από τη νομοθεσία, βαθμό."
 
@@ -533,19 +528,6 @@ msgstr "Νομίσματα"
 #: donate/templates/pages/core/ways_to_give_page_master.html:123
 msgid "Select your currency to make a secure online donation:"
 msgstr "Επιλέξτε το νόμισμά σας για να κάνετε μια ασφαλή δωρεά μέσω διαδικτύου:"
-
-#: donate/templates/pages/core/ways_to_give_page_master.html:135
-msgid "Cryptocurrencies"
-msgstr "Κρυπτονομίσματα"
-
-#: donate/templates/pages/core/ways_to_give_page_master.html:137
-msgid "The Mozilla Foundation is a California non-profit corporation exempt from United States federal income taxation under IRC 501(c)(3) and a public charity classified under IRC sections 170(b)(1)(A) and 509(a)(1). Cryptocurrency donations Mozilla receives are considered charitable contributions under U.S. federal tax laws, to be used in its discretion for its charitable purposes. Because the IRS has indicated that it will treat cryptocurrencies as property for U.S. tax purposes (see IRS Notice 2014-21), cryptocurrency donations may be subject to special rules as to the amount of your charitable deduction, the documentation that must be provided to claim a tax deduction, or other matters."
-msgstr "Το Mozilla Foundation είναι μια μη κερδοσκοπική εταιρεία της Καλιφόρνια εξαιρούμενη από την ομοσπονδιακή φορολόγηση εισοδήματος των Ηνωμένων Πολιτειών υπό το IRC 501(c)(3) και μια δημόσια φιλανθρωπική οργάνωση υπό τις ενότητες IRC 170(b)(1)(A) και 509(a)(1). Οι δωρεές κρυπτονομισμάτων που λαμβάνει η Mozilla θεωρούνται ως φιλανθρωπικές συνεισφορές υπό τους ομοσπονδιακούς νόμους φορολόγησης των ΗΠΑ και θα χρησιμοποιηθούν στη διακριτική ευχέρειά της για τους φιλανθρωπικούς της σκοπούς. Επειδή το IRS έχει υποδείξει ότι θα μεταχειριστεί τα κρυπτονομίσματα ως ιδιοκτησία για τους φορολογικούς σκοπούς των ΗΠΑ (δείτε τη σημείωση 2014-21 του IRS), οι δωρεές κρυπτονομισμάτων ενδέχεται να υπόκεινται σε ειδικούς κανόνες όσον αφορά το ποσό της δωρεάς σας, την τεκμηρίωση που πρέπει να παρατεθεί για να δικαιούστε φοροαπαλλαγή ή άλλα ζητήματα."
-
-#: donate/templates/pages/core/ways_to_give_page_master.html:142
-#, python-format
-msgid "Learn more about cryptocurrency donations <a href=\"%(cryptocurrency_wiki)s\">here</a>. To donate using cryptocurrency, <a href=\"%(cryptocurrency_url)s\">please visit this link.</a>"
-msgstr "Μάθετε περισσότερα σχετικά με τις δωρεές κρυπτονομισμάτων <a href=\"%(cryptocurrency_wiki)s\">εδώ</a>. Για δωρεά με κρυπτονομίσματα, <a href=\"%(cryptocurrency_url)s\">παρακαλούμε επισκεφθείτε αυτόν τον σύνδεσμο.</a>"
 
 #: donate/templates/payment/card_master.html:4
 msgid "Your information"
@@ -878,6 +860,18 @@ msgstr "Σήμερα, έκανα μια δωρεά στο @mozthunderbird. Υπ�
 msgctxt "Email subject line"
 msgid "I donated to Thunderbird today"
 msgstr "Έκανα μια δωρεά στο Thunderbird σήμερα"
+
+#~ msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a> | <a href=\"%(cryptocurrency_url)s\">BitPay (cryptocurrencies)</a>"
+#~ msgstr "Άλλοι τρόποι δωρεάς: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Επιταγή</a> | <a href=\"%(cryptocurrency_url)s\">BitPay (κρυπτονομίσματα)</a>"
+
+#~ msgid "Cryptocurrencies"
+#~ msgstr "Κρυπτονομίσματα"
+
+#~ msgid "The Mozilla Foundation is a California non-profit corporation exempt from United States federal income taxation under IRC 501(c)(3) and a public charity classified under IRC sections 170(b)(1)(A) and 509(a)(1). Cryptocurrency donations Mozilla receives are considered charitable contributions under U.S. federal tax laws, to be used in its discretion for its charitable purposes. Because the IRS has indicated that it will treat cryptocurrencies as property for U.S. tax purposes (see IRS Notice 2014-21), cryptocurrency donations may be subject to special rules as to the amount of your charitable deduction, the documentation that must be provided to claim a tax deduction, or other matters."
+#~ msgstr "Το Mozilla Foundation είναι μια μη κερδοσκοπική εταιρεία της Καλιφόρνια εξαιρούμενη από την ομοσπονδιακή φορολόγηση εισοδήματος των Ηνωμένων Πολιτειών υπό το IRC 501(c)(3) και μια δημόσια φιλανθρωπική οργάνωση υπό τις ενότητες IRC 170(b)(1)(A) και 509(a)(1). Οι δωρεές κρυπτονομισμάτων που λαμβάνει η Mozilla θεωρούνται ως φιλανθρωπικές συνεισφορές υπό τους ομοσπονδιακούς νόμους φορολόγησης των ΗΠΑ και θα χρησιμοποιηθούν στη διακριτική ευχέρειά της για τους φιλανθρωπικούς της σκοπούς. Επειδή το IRS έχει υποδείξει ότι θα μεταχειριστεί τα κρυπτονομίσματα ως ιδιοκτησία για τους φορολογικούς σκοπούς των ΗΠΑ (δείτε τη σημείωση 2014-21 του IRS), οι δωρεές κρυπτονομισμάτων ενδέχεται να υπόκεινται σε ειδικούς κανόνες όσον αφορά το ποσό της δωρεάς σας, την τεκμηρίωση που πρέπει να παρατεθεί για να δικαιούστε φοροαπαλλαγή ή άλλα ζητήματα."
+
+#~ msgid "Learn more about cryptocurrency donations <a href=\"%(cryptocurrency_wiki)s\">here</a>. To donate using cryptocurrency, <a href=\"%(cryptocurrency_url)s\">please visit this link.</a>"
+#~ msgstr "Μάθετε περισσότερα σχετικά με τις δωρεές κρυπτονομισμάτων <a href=\"%(cryptocurrency_wiki)s\">εδώ</a>. Για δωρεά με κρυπτονομίσματα, <a href=\"%(cryptocurrency_url)s\">παρακαλούμε επισκεφθείτε αυτόν τον σύνδεσμο.</a>"
 
 #~ msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a> | <a href=\"%(bitcoin_url)s\">Bitcoin</a>"
 #~ msgstr "Άλλοι τρόποι δωρεάς: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Επιταγή</a> | <a href=\"%(bitcoin_url)s\">Bitcoin</a>"

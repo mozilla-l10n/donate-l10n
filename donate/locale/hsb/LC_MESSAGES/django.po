@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-10 16:11+0000\n"
+"POT-Creation-Date: 2022-01-11 17:39+0000\n"
 "PO-Revision-Date: 2021-12-16 14:19+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -186,24 +186,19 @@ msgstr "Mozilla je so wašej priwatnosći zawjazał; prošu čitajć naše <a hr
 msgid "Monthly donations are charged each month on the same day that you donate today, and will continue until you cancel. To cancel, email us at <a href=\"mailto:%(email)s\">%(email)s</a>."
 msgstr "Měsačne dary so kóždy měsac na samsnym dnju zběraja, na kotrymž dźensa dariće, a pokročuja so tak dołho, doniž je njepřetorhnjeće. Zo byšće přetorhnył, sćelće nam mejlku na <a href=\"mailto:%(email)s\">%(email)s</a>."
 
-#: donate/templates/fragments/donate_form_disclaimer_master.html:17
-#, python-format
-msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a> | <a href=\"%(cryptocurrency_url)s\">BitPay (cryptocurrencies)</a>"
-msgstr "Dalše móžnosće darjenja: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Šek</a> | <a href=\"%(cryptocurrency_url)s\">BitPay (kryptoměny)</a>"
-
-#: donate/templates/fragments/donate_form_disclaimer_master.html:24
+#: donate/templates/fragments/donate_form_disclaimer_master.html:28
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:7
 #, python-format
 msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a>"
 msgstr "Dalše móžnosće darjenja: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Šek</a>"
 
-#: donate/templates/fragments/donate_form_disclaimer_master.html:34
+#: donate/templates/fragments/donate_form_disclaimer_master.html:38
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:21
 #, python-format
 msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"%(help_url)s\">Contact us</a>."
 msgstr "Maće problemy při darjenju? Wopytajće naše <a href=\"%(faq_url)s\">HSP</a> za wotmołwy na najhusćiše prašenja. Maće hišće problemy? <a href=\"%(help_url)s\">Stajće so z nami do zwiska</a>."
 
-#: donate/templates/fragments/donate_form_disclaimer_master.html:41
+#: donate/templates/fragments/donate_form_disclaimer_master.html:45
 msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in San Francisco, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
 msgstr "Dary su za załožbu Mozilla Foundation, organizaciju 501(c)(3) ze sydłom w San Francisco, Kaliforniskej, a su myslene za zaměry, kotrež su powšitkownosći wužitne. Hodźa so w Zjednoćenych statach w najwyšej měrje wot dawka wotsadźić, kotruž zakoń dowoluje."
 
@@ -533,19 +528,6 @@ msgstr "Měny"
 #: donate/templates/pages/core/ways_to_give_page_master.html:123
 msgid "Select your currency to make a secure online donation:"
 msgstr "Wubjerće swoju měnu za wěsty dar online:"
-
-#: donate/templates/pages/core/ways_to_give_page_master.html:135
-msgid "Cryptocurrencies"
-msgstr "Kryptoměny"
-
-#: donate/templates/pages/core/ways_to_give_page_master.html:137
-msgid "The Mozilla Foundation is a California non-profit corporation exempt from United States federal income taxation under IRC 501(c)(3) and a public charity classified under IRC sections 170(b)(1)(A) and 509(a)(1). Cryptocurrency donations Mozilla receives are considered charitable contributions under U.S. federal tax laws, to be used in its discretion for its charitable purposes. Because the IRS has indicated that it will treat cryptocurrencies as property for U.S. tax purposes (see IRS Notice 2014-21), cryptocurrency donations may be subject to special rules as to the amount of your charitable deduction, the documentation that must be provided to claim a tax deduction, or other matters."
-msgstr "Załožba Mozilla Foundation je powšitkownosći wužitna organizacija w Kaliforniskej, kotraž je po IRC 501(c)(3) wot dochodoweho dawka USA wuswobodźena a nimo toho powšitkownosći wužitne towarstwo zarjadowane pod wotrězkomaj 170(b)(1)(A) a 509(a)(1). Dary w kryptoměnach na Mozilla wobhladuja po zwjazkowym dawkowym prawje USA jako dobroćelske přidźělenki, kotrež dyrbja so po přeću přijimarja za dobroćelske zaměry wužiwać. Dokelž IRS je wobjasnił, zo wobhladuje kryptoměny jako swójstwo za dawkowy zaměry USA (hlejće IRS notice 2014-21), podleža dary w kryptoměnach wosebitym prawidłam nastupajo sumu wotćahujomnu wot dawka wašeho dara, podłožkam trěbnym za to a druhim naležnosćam."
-
-#: donate/templates/pages/core/ways_to_give_page_master.html:142
-#, python-format
-msgid "Learn more about cryptocurrency donations <a href=\"%(cryptocurrency_wiki)s\">here</a>. To donate using cryptocurrency, <a href=\"%(cryptocurrency_url)s\">please visit this link.</a>"
-msgstr "Zhońće <a href=\"%(cryptocurrency_wiki)s\">tu</a> wjace wo darach w kryptoměnach. Zo byšće z pomocu kryptoměny darił, <a href=\"%(cryptocurrency_url)s\">slědujće prošu tutomu wotkazej.</a>"
 
 #: donate/templates/payment/card_master.html:4
 msgid "Your information"
@@ -878,6 +860,18 @@ msgstr "Sym dźensa @mozthunderbird darił, za swobodu #dochadpósta. Podpěraj�
 msgctxt "Email subject line"
 msgid "I donated to Thunderbird today"
 msgstr "Sym dźensa Thunderbird darił"
+
+#~ msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a> | <a href=\"%(cryptocurrency_url)s\">BitPay (cryptocurrencies)</a>"
+#~ msgstr "Dalše móžnosće darjenja: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Šek</a> | <a href=\"%(cryptocurrency_url)s\">BitPay (kryptoměny)</a>"
+
+#~ msgid "Cryptocurrencies"
+#~ msgstr "Kryptoměny"
+
+#~ msgid "The Mozilla Foundation is a California non-profit corporation exempt from United States federal income taxation under IRC 501(c)(3) and a public charity classified under IRC sections 170(b)(1)(A) and 509(a)(1). Cryptocurrency donations Mozilla receives are considered charitable contributions under U.S. federal tax laws, to be used in its discretion for its charitable purposes. Because the IRS has indicated that it will treat cryptocurrencies as property for U.S. tax purposes (see IRS Notice 2014-21), cryptocurrency donations may be subject to special rules as to the amount of your charitable deduction, the documentation that must be provided to claim a tax deduction, or other matters."
+#~ msgstr "Załožba Mozilla Foundation je powšitkownosći wužitna organizacija w Kaliforniskej, kotraž je po IRC 501(c)(3) wot dochodoweho dawka USA wuswobodźena a nimo toho powšitkownosći wužitne towarstwo zarjadowane pod wotrězkomaj 170(b)(1)(A) a 509(a)(1). Dary w kryptoměnach na Mozilla wobhladuja po zwjazkowym dawkowym prawje USA jako dobroćelske přidźělenki, kotrež dyrbja so po přeću přijimarja za dobroćelske zaměry wužiwać. Dokelž IRS je wobjasnił, zo wobhladuje kryptoměny jako swójstwo za dawkowy zaměry USA (hlejće IRS notice 2014-21), podleža dary w kryptoměnach wosebitym prawidłam nastupajo sumu wotćahujomnu wot dawka wašeho dara, podłožkam trěbnym za to a druhim naležnosćam."
+
+#~ msgid "Learn more about cryptocurrency donations <a href=\"%(cryptocurrency_wiki)s\">here</a>. To donate using cryptocurrency, <a href=\"%(cryptocurrency_url)s\">please visit this link.</a>"
+#~ msgstr "Zhońće <a href=\"%(cryptocurrency_wiki)s\">tu</a> wjace wo darach w kryptoměnach. Zo byšće z pomocu kryptoměny darił, <a href=\"%(cryptocurrency_url)s\">slědujće prošu tutomu wotkazej.</a>"
 
 #~ msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a> | <a href=\"%(bitcoin_url)s\">Bitcoin</a>"
 #~ msgstr "Dalše móžnosće darjenja: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Šek</a> | <a href=\"%(bitcoin_url)s\">Bitcoin</a>"

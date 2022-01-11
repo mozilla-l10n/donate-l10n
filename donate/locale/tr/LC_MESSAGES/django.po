@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-10 16:11+0000\n"
+"POT-Creation-Date: 2022-01-11 17:39+0000\n"
 "PO-Revision-Date: 2022-01-09 18:27+0000\n"
 "Last-Translator: Selim Şumlu <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -186,24 +186,19 @@ msgstr "Mozilla için gizliliğiniz önemlidir. Lütfen <a href=\"%(privacy_url)
 msgid "Monthly donations are charged each month on the same day that you donate today, and will continue until you cancel. To cancel, email us at <a href=\"mailto:%(email)s\">%(email)s</a>."
 msgstr "Aylık bağışlar her ayın aynı günü (bugün) çekilir ve iptal edilinceye kadar devam eder. İptal etmek isterseniz <a href=\"mailto:%(email)s\">%(email)s</a> adresine yazabilirsiniz."
 
-#: donate/templates/fragments/donate_form_disclaimer_master.html:17
-#, python-format
-msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a> | <a href=\"%(cryptocurrency_url)s\">BitPay (cryptocurrencies)</a>"
-msgstr ""
-
-#: donate/templates/fragments/donate_form_disclaimer_master.html:24
+#: donate/templates/fragments/donate_form_disclaimer_master.html:28
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:7
 #, python-format
 msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a>"
 msgstr "Diğer bağış yöntemleri: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Çek</a>"
 
-#: donate/templates/fragments/donate_form_disclaimer_master.html:34
+#: donate/templates/fragments/donate_form_disclaimer_master.html:38
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:21
 #, python-format
 msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"%(help_url)s\">Contact us</a>."
 msgstr "Bağış yapmayla ilgili sorularınız mı var? Sık sorulan sorular için <a href=\"%(faq_url)s\">SSS</a>'ye bakabilirsiniz. Başka bir sorun mu yaşıyorsunuz? <a href=\"%(help_url)s\">Bizimle iletişime geçin</a>."
 
-#: donate/templates/fragments/donate_form_disclaimer_master.html:41
+#: donate/templates/fragments/donate_form_disclaimer_master.html:45
 msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in San Francisco, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
 msgstr "Bağışlarınız, ABD’nin California eyaletindeki San Francisco merkezli bir 501(c)(3) kuruluşu olan Mozilla Vakfı’na gider. Mozilla Foundation bu bağışları uygun gördüğü şekilde, hayır amacıyla kullanır. Yasalar tarafından izin verilen en geniş ölçüde ABD’de vergiden düşülebilirler."
 
@@ -533,19 +528,6 @@ msgstr "Para birimleri"
 #: donate/templates/pages/core/ways_to_give_page_master.html:123
 msgid "Select your currency to make a secure online donation:"
 msgstr "Güvenli bir şekilde çevrimiçi bağış yapmak için para biriminizi seçin:"
-
-#: donate/templates/pages/core/ways_to_give_page_master.html:135
-msgid "Cryptocurrencies"
-msgstr "Kripto paralar"
-
-#: donate/templates/pages/core/ways_to_give_page_master.html:137
-msgid "The Mozilla Foundation is a California non-profit corporation exempt from United States federal income taxation under IRC 501(c)(3) and a public charity classified under IRC sections 170(b)(1)(A) and 509(a)(1). Cryptocurrency donations Mozilla receives are considered charitable contributions under U.S. federal tax laws, to be used in its discretion for its charitable purposes. Because the IRS has indicated that it will treat cryptocurrencies as property for U.S. tax purposes (see IRS Notice 2014-21), cryptocurrency donations may be subject to special rules as to the amount of your charitable deduction, the documentation that must be provided to claim a tax deduction, or other matters."
-msgstr ""
-
-#: donate/templates/pages/core/ways_to_give_page_master.html:142
-#, python-format
-msgid "Learn more about cryptocurrency donations <a href=\"%(cryptocurrency_wiki)s\">here</a>. To donate using cryptocurrency, <a href=\"%(cryptocurrency_url)s\">please visit this link.</a>"
-msgstr ""
 
 #: donate/templates/payment/card_master.html:4
 msgid "Your information"
@@ -878,6 +860,9 @@ msgstr "Bugün @mozthunderbird'e bağış yaptım, gelen kutumu özgür bırakt�
 msgctxt "Email subject line"
 msgid "I donated to Thunderbird today"
 msgstr "Bugün Thunderbird'e bağış yaptım"
+
+#~ msgid "Cryptocurrencies"
+#~ msgstr "Kripto paralar"
 
 #~ msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a> | <a href=\"%(bitcoin_url)s\">Bitcoin</a>"
 #~ msgstr "Diğer bağış yöntemleri: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Çek</a> | <a href=\"%(bitcoin_url)s\">Bitcoin</a>"

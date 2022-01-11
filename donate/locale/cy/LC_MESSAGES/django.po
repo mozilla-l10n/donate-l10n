@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-10 16:11+0000\n"
+"POT-Creation-Date: 2022-01-11 17:39+0000\n"
 "PO-Revision-Date: 2021-12-16 13:43+0000\n"
 "Last-Translator: Rhoslyn Prys <rprys@posteo.net>\n"
 "Language-Team: \n"
@@ -185,24 +185,19 @@ msgstr "Mae Mozilla yn ymrwymedig i'ch preifatrwydd; darllenwch ein polisi preif
 msgid "Monthly donations are charged each month on the same day that you donate today, and will continue until you cancel. To cancel, email us at <a href=\"mailto:%(email)s\">%(email)s</a>."
 msgstr "Mae rhoddion misol yn cael eu codi bob mis ar yr un diwrnod ag y byddwch yn ei roi heddiw, a byddant yn parhau nes i chi eu hatal. I'w hatal, anfonwch e-bost atom at <a href=\"mailto:%(email)s\">%(email)s</a>"
 
-#: donate/templates/fragments/donate_form_disclaimer_master.html:17
-#, python-format
-msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a> | <a href=\"%(cryptocurrency_url)s\">BitPay (cryptocurrencies)</a>"
-msgstr "Ffyrdd eraill o roi: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Siec</a> | <a href=\"%(cryptocurrency_url)s\">BitPay (cryptoarian)</a>"
-
-#: donate/templates/fragments/donate_form_disclaimer_master.html:24
+#: donate/templates/fragments/donate_form_disclaimer_master.html:28
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:7
 #, python-format
 msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a>"
 msgstr "Ffyrdd eraill o roi: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Sieciau</a>"
 
-#: donate/templates/fragments/donate_form_disclaimer_master.html:34
+#: donate/templates/fragments/donate_form_disclaimer_master.html:38
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:21
 #, python-format
 msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"%(help_url)s\">Contact us</a>."
 msgstr "Problemau wrth roi? Ewch i'n <a href=\"%(faq_url)s\">Cwestiynau Cyffredin</a> i gael atebion i'r cwestiynau mwyaf cyffredin. Yn dal i gael problemau? <a href=\"%(help_url)s\">Cysylltwch â ni</a>."
 
-#: donate/templates/fragments/donate_form_disclaimer_master.html:41
+#: donate/templates/fragments/donate_form_disclaimer_master.html:45
 msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in San Francisco, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
 msgstr "Mae cyfraniadau'n mynd i'r Mozilla Foundation, sefydliad 501(c)(3) wedi'i leoli yn San Francisco, California, i'w ddefnyddio yn ôl ei ddisgresiwn at ei ddibenion elusennol. Maent yn ddidynadwy o ran treth yn yr Unol Daleithiau i'r graddau eithaf y mae'n cael ei ganiatáu gan y gyfraith."
 
@@ -532,19 +527,6 @@ msgstr "Arian cyfred"
 #: donate/templates/pages/core/ways_to_give_page_master.html:123
 msgid "Select your currency to make a secure online donation:"
 msgstr "Dewiswch eich arian cyfred i wneud rhoddion diogel ar-lein:"
-
-#: donate/templates/pages/core/ways_to_give_page_master.html:135
-msgid "Cryptocurrencies"
-msgstr "Cryptoarian"
-
-#: donate/templates/pages/core/ways_to_give_page_master.html:137
-msgid "The Mozilla Foundation is a California non-profit corporation exempt from United States federal income taxation under IRC 501(c)(3) and a public charity classified under IRC sections 170(b)(1)(A) and 509(a)(1). Cryptocurrency donations Mozilla receives are considered charitable contributions under U.S. federal tax laws, to be used in its discretion for its charitable purposes. Because the IRS has indicated that it will treat cryptocurrencies as property for U.S. tax purposes (see IRS Notice 2014-21), cryptocurrency donations may be subject to special rules as to the amount of your charitable deduction, the documentation that must be provided to claim a tax deduction, or other matters."
-msgstr "Mae'r Mozilla Foundation  yn gorfforaeth ddim-er-elw yng Nghalifornia sydd wedi'i heithrio rhag treth incwm ffederal yr Unol Daleithiau o dan IRC 501(c)(3) ac yn elusen gyhoeddus sy'n cael ei ddosbarthu o dan adrannau IRC 170(b)(1)(A) a 509(a)(1). Mae rhoddion bitcoin y mae Mozilla yn eu derbyn yn cael eu hystyried yn gyfraniadau elusennol o dan gyfreithiau treth ffederal yr Unol Daleithiau, i'w defnyddio yn ôl ei ddisgresiwn at ei ddibenion elusennol. Oherwydd bod yr IRS wedi nodi y bydd yn trin bitcoin fel eiddo at ddibenion treth yr Unol Daleithiau (gweler IRS Notice 2014-21), gall rhoddion o bitcoin fod yn ddarostyngedig i reolau arbennig ynghylch swm eich didyniad elusennol, y ddogfennaeth y mae'n rhaid ei darparu i hawlio didyniad treth, neu faterion eraill."
-
-#: donate/templates/pages/core/ways_to_give_page_master.html:142
-#, python-format
-msgid "Learn more about cryptocurrency donations <a href=\"%(cryptocurrency_wiki)s\">here</a>. To donate using cryptocurrency, <a href=\"%(cryptocurrency_url)s\">please visit this link.</a>"
-msgstr "Darllenwch ragor am roddion cryptoarian<a href=\"%(cryptocurrency_wiki)s\">yma</a>. I roi drwy gryptoarian, <a href=\"%(cryptocurrency_url)s\">ewch i'r ddolen hon.</a>"
 
 #: donate/templates/payment/card_master.html:4
 msgid "Your information"
@@ -877,6 +859,18 @@ msgstr "Rwyf wedi rhoi i @mozthunderbird heddiw i #freetheinbox. Ymunwch â mi i
 msgctxt "Email subject line"
 msgid "I donated to Thunderbird today"
 msgstr "Rwyf wedi rhoi i Thunderbird heddiw"
+
+#~ msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a> | <a href=\"%(cryptocurrency_url)s\">BitPay (cryptocurrencies)</a>"
+#~ msgstr "Ffyrdd eraill o roi: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Siec</a> | <a href=\"%(cryptocurrency_url)s\">BitPay (cryptoarian)</a>"
+
+#~ msgid "Cryptocurrencies"
+#~ msgstr "Cryptoarian"
+
+#~ msgid "The Mozilla Foundation is a California non-profit corporation exempt from United States federal income taxation under IRC 501(c)(3) and a public charity classified under IRC sections 170(b)(1)(A) and 509(a)(1). Cryptocurrency donations Mozilla receives are considered charitable contributions under U.S. federal tax laws, to be used in its discretion for its charitable purposes. Because the IRS has indicated that it will treat cryptocurrencies as property for U.S. tax purposes (see IRS Notice 2014-21), cryptocurrency donations may be subject to special rules as to the amount of your charitable deduction, the documentation that must be provided to claim a tax deduction, or other matters."
+#~ msgstr "Mae'r Mozilla Foundation  yn gorfforaeth ddim-er-elw yng Nghalifornia sydd wedi'i heithrio rhag treth incwm ffederal yr Unol Daleithiau o dan IRC 501(c)(3) ac yn elusen gyhoeddus sy'n cael ei ddosbarthu o dan adrannau IRC 170(b)(1)(A) a 509(a)(1). Mae rhoddion bitcoin y mae Mozilla yn eu derbyn yn cael eu hystyried yn gyfraniadau elusennol o dan gyfreithiau treth ffederal yr Unol Daleithiau, i'w defnyddio yn ôl ei ddisgresiwn at ei ddibenion elusennol. Oherwydd bod yr IRS wedi nodi y bydd yn trin bitcoin fel eiddo at ddibenion treth yr Unol Daleithiau (gweler IRS Notice 2014-21), gall rhoddion o bitcoin fod yn ddarostyngedig i reolau arbennig ynghylch swm eich didyniad elusennol, y ddogfennaeth y mae'n rhaid ei darparu i hawlio didyniad treth, neu faterion eraill."
+
+#~ msgid "Learn more about cryptocurrency donations <a href=\"%(cryptocurrency_wiki)s\">here</a>. To donate using cryptocurrency, <a href=\"%(cryptocurrency_url)s\">please visit this link.</a>"
+#~ msgstr "Darllenwch ragor am roddion cryptoarian<a href=\"%(cryptocurrency_wiki)s\">yma</a>. I roi drwy gryptoarian, <a href=\"%(cryptocurrency_url)s\">ewch i'r ddolen hon.</a>"
 
 #~ msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a> | <a href=\"%(bitcoin_url)s\">Bitcoin</a>"
 #~ msgstr "Ffyrdd eraill o roi: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Sieciau</a> | <a href=\"%(bitcoin_url)s\">Bitcoin</a>"

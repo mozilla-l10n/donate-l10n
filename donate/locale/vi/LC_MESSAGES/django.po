@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-10 16:11+0000\n"
+"POT-Creation-Date: 2022-01-11 17:39+0000\n"
 "PO-Revision-Date: 2021-12-16 12:39+0000\n"
 "Last-Translator: Quế Tùng <best.cloney.1301@gmail.com>\n"
 "Language-Team: \n"
@@ -185,24 +185,19 @@ msgstr "Mozilla cam kết bảo mật của bạn; vui lòng đọc <a href=\"%(
 msgid "Monthly donations are charged each month on the same day that you donate today, and will continue until you cancel. To cancel, email us at <a href=\"mailto:%(email)s\">%(email)s</a>."
 msgstr "Các khoản đóng góp hàng tháng được tính phí mỗi tháng vào cùng ngày bạn đóng góp hôm nay và sẽ tiếp tục cho đến khi bạn hủy. Để hủy, hãy gửi email cho chúng tôi theo địa chỉ <a href=\"mailto:%(email)s\">%(email)s</a>."
 
-#: donate/templates/fragments/donate_form_disclaimer_master.html:17
-#, python-format
-msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a> | <a href=\"%(cryptocurrency_url)s\">BitPay (cryptocurrencies)</a>"
-msgstr "Các cách khác để cung cấp: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Séc</a> | <a href=\"%(cryptocurrency_url)s\">BitPay (cryptocurrencies)</a>"
-
-#: donate/templates/fragments/donate_form_disclaimer_master.html:24
+#: donate/templates/fragments/donate_form_disclaimer_master.html:28
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:7
 #, python-format
 msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a>"
 msgstr "Các cách khác để đóng góp: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Séc</a>"
 
-#: donate/templates/fragments/donate_form_disclaimer_master.html:34
+#: donate/templates/fragments/donate_form_disclaimer_master.html:38
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:21
 #, python-format
 msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"%(help_url)s\">Contact us</a>."
 msgstr "Sự cố khi quyên góp? Truy cập <a href=\"%(faq_url)s\">Câu hỏi thường gặp</a> của chúng tôi để có câu trả lời cho hầu hết các câu hỏi phổ biến. Vẫn có vấn đề? <a href=\"%(help_url)s\">Liên hệ với chúng tôi</a>."
 
-#: donate/templates/fragments/donate_form_disclaimer_master.html:41
+#: donate/templates/fragments/donate_form_disclaimer_master.html:45
 msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in San Francisco, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
 msgstr "Các khoản đóng góp sẽ được chuyển đến Tổ chức Mozilla, một tổ chức 501(c)(3) có trụ sở tại San Francisco, California, để được sử dụng tùy ý cho các mục đích từ thiện của mình. Chúng được khấu trừ thuế ở Hoa Kỳ trong phạm vi tối đa được pháp luật cho phép."
 
@@ -532,19 +527,6 @@ msgstr "Các loại tiền"
 #: donate/templates/pages/core/ways_to_give_page_master.html:123
 msgid "Select your currency to make a secure online donation:"
 msgstr "Chọn đơn vị tiền tệ của bạn để đóng góp trực tuyến an toàn:"
-
-#: donate/templates/pages/core/ways_to_give_page_master.html:135
-msgid "Cryptocurrencies"
-msgstr "Tiền điện tử"
-
-#: donate/templates/pages/core/ways_to_give_page_master.html:137
-msgid "The Mozilla Foundation is a California non-profit corporation exempt from United States federal income taxation under IRC 501(c)(3) and a public charity classified under IRC sections 170(b)(1)(A) and 509(a)(1). Cryptocurrency donations Mozilla receives are considered charitable contributions under U.S. federal tax laws, to be used in its discretion for its charitable purposes. Because the IRS has indicated that it will treat cryptocurrencies as property for U.S. tax purposes (see IRS Notice 2014-21), cryptocurrency donations may be subject to special rules as to the amount of your charitable deduction, the documentation that must be provided to claim a tax deduction, or other matters."
-msgstr "Tổ chức Mozilla là một công ty phi lợi nhuận của California được miễn thuế thu nhập liên bang Hoa Kỳ theo IRC 501(c)(3) và là một tổ chức từ thiện công cộng được phân loại theo IRC mục 170(b)(1)(A) và 509(a)(1). Các khoản đóng góp tiền điện tử mà Mozilla nhận được được coi là các khoản đóng góp từ thiện theo luật thuế liên bang của Hoa Kỳ, được sử dụng tùy ý cho các mục đích từ thiện của mình. Vì IRS đã chỉ ra rằng họ sẽ coi tiền điện tử là tài sản cho các mục đích đánh thuế của Hoa Kỳ (xem Thông báo IRS 2014-21), việc quyên góp tiền điện tử có thể phải tuân theo các quy tắc đặc biệt về số tiền khấu trừ từ thiện của bạn, tài liệu phải được cung cấp cho yêu cầu khấu trừ thuế, hoặc các vấn đề khác."
-
-#: donate/templates/pages/core/ways_to_give_page_master.html:142
-#, python-format
-msgid "Learn more about cryptocurrency donations <a href=\"%(cryptocurrency_wiki)s\">here</a>. To donate using cryptocurrency, <a href=\"%(cryptocurrency_url)s\">please visit this link.</a>"
-msgstr "Tìm hiểu thêm về quyên góp tiền điện tử <a href=\"%(cryptocurrency_wiki)s\">tại đây</a>. Để quyên góp tiền điện tử, <a href=\"%(cryptocurrency_url)s\">vui lòng truy cập liên kết này.</a>"
 
 #: donate/templates/payment/card_master.html:4
 msgid "Your information"
@@ -877,6 +859,18 @@ msgstr "Hôm nay, tôi đã quyên góp cho @mozthunderbird vào #freetheinbox. 
 msgctxt "Email subject line"
 msgid "I donated to Thunderbird today"
 msgstr "Tôi đã quyên góp cho Thunderbird hôm nay"
+
+#~ msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a> | <a href=\"%(cryptocurrency_url)s\">BitPay (cryptocurrencies)</a>"
+#~ msgstr "Các cách khác để cung cấp: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Séc</a> | <a href=\"%(cryptocurrency_url)s\">BitPay (cryptocurrencies)</a>"
+
+#~ msgid "Cryptocurrencies"
+#~ msgstr "Tiền điện tử"
+
+#~ msgid "The Mozilla Foundation is a California non-profit corporation exempt from United States federal income taxation under IRC 501(c)(3) and a public charity classified under IRC sections 170(b)(1)(A) and 509(a)(1). Cryptocurrency donations Mozilla receives are considered charitable contributions under U.S. federal tax laws, to be used in its discretion for its charitable purposes. Because the IRS has indicated that it will treat cryptocurrencies as property for U.S. tax purposes (see IRS Notice 2014-21), cryptocurrency donations may be subject to special rules as to the amount of your charitable deduction, the documentation that must be provided to claim a tax deduction, or other matters."
+#~ msgstr "Tổ chức Mozilla là một công ty phi lợi nhuận của California được miễn thuế thu nhập liên bang Hoa Kỳ theo IRC 501(c)(3) và là một tổ chức từ thiện công cộng được phân loại theo IRC mục 170(b)(1)(A) và 509(a)(1). Các khoản đóng góp tiền điện tử mà Mozilla nhận được được coi là các khoản đóng góp từ thiện theo luật thuế liên bang của Hoa Kỳ, được sử dụng tùy ý cho các mục đích từ thiện của mình. Vì IRS đã chỉ ra rằng họ sẽ coi tiền điện tử là tài sản cho các mục đích đánh thuế của Hoa Kỳ (xem Thông báo IRS 2014-21), việc quyên góp tiền điện tử có thể phải tuân theo các quy tắc đặc biệt về số tiền khấu trừ từ thiện của bạn, tài liệu phải được cung cấp cho yêu cầu khấu trừ thuế, hoặc các vấn đề khác."
+
+#~ msgid "Learn more about cryptocurrency donations <a href=\"%(cryptocurrency_wiki)s\">here</a>. To donate using cryptocurrency, <a href=\"%(cryptocurrency_url)s\">please visit this link.</a>"
+#~ msgstr "Tìm hiểu thêm về quyên góp tiền điện tử <a href=\"%(cryptocurrency_wiki)s\">tại đây</a>. Để quyên góp tiền điện tử, <a href=\"%(cryptocurrency_url)s\">vui lòng truy cập liên kết này.</a>"
 
 #~ msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a> | <a href=\"%(bitcoin_url)s\">Bitcoin</a>"
 #~ msgstr "Các cách khác để đóng góp: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Séc</a> | <a href=\"%(bitcoin_url)s\">Bitcoin</a>"

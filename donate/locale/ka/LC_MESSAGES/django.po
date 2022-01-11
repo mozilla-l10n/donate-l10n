@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-10 16:11+0000\n"
+"POT-Creation-Date: 2022-01-11 17:39+0000\n"
 "PO-Revision-Date: 2021-12-19 23:28+0000\n"
 "Last-Translator: G12r <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -186,24 +186,19 @@ msgstr "Mozilla ერთგულია თქვენი მონაცე�
 msgid "Monthly donations are charged each month on the same day that you donate today, and will continue until you cancel. To cancel, email us at <a href=\"mailto:%(email)s\">%(email)s</a>."
 msgstr "ყოველთვიური შემოწირულობისთვის თანხა ჩამოგეჭრებათ თვის იმავე დღეს, როცა პირველ შემოწირულობას გააკეთებთ და გაგრძელდება, სანამ არ გააუქმებთ. გასაუქმებლად, მოგვწერეთ ელფოსტაზე <a href=\"mailto:%(email)s\">%(email)s</a>."
 
-#: donate/templates/fragments/donate_form_disclaimer_master.html:17
-#, python-format
-msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a> | <a href=\"%(cryptocurrency_url)s\">BitPay (cryptocurrencies)</a>"
-msgstr "სხვა გზები, შემოწირულობის გასაცემად: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">ჩეკი</a> | <a href=\"%(cryptocurrency_url)s\">BitPay (კრიპტოვალუტები)</a>"
-
-#: donate/templates/fragments/donate_form_disclaimer_master.html:24
+#: donate/templates/fragments/donate_form_disclaimer_master.html:28
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:7
 #, python-format
 msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a>"
 msgstr "სხვა გზები, შემოწირულობის გასაცემად: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">ჩეკი</a>"
 
-#: donate/templates/fragments/donate_form_disclaimer_master.html:34
+#: donate/templates/fragments/donate_form_disclaimer_master.html:38
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:21
 #, python-format
 msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"%(help_url)s\">Contact us</a>."
 msgstr "ხარვეზებია შემოწირულობისას? იხილეთ ჩვენი <a href=\"%(faq_url)s\">ხ.დ.კ.</a> ხშირად დასმულ კითხვებზე პასუხის მისაღებად. კვლავ ხარვეზებია? <a href=\"%(help_url)s\">დაგვიკავშირდით</a>."
 
-#: donate/templates/fragments/donate_form_disclaimer_master.html:41
+#: donate/templates/fragments/donate_form_disclaimer_master.html:45
 msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in San Francisco, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
 msgstr "შემოწირულობები ირიცხება Mozilla Foundation-ში, 501(c)(3) დაწესებულებაში, რომელიც მდებარეობს სან-ფრანცისკოში, კალიფორნია, შეხედულებისამებრ გამოსაყენებლად საქველმოქმედო მიზნებისთვის. გადარიცხვები ექვემდებარება გადასახადების გამოქვითვას აშშ-ში, კანონის სრული დაცვით."
 
@@ -533,19 +528,6 @@ msgstr "ვალუტა"
 #: donate/templates/pages/core/ways_to_give_page_master.html:123
 msgid "Select your currency to make a secure online donation:"
 msgstr "მიუთითეთ ვალუტა, ინტერნეტით შემოწირულობის უსაფრთხოდ გასაკეთებლად:"
-
-#: donate/templates/pages/core/ways_to_give_page_master.html:135
-msgid "Cryptocurrencies"
-msgstr "კრიპტოვალუტები"
-
-#: donate/templates/pages/core/ways_to_give_page_master.html:137
-msgid "The Mozilla Foundation is a California non-profit corporation exempt from United States federal income taxation under IRC 501(c)(3) and a public charity classified under IRC sections 170(b)(1)(A) and 509(a)(1). Cryptocurrency donations Mozilla receives are considered charitable contributions under U.S. federal tax laws, to be used in its discretion for its charitable purposes. Because the IRS has indicated that it will treat cryptocurrencies as property for U.S. tax purposes (see IRS Notice 2014-21), cryptocurrency donations may be subject to special rules as to the amount of your charitable deduction, the documentation that must be provided to claim a tax deduction, or other matters."
-msgstr "Mozilla-ს ფონდი არის კალიფორნიაში მდებარე, არამომგებიანი დაწესებულება, რომელიც შეერთებული შტატების ფედერალური საშემოსავლო გადასახადებისგან გათავისუფლებულია IRC 501(c)(3)-სა და საზოგადოებრივი ქველმოქმედების შესახებ IRC კოდექსის 170(b)(1)(A) და 509(a)(1) ნაწილებით გათვალისწინებული დებულებების შესაბამისად. აშშ-ს ფედერალური საგადასახადო კანონმდებლობის შესაბამისად, კრიპტოვალუტით მიღებული შემოწირულობა, განიხილება ქველმოქმედებად, რომელიც გამოყენებული უნდა იყოს კეთილგონივრულად და დანიშნულებისამებრ. ვინაიდან, IRS მიუთითებს, რომ კრიპტოვალუტა განისაზღვრება, როგორც კერძო საკუთრება და იბეგრება აშშ-ს საგადასახადო კოდექსის შესაბამისად (იხილეთ IRS-დანართი 2014-21), შემოწირულობები კრიპტოვალუტის საშუალებით შეიძლება დაექვემდებაროს გარკვეულ წესებს, საქველმოქმედო გამოქვითვის რაოდენობიდან, საშემოსავლო გამოქვითვის შესახებ საჭირო საბუთებიდან ან სხვა გარემოებებიდან გამომდინარე."
-
-#: donate/templates/pages/core/ways_to_give_page_master.html:142
-#, python-format
-msgid "Learn more about cryptocurrency donations <a href=\"%(cryptocurrency_wiki)s\">here</a>. To donate using cryptocurrency, <a href=\"%(cryptocurrency_url)s\">please visit this link.</a>"
-msgstr "ვრცლად, კრიპტოვალუტით შემოწირულობების შესახებ <a href=\"%(cryptocurrency_wiki)s\">იხილეთ აქ</a>. კრიპტოვალუტის შემოსაწირად, <a href=\"%(cryptocurrency_url)s\">გთხოვთ, ეწვიოთ ამ ბმულს.</a>"
 
 #: donate/templates/payment/card_master.html:4
 msgid "Your information"
@@ -878,6 +860,18 @@ msgstr "მე დღეს შემოწირულობით დავე
 msgctxt "Email subject line"
 msgid "I donated to Thunderbird today"
 msgstr "მე დღეს შემოწირულობით დავეხმარე Thunderbird-ს"
+
+#~ msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a> | <a href=\"%(cryptocurrency_url)s\">BitPay (cryptocurrencies)</a>"
+#~ msgstr "სხვა გზები, შემოწირულობის გასაცემად: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">ჩეკი</a> | <a href=\"%(cryptocurrency_url)s\">BitPay (კრიპტოვალუტები)</a>"
+
+#~ msgid "Cryptocurrencies"
+#~ msgstr "კრიპტოვალუტები"
+
+#~ msgid "The Mozilla Foundation is a California non-profit corporation exempt from United States federal income taxation under IRC 501(c)(3) and a public charity classified under IRC sections 170(b)(1)(A) and 509(a)(1). Cryptocurrency donations Mozilla receives are considered charitable contributions under U.S. federal tax laws, to be used in its discretion for its charitable purposes. Because the IRS has indicated that it will treat cryptocurrencies as property for U.S. tax purposes (see IRS Notice 2014-21), cryptocurrency donations may be subject to special rules as to the amount of your charitable deduction, the documentation that must be provided to claim a tax deduction, or other matters."
+#~ msgstr "Mozilla-ს ფონდი არის კალიფორნიაში მდებარე, არამომგებიანი დაწესებულება, რომელიც შეერთებული შტატების ფედერალური საშემოსავლო გადასახადებისგან გათავისუფლებულია IRC 501(c)(3)-სა და საზოგადოებრივი ქველმოქმედების შესახებ IRC კოდექსის 170(b)(1)(A) და 509(a)(1) ნაწილებით გათვალისწინებული დებულებების შესაბამისად. აშშ-ს ფედერალური საგადასახადო კანონმდებლობის შესაბამისად, კრიპტოვალუტით მიღებული შემოწირულობა, განიხილება ქველმოქმედებად, რომელიც გამოყენებული უნდა იყოს კეთილგონივრულად და დანიშნულებისამებრ. ვინაიდან, IRS მიუთითებს, რომ კრიპტოვალუტა განისაზღვრება, როგორც კერძო საკუთრება და იბეგრება აშშ-ს საგადასახადო კოდექსის შესაბამისად (იხილეთ IRS-დანართი 2014-21), შემოწირულობები კრიპტოვალუტის საშუალებით შეიძლება დაექვემდებაროს გარკვეულ წესებს, საქველმოქმედო გამოქვითვის რაოდენობიდან, საშემოსავლო გამოქვითვის შესახებ საჭირო საბუთებიდან ან სხვა გარემოებებიდან გამომდინარე."
+
+#~ msgid "Learn more about cryptocurrency donations <a href=\"%(cryptocurrency_wiki)s\">here</a>. To donate using cryptocurrency, <a href=\"%(cryptocurrency_url)s\">please visit this link.</a>"
+#~ msgstr "ვრცლად, კრიპტოვალუტით შემოწირულობების შესახებ <a href=\"%(cryptocurrency_wiki)s\">იხილეთ აქ</a>. კრიპტოვალუტის შემოსაწირად, <a href=\"%(cryptocurrency_url)s\">გთხოვთ, ეწვიოთ ამ ბმულს.</a>"
 
 #~ msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a> | <a href=\"%(bitcoin_url)s\">Bitcoin</a>"
 #~ msgstr "სხვა გზები, შემოწირულობის გასაცემად: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">ჩეკი</a> | <a href=\"%(bitcoin_url)s\">Bitcoin</a>"

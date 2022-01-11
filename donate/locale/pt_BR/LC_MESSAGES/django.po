@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-10 16:11+0000\n"
+"POT-Creation-Date: 2022-01-11 17:39+0000\n"
 "PO-Revision-Date: 2021-12-16 12:52+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -186,24 +186,19 @@ msgstr "A Mozilla tem compromisso com sua privacidade. Leia nossa <a href=\"%(pr
 msgid "Monthly donations are charged each month on the same day that you donate today, and will continue until you cancel. To cancel, email us at <a href=\"mailto:%(email)s\">%(email)s</a>."
 msgstr "Doações mensais são cobradas a cada mês no mesmo dia da sua doação de hoje e continuam até você cancelar. Para cancelar, envie um email para <a href=\"mailto:%(email)s\">%(email)s</a>."
 
-#: donate/templates/fragments/donate_form_disclaimer_master.html:17
-#, python-format
-msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a> | <a href=\"%(cryptocurrency_url)s\">BitPay (cryptocurrencies)</a>"
-msgstr "Outras formas de doar: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Cheque</a> | <a href=\"%(cryptocurrency_url)s\">BitPay (criptomoedas)</a>"
-
-#: donate/templates/fragments/donate_form_disclaimer_master.html:24
+#: donate/templates/fragments/donate_form_disclaimer_master.html:28
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:7
 #, python-format
 msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a>"
 msgstr "Outras formas de doar: <a href=\"%(wire_transfer_url)s\">Transferência bancária ou SEPA (Single Euro Payments Area)</a> | <a href=\"%(check_url)s\">Cheque</a>"
 
-#: donate/templates/fragments/donate_form_disclaimer_master.html:34
+#: donate/templates/fragments/donate_form_disclaimer_master.html:38
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:21
 #, python-format
 msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"%(help_url)s\">Contact us</a>."
 msgstr "Problemas ao doar? Veja em nossa <a href=\"%(faq_url)s\">lista de perguntas frequentes</a> para obter respostas às questões mais comuns. Ainda não resolveu? <a href=\"%(help_url)s\">Entre em contato conosco</a>."
 
-#: donate/templates/fragments/donate_form_disclaimer_master.html:41
+#: donate/templates/fragments/donate_form_disclaimer_master.html:45
 msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in San Francisco, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
 msgstr "As contribuições vão para a Fundação Mozilla, uma organização sem fins lucrativos 501(c)(3) com sede em São Francisco, Califórnia, para ser usadas a seu critério para fins de caridade. Elas são dedutíveis de impostos nos EUA até o limite máximo permitido por lei."
 
@@ -533,19 +528,6 @@ msgstr "Moedas"
 #: donate/templates/pages/core/ways_to_give_page_master.html:123
 msgid "Select your currency to make a secure online donation:"
 msgstr "Selecione sua moeda para fazer uma doação online segura:"
-
-#: donate/templates/pages/core/ways_to_give_page_master.html:135
-msgid "Cryptocurrencies"
-msgstr "Criptomoedas"
-
-#: donate/templates/pages/core/ways_to_give_page_master.html:137
-msgid "The Mozilla Foundation is a California non-profit corporation exempt from United States federal income taxation under IRC 501(c)(3) and a public charity classified under IRC sections 170(b)(1)(A) and 509(a)(1). Cryptocurrency donations Mozilla receives are considered charitable contributions under U.S. federal tax laws, to be used in its discretion for its charitable purposes. Because the IRS has indicated that it will treat cryptocurrencies as property for U.S. tax purposes (see IRS Notice 2014-21), cryptocurrency donations may be subject to special rules as to the amount of your charitable deduction, the documentation that must be provided to claim a tax deduction, or other matters."
-msgstr "A Fundação Mozilla é uma corporação sem fins lucrativos situada na Califórnia, isenta de impostos federais dos Estados Unidos sob IRC 501(c)(3) e classificada como instituição pública de caridade sob IRC seções 170(b)(1)(A) e 509(a)(1). Doações recebidas pela Mozilla em criptomoedas são consideradas contribuições para caridade, sob leis federais de impostos dos EUA, para ser usadas a seu critério com propósitos de caridade. Como o IRS indicou que tratará criptomoedas como propriedade para fins de impostos dos EUA (ver o aviso IRS 2014-21), doações de criptomoedas podem estar sujeitas a regras especiais quanto ao valor de sua dedução de caridade, a documentação que deve ser fornecida para reivindicar dedução fiscal, ou outros assuntos."
-
-#: donate/templates/pages/core/ways_to_give_page_master.html:142
-#, python-format
-msgid "Learn more about cryptocurrency donations <a href=\"%(cryptocurrency_wiki)s\">here</a>. To donate using cryptocurrency, <a href=\"%(cryptocurrency_url)s\">please visit this link.</a>"
-msgstr "Saiba mais <a href=\"%(cryptocurrency_wiki)s\">aqui</a> sobre doações de criptomoedas. Para doar usando criptomoedas, <a href=\"%(cryptocurrency_url)s\">acesse este link</a>."
 
 #: donate/templates/payment/card_master.html:4
 msgid "Your information"
@@ -878,6 +860,18 @@ msgstr "Fiz uma doação hoje para o @mozthunderbird. Junte-se a mim para apoiar
 msgctxt "Email subject line"
 msgid "I donated to Thunderbird today"
 msgstr "Eu fiz uma doação para o Thunderbird hoje"
+
+#~ msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a> | <a href=\"%(cryptocurrency_url)s\">BitPay (cryptocurrencies)</a>"
+#~ msgstr "Outras formas de doar: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Cheque</a> | <a href=\"%(cryptocurrency_url)s\">BitPay (criptomoedas)</a>"
+
+#~ msgid "Cryptocurrencies"
+#~ msgstr "Criptomoedas"
+
+#~ msgid "The Mozilla Foundation is a California non-profit corporation exempt from United States federal income taxation under IRC 501(c)(3) and a public charity classified under IRC sections 170(b)(1)(A) and 509(a)(1). Cryptocurrency donations Mozilla receives are considered charitable contributions under U.S. federal tax laws, to be used in its discretion for its charitable purposes. Because the IRS has indicated that it will treat cryptocurrencies as property for U.S. tax purposes (see IRS Notice 2014-21), cryptocurrency donations may be subject to special rules as to the amount of your charitable deduction, the documentation that must be provided to claim a tax deduction, or other matters."
+#~ msgstr "A Fundação Mozilla é uma corporação sem fins lucrativos situada na Califórnia, isenta de impostos federais dos Estados Unidos sob IRC 501(c)(3) e classificada como instituição pública de caridade sob IRC seções 170(b)(1)(A) e 509(a)(1). Doações recebidas pela Mozilla em criptomoedas são consideradas contribuições para caridade, sob leis federais de impostos dos EUA, para ser usadas a seu critério com propósitos de caridade. Como o IRS indicou que tratará criptomoedas como propriedade para fins de impostos dos EUA (ver o aviso IRS 2014-21), doações de criptomoedas podem estar sujeitas a regras especiais quanto ao valor de sua dedução de caridade, a documentação que deve ser fornecida para reivindicar dedução fiscal, ou outros assuntos."
+
+#~ msgid "Learn more about cryptocurrency donations <a href=\"%(cryptocurrency_wiki)s\">here</a>. To donate using cryptocurrency, <a href=\"%(cryptocurrency_url)s\">please visit this link.</a>"
+#~ msgstr "Saiba mais <a href=\"%(cryptocurrency_wiki)s\">aqui</a> sobre doações de criptomoedas. Para doar usando criptomoedas, <a href=\"%(cryptocurrency_url)s\">acesse este link</a>."
 
 #~ msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a> | <a href=\"%(bitcoin_url)s\">Bitcoin</a>"
 #~ msgstr "Outras formas de doar: <a href=\"%(wire_transfer_url)s\">Transferência bancária ou SEPA (Single Euro Payments Area)</a> | <a href=\"%(check_url)s\">Cheque</a> | <a href=\"%(bitcoin_url)s\">Bitcoin</a>"

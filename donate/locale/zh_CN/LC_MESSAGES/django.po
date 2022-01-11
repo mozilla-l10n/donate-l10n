@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-10 16:11+0000\n"
+"POT-Creation-Date: 2022-01-11 17:39+0000\n"
 "PO-Revision-Date: 2021-12-16 12:14+0000\n"
 "Last-Translator: 你我皆凡人 <yuanbingyan@mail.ee>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -186,24 +186,19 @@ msgstr "Mozilla 致力于保护您的隐私；请在此处阅读我们的<a href
 msgid "Monthly donations are charged each month on the same day that you donate today, and will continue until you cancel. To cancel, email us at <a href=\"mailto:%(email)s\">%(email)s</a>."
 msgstr "每月捐款会在每月的今天（或捐款日）收款一次，并将持续到您主动取消为止。如要取消，请通过 <a href=\"mailto:%(email)s\">%(email)s</a> 给我们发电子邮件。"
 
-#: donate/templates/fragments/donate_form_disclaimer_master.html:17
-#, python-format
-msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a> | <a href=\"%(cryptocurrency_url)s\">BitPay (cryptocurrencies)</a>"
-msgstr "其他捐款方式：<a href=\"%(wire_transfer_url)s\">SEPA（欧元）/ BACS（英镑）</a> | <a href=\"%(check_url)s\">支票</a> | <a href=\"%(cryptocurrency_url)s\">BitPay（加密货币）</a>"
-
-#: donate/templates/fragments/donate_form_disclaimer_master.html:24
+#: donate/templates/fragments/donate_form_disclaimer_master.html:28
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:7
 #, python-format
 msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a>"
 msgstr "其他捐款方式：<a href=\"%(wire_transfer_url)s\">SEPA（欧元）/ BACS（英镑）</a> | <a href=\"%(check_url)s\">支票</a>"
 
-#: donate/templates/fragments/donate_form_disclaimer_master.html:34
+#: donate/templates/fragments/donate_form_disclaimer_master.html:38
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:21
 #, python-format
 msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"%(help_url)s\">Contact us</a>."
 msgstr "捐款遇到问题？访问我们的<a href=\"%(faq_url)s\">常见问题</a>解决最常见的问题。仍有问题？请<a href=\"%(help_url)s\">联系我们</a>。"
 
-#: donate/templates/fragments/donate_form_disclaimer_master.html:41
+#: donate/templates/fragments/donate_form_disclaimer_master.html:45
 msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in San Francisco, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
 msgstr "Mozilla 基金会是在美国加利福尼亚州旧金山登记的 501(c)(3) 免税机构。向 Mozilla 所捐的款项，将可由其依照慈善目的自由使用，捐款人亦可依照法律规定抵扣美国国内税款。"
 
@@ -533,19 +528,6 @@ msgstr "货币"
 #: donate/templates/pages/core/ways_to_give_page_master.html:123
 msgid "Select your currency to make a secure online donation:"
 msgstr "选择您的货币完成安全的在线捐款："
-
-#: donate/templates/pages/core/ways_to_give_page_master.html:135
-msgid "Cryptocurrencies"
-msgstr "加密货币"
-
-#: donate/templates/pages/core/ways_to_give_page_master.html:137
-msgid "The Mozilla Foundation is a California non-profit corporation exempt from United States federal income taxation under IRC 501(c)(3) and a public charity classified under IRC sections 170(b)(1)(A) and 509(a)(1). Cryptocurrency donations Mozilla receives are considered charitable contributions under U.S. federal tax laws, to be used in its discretion for its charitable purposes. Because the IRS has indicated that it will treat cryptocurrencies as property for U.S. tax purposes (see IRS Notice 2014-21), cryptocurrency donations may be subject to special rules as to the amount of your charitable deduction, the documentation that must be provided to claim a tax deduction, or other matters."
-msgstr "Mozilla 基金会是加州的一个非营利团体，豁免 IRC 501(c)(3) 下的美国联邦收入税，并归入 IRC 章节 170(b)(1)(A) 和 509(a)(1) 下的公共慈善机构。Mozilla 接收的比特币捐款被认为是美国联邦税法下的慈善捐助，自行决定其在慈善用途下的使用。因为美国国税局已表示它将比特币视为美国税收目的的财产（见 IRS Notice 2014-21），加密货币捐款可能受制于您的慈善扣除额度的特殊规则，必须提供用于索取扣税的文件或其他事项。"
-
-#: donate/templates/pages/core/ways_to_give_page_master.html:142
-#, python-format
-msgid "Learn more about cryptocurrency donations <a href=\"%(cryptocurrency_wiki)s\">here</a>. To donate using cryptocurrency, <a href=\"%(cryptocurrency_url)s\">please visit this link.</a>"
-msgstr "可<a href=\"%(cryptocurrency_wiki)s\">在此</a>详细了解以加密货币捐款的更多信息。您可访问<a href=\"%(cryptocurrency_url)s\">此链接</a>使用加密货币捐款。"
 
 #: donate/templates/payment/card_master.html:4
 msgid "Your information"
@@ -878,6 +860,18 @@ msgstr "我今天捐款给 @mozthunderbird 的 #freetheinbox 了。与我一起�
 msgctxt "Email subject line"
 msgid "I donated to Thunderbird today"
 msgstr "我今天捐款给 Thunderbird"
+
+#~ msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a> | <a href=\"%(cryptocurrency_url)s\">BitPay (cryptocurrencies)</a>"
+#~ msgstr "其他捐款方式：<a href=\"%(wire_transfer_url)s\">SEPA（欧元）/ BACS（英镑）</a> | <a href=\"%(check_url)s\">支票</a> | <a href=\"%(cryptocurrency_url)s\">BitPay（加密货币）</a>"
+
+#~ msgid "Cryptocurrencies"
+#~ msgstr "加密货币"
+
+#~ msgid "The Mozilla Foundation is a California non-profit corporation exempt from United States federal income taxation under IRC 501(c)(3) and a public charity classified under IRC sections 170(b)(1)(A) and 509(a)(1). Cryptocurrency donations Mozilla receives are considered charitable contributions under U.S. federal tax laws, to be used in its discretion for its charitable purposes. Because the IRS has indicated that it will treat cryptocurrencies as property for U.S. tax purposes (see IRS Notice 2014-21), cryptocurrency donations may be subject to special rules as to the amount of your charitable deduction, the documentation that must be provided to claim a tax deduction, or other matters."
+#~ msgstr "Mozilla 基金会是加州的一个非营利团体，豁免 IRC 501(c)(3) 下的美国联邦收入税，并归入 IRC 章节 170(b)(1)(A) 和 509(a)(1) 下的公共慈善机构。Mozilla 接收的比特币捐款被认为是美国联邦税法下的慈善捐助，自行决定其在慈善用途下的使用。因为美国国税局已表示它将比特币视为美国税收目的的财产（见 IRS Notice 2014-21），加密货币捐款可能受制于您的慈善扣除额度的特殊规则，必须提供用于索取扣税的文件或其他事项。"
+
+#~ msgid "Learn more about cryptocurrency donations <a href=\"%(cryptocurrency_wiki)s\">here</a>. To donate using cryptocurrency, <a href=\"%(cryptocurrency_url)s\">please visit this link.</a>"
+#~ msgstr "可<a href=\"%(cryptocurrency_wiki)s\">在此</a>详细了解以加密货币捐款的更多信息。您可访问<a href=\"%(cryptocurrency_url)s\">此链接</a>使用加密货币捐款。"
 
 #~ msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a> | <a href=\"%(bitcoin_url)s\">Bitcoin</a>"
 #~ msgstr "其他捐款方式：<a href=\"%(wire_transfer_url)s\">SEPA（欧元）/ BACS（英镑）</a> | <a href=\"%(check_url)s\">支票</a> | <a href=\"%(bitcoin_url)s\">比特币</a>"

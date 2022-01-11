@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-10 16:11+0000\n"
+"POT-Creation-Date: 2022-01-11 17:39+0000\n"
 "PO-Revision-Date: 2022-01-07 10:52+0000\n"
 "Last-Translator: marsf <chimantaea_mirabilis@yahoo.co.jp>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -186,24 +186,19 @@ msgstr "Mozilla は、あなたのプライバシーを尊重します; <a href=
 msgid "Monthly donations are charged each month on the same day that you donate today, and will continue until you cancel. To cancel, email us at <a href=\"mailto:%(email)s\">%(email)s</a>."
 msgstr "毎月の寄付は、あなたが今日寄付したのと同じ日に毎月請求され、キャンセルするまで継続されます。キャンセルするには、<a href=\"mailto:%(email)s\">%(email)s</a> 宛にメールを送信してください。"
 
-#: donate/templates/fragments/donate_form_disclaimer_master.html:17
-#, python-format
-msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a> | <a href=\"%(cryptocurrency_url)s\">BitPay (cryptocurrencies)</a>"
-msgstr "他の寄付方法: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">小切手</a> | <a href=\"%(cryptocurrency_url)s\">BitPay (暗号通貨)</a>"
-
-#: donate/templates/fragments/donate_form_disclaimer_master.html:24
+#: donate/templates/fragments/donate_form_disclaimer_master.html:28
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:7
 #, python-format
 msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a>"
 msgstr "その他の寄付方法: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">小切手</a>"
 
-#: donate/templates/fragments/donate_form_disclaimer_master.html:34
+#: donate/templates/fragments/donate_form_disclaimer_master.html:38
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:21
 #, python-format
 msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"%(help_url)s\">Contact us</a>."
 msgstr "寄付で問題が起こった時は、<a href=\"%(faq_url)s\">FAQ</a> のページでよくある質問を確認してください。まだ問題が解決できない場合は、<a href=\"%(help_url)s\">お問い合わせください</a>。"
 
-#: donate/templates/fragments/donate_form_disclaimer_master.html:41
+#: donate/templates/fragments/donate_form_disclaimer_master.html:45
 msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in San Francisco, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
 msgstr "あなたの寄付は 501(c)(3) に該当する非営利法人でありカリフォルニア州サンフランシスコ市に拠点を置く Mozilla Foundation が受領し、その自由裁量で慈善目的に使用されます。米国内では、法で定められた最大限の範囲で課税控除の対象となります。"
 
@@ -533,19 +528,6 @@ msgstr "通貨"
 #: donate/templates/pages/core/ways_to_give_page_master.html:123
 msgid "Select your currency to make a secure online donation:"
 msgstr "安全なオンライン寄付を行う通貨を選択してください:"
-
-#: donate/templates/pages/core/ways_to_give_page_master.html:135
-msgid "Cryptocurrencies"
-msgstr "暗号通貨"
-
-#: donate/templates/pages/core/ways_to_give_page_master.html:137
-msgid "The Mozilla Foundation is a California non-profit corporation exempt from United States federal income taxation under IRC 501(c)(3) and a public charity classified under IRC sections 170(b)(1)(A) and 509(a)(1). Cryptocurrency donations Mozilla receives are considered charitable contributions under U.S. federal tax laws, to be used in its discretion for its charitable purposes. Because the IRS has indicated that it will treat cryptocurrencies as property for U.S. tax purposes (see IRS Notice 2014-21), cryptocurrency donations may be subject to special rules as to the amount of your charitable deduction, the documentation that must be provided to claim a tax deduction, or other matters."
-msgstr "IRSMozilla Foundation は IRC 501(c)(3) の下で米国連邦所得税を免除されているカリフォルニア州内の非営利法人で、IRC 条項 170(b)(1)(A) および 509(a)(1) の下で分類されている公共慈善団体です。Mozilla が暗号通貨で受け取る寄付は米国連邦所得税法の下では慈善目的の寄付と見なされ、その自由裁量で慈善目的に使用されます。米国国税庁 (IRS) が暗号通貨を米国の課税対象となる資産とみなす方針を示していることから (IRS 告知 2014-21 参照)、暗号通貨による寄付は、寄付金控除、課税控除の請求時に提出すべき書類、その他の事項に関して、特別な規則の対象となる可能性があります。"
-
-#: donate/templates/pages/core/ways_to_give_page_master.html:142
-#, python-format
-msgid "Learn more about cryptocurrency donations <a href=\"%(cryptocurrency_wiki)s\">here</a>. To donate using cryptocurrency, <a href=\"%(cryptocurrency_url)s\">please visit this link.</a>"
-msgstr "暗号通貨による寄付の詳細については、<a href=\"%(cryptocurrency_wiki)s\">こちら</a>をご覧ください。暗号通貨で寄付するには、<a href=\"%(cryptocurrency_url)s\">このリンクにアクセスしてください。</a>"
 
 #: donate/templates/payment/card_master.html:4
 msgid "Your information"
@@ -878,6 +860,18 @@ msgstr ""
 msgctxt "Email subject line"
 msgid "I donated to Thunderbird today"
 msgstr "Thunderbird に寄付しました"
+
+#~ msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a> | <a href=\"%(cryptocurrency_url)s\">BitPay (cryptocurrencies)</a>"
+#~ msgstr "他の寄付方法: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">小切手</a> | <a href=\"%(cryptocurrency_url)s\">BitPay (暗号通貨)</a>"
+
+#~ msgid "Cryptocurrencies"
+#~ msgstr "暗号通貨"
+
+#~ msgid "The Mozilla Foundation is a California non-profit corporation exempt from United States federal income taxation under IRC 501(c)(3) and a public charity classified under IRC sections 170(b)(1)(A) and 509(a)(1). Cryptocurrency donations Mozilla receives are considered charitable contributions under U.S. federal tax laws, to be used in its discretion for its charitable purposes. Because the IRS has indicated that it will treat cryptocurrencies as property for U.S. tax purposes (see IRS Notice 2014-21), cryptocurrency donations may be subject to special rules as to the amount of your charitable deduction, the documentation that must be provided to claim a tax deduction, or other matters."
+#~ msgstr "IRSMozilla Foundation は IRC 501(c)(3) の下で米国連邦所得税を免除されているカリフォルニア州内の非営利法人で、IRC 条項 170(b)(1)(A) および 509(a)(1) の下で分類されている公共慈善団体です。Mozilla が暗号通貨で受け取る寄付は米国連邦所得税法の下では慈善目的の寄付と見なされ、その自由裁量で慈善目的に使用されます。米国国税庁 (IRS) が暗号通貨を米国の課税対象となる資産とみなす方針を示していることから (IRS 告知 2014-21 参照)、暗号通貨による寄付は、寄付金控除、課税控除の請求時に提出すべき書類、その他の事項に関して、特別な規則の対象となる可能性があります。"
+
+#~ msgid "Learn more about cryptocurrency donations <a href=\"%(cryptocurrency_wiki)s\">here</a>. To donate using cryptocurrency, <a href=\"%(cryptocurrency_url)s\">please visit this link.</a>"
+#~ msgstr "暗号通貨による寄付の詳細については、<a href=\"%(cryptocurrency_wiki)s\">こちら</a>をご覧ください。暗号通貨で寄付するには、<a href=\"%(cryptocurrency_url)s\">このリンクにアクセスしてください。</a>"
 
 #~ msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a> | <a href=\"%(bitcoin_url)s\">Bitcoin</a>"
 #~ msgstr "他の寄付方法: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">小切手</a> | <a href=\"%(bitcoin_url)s\">ビットコイン</a>"
