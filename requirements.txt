@@ -18,7 +18,7 @@ idna==2.9
     # via requests
 pytz==2019.3
     # via django
-requests==2.27.0
+requests==2.27.1
     # via -r requirements.in
 sqlparse==0.3.0
     # via django
