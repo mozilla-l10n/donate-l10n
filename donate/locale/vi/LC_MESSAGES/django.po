@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-11 17:39+0000\n"
+"POT-Creation-Date: 2022-02-02 09:37+0000\n"
 "PO-Revision-Date: 2021-12-16 12:39+0000\n"
 "Last-Translator: Quế Tùng <best.cloney.1301@gmail.com>\n"
 "Language-Team: \n"
@@ -19,6 +19,7 @@ msgstr ""
 "X-Generator: Pontoon\n"
 
 #: donate/core/translation.py:12 donate/payments/forms.py:91
+#: donate/templates/forms/form_field.html:21
 msgid "This field is required."
 msgstr "Trường này là bắt buộc."
 
@@ -128,9 +129,8 @@ msgid "Go to our home page"
 msgstr "Đi tới trang chủ của chúng tôi"
 
 #: donate/templates/base_master.html:8
-#: donate/templates/pages/base_page_master.html:8
+#: donate/templates/pages/base_page_master.html:14
 #: donate/templates/pages/base_page_master.html:15
-#: donate/templates/pages/base_page_master.html:16
 msgctxt "Page title"
 msgid "Donate to Mozilla"
 msgstr "Quyên góp cho Mozilla"
@@ -206,27 +206,27 @@ msgstr "Các khoản đóng góp sẽ được chuyển đến Tổ chức Mozil
 msgid "Language"
 msgstr "Ngôn ngữ"
 
-#: donate/templates/pages/base_page_master.html:28
+#: donate/templates/pages/base_page_master.html:27
 msgid "Who we are"
 msgstr "Chúng tôi là ai"
 
-#: donate/templates/pages/base_page_master.html:31
+#: donate/templates/pages/base_page_master.html:30
 msgid "What we do"
 msgstr "Chúng tôi làm gì"
 
-#: donate/templates/pages/base_page_master.html:34
+#: donate/templates/pages/base_page_master.html:33
 msgid "What we fund"
 msgstr "Những gì chúng tôi tài trợ"
 
-#: donate/templates/pages/base_page_master.html:37
+#: donate/templates/pages/base_page_master.html:36
 msgid "What you can do"
 msgstr "Bạn có thể làm gì"
 
-#: donate/templates/pages/base_page_master.html:40
+#: donate/templates/pages/base_page_master.html:39
 msgid "Blog"
 msgstr "Blog"
 
-#: donate/templates/pages/base_page_master.html:184
+#: donate/templates/pages/base_page_master.html:183
 #, python-format
 msgid "Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a %(fomo_link_attributes)s>%(fomo_site_url)s</a>. Most content available under a <a %(cc_link_attributes)s>Creative Commons license</a>."
 msgstr "Mozilla là một tổ chức phi lợi nhuận toàn cầu chuyên giúp bạn kiểm soát trải nghiệm trực tuyến của mình và định hình tương lai của web vì lợi ích công cộng. Ghé thăm chúng tôi tại <a %(fomo_link_attributes)s>%(fomo_site_url)s</a>. Hầu hết nội dung có sẵn dưới dạng <a %(cc_link_attributes)s>giấy phép Creative Commons</a>."
@@ -559,19 +559,19 @@ msgid "Your Details"
 msgstr "Chi tiết của bạn"
 
 #: donate/templates/payment/card_master.html:60
+msgid "We were unable to take payment because the payment processor reported an error with your address information:"
+msgstr "Chúng tôi không thể nhận thanh toán vì bộ xử lý thanh toán đã báo cáo lỗi với thông tin địa chỉ của bạn:"
+
+#: donate/templates/payment/card_master.html:64
+msgid "Please correct these errors and try again."
+msgstr "Vui lòng sửa những lỗi này và thử lại."
+
+#: donate/templates/payment/card_master.html:68
 #: donate/templates/payment/card_upsell_master.html:34
 #: donate/templates/payment/newsletter_signup_master.html:30
 #: donate/templates/payment/paypal_upsell_master.html:34
 msgid "There were some errors with your form. Please amend the fields highlighted below."
 msgstr "Có một số lỗi với biểu mẫu của bạn. Vui lòng sửa đổi các trường được đánh dấu bên dưới."
-
-#: donate/templates/payment/card_master.html:64
-msgid "We were unable to take payment because the payment processor reported an error with your address information:"
-msgstr "Chúng tôi không thể nhận thanh toán vì bộ xử lý thanh toán đã báo cáo lỗi với thông tin địa chỉ của bạn:"
-
-#: donate/templates/payment/card_master.html:68
-msgid "Please correct these errors and try again."
-msgstr "Vui lòng sửa những lỗi này và thử lại."
 
 #: donate/templates/payment/card_master.html:91
 msgid "Payment"

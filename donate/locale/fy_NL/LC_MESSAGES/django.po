@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-11 17:39+0000\n"
+"POT-Creation-Date: 2022-02-02 09:37+0000\n"
 "PO-Revision-Date: 2021-12-21 15:47+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,6 +20,7 @@ msgstr ""
 "X-Generator: Pontoon\n"
 
 #: donate/core/translation.py:12 donate/payments/forms.py:91
+#: donate/templates/forms/form_field.html:21
 msgid "This field is required."
 msgstr "Dit fjild is ferplicht."
 
@@ -129,9 +130,8 @@ msgid "Go to our home page"
 msgstr "Nei ús startside"
 
 #: donate/templates/base_master.html:8
-#: donate/templates/pages/base_page_master.html:8
+#: donate/templates/pages/base_page_master.html:14
 #: donate/templates/pages/base_page_master.html:15
-#: donate/templates/pages/base_page_master.html:16
 msgctxt "Page title"
 msgid "Donate to Mozilla"
 msgstr "Donearje oan Mozilla"
@@ -207,27 +207,27 @@ msgstr "Bydragen gean nei de Mozilla Foundation, in 501(c)(3)-organisaasje basea
 msgid "Language"
 msgstr "Taal"
 
-#: donate/templates/pages/base_page_master.html:28
+#: donate/templates/pages/base_page_master.html:27
 msgid "Who we are"
 msgstr "Wa’t wy binne"
 
-#: donate/templates/pages/base_page_master.html:31
+#: donate/templates/pages/base_page_master.html:30
 msgid "What we do"
 msgstr "Wat wy dogge"
 
-#: donate/templates/pages/base_page_master.html:34
+#: donate/templates/pages/base_page_master.html:33
 msgid "What we fund"
 msgstr "Wat wy finansierje"
 
-#: donate/templates/pages/base_page_master.html:37
+#: donate/templates/pages/base_page_master.html:36
 msgid "What you can do"
 msgstr "Wat jo dwaan kinne"
 
-#: donate/templates/pages/base_page_master.html:40
+#: donate/templates/pages/base_page_master.html:39
 msgid "Blog"
 msgstr "Blog"
 
-#: donate/templates/pages/base_page_master.html:184
+#: donate/templates/pages/base_page_master.html:183
 #, python-format
 msgid "Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a %(fomo_link_attributes)s>%(fomo_site_url)s</a>. Most content available under a <a %(cc_link_attributes)s>Creative Commons license</a>."
 msgstr "Mozilla is in wrâldwide non-profitorganisaasje, tawijd oan it behâlden fan de kontrôle oer jo onlinebelibbing en it foarmjen fan de takomst fan it ynternet yn it algemien belang. Besykje ús op <a %(fomo_link_attributes)s>%(fomo_site_url)s</a>. De measte ynhâld is beskikber ûnder in <a %(cc_link_attributes)s>Creative Commons-lisinsje</a>."
@@ -560,19 +560,19 @@ msgid "Your Details"
 msgstr "Jo details"
 
 #: donate/templates/payment/card_master.html:60
+msgid "We were unable to take payment because the payment processor reported an error with your address information:"
+msgstr "Wy koene de betelling net oannimme, omdat de betellingsferwurker in flater mei jo adresgegevens melden hat:"
+
+#: donate/templates/payment/card_master.html:64
+msgid "Please correct these errors and try again."
+msgstr "Korrizjearje dizze flaters en probearje it nochris."
+
+#: donate/templates/payment/card_master.html:68
 #: donate/templates/payment/card_upsell_master.html:34
 #: donate/templates/payment/newsletter_signup_master.html:30
 #: donate/templates/payment/paypal_upsell_master.html:34
 msgid "There were some errors with your form. Please amend the fields highlighted below."
 msgstr "Der stean inkelde flaters yn jo formulier. Wizigje de hjirûnder markearre fjilden."
-
-#: donate/templates/payment/card_master.html:64
-msgid "We were unable to take payment because the payment processor reported an error with your address information:"
-msgstr "Wy koene de betelling net oannimme, omdat de betellingsferwurker in flater mei jo adresgegevens melden hat:"
-
-#: donate/templates/payment/card_master.html:68
-msgid "Please correct these errors and try again."
-msgstr "Korrizjearje dizze flaters en probearje it nochris."
 
 #: donate/templates/payment/card_master.html:91
 msgid "Payment"

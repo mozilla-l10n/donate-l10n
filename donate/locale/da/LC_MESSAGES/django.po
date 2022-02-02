@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-11 17:39+0000\n"
+"POT-Creation-Date: 2022-02-02 09:37+0000\n"
 "PO-Revision-Date: 2021-12-17 15:46+0000\n"
 "Last-Translator: Jakob Kappel <jakobkpetersen@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,6 +20,7 @@ msgstr ""
 "X-Generator: Pontoon\n"
 
 #: donate/core/translation.py:12 donate/payments/forms.py:91
+#: donate/templates/forms/form_field.html:21
 msgid "This field is required."
 msgstr "Dette felt er påkrævet."
 
@@ -129,9 +130,8 @@ msgid "Go to our home page"
 msgstr "Gå til vores startside"
 
 #: donate/templates/base_master.html:8
-#: donate/templates/pages/base_page_master.html:8
+#: donate/templates/pages/base_page_master.html:14
 #: donate/templates/pages/base_page_master.html:15
-#: donate/templates/pages/base_page_master.html:16
 msgctxt "Page title"
 msgid "Donate to Mozilla"
 msgstr "Giv et bidrag til Mozilla"
@@ -207,27 +207,27 @@ msgstr "Bidrag går til Mozilla Foundation, en 501(c)(3)-organisation beliggende
 msgid "Language"
 msgstr "Sprog"
 
-#: donate/templates/pages/base_page_master.html:28
+#: donate/templates/pages/base_page_master.html:27
 msgid "Who we are"
 msgstr "Hvem vi er"
 
-#: donate/templates/pages/base_page_master.html:31
+#: donate/templates/pages/base_page_master.html:30
 msgid "What we do"
 msgstr "Hvad vi gør"
 
-#: donate/templates/pages/base_page_master.html:34
+#: donate/templates/pages/base_page_master.html:33
 msgid "What we fund"
 msgstr "Hvad vi finansierer"
 
-#: donate/templates/pages/base_page_master.html:37
+#: donate/templates/pages/base_page_master.html:36
 msgid "What you can do"
 msgstr "Hvad du kan gøre"
 
-#: donate/templates/pages/base_page_master.html:40
+#: donate/templates/pages/base_page_master.html:39
 msgid "Blog"
 msgstr "Blog"
 
-#: donate/templates/pages/base_page_master.html:184
+#: donate/templates/pages/base_page_master.html:183
 #, python-format
 msgid "Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a %(fomo_link_attributes)s>%(fomo_site_url)s</a>. Most content available under a <a %(cc_link_attributes)s>Creative Commons license</a>."
 msgstr "Mozilla er en verdensomspændende nonprofit-organisation. Vores mål er at give dig kontrollen over din oplevelse på nettet, samtidig med at vi arbejder på at forme fremtidens internet for det fælles bedste. Besøg os på <a %(fomo_link_attributes)s>%(fomo_site_url)s</a>. Det meste indhold er tilgængeligt under en <a %(cc_link_attributes)s>Creative Commons-licens</a>."
@@ -560,19 +560,19 @@ msgid "Your Details"
 msgstr "Dine betalingsoplysninger"
 
 #: donate/templates/payment/card_master.html:60
+msgid "We were unable to take payment because the payment processor reported an error with your address information:"
+msgstr "Vi kunne ikke gennemføre betalingen, fordi betalingsbehandleren rapporterede en fejl med din adresseinformation:"
+
+#: donate/templates/payment/card_master.html:64
+msgid "Please correct these errors and try again."
+msgstr "Ret disse fejl, og prøv igen."
+
+#: donate/templates/payment/card_master.html:68
 #: donate/templates/payment/card_upsell_master.html:34
 #: donate/templates/payment/newsletter_signup_master.html:30
 #: donate/templates/payment/paypal_upsell_master.html:34
 msgid "There were some errors with your form. Please amend the fields highlighted below."
 msgstr "Der var nogle fejl i din formular. Ret felterne som er fremhævet nedenfor."
-
-#: donate/templates/payment/card_master.html:64
-msgid "We were unable to take payment because the payment processor reported an error with your address information:"
-msgstr "Vi kunne ikke gennemføre betalingen, fordi betalingsbehandleren rapporterede en fejl med din adresseinformation:"
-
-#: donate/templates/payment/card_master.html:68
-msgid "Please correct these errors and try again."
-msgstr "Ret disse fejl, og prøv igen."
 
 #: donate/templates/payment/card_master.html:91
 msgid "Payment"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-11 17:39+0000\n"
+"POT-Creation-Date: 2022-02-02 09:37+0000\n"
 "PO-Revision-Date: 2021-07-24 20:12+0000\n"
 "Last-Translator: snow <cristian.silaghi@mozilla.ro>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,6 +20,7 @@ msgstr ""
 "X-Generator: Pontoon\n"
 
 #: donate/core/translation.py:12 donate/payments/forms.py:91
+#: donate/templates/forms/form_field.html:21
 msgid "This field is required."
 msgstr "Acest câmp este necesar."
 
@@ -129,9 +130,8 @@ msgid "Go to our home page"
 msgstr "Accesează pagina ta de start"
 
 #: donate/templates/base_master.html:8
-#: donate/templates/pages/base_page_master.html:8
+#: donate/templates/pages/base_page_master.html:14
 #: donate/templates/pages/base_page_master.html:15
-#: donate/templates/pages/base_page_master.html:16
 msgctxt "Page title"
 msgid "Donate to Mozilla"
 msgstr "Donează pentru Mozilla"
@@ -207,27 +207,27 @@ msgstr "Contribuțiile merg către Mozilla Foundation, o organizație constituit
 msgid "Language"
 msgstr "Limbă"
 
-#: donate/templates/pages/base_page_master.html:28
+#: donate/templates/pages/base_page_master.html:27
 msgid "Who we are"
 msgstr ""
 
-#: donate/templates/pages/base_page_master.html:31
+#: donate/templates/pages/base_page_master.html:30
 msgid "What we do"
 msgstr ""
 
-#: donate/templates/pages/base_page_master.html:34
+#: donate/templates/pages/base_page_master.html:33
 msgid "What we fund"
 msgstr ""
 
-#: donate/templates/pages/base_page_master.html:37
+#: donate/templates/pages/base_page_master.html:36
 msgid "What you can do"
 msgstr ""
 
-#: donate/templates/pages/base_page_master.html:40
+#: donate/templates/pages/base_page_master.html:39
 msgid "Blog"
 msgstr ""
 
-#: donate/templates/pages/base_page_master.html:184
+#: donate/templates/pages/base_page_master.html:183
 #, python-format
 msgid "Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a %(fomo_link_attributes)s>%(fomo_site_url)s</a>. Most content available under a <a %(cc_link_attributes)s>Creative Commons license</a>."
 msgstr "Mozilla este o organizație nonprofit globală dedicată să îți redea controlul asupra experienței online și să modeleze viitorul webului pentru binele public. Vizitează-ne la <a %(fomo_link_attributes)s>%(fomo_site_url)s</a>. Majoritatea conținutul este disponibil sub o <a %(cc_link_attributes)s>licență Creative Commons</a>."
@@ -561,19 +561,19 @@ msgid "Your Details"
 msgstr "Detaliile tale"
 
 #: donate/templates/payment/card_master.html:60
+msgid "We were unable to take payment because the payment processor reported an error with your address information:"
+msgstr "Nu am reușit să preluăm plata deoarece procesatorul de plăți a raportat o eroare legată de adresa ta:"
+
+#: donate/templates/payment/card_master.html:64
+msgid "Please correct these errors and try again."
+msgstr "Te rugăm să corectezi aceste erori și să încerci din nou."
+
+#: donate/templates/payment/card_master.html:68
 #: donate/templates/payment/card_upsell_master.html:34
 #: donate/templates/payment/newsletter_signup_master.html:30
 #: donate/templates/payment/paypal_upsell_master.html:34
 msgid "There were some errors with your form. Please amend the fields highlighted below."
 msgstr "Au fost câteva erori cu formularul tău. Te rugăm să modifici câmpurile evidențiate mai jos."
-
-#: donate/templates/payment/card_master.html:64
-msgid "We were unable to take payment because the payment processor reported an error with your address information:"
-msgstr "Nu am reușit să preluăm plata deoarece procesatorul de plăți a raportat o eroare legată de adresa ta:"
-
-#: donate/templates/payment/card_master.html:68
-msgid "Please correct these errors and try again."
-msgstr "Te rugăm să corectezi aceste erori și să încerci din nou."
 
 #: donate/templates/payment/card_master.html:91
 msgid "Payment"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-11 17:40+0000\n"
+"POT-Creation-Date: 2022-02-02 09:37+0000\n"
 "PO-Revision-Date: 2019-11-06 21:39+0000\n"
 "Last-Translator: Enol <enolp@softastur.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,36 +19,27 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: donate/frontend/_js/main.compiled.js:16 maintenance/static/_js/main.js:16
+#: maintenance/static/_js/main.js:16
 #: source/js/components/currency-selector.js:91
 msgid "per month"
 msgstr "per mes"
 
-#: donate/frontend/_js/main.compiled.js:16 maintenance/static/_js/main.js:16
+#: maintenance/static/_js/main.js:16
 msgid "Other amount"
 msgstr "Otra cantidá"
 
-#: donate/frontend/_js/payments-card.compiled.js:1
-#: donate/frontend/_js/payments-paypal-upsell.compiled.js:1
-#: donate/frontend/_js/payments-paypal.compiled.js:1
-#: source/js/components/paypal.js:14 source/js/payments-card.js:15
+#: source/js/components/paypal.js:14 source/js/payments-card.js:16
 msgid "An error occurred. Please reload the page or try again later."
 msgstr "Asocedió un fallu. Recarga la páxina volvi tentalo dempués, por favor."
 
-#: donate/frontend/_js/payments-card.compiled.js:1
-#: donate/frontend/_js/payments-paypal-upsell.compiled.js:1
-#: donate/frontend/_js/payments-paypal.compiled.js:1
-#: source/js/components/paypal.js:17 source/js/payments-card.js:142
+#: source/js/components/paypal.js:17 source/js/payments-card.js:218
 msgid "There was an error processing your payment. Please try again."
 msgstr "Hebo un fallu al procesar el pagu. Volvi tentalo dempués, por favor."
 
-#: donate/frontend/_js/payments-card.compiled.js:1
-#: source/js/payments-card.js:162
-msgid "Some of the fields below are invalid. Please correct the invalid fields and try again."
-msgstr "Dalgunos campos nun son válidos. Corríxilos y volvi tentalo, por favor."
-
-#: donate/frontend/_js/payments-paypal-upsell.compiled.js:1
-#: donate/frontend/_js/payments-paypal.compiled.js:1
 #: source/js/components/paypal.js:94
 msgid "Payment cancelled"
 msgstr "Encaboxóse'l pagu"
+
+#: source/js/payments-card.js:238
+msgid "Some of the fields below are invalid. Please correct the invalid fields and try again."
+msgstr "Dalgunos campos nun son válidos. Corríxilos y volvi tentalo, por favor."
