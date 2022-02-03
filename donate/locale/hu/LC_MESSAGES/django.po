@@ -2,14 +2,14 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-03 09:49+0000\n"
-"PO-Revision-Date: 2021-12-16 13:17+0000\n"
+"PO-Revision-Date: 2022-02-03 10:03+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hu\n"
@@ -19,8 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: donate/core/translation.py:12 donate/payments/forms.py:91
-#: donate/templates/forms/form_field.html:21
+#: donate/core/translation.py:12 donate/payments/forms.py:91 donate/templates/forms/form_field.html:21
 msgid "This field is required."
 msgstr "Ez a mező kötelező."
 
@@ -37,8 +36,7 @@ msgstr "Adjon meg egy érvényes e-mail címet."
 msgid "Donations must be %(amount)s or more"
 msgstr "Az adománynak legalább %(amount)s értékűnek kell lennie"
 
-#: donate/payments/forms.py:96 donate/payments/forms.py:110
-#: donate/payments/forms.py:161
+#: donate/payments/forms.py:96 donate/payments/forms.py:110 donate/payments/forms.py:161
 msgid "Amount"
 msgstr "Összeg"
 
@@ -50,8 +48,7 @@ msgstr "Utónév"
 msgid "Last name"
 msgstr "Vezetéknév"
 
-#: donate/payments/forms.py:125 donate/payments/forms.py:171
-#: donate/templates/pages/core/contributor_support_page_master.html:92
+#: donate/payments/forms.py:125 donate/payments/forms.py:171 donate/templates/pages/core/contributor_support_page_master.html:92
 msgid "Email"
 msgstr "E-mail"
 
@@ -129,9 +126,7 @@ msgstr "Sajnáljuk, az oldal nem létezik"
 msgid "Go to our home page"
 msgstr "Ugrás a kezdőlapunkra"
 
-#: donate/templates/base_master.html:8
-#: donate/templates/pages/base_page_master.html:14
-#: donate/templates/pages/base_page_master.html:15
+#: donate/templates/base_master.html:8 donate/templates/pages/base_page_master.html:14 donate/templates/pages/base_page_master.html:15
 msgctxt "Page title"
 msgid "Donate to Mozilla"
 msgstr "Adományozzon a Mozillának"
@@ -144,31 +139,23 @@ msgstr "EGYSZERI"
 msgid "MONTHLY"
 msgstr "HAVI"
 
-#: donate/templates/fragments/donate_form.html:41
-#: donate/templates/fragments/donate_form.html:42
-#: donate/templates/fragments/donate_form.html:112
-#: donate/templates/fragments/donate_form.html:113
+#: donate/templates/fragments/donate_form.html:41 donate/templates/fragments/donate_form.html:42 donate/templates/fragments/donate_form.html:112 donate/templates/fragments/donate_form.html:113
 msgid "Other amount"
 msgstr "Más összeg"
 
-#: donate/templates/fragments/donate_form.html:45
-#: donate/templates/fragments/donate_form.html:116
+#: donate/templates/fragments/donate_form.html:45 donate/templates/fragments/donate_form.html:116
 msgid "Invalid amount entered."
 msgstr "Érvénytelen beírt összeg."
 
-#: donate/templates/fragments/donate_form.html:52
-#: donate/templates/fragments/donate_form.html:123
+#: donate/templates/fragments/donate_form.html:52 donate/templates/fragments/donate_form.html:123
 msgid "Choose Payment"
 msgstr "Fizetési mód"
 
-#: donate/templates/fragments/donate_form.html:58
-#: donate/templates/fragments/donate_form.html:129
-#: donate/templates/payment/card_master.html:97
+#: donate/templates/fragments/donate_form.html:58 donate/templates/fragments/donate_form.html:129 donate/templates/payment/card_master.html:97
 msgid "SECURE"
 msgstr "BIZTONSÁGOS"
 
-#: donate/templates/fragments/donate_form.html:64
-#: donate/templates/fragments/donate_form.html:135
+#: donate/templates/fragments/donate_form.html:64 donate/templates/fragments/donate_form.html:135
 msgid "Donate"
 msgstr "Adományozás"
 
@@ -178,32 +165,41 @@ msgstr "havonta"
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:6
 #, python-format
-msgid "Mozilla is committed to your privacy; please read our <a href=\"%(privacy_url)s\">privacy policy here</a>. Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Mozilla."
-msgstr "A Mozilla elkötelezett az adatvédelem iránt; olvassa el az <a href=\"%(privacy_url)s\">adatvédelmi nyilatkozatunkat itt</a>. A fizetési adatait a <a href=\"%(braintree_url)s\">Braintree</a>, a PayPal leányvállalata (bankkártya esetén) vagy a <a href=\"%(paypal_url)s\">PayPal</a> fogja feldolgozni, az adományának nyilvántartását pedig a Mozilla fogja végezni."
+msgid ""
+"Mozilla is committed to your privacy; please read our <a href=\"%(privacy_url)s\">privacy policy here</a>. Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a "
+"PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Mozilla."
+msgstr ""
+"A Mozilla elkötelezett az adatvédelem iránt; olvassa el az <a href=\"%(privacy_url)s\">adatvédelmi nyilatkozatunkat itt</a>. A fizetési adatait a <a href=\"%(braintree_url)s\">Braintree</a>, a "
+"PayPal leányvállalata (bankkártya esetén) vagy a <a href=\"%(paypal_url)s\">PayPal</a> fogja feldolgozni, az adományának nyilvántartását pedig a Mozilla fogja végezni."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:9
 #, python-format
 msgid "Monthly donations are charged each month on the same day that you donate today, and will continue until you cancel. To cancel, email us at <a href=\"mailto:%(email)s\">%(email)s</a>."
-msgstr "A havi adományok minden hónapban ugyanakkor kerülnek levonásra, és ez addig folytatódik, amíg le nem mondja. A lemondáshoz írjon nekünk egy levelet a következő címre: <a href=\"mailto:%(email)s\">%(email)s</a>."
+msgstr ""
+"A havi adományok minden hónapban ugyanakkor kerülnek levonásra, és ez addig folytatódik, amíg le nem mondja. A lemondáshoz írjon nekünk egy levelet a következő címre: <a "
+"href=\"mailto:%(email)s\">%(email)s</a>."
 
-#: donate/templates/fragments/donate_form_disclaimer_master.html:28
-#: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:7
+#: donate/templates/fragments/donate_form_disclaimer_master.html:28 donate/thunderbird/templates/fragments/donate_form_disclaimer.html:7
 #, python-format
 msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a>"
 msgstr "Az adományozás más módjai: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Csekk</a>"
 
-#: donate/templates/fragments/donate_form_disclaimer_master.html:38
-#: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:21
+#: donate/templates/fragments/donate_form_disclaimer_master.html:38 donate/thunderbird/templates/fragments/donate_form_disclaimer.html:21
 #, python-format
 msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"%(help_url)s\">Contact us</a>."
-msgstr "Problémái vannak az adományozással? A leggyakoribb kérdésekre vonatkozó válaszokért keresse fel a <a href=\"%(faq_url)s\">GYIK-ot</a>. Még mindig vannak problémái? <a href=\"%(help_url)s\">Küldjön nekünk egy e-mailt</a>."
+msgstr ""
+"Problémái vannak az adományozással? A leggyakoribb kérdésekre vonatkozó válaszokért keresse fel a <a href=\"%(faq_url)s\">GYIK-ot</a>. Még mindig vannak problémái? <a href=\"%(help_url)s\">Küldjön "
+"nekünk egy e-mailt</a>."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:45
-msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in San Francisco, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
-msgstr "A hozzájárulások a Mozilla Foundationhöz kerülnek, amely egy San Franciscóban, Kaliforniában bejegyzett alapítvány (501(c)(3) szervezet). A hozzájárulások belátás szerint használhatóak fel, jótékonysági célokra. A hozzájárulás az USA-ban adóból levonható, a törvény által maximálisan megengedett mértékben."
+msgid ""
+"Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in San Francisco, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S."
+" to the fullest extent permitted by law."
+msgstr ""
+"A hozzájárulások a Mozilla Foundationhöz kerülnek, amely egy San Franciscóban, Kaliforniában bejegyzett alapítvány (501(c)(3) szervezet). A hozzájárulások belátás szerint használhatóak fel, "
+"jótékonysági célokra. A hozzájárulás az USA-ban adóból levonható, a törvény által maximálisan megengedett mértékben."
 
-#: donate/templates/fragments/language_switcher.html:10
-#: donate/templates/pages/core/contributor_support_page_master.html:97
+#: donate/templates/fragments/language_switcher.html:10 donate/templates/pages/core/contributor_support_page_master.html:97
 msgid "Language"
 msgstr "Nyelv"
 
@@ -229,24 +225,23 @@ msgstr "Blog"
 
 #: donate/templates/pages/base_page_master.html:183
 #, python-format
-msgid "Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a %(fomo_link_attributes)s>%(fomo_site_url)s</a>. Most content available under a <a %(cc_link_attributes)s>Creative Commons license</a>."
-msgstr "A Mozilla egy globális nonprofit szervezet, amely elkötelezett abban, hogy az Ön kezébe adja az online élményének irányítását, és a web jövőjének alakítását a közjó érdekében. Látogasson meg minket a <a %(fomo_link_attributes)s>%(fomo_site_url)s</a> webhelyen. A legtöbb tartalom <a %(cc_link_attributes)s>Creative Commons licenc</a> alatt érhető el."
+msgid ""
+"Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a "
+"%(fomo_link_attributes)s>%(fomo_site_url)s</a>. Most content available under a <a %(cc_link_attributes)s>Creative Commons license</a>."
+msgstr ""
+"A Mozilla egy globális nonprofit szervezet, amely elkötelezett abban, hogy az Ön kezébe adja az online élményének irányítását, és a web jövőjének alakítását a közjó érdekében. Látogasson meg minket "
+"a <a %(fomo_link_attributes)s>%(fomo_site_url)s</a> webhelyen. A legtöbb tartalom <a %(cc_link_attributes)s>Creative Commons licenc</a> alatt érhető el."
 
-#: donate/templates/pages/core/campaign_page.html:43
-#: donate/templates/pages/core/ways_to_give_page_master.html:12
+#: donate/templates/pages/core/campaign_page.html:43 donate/templates/pages/core/ways_to_give_page_master.html:12
 msgctxt "Button"
 msgid "DONATE NOW"
 msgstr "ADOMÁNYOZZON MOST"
 
-#: donate/templates/pages/core/campaign_page.html:57
-#: donate/templates/pages/core/landing_page_master.html:36
-#: donate/templates/payment/card_master.html:167
+#: donate/templates/pages/core/campaign_page.html:57 donate/templates/pages/core/landing_page_master.html:36 donate/templates/payment/card_master.html:167
 msgid "Seal of Charity Navigator 4-Star"
 msgstr "A Charity Navigator 4 csillagos pecsétje"
 
-#: donate/templates/pages/core/campaign_page.html:60
-#: donate/templates/pages/core/landing_page_master.html:39
-#: donate/templates/payment/card_master.html:170
+#: donate/templates/pages/core/campaign_page.html:60 donate/templates/pages/core/landing_page_master.html:39 donate/templates/payment/card_master.html:170
 msgid "Seal of GuideStar Gold 2019"
 msgstr "A GuideStar Gold 2019 pecsétje"
 
@@ -255,13 +250,11 @@ msgctxt "Header"
 msgid "Donate now"
 msgstr "Adományozzon most"
 
-#: donate/templates/pages/core/campaign_page.html:84
-#: donate/templates/pages/core/landing_page_master.html:61
+#: donate/templates/pages/core/campaign_page.html:84 donate/templates/pages/core/landing_page_master.html:61
 msgid "Your donation is being processed..."
 msgstr "Adományának feldolgozása folyamatban van..."
 
-#: donate/templates/pages/core/campaign_page.html:93
-#: donate/templates/pages/core/landing_page_master.html:71
+#: donate/templates/pages/core/campaign_page.html:93 donate/templates/pages/core/landing_page_master.html:71
 msgid "One moment while we get all the details right!"
 msgstr "Egy pillanat, amíg minden részletet tisztázunk!"
 
@@ -275,12 +268,18 @@ msgstr "Hamarosan kapcsolatba lépünk Önnel."
 
 #: donate/templates/pages/core/contributor_support_page_master.html:67
 msgid "If you need help with a donation to the Mozilla Foundation, please fill out this form and a donor care representative will get back to you as soon as possible."
-msgstr "Ha segítségre van szüksége a Mozilla Alapítványnak történő adományozással kapcsolatban, akkor töltse ki ezt az űrlapot, és egy adományozással foglalkozó képviselő a lehető leghamarabb felveszi Önnel a kapcsolatot."
+msgstr ""
+"Ha segítségre van szüksége a Mozilla Alapítványnak történő adományozással kapcsolatban, akkor töltse ki ezt az űrlapot, és egy adományozással foglalkozó képviselő a lehető leghamarabb felveszi Önnel"
+" a kapcsolatot."
 
 #: donate/templates/pages/core/contributor_support_page_master.html:72
 #, python-format
-msgid "Unfortunately, donor care representatives are unable to offer support or help with Firefox technical issues. For technical support, please visit the <a href=\"%(support_url)s\">Firefox support page</a>."
-msgstr "Sajnos az adománygondozó képviselők nem tudnak támogatást vagy segítséget nyújtani a Firefox műszaki problémáival kapcsolatban. Műszaki támogatásért keresse fel a <a href=\"%(support_url)s\">Firefox támogatási oldalt</a>."
+msgid ""
+"Unfortunately, donor care representatives are unable to offer support or help with Firefox technical issues. For technical support, please visit the <a href=\"%(support_url)s\">Firefox support "
+"page</a>."
+msgstr ""
+"Sajnos az adománygondozó képviselők nem tudnak támogatást vagy segítséget nyújtani a Firefox műszaki problémáival kapcsolatban. Műszaki támogatásért keresse fel a <a href=\"%(support_url)s\">Firefox"
+" támogatási oldalt</a>."
 
 #: donate/templates/pages/core/contributor_support_page_master.html:87
 msgid "Contact Name"
@@ -359,14 +358,14 @@ msgstr "Leírás"
 #: donate/templates/pages/core/contributor_support_page_master.html:130
 #, python-format
 msgid "Mozilla will only use your submitted information for purposes of communicating with you about your request. See our <a href=\"%(privacy_policy)s\">privacy policy</a> for further information."
-msgstr "A Mozilla a benyújtott információkat csak az Ön kérésével kapcsolatos kommunikációra használja. További információkért tekintse meg az <a href=\"%(privacy_policy)s\">adatvédelmi irányelveinket</a>."
+msgstr ""
+"A Mozilla a benyújtott információkat csak az Ön kérésével kapcsolatos kommunikációra használja. További információkért tekintse meg az <a href=\"%(privacy_policy)s\">adatvédelmi irányelveinket</a>."
 
 #: donate/templates/pages/core/contributor_support_page_master.html:142
 msgid "Submit"
 msgstr "Elküldés"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:4
-#: donate/templates/pages/core/ways_to_give_page_master.html:11
+#: donate/templates/pages/core/ways_to_give_page_master.html:4 donate/templates/pages/core/ways_to_give_page_master.html:11
 msgid "Ways to Give"
 msgstr "Az adományozás módjai"
 
@@ -379,8 +378,7 @@ msgstr "Bankkártya és PayPal"
 msgid "<a href=\"%(ways_to_give_link)s\">Go to this link</a> to make a secure online donation right now."
 msgstr "<a href=\"%(ways_to_give_link)s\">Kattintson erre a hivatkozásra</a>, hogy biztonságosan adományozhasson."
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:24
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:7
+#: donate/templates/pages/core/ways_to_give_page_master.html:24 donate/thunderbird/templates/pages/core/ways_to_give_page.html:7
 msgid "Bank Transfer / SEPA"
 msgstr "Banki átutalás / SEPA"
 
@@ -389,103 +387,90 @@ msgid "We accept donations in Euros through Single European Payment Area (SEPA) 
 msgstr "Most már el tudjuk fogadni az euróban érkező adományokat Single European Payment Area (SEPA) átutalással, valamint brit fontot BACS átutalással."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:27
-msgid "Note that for smaller (under 10 EUR or equivalent) donations, <strong>and especially for donations under 5 EUR or equivalent</strong>, we request that you donate via credit card or PayPal to help reduce Mozilla’s processing fees."
-msgstr "Vegye figyelembe, hogy kisebb (10 EUR vagy azzal egyenértékű összeg alatti) adományok <strong>és különösen az 5 EUR vagy azzal egyenértékű összeg alatti adományok esetén</strong> kérjük, hogy bankkártyával vagy PayPallal adományozzon a Mozilla feldolgozási költségeinek csökkentése érdekében."
+msgid ""
+"Note that for smaller (under 10 EUR or equivalent) donations, <strong>and especially for donations under 5 EUR or equivalent</strong>, we request that you donate via credit card or PayPal to help "
+"reduce Mozilla’s processing fees."
+msgstr ""
+"Vegye figyelembe, hogy kisebb (10 EUR vagy azzal egyenértékű összeg alatti) adományok <strong>és különösen az 5 EUR vagy azzal egyenértékű összeg alatti adományok esetén</strong> kérjük, hogy "
+"bankkártyával vagy PayPallal adományozzon a Mozilla feldolgozási költségeinek csökkentése érdekében."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:32
 #, python-format
-msgid "Please also note that the Mozilla Foundation cannot accept SEPA or BACS transfers for MZLA/Thunderbird. To contribute to MZLA/Thunderbird via SEPA or BACS transfer, please follow <a href=\"%(instruction_url)s\">these instructions</a>."
-msgstr "Felhívjuk figyelmét arra is, hogy a Mozilla Alapítvány nem fogad el SEPA- vagy BACS-átutalásokat az MZLA/Thunderbirdhöz. Ha SEPA- vagy BACS-átutalással szeretne hozzájárulni az MZLA/Thunderbirdhöz, kövesse <a href=\"%(instruction_url)s\">ezeket az utasításokat</a>."
+msgid ""
+"Please also note that the Mozilla Foundation cannot accept SEPA or BACS transfers for MZLA/Thunderbird. To contribute to MZLA/Thunderbird via SEPA or BACS transfer, please follow <a "
+"href=\"%(instruction_url)s\">these instructions</a>."
+msgstr ""
+"Felhívjuk figyelmét arra is, hogy a Mozilla Alapítvány nem fogad el SEPA- vagy BACS-átutalásokat az MZLA/Thunderbirdhöz. Ha SEPA- vagy BACS-átutalással szeretne hozzájárulni az MZLA/Thunderbirdhöz, "
+"kövesse <a href=\"%(instruction_url)s\">ezeket az utasításokat</a>."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:36
 msgid "Please remember that donations are deductible for U.S. income tax purposes only."
 msgstr "Ne feledje, hogy az adományok csak USA-beli jövedelemadózási célok esetén vonhatók le az adóból."
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:38
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:15
+#: donate/templates/pages/core/ways_to_give_page_master.html:38 donate/thunderbird/templates/pages/core/ways_to_give_page.html:15
 #, python-format
 msgid "If your bank requests our physical address, it is %(address)s."
 msgstr "Ha a bank a valódi címünket kéri, akkor az: %(address)s."
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:45
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:22
+#: donate/templates/pages/core/ways_to_give_page_master.html:45 donate/thunderbird/templates/pages/core/ways_to_give_page.html:22
 msgid "Euros:"
 msgstr "Euró:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:47
-#: donate/templates/pages/core/ways_to_give_page_master.html:60
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:24
+#: donate/templates/pages/core/ways_to_give_page_master.html:47 donate/templates/pages/core/ways_to_give_page_master.html:60 donate/thunderbird/templates/pages/core/ways_to_give_page.html:24
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:37
 msgid "Account Currency:"
 msgstr "Számla pénzneme:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:47
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:24
+#: donate/templates/pages/core/ways_to_give_page_master.html:47 donate/thunderbird/templates/pages/core/ways_to_give_page.html:24
 msgid "Euro (EUR)"
 msgstr "Euró (EUR)"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:48
-#: donate/templates/pages/core/ways_to_give_page_master.html:61
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:25
+#: donate/templates/pages/core/ways_to_give_page_master.html:48 donate/templates/pages/core/ways_to_give_page_master.html:61 donate/thunderbird/templates/pages/core/ways_to_give_page.html:25
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:38
 msgid "Receiving Bank (Pay to):"
 msgstr "Fogadó bank:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:49
-#: donate/templates/pages/core/ways_to_give_page_master.html:62
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:26
+#: donate/templates/pages/core/ways_to_give_page_master.html:49 donate/templates/pages/core/ways_to_give_page_master.html:62 donate/thunderbird/templates/pages/core/ways_to_give_page.html:26
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:39
 msgid "City & Country/Region:"
 msgstr "Város és ország/régió:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:49
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:26
+#: donate/templates/pages/core/ways_to_give_page_master.html:49 donate/thunderbird/templates/pages/core/ways_to_give_page.html:26
 msgid "Frankfurt, Germany"
 msgstr "Frankfurt, Németország"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:50
-#: donate/templates/pages/core/ways_to_give_page_master.html:68
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:27
+#: donate/templates/pages/core/ways_to_give_page_master.html:50 donate/templates/pages/core/ways_to_give_page_master.html:68 donate/thunderbird/templates/pages/core/ways_to_give_page.html:27
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:45
 msgid "SWIFT/BIC Code:"
 msgstr "SWIFT/BIC-kód:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:51
-#: donate/templates/pages/core/ways_to_give_page_master.html:65
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:28
+#: donate/templates/pages/core/ways_to_give_page_master.html:51 donate/templates/pages/core/ways_to_give_page_master.html:65 donate/thunderbird/templates/pages/core/ways_to_give_page.html:28
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:42
 msgid "Beneficiary Name (For credit to):"
 msgstr "Kedvezményezett neve:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:52
-#: donate/templates/pages/core/ways_to_give_page_master.html:69
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:29
+#: donate/templates/pages/core/ways_to_give_page_master.html:52 donate/templates/pages/core/ways_to_give_page_master.html:69 donate/thunderbird/templates/pages/core/ways_to_give_page.html:29
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:46
 msgid "IBAN:"
 msgstr "IBAN:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:58
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:35
+#: donate/templates/pages/core/ways_to_give_page_master.html:58 donate/thunderbird/templates/pages/core/ways_to_give_page.html:35
 msgid "British Pound Sterling:"
 msgstr "Brit font sterling:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:60
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:37
+#: donate/templates/pages/core/ways_to_give_page_master.html:60 donate/thunderbird/templates/pages/core/ways_to_give_page.html:37
 msgid "British Pound Sterling (GBP)"
 msgstr "Brit font sterling (GBP)"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:62
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:39
+#: donate/templates/pages/core/ways_to_give_page_master.html:62 donate/thunderbird/templates/pages/core/ways_to_give_page.html:39
 msgid "London, United Kingdom"
 msgstr "London, Egyesült Királyság"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:63
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:40
+#: donate/templates/pages/core/ways_to_give_page_master.html:63 donate/thunderbird/templates/pages/core/ways_to_give_page.html:40
 msgid "Bank Sort Code:"
 msgstr "Bankazonosító-kód:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:64
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:41
+#: donate/templates/pages/core/ways_to_give_page_master.html:64 donate/thunderbird/templates/pages/core/ways_to_give_page.html:41
 msgid "Account Number (8 digits):"
 msgstr "Számlaszám (8 számjegy):"
 
@@ -495,8 +480,12 @@ msgstr "Részvény-/értékpapír-adomány:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:77
 #, python-format
-msgid "The Mozilla Foundation is happy to accept your gift of publicly-traded stocks or bonds through our brokerage account at Northern Trust Securities. Please contact Major Gift Officer %(name)s at <a href=\"mailto:%(email)s\">%(email)s</a> to initiate the process."
-msgstr "A Mozilla Alapítvány szívesen fogadja a nyilvános részvénytársaságok részvényeinek vagy kötvényeinek felajánlását a Northern Trust Securities vállalatnál vezetett brókerszámlán keresztül. A folyamat elindításához vegye fel a kapcsolatot a fő adományozási tisztviselőnkkel: %(name)s (<a href=\"mailto:%(email)s\">%(email)s</a>)."
+msgid ""
+"The Mozilla Foundation is happy to accept your gift of publicly-traded stocks or bonds through our brokerage account at Northern Trust Securities. Please contact Major Gift Officer %(name)s at <a "
+"href=\"mailto:%(email)s\">%(email)s</a> to initiate the process."
+msgstr ""
+"A Mozilla Alapítvány szívesen fogadja a nyilvános részvénytársaságok részvényeinek vagy kötvényeinek felajánlását a Northern Trust Securities vállalatnál vezetett brókerszámlán keresztül. A folyamat"
+" elindításához vegye fel a kapcsolatot a fő adományozási tisztviselőnkkel: %(name)s (<a href=\"mailto:%(email)s\">%(email)s</a>)."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:86
 msgid "Check (via postal service)"
@@ -507,18 +496,25 @@ msgid "UPDATE October 2020:"
 msgstr "2020. októberi frissítés:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:91
-msgid "The Mozilla Foundation is happy to accept your donation (made payable to “Mozilla Foundation”) via check; however please note that processing and acknowledgment of your gift may be delayed by changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
-msgstr "A Mozilla Alapítvány örömmel fogadja el a csekken küldött (a „Mozilla Foundation” számára kiállított) adományát; azonban vegye figyelembe, hogy adományának feldolgozását és átvételét késleltethetik az irodai eljárásaink COVID-19-járvány miatti változásai. Csekkeket a következő címre küldhet:"
+msgid ""
+"The Mozilla Foundation is happy to accept your donation (made payable to “Mozilla Foundation”) via check; however please note that processing and acknowledgment of your gift may be delayed by "
+"changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
+msgstr ""
+"A Mozilla Alapítvány örömmel fogadja el a csekken küldött (a „Mozilla Foundation” számára kiállított) adományát; azonban vegye figyelembe, hogy adományának feldolgozását és átvételét késleltethetik "
+"az irodai eljárásaink COVID-19-járvány miatti változásai. Csekkeket a következő címre küldhet:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:108
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:67
+#: donate/templates/pages/core/ways_to_give_page_master.html:108 donate/thunderbird/templates/pages/core/ways_to_give_page.html:67
 msgid "Please include your email address on the memo line of your check to help us track and attribute your gift."
 msgstr "Kérjük, adja meg e-mail-címét a csekk emlékeztető sorában, hogy segítsen nekünk az adomány nyomon követésében és névhez kötésében."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:115
 #, python-format
-msgid "Please also note that the Mozilla Foundation can <strong>only</strong> accept checks in U.S. dollars drawn on a U.S. bank, and <strong>cannot</strong> accept contributions for MZLA/Thunderbird. (Contributions to MZLA/Thunderbird via check can be made by following <a href=\"%(instruction_url)s\" target=\"_blank\">these instructions</a>.)"
-msgstr "Felhívjuk figyelmét arra is, hogy a Mozilla Alapítvány <strong>csak</strong> amerikai dollárban fogadhat el amerikai bank általi csekkeket, és <strong>nem fogadhat el</strong> hozzájárulást az MZLA/Thunderbirdhöz. (Az MZLA/Thunderbirdhöz való csekken keresztüli hozzájáruláshoz kövesse <a href=\"%(instruction_url)s\" target=\"_blank\">ezeket az utasításokat</a>.)"
+msgid ""
+"Please also note that the Mozilla Foundation can <strong>only</strong> accept checks in U.S. dollars drawn on a U.S. bank, and <strong>cannot</strong> accept contributions for MZLA/Thunderbird. "
+"(Contributions to MZLA/Thunderbird via check can be made by following <a href=\"%(instruction_url)s\" target=\"_blank\">these instructions</a>.)"
+msgstr ""
+"Felhívjuk figyelmét arra is, hogy a Mozilla Alapítvány <strong>csak</strong> amerikai dollárban fogadhat el amerikai bank általi csekkeket, és <strong>nem fogadhat el</strong> hozzájárulást az "
+"MZLA/Thunderbirdhöz. (Az MZLA/Thunderbirdhöz való csekken keresztüli hozzájáruláshoz kövesse <a href=\"%(instruction_url)s\" target=\"_blank\">ezeket az utasításokat</a>.)"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:122
 msgid "Currencies"
@@ -566,9 +562,7 @@ msgstr "Nem tudtuk elfogadni a fizetését, mert a fizetésfeldolgozó hibát je
 msgid "Please correct these errors and try again."
 msgstr "Javítsa ezeket a hibákat és próbálja újra."
 
-#: donate/templates/payment/card_master.html:68
-#: donate/templates/payment/card_upsell_master.html:34
-#: donate/templates/payment/newsletter_signup_master.html:30
+#: donate/templates/payment/card_master.html:68 donate/templates/payment/card_upsell_master.html:34 donate/templates/payment/newsletter_signup_master.html:30
 #: donate/templates/payment/paypal_upsell_master.html:34
 msgid "There were some errors with your form. Please amend the fields highlighted below."
 msgstr "Volt néhány hiba az űrlapon. Módosítsa az alább kiemelt mezőket."
@@ -591,8 +585,14 @@ msgstr "CVV"
 
 #: donate/templates/payment/card_master.html:126
 #, python-format
-msgid "I authorize Mozilla Foundation to automatically charge my card every month in the amount indicated above, starting today and continuing each month on the same day, until I cancel. I understand that I must cancel at least 5 days before the next scheduled donation by email to <a href='mailto:%(email)s'>%(email)s</a>, and that I may only request a refund within 15 days from the date of a donation."
-msgstr "Felhatalmazom a Mozilla Alapítványt, hogy havonta automatikusan megterhelje a kártyámat a fent megadott összeggel, a mai nappal kezdve, és azt követően minden hónapban ugyanezen a napon, amíg le nem mondom. Megértettem, hogy legalább 5 nappal a következő ütemezett adományozás előtt kell lemondanom a(z) <a href='mailto:%(email)s'>%(email)s</a> címre küldött e-mailben, és csak az adományozástól számított 15 napon belül kérhetek visszatérítést."
+msgid ""
+"I authorize Mozilla Foundation to automatically charge my card every month in the amount indicated above, starting today and continuing each month on the same day, until I cancel. I understand that "
+"I must cancel at least 5 days before the next scheduled donation by email to <a href='mailto:%(email)s'>%(email)s</a>, and that I may only request a refund within 15 days from the date of a "
+"donation."
+msgstr ""
+"Felhatalmazom a Mozilla Alapítványt, hogy havonta automatikusan megterhelje a kártyámat a fent megadott összeggel, a mai nappal kezdve, és azt követően minden hónapban ugyanezen a napon, amíg le nem"
+" mondom. Megértettem, hogy legalább 5 nappal a következő ütemezett adományozás előtt kell lemondanom a(z) <a href='mailto:%(email)s'>%(email)s</a> címre küldött e-mailben, és csak az adományozástól "
+"számított 15 napon belül kérhetek visszatérítést."
 
 #: donate/templates/payment/card_master.html:128
 msgid "I authorize Mozilla Foundation to charge my card in the amount indicated above. I understand that I may only request a refund within 15 days from the date of the donation."
@@ -612,27 +612,20 @@ msgstr "<span class=\"%(span_class)s\">%(formatted_amount)s</span> adományozás
 msgid "Your donation helps keep the Web open and free. Thank you in advance for your gift."
 msgstr "Az adománya segít, hogy a web nyílt és szabad maradhasson. Előre is köszönjük a felajánlását."
 
-#: donate/templates/payment/card_upsell_master.html:4
-#: donate/templates/payment/paypal_upsell_master.html:4
-#: donate/templates/payment/thank_you_master.html:4
+#: donate/templates/payment/card_upsell_master.html:4 donate/templates/payment/paypal_upsell_master.html:4 donate/templates/payment/thank_you_master.html:4
 msgid "Thank you"
 msgstr "Köszönjük"
 
-#: donate/templates/payment/card_upsell_master.html:13
-#: donate/templates/payment/newsletter_signup_master.html:13
-#: donate/templates/payment/paypal_upsell_master.html:13
-#: donate/templates/payment/thank_you_master.html:12
-#: donate/thunderbird/templates/payment/newsletter_signup.html:6
+#: donate/templates/payment/card_upsell_master.html:13 donate/templates/payment/newsletter_signup_master.html:13 donate/templates/payment/paypal_upsell_master.html:13
+#: donate/templates/payment/thank_you_master.html:12 donate/thunderbird/templates/payment/newsletter_signup.html:6
 msgid "Thank you for your generous gift"
 msgstr "Köszönjük a nagylelkű felajánlását"
 
-#: donate/templates/payment/card_upsell_master.html:17
-#: donate/templates/payment/paypal_upsell_master.html:17
+#: donate/templates/payment/card_upsell_master.html:17 donate/templates/payment/paypal_upsell_master.html:17
 msgid "We’d love to have you as a sustaining supporter of Mozilla. <b>Could you add a monthly donation starting next month?</b>"
 msgstr "Szeretnénk, ha Ön a Mozilla tartós támogatója lenne. <b>Be tudna állítani egy havi adományt a következő hónaptól kezdve?</b>"
 
-#: donate/templates/payment/card_upsell_master.html:21
-#: donate/templates/payment/paypal_upsell_master.html:21
+#: donate/templates/payment/card_upsell_master.html:21 donate/templates/payment/paypal_upsell_master.html:21
 msgid "Yes, I will give:"
 msgstr "Igen, ennyit fogok adni:"
 
@@ -642,15 +635,19 @@ msgstr "Havonta"
 
 #: donate/templates/payment/card_upsell_master.html:48
 #, python-format
-msgid "I authorize Mozilla Foundation to automatically charge my card every month in the amount indicated above, starting next month on the same date as today, and continuing each month afterwards until I cancel. I understand that I must cancel at least 5 days before the next scheduled donation by email to %(email)s, and that I may only request a refund within 15 days from the date of a donation."
-msgstr "Felhatalmazom a Mozilla Alapítványt, hogy havonta automatikusan megterhelje a kártyámat a fent megadott összeggel, a következő hónappal kezdve ugyanazon a napon, mint ma, és azt követően minden hónapban, amíg le nem mondom. Megértettem, hogy legalább 5 nappal a következő ütemezett adományozás előtt kell lemondanom a(z) %(email)s címre küldött e-mailben, és csak az adományozástól számított 15 napon belül kérhetek visszatérítést."
+msgid ""
+"I authorize Mozilla Foundation to automatically charge my card every month in the amount indicated above, starting next month on the same date as today, and continuing each month afterwards until I "
+"cancel. I understand that I must cancel at least 5 days before the next scheduled donation by email to %(email)s, and that I may only request a refund within 15 days from the date of a donation."
+msgstr ""
+"Felhatalmazom a Mozilla Alapítványt, hogy havonta automatikusan megterhelje a kártyámat a fent megadott összeggel, a következő hónappal kezdve ugyanazon a napon, mint ma, és azt követően minden "
+"hónapban, amíg le nem mondom. Megértettem, hogy legalább 5 nappal a következő ütemezett adományozás előtt kell lemondanom a(z) %(email)s címre küldött e-mailben, és csak az adományozástól számított "
+"15 napon belül kérhetek visszatérítést."
 
 #: donate/templates/payment/card_upsell_master.html:53
 msgid "Donate Monthly"
 msgstr "Adományozás havonta"
 
-#: donate/templates/payment/card_upsell_master.html:56
-#: donate/templates/payment/newsletter_signup_master.html:42
+#: donate/templates/payment/card_upsell_master.html:56 donate/templates/payment/newsletter_signup_master.html:42
 msgid "No Thanks"
 msgstr "Köszönöm, nem"
 
@@ -674,8 +671,7 @@ msgstr "havonta"
 msgid "No"
 msgstr "Nem"
 
-#: donate/templates/payment/thank_you_master.html:15
-#: donate/thunderbird/templates/payment/thank_you.html:6
+#: donate/templates/payment/thank_you_master.html:15 donate/thunderbird/templates/payment/thank_you.html:6
 #, python-format
 msgid "We’ve emailed you a donation receipt; if it’s missing, please check your junk/spam folders, then contact us using <a href=\"%(url)s\">this form</a>."
 msgstr "Elküldtük Önnek az adományozás nyugtáját; ha hiányzik, akkor ellenőrizze a levélszemét mappákat, majd vegye fel velünk a kapcsolatot <a href=\"%(url)s\">ezen űrlap</a> kitöltésével."
@@ -694,42 +690,33 @@ msgctxt "Email subject line"
 msgid "I donated to Mozilla today"
 msgstr "Ma támogattam a Mozillát"
 
-#: donate/templates/payment/thank_you_master.html:26
-#: donate/thunderbird/templates/payment/thank_you.html:16
+#: donate/templates/payment/thank_you_master.html:26 donate/thunderbird/templates/payment/thank_you.html:16
 msgid "Share on Facebook"
 msgstr "Megosztás Facebookon"
 
-#: donate/templates/payment/thank_you_master.html:30
-#: donate/thunderbird/templates/pages/base_page.html:44
-#: donate/thunderbird/templates/payment/thank_you.html:20
+#: donate/templates/payment/thank_you_master.html:30 donate/thunderbird/templates/pages/base_page.html:44 donate/thunderbird/templates/payment/thank_you.html:20
 msgid "Facebook"
 msgstr "Facebook"
 
-#: donate/templates/payment/thank_you_master.html:33
-#: donate/thunderbird/templates/payment/thank_you.html:23
+#: donate/templates/payment/thank_you_master.html:33 donate/thunderbird/templates/payment/thank_you.html:23
 msgid "Share on Twitter"
 msgstr "Megosztás Twitteren"
 
-#: donate/templates/payment/thank_you_master.html:37
-#: donate/thunderbird/templates/pages/base_page.html:38
-#: donate/thunderbird/templates/payment/thank_you.html:27
+#: donate/templates/payment/thank_you_master.html:37 donate/thunderbird/templates/pages/base_page.html:38 donate/thunderbird/templates/payment/thank_you.html:27
 msgid "Twitter"
 msgstr "Twitter"
 
-#: donate/templates/payment/thank_you_master.html:43
-#: donate/thunderbird/templates/payment/thank_you.html:33
+#: donate/templates/payment/thank_you_master.html:43 donate/thunderbird/templates/payment/thank_you.html:33
 msgctxt "Share button"
 msgid "Email"
 msgstr "E-mail"
 
-#: donate/templates/payment/thank_you_master.html:53
-#: donate/thunderbird/templates/payment/thank_you.html:43
+#: donate/templates/payment/thank_you_master.html:53 donate/thunderbird/templates/payment/thank_you.html:43
 msgctxt "Share button"
 msgid "Link"
 msgstr "Hivatkozás"
 
-#: donate/templates/payment/thank_you_master.html:54
-#: donate/thunderbird/templates/payment/thank_you.html:44
+#: donate/templates/payment/thank_you_master.html:54 donate/thunderbird/templates/payment/thank_you.html:44
 msgid "Copied"
 msgstr "Másolva"
 
@@ -737,9 +724,7 @@ msgstr "Másolva"
 msgid "Back"
 msgstr "Vissza"
 
-#: donate/thunderbird/templates/base.html:9
-#: donate/thunderbird/templates/pages/base_page.html:9
-#: donate/thunderbird/templates/pages/base_page.html:16
+#: donate/thunderbird/templates/base.html:9 donate/thunderbird/templates/pages/base_page.html:9 donate/thunderbird/templates/pages/base_page.html:16
 #: donate/thunderbird/templates/pages/base_page.html:17
 msgctxt "Page title"
 msgid "Give to Thunderbird"
@@ -747,8 +732,12 @@ msgstr "Adjon a Thunderbirdnek"
 
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:12
 #, python-format
-msgid "Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Thunderbird. Please read our <a href=\"%(privacy_url)s\">privacy policy here</a>."
-msgstr "A fizetési adatait a <a href=\"%(braintree_url)s\">Braintree</a>, a PayPal leányvállalata (bankkártya esetén) vagy a <a href=\"%(paypal_url)s\">PayPal</a> fogja feldolgozni, az adományának nyilvántartását pedig a Thunderbird fogja végezni. Olvassa el az <a href=\"%(privacy_url)s\">adatvédelmi nyilatkozatunkat itt</a>."
+msgid ""
+"Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your "
+"donation will be stored by Thunderbird. Please read our <a href=\"%(privacy_url)s\">privacy policy here</a>."
+msgstr ""
+"A fizetési adatait a <a href=\"%(braintree_url)s\">Braintree</a>, a PayPal leányvállalata (bankkártya esetén) vagy a <a href=\"%(paypal_url)s\">PayPal</a> fogja feldolgozni, az adományának "
+"nyilvántartását pedig a Thunderbird fogja végezni. Olvassa el az <a href=\"%(privacy_url)s\">adatvédelmi nyilatkozatunkat itt</a>."
 
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:15
 #, python-format
@@ -756,8 +745,12 @@ msgid "Monthly donations are charged each month on the same day that you donate 
 msgstr "A havi adományok minden hónapban ugyanakkor kerülnek levonásra, és ez addig folytatódik, amíg le nem mondja. A lemondáshoz töltse ki <a href=\"%(help_url)s\">ezt az űrlapot</a>."
 
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:27
-msgid "Contributions go to MZLA Technologies Corporation, a California corporation wholly owned by the Mozilla Foundation. Funds will be reserved for use in the Thunderbird project. Contributions are not tax-deductible as charitable contributions."
-msgstr "A felajánlások az MZLA Technologies Corporationhöz jutnak, egy kaliforniai társasághoz, amely a Mozilla Alapítvány kizárólagos tulajdonában van. Az összeget a Thunderbird projekt felhasználására lesz fenntartva. A felajánlások nem vonhatóak le az adóból."
+msgid ""
+"Contributions go to MZLA Technologies Corporation, a California corporation wholly owned by the Mozilla Foundation. Funds will be reserved for use in the Thunderbird project. Contributions are not "
+"tax-deductible as charitable contributions."
+msgstr ""
+"A felajánlások az MZLA Technologies Corporationhöz jutnak, egy kaliforniai társasághoz, amely a Mozilla Alapítvány kizárólagos tulajdonában van. Az összeget a Thunderbird projekt felhasználására "
+"lesz fenntartva. A felajánlások nem vonhatóak le az adóból."
 
 #: donate/thunderbird/templates/pages/base_page.html:53
 msgid "Cookies"
@@ -786,12 +779,17 @@ msgstr "A tartalom egy részét ©1998–%(current_year)s egyéni közreműköd�
 
 #: donate/thunderbird/templates/pages/core/contributor_support_page.html:6
 msgid "If you need help with a contribution to MZLA/Thunderbird, please fill out this form and a Thunderbird donor care representative will get back to you as soon as possible."
-msgstr "Ha segítségre van szüksége a MZLA/Thunderbirdnek küldendő támogatással, akkor töltse ki ezt az űrlapot, és a Thunderbird egy adománygondozó képviselője a lehető leghamarabb felveszi Önnel a kapcsolatot."
+msgstr ""
+"Ha segítségre van szüksége a MZLA/Thunderbirdnek küldendő támogatással, akkor töltse ki ezt az űrlapot, és a Thunderbird egy adománygondozó képviselője a lehető leghamarabb felveszi Önnel a "
+"kapcsolatot."
 
 #: donate/thunderbird/templates/pages/core/contributor_support_page.html:12
 #, python-format
-msgid "Unfortunately, donor care representatives are unable to offer support or help with Thunderbird technical issues. For technical support, please visit our <a href=\"%(support_url)s\">support page.</a>"
-msgstr "Sajnos az adománygondozó képviselők nem tudnak támogatást vagy segítséget nyújtani a Thunderbird műszaki problémáival kapcsolatban. Műszaki támogatásért keresse fel a <a href=\"%(support_url)s\">támogatási oldalt</a>."
+msgid ""
+"Unfortunately, donor care representatives are unable to offer support or help with Thunderbird technical issues. For technical support, please visit our <a href=\"%(support_url)s\">support page.</a>"
+msgstr ""
+"Sajnos az adománygondozó képviselők nem tudnak támogatást vagy segítséget nyújtani a Thunderbird műszaki problémáival kapcsolatban. Műszaki támogatásért keresse fel a <a "
+"href=\"%(support_url)s\">támogatási oldalt</a>."
 
 #: donate/thunderbird/templates/pages/core/landing_page.html:7
 #, python-format
@@ -803,17 +801,24 @@ msgid "We accept contributions in Euros through Single European Payment Area (SE
 msgstr "Elfogadjuk az euróban érkező adományokat Single European Payment Area (SEPA) átutalással, valamint brit fontot BACS átutalással."
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:10
-msgid "Please note that for smaller (under 10 EUR or equivalent) contributions, <strong>and especially for contributions under 5 EUR or equivalent</strong>, we request that you contribute via credit card or PayPal to help reduce our processing fees."
-msgstr "Vegye figyelembe, hogy kisebb (10 EUR vagy azzal egyenértékű összeg alatti) hozzájárulások <strong>és különösen az 5 EUR vagy azzal egyenértékű összeg alatti hozzájárulások esetén</strong> kérjük, hogy bankkártyával vagy PayPallal adományozzon a Mozilla feldolgozási költségeinek csökkentése érdekében."
+msgid ""
+"Please note that for smaller (under 10 EUR or equivalent) contributions, <strong>and especially for contributions under 5 EUR or equivalent</strong>, we request that you contribute via credit card "
+"or PayPal to help reduce our processing fees."
+msgstr ""
+"Vegye figyelembe, hogy kisebb (10 EUR vagy azzal egyenértékű összeg alatti) hozzájárulások <strong>és különösen az 5 EUR vagy azzal egyenértékű összeg alatti hozzájárulások esetén</strong> kérjük, "
+"hogy bankkártyával vagy PayPallal adományozzon a Mozilla feldolgozási költségeinek csökkentése érdekében."
 
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:30
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:47
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:30 donate/thunderbird/templates/pages/core/ways_to_give_page.html:47
 msgid "Memo field:"
 msgstr "Megjegyzés:"
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:54
-msgid "MZLA/Thunderbird is happy to accept your donation <strong>(made payable to “MZLA Technologies Corp”)</strong> via check; however please note that processing and acknowledgment of your gift may be delayed by changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
+msgid ""
+"MZLA/Thunderbird is happy to accept your donation <strong>(made payable to “MZLA Technologies Corp”)</strong> via check; however please note that processing and acknowledgment of your gift may be "
+"delayed by changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
 msgstr ""
+"Az MZLA/Thunderbird örömmel fogadja el a csekken küldött <strong>(az „MZLA Technologies Corp” számára kiállított)</strong> adományát; azonban vegye figyelembe, hogy adományának feldolgozását és "
+"átvételét késleltethetik az irodai eljárásaink COVID-19-járvány miatti változásai. Csekkeket a következő címre küldhet:"
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:71
 msgid "Please also note that MZLA/Thunderbird can <strong>only</strong> accept checks in U.S. dollars drawn on a U.S. bank."
@@ -825,22 +830,33 @@ msgstr "Köszönjük a nagylelkű felajánlását."
 
 #: donate/thunderbird/templates/payment/card.html:12
 #, python-format
-msgid "I authorize MZLA Technologies Corporation to automatically charge my card every month in the amount indicated above, starting today and continuing each month on the same day, until I cancel. I understand that I must cancel at least 5 days before the next scheduled donation by <a href='%(help_url)s'>submitting a request</a>, and that I may only request a refund within 15 days from the date of a donation."
-msgstr "Felhatalmazom a MZLA Technologies Corporationt, hogy havonta automatikusan megterhelje a kártyámat a fent megadott összeggel, a mai nappal kezdve, és azt követően minden hónapban ugyanezen a napon, amíg le nem mondom. Megértettem, hogy legalább 5 nappal a következő ütemezett adományozás előtt kell lemondanom <a href='%(help_url)s'>erre vonatkozó kérés beküldésével</a>, és csak az adományozástól számított 15 napon belül kérhetek visszatérítést."
+msgid ""
+"I authorize MZLA Technologies Corporation to automatically charge my card every month in the amount indicated above, starting today and continuing each month on the same day, until I cancel. I "
+"understand that I must cancel at least 5 days before the next scheduled donation by <a href='%(help_url)s'>submitting a request</a>, and that I may only request a refund within 15 days from the date"
+" of a donation."
+msgstr ""
+"Felhatalmazom a MZLA Technologies Corporationt, hogy havonta automatikusan megterhelje a kártyámat a fent megadott összeggel, a mai nappal kezdve, és azt követően minden hónapban ugyanezen a napon, "
+"amíg le nem mondom. Megértettem, hogy legalább 5 nappal a következő ütemezett adományozás előtt kell lemondanom <a href='%(help_url)s'>erre vonatkozó kérés beküldésével</a>, és csak az "
+"adományozástól számított 15 napon belül kérhetek visszatérítést."
 
 #: donate/thunderbird/templates/payment/card.html:14
 msgid "I authorize MZLA Technologies Corporation to charge my card in the amount indicated above. I understand that I may only request a refund within 15 days from the date of the donation."
 msgstr "Felhatalmazom a MZLA Technologies Corporationt, hogy terhelje meg a kártyámat a fent látott összeggel. Megértettem, hogy csak a felajánlás utáni 15 napban kérhetek visszatérítést."
 
-#: donate/thunderbird/templates/payment/card_upsell.html:6
-#: donate/thunderbird/templates/payment/paypal_upsell.html:6
+#: donate/thunderbird/templates/payment/card_upsell.html:6 donate/thunderbird/templates/payment/paypal_upsell.html:6
 msgid "We’d love to have you as a sustaining supporter of Thunderbird. <b>Could you add a monthly donation starting next month?</b>"
 msgstr "Szeretnénk, ha Ön a Thunderbird tartós támogatója lenne. <b>Be tudna állítani egy havi adományt a következő hónaptól kezdve?</b>"
 
 #: donate/thunderbird/templates/payment/card_upsell.html:10
 #, python-format
-msgid "I authorize MZLA Technologies Corporation to automatically charge my card every month in the amount indicated above, starting next month on the same date as today, and continuing each month afterwards until I cancel. I understand that I must cancel at least 5 days before the next scheduled donation by <a href=\"%(help_url)s\">submitting this form</a>, and that I may only request a refund within 15 days from the date of a donation."
-msgstr "Felhatalmazom a MZLA Technologies Corporationt, hogy havonta automatikusan megterhelje a kártyámat a fent megadott összeggel, a következő hónappal kezdve ugyanazon a napon, mint ma, és azt követően minden hónapban, amíg le nem mondom. Megértettem, hogy legalább 5 nappal a következő ütemezett adományozás előtt kell lemondanom <a href=\"%(help_url)s\">az erre vonatkozó kérés beküldésével</a>, és csak az adományozástól számított 15 napon belül kérhetek visszatérítést."
+msgid ""
+"I authorize MZLA Technologies Corporation to automatically charge my card every month in the amount indicated above, starting next month on the same date as today, and continuing each month "
+"afterwards until I cancel. I understand that I must cancel at least 5 days before the next scheduled donation by <a href=\"%(help_url)s\">submitting this form</a>, and that I may only request a "
+"refund within 15 days from the date of a donation."
+msgstr ""
+"Felhatalmazom a MZLA Technologies Corporationt, hogy havonta automatikusan megterhelje a kártyámat a fent megadott összeggel, a következő hónappal kezdve ugyanazon a napon, mint ma, és azt követően "
+"minden hónapban, amíg le nem mondom. Megértettem, hogy legalább 5 nappal a következő ütemezett adományozás előtt kell lemondanom <a href=\"%(help_url)s\">az erre vonatkozó kérés beküldésével</a>, és"
+" csak az adományozástól számított 15 napon belül kérhetek visszatérítést."
 
 #: donate/thunderbird/templates/payment/newsletter_signup.html:8
 msgid "We’re working hard to protect your inbox. Sign up to receive email messages concerning Thunderbird, including updates and requests for feedback."
@@ -860,8 +876,12 @@ msgctxt "Email subject line"
 msgid "I donated to Thunderbird today"
 msgstr "Ma támogottam a Thunderbirdöt"
 
-#~ msgid "MZLA/Thunderbird is happy to accept your donation (made payable to “MZLA Technologies”) via check; however please note that processing and acknowledgment of your gift may be delayed by changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
-#~ msgstr "Az MZLA/Thunderbird örömmel fogadja el a csekken küldött (az „MZLA Technologies” számára kiállított) adományát; azonban vegye figyelembe, hogy adományának feldolgozását és átvételét késleltethetik az irodai eljárásaink COVID-19-járvány miatti változásai. Csekkeket a következő címre küldhet:"
+#~ msgid ""
+#~ "MZLA/Thunderbird is happy to accept your donation (made payable to “MZLA Technologies”) via check; however please note that processing and acknowledgment of your gift may be delayed by changes to "
+#~ "our office procedures due to the COVID-19 pandemic. You can send checks to:"
+#~ msgstr ""
+#~ "Az MZLA/Thunderbird örömmel fogadja el a csekken küldött (az „MZLA Technologies” számára kiállított) adományát; azonban vegye figyelembe, hogy adományának feldolgozását és átvételét késleltethetik "
+#~ "az irodai eljárásaink COVID-19-járvány miatti változásai. Csekkeket a következő címre küldhet:"
 
 #~ msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a> | <a href=\"%(cryptocurrency_url)s\">BitPay (cryptocurrencies)</a>"
 #~ msgstr "Az adományozás más módjai: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Csekk</a> | <a href=\"%(cryptocurrency_url)s\">BitPay (kriptopénzek)</a>"
@@ -869,8 +889,16 @@ msgstr "Ma támogottam a Thunderbirdöt"
 #~ msgid "Cryptocurrencies"
 #~ msgstr "Kriptopénzek"
 
-#~ msgid "The Mozilla Foundation is a California non-profit corporation exempt from United States federal income taxation under IRC 501(c)(3) and a public charity classified under IRC sections 170(b)(1)(A) and 509(a)(1). Cryptocurrency donations Mozilla receives are considered charitable contributions under U.S. federal tax laws, to be used in its discretion for its charitable purposes. Because the IRS has indicated that it will treat cryptocurrencies as property for U.S. tax purposes (see IRS Notice 2014-21), cryptocurrency donations may be subject to special rules as to the amount of your charitable deduction, the documentation that must be provided to claim a tax deduction, or other matters."
-#~ msgstr "A Mozilla alapítvány egy kaliforniai nonprofit vállalat, amely mentes az egyesült államokbeli szövetségi jövedelemadó alól, az IRC 501(c)(3) alapján, és egy nyilvános karitatív szervezet az 170(b)(1) és 509(a)(1) IRC szakaszok alapján. A kriptopénz-adományok, amelyeket a Mozilla kap, karitatív adománynak számítanak az USA szövetségi adótörvényei alapján, amelyet a karitatív céloknak megfelelően kell felhasználni. Mivel az IRS azt jelezte, hogy a kriptopénzeket tulajdonnak tekinti az USA adótörvényei szempontjából (lásd 2014-21 IRS közlemény), így a kriptopénz-adományok különleges szabályok alá eshetnek az adójóváírás, az ahhoz szükséges dokumentáció és más ügyek tekintetében."
+#~ msgid ""
+#~ "The Mozilla Foundation is a California non-profit corporation exempt from United States federal income taxation under IRC 501(c)(3) and a public charity classified under IRC sections 170(b)(1)(A) "
+#~ "and 509(a)(1). Cryptocurrency donations Mozilla receives are considered charitable contributions under U.S. federal tax laws, to be used in its discretion for its charitable purposes. Because the "
+#~ "IRS has indicated that it will treat cryptocurrencies as property for U.S. tax purposes (see IRS Notice 2014-21), cryptocurrency donations may be subject to special rules as to the amount of your "
+#~ "charitable deduction, the documentation that must be provided to claim a tax deduction, or other matters."
+#~ msgstr ""
+#~ "A Mozilla alapítvány egy kaliforniai nonprofit vállalat, amely mentes az egyesült államokbeli szövetségi jövedelemadó alól, az IRC 501(c)(3) alapján, és egy nyilvános karitatív szervezet az "
+#~ "170(b)(1) és 509(a)(1) IRC szakaszok alapján. A kriptopénz-adományok, amelyeket a Mozilla kap, karitatív adománynak számítanak az USA szövetségi adótörvényei alapján, amelyet a karitatív céloknak "
+#~ "megfelelően kell felhasználni. Mivel az IRS azt jelezte, hogy a kriptopénzeket tulajdonnak tekinti az USA adótörvényei szempontjából (lásd 2014-21 IRS közlemény), így a kriptopénz-adományok "
+#~ "különleges szabályok alá eshetnek az adójóváírás, az ahhoz szükséges dokumentáció és más ügyek tekintetében."
 
 #~ msgid "Learn more about cryptocurrency donations <a href=\"%(cryptocurrency_wiki)s\">here</a>. To donate using cryptocurrency, <a href=\"%(cryptocurrency_url)s\">please visit this link.</a>"
 #~ msgstr "További információ a kriptopénz-adományokról <a href=\"%(cryptocurrency_wiki)s\">itt</a>. Kriptopénz adományozáshoz kattintson <a href=\"%(cryptocurrency_url)s\">erre a hivatkozásra.</a>"
@@ -881,8 +909,16 @@ msgstr "Ma támogottam a Thunderbirdöt"
 #~ msgid "Bitcoin"
 #~ msgstr "Bitcoin"
 
-#~ msgid "The Mozilla Foundation is a California non-profit corporation exempt from United States federal income taxation under IRC 501(c)(3) and a public charity classified under IRC sections 170(b)(1)(A) and 509(a)(1). Bitcoin donations Mozilla receives are considered charitable contributions under U.S. federal tax laws, to be used in its discretion for its charitable purposes. Because the IRS has indicated that it will treat bitcoin as property for U.S. tax purposes (see IRS Notice 2014-21), donations of bitcoin may be subject to special rules as to the amount of your charitable deduction, the documentation that must be provided to claim a tax deduction, or other matters."
-#~ msgstr "A Mozilla Foundation egy kaliforniai nonprofit társaság, amely mentes az Egyesült Államok szövetségi jövedelemadóztatása alól az Egyesült Államok Adókódexének 501(c)(3) szakasza alapján, és közcélú jótékonysági szervezet az Egyesült Államok Adókódexének 170(b)(1)(A) és 509(a)(1) szakaszai alapján. A bitcoin adományok, amelyeket a Mozilla kap, karitatív adománynak számít az USA szövetségi adótörvényei alapján, amelyet a karitatív céloknak megfelelően kell felhasználni. Mivel az IRS azt jelezte, hogy a bitcoint tulajdonnak tekinti az USA adótörvényei szempontjából (lásd 2014-21 IRS közlemény), így a bitcoin adományok különleges szabályok alá eshetnek az adójóváírás, az ahhoz szükséges dokumentáció és más ügyek tekintetében."
+#~ msgid ""
+#~ "The Mozilla Foundation is a California non-profit corporation exempt from United States federal income taxation under IRC 501(c)(3) and a public charity classified under IRC sections 170(b)(1)(A) "
+#~ "and 509(a)(1). Bitcoin donations Mozilla receives are considered charitable contributions under U.S. federal tax laws, to be used in its discretion for its charitable purposes. Because the IRS has "
+#~ "indicated that it will treat bitcoin as property for U.S. tax purposes (see IRS Notice 2014-21), donations of bitcoin may be subject to special rules as to the amount of your charitable deduction, "
+#~ "the documentation that must be provided to claim a tax deduction, or other matters."
+#~ msgstr ""
+#~ "A Mozilla Foundation egy kaliforniai nonprofit társaság, amely mentes az Egyesült Államok szövetségi jövedelemadóztatása alól az Egyesült Államok Adókódexének 501(c)(3) szakasza alapján, és közcélú "
+#~ "jótékonysági szervezet az Egyesült Államok Adókódexének 170(b)(1)(A) és 509(a)(1) szakaszai alapján. A bitcoin adományok, amelyeket a Mozilla kap, karitatív adománynak számít az USA szövetségi "
+#~ "adótörvényei alapján, amelyet a karitatív céloknak megfelelően kell felhasználni. Mivel az IRS azt jelezte, hogy a bitcoint tulajdonnak tekinti az USA adótörvényei szempontjából (lásd 2014-21 IRS "
+#~ "közlemény), így a bitcoin adományok különleges szabályok alá eshetnek az adójóváírás, az ahhoz szükséges dokumentáció és más ügyek tekintetében."
 
 #~ msgid "Learn more about bitcoin donations <a href=\"%(bitcoin_wiki)s\">here</a>. To donate bitcoin, <a href=\"%(bitcoin_donate)s\">please visit this link.</a>"
 #~ msgstr "További információ a bitcoin adományokról <a href=\"%(bitcoin_wiki)s\">itt</a>. Bitcoin adományozáshoz kattintson a <a href=\"%(bitcoin_donate)s\">hivatkozásra.</a>"
@@ -909,7 +945,8 @@ msgstr "Ma támogottam a Thunderbirdöt"
 #~ msgstr "Köszönjük!"
 
 #~ msgid "If you haven’t previously confirmed a subscription to a Mozilla-related newsletter you may have to do so. Please check your inbox or your spam filter for an email from us."
-#~ msgstr "Ha korábban nem erősítette meg a Mozillához kapcsolódó hírlevél feliratkozását, akkor lehet hogy meg kell tennie. Ellenőrizze a Beérkezett üzenetek mappáját vagy a spam-szűrőjét az e-mailünk után."
+#~ msgstr ""
+#~ "Ha korábban nem erősítette meg a Mozillához kapcsolódó hírlevél feliratkozását, akkor lehet hogy meg kell tennie. Ellenőrizze a Beérkezett üzenetek mappáját vagy a spam-szűrőjét az e-mailünk után."
 
 #~ msgid "More about us"
 #~ msgstr "Többet rólunk"
@@ -927,19 +964,29 @@ msgstr "Ma támogottam a Thunderbirdöt"
 #~ msgstr "Elküldtük Önnek az adományozás nyugtáját; ha hiányzik, akkor ellenőrizze a levélszemét mappákat, majd vegye fel velünk a kapcsolatot a(z) <a href=\"mailto:%(email)s\">%(email)s</a> címen."
 
 #~ msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"mailto:%(email)s\">Send us an email</a>."
-#~ msgstr "Problémái vannak az adományozással? Keresse fel a <a href=\"%(faq_url)s\">GYIK-ot</a> a leggyakoribb kérdésekre vonatkozásó válaszokért. Még mindig vannak problémái? <a href=\"mailto:%(email)s\">Küldjön nekünk egy e-mailt</a>."
+#~ msgstr ""
+#~ "Problémái vannak az adományozással? Keresse fel a <a href=\"%(faq_url)s\">GYIK-ot</a> a leggyakoribb kérdésekre vonatkozásó válaszokért. Még mindig vannak problémái? <a "
+#~ "href=\"mailto:%(email)s\">Küldjön nekünk egy e-mailt</a>."
 
 #~ msgid "If you need help with a contribution to MZLA/Thunderbird, fill out this form and a Thunderbird donor care representative will get back to you as soon as possible."
 #~ msgstr "Ha segítségre van szüksége egy hozzájárulással kapcsolatban, töltse ki ezt az űrlapot, és a Thunderbird egy képviselője hamarosan kapcsolatba lép Önnel."
 
-#~ msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in Mountain View, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
-#~ msgstr "A hozzájárulások a Mozilla Foundationhöz kerülnek, amely egy Montain Viewban, Kaliforniában bejegyzett alapítvány (501(c)(3) szervezet). A hozzájárulások belátás szerint használhatóak fel, jótékonysági célokra. A hozzájárulás az USA-ban adóból levonható, a törvény által maximálisan megengedett mértékben."
+#~ msgid ""
+#~ "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in Mountain View, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S."
+#~ " to the fullest extent permitted by law."
+#~ msgstr ""
+#~ "A hozzájárulások a Mozilla Foundationhöz kerülnek, amely egy Montain Viewban, Kaliforniában bejegyzett alapítvány (501(c)(3) szervezet). A hozzájárulások belátás szerint használhatóak fel, "
+#~ "jótékonysági célokra. A hozzájárulás az USA-ban adóból levonható, a törvény által maximálisan megengedett mértékben."
 
 #~ msgid "License"
 #~ msgstr "Licenc"
 
-#~ msgid "Please note that due to the “shelter in place” order recently implemented for California, processing and acknowledgment of check donations to the Mozilla Foundation will be indefinitely delayed. Rather than sending us a check, please consider making an <a href=\"/\">online donation</a> instead."
-#~ msgstr "Felhívjuk figyelmét, hogy a Kaliforniában bevezetett veszélyhelyzet miatt, a csekken küldött adományok feldolgozása és visszaigazolása határozatlan ideig késni fog. Csekk küldése helyett fontolja meg az <a href=\"/\">online adományozást</a>."
+#~ msgid ""
+#~ "Please note that due to the “shelter in place” order recently implemented for California, processing and acknowledgment of check donations to the Mozilla Foundation will be indefinitely delayed. "
+#~ "Rather than sending us a check, please consider making an <a href=\"/\">online donation</a> instead."
+#~ msgstr ""
+#~ "Felhívjuk figyelmét, hogy a Kaliforniában bevezetett veszélyhelyzet miatt, a csekken küldött adományok feldolgozása és visszaigazolása határozatlan ideig késni fog. Csekk küldése helyett fontolja "
+#~ "meg az <a href=\"/\">online adományozást</a>."
 
 #~ msgid "Please send a check <strong>including your email address on the memo line</strong>, and payable (payee) to “%(payee)s”."
 #~ msgstr "A csekket úgy küldje el, hogy <strong>a jegyzet sorban az Ön e-mail címe legyen</strong>, a fizetendő (kedvezményezett) pedig ez legyen: „%(payee)s”."
@@ -947,8 +994,12 @@ msgstr "Ma támogottam a Thunderbirdöt"
 #~ msgid "Please note that the Mozilla Foundation can only accept checks in US dollars drawn on a US bank. Please do <strong>not</strong> send cash."
 #~ msgstr "Felhívjuk figyelmét, hogy a Mozilla Alapítvány kizárólag amerikai dollárban készített csekkeket fogadhat el, egy amerikai bankon keresztül. Kérjük, <strong>ne</strong> küldjön készpénzt."
 
-#~ msgid "Please note that due to the “shelter in place” order recently implemented for California, processing and acknowledgment of check donations to Thunderbird/MZLA Technologies will be indefinitely delayed. Rather than sending us a check, please consider making an <a href=\"/\">online donation</a> instead."
-#~ msgstr "Felhívjuk figyelmét, hogy a Kaliforniában bevezetett veszélyhelyzet miatt, a Thunderbird/MZLA Technologies számára csekken küldött adományok feldolgozása és visszaigazolása határozatlan ideig késni fog. Csekk küldése helyett fontolja meg az <a href=\"/\">online adományozást</a>."
+#~ msgid ""
+#~ "Please note that due to the “shelter in place” order recently implemented for California, processing and acknowledgment of check donations to Thunderbird/MZLA Technologies will be indefinitely "
+#~ "delayed. Rather than sending us a check, please consider making an <a href=\"/\">online donation</a> instead."
+#~ msgstr ""
+#~ "Felhívjuk figyelmét, hogy a Kaliforniában bevezetett veszélyhelyzet miatt, a Thunderbird/MZLA Technologies számára csekken küldött adományok feldolgozása és visszaigazolása határozatlan ideig késni "
+#~ "fog. Csekk küldése helyett fontolja meg az <a href=\"/\">online adományozást</a>."
 
 #~ msgid "Please send a check <strong>with “%(thunderbird)s” on the memo line</strong>, and payable (payee) to “%(payee)s”."
 #~ msgstr "A csekket úgy küldje el, hogy <strong>a jegyzet sorban „%(thunderbird)s” legyen</strong>, a fizetendő (kedvezményezett) pedig ez legyen: „%(payee)s”."
