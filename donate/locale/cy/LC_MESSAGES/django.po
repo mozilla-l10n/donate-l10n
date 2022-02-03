@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-02 09:37+0000\n"
+"POT-Creation-Date: 2022-02-03 09:49+0000\n"
 "PO-Revision-Date: 2021-12-16 13:43+0000\n"
 "Last-Translator: Rhoslyn Prys <rprys@posteo.net>\n"
 "Language-Team: \n"
@@ -502,7 +502,6 @@ msgid "Check (via postal service)"
 msgstr "Sieciau (trwy'r gwasanaeth post)"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:90
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:54
 msgid "UPDATE October 2020:"
 msgstr "DIWEDDARIAD Hydref 2020:"
 
@@ -811,9 +810,9 @@ msgstr "Sylwch, ar gyfer cyfraniadau llai (o dan 10 EUR neu gyfwerth), <strong>a
 msgid "Memo field:"
 msgstr "Maes memo:"
 
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:55
-msgid "MZLA/Thunderbird is happy to accept your donation (made payable to “MZLA Technologies”) via check; however please note that processing and acknowledgment of your gift may be delayed by changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
-msgstr "Mae MZLA/Thunderbird yn hapus i dderbyn eich rhodd (yn daladwy i “MZLA Technologies”) trwy siec; fodd bynnag, nodwch y gallai prosesu a chydnabod eich rhodd gael ei ohirio gan newidiadau i'n gweithdrefnau swyddfa oherwydd y pandemig COVID-19. Gallwch anfon sieciau at:"
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:54
+msgid "MZLA/Thunderbird is happy to accept your donation <strong>(made payable to “MZLA Technologies Corp”)</strong> via check; however please note that processing and acknowledgment of your gift may be delayed by changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
+msgstr ""
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:71
 msgid "Please also note that MZLA/Thunderbird can <strong>only</strong> accept checks in U.S. dollars drawn on a U.S. bank."
@@ -859,6 +858,9 @@ msgstr "Rwyf wedi rhoi i @mozthunderbird heddiw i #freetheinbox. Ymunwch â mi i
 msgctxt "Email subject line"
 msgid "I donated to Thunderbird today"
 msgstr "Rwyf wedi rhoi i Thunderbird heddiw"
+
+#~ msgid "MZLA/Thunderbird is happy to accept your donation (made payable to “MZLA Technologies”) via check; however please note that processing and acknowledgment of your gift may be delayed by changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
+#~ msgstr "Mae MZLA/Thunderbird yn hapus i dderbyn eich rhodd (yn daladwy i “MZLA Technologies”) trwy siec; fodd bynnag, nodwch y gallai prosesu a chydnabod eich rhodd gael ei ohirio gan newidiadau i'n gweithdrefnau swyddfa oherwydd y pandemig COVID-19. Gallwch anfon sieciau at:"
 
 #~ msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a> | <a href=\"%(cryptocurrency_url)s\">BitPay (cryptocurrencies)</a>"
 #~ msgstr "Ffyrdd eraill o roi: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Siec</a> | <a href=\"%(cryptocurrency_url)s\">BitPay (cryptoarian)</a>"

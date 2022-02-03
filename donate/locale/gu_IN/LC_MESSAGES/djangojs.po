@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-02 09:37+0000\n"
+"POT-Creation-Date: 2022-02-03 09:49+0000\n"
 "PO-Revision-Date: 2019-12-29 10:15+0000\n"
 "Last-Translator: Hariom Panchal <hariompanchal6647@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,27 +19,37 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Pontoon\n"
 
-#: maintenance/static/_js/main.js:16
+#: donate/frontend/_js/main.compiled.js:16 maintenance/static/_js/main.js:16
 #: source/js/components/currency-selector.js:91
 msgid "per month"
 msgstr "પ્રતિ મહિના"
 
-#: maintenance/static/_js/main.js:16
+#: donate/frontend/_js/main.compiled.js:16 maintenance/static/_js/main.js:16
+#: source/js/components/currency-selector.js:98
 msgid "Other amount"
 msgstr "અન્ય રકમ"
 
+#: donate/frontend/_js/payments-card.compiled.js:1
+#: donate/frontend/_js/payments-paypal-upsell.compiled.js:1
+#: donate/frontend/_js/payments-paypal.compiled.js:1
 #: source/js/components/paypal.js:14 source/js/payments-card.js:16
 msgid "An error occurred. Please reload the page or try again later."
 msgstr "એક ભૂલ આવી. કૃપા કરી પૃષ્ઠને ફરીથી લોડ કરો અથવા પછીથી ફરી પ્રયાસ કરો."
 
+#: donate/frontend/_js/payments-card.compiled.js:1
+#: donate/frontend/_js/payments-paypal-upsell.compiled.js:1
+#: donate/frontend/_js/payments-paypal.compiled.js:1
 #: source/js/components/paypal.js:17 source/js/payments-card.js:218
 msgid "There was an error processing your payment. Please try again."
 msgstr "તમારી ચુકવણીની પ્રક્રિયા કરવામાં ભૂલ આવી હતી. મેહરબાની કરી ને ફરી થી પ્રયાસ કરો."
 
-#: source/js/components/paypal.js:94
-msgid "Payment cancelled"
-msgstr "ચુકવણી રદ કરી"
-
+#: donate/frontend/_js/payments-card.compiled.js:1
 #: source/js/payments-card.js:238
 msgid "Some of the fields below are invalid. Please correct the invalid fields and try again."
 msgstr "નીચેના કેટલાક ક્ષેત્રો અમાન્ય છે. કૃપા કરીને અમાન્ય ફીલ્ડ્સને સુધારવા અને ફરીથી પ્રયાસ કરો."
+
+#: donate/frontend/_js/payments-paypal-upsell.compiled.js:1
+#: donate/frontend/_js/payments-paypal.compiled.js:1
+#: source/js/components/paypal.js:94
+msgid "Payment cancelled"
+msgstr "ચુકવણી રદ કરી"

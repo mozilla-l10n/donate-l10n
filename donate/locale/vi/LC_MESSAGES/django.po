@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-02 09:37+0000\n"
+"POT-Creation-Date: 2022-02-03 09:49+0000\n"
 "PO-Revision-Date: 2021-12-16 12:39+0000\n"
 "Last-Translator: Quế Tùng <best.cloney.1301@gmail.com>\n"
 "Language-Team: \n"
@@ -502,7 +502,6 @@ msgid "Check (via postal service)"
 msgstr "Séc (qua dịch vụ bưu chính)"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:90
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:54
 msgid "UPDATE October 2020:"
 msgstr "CẬP NHẬT Tháng 10 năm 2020:"
 
@@ -811,9 +810,9 @@ msgstr "Lưu ý rằng đối với các khoản đóng góp nhỏ hơn (dưới
 msgid "Memo field:"
 msgstr "Trường ghi chú:"
 
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:55
-msgid "MZLA/Thunderbird is happy to accept your donation (made payable to “MZLA Technologies”) via check; however please note that processing and acknowledgment of your gift may be delayed by changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
-msgstr "MZLA/Thunderbird sẵn lòng chấp nhận khoản đóng góp của bạn (được trả cho “MZLA Technologies”) bằng séc; tuy nhiên, xin lưu ý rằng việc xử lý và nhận quà của bạn có thể bị trì hoãn do những thay đổi đối với thủ tục văn phòng của chúng tôi do đại dịch COVID-19. Bạn có thể gửi séc tới:"
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:54
+msgid "MZLA/Thunderbird is happy to accept your donation <strong>(made payable to “MZLA Technologies Corp”)</strong> via check; however please note that processing and acknowledgment of your gift may be delayed by changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
+msgstr ""
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:71
 msgid "Please also note that MZLA/Thunderbird can <strong>only</strong> accept checks in U.S. dollars drawn on a U.S. bank."
@@ -859,6 +858,9 @@ msgstr "Hôm nay, tôi đã quyên góp cho @mozthunderbird vào #freetheinbox. 
 msgctxt "Email subject line"
 msgid "I donated to Thunderbird today"
 msgstr "Tôi đã quyên góp cho Thunderbird hôm nay"
+
+#~ msgid "MZLA/Thunderbird is happy to accept your donation (made payable to “MZLA Technologies”) via check; however please note that processing and acknowledgment of your gift may be delayed by changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
+#~ msgstr "MZLA/Thunderbird sẵn lòng chấp nhận khoản đóng góp của bạn (được trả cho “MZLA Technologies”) bằng séc; tuy nhiên, xin lưu ý rằng việc xử lý và nhận quà của bạn có thể bị trì hoãn do những thay đổi đối với thủ tục văn phòng của chúng tôi do đại dịch COVID-19. Bạn có thể gửi séc tới:"
 
 #~ msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a> | <a href=\"%(cryptocurrency_url)s\">BitPay (cryptocurrencies)</a>"
 #~ msgstr "Các cách khác để cung cấp: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Séc</a> | <a href=\"%(cryptocurrency_url)s\">BitPay (cryptocurrencies)</a>"

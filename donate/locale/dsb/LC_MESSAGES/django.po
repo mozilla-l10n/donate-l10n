@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-02 09:37+0000\n"
+"POT-Creation-Date: 2022-02-03 09:49+0000\n"
 "PO-Revision-Date: 2021-12-16 14:33+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -503,7 +503,6 @@ msgid "Check (via postal service)"
 msgstr "Šek (pśez post)"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:90
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:54
 msgid "UPDATE October 2020:"
 msgstr "AKTUALIZACIJA wót oktobra 2020:"
 
@@ -812,9 +811,9 @@ msgstr "Pšosym źiwajśo na to, až za mjeńše (mjenjej ako 10 EUR abo rownog�
 msgid "Memo field:"
 msgstr "Pólo za zapiski:"
 
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:55
-msgid "MZLA/Thunderbird is happy to accept your donation (made payable to “MZLA Technologies”) via check; however please note that processing and acknowledgment of your gift may be delayed by changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
-msgstr "MZLA/Thunderbird waš dar (płaśobny do “MZLA Technologies”) pśez šek rady pśiwzejo; źiwajśo pak pšosym na to, až se pseźěłowanje a wobkšuśenje wašogo dara móžotej změnow našych běrowych wótběgow dla w běgu pandemije COVID-19 wokomuźiś. Móžośo šeki pósłaś do:"
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:54
+msgid "MZLA/Thunderbird is happy to accept your donation <strong>(made payable to “MZLA Technologies Corp”)</strong> via check; however please note that processing and acknowledgment of your gift may be delayed by changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
+msgstr ""
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:71
 msgid "Please also note that MZLA/Thunderbird can <strong>only</strong> accept checks in U.S. dollars drawn on a U.S. bank."
@@ -860,6 +859,9 @@ msgstr "Som źinsa @mozthunderbird pósćił, za lichotu #dochadposta. Pódpěra
 msgctxt "Email subject line"
 msgid "I donated to Thunderbird today"
 msgstr "Som źinsa pósćił Thunderbird"
+
+#~ msgid "MZLA/Thunderbird is happy to accept your donation (made payable to “MZLA Technologies”) via check; however please note that processing and acknowledgment of your gift may be delayed by changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
+#~ msgstr "MZLA/Thunderbird waš dar (płaśobny do “MZLA Technologies”) pśez šek rady pśiwzejo; źiwajśo pak pšosym na to, až se pseźěłowanje a wobkšuśenje wašogo dara móžotej změnow našych běrowych wótběgow dla w běgu pandemije COVID-19 wokomuźiś. Móžośo šeki pósłaś do:"
 
 #~ msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a> | <a href=\"%(cryptocurrency_url)s\">BitPay (cryptocurrencies)</a>"
 #~ msgstr "Dalšne móžnosći pósćiwanja: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">šek</a> | <a href=\"%(cryptocurrency_url)s\">BitPay (kryptopjenjeze)</a>"

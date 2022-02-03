@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-02 09:37+0000\n"
+"POT-Creation-Date: 2022-02-03 09:49+0000\n"
 "PO-Revision-Date: 2021-12-16 12:52+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -503,7 +503,6 @@ msgid "Check (via postal service)"
 msgstr "Cheque (via serviço postal)"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:90
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:54
 msgid "UPDATE October 2020:"
 msgstr "ATUALIZAÇÃO de outubro de 2020:"
 
@@ -812,9 +811,9 @@ msgstr "Observe que contribuições menores (menos de 10 euros ou equivalente), 
 msgid "Memo field:"
 msgstr "Campo de anotação:"
 
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:55
-msgid "MZLA/Thunderbird is happy to accept your donation (made payable to “MZLA Technologies”) via check; however please note that processing and acknowledgment of your gift may be delayed by changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
-msgstr "MZLA/Thunderbird tem o prazer de aceitar sua doação (em nome de “MZLA Technologies”) por meio de cheque. No entanto, observe que o processamento e reconhecimento de sua oferta podem demorar por causa de mudanças em nossos procedimentos de escritório devido à pandemia de COVID-19. Você pode enviar cheques para:"
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:54
+msgid "MZLA/Thunderbird is happy to accept your donation <strong>(made payable to “MZLA Technologies Corp”)</strong> via check; however please note that processing and acknowledgment of your gift may be delayed by changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
+msgstr ""
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:71
 msgid "Please also note that MZLA/Thunderbird can <strong>only</strong> accept checks in U.S. dollars drawn on a U.S. bank."
@@ -860,6 +859,9 @@ msgstr "Fiz uma doação hoje para o @mozthunderbird. Junte-se a mim para apoiar
 msgctxt "Email subject line"
 msgid "I donated to Thunderbird today"
 msgstr "Eu fiz uma doação para o Thunderbird hoje"
+
+#~ msgid "MZLA/Thunderbird is happy to accept your donation (made payable to “MZLA Technologies”) via check; however please note that processing and acknowledgment of your gift may be delayed by changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
+#~ msgstr "MZLA/Thunderbird tem o prazer de aceitar sua doação (em nome de “MZLA Technologies”) por meio de cheque. No entanto, observe que o processamento e reconhecimento de sua oferta podem demorar por causa de mudanças em nossos procedimentos de escritório devido à pandemia de COVID-19. Você pode enviar cheques para:"
 
 #~ msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a> | <a href=\"%(cryptocurrency_url)s\">BitPay (cryptocurrencies)</a>"
 #~ msgstr "Outras formas de doar: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Cheque</a> | <a href=\"%(cryptocurrency_url)s\">BitPay (criptomoedas)</a>"

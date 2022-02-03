@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-02 09:37+0000\n"
+"POT-Creation-Date: 2022-02-03 09:49+0000\n"
 "PO-Revision-Date: 2021-12-16 08:59+0000\n"
 "Last-Translator: Pin-guang Chen <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -503,7 +503,6 @@ msgid "Check (via postal service)"
 msgstr "支票（透過美國郵政服務）"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:90
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:54
 msgid "UPDATE October 2020:"
 msgstr "2020 年 10 月更新："
 
@@ -812,9 +811,9 @@ msgstr "請注意，<strong>針對金額低於等值 10 歐元的小額捐款</s
 msgid "Memo field:"
 msgstr "記事欄:"
 
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:55
-msgid "MZLA/Thunderbird is happy to accept your donation (made payable to “MZLA Technologies”) via check; however please note that processing and acknowledgment of your gift may be delayed by changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
-msgstr "MZLA/Thunderbird 很高興能接受您的捐款支票（抬頭請填 MZLA Technologies），但請注意，由於 COVID-19 疫情造成我們的辦公程序調整，處理並確認您的捐款贈品的時程可能會稍有延誤。請將支票寄到："
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:54
+msgid "MZLA/Thunderbird is happy to accept your donation <strong>(made payable to “MZLA Technologies Corp”)</strong> via check; however please note that processing and acknowledgment of your gift may be delayed by changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
+msgstr ""
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:71
 msgid "Please also note that MZLA/Thunderbird can <strong>only</strong> accept checks in U.S. dollars drawn on a U.S. bank."
@@ -860,6 +859,9 @@ msgstr "我今天捐款給 @mozthunderbird 保護收件匣了！請與我一起�
 msgctxt "Email subject line"
 msgid "I donated to Thunderbird today"
 msgstr "我今天捐款給 Thunderbird 保護收件匣了！"
+
+#~ msgid "MZLA/Thunderbird is happy to accept your donation (made payable to “MZLA Technologies”) via check; however please note that processing and acknowledgment of your gift may be delayed by changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
+#~ msgstr "MZLA/Thunderbird 很高興能接受您的捐款支票（抬頭請填 MZLA Technologies），但請注意，由於 COVID-19 疫情造成我們的辦公程序調整，處理並確認您的捐款贈品的時程可能會稍有延誤。請將支票寄到："
 
 #~ msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a> | <a href=\"%(cryptocurrency_url)s\">BitPay (cryptocurrencies)</a>"
 #~ msgstr "其他捐款方式：<a href=\"%(wire_transfer_url)s\">SEPA/BACS（歐洲/英國區域內匯款）</a> | <a href=\"%(check_url)s\">支票</a> | <a href=\"%(cryptocurrency_url)s\">BitPay（加密貨幣）</a>"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-02 09:37+0000\n"
+"POT-Creation-Date: 2022-02-03 09:49+0000\n"
 "PO-Revision-Date: 2021-12-07 08:37+0000\n"
 "Last-Translator: Hyeonseok Shin <hyeonseok@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -503,7 +503,6 @@ msgid "Check (via postal service)"
 msgstr "수표 (우편 서비스)"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:90
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:54
 msgid "UPDATE October 2020:"
 msgstr "2020년 10월 업데이트:"
 
@@ -812,9 +811,9 @@ msgstr "더 적은 금액 (10 유로 이하 또는 이에 상응하는 금액) �
 msgid "Memo field:"
 msgstr "메모 영역:"
 
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:55
-msgid "MZLA/Thunderbird is happy to accept your donation (made payable to “MZLA Technologies”) via check; however please note that processing and acknowledgment of your gift may be delayed by changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
-msgstr "MZLA/Thunderbird는 귀하의 수표 기부(“MZLA Technologies” 앞)를 환영합니다. 그러나 코로나19 상황으로 인해 사무 절차가 변경되어 귀하의 기부에 대한 처리 및 승인이 지연될 수 있습니다. 수표를 발송할 주소:"
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:54
+msgid "MZLA/Thunderbird is happy to accept your donation <strong>(made payable to “MZLA Technologies Corp”)</strong> via check; however please note that processing and acknowledgment of your gift may be delayed by changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
+msgstr ""
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:71
 msgid "Please also note that MZLA/Thunderbird can <strong>only</strong> accept checks in U.S. dollars drawn on a U.S. bank."
@@ -860,6 +859,9 @@ msgstr "오늘 @mozthunderbird 에 기부했습니다. 의사 소통 정보 보�
 msgctxt "Email subject line"
 msgid "I donated to Thunderbird today"
 msgstr "오늘 Thunderbird에 기부했습니다."
+
+#~ msgid "MZLA/Thunderbird is happy to accept your donation (made payable to “MZLA Technologies”) via check; however please note that processing and acknowledgment of your gift may be delayed by changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
+#~ msgstr "MZLA/Thunderbird는 귀하의 수표 기부(“MZLA Technologies” 앞)를 환영합니다. 그러나 코로나19 상황으로 인해 사무 절차가 변경되어 귀하의 기부에 대한 처리 및 승인이 지연될 수 있습니다. 수표를 발송할 주소:"
 
 #~ msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a> | <a href=\"%(bitcoin_url)s\">Bitcoin</a>"
 #~ msgstr "다른 기부 방법: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">수표</a> | <a href=\"%(bitcoin_url)s\">비트코인</a>"

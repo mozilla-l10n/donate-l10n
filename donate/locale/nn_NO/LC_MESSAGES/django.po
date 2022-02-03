@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-02 09:37+0000\n"
+"POT-Creation-Date: 2022-02-03 09:49+0000\n"
 "PO-Revision-Date: 2022-01-18 09:15+0000\n"
 "Last-Translator: Bjørn I. <bjorni.svindseth@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -503,7 +503,6 @@ msgid "Check (via postal service)"
 msgstr "Sjekk (via postgang)"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:90
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:54
 msgid "UPDATE October 2020:"
 msgstr "OPPDATERING oktober 2020:"
 
@@ -812,9 +811,9 @@ msgstr "Ver merksam på at for mindre (under 10 EUR eller tilsvarande) bidrag, <
 msgid "Memo field:"
 msgstr "Memo-felt:"
 
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:55
-msgid "MZLA/Thunderbird is happy to accept your donation (made payable to “MZLA Technologies”) via check; however please note that processing and acknowledgment of your gift may be delayed by changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
-msgstr "MZLA/Thunderbird godtar gjerne donasjonen din (betalt til: «MZLA Technologies») via sjekk; Merk at bealing og stadfesting av gåva di kan verte forseinka av endringari kontorrutinane våre på grunn av COVID-19-pandemien. Du kan sende sjekkar til:"
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:54
+msgid "MZLA/Thunderbird is happy to accept your donation <strong>(made payable to “MZLA Technologies Corp”)</strong> via check; however please note that processing and acknowledgment of your gift may be delayed by changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
+msgstr ""
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:71
 msgid "Please also note that MZLA/Thunderbird can <strong>only</strong> accept checks in U.S. dollars drawn on a U.S. bank."
@@ -860,6 +859,9 @@ msgstr "Eg donerte til @mozthunderbird i dag for å #freetheinbox. Ver med og st
 msgctxt "Email subject line"
 msgid "I donated to Thunderbird today"
 msgstr "Eg donerte til Thunderbird i dag"
+
+#~ msgid "MZLA/Thunderbird is happy to accept your donation (made payable to “MZLA Technologies”) via check; however please note that processing and acknowledgment of your gift may be delayed by changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
+#~ msgstr "MZLA/Thunderbird godtar gjerne donasjonen din (betalt til: «MZLA Technologies») via sjekk; Merk at bealing og stadfesting av gåva di kan verte forseinka av endringari kontorrutinane våre på grunn av COVID-19-pandemien. Du kan sende sjekkar til:"
 
 #~ msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a> | <a href=\"%(cryptocurrency_url)s\">BitPay (cryptocurrencies)</a>"
 #~ msgstr "Andre måtar å bidra på: <a href=\"%(wire_transfer_url)s\">Pengeoverføring eller SEPA</a> | <a href=\"%(check_url)s\">Sjekk</a> | <a href=\"%(cryptocurrency_url)s\">BitPay (kryptovaluta)</a>"
