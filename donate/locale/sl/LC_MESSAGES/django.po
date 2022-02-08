@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-03 09:49+0000\n"
-"PO-Revision-Date: 2022-02-08 11:38+0000\n"
-"Last-Translator: Lan Glad <upwinxp@gmail.com>\n"
+"PO-Revision-Date: 2022-02-08 21:33+0000\n"
+"Last-Translator: Matjaž Horvat <matjaz.horvat@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
@@ -581,7 +581,7 @@ msgstr ""
 
 #: donate/templates/payment/card_master.html:128
 msgid "I authorize Mozilla Foundation to charge my card in the amount indicated above. I understand that I may only request a refund within 15 days from the date of the donation."
-msgstr ""
+msgstr "Pooblaščam organizacijo Mozilla Foundation, da bremeni mojo kartico v znesku, navedenem zgoraj. Razumem, da lahko vračilo zahtevam le v 15 dneh od datuma donacije."
 
 #: donate/templates/payment/card_master.html:153
 #, python-format
@@ -624,6 +624,8 @@ msgid ""
 "I authorize Mozilla Foundation to automatically charge my card every month in the amount indicated above, starting next month on the same date as today, and continuing each month afterwards until I "
 "cancel. I understand that I must cancel at least 5 days before the next scheduled donation by email to %(email)s, and that I may only request a refund within 15 days from the date of a donation."
 msgstr ""
+"Pooblaščam organizacijo Mozilla Foundation, da samodejno bremeni mojo kartico v zgoraj navedenem znesku vsak mesec, začenši naslednji mesec na današnji dan in nato enkrat mesečno do mojega preklica."
+" Razumem, da moram preklic opraviti po e-pošti na %(email)s najmanj 5 dni pred naslednjo načrtovano donacijo in da lahko vračilo zahtevam le v 15 dneh od datuma donacije."
 
 #: donate/templates/payment/card_upsell_master.html:53
 msgid "Donate Monthly"
@@ -718,6 +720,8 @@ msgid ""
 "Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your "
 "donation will be stored by Thunderbird. Please read our <a href=\"%(privacy_url)s\">privacy policy here</a>."
 msgstr ""
+"Podatke o vašem plačilu bo obdelal <a href=\"%(braintree_url)s\">Braintree</a>, podjetje v lasti PayPala (za kreditne/debetne kartice), oziroma <a href=\"%(paypal_url)s\">PayPal</a>, zapis o "
+"donaciji pa bo shranjen pri Thunderbirdu. Preberite naš <a href=\"%(privacy_url)s\">pravilnik o zasebnosti</a>."
 
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:15
 #, python-format
@@ -781,6 +785,8 @@ msgid ""
 "Please note that for smaller (under 10 EUR or equivalent) contributions, <strong>and especially for contributions under 5 EUR or equivalent</strong>, we request that you contribute via credit card "
 "or PayPal to help reduce our processing fees."
 msgstr ""
+"Upoštevajte, da lahko manjše prispevke (do 10 EUR, <strong>posebej pa prispevke do 5 EUR</strong>) nakažete samo s kreditno kartico ali preko PayPala, da nam ne povzročite previsokih stroškov "
+"obdelave."
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:30 donate/thunderbird/templates/pages/core/ways_to_give_page.html:47
 msgid "Memo field:"
