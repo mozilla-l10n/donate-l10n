@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-03 09:49+0000\n"
+"POT-Creation-Date: 2022-02-09 09:26+0000\n"
 "PO-Revision-Date: 2019-10-12 16:03+0000\n"
 "Last-Translator: Björn I. <bjorni.svindseth@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,16 +18,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
-
-#: donate/frontend/_js/main.compiled.js:16 maintenance/static/_js/main.js:16
-#: source/js/components/currency-selector.js:91
-msgid "per month"
-msgstr "per månad"
-
-#: donate/frontend/_js/main.compiled.js:16 maintenance/static/_js/main.js:16
-#: source/js/components/currency-selector.js:98
-msgid "Other amount"
-msgstr "Anna beløp"
 
 #: donate/frontend/_js/payments-card.compiled.js:1
 #: donate/frontend/_js/payments-paypal-upsell.compiled.js:1
@@ -53,3 +43,21 @@ msgstr "Nokre felt nedanfor er ugyldige. Rett opp dei ugyldige felta og prøv ig
 #: source/js/components/paypal.js:94
 msgid "Payment cancelled"
 msgstr "Betalinga er annulert"
+
+#: maintenance/static/_js/main.js:16
+#: source/js/components/currency-selector.js:91
+msgid "per month"
+msgstr "per månad"
+
+#: maintenance/static/_js/main.js:16
+#: source/js/components/currency-selector.js:98
+msgid "Other amount"
+msgstr "Anna beløp"
+
+#: source/js/components/currency-selector.js:99
+msgid "Minimum amount is"
+msgstr ""
+
+#: source/js/components/currency-selector.js:100
+msgid "Invalid amount entered."
+msgstr ""

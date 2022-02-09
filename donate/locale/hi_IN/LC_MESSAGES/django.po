@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-03 09:49+0000\n"
+"POT-Creation-Date: 2022-02-09 09:26+0000\n"
 "PO-Revision-Date: 2021-04-07 06:15+0000\n"
 "Last-Translator: Ritesh Raj <ritesh07raj@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -146,33 +146,39 @@ msgstr "मासिक"
 
 #: donate/templates/fragments/donate_form.html:41
 #: donate/templates/fragments/donate_form.html:42
-#: donate/templates/fragments/donate_form.html:112
-#: donate/templates/fragments/donate_form.html:113
+#: donate/templates/fragments/donate_form.html:116
+#: donate/templates/fragments/donate_form.html:117
 msgid "Other amount"
 msgstr "अन्य राशि"
 
-#: donate/templates/fragments/donate_form.html:45
-#: donate/templates/fragments/donate_form.html:116
+#: donate/templates/fragments/donate_form.html:46
+#: donate/templates/fragments/donate_form.html:121
+#, python-format
+msgid "Minimum amount is %(min_amount)s"
+msgstr ""
+
+#: donate/templates/fragments/donate_form.html:49
+#: donate/templates/fragments/donate_form.html:124
 msgid "Invalid amount entered."
 msgstr ""
 
-#: donate/templates/fragments/donate_form.html:52
-#: donate/templates/fragments/donate_form.html:123
+#: donate/templates/fragments/donate_form.html:56
+#: donate/templates/fragments/donate_form.html:131
 msgid "Choose Payment"
 msgstr "भुगतान प्रकार चुनें"
 
-#: donate/templates/fragments/donate_form.html:58
-#: donate/templates/fragments/donate_form.html:129
+#: donate/templates/fragments/donate_form.html:62
+#: donate/templates/fragments/donate_form.html:137
 #: donate/templates/payment/card_master.html:97
 msgid "SECURE"
 msgstr "सुरक्षित"
 
-#: donate/templates/fragments/donate_form.html:64
-#: donate/templates/fragments/donate_form.html:135
+#: donate/templates/fragments/donate_form.html:68
+#: donate/templates/fragments/donate_form.html:143
 msgid "Donate"
 msgstr "दान दें"
 
-#: donate/templates/fragments/donate_form.html:104
+#: donate/templates/fragments/donate_form.html:108
 msgid "per month"
 msgstr "प्रति माह"
 
