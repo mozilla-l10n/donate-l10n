@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-09 09:26+0000\n"
-"PO-Revision-Date: 2022-02-15 02:03+0000\n"
+"PO-Revision-Date: 2022-02-15 02:20+0000\n"
 "Last-Translator: pdehaan <pdehaan@mozilla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: en_CA\n"
@@ -146,7 +146,7 @@ msgstr "Other amount"
 #: donate/templates/fragments/donate_form.html:46 donate/templates/fragments/donate_form.html:121
 #, python-format
 msgid "Minimum amount is %(min_amount)s"
-msgstr ""
+msgstr "Minimum amount is %(min_amount)s"
 
 #: donate/templates/fragments/donate_form.html:49 donate/templates/fragments/donate_form.html:124
 msgid "Invalid amount entered."
