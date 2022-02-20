@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-09 09:26+0000\n"
-"PO-Revision-Date: 2022-02-16 10:03+0000\n"
+"PO-Revision-Date: 2022-02-20 08:34+0000\n"
 "Last-Translator: marsf <chimantaea_mirabilis@yahoo.co.jp>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ja\n"
@@ -47,7 +47,7 @@ msgstr "その他の金額"
 
 #: source/js/components/currency-selector.js:99
 msgid "Minimum amount is"
-msgstr ""
+msgstr "最小金額は"
 
 #: source/js/components/currency-selector.js:100
 msgid "Invalid amount entered."
