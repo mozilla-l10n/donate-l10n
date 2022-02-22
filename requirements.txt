@@ -10,14 +10,12 @@ certifi==2019.11.28
     # via requests
 charset-normalizer==2.0.3
     # via requests
-django==3.2.12
+django==4.0.2
     # via -r requirements.in
 django-environ==0.8.1
     # via -r requirements.in
 idna==2.9
     # via requests
-pytz==2019.3
-    # via django
 requests==2.27.1
     # via -r requirements.in
 sqlparse==0.3.0
