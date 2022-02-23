@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-09 09:26+0000\n"
-"PO-Revision-Date: 2022-02-10 13:32+0000\n"
-"Last-Translator: Joergen <joergenr@stofanet.dk>\n"
+"PO-Revision-Date: 2022-02-23 07:37+0000\n"
+"Last-Translator: Jakob Kappel <jakobkpetersen@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
@@ -47,7 +47,7 @@ msgstr "Andet beløb"
 
 #: source/js/components/currency-selector.js:99
 msgid "Minimum amount is"
-msgstr ""
+msgstr "Mindste beløb er"
 
 #: source/js/components/currency-selector.js:100
 msgid "Invalid amount entered."
