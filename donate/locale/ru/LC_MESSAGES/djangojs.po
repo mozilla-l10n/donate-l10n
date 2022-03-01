@@ -2,13 +2,13 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-09 09:26+0000\n"
+"POT-Creation-Date: 2022-03-01 22:37+0000\n"
 "PO-Revision-Date: 2022-02-19 14:49+0000\n"
 "Last-Translator: Alexander Slovesnik <unghost@mozilla-russia.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,36 +19,53 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pontoon\n"
 
-#: donate/frontend/_js/payments-card.compiled.js:1 donate/frontend/_js/payments-paypal-upsell.compiled.js:1 donate/frontend/_js/payments-paypal.compiled.js:1 source/js/components/paypal.js:14
-#: source/js/payments-card.js:16
-msgid "An error occurred. Please reload the page or try again later."
-msgstr "Произошла ошибка. Пожалуйста, перезагрузите страницу или повторите попытку позже."
-
-#: donate/frontend/_js/payments-card.compiled.js:1 donate/frontend/_js/payments-paypal-upsell.compiled.js:1 donate/frontend/_js/payments-paypal.compiled.js:1 source/js/components/paypal.js:17
-#: source/js/payments-card.js:218
-msgid "There was an error processing your payment. Please try again."
-msgstr "При обработке вашего платежа произошла ошибка. Пожалуйста, попробуйте ещё раз."
-
-#: donate/frontend/_js/payments-card.compiled.js:1 source/js/payments-card.js:238
-msgid "Some of the fields below are invalid. Please correct the invalid fields and try again."
-msgstr "Некоторые из полей ниже заполнены неверно. Пожалуйста, исправьте ошибки и попробуйте ещё раз."
-
-#: donate/frontend/_js/payments-paypal-upsell.compiled.js:1 donate/frontend/_js/payments-paypal.compiled.js:1 source/js/components/paypal.js:94
-msgid "Payment cancelled"
-msgstr "Платёж отменён"
-
-#: maintenance/static/_js/main.js:16 source/js/components/currency-selector.js:91
+#: donate/frontend/_js/main.compiled.js:16 maintenance/static/_js/main.js:16
+#: source/js/components/currency-selector.js:91
 msgid "per month"
 msgstr "в месяц"
 
-#: maintenance/static/_js/main.js:16 source/js/components/currency-selector.js:98
+#: donate/frontend/_js/main.compiled.js:16 maintenance/static/_js/main.js:16
+#: source/js/components/currency-selector.js:98
 msgid "Other amount"
 msgstr "Другая сумма"
 
+#: donate/frontend/_js/main.compiled.js:16
 #: source/js/components/currency-selector.js:99
 msgid "Minimum amount is"
 msgstr "Минимальная сумма"
 
+#: donate/frontend/_js/main.compiled.js:16
 #: source/js/components/currency-selector.js:100
 msgid "Invalid amount entered."
 msgstr "Введена некорректная сумма."
+
+#: donate/frontend/_js/payments-card.compiled.js:1
+#: donate/frontend/_js/payments-paypal-upsell.compiled.js:1
+#: donate/frontend/_js/payments-paypal.compiled.js:1
+#: source/js/components/paypal.js:14 source/js/payments-card.js:16
+msgid "An error occurred. Please reload the page or try again later."
+msgstr "Произошла ошибка. Пожалуйста, перезагрузите страницу или повторите попытку позже."
+
+#: donate/frontend/_js/payments-card.compiled.js:1
+#: donate/frontend/_js/payments-paypal-upsell.compiled.js:1
+#: donate/frontend/_js/payments-paypal.compiled.js:1
+#: source/js/components/paypal.js:17 source/js/payments-card.js:218
+msgid "There was an error processing your payment. Please try again."
+msgstr "При обработке вашего платежа произошла ошибка. Пожалуйста, попробуйте ещё раз."
+
+#: donate/frontend/_js/payments-card.compiled.js:1
+#: source/js/payments-card.js:238
+msgid "Some of the fields below are invalid. Please correct the invalid fields and try again."
+msgstr "Некоторые из полей ниже заполнены неверно. Пожалуйста, исправьте ошибки и попробуйте ещё раз."
+
+#: donate/frontend/_js/payments-paypal-upsell.compiled.js:1
+#: donate/frontend/_js/payments-paypal.compiled.js:1
+#: source/js/components/paypal.js:20
+msgid "We were unable to establish a connection to PayPal. Please try again in a few minutes."
+msgstr ""
+
+#: donate/frontend/_js/payments-paypal-upsell.compiled.js:1
+#: donate/frontend/_js/payments-paypal.compiled.js:1
+#: source/js/components/paypal.js:97
+msgid "Payment cancelled"
+msgstr "Платёж отменён"
