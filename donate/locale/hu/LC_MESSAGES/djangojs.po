@@ -2,14 +2,14 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-01 22:37+0000\n"
-"PO-Revision-Date: 2022-02-09 09:46+0000\n"
+"PO-Revision-Date: 2022-03-03 08:19+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hu\n"
@@ -19,53 +19,40 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: donate/frontend/_js/main.compiled.js:16 maintenance/static/_js/main.js:16
-#: source/js/components/currency-selector.js:91
+#: donate/frontend/_js/main.compiled.js:16 maintenance/static/_js/main.js:16 source/js/components/currency-selector.js:91
 msgid "per month"
 msgstr "havonta"
 
-#: donate/frontend/_js/main.compiled.js:16 maintenance/static/_js/main.js:16
-#: source/js/components/currency-selector.js:98
+#: donate/frontend/_js/main.compiled.js:16 maintenance/static/_js/main.js:16 source/js/components/currency-selector.js:98
 msgid "Other amount"
 msgstr "Más összeg"
 
-#: donate/frontend/_js/main.compiled.js:16
-#: source/js/components/currency-selector.js:99
+#: donate/frontend/_js/main.compiled.js:16 source/js/components/currency-selector.js:99
 msgid "Minimum amount is"
 msgstr "A legkisebb összeg"
 
-#: donate/frontend/_js/main.compiled.js:16
-#: source/js/components/currency-selector.js:100
+#: donate/frontend/_js/main.compiled.js:16 source/js/components/currency-selector.js:100
 msgid "Invalid amount entered."
 msgstr "Érvénytelen beírt összeg."
 
-#: donate/frontend/_js/payments-card.compiled.js:1
-#: donate/frontend/_js/payments-paypal-upsell.compiled.js:1
-#: donate/frontend/_js/payments-paypal.compiled.js:1
-#: source/js/components/paypal.js:14 source/js/payments-card.js:16
+#: donate/frontend/_js/payments-card.compiled.js:1 donate/frontend/_js/payments-paypal-upsell.compiled.js:1 donate/frontend/_js/payments-paypal.compiled.js:1 source/js/components/paypal.js:14
+#: source/js/payments-card.js:16
 msgid "An error occurred. Please reload the page or try again later."
 msgstr "Hiba történt. Töltse újra az oldalt, vagy próbálja újra később."
 
-#: donate/frontend/_js/payments-card.compiled.js:1
-#: donate/frontend/_js/payments-paypal-upsell.compiled.js:1
-#: donate/frontend/_js/payments-paypal.compiled.js:1
-#: source/js/components/paypal.js:17 source/js/payments-card.js:218
+#: donate/frontend/_js/payments-card.compiled.js:1 donate/frontend/_js/payments-paypal-upsell.compiled.js:1 donate/frontend/_js/payments-paypal.compiled.js:1 source/js/components/paypal.js:17
+#: source/js/payments-card.js:218
 msgid "There was an error processing your payment. Please try again."
 msgstr "Hiba történt a fizetés feldolgozásakor. Próbálja újra."
 
-#: donate/frontend/_js/payments-card.compiled.js:1
-#: source/js/payments-card.js:238
+#: donate/frontend/_js/payments-card.compiled.js:1 source/js/payments-card.js:238
 msgid "Some of the fields below are invalid. Please correct the invalid fields and try again."
 msgstr "Az alábbi mezők egy része érvénytelen. Javítsa ki az érvénytelen mezőket, és próbálja újra."
 
-#: donate/frontend/_js/payments-paypal-upsell.compiled.js:1
-#: donate/frontend/_js/payments-paypal.compiled.js:1
-#: source/js/components/paypal.js:20
+#: donate/frontend/_js/payments-paypal-upsell.compiled.js:1 donate/frontend/_js/payments-paypal.compiled.js:1 source/js/components/paypal.js:20
 msgid "We were unable to establish a connection to PayPal. Please try again in a few minutes."
-msgstr ""
+msgstr "Nem tudtunk kapcsolatot létesíteni a PayPallal. Próbálja újra néhány perc múlva."
 
-#: donate/frontend/_js/payments-paypal-upsell.compiled.js:1
-#: donate/frontend/_js/payments-paypal.compiled.js:1
-#: source/js/components/paypal.js:97
+#: donate/frontend/_js/payments-paypal-upsell.compiled.js:1 donate/frontend/_js/payments-paypal.compiled.js:1 source/js/components/paypal.js:97
 msgid "Payment cancelled"
 msgstr "Fizetés megszakítva"
