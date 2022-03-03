@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-01 22:37+0000\n"
-"PO-Revision-Date: 2022-03-03 13:42+0000\n"
+"PO-Revision-Date: 2022-03-03 13:43+0000\n"
 "Last-Translator: Joan Montané <joan@montane.cat>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -273,7 +273,7 @@ msgstr "Ens posarem en contacte ben aviat."
 
 #: donate/templates/pages/core/contributor_support_page_master.html:67
 msgid "If you need help with a donation to the Mozilla Foundation, please fill out this form and a donor care representative will get back to you as soon as possible."
-msgstr "Si necessiteu ajuda per a fer una donació a la Mozilla Foundation, empleneu aquest formulari i un representant d'atenció als donants us escriurà al més aviat possible."
+msgstr "Si necessiteu ajuda per a fer un donatiu a la Mozilla Foundation, empleneu aquest formulari i un representant d'atenció als donants us escriurà al més aviat possible."
 
 #: donate/templates/pages/core/contributor_support_page_master.html:72
 #, python-format
@@ -281,6 +281,8 @@ msgid ""
 "Unfortunately, donor care representatives are unable to offer support or help with Firefox technical issues. For technical support, please visit the <a href=\"%(support_url)s\">Firefox support "
 "page</a>."
 msgstr ""
+"Malauradament, els representants d'atenció als donants no us poden oferir suport o ajuda amb problemes tècnics del Firefox. Per al suport tècnic, visiteu la <a href=\"%(support_url)s\">pàgina de "
+"suport del Firefox</a>."
 
 #: donate/templates/pages/core/contributor_support_page_master.html:87
 msgid "Contact Name"
@@ -293,19 +295,19 @@ msgstr "Cap"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:101
 msgid "Chinese (Simplified)"
-msgstr ""
+msgstr "xinès (simplificat)"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:102
 msgid "Czech"
-msgstr ""
+msgstr "txec"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:103
 msgid "Danish"
-msgstr ""
+msgstr "danès"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:104
 msgid "Dutch"
-msgstr ""
+msgstr "neerlandès"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:105
 msgid "English"
@@ -321,11 +323,11 @@ msgstr "alemany"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:108
 msgid "Italian"
-msgstr ""
+msgstr "italià"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:109
 msgid "Japanese"
-msgstr ""
+msgstr "japonès"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:110
 msgid "Polish"
@@ -337,7 +339,7 @@ msgstr "portuguès"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:112
 msgid "Russian"
-msgstr ""
+msgstr "rus"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:113
 msgid "Spanish"
@@ -769,7 +771,7 @@ msgstr "Directrius per a la participació"
 
 #: donate/thunderbird/templates/pages/base_page.html:62
 msgid "Press Center"
-msgstr ""
+msgstr "Centre de premsa"
 
 #: donate/thunderbird/templates/pages/base_page.html:65
 msgid "Privacy"
@@ -782,7 +784,7 @@ msgstr "Parts d'aquest contingut són ©1998–%(current_year)s de col·laborado
 
 #: donate/thunderbird/templates/pages/core/contributor_support_page.html:6
 msgid "If you need help with a contribution to MZLA/Thunderbird, please fill out this form and a Thunderbird donor care representative will get back to you as soon as possible."
-msgstr ""
+msgstr "Si necessiteu ajuda per a fer una contribució a MZLA/Thunderbird, empleneu aquest formulari i un representant d'atenció als donants del Thunderbird us escriurà al més aviat possible."
 
 #: donate/thunderbird/templates/pages/core/contributor_support_page.html:12
 #, python-format
