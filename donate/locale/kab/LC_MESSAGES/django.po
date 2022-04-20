@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-01 22:37+0000\n"
-"PO-Revision-Date: 2022-04-20 02:13+0000\n"
+"PO-Revision-Date: 2022-04-20 02:14+0000\n"
 "Last-Translator: ZiriSut <rgebbid@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -150,7 +150,7 @@ msgstr "Tallayt taddayt d %(min_amount)s"
 
 #: donate/templates/fragments/donate_form.html:49 donate/templates/fragments/donate_form.html:124
 msgid "Invalid amount entered."
-msgstr ""
+msgstr "Tallayt yettwaskecmen d tarameɣtut."
 
 #: donate/templates/fragments/donate_form.html:56 donate/templates/fragments/donate_form.html:131
 msgid "Choose Payment"
@@ -253,7 +253,7 @@ msgstr "Mudd tawsa tura"
 
 #: donate/templates/pages/core/campaign_page.html:84 donate/templates/pages/core/landing_page_master.html:61
 msgid "Your donation is being processed..."
-msgstr ""
+msgstr "Tawsa i tmuddeḍ la tettusesfer..."
 
 #: donate/templates/pages/core/campaign_page.html:93 donate/templates/pages/core/landing_page_master.html:71
 msgid "One moment while we get all the details right!"
