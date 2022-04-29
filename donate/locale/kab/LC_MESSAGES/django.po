@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-01 22:37+0000\n"
-"PO-Revision-Date: 2022-04-20 02:14+0000\n"
+"PO-Revision-Date: 2022-04-29 05:01+0000\n"
 "Last-Translator: ZiriSut <rgebbid@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -779,7 +779,7 @@ msgstr ""
 #: donate/thunderbird/templates/pages/core/landing_page.html:7
 #, python-format
 msgid "Your download should have begun automatically. If it didn’t work, <a href=\"%(url)s\">try downloading again here</a>."
-msgstr "Asider-ik ad yebdu s wudem awurman. Ma yella ur yeddi ara, <a href=\"%(url)s\">ales tikkelt-nniḍen dagi</a>."
+msgstr "Asader-ik ad yebdu s wudem awurman. Ma yella ur yeddi ara, <a href=\"%(url)s\">ales tikkelt-nniḍen dagi</a>."
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:8
 msgid "We accept contributions in Euros through Single European Payment Area (SEPA) transfer, and British Pounds through BACS transfer."
