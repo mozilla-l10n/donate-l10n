@@ -116,7 +116,7 @@ msgstr "Ζήτημα VPN"
 
 #: donate/templates/403.html:11
 msgid "Action Required - VPN Issue"
-msgstr ""
+msgstr "Απαιτείται ενέργεια - Ζήτημα VPN"
 
 #: donate/templates/403.html:16
 #, python-format
