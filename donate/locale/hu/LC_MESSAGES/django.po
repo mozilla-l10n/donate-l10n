@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-23 09:16+0000\n"
-"PO-Revision-Date: 2022-05-23 09:58+0000\n"
+"PO-Revision-Date: 2022-05-23 10:54+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hu\n"
@@ -126,6 +126,7 @@ msgstr "Kapcsolja ki a VPN-t és keresse fel újra a <a href=\"%(url)s\">donate.
 #: donate/templates/403.html:21
 msgid "We take your privacy very seriously. To minimize fraudulent payments, we’re asking supporters to disable their VPNs when visiting our donate page."
 msgstr ""
+"Nagyon komolyan vesszük az Ön adatainak védelmét. A csaló fizetések minimalizálása érdekében arra kérjük a támogatókat, hogy tiltsák le a VPN-jüket, amikor felkeresik az adományozói oldalunkat."
 
 #: donate/templates/404.html:4
 msgid "Page not found"
