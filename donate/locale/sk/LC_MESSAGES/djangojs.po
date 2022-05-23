@@ -2,13 +2,13 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-01 22:37+0000\n"
+"POT-Creation-Date: 2022-05-23 09:16+0000\n"
 "PO-Revision-Date: 2022-03-05 08:39+0000\n"
 "Last-Translator: Vlado Valaštiak <valastiak@mozilla.sk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,40 +19,53 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Pontoon\n"
 
-#: donate/frontend/_js/main.compiled.js:16 maintenance/static/_js/main.js:16 source/js/components/currency-selector.js:91
+#: donate/frontend/_js/main.compiled.js:16 maintenance/static/_js/main.js:16
+#: source/js/components/currency-selector.js:91
 msgid "per month"
 msgstr "mesačne"
 
-#: donate/frontend/_js/main.compiled.js:16 maintenance/static/_js/main.js:16 source/js/components/currency-selector.js:98
+#: donate/frontend/_js/main.compiled.js:16 maintenance/static/_js/main.js:16
+#: source/js/components/currency-selector.js:98
 msgid "Other amount"
 msgstr "Iná suma"
 
-#: donate/frontend/_js/main.compiled.js:16 source/js/components/currency-selector.js:99
+#: donate/frontend/_js/main.compiled.js:16
+#: source/js/components/currency-selector.js:99
 msgid "Minimum amount is"
 msgstr "Minimálna suma je"
 
-#: donate/frontend/_js/main.compiled.js:16 source/js/components/currency-selector.js:100
+#: donate/frontend/_js/main.compiled.js:16
+#: source/js/components/currency-selector.js:100
 msgid "Invalid amount entered."
 msgstr "Zadaná neplatná suma."
 
-#: donate/frontend/_js/payments-card.compiled.js:1 donate/frontend/_js/payments-paypal-upsell.compiled.js:1 donate/frontend/_js/payments-paypal.compiled.js:1 source/js/components/paypal.js:14
-#: source/js/payments-card.js:16
+#: donate/frontend/_js/payments-card.compiled.js:1
+#: donate/frontend/_js/payments-paypal-upsell.compiled.js:1
+#: donate/frontend/_js/payments-paypal.compiled.js:1
+#: source/js/components/paypal.js:14 source/js/payments-card.js:16
 msgid "An error occurred. Please reload the page or try again later."
 msgstr "Nastala chyba. Obnovte, prosím, túto stránku alebo to skúste neskôr."
 
-#: donate/frontend/_js/payments-card.compiled.js:1 donate/frontend/_js/payments-paypal-upsell.compiled.js:1 donate/frontend/_js/payments-paypal.compiled.js:1 source/js/components/paypal.js:17
-#: source/js/payments-card.js:218
+#: donate/frontend/_js/payments-card.compiled.js:1
+#: donate/frontend/_js/payments-paypal-upsell.compiled.js:1
+#: donate/frontend/_js/payments-paypal.compiled.js:1
+#: source/js/components/paypal.js:17 source/js/payments-card.js:218
 msgid "There was an error processing your payment. Please try again."
 msgstr "Pri spracovávaní platby došlo k chybe. Skúste to, prosím, znova."
 
-#: donate/frontend/_js/payments-card.compiled.js:1 source/js/payments-card.js:238
+#: donate/frontend/_js/payments-card.compiled.js:1
+#: source/js/payments-card.js:238
 msgid "Some of the fields below are invalid. Please correct the invalid fields and try again."
 msgstr "Niektoré z polí sú neplatné. Prosím, vyplňte ich správne a skúste to znova."
 
-#: donate/frontend/_js/payments-paypal-upsell.compiled.js:1 donate/frontend/_js/payments-paypal.compiled.js:1 source/js/components/paypal.js:20
+#: donate/frontend/_js/payments-paypal-upsell.compiled.js:1
+#: donate/frontend/_js/payments-paypal.compiled.js:1
+#: source/js/components/paypal.js:20
 msgid "We were unable to establish a connection to PayPal. Please try again in a few minutes."
 msgstr "Nepodarilo sa nadviazať spojenie so službou PayPal. Skúste tp znova o pár minút."
 
-#: donate/frontend/_js/payments-paypal-upsell.compiled.js:1 donate/frontend/_js/payments-paypal.compiled.js:1 source/js/components/paypal.js:97
+#: donate/frontend/_js/payments-paypal-upsell.compiled.js:1
+#: donate/frontend/_js/payments-paypal.compiled.js:1
+#: source/js/components/paypal.js:97
 msgid "Payment cancelled"
 msgstr "Platba zrušená"

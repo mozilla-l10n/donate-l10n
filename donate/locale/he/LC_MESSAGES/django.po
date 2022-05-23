@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-01 22:37+0000\n"
+"POT-Creation-Date: 2022-05-23 09:16+0000\n"
 "PO-Revision-Date: 2020-11-24 13:31+0000\n"
 "Last-Translator: Itiel <itiel_yn8@walla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -112,6 +112,23 @@ msgstr "אירעה שגיאה בעיבוד התשלום שלך. נא לנסות 
 #: donate/recaptcha/fields.py:19
 msgid "Captcha was invalid. Please try again."
 msgstr "הקאפצ׳ה הייתה שגויה. נא לנסות שוב."
+
+#: donate/templates/403.html:4
+msgid "VPN Issue"
+msgstr ""
+
+#: donate/templates/403.html:11
+msgid "Action Required - VPN Issue"
+msgstr ""
+
+#: donate/templates/403.html:16
+#, python-format
+msgid "Please disable your VPN and visit <a href=\"%(url)s\">donate.mozilla.org</a> again."
+msgstr ""
+
+#: donate/templates/403.html:21
+msgid "We take your privacy very seriously. To minimize fraudulent payments, we’re asking supporters to disable their VPNs when visiting our donate page."
+msgstr ""
 
 #: donate/templates/404.html:4
 msgid "Page not found"

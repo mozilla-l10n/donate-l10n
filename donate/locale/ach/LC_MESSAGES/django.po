@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-01 22:37+0000\n"
+"POT-Creation-Date: 2022-05-23 09:16+0000\n"
 "PO-Revision-Date: 2020-11-05 07:42+0000\n"
 "Last-Translator: denish <denish@mozilla-uganda.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -112,6 +112,23 @@ msgstr "Timwa kica bal mo otime itimo cul mamegi. Tim ber i tem doki lacen."
 #: donate/recaptcha/fields.py:19
 msgid "Captcha was invalid. Please try again."
 msgstr "Captcha onongo pe tye atir. Tim ber item doki."
+
+#: donate/templates/403.html:4
+msgid "VPN Issue"
+msgstr ""
+
+#: donate/templates/403.html:11
+msgid "Action Required - VPN Issue"
+msgstr ""
+
+#: donate/templates/403.html:16
+#, python-format
+msgid "Please disable your VPN and visit <a href=\"%(url)s\">donate.mozilla.org</a> again."
+msgstr ""
+
+#: donate/templates/403.html:21
+msgid "We take your privacy very seriously. To minimize fraudulent payments, we’re asking supporters to disable their VPNs when visiting our donate page."
+msgstr ""
 
 #: donate/templates/404.html:4
 msgid "Page not found"
