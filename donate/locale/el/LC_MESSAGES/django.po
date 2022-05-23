@@ -2,14 +2,14 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-23 09:16+0000\n"
-"PO-Revision-Date: 2022-03-10 12:37+0000\n"
+"PO-Revision-Date: 2022-05-23 11:11+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -19,8 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: donate/core/translation.py:12 donate/payments/forms.py:91
-#: donate/templates/forms/form_field.html:21
+#: donate/core/translation.py:12 donate/payments/forms.py:91 donate/templates/forms/form_field.html:21
 msgid "This field is required."
 msgstr "Αυτό το πεδίο απαιτείται."
 
@@ -37,8 +36,7 @@ msgstr "Εισάγετε έγκυρη διεύθυνση email."
 msgid "Donations must be %(amount)s or more"
 msgstr "Οι δωρεές πρέπει να είναι πάνω από %(amount)s"
 
-#: donate/payments/forms.py:96 donate/payments/forms.py:110
-#: donate/payments/forms.py:161
+#: donate/payments/forms.py:96 donate/payments/forms.py:110 donate/payments/forms.py:161
 msgid "Amount"
 msgstr "Ποσό"
 
@@ -50,8 +48,7 @@ msgstr "Όνομα"
 msgid "Last name"
 msgstr "Επώνυμο"
 
-#: donate/payments/forms.py:125 donate/payments/forms.py:171
-#: donate/templates/pages/core/contributor_support_page_master.html:92
+#: donate/payments/forms.py:125 donate/payments/forms.py:171 donate/templates/pages/core/contributor_support_page_master.html:92
 msgid "Email"
 msgstr "Email"
 
@@ -115,7 +112,7 @@ msgstr "Το Captcha δεν ήταν έγκυρο. Παρακαλούμε δοκ
 
 #: donate/templates/403.html:4
 msgid "VPN Issue"
-msgstr ""
+msgstr "Ζήτημα VPN"
 
 #: donate/templates/403.html:11
 msgid "Action Required - VPN Issue"
@@ -146,9 +143,7 @@ msgstr "Λυπούμαστε, η σελίδα δεν υπάρχει"
 msgid "Go to our home page"
 msgstr "Μετάβαση στην αρχική σελίδα"
 
-#: donate/templates/base_master.html:8
-#: donate/templates/pages/base_page_master.html:14
-#: donate/templates/pages/base_page_master.html:15
+#: donate/templates/base_master.html:8 donate/templates/pages/base_page_master.html:14 donate/templates/pages/base_page_master.html:15
 msgctxt "Page title"
 msgid "Donate to Mozilla"
 msgstr "Δωρέα στη Mozilla"
@@ -161,37 +156,28 @@ msgstr "ΜΙΑ ΦΟΡΑ"
 msgid "MONTHLY"
 msgstr "ΜΗΝΙΑΙΑ"
 
-#: donate/templates/fragments/donate_form.html:41
-#: donate/templates/fragments/donate_form.html:42
-#: donate/templates/fragments/donate_form.html:116
-#: donate/templates/fragments/donate_form.html:117
+#: donate/templates/fragments/donate_form.html:41 donate/templates/fragments/donate_form.html:42 donate/templates/fragments/donate_form.html:116 donate/templates/fragments/donate_form.html:117
 msgid "Other amount"
 msgstr "Άλλο ποσό"
 
-#: donate/templates/fragments/donate_form.html:46
-#: donate/templates/fragments/donate_form.html:121
+#: donate/templates/fragments/donate_form.html:46 donate/templates/fragments/donate_form.html:121
 #, python-format
 msgid "Minimum amount is %(min_amount)s"
 msgstr "Το ελάχιστο ποσό είναι %(min_amount)s"
 
-#: donate/templates/fragments/donate_form.html:49
-#: donate/templates/fragments/donate_form.html:124
+#: donate/templates/fragments/donate_form.html:49 donate/templates/fragments/donate_form.html:124
 msgid "Invalid amount entered."
 msgstr "Πληκτρολογήσατε μη έγκυρο ποσό."
 
-#: donate/templates/fragments/donate_form.html:56
-#: donate/templates/fragments/donate_form.html:131
+#: donate/templates/fragments/donate_form.html:56 donate/templates/fragments/donate_form.html:131
 msgid "Choose Payment"
 msgstr "Επιλογή πληρωμής"
 
-#: donate/templates/fragments/donate_form.html:62
-#: donate/templates/fragments/donate_form.html:137
-#: donate/templates/payment/card_master.html:97
+#: donate/templates/fragments/donate_form.html:62 donate/templates/fragments/donate_form.html:137 donate/templates/payment/card_master.html:97
 msgid "SECURE"
 msgstr "ΑΣΦΑΛΕΣ"
 
-#: donate/templates/fragments/donate_form.html:68
-#: donate/templates/fragments/donate_form.html:143
+#: donate/templates/fragments/donate_form.html:68 donate/templates/fragments/donate_form.html:143
 msgid "Donate"
 msgstr "Δωρεά"
 
@@ -201,32 +187,42 @@ msgstr "ανά μήνα"
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:6
 #, python-format
-msgid "Mozilla is committed to your privacy; please read our <a href=\"%(privacy_url)s\">privacy policy here</a>. Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Mozilla."
-msgstr "Η Mozilla σέβεται το απόρρητό σας· παρακαλούμε διαβάστε την <a href=\"%(privacy_url)s\">πολιτική απορρήτου μας εδώ</a>. Η επεξεργασία των στοιχείων πληρωμής σας θα γίνει από την <a href=\"%(braintree_url)s\">Braintree</a>, μια εταιρεία της PayPal (για πιστωτικές/χρεωστικές κάρτες) ή την <a href=\"%(paypal_url)s\">PayPal</a>, ενώ μια καταγραφή της δωρεάς σας θα αποθηκευτεί από τη Mozilla."
+msgid ""
+"Mozilla is committed to your privacy; please read our <a href=\"%(privacy_url)s\">privacy policy here</a>. Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a "
+"PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Mozilla."
+msgstr ""
+"Η Mozilla σέβεται το απόρρητό σας· παρακαλούμε διαβάστε την <a href=\"%(privacy_url)s\">πολιτική απορρήτου μας εδώ</a>. Η επεξεργασία των στοιχείων πληρωμής σας θα γίνει από την <a "
+"href=\"%(braintree_url)s\">Braintree</a>, μια εταιρεία της PayPal (για πιστωτικές/χρεωστικές κάρτες) ή την <a href=\"%(paypal_url)s\">PayPal</a>, ενώ μια καταγραφή της δωρεάς σας θα αποθηκευτεί από "
+"τη Mozilla."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:9
 #, python-format
 msgid "Monthly donations are charged each month on the same day that you donate today, and will continue until you cancel. To cancel, email us at <a href=\"mailto:%(email)s\">%(email)s</a>."
-msgstr "Οι μηνιαίες δωρεές χρεώνονται κάθε μήνα την ίδια μέρα που δωρίσατε και σήμερα και θα συνεχίσουν μέχρι να τις ακυρώσετε. Για ακύρωση, στείλτε μας ένα email στο <a href=\"mailto:%(email)s\">%(email)s</a>."
+msgstr ""
+"Οι μηνιαίες δωρεές χρεώνονται κάθε μήνα την ίδια μέρα που δωρίσατε και σήμερα και θα συνεχίσουν μέχρι να τις ακυρώσετε. Για ακύρωση, στείλτε μας ένα email στο <a "
+"href=\"mailto:%(email)s\">%(email)s</a>."
 
-#: donate/templates/fragments/donate_form_disclaimer_master.html:28
-#: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:7
+#: donate/templates/fragments/donate_form_disclaimer_master.html:28 donate/thunderbird/templates/fragments/donate_form_disclaimer.html:7
 #, python-format
 msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a>"
 msgstr "Άλλοι τρόποι δωρεάς: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a>|<a href=\"%(check_url)s\">Επιταγή</a>"
 
-#: donate/templates/fragments/donate_form_disclaimer_master.html:38
-#: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:21
+#: donate/templates/fragments/donate_form_disclaimer_master.html:38 donate/thunderbird/templates/fragments/donate_form_disclaimer.html:21
 #, python-format
 msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"%(help_url)s\">Contact us</a>."
-msgstr "Προβλήματα με τη δωρεά; Επισκεφθείτε τις <a href=\"%(faq_url)s\">συχνές ερωτήσεις</a> για απαντήσεις στις πιο συνηθισμένες ερωτήσεις. Έχετε ακόμα προβλήματα; <a href=\"%(help_url)s\">Επικοινωνήστε μαζί μας</a>."
+msgstr ""
+"Προβλήματα με τη δωρεά; Επισκεφθείτε τις <a href=\"%(faq_url)s\">συχνές ερωτήσεις</a> για απαντήσεις στις πιο συνηθισμένες ερωτήσεις. Έχετε ακόμα προβλήματα; <a href=\"%(help_url)s\">Επικοινωνήστε "
+"μαζί μας</a>."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:45
-msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in San Francisco, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
-msgstr "Οι συνεισφορές πηγαίνουν στο Ίδρυμα Mozilla, έναν οργανισμό 501(c)(3) με έδρα το Σαν Φρανσίσκο της Καλιφόρνια, ώστε να χρησιμοποιηθούν σύμφωνα με τη διακριτική ευχέρειά του για τους φιλανθρωπικούς σκοπούς του. Είναι εκπίπτουσες φορολογίας στις ΗΠΑ στο μέγιστο, επιτρεπτό από τη νομοθεσία, βαθμό."
+msgid ""
+"Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in San Francisco, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S."
+" to the fullest extent permitted by law."
+msgstr ""
+"Οι συνεισφορές πηγαίνουν στο Ίδρυμα Mozilla, έναν οργανισμό 501(c)(3) με έδρα το Σαν Φρανσίσκο της Καλιφόρνια, ώστε να χρησιμοποιηθούν σύμφωνα με τη διακριτική ευχέρειά του για τους φιλανθρωπικούς "
+"σκοπούς του. Είναι εκπίπτουσες φορολογίας στις ΗΠΑ στο μέγιστο, επιτρεπτό από τη νομοθεσία, βαθμό."
 
-#: donate/templates/fragments/language_switcher.html:10
-#: donate/templates/pages/core/contributor_support_page_master.html:97
+#: donate/templates/fragments/language_switcher.html:10 donate/templates/pages/core/contributor_support_page_master.html:97
 msgid "Language"
 msgstr "Γλώσσα"
 
@@ -252,24 +248,23 @@ msgstr "Blog"
 
 #: donate/templates/pages/base_page_master.html:183
 #, python-format
-msgid "Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a %(fomo_link_attributes)s>%(fomo_site_url)s</a>. Most content available under a <a %(cc_link_attributes)s>Creative Commons license</a>."
-msgstr "Η Mozilla είναι μια παγκόσμια μη κερδοσκοπική οργάνωση που αγωνίζεται για να σας δώσει τον έλεγχο της διαδικτυακής εμπειρίας σας και να διαμορφώσει το μέλλον του διαδικτύου για το κοινό καλό. Επισκεφθείτε μας στο <a %(fomo_link_attributes)s>%(fomo_site_url)s</a>. Το μεγαλύτερο μέρος του περιεχομένου διατίθεται υπό την άδεια <a %(cc_link_attributes)s>Creative Commons</a>."
+msgid ""
+"Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a "
+"%(fomo_link_attributes)s>%(fomo_site_url)s</a>. Most content available under a <a %(cc_link_attributes)s>Creative Commons license</a>."
+msgstr ""
+"Η Mozilla είναι μια παγκόσμια μη κερδοσκοπική οργάνωση που αγωνίζεται για να σας δώσει τον έλεγχο της διαδικτυακής εμπειρίας σας και να διαμορφώσει το μέλλον του διαδικτύου για το κοινό καλό. "
+"Επισκεφθείτε μας στο <a %(fomo_link_attributes)s>%(fomo_site_url)s</a>. Το μεγαλύτερο μέρος του περιεχομένου διατίθεται υπό την άδεια <a %(cc_link_attributes)s>Creative Commons</a>."
 
-#: donate/templates/pages/core/campaign_page.html:43
-#: donate/templates/pages/core/ways_to_give_page_master.html:12
+#: donate/templates/pages/core/campaign_page.html:43 donate/templates/pages/core/ways_to_give_page_master.html:12
 msgctxt "Button"
 msgid "DONATE NOW"
 msgstr "ΔΩΡΕΑ ΤΩΡΑ"
 
-#: donate/templates/pages/core/campaign_page.html:57
-#: donate/templates/pages/core/landing_page_master.html:36
-#: donate/templates/payment/card_master.html:167
+#: donate/templates/pages/core/campaign_page.html:57 donate/templates/pages/core/landing_page_master.html:36 donate/templates/payment/card_master.html:167
 msgid "Seal of Charity Navigator 4-Star"
 msgstr "Σφραγίδα Charity Navigator 4 αστέρων"
 
-#: donate/templates/pages/core/campaign_page.html:60
-#: donate/templates/pages/core/landing_page_master.html:39
-#: donate/templates/payment/card_master.html:170
+#: donate/templates/pages/core/campaign_page.html:60 donate/templates/pages/core/landing_page_master.html:39 donate/templates/payment/card_master.html:170
 msgid "Seal of GuideStar Gold 2019"
 msgstr "Σφραγίδα GuideStar Gold 2019"
 
@@ -278,13 +273,11 @@ msgctxt "Header"
 msgid "Donate now"
 msgstr "Δωρεά τώρα"
 
-#: donate/templates/pages/core/campaign_page.html:84
-#: donate/templates/pages/core/landing_page_master.html:61
+#: donate/templates/pages/core/campaign_page.html:84 donate/templates/pages/core/landing_page_master.html:61
 msgid "Your donation is being processed..."
 msgstr "Η δωρεά σας βρίσκεται υπό επεξεργασία..."
 
-#: donate/templates/pages/core/campaign_page.html:93
-#: donate/templates/pages/core/landing_page_master.html:71
+#: donate/templates/pages/core/campaign_page.html:93 donate/templates/pages/core/landing_page_master.html:71
 msgid "One moment while we get all the details right!"
 msgstr "Περιμένετε μέχρι να επιβεβαιώσουμε όλα τα στοιχεία!"
 
@@ -302,8 +295,12 @@ msgstr "Εάν χρειάζεστε βοήθεια με μια δωρεά στο
 
 #: donate/templates/pages/core/contributor_support_page_master.html:72
 #, python-format
-msgid "Unfortunately, donor care representatives are unable to offer support or help with Firefox technical issues. For technical support, please visit the <a href=\"%(support_url)s\">Firefox support page</a>."
-msgstr "Δυστυχώς, οι εκπρόσωποι υποστήριξης δωρητών δεν μπορούν να προσφέρουν υποστήριξη ή βοήθεια για τεχνικά ζητήματα του Firefox. Για τεχνική υποστήριξη, επισκεφθείτε τη <a href=\"%(support_url)s\">σελίδα υποστήριξης του Firefox</a>."
+msgid ""
+"Unfortunately, donor care representatives are unable to offer support or help with Firefox technical issues. For technical support, please visit the <a href=\"%(support_url)s\">Firefox support "
+"page</a>."
+msgstr ""
+"Δυστυχώς, οι εκπρόσωποι υποστήριξης δωρητών δεν μπορούν να προσφέρουν υποστήριξη ή βοήθεια για τεχνικά ζητήματα του Firefox. Για τεχνική υποστήριξη, επισκεφθείτε τη <a "
+"href=\"%(support_url)s\">σελίδα υποστήριξης του Firefox</a>."
 
 #: donate/templates/pages/core/contributor_support_page_master.html:87
 msgid "Contact Name"
@@ -382,14 +379,15 @@ msgstr "Περιγραφή"
 #: donate/templates/pages/core/contributor_support_page_master.html:130
 #, python-format
 msgid "Mozilla will only use your submitted information for purposes of communicating with you about your request. See our <a href=\"%(privacy_policy)s\">privacy policy</a> for further information."
-msgstr "Η Mozilla θα χρησιμοποιήσει τις υποβεβλημένες πληροφορίες μόνο για να επικοινωνήσει μαζί σας σχετικά με το αίτημά σας. Δείτε την <a href=\"%(privacy_policy)s\">πολιτική απορρήτου</a> για περισσότερες πληροφορίες."
+msgstr ""
+"Η Mozilla θα χρησιμοποιήσει τις υποβεβλημένες πληροφορίες μόνο για να επικοινωνήσει μαζί σας σχετικά με το αίτημά σας. Δείτε την <a href=\"%(privacy_policy)s\">πολιτική απορρήτου</a> για "
+"περισσότερες πληροφορίες."
 
 #: donate/templates/pages/core/contributor_support_page_master.html:142
 msgid "Submit"
 msgstr "Υποβολή"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:4
-#: donate/templates/pages/core/ways_to_give_page_master.html:11
+#: donate/templates/pages/core/ways_to_give_page_master.html:4 donate/templates/pages/core/ways_to_give_page_master.html:11
 msgid "Ways to Give"
 msgstr "Τρόποι συνεισφοράς"
 
@@ -402,8 +400,7 @@ msgstr "Πιστωτική/χρεωστική και PayPal"
 msgid "<a href=\"%(ways_to_give_link)s\">Go to this link</a> to make a secure online donation right now."
 msgstr "<a href=\"%(ways_to_give_link)s\">Μεταβείτε σε αυτό το σύνδεσμο</a> για να κάνετε με ασφάλεια τη δωρεά σας."
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:24
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:7
+#: donate/templates/pages/core/ways_to_give_page_master.html:24 donate/thunderbird/templates/pages/core/ways_to_give_page.html:7
 msgid "Bank Transfer / SEPA"
 msgstr "Τραπεζικό έμβασμα/SEPA"
 
@@ -412,103 +409,90 @@ msgid "We accept donations in Euros through Single European Payment Area (SEPA) 
 msgstr "Δεχόμαστε δωρεές σε ευρώ μέσω εμβάσματος Ενιαίου Χώρου Πληρωμών σε Ευρώ (SEPA) και σε βρετανικές λίρες μέσω εμβάσματος BACS."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:27
-msgid "Note that for smaller (under 10 EUR or equivalent) donations, <strong>and especially for donations under 5 EUR or equivalent</strong>, we request that you donate via credit card or PayPal to help reduce Mozilla’s processing fees."
-msgstr "Σημειώστε ότι για μικρές (μικρότερες ή ίσες με 10 ευρώ) δωρεές <strong>και ειδικά για δωρεές των 5 ευρώ ή λιγότερο</strong>, ζητούμε να κάνετε δωρεά με πιστωτική κάρτα ή PayPal για να μειωθούν τα τέλη επεξεργασίας της Mozilla."
+msgid ""
+"Note that for smaller (under 10 EUR or equivalent) donations, <strong>and especially for donations under 5 EUR or equivalent</strong>, we request that you donate via credit card or PayPal to help "
+"reduce Mozilla’s processing fees."
+msgstr ""
+"Σημειώστε ότι για μικρές (μικρότερες ή ίσες με 10 ευρώ) δωρεές <strong>και ειδικά για δωρεές των 5 ευρώ ή λιγότερο</strong>, ζητούμε να κάνετε δωρεά με πιστωτική κάρτα ή PayPal για να μειωθούν τα "
+"τέλη επεξεργασίας της Mozilla."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:32
 #, python-format
-msgid "Please also note that the Mozilla Foundation cannot accept SEPA or BACS transfers for MZLA/Thunderbird. To contribute to MZLA/Thunderbird via SEPA or BACS transfer, please follow <a href=\"%(instruction_url)s\">these instructions</a>."
-msgstr "Παρακαλούμε σημειώστε επίσης ότι το Ίδρυμα Mozilla δεν μπορεί να δεχθεί εμβάσματα μέσω SEPA ή BACS για το MZLA/Thunderbird. Για να συνεισφέρετε στο MZLA/Thunderbird μέσω εμβάσματος SEPA ή BACS, παρακαλούμε ακολουθήστε αυτές τις <a href=\"%(instruction_url)s\">οδηγίες</a>."
+msgid ""
+"Please also note that the Mozilla Foundation cannot accept SEPA or BACS transfers for MZLA/Thunderbird. To contribute to MZLA/Thunderbird via SEPA or BACS transfer, please follow <a "
+"href=\"%(instruction_url)s\">these instructions</a>."
+msgstr ""
+"Παρακαλούμε σημειώστε επίσης ότι το Ίδρυμα Mozilla δεν μπορεί να δεχθεί εμβάσματα μέσω SEPA ή BACS για το MZLA/Thunderbird. Για να συνεισφέρετε στο MZLA/Thunderbird μέσω εμβάσματος SEPA ή BACS, "
+"παρακαλούμε ακολουθήστε αυτές τις <a href=\"%(instruction_url)s\">οδηγίες</a>."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:36
 msgid "Please remember that donations are deductible for U.S. income tax purposes only."
 msgstr "Παρακαλούμε θυμηθείτε ότι οι δωρεές είναι εκπίπτουσες μόνο για φορολογία εισοδήματος στις ΗΠΑ."
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:38
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:15
+#: donate/templates/pages/core/ways_to_give_page_master.html:38 donate/thunderbird/templates/pages/core/ways_to_give_page.html:15
 #, python-format
 msgid "If your bank requests our physical address, it is %(address)s."
 msgstr "Αν η τράπεζά σας ζητήσει τη φυσική μας διεύθυνση, είναι %(address)s."
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:45
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:22
+#: donate/templates/pages/core/ways_to_give_page_master.html:45 donate/thunderbird/templates/pages/core/ways_to_give_page.html:22
 msgid "Euros:"
 msgstr "Ευρώ:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:47
-#: donate/templates/pages/core/ways_to_give_page_master.html:60
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:24
+#: donate/templates/pages/core/ways_to_give_page_master.html:47 donate/templates/pages/core/ways_to_give_page_master.html:60 donate/thunderbird/templates/pages/core/ways_to_give_page.html:24
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:37
 msgid "Account Currency:"
 msgstr "Νόμισμα λογαριασμού:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:47
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:24
+#: donate/templates/pages/core/ways_to_give_page_master.html:47 donate/thunderbird/templates/pages/core/ways_to_give_page.html:24
 msgid "Euro (EUR)"
 msgstr "Ευρώ (EUR)"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:48
-#: donate/templates/pages/core/ways_to_give_page_master.html:61
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:25
+#: donate/templates/pages/core/ways_to_give_page_master.html:48 donate/templates/pages/core/ways_to_give_page_master.html:61 donate/thunderbird/templates/pages/core/ways_to_give_page.html:25
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:38
 msgid "Receiving Bank (Pay to):"
 msgstr "Τράπεζα παραλαβής (Πληρωμή σε):"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:49
-#: donate/templates/pages/core/ways_to_give_page_master.html:62
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:26
+#: donate/templates/pages/core/ways_to_give_page_master.html:49 donate/templates/pages/core/ways_to_give_page_master.html:62 donate/thunderbird/templates/pages/core/ways_to_give_page.html:26
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:39
 msgid "City & Country/Region:"
 msgstr "Πόλη & χώρα/Περιοχή:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:49
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:26
+#: donate/templates/pages/core/ways_to_give_page_master.html:49 donate/thunderbird/templates/pages/core/ways_to_give_page.html:26
 msgid "Frankfurt, Germany"
 msgstr "Φρανκφούρτη, Γερμανία"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:50
-#: donate/templates/pages/core/ways_to_give_page_master.html:68
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:27
+#: donate/templates/pages/core/ways_to_give_page_master.html:50 donate/templates/pages/core/ways_to_give_page_master.html:68 donate/thunderbird/templates/pages/core/ways_to_give_page.html:27
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:45
 msgid "SWIFT/BIC Code:"
 msgstr "Κωδικός SWIFT/BIC:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:51
-#: donate/templates/pages/core/ways_to_give_page_master.html:65
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:28
+#: donate/templates/pages/core/ways_to_give_page_master.html:51 donate/templates/pages/core/ways_to_give_page_master.html:65 donate/thunderbird/templates/pages/core/ways_to_give_page.html:28
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:42
 msgid "Beneficiary Name (For credit to):"
 msgstr "Όνομα ευεργέτη (Για πίστωση):"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:52
-#: donate/templates/pages/core/ways_to_give_page_master.html:69
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:29
+#: donate/templates/pages/core/ways_to_give_page_master.html:52 donate/templates/pages/core/ways_to_give_page_master.html:69 donate/thunderbird/templates/pages/core/ways_to_give_page.html:29
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:46
 msgid "IBAN:"
 msgstr "IBAN:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:58
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:35
+#: donate/templates/pages/core/ways_to_give_page_master.html:58 donate/thunderbird/templates/pages/core/ways_to_give_page.html:35
 msgid "British Pound Sterling:"
 msgstr "Βρετανική λίρα στερλίνα:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:60
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:37
+#: donate/templates/pages/core/ways_to_give_page_master.html:60 donate/thunderbird/templates/pages/core/ways_to_give_page.html:37
 msgid "British Pound Sterling (GBP)"
 msgstr "Βρετανική λίρα στερλίνα (GBP)"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:62
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:39
+#: donate/templates/pages/core/ways_to_give_page_master.html:62 donate/thunderbird/templates/pages/core/ways_to_give_page.html:39
 msgid "London, United Kingdom"
 msgstr "Λονδίνο, Ηνωμένο Βασίλειο"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:63
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:40
+#: donate/templates/pages/core/ways_to_give_page_master.html:63 donate/thunderbird/templates/pages/core/ways_to_give_page.html:40
 msgid "Bank Sort Code:"
 msgstr "Κωδικός ταξινόμησης τράπεζας:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:64
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:41
+#: donate/templates/pages/core/ways_to_give_page_master.html:64 donate/thunderbird/templates/pages/core/ways_to_give_page.html:41
 msgid "Account Number (8 digits):"
 msgstr "Αριθμός λογαριασμού (8 ψηφία):"
 
@@ -518,8 +502,12 @@ msgstr "Δωρεά μετοχών/τίτλων:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:77
 #, python-format
-msgid "The Mozilla Foundation is happy to accept your gift of publicly-traded stocks or bonds through our brokerage account at Northern Trust Securities. Please contact Major Gift Officer %(name)s at <a href=\"mailto:%(email)s\">%(email)s</a> to initiate the process."
-msgstr "Το Ίδρυμα Mozilla θα δεχθεί με χαρά τη δωρεά μετοχών ή ομολόγων σας με δημόσια διαπραγμάτευση μέσω του λογαριασμού μεσιτείας μας στη Northern Trust Securities. Επικοινωνήστε με τον υπεύθυνο μεγάλων δωρεών, %(name)s, στη διεύθυνση <a href=\"mailto:%(email)s\">%(email)s</a> για να ξεκινήσετε τη διαδικασία."
+msgid ""
+"The Mozilla Foundation is happy to accept your gift of publicly-traded stocks or bonds through our brokerage account at Northern Trust Securities. Please contact Major Gift Officer %(name)s at <a "
+"href=\"mailto:%(email)s\">%(email)s</a> to initiate the process."
+msgstr ""
+"Το Ίδρυμα Mozilla θα δεχθεί με χαρά τη δωρεά μετοχών ή ομολόγων σας με δημόσια διαπραγμάτευση μέσω του λογαριασμού μεσιτείας μας στη Northern Trust Securities. Επικοινωνήστε με τον υπεύθυνο μεγάλων "
+"δωρεών, %(name)s, στη διεύθυνση <a href=\"mailto:%(email)s\">%(email)s</a> για να ξεκινήσετε τη διαδικασία."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:86
 msgid "Check (via postal service)"
@@ -530,18 +518,25 @@ msgid "UPDATE October 2020:"
 msgstr "ΕΝΗΜΕΡΩΣΗ Οκτωβρίου 2020:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:91
-msgid "The Mozilla Foundation is happy to accept your donation (made payable to “Mozilla Foundation”) via check; however please note that processing and acknowledgment of your gift may be delayed by changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
-msgstr "Το Ίδρυμα Mozilla θα δεχθεί με χαρά τη δωρεά σας (καταβλητέα στο “Mozilla Foundation”) μέσω επιταγής· ωστόσο, παρακαλούμε σημειώστε ότι η επεξεργασία και η αναγνώριση της συνεισφοράς σας ενδέχεται να καθυστερήσει λόγω των αλλαγών για την πανδημία COVID-19. Μπορείτε να στείλετε τις επιταγές σας στη διεύθυνση:"
+msgid ""
+"The Mozilla Foundation is happy to accept your donation (made payable to “Mozilla Foundation”) via check; however please note that processing and acknowledgment of your gift may be delayed by "
+"changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
+msgstr ""
+"Το Ίδρυμα Mozilla θα δεχθεί με χαρά τη δωρεά σας (καταβλητέα στο “Mozilla Foundation”) μέσω επιταγής· ωστόσο, παρακαλούμε σημειώστε ότι η επεξεργασία και η αναγνώριση της συνεισφοράς σας ενδέχεται "
+"να καθυστερήσει λόγω των αλλαγών για την πανδημία COVID-19. Μπορείτε να στείλετε τις επιταγές σας στη διεύθυνση:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:108
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:67
+#: donate/templates/pages/core/ways_to_give_page_master.html:108 donate/thunderbird/templates/pages/core/ways_to_give_page.html:67
 msgid "Please include your email address on the memo line of your check to help us track and attribute your gift."
 msgstr "Παρακαλούμε γράψτε τη διεύθυνση email σας στη γραμμή υπομνήματος της επιταγής σας, ώστε να μας βοηθήσετε να εντοπίσουμε και να αναγνωρίσουμε τη δωρεά σας."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:115
 #, python-format
-msgid "Please also note that the Mozilla Foundation can <strong>only</strong> accept checks in U.S. dollars drawn on a U.S. bank, and <strong>cannot</strong> accept contributions for MZLA/Thunderbird. (Contributions to MZLA/Thunderbird via check can be made by following <a href=\"%(instruction_url)s\" target=\"_blank\">these instructions</a>.)"
-msgstr "Παρακαλούμε σημειώστε επίσης ότι το Ίδρυμα Mozilla μπορεί να δεχτεί επιταγές <strong>μόνο</strong> σε δολάρια ΗΠΑ από τράπεζα των ΗΠΑ, ενώ <strong>δεν</strong> μπορεί να δεχθεί συνεισφορές για το MZLA/Thunderbird. (Συνεισφορές στο MZLA/Thunderbird με επιταγή μπορείτε να κάνετε ακολουθώντας <a href=\"%(instruction_url)s\" target=\"_blank\">αυτές τις οδηγίες</a>.)"
+msgid ""
+"Please also note that the Mozilla Foundation can <strong>only</strong> accept checks in U.S. dollars drawn on a U.S. bank, and <strong>cannot</strong> accept contributions for MZLA/Thunderbird. "
+"(Contributions to MZLA/Thunderbird via check can be made by following <a href=\"%(instruction_url)s\" target=\"_blank\">these instructions</a>.)"
+msgstr ""
+"Παρακαλούμε σημειώστε επίσης ότι το Ίδρυμα Mozilla μπορεί να δεχτεί επιταγές <strong>μόνο</strong> σε δολάρια ΗΠΑ από τράπεζα των ΗΠΑ, ενώ <strong>δεν</strong> μπορεί να δεχθεί συνεισφορές για το "
+"MZLA/Thunderbird. (Συνεισφορές στο MZLA/Thunderbird με επιταγή μπορείτε να κάνετε ακολουθώντας <a href=\"%(instruction_url)s\" target=\"_blank\">αυτές τις οδηγίες</a>.)"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:122
 msgid "Currencies"
@@ -589,9 +584,7 @@ msgstr "Δεν μπορέσαμε να λάβουμε την πληρωμή, ε�
 msgid "Please correct these errors and try again."
 msgstr "Παρακαλούμε διορθώστε αυτά τα σφάλματα και δοκιμάστε ξανά."
 
-#: donate/templates/payment/card_master.html:68
-#: donate/templates/payment/card_upsell_master.html:34
-#: donate/templates/payment/newsletter_signup_master.html:30
+#: donate/templates/payment/card_master.html:68 donate/templates/payment/card_upsell_master.html:34 donate/templates/payment/newsletter_signup_master.html:30
 #: donate/templates/payment/paypal_upsell_master.html:34
 msgid "There were some errors with your form. Please amend the fields highlighted below."
 msgstr "Υπήρξαν ορισμένα σφάλματα στη φόρμα σας. Παρακαλούμε διορθώστε τα πεδία που επισημαίνονται παρακάτω."
@@ -614,8 +607,14 @@ msgstr "CVV"
 
 #: donate/templates/payment/card_master.html:126
 #, python-format
-msgid "I authorize Mozilla Foundation to automatically charge my card every month in the amount indicated above, starting today and continuing each month on the same day, until I cancel. I understand that I must cancel at least 5 days before the next scheduled donation by email to <a href='mailto:%(email)s'>%(email)s</a>, and that I may only request a refund within 15 days from the date of a donation."
-msgstr "Εξουσιοδοτώ το Ίδρυμα Mozilla να χρεώνει αυτόματα την κάρτα μου κάθε μήνα με το ποσό που αναφέρεται παραπάνω, ξεκινώντας από σήμερα και συνεχίζοντας κάθε μήνα την ίδια μέρα, μέχρι να ακυρώσω. Κατανοώ ότι πρέπει να ακυρώσω τουλάχιστον 5 ημέρες πριν από την επόμενη προγραμματισμένη δωρεά μέσω email στο <a href='mailto:%(email)s'>%(email)s</a> και ότι μπορώ να ζητήσω επιστροφή χρημάτων μόνο εντός 15 ημερών από την ημερομηνία της δωρεάς."
+msgid ""
+"I authorize Mozilla Foundation to automatically charge my card every month in the amount indicated above, starting today and continuing each month on the same day, until I cancel. I understand that "
+"I must cancel at least 5 days before the next scheduled donation by email to <a href='mailto:%(email)s'>%(email)s</a>, and that I may only request a refund within 15 days from the date of a "
+"donation."
+msgstr ""
+"Εξουσιοδοτώ το Ίδρυμα Mozilla να χρεώνει αυτόματα την κάρτα μου κάθε μήνα με το ποσό που αναφέρεται παραπάνω, ξεκινώντας από σήμερα και συνεχίζοντας κάθε μήνα την ίδια μέρα, μέχρι να ακυρώσω. "
+"Κατανοώ ότι πρέπει να ακυρώσω τουλάχιστον 5 ημέρες πριν από την επόμενη προγραμματισμένη δωρεά μέσω email στο <a href='mailto:%(email)s'>%(email)s</a> και ότι μπορώ να ζητήσω επιστροφή χρημάτων μόνο"
+" εντός 15 ημερών από την ημερομηνία της δωρεάς."
 
 #: donate/templates/payment/card_master.html:128
 msgid "I authorize Mozilla Foundation to charge my card in the amount indicated above. I understand that I may only request a refund within 15 days from the date of the donation."
@@ -635,27 +634,20 @@ msgstr "Δωρεά <span class=\"%(span_class)s\">%(formatted_amount)s</span>"
 msgid "Your donation helps keep the Web open and free. Thank you in advance for your gift."
 msgstr "Η δωρεά σας θα μας βοηθήσει να διατηρήσουμε το διαδίκτυο ανοιχτό και ελεύθερο. Σας ευχαριστούμε εκ των προτέρων για το δώρο σας."
 
-#: donate/templates/payment/card_upsell_master.html:4
-#: donate/templates/payment/paypal_upsell_master.html:4
-#: donate/templates/payment/thank_you_master.html:4
+#: donate/templates/payment/card_upsell_master.html:4 donate/templates/payment/paypal_upsell_master.html:4 donate/templates/payment/thank_you_master.html:4
 msgid "Thank you"
 msgstr "Ευχαριστούμε"
 
-#: donate/templates/payment/card_upsell_master.html:13
-#: donate/templates/payment/newsletter_signup_master.html:13
-#: donate/templates/payment/paypal_upsell_master.html:13
-#: donate/templates/payment/thank_you_master.html:12
-#: donate/thunderbird/templates/payment/newsletter_signup.html:6
+#: donate/templates/payment/card_upsell_master.html:13 donate/templates/payment/newsletter_signup_master.html:13 donate/templates/payment/paypal_upsell_master.html:13
+#: donate/templates/payment/thank_you_master.html:12 donate/thunderbird/templates/payment/newsletter_signup.html:6
 msgid "Thank you for your generous gift"
 msgstr "Σας ευχαριστούμε για το γενναιόδωρο δώρο σας"
 
-#: donate/templates/payment/card_upsell_master.html:17
-#: donate/templates/payment/paypal_upsell_master.html:17
+#: donate/templates/payment/card_upsell_master.html:17 donate/templates/payment/paypal_upsell_master.html:17
 msgid "We’d love to have you as a sustaining supporter of Mozilla. <b>Could you add a monthly donation starting next month?</b>"
 msgstr "Θα θέλαμε πολύ να γίνετε υποστηρικτής της Mozilla. <b>Μπορείτε να προσθέσετε μια μηναία συνδρομή που θα ξεκινήσει τον επόμενο μήνα;</b>"
 
-#: donate/templates/payment/card_upsell_master.html:21
-#: donate/templates/payment/paypal_upsell_master.html:21
+#: donate/templates/payment/card_upsell_master.html:21 donate/templates/payment/paypal_upsell_master.html:21
 msgid "Yes, I will give:"
 msgstr "Ναι, θα δωρίσω:"
 
@@ -665,15 +657,19 @@ msgstr "Μηνιαία"
 
 #: donate/templates/payment/card_upsell_master.html:48
 #, python-format
-msgid "I authorize Mozilla Foundation to automatically charge my card every month in the amount indicated above, starting next month on the same date as today, and continuing each month afterwards until I cancel. I understand that I must cancel at least 5 days before the next scheduled donation by email to %(email)s, and that I may only request a refund within 15 days from the date of a donation."
-msgstr "Εξουσιοδοτώ το Ίδρυμα Mozilla να χρεώνει αυτόματα την κάρτα μου κάθε μήνα με το ποσό που αναφέρεται παραπάνω, ξεκινώντας από τον επόμενο μήνα την ίδια ημερομηνία με σήμερα και συνεχίζοντας κάθε μήνα στο εξής, μέχρι να ακυρώσω. Κατανοώ ότι πρέπει να ακυρώσω τουλάχιστον 5 ημέρες πριν από την επόμενη προγραμματισμένη δωρεά μέσω email στο %(email)s και ότι μπορώ να ζητήσω επιστροφή χρημάτων μόνο εντός 15 ημερών από την ημερομηνία της δωρεάς."
+msgid ""
+"I authorize Mozilla Foundation to automatically charge my card every month in the amount indicated above, starting next month on the same date as today, and continuing each month afterwards until I "
+"cancel. I understand that I must cancel at least 5 days before the next scheduled donation by email to %(email)s, and that I may only request a refund within 15 days from the date of a donation."
+msgstr ""
+"Εξουσιοδοτώ το Ίδρυμα Mozilla να χρεώνει αυτόματα την κάρτα μου κάθε μήνα με το ποσό που αναφέρεται παραπάνω, ξεκινώντας από τον επόμενο μήνα την ίδια ημερομηνία με σήμερα και συνεχίζοντας κάθε μήνα"
+" στο εξής, μέχρι να ακυρώσω. Κατανοώ ότι πρέπει να ακυρώσω τουλάχιστον 5 ημέρες πριν από την επόμενη προγραμματισμένη δωρεά μέσω email στο %(email)s και ότι μπορώ να ζητήσω επιστροφή χρημάτων μόνο "
+"εντός 15 ημερών από την ημερομηνία της δωρεάς."
 
 #: donate/templates/payment/card_upsell_master.html:53
 msgid "Donate Monthly"
 msgstr "Μηνιαία δωρεά"
 
-#: donate/templates/payment/card_upsell_master.html:56
-#: donate/templates/payment/newsletter_signup_master.html:42
+#: donate/templates/payment/card_upsell_master.html:56 donate/templates/payment/newsletter_signup_master.html:42
 msgid "No Thanks"
 msgstr "Όχι, ευχαριστώ"
 
@@ -697,8 +693,7 @@ msgstr "/ Μήνα"
 msgid "No"
 msgstr "Όχι"
 
-#: donate/templates/payment/thank_you_master.html:15
-#: donate/thunderbird/templates/payment/thank_you.html:6
+#: donate/templates/payment/thank_you_master.html:15 donate/thunderbird/templates/payment/thank_you.html:6
 #, python-format
 msgid "We’ve emailed you a donation receipt; if it’s missing, please check your junk/spam folders, then contact us using <a href=\"%(url)s\">this form</a>."
 msgstr "Σας έχουμε στείλει μια απόδειξη δωρεάς με email· αν δεν υπάρχει, παρακαλούμε ελέγξτε το φάκελο ανεπιθύμητων και επικοινωνήστε μαζί μας μέσω <a href=\"%(url)s\">αυτής της φόρμας</a>."
@@ -717,42 +712,33 @@ msgctxt "Email subject line"
 msgid "I donated to Mozilla today"
 msgstr "Έκανα μια δωρεά στη Mozilla σήμερα"
 
-#: donate/templates/payment/thank_you_master.html:26
-#: donate/thunderbird/templates/payment/thank_you.html:16
+#: donate/templates/payment/thank_you_master.html:26 donate/thunderbird/templates/payment/thank_you.html:16
 msgid "Share on Facebook"
 msgstr "Κοινοποίηση στο Facebook"
 
-#: donate/templates/payment/thank_you_master.html:30
-#: donate/thunderbird/templates/pages/base_page.html:44
-#: donate/thunderbird/templates/payment/thank_you.html:20
+#: donate/templates/payment/thank_you_master.html:30 donate/thunderbird/templates/pages/base_page.html:44 donate/thunderbird/templates/payment/thank_you.html:20
 msgid "Facebook"
 msgstr "Facebook"
 
-#: donate/templates/payment/thank_you_master.html:33
-#: donate/thunderbird/templates/payment/thank_you.html:23
+#: donate/templates/payment/thank_you_master.html:33 donate/thunderbird/templates/payment/thank_you.html:23
 msgid "Share on Twitter"
 msgstr "Κοινοποίηση στο Twitter"
 
-#: donate/templates/payment/thank_you_master.html:37
-#: donate/thunderbird/templates/pages/base_page.html:38
-#: donate/thunderbird/templates/payment/thank_you.html:27
+#: donate/templates/payment/thank_you_master.html:37 donate/thunderbird/templates/pages/base_page.html:38 donate/thunderbird/templates/payment/thank_you.html:27
 msgid "Twitter"
 msgstr "Twitter"
 
-#: donate/templates/payment/thank_you_master.html:43
-#: donate/thunderbird/templates/payment/thank_you.html:33
+#: donate/templates/payment/thank_you_master.html:43 donate/thunderbird/templates/payment/thank_you.html:33
 msgctxt "Share button"
 msgid "Email"
 msgstr "Email"
 
-#: donate/templates/payment/thank_you_master.html:53
-#: donate/thunderbird/templates/payment/thank_you.html:43
+#: donate/templates/payment/thank_you_master.html:53 donate/thunderbird/templates/payment/thank_you.html:43
 msgctxt "Share button"
 msgid "Link"
 msgstr "Σύνδεσμος"
 
-#: donate/templates/payment/thank_you_master.html:54
-#: donate/thunderbird/templates/payment/thank_you.html:44
+#: donate/templates/payment/thank_you_master.html:54 donate/thunderbird/templates/payment/thank_you.html:44
 msgid "Copied"
 msgstr "Αντιγράφηκε"
 
@@ -760,9 +746,7 @@ msgstr "Αντιγράφηκε"
 msgid "Back"
 msgstr "Πίσω"
 
-#: donate/thunderbird/templates/base.html:9
-#: donate/thunderbird/templates/pages/base_page.html:9
-#: donate/thunderbird/templates/pages/base_page.html:16
+#: donate/thunderbird/templates/base.html:9 donate/thunderbird/templates/pages/base_page.html:9 donate/thunderbird/templates/pages/base_page.html:16
 #: donate/thunderbird/templates/pages/base_page.html:17
 msgctxt "Page title"
 msgid "Give to Thunderbird"
@@ -770,8 +754,12 @@ msgstr "Δωρεά στο Thunderbird"
 
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:12
 #, python-format
-msgid "Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Thunderbird. Please read our <a href=\"%(privacy_url)s\">privacy policy here</a>."
-msgstr "Η επεξεργασία των στοιχεία πληρωμής σας θα γίνει από την <a href=\"%(braintree_url)s\">Braintree</a>, μια εταιρεία της PayPal (για πιστωτικές/χρεωστικές κάρτες) ή την <a href=\"%(paypal_url)s\">PayPal</a>, ενώ θα αποθηκευτεί μια καταγραφή της δωρεάς σας από το Thunderbird. Παρακαλούμε διαβάστε την <a href=\"%(privacy_url)s\">πολιτική απορρήτου μας εδώ</a>."
+msgid ""
+"Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your "
+"donation will be stored by Thunderbird. Please read our <a href=\"%(privacy_url)s\">privacy policy here</a>."
+msgstr ""
+"Η επεξεργασία των στοιχεία πληρωμής σας θα γίνει από την <a href=\"%(braintree_url)s\">Braintree</a>, μια εταιρεία της PayPal (για πιστωτικές/χρεωστικές κάρτες) ή την <a "
+"href=\"%(paypal_url)s\">PayPal</a>, ενώ θα αποθηκευτεί μια καταγραφή της δωρεάς σας από το Thunderbird. Παρακαλούμε διαβάστε την <a href=\"%(privacy_url)s\">πολιτική απορρήτου μας εδώ</a>."
 
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:15
 #, python-format
@@ -779,8 +767,12 @@ msgid "Monthly donations are charged each month on the same day that you donate 
 msgstr "Οι μηνιαίες δωρεές χρεώνονται κάθε μήνα την ίδια μέρα που δωρίσατε και σήμερα και θα συνεχίσουν μέχρι να τις ακυρώσετε. Για ακύρωση, συμπληρώστε <a href=\"%(help_url)s\">αυτή τη φόρμα</a>."
 
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:27
-msgid "Contributions go to MZLA Technologies Corporation, a California corporation wholly owned by the Mozilla Foundation. Funds will be reserved for use in the Thunderbird project. Contributions are not tax-deductible as charitable contributions."
-msgstr "Οι συνεισφορές πηγαίνουν στη MZLA Technologies Corporation, μια εταιρεία της Καλιφόρνιας που ανήκει εξ ολοκλήρου στο Ίδρυμα Mozilla. Τα χρήματα θα διατεθούν για χρήση στο έργο Thunderbird. Οι συνεισφορές δεν εκπίπτουν από το φόρο ως φιλανθρωπικές συνεισφορές."
+msgid ""
+"Contributions go to MZLA Technologies Corporation, a California corporation wholly owned by the Mozilla Foundation. Funds will be reserved for use in the Thunderbird project. Contributions are not "
+"tax-deductible as charitable contributions."
+msgstr ""
+"Οι συνεισφορές πηγαίνουν στη MZLA Technologies Corporation, μια εταιρεία της Καλιφόρνιας που ανήκει εξ ολοκλήρου στο Ίδρυμα Mozilla. Τα χρήματα θα διατεθούν για χρήση στο έργο Thunderbird. Οι "
+"συνεισφορές δεν εκπίπτουν από το φόρο ως φιλανθρωπικές συνεισφορές."
 
 #: donate/thunderbird/templates/pages/base_page.html:53
 msgid "Cookies"
@@ -809,12 +801,16 @@ msgstr "Τμήματα αυτού του περιεχομένου ανήκουν
 
 #: donate/thunderbird/templates/pages/core/contributor_support_page.html:6
 msgid "If you need help with a contribution to MZLA/Thunderbird, please fill out this form and a Thunderbird donor care representative will get back to you as soon as possible."
-msgstr "Εάν χρειάζεστε βοήθεια με μια συνεισφορά σας στο MZLA/Thunderbird, παρακαλούμε συμπληρώστε αυτήν τη φόρμα και ένας εκπρόσωπός μας για το Thunderbird θα επικοινωνήσει μαζί σας το συντομότερο δυνατό."
+msgstr ""
+"Εάν χρειάζεστε βοήθεια με μια συνεισφορά σας στο MZLA/Thunderbird, παρακαλούμε συμπληρώστε αυτήν τη φόρμα και ένας εκπρόσωπός μας για το Thunderbird θα επικοινωνήσει μαζί σας το συντομότερο δυνατό."
 
 #: donate/thunderbird/templates/pages/core/contributor_support_page.html:12
 #, python-format
-msgid "Unfortunately, donor care representatives are unable to offer support or help with Thunderbird technical issues. For technical support, please visit our <a href=\"%(support_url)s\">support page.</a>"
-msgstr "Δυστυχώς, οι εκπρόσωποι υποστήριξης δωρητών δεν μπορούν προσφέρουν υποστήριξη ή βοήθεια για τεχνικά ζητήματα του Thunderbird. Για τεχνική υποστήριξη, επισκεφθείτε τη <a href=\"%(support_url)s\">σελίδα υποστήριξης.</a>"
+msgid ""
+"Unfortunately, donor care representatives are unable to offer support or help with Thunderbird technical issues. For technical support, please visit our <a href=\"%(support_url)s\">support page.</a>"
+msgstr ""
+"Δυστυχώς, οι εκπρόσωποι υποστήριξης δωρητών δεν μπορούν προσφέρουν υποστήριξη ή βοήθεια για τεχνικά ζητήματα του Thunderbird. Για τεχνική υποστήριξη, επισκεφθείτε τη <a "
+"href=\"%(support_url)s\">σελίδα υποστήριξης.</a>"
 
 #: donate/thunderbird/templates/pages/core/landing_page.html:7
 #, python-format
@@ -826,17 +822,24 @@ msgid "We accept contributions in Euros through Single European Payment Area (SE
 msgstr "Δεχόμαστε συνεισφορές σε ευρώ μέσω εμβάσματος Ενιαίου Χώρου Πληρωμών σε Ευρώ (SEPA) και σε βρετανικές λίρες μέσω εμβάσματος BACS."
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:10
-msgid "Please note that for smaller (under 10 EUR or equivalent) contributions, <strong>and especially for contributions under 5 EUR or equivalent</strong>, we request that you contribute via credit card or PayPal to help reduce our processing fees."
-msgstr "Παρακαλούμε σημειώστε ότι για μικρές (μικρότερες ή ίσες με 10 ευρώ) συνεισφορές <strong>και ειδικά για συνεισφορές των 5 ευρώ ή λιγότερο</strong>, ζητούμε να κάνετε δωρεά με πιστωτική κάρτα ή PayPal για να μειωθούν τα τέλη επεξεργασίας."
+msgid ""
+"Please note that for smaller (under 10 EUR or equivalent) contributions, <strong>and especially for contributions under 5 EUR or equivalent</strong>, we request that you contribute via credit card "
+"or PayPal to help reduce our processing fees."
+msgstr ""
+"Παρακαλούμε σημειώστε ότι για μικρές (μικρότερες ή ίσες με 10 ευρώ) συνεισφορές <strong>και ειδικά για συνεισφορές των 5 ευρώ ή λιγότερο</strong>, ζητούμε να κάνετε δωρεά με πιστωτική κάρτα ή PayPal"
+" για να μειωθούν τα τέλη επεξεργασίας."
 
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:30
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:47
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:30 donate/thunderbird/templates/pages/core/ways_to_give_page.html:47
 msgid "Memo field:"
 msgstr "Πεδίο σημειώσεων:"
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:54
-msgid "MZLA/Thunderbird is happy to accept your donation <strong>(made payable to “MZLA Technologies Corp”)</strong> via check; however please note that processing and acknowledgment of your gift may be delayed by changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
-msgstr "Το MZLA/Thunderbird θα δεχθεί με χαρά τη δωρεά σας <strong>(καταβλητέα στο «MZLA/Thunderbird Corp»)</strong> μέσω επιταγής· ωστόσο, παρακαλούμε σημειώστε ότι η επεξεργασία και η αναγνώριση της συνεισφοράς σας ενδέχεται να καθυστερήσει λόγω των αλλαγών για την πανδημία COVID-19. Μπορείτε να στείλετε τις επιταγές σας στη διεύθυνση:"
+msgid ""
+"MZLA/Thunderbird is happy to accept your donation <strong>(made payable to “MZLA Technologies Corp”)</strong> via check; however please note that processing and acknowledgment of your gift may be "
+"delayed by changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
+msgstr ""
+"Το MZLA/Thunderbird θα δεχθεί με χαρά τη δωρεά σας <strong>(καταβλητέα στο «MZLA/Thunderbird Corp»)</strong> μέσω επιταγής· ωστόσο, παρακαλούμε σημειώστε ότι η επεξεργασία και η αναγνώριση της "
+"συνεισφοράς σας ενδέχεται να καθυστερήσει λόγω των αλλαγών για την πανδημία COVID-19. Μπορείτε να στείλετε τις επιταγές σας στη διεύθυνση:"
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:71
 msgid "Please also note that MZLA/Thunderbird can <strong>only</strong> accept checks in U.S. dollars drawn on a U.S. bank."
@@ -848,22 +851,35 @@ msgstr "Ευχαριστούμε εκ των προτέρων για τη δωρ
 
 #: donate/thunderbird/templates/payment/card.html:12
 #, python-format
-msgid "I authorize MZLA Technologies Corporation to automatically charge my card every month in the amount indicated above, starting today and continuing each month on the same day, until I cancel. I understand that I must cancel at least 5 days before the next scheduled donation by <a href='%(help_url)s'>submitting a request</a>, and that I may only request a refund within 15 days from the date of a donation."
-msgstr "Εξουσιοδοτώ την MZLA Technologies Corporation να χρεώνει αυτόματα την κάρτα μου κάθε μήνα με το ποσό που αναφέρεται παραπάνω, ξεκινώντας από σήμερα και συνεχίζοντας κάθε μήνα την ίδια μέρα, μέχρι να ακυρώσω. Κατανοώ ότι πρέπει να ακυρώσω τουλάχιστον 5 ημέρες πριν από την επόμενη προγραμματισμένη δωρεά, <a href='%(help_url)s'>υποβάλλοντας αίτημα</a> και ότι μπορώ να ζητήσω επιστροφή χρημάτων μόνο εντός 15 ημερών από την ημερομηνία της δωρεάς."
+msgid ""
+"I authorize MZLA Technologies Corporation to automatically charge my card every month in the amount indicated above, starting today and continuing each month on the same day, until I cancel. I "
+"understand that I must cancel at least 5 days before the next scheduled donation by <a href='%(help_url)s'>submitting a request</a>, and that I may only request a refund within 15 days from the date"
+" of a donation."
+msgstr ""
+"Εξουσιοδοτώ την MZLA Technologies Corporation να χρεώνει αυτόματα την κάρτα μου κάθε μήνα με το ποσό που αναφέρεται παραπάνω, ξεκινώντας από σήμερα και συνεχίζοντας κάθε μήνα την ίδια μέρα, μέχρι να"
+" ακυρώσω. Κατανοώ ότι πρέπει να ακυρώσω τουλάχιστον 5 ημέρες πριν από την επόμενη προγραμματισμένη δωρεά, <a href='%(help_url)s'>υποβάλλοντας αίτημα</a> και ότι μπορώ να ζητήσω επιστροφή χρημάτων "
+"μόνο εντός 15 ημερών από την ημερομηνία της δωρεάς."
 
 #: donate/thunderbird/templates/payment/card.html:14
 msgid "I authorize MZLA Technologies Corporation to charge my card in the amount indicated above. I understand that I may only request a refund within 15 days from the date of the donation."
-msgstr "Εξουσιοδοτώ την MZLA Technologies Corporation να χρεώσει την κάρτα μου με το ποσό που αναφέρεται παραπάνω. Κατανοώ ότι μπορώ να ζητήσω επιστροφή χρημάτων μόνο εντός 15 ημερών από την ημερομηνία της δωρεάς."
+msgstr ""
+"Εξουσιοδοτώ την MZLA Technologies Corporation να χρεώσει την κάρτα μου με το ποσό που αναφέρεται παραπάνω. Κατανοώ ότι μπορώ να ζητήσω επιστροφή χρημάτων μόνο εντός 15 ημερών από την ημερομηνία της "
+"δωρεάς."
 
-#: donate/thunderbird/templates/payment/card_upsell.html:6
-#: donate/thunderbird/templates/payment/paypal_upsell.html:6
+#: donate/thunderbird/templates/payment/card_upsell.html:6 donate/thunderbird/templates/payment/paypal_upsell.html:6
 msgid "We’d love to have you as a sustaining supporter of Thunderbird. <b>Could you add a monthly donation starting next month?</b>"
 msgstr "Θα θέλαμε πολύ να γίνετε υποστηρικτής του Thunderbird. <b>Μπορείτε να προσθέσετε μια μηναία συνδρομή που θα ξεκινήσει τον επόμενο μήνα;</b>"
 
 #: donate/thunderbird/templates/payment/card_upsell.html:10
 #, python-format
-msgid "I authorize MZLA Technologies Corporation to automatically charge my card every month in the amount indicated above, starting next month on the same date as today, and continuing each month afterwards until I cancel. I understand that I must cancel at least 5 days before the next scheduled donation by <a href=\"%(help_url)s\">submitting this form</a>, and that I may only request a refund within 15 days from the date of a donation."
-msgstr "Εξουσιοδοτώ την MZLA Technologies Corporation να χρεώνει αυτόματα την κάρτα μου κάθε μήνα με το ποσό που αναφέρεται παραπάνω, ξεκινώντας από τον επόμενο μήνα την ίδια ημερομηνία με σήμερα και συνεχίζοντας κάθε μήνα στο εξής, μέχρι να ακυρώσω. Κατανοώ ότι πρέπει να ακυρώσω τουλάχιστον 5 ημέρες πριν από την επόμενη προγραμματισμένη δωρεά, <a href=\"%(help_url)s\">υποβάλλοντας αυτή τη φόρμα</a> και ότι μπορώ να ζητήσω επιστροφή χρημάτων μόνο εντός 15 ημερών από την ημερομηνία της δωρεάς."
+msgid ""
+"I authorize MZLA Technologies Corporation to automatically charge my card every month in the amount indicated above, starting next month on the same date as today, and continuing each month "
+"afterwards until I cancel. I understand that I must cancel at least 5 days before the next scheduled donation by <a href=\"%(help_url)s\">submitting this form</a>, and that I may only request a "
+"refund within 15 days from the date of a donation."
+msgstr ""
+"Εξουσιοδοτώ την MZLA Technologies Corporation να χρεώνει αυτόματα την κάρτα μου κάθε μήνα με το ποσό που αναφέρεται παραπάνω, ξεκινώντας από τον επόμενο μήνα την ίδια ημερομηνία με σήμερα και "
+"συνεχίζοντας κάθε μήνα στο εξής, μέχρι να ακυρώσω. Κατανοώ ότι πρέπει να ακυρώσω τουλάχιστον 5 ημέρες πριν από την επόμενη προγραμματισμένη δωρεά, <a href=\"%(help_url)s\">υποβάλλοντας αυτή τη "
+"φόρμα</a> και ότι μπορώ να ζητήσω επιστροφή χρημάτων μόνο εντός 15 ημερών από την ημερομηνία της δωρεάς."
 
 #: donate/thunderbird/templates/payment/newsletter_signup.html:8
 msgid "We’re working hard to protect your inbox. Sign up to receive email messages concerning Thunderbird, including updates and requests for feedback."
@@ -883,8 +899,12 @@ msgctxt "Email subject line"
 msgid "I donated to Thunderbird today"
 msgstr "Έκανα μια δωρεά στο Thunderbird σήμερα"
 
-#~ msgid "MZLA/Thunderbird is happy to accept your donation (made payable to “MZLA Technologies”) via check; however please note that processing and acknowledgment of your gift may be delayed by changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
-#~ msgstr "Το MZLA/Thunderbird θα δεχθεί με χαρά τη δωρεά σας (καταβλητέα στο “MZLA/Thunderbird”) μέσω επιταγής· ωστόσο, παρακαλούμε σημειώστε ότι η επεξεργασία και η αναγνώριση της συνεισφοράς σας ενδέχεται να καθυστερήσει λόγω των αλλαγών για την πανδημία COVID-19. Μπορείτε να στείλετε τις επιταγές σας στη διεύθυνση:"
+#~ msgid ""
+#~ "MZLA/Thunderbird is happy to accept your donation (made payable to “MZLA Technologies”) via check; however please note that processing and acknowledgment of your gift may be delayed by changes to "
+#~ "our office procedures due to the COVID-19 pandemic. You can send checks to:"
+#~ msgstr ""
+#~ "Το MZLA/Thunderbird θα δεχθεί με χαρά τη δωρεά σας (καταβλητέα στο “MZLA/Thunderbird”) μέσω επιταγής· ωστόσο, παρακαλούμε σημειώστε ότι η επεξεργασία και η αναγνώριση της συνεισφοράς σας ενδέχεται "
+#~ "να καθυστερήσει λόγω των αλλαγών για την πανδημία COVID-19. Μπορείτε να στείλετε τις επιταγές σας στη διεύθυνση:"
 
 #~ msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a> | <a href=\"%(cryptocurrency_url)s\">BitPay (cryptocurrencies)</a>"
 #~ msgstr "Άλλοι τρόποι δωρεάς: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Επιταγή</a> | <a href=\"%(cryptocurrency_url)s\">BitPay (κρυπτονομίσματα)</a>"
@@ -892,11 +912,22 @@ msgstr "Έκανα μια δωρεά στο Thunderbird σήμερα"
 #~ msgid "Cryptocurrencies"
 #~ msgstr "Κρυπτονομίσματα"
 
-#~ msgid "The Mozilla Foundation is a California non-profit corporation exempt from United States federal income taxation under IRC 501(c)(3) and a public charity classified under IRC sections 170(b)(1)(A) and 509(a)(1). Cryptocurrency donations Mozilla receives are considered charitable contributions under U.S. federal tax laws, to be used in its discretion for its charitable purposes. Because the IRS has indicated that it will treat cryptocurrencies as property for U.S. tax purposes (see IRS Notice 2014-21), cryptocurrency donations may be subject to special rules as to the amount of your charitable deduction, the documentation that must be provided to claim a tax deduction, or other matters."
-#~ msgstr "Το Mozilla Foundation είναι μια μη κερδοσκοπική εταιρεία της Καλιφόρνια εξαιρούμενη από την ομοσπονδιακή φορολόγηση εισοδήματος των Ηνωμένων Πολιτειών υπό το IRC 501(c)(3) και μια δημόσια φιλανθρωπική οργάνωση υπό τις ενότητες IRC 170(b)(1)(A) και 509(a)(1). Οι δωρεές κρυπτονομισμάτων που λαμβάνει η Mozilla θεωρούνται ως φιλανθρωπικές συνεισφορές υπό τους ομοσπονδιακούς νόμους φορολόγησης των ΗΠΑ και θα χρησιμοποιηθούν στη διακριτική ευχέρειά της για τους φιλανθρωπικούς της σκοπούς. Επειδή το IRS έχει υποδείξει ότι θα μεταχειριστεί τα κρυπτονομίσματα ως ιδιοκτησία για τους φορολογικούς σκοπούς των ΗΠΑ (δείτε τη σημείωση 2014-21 του IRS), οι δωρεές κρυπτονομισμάτων ενδέχεται να υπόκεινται σε ειδικούς κανόνες όσον αφορά το ποσό της δωρεάς σας, την τεκμηρίωση που πρέπει να παρατεθεί για να δικαιούστε φοροαπαλλαγή ή άλλα ζητήματα."
+#~ msgid ""
+#~ "The Mozilla Foundation is a California non-profit corporation exempt from United States federal income taxation under IRC 501(c)(3) and a public charity classified under IRC sections 170(b)(1)(A) "
+#~ "and 509(a)(1). Cryptocurrency donations Mozilla receives are considered charitable contributions under U.S. federal tax laws, to be used in its discretion for its charitable purposes. Because the "
+#~ "IRS has indicated that it will treat cryptocurrencies as property for U.S. tax purposes (see IRS Notice 2014-21), cryptocurrency donations may be subject to special rules as to the amount of your "
+#~ "charitable deduction, the documentation that must be provided to claim a tax deduction, or other matters."
+#~ msgstr ""
+#~ "Το Mozilla Foundation είναι μια μη κερδοσκοπική εταιρεία της Καλιφόρνια εξαιρούμενη από την ομοσπονδιακή φορολόγηση εισοδήματος των Ηνωμένων Πολιτειών υπό το IRC 501(c)(3) και μια δημόσια "
+#~ "φιλανθρωπική οργάνωση υπό τις ενότητες IRC 170(b)(1)(A) και 509(a)(1). Οι δωρεές κρυπτονομισμάτων που λαμβάνει η Mozilla θεωρούνται ως φιλανθρωπικές συνεισφορές υπό τους ομοσπονδιακούς νόμους "
+#~ "φορολόγησης των ΗΠΑ και θα χρησιμοποιηθούν στη διακριτική ευχέρειά της για τους φιλανθρωπικούς της σκοπούς. Επειδή το IRS έχει υποδείξει ότι θα μεταχειριστεί τα κρυπτονομίσματα ως ιδιοκτησία για "
+#~ "τους φορολογικούς σκοπούς των ΗΠΑ (δείτε τη σημείωση 2014-21 του IRS), οι δωρεές κρυπτονομισμάτων ενδέχεται να υπόκεινται σε ειδικούς κανόνες όσον αφορά το ποσό της δωρεάς σας, την τεκμηρίωση που "
+#~ "πρέπει να παρατεθεί για να δικαιούστε φοροαπαλλαγή ή άλλα ζητήματα."
 
 #~ msgid "Learn more about cryptocurrency donations <a href=\"%(cryptocurrency_wiki)s\">here</a>. To donate using cryptocurrency, <a href=\"%(cryptocurrency_url)s\">please visit this link.</a>"
-#~ msgstr "Μάθετε περισσότερα σχετικά με τις δωρεές κρυπτονομισμάτων <a href=\"%(cryptocurrency_wiki)s\">εδώ</a>. Για δωρεά με κρυπτονομίσματα, <a href=\"%(cryptocurrency_url)s\">παρακαλούμε επισκεφθείτε αυτόν τον σύνδεσμο.</a>"
+#~ msgstr ""
+#~ "Μάθετε περισσότερα σχετικά με τις δωρεές κρυπτονομισμάτων <a href=\"%(cryptocurrency_wiki)s\">εδώ</a>. Για δωρεά με κρυπτονομίσματα, <a href=\"%(cryptocurrency_url)s\">παρακαλούμε επισκεφθείτε αυτόν"
+#~ " τον σύνδεσμο.</a>"
 
 #~ msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a> | <a href=\"%(bitcoin_url)s\">Bitcoin</a>"
 #~ msgstr "Άλλοι τρόποι δωρεάς: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Επιταγή</a> | <a href=\"%(bitcoin_url)s\">Bitcoin</a>"
@@ -904,8 +935,17 @@ msgstr "Έκανα μια δωρεά στο Thunderbird σήμερα"
 #~ msgid "Bitcoin"
 #~ msgstr "Bitcoin"
 
-#~ msgid "The Mozilla Foundation is a California non-profit corporation exempt from United States federal income taxation under IRC 501(c)(3) and a public charity classified under IRC sections 170(b)(1)(A) and 509(a)(1). Bitcoin donations Mozilla receives are considered charitable contributions under U.S. federal tax laws, to be used in its discretion for its charitable purposes. Because the IRS has indicated that it will treat bitcoin as property for U.S. tax purposes (see IRS Notice 2014-21), donations of bitcoin may be subject to special rules as to the amount of your charitable deduction, the documentation that must be provided to claim a tax deduction, or other matters."
-#~ msgstr "Το Ίδρυμα Mozilla είναι μια μη κερδοσκοπική εταιρεία της Καλιφόρνια εξαιρούμενη από την ομοσπονδιακή φορολόγηση εισοδήματος των Ηνωμένων Πολιτειών υπό το IRC 501(c)(3) και μια δημόσια φιλανθρωπική οργάνωση υπό τις ενότητες IRC 170(b)(1)(A) και 509(a)(1). Οι δωρεές bitcoin που λαμβάνει η Mozilla θεωρούνται ως φιλανθρωπικές συνεισφορές υπό τους ομοσπονδιακούς νόμους φορολόγησης των ΗΠΑ και θα χρησιμοποιηθούν στη διακριτική ευχέρειά της για τους φιλανθρωπικούς της σκοπούς. Επειδή το IRS έχει υποδείξει ότι θα μεταχειριστεί το bitcoin ως ιδιοκτησία για τους φορολογικούς σκοπούς των ΗΠΑ (δείτε τη σημείωση 2014-21 του IRS), οι δωρεές σε bitcoin ενδέχεται να υπόκεινται σε ειδικούς κανόνες όσον αφορά το ποσό της δωρεάς σας, την τεκμηρίωση που πρέπει να παρατεθεί για να δικαιούστε φοροαπαλλαγή, ή άλλα ζητήματα."
+#~ msgid ""
+#~ "The Mozilla Foundation is a California non-profit corporation exempt from United States federal income taxation under IRC 501(c)(3) and a public charity classified under IRC sections 170(b)(1)(A) "
+#~ "and 509(a)(1). Bitcoin donations Mozilla receives are considered charitable contributions under U.S. federal tax laws, to be used in its discretion for its charitable purposes. Because the IRS has "
+#~ "indicated that it will treat bitcoin as property for U.S. tax purposes (see IRS Notice 2014-21), donations of bitcoin may be subject to special rules as to the amount of your charitable deduction, "
+#~ "the documentation that must be provided to claim a tax deduction, or other matters."
+#~ msgstr ""
+#~ "Το Ίδρυμα Mozilla είναι μια μη κερδοσκοπική εταιρεία της Καλιφόρνια εξαιρούμενη από την ομοσπονδιακή φορολόγηση εισοδήματος των Ηνωμένων Πολιτειών υπό το IRC 501(c)(3) και μια δημόσια φιλανθρωπική "
+#~ "οργάνωση υπό τις ενότητες IRC 170(b)(1)(A) και 509(a)(1). Οι δωρεές bitcoin που λαμβάνει η Mozilla θεωρούνται ως φιλανθρωπικές συνεισφορές υπό τους ομοσπονδιακούς νόμους φορολόγησης των ΗΠΑ και θα "
+#~ "χρησιμοποιηθούν στη διακριτική ευχέρειά της για τους φιλανθρωπικούς της σκοπούς. Επειδή το IRS έχει υποδείξει ότι θα μεταχειριστεί το bitcoin ως ιδιοκτησία για τους φορολογικούς σκοπούς των ΗΠΑ "
+#~ "(δείτε τη σημείωση 2014-21 του IRS), οι δωρεές σε bitcoin ενδέχεται να υπόκεινται σε ειδικούς κανόνες όσον αφορά το ποσό της δωρεάς σας, την τεκμηρίωση που πρέπει να παρατεθεί για να δικαιούστε "
+#~ "φοροαπαλλαγή, ή άλλα ζητήματα."
 
 #~ msgid "Learn more about bitcoin donations <a href=\"%(bitcoin_wiki)s\">here</a>. To donate bitcoin, <a href=\"%(bitcoin_donate)s\">please visit this link.</a>"
 #~ msgstr "Μάθετε περισσότερα σχετικά με τις δωρεές bitcoin <a href=\"%(bitcoin_wiki)s\">εδώ</a>. Για δωρεά bitcoin, <a href=\"%(bitcoin_donate)s\">παρακαλούμε επισκεφθείτε αυτό το σύνδεσμο.</a>"
@@ -932,7 +972,9 @@ msgstr "Έκανα μια δωρεά στο Thunderbird σήμερα"
 #~ msgstr "Ευχαριστούμε!"
 
 #~ msgid "If you haven’t previously confirmed a subscription to a Mozilla-related newsletter you may have to do so. Please check your inbox or your spam filter for an email from us."
-#~ msgstr "Αν δεν έχετε προηγουμένως επιβεβαιώσει την εγγραφή σας σε κάποιο newsletter σχετικό με τη Mozilla, ίσως θα πρέπει να το κάνετε. Παρακαλούμε ελέγξτε τα εισερχόμενα ή το φίλτρο ανεπιθύμητων για ένα email από εμάς."
+#~ msgstr ""
+#~ "Αν δεν έχετε προηγουμένως επιβεβαιώσει την εγγραφή σας σε κάποιο newsletter σχετικό με τη Mozilla, ίσως θα πρέπει να το κάνετε. Παρακαλούμε ελέγξτε τα εισερχόμενα ή το φίλτρο ανεπιθύμητων για ένα "
+#~ "email από εμάς."
 
 #~ msgid "More about us"
 #~ msgstr "Περισσότερα για εμάς"
@@ -947,22 +989,34 @@ msgstr "Έκανα μια δωρεά στο Thunderbird σήμερα"
 #~ msgstr "Η δωρεά σας θα συμβάλλει στην προστασία του διαδικτύου, διατηρώντας το ανοιχτό και διαθέσιμο σε όλους."
 
 #~ msgid "We’ve emailed you a donation receipt; if it’s missing, please check your junk/spam folders, then contact us at <a href=\"mailto:%(email)s\">%(email)s</a>."
-#~ msgstr "Σας έχουμε στείλει με email μια απόδειξη της δωρεάς σας· αν δεν είναι εκεί, παρακαλούμε ελέγξτε τα ανεπιθύμητα μηνύματά σας, έπειτα επικοινωνήστε μαζί μας στο <a href=\"mailto:%(email)s\">%(email)s</a>."
+#~ msgstr ""
+#~ "Σας έχουμε στείλει με email μια απόδειξη της δωρεάς σας· αν δεν είναι εκεί, παρακαλούμε ελέγξτε τα ανεπιθύμητα μηνύματά σας, έπειτα επικοινωνήστε μαζί μας στο <a "
+#~ "href=\"mailto:%(email)s\">%(email)s</a>."
 
 #~ msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"mailto:%(email)s\">Send us an email</a>."
-#~ msgstr "Προβλήματα με τη δωρεά; Επισκεφθείτε τις <a href=\"%(faq_url)s\">συχνές ερωτήσεις</a> για απαντήσεις στις πιο συνηθισμένες ερωτήσεις. Έχετε ακόμα προβλήματα; <a href=\"mailto:%(email)s\">Στείλτε μας ένα email</a>."
+#~ msgstr ""
+#~ "Προβλήματα με τη δωρεά; Επισκεφθείτε τις <a href=\"%(faq_url)s\">συχνές ερωτήσεις</a> για απαντήσεις στις πιο συνηθισμένες ερωτήσεις. Έχετε ακόμα προβλήματα; <a href=\"mailto:%(email)s\">Στείλτε μας"
+#~ " ένα email</a>."
 
 #~ msgid "If you need help with a contribution to MZLA/Thunderbird, fill out this form and a Thunderbird donor care representative will get back to you as soon as possible."
 #~ msgstr "Αν χρειάζεστε βοήθεια με μια συνεισφορά στο MZLA/Thunderbird, συμπληρώστε αυτή τη φόρμα και ένας εκπρόσωπος φροντίδας δωρητών του Thunderbird θα επικοινωνήσει μαζί σας το συντομότερο δυνατό."
 
-#~ msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in Mountain View, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
-#~ msgstr "Οι συνεισφορές πηγαίνουν στο Ίδρυμα Mozilla, έναν οργανισμό 501(c)(3) με έδρα το Mountain View της Καλιφόρνια, ώστε να χρησιμοποιηθούν σύμφωνα με τη διακριτική ευχέρειά του για τους φιλανθρωπικούς σκοπούς του. Είναι εκπίπτουσες φορολογίας στις ΗΠΑ στο μέγιστο, επιτρεπτό από τη νομοθεσία, βαθμό."
+#~ msgid ""
+#~ "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in Mountain View, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S."
+#~ " to the fullest extent permitted by law."
+#~ msgstr ""
+#~ "Οι συνεισφορές πηγαίνουν στο Ίδρυμα Mozilla, έναν οργανισμό 501(c)(3) με έδρα το Mountain View της Καλιφόρνια, ώστε να χρησιμοποιηθούν σύμφωνα με τη διακριτική ευχέρειά του για τους φιλανθρωπικούς "
+#~ "σκοπούς του. Είναι εκπίπτουσες φορολογίας στις ΗΠΑ στο μέγιστο, επιτρεπτό από τη νομοθεσία, βαθμό."
 
 #~ msgid "License"
 #~ msgstr "Άδεια"
 
-#~ msgid "Please note that due to the “shelter in place” order recently implemented for California, processing and acknowledgment of check donations to the Mozilla Foundation will be indefinitely delayed. Rather than sending us a check, please consider making an <a href=\"/\">online donation</a> instead."
-#~ msgstr "Παρακαλούμε σημειώστε ότι λόγω της πρόσφατα εκδοθείσας εντολής παραμονής στην Καλιφόρνια, η επεξεργασία και αναγνώριση των δωρεών με επιταγές στο Ίδρυμα Mozilla θα καθυστερήσουν επ' αόριστον. Αντί να στείλετε επιταγή, σκεφθείτε το ενδεχόμενο να κάνετε <a href=\"/\">δωρεά μέσω διαδικτύου</a>."
+#~ msgid ""
+#~ "Please note that due to the “shelter in place” order recently implemented for California, processing and acknowledgment of check donations to the Mozilla Foundation will be indefinitely delayed. "
+#~ "Rather than sending us a check, please consider making an <a href=\"/\">online donation</a> instead."
+#~ msgstr ""
+#~ "Παρακαλούμε σημειώστε ότι λόγω της πρόσφατα εκδοθείσας εντολής παραμονής στην Καλιφόρνια, η επεξεργασία και αναγνώριση των δωρεών με επιταγές στο Ίδρυμα Mozilla θα καθυστερήσουν επ' αόριστον. Αντί "
+#~ "να στείλετε επιταγή, σκεφθείτε το ενδεχόμενο να κάνετε <a href=\"/\">δωρεά μέσω διαδικτύου</a>."
 
 #~ msgid "Please send a check <strong>including your email address on the memo line</strong>, and payable (payee) to “%(payee)s”."
 #~ msgstr "Παρακαλούμε στείλτε μια επιταγή <strong>με τη διεύθυνση email σας στο πεδίο περιγραφής</strong> και “%(payee)s” ως το δικαιούχο."
@@ -970,8 +1024,12 @@ msgstr "Έκανα μια δωρεά στο Thunderbird σήμερα"
 #~ msgid "Please note that the Mozilla Foundation can only accept checks in US dollars drawn on a US bank. Please do <strong>not</strong> send cash."
 #~ msgstr "Παρακαλούμε σημειώστε ότι το Ίδρυμα Mozilla μπορεί να δεχτεί επιταγές μόνο σε δολάρια ΗΠΑ, σε τράπεζα των ΗΠΑ. Παρακαλούμε <strong>μην</strong> στείλετε μετρητά."
 
-#~ msgid "Please note that due to the “shelter in place” order recently implemented for California, processing and acknowledgment of check donations to Thunderbird/MZLA Technologies will be indefinitely delayed. Rather than sending us a check, please consider making an <a href=\"/\">online donation</a> instead."
-#~ msgstr "Παρακαλούμε σημειώστε ότι λόγω της πρόσφατα εκδοθείσας εντολής παραμονής στην Καλιφόρνια, η επεξεργασία και αναγνώριση των δωρεών με επιταγές στο Thunderbird/MZLA Technologies θα καθυστερήσουν επ' αόριστον. Αντί να στείλετε επιταγή, σκεφθείτε το ενδεχόμενο να κάνετε <a href=\"/\">δωρεά μέσω διαδικτύου</a>."
+#~ msgid ""
+#~ "Please note that due to the “shelter in place” order recently implemented for California, processing and acknowledgment of check donations to Thunderbird/MZLA Technologies will be indefinitely "
+#~ "delayed. Rather than sending us a check, please consider making an <a href=\"/\">online donation</a> instead."
+#~ msgstr ""
+#~ "Παρακαλούμε σημειώστε ότι λόγω της πρόσφατα εκδοθείσας εντολής παραμονής στην Καλιφόρνια, η επεξεργασία και αναγνώριση των δωρεών με επιταγές στο Thunderbird/MZLA Technologies θα καθυστερήσουν επ' "
+#~ "αόριστον. Αντί να στείλετε επιταγή, σκεφθείτε το ενδεχόμενο να κάνετε <a href=\"/\">δωρεά μέσω διαδικτύου</a>."
 
 #~ msgid "Please send a check <strong>with “%(thunderbird)s” on the memo line</strong>, and payable (payee) to “%(payee)s”."
 #~ msgstr "Παρακαλούμε στείλτε μια επιταγή <strong>με “%(thunderbird)s” στο πεδίο περιγραφής</strong> και “%(payee)s” ως το δικαιούχο."
