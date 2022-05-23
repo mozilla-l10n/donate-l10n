@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-23 09:16+0000\n"
-"PO-Revision-Date: 2022-05-23 15:12+0000\n"
+"PO-Revision-Date: 2022-05-23 15:14+0000\n"
 "Last-Translator: Pin-guang Chen <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_TW\n"
@@ -125,7 +125,7 @@ msgstr "請關閉 VPN，然後再次造訪 <a href=\"%(url)s\">donate.mozilla.or
 
 #: donate/templates/403.html:21
 msgid "We take your privacy very seriously. To minimize fraudulent payments, we’re asking supporters to disable their VPNs when visiting our donate page."
-msgstr ""
+msgstr "我們非常重視您的隱私。為了避免盜刷事件發生，請支援者需先關閉 VPN 後再造訪我們的捐款頁面。"
 
 #: donate/templates/404.html:4
 msgid "Page not found"
