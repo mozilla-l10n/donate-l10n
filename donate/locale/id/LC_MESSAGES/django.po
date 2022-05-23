@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-01 22:37+0000\n"
-"PO-Revision-Date: 2022-05-23 00:42+0000\n"
+"PO-Revision-Date: 2022-05-23 00:46+0000\n"
 "Last-Translator: Fauzan Alfi <fauzan.alfi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: id\n"
@@ -181,22 +181,26 @@ msgstr ""
 #, python-format
 msgid "Monthly donations are charged each month on the same day that you donate today, and will continue until you cancel. To cancel, email us at <a href=\"mailto:%(email)s\">%(email)s</a>."
 msgstr ""
+"Donasi bulanan dikenakan biaya setiap bulan pada hari yang sama bahwa Anda berdonasi hari ini, dan akan dilanjutkan sampai Anda membatalkan. Untuk membatalkan, kirim surel kepada kami di <a "
+"href=\"mailto:%(email)s\">%(email)s</a>."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:28 donate/thunderbird/templates/fragments/donate_form_disclaimer.html:7
 #, python-format
 msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a>"
-msgstr ""
+msgstr "Cara lain untuk memberi: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Periksa</a>"
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:38 donate/thunderbird/templates/fragments/donate_form_disclaimer.html:21
 #, python-format
 msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"%(help_url)s\">Contact us</a>."
-msgstr ""
+msgstr "Kesulitan saat berdonasi? Kunjungi <a href=\"%(faq_url)s\">FAQ</a> untuk jawaban atas pertanyaan umum. Masih punya masalah? <a href=\"%(help_url)s\">Hubungi kami</a>."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:45
 msgid ""
 "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in San Francisco, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S."
 " to the fullest extent permitted by law."
 msgstr ""
+"Kontribusi ditujukan pada Mozilla Foundation, sebuah organisasi 501(c)(3) yang berbasis di San Francisco, California, digunakan dengan bijaksana dengan tujuan amal. Donasi tersebut mendapatkan "
+"pengurangan pajak di AS sampai batas yang dimungkinkan oleh hukum."
 
 #: donate/templates/fragments/language_switcher.html:10 donate/templates/pages/core/contributor_support_page_master.html:97
 msgid "Language"
@@ -216,20 +220,20 @@ msgstr "Apa yang kami danai"
 
 #: donate/templates/pages/base_page_master.html:36
 msgid "What you can do"
-msgstr ""
+msgstr "Yang dapat Anda lakukan"
 
 #: donate/templates/pages/base_page_master.html:39
 msgid "Blog"
 msgstr "Blog"
 
 #: donate/templates/pages/base_page_master.html:183
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a "
 "%(fomo_link_attributes)s>%(fomo_site_url)s</a>. Most content available under a <a %(cc_link_attributes)s>Creative Commons license</a>."
 msgstr ""
-"Mozilla adalah organisasi nirlaba global yang berdedikasi untuk menempatkan Anda dalam kendali pengalaman daring Anda dan membentuk masa depan web untuk kebaikan semua. Kunjungi kami di "
-"<a%(link_attributes)s>%(site_url)s</a>."
+"Mozilla adalah organisasi nirlaba global yang berdedikasi untuk menempatkan Anda dalam kendali pengalaman daring Anda dan membentuk masa depan web untuk kepentingan publik. Kunjungi kami di <a "
+"%(fomo_link_attributes)s>%(fomo_site_url)s</a>. Sebagian besar konten tersedia di bawah <a %(cc_link_attributes)s>lisensi Creative Commons</a>."
 
 #: donate/templates/pages/core/campaign_page.html:43 donate/templates/pages/core/ways_to_give_page_master.html:12
 msgctxt "Button"
@@ -238,11 +242,11 @@ msgstr "DONASI SEKARANG"
 
 #: donate/templates/pages/core/campaign_page.html:57 donate/templates/pages/core/landing_page_master.html:36 donate/templates/payment/card_master.html:167
 msgid "Seal of Charity Navigator 4-Star"
-msgstr ""
+msgstr "Tanda Navigator Penderma Bintang Empat"
 
 #: donate/templates/pages/core/campaign_page.html:60 donate/templates/pages/core/landing_page_master.html:39 donate/templates/payment/card_master.html:170
 msgid "Seal of GuideStar Gold 2019"
-msgstr ""
+msgstr "Tanda GuideStar Gold 2019"
 
 #: donate/templates/pages/core/campaign_page.html:70
 msgctxt "Header"
@@ -251,19 +255,19 @@ msgstr "Donasi sekarang"
 
 #: donate/templates/pages/core/campaign_page.html:84 donate/templates/pages/core/landing_page_master.html:61
 msgid "Your donation is being processed..."
-msgstr ""
+msgstr "Donasi anda sedang diproses..."
 
 #: donate/templates/pages/core/campaign_page.html:93 donate/templates/pages/core/landing_page_master.html:71
 msgid "One moment while we get all the details right!"
-msgstr ""
+msgstr "Tunggu beberapa saat, sementara kami mendapatkan semua rincian dengan benar!"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:54
 msgid "Thank you for contacting us. A case has been created for your issue and we will be in touch shortly."
-msgstr ""
+msgstr "Terima kasih telah menghubungi kami. Sebuah tiket telah dibuat untuk permasalahan Anda dan kami akan menghubungi Anda segera."
 
 #: donate/templates/pages/core/contributor_support_page_master.html:60
 msgid "We will get back to you soon."
-msgstr ""
+msgstr "Kami akan segera menghubungi Anda."
 
 #: donate/templates/pages/core/contributor_support_page_master.html:67
 msgid "If you need help with a donation to the Mozilla Foundation, please fill out this form and a donor care representative will get back to you as soon as possible."
