@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-23 09:16+0000\n"
-"PO-Revision-Date: 2022-05-23 14:53+0000\n"
-"Last-Translator: Michael Köhler <michael.koehler1@gmx.de>\n"
+"PO-Revision-Date: 2022-05-23 13:02+0000\n"
+"Last-Translator: robovoice <terminus12@gmx.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -125,7 +125,7 @@ msgstr "Bitte deaktivieren Sie Ihr VPN und besuchen Sie <a href=\"%(url)s\">dona
 
 #: donate/templates/403.html:21
 msgid "We take your privacy very seriously. To minimize fraudulent payments, we’re asking supporters to disable their VPNs when visiting our donate page."
-msgstr ""
+msgstr "Wir nehmen Ihre Privatsphäre sehr ernst. Um betrügerische Zahlungen zu minimieren, bitten wir Unterstützer, ihre VPNs zu deaktivieren, wenn sie unsere Spendenseite besuchen."
 
 #: donate/templates/404.html:4
 msgid "Page not found"
