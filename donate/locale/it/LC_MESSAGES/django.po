@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-25 09:36+0000\n"
-"PO-Revision-Date: 2022-05-25 10:42+0000\n"
-"Last-Translator: Michele Rodaro <michele.rodaro@mozillaitalia.org>\n"
+"PO-Revision-Date: 2022-05-25 15:21+0000\n"
+"Last-Translator: Francesco Lodolo [:flod] <flod+pontoon@mozilla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -112,11 +112,11 @@ msgstr "Il captcha inserito non è valido. Riprova."
 
 #: donate/templates/403.html:4
 msgid "VPN Issue"
-msgstr ""
+msgstr "Problema con VPN"
 
 #: donate/templates/403.html:11
 msgid "Action Required - VPN Issue"
-msgstr ""
+msgstr "Azione richiesta - Problema con VPN"
 
 #: donate/templates/403.html:16
 #, python-format
@@ -126,6 +126,8 @@ msgstr "Disattiva la tua VPN e visita nuovamente <a href=\"%(url)s\">%(site)s</a
 #: donate/templates/403.html:21
 msgid "We take your privacy very seriously. To minimize fraudulent payments, we’re asking supporters to disable their VPNs when visiting our donate page."
 msgstr ""
+"Prendiamo molto seriamente la privacy degli utenti. Per ridurre al minimo il rischio di pagamenti fraudolenti, chiediamo ai sostenitori di disattivare la loro VPN quando visitano la nostra pagina "
+"per le donazioni."
 
 #: donate/templates/404.html:4
 msgid "Page not found"
