@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-23 09:16+0000\n"
+"POT-Creation-Date: 2022-05-25 09:36+0000\n"
 "PO-Revision-Date: 2022-03-03 13:43+0000\n"
 "Last-Translator: Joan Montané <joan@montane.cat>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -123,7 +123,7 @@ msgstr ""
 
 #: donate/templates/403.html:16
 #, python-format
-msgid "Please disable your VPN and visit <a href=\"%(url)s\">donate.mozilla.org</a> again."
+msgid "Please disable your VPN and visit <a href=\"%(url)s\">%(site)s</a> again."
 msgstr ""
 
 #: donate/templates/403.html:21
