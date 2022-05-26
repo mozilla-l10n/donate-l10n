@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-25 09:36+0000\n"
-"PO-Revision-Date: 2022-05-25 09:47+0000\n"
+"PO-Revision-Date: 2022-05-26 13:23+0000\n"
 "Last-Translator: Théo Chevalier <theo.chevalier11@gmail.com>\n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -124,7 +124,7 @@ msgstr "Veuillez désactiver votre VPN et visiter <a href=\"%(url)s\">%(site)s</
 
 #: donate/templates/403.html:21
 msgid "We take your privacy very seriously. To minimize fraudulent payments, we’re asking supporters to disable their VPNs when visiting our donate page."
-msgstr "Nous prenons votre vie privée très au sérieux. Pour réduire les paiements frauduleux, nous demandons à nos soutiens de désactiver leur VPN pour accéder à notre page de dons."
+msgstr "Nous prenons votre vie privée très au sérieux. Pour réduire le nombre de paiements frauduleux, nous demandons à nos soutiens de désactiver leur VPN pour accéder à notre page de dons."
 
 #: donate/templates/404.html:4
 msgid "Page not found"
