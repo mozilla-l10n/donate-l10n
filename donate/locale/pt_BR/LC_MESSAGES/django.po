@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-25 09:36+0000\n"
-"PO-Revision-Date: 2022-05-26 01:03+0000\n"
+"PO-Revision-Date: 2022-05-26 01:05+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -121,11 +121,11 @@ msgstr "Ação necessária - Problema de VPN"
 #: donate/templates/403.html:16
 #, python-format
 msgid "Please disable your VPN and visit <a href=\"%(url)s\">%(site)s</a> again."
-msgstr ""
+msgstr "Desative sua VPN e acesse <a href=\"%(url)s\">%(site)s</a> novamente."
 
 #: donate/templates/403.html:21
 msgid "We take your privacy very seriously. To minimize fraudulent payments, we’re asking supporters to disable their VPNs when visiting our donate page."
-msgstr ""
+msgstr "Nós levamos sua privacidade muito a sério. Para minimizar pagamentos fraudulentos, pedimos aos apoiadores que desativem suas VPNs ao visitar nossa página de doações."
 
 #: donate/templates/404.html:4
 msgid "Page not found"
