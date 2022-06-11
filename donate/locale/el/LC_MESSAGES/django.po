@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-25 09:36+0000\n"
-"PO-Revision-Date: 2022-05-25 12:33+0000\n"
+"PO-Revision-Date: 2022-06-11 14:11+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -125,7 +125,7 @@ msgstr "Παρακαλούμε απενεργοποιήστε το VPN σας κ
 
 #: donate/templates/403.html:21
 msgid "We take your privacy very seriously. To minimize fraudulent payments, we’re asking supporters to disable their VPNs when visiting our donate page."
-msgstr ""
+msgstr "Λαμβάνουμε πολύ σοβαρά υπόψη το απόρρητό σας. Για να ελαχιστοποιηθούν οι πληρωμές - απάτες, ζητάμε από τους υποστηρικτές να απενεργοποιούν τα VPN τους όταν επισκέπτονται τη σελίδα δωρεών μας."
 
 #: donate/templates/404.html:4
 msgid "Page not found"
