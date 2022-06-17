@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-25 09:36+0000\n"
-"PO-Revision-Date: 2022-06-17 20:56+0000\n"
+"PO-Revision-Date: 2022-06-17 20:58+0000\n"
 "Last-Translator: G12r <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ka\n"
@@ -125,7 +125,7 @@ msgstr "გთხოვთ გათიშოთ თქვენი VPN და �
 
 #: donate/templates/403.html:21
 msgid "We take your privacy very seriously. To minimize fraudulent payments, we’re asking supporters to disable their VPNs when visiting our donate page."
-msgstr ""
+msgstr "ჩვენ დიდ ყურადღებას ვუთმობთ თქვენი პირადულობის დაცვას. თაღლითური გადახდების ასაციელბად მხარდამჭერებს ვთხოვთ, რომ გამორთონ VPN ჩვენი შემოწირულობის გვერდზე შემოსვლისას."
 
 #: donate/templates/404.html:4
 msgid "Page not found"
