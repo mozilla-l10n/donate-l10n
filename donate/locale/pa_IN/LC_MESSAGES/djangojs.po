@@ -2,14 +2,14 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-25 09:36+0000\n"
-"PO-Revision-Date: 2019-11-22 04:16+0000\n"
+"PO-Revision-Date: 2022-06-19 13:51+0000\n"
 "Last-Translator: Aman Alam <amanpreet.alam@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pa_IN\n"
@@ -19,53 +19,40 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Pontoon\n"
 
-#: donate/frontend/_js/main.compiled.js:16 maintenance/static/_js/main.js:16
-#: source/js/components/currency-selector.js:91
+#: donate/frontend/_js/main.compiled.js:16 maintenance/static/_js/main.js:16 source/js/components/currency-selector.js:91
 msgid "per month"
 msgstr "ਹਰੇਕ ਮਹੀਨੇ"
 
-#: donate/frontend/_js/main.compiled.js:16 maintenance/static/_js/main.js:16
-#: source/js/components/currency-selector.js:98
+#: donate/frontend/_js/main.compiled.js:16 maintenance/static/_js/main.js:16 source/js/components/currency-selector.js:98
 msgid "Other amount"
 msgstr "ਹੋਰ ਰਕਮ"
 
-#: donate/frontend/_js/main.compiled.js:16
-#: source/js/components/currency-selector.js:99
+#: donate/frontend/_js/main.compiled.js:16 source/js/components/currency-selector.js:99
 msgid "Minimum amount is"
-msgstr ""
+msgstr "ਘੱਟੋ-ਘੱਟ ਰਕਮ ਹੈ"
 
-#: donate/frontend/_js/main.compiled.js:16
-#: source/js/components/currency-selector.js:100
+#: donate/frontend/_js/main.compiled.js:16 source/js/components/currency-selector.js:100
 msgid "Invalid amount entered."
-msgstr ""
+msgstr "ਗਲਤ ਰਕਮ ਭਰੀ ਗਈ।"
 
-#: donate/frontend/_js/payments-card.compiled.js:1
-#: donate/frontend/_js/payments-paypal-upsell.compiled.js:1
-#: donate/frontend/_js/payments-paypal.compiled.js:1
-#: source/js/components/paypal.js:14 source/js/payments-card.js:16
+#: donate/frontend/_js/payments-card.compiled.js:1 donate/frontend/_js/payments-paypal-upsell.compiled.js:1 donate/frontend/_js/payments-paypal.compiled.js:1 source/js/components/paypal.js:14
+#: source/js/payments-card.js:16
 msgid "An error occurred. Please reload the page or try again later."
 msgstr "ਗਲਤੀ ਆਈ ਹੈ। ਸਫ਼ੇ ਨੂੰ ਮੁੜ-ਲੋਡ ਕਰੋ ਜਾਂ ਬਾਅਦ ‘ਚ ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ।"
 
-#: donate/frontend/_js/payments-card.compiled.js:1
-#: donate/frontend/_js/payments-paypal-upsell.compiled.js:1
-#: donate/frontend/_js/payments-paypal.compiled.js:1
-#: source/js/components/paypal.js:17 source/js/payments-card.js:218
+#: donate/frontend/_js/payments-card.compiled.js:1 donate/frontend/_js/payments-paypal-upsell.compiled.js:1 donate/frontend/_js/payments-paypal.compiled.js:1 source/js/components/paypal.js:17
+#: source/js/payments-card.js:218
 msgid "There was an error processing your payment. Please try again."
 msgstr "ਤੁਹਾਡੇ ਭੁਗਤਾਨ ਉੱਤੇ ਕਾਰਵਾਈ ਕਰਨ ਦੌਰਾਨ ਗਲਤੀ ਸੀ। ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ।"
 
-#: donate/frontend/_js/payments-card.compiled.js:1
-#: source/js/payments-card.js:238
+#: donate/frontend/_js/payments-card.compiled.js:1 source/js/payments-card.js:238
 msgid "Some of the fields below are invalid. Please correct the invalid fields and try again."
 msgstr "ਹੇਠਲੇ ਕੁਝ ਖੇਤਰ ਅਢੁੱਕਵੇਂ ਹਨ। ਅਢੁੱਕਵੇਂ ਖੇਤਰਾਂ ਨੂੰ ਠੀਕ ਕਰਕੇ ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ।"
 
-#: donate/frontend/_js/payments-paypal-upsell.compiled.js:1
-#: donate/frontend/_js/payments-paypal.compiled.js:1
-#: source/js/components/paypal.js:20
+#: donate/frontend/_js/payments-paypal-upsell.compiled.js:1 donate/frontend/_js/payments-paypal.compiled.js:1 source/js/components/paypal.js:20
 msgid "We were unable to establish a connection to PayPal. Please try again in a few minutes."
-msgstr ""
+msgstr "ਅਸੀਂ PayPal ਨਾਲ ਕਨੈਕਸ਼ਨ ਸਥਾਪਿਤ ਕਰਨ ਲਈ ਅਸਮਰੱਥ ਹਾਂ। ਕੁਝ ਮਿੰਟਾਂ ਵਿੱਚ ਫੇਰ ਕੋਸ਼ਿਸ਼ ਕਰੀਓ।"
 
-#: donate/frontend/_js/payments-paypal-upsell.compiled.js:1
-#: donate/frontend/_js/payments-paypal.compiled.js:1
-#: source/js/components/paypal.js:97
+#: donate/frontend/_js/payments-paypal-upsell.compiled.js:1 donate/frontend/_js/payments-paypal.compiled.js:1 source/js/components/paypal.js:97
 msgid "Payment cancelled"
 msgstr "ਭੁਗਤਾਨ ਰੱਦ ਕੀਤਾ"
