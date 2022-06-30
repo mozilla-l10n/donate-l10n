@@ -121,7 +121,7 @@ msgstr "Eylem Gerekli - VPN Sorunu"
 #: donate/templates/403.html:16
 #, python-format
 msgid "Please disable your VPN and visit <a href=\"%(url)s\">%(site)s</a> again."
-msgstr ""
+msgstr "Lütfen VPN’inizi devre dışı bırakıp <a href=\"%(url)s\">%(site)s</a> adresini tekrar ziyaret edin."
 
 #: donate/templates/403.html:21
 msgid "We take your privacy very seriously. To minimize fraudulent payments, we’re asking supporters to disable their VPNs when visiting our donate page."
