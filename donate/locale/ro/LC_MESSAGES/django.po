@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-25 09:36+0000\n"
+"POT-Creation-Date: 2022-07-06 18:37+0000\n"
 "PO-Revision-Date: 2021-07-24 20:12+0000\n"
 "Last-Translator: snow <cristian.silaghi@mozilla.ro>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -51,7 +51,7 @@ msgid "Last name"
 msgstr "Nume"
 
 #: donate/payments/forms.py:125 donate/payments/forms.py:171
-#: donate/templates/pages/core/contributor_support_page_master.html:92
+#: donate/templates/pages/core/contributor_support_page_master.html:97
 msgid "Email"
 msgstr "E-mail"
 
@@ -77,35 +77,35 @@ msgstr "Țară"
 msgid "I’m okay with Mozilla handling my info as explained in this <a href='%(url)s'>Privacy Notice</a>."
 msgstr "Sunt de acord ca Mozilla să îmi gestioneze informațiile, conform explicațiilor din această <a href='%(url)s'>Notificare privind confidențialitatea</a>."
 
-#: donate/payments/views.py:170
+#: donate/payments/views.py:196
 msgid "The type of card you used is not accepted."
 msgstr "Tipul de card pe care l-ai utilizat nu este acceptat."
 
-#: donate/payments/views.py:171 donate/payments/views.py:172
+#: donate/payments/views.py:197 donate/payments/views.py:198
 msgid "The CVV code you entered was invalid."
 msgstr "Codul CVV introdus nu a fost valid."
 
-#: donate/payments/views.py:173
+#: donate/payments/views.py:199
 msgid "The expiration date you entered was invalid."
 msgstr "Data de expirare introdusă nu a fost validă."
 
-#: donate/payments/views.py:174
+#: donate/payments/views.py:200
 msgid "The credit card number you entered was invalid."
 msgstr "Numărul cărții de credit pe care l-ai introdus nu este valid."
 
-#: donate/payments/views.py:183 donate/payments/views.py:184
+#: donate/payments/views.py:209 donate/payments/views.py:210
 msgid "The post code you provided is not valid."
 msgstr "Codul poștal furnizat nu este valid."
 
-#: donate/payments/views.py:198
+#: donate/payments/views.py:224
 msgid "Sorry there was an error processing your payment. Please try again later or use a different payment method."
 msgstr "Ne pare rău, a apărut o eroare la procesarea plății. Te rugăm să încerci mai târziu sau să folosești altă metodă de plată."
 
-#: donate/payments/views.py:394
+#: donate/payments/views.py:434
 msgid "Something went wrong. We were unable to process your payment."
 msgstr "Ceva nu a mers bine. Nu am reușit să procesăm plata."
 
-#: donate/payments/views.py:648 donate/payments/views.py:757
+#: donate/payments/views.py:702 donate/payments/views.py:811
 msgid "Sorry there was an error processing your payment. Please try again later."
 msgstr "Ne pare rău, dar a apărut o eroare la procesarea plății. Te rugăm să încerci din nou mai târziu."
 
@@ -146,7 +146,7 @@ msgstr "Ne pare rău, pagina nu există"
 msgid "Go to our home page"
 msgstr "Accesează pagina ta de start"
 
-#: donate/templates/base_master.html:8
+#: donate/templates/base_master.html:15
 #: donate/templates/pages/base_page_master.html:14
 #: donate/templates/pages/base_page_master.html:15
 msgctxt "Page title"
@@ -226,7 +226,7 @@ msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization base
 msgstr "Contribuțiile merg către Mozilla Foundation, o organizație constituită în temeiul secțiunii 501(c)(3) a codului fiscal S.U.A., cu sediul în San Francisco, California, de utilizat la libera sa alegere în scopuri caritabile. Sumele sunt deductibile fiscal în S.U.A. în măsura maximă permisă de lege."
 
 #: donate/templates/fragments/language_switcher.html:10
-#: donate/templates/pages/core/contributor_support_page_master.html:97
+#: donate/templates/pages/core/contributor_support_page_master.html:102
 msgid "Language"
 msgstr "Limbă"
 
@@ -255,35 +255,35 @@ msgstr ""
 msgid "Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a %(fomo_link_attributes)s>%(fomo_site_url)s</a>. Most content available under a <a %(cc_link_attributes)s>Creative Commons license</a>."
 msgstr "Mozilla este o organizație nonprofit globală dedicată să îți redea controlul asupra experienței online și să modeleze viitorul webului pentru binele public. Vizitează-ne la <a %(fomo_link_attributes)s>%(fomo_site_url)s</a>. Majoritatea conținutul este disponibil sub o <a %(cc_link_attributes)s>licență Creative Commons</a>."
 
-#: donate/templates/pages/core/campaign_page.html:43
+#: donate/templates/pages/core/campaign_page_master.html:43
 #: donate/templates/pages/core/ways_to_give_page_master.html:12
 msgctxt "Button"
 msgid "DONATE NOW"
 msgstr "DONEAZĂ ACUM"
 
-#: donate/templates/pages/core/campaign_page.html:57
+#: donate/templates/pages/core/campaign_page_master.html:58
 #: donate/templates/pages/core/landing_page_master.html:36
 #: donate/templates/payment/card_master.html:167
 msgid "Seal of Charity Navigator 4-Star"
 msgstr "Sigiliu Charity Navigator 4 stele"
 
-#: donate/templates/pages/core/campaign_page.html:60
+#: donate/templates/pages/core/campaign_page_master.html:61
 #: donate/templates/pages/core/landing_page_master.html:39
 #: donate/templates/payment/card_master.html:170
 msgid "Seal of GuideStar Gold 2019"
 msgstr "Sigiliu GuideStar Gold 2019"
 
-#: donate/templates/pages/core/campaign_page.html:70
+#: donate/templates/pages/core/campaign_page_master.html:73
 msgctxt "Header"
 msgid "Donate now"
 msgstr "Donează acum"
 
-#: donate/templates/pages/core/campaign_page.html:84
+#: donate/templates/pages/core/campaign_page_master.html:87
 #: donate/templates/pages/core/landing_page_master.html:61
 msgid "Your donation is being processed..."
 msgstr ""
 
-#: donate/templates/pages/core/campaign_page.html:93
+#: donate/templates/pages/core/campaign_page_master.html:96
 #: donate/templates/pages/core/landing_page_master.html:71
 msgid "One moment while we get all the details right!"
 msgstr ""
@@ -301,90 +301,94 @@ msgid "If you need help with a donation to the Mozilla Foundation, please fill o
 msgstr ""
 
 #: donate/templates/pages/core/contributor_support_page_master.html:72
-#, python-format
-msgid "Unfortunately, donor care representatives are unable to offer support or help with Firefox technical issues. For technical support, please visit the <a href=\"%(support_url)s\">Firefox support page</a>."
+msgid "Unfortunately, donor care representatives are unable to offer support or help with Firefox technical issues, or changes to or questions about Mozilla VPN subscriptions. Related questions submitted through this form will not be responded to."
 msgstr ""
 
-#: donate/templates/pages/core/contributor_support_page_master.html:87
+#: donate/templates/pages/core/contributor_support_page_master.html:77
+#, python-format
+msgid "For technical support, please visit the <a href=\"%(firefox_support_url)s\">Firefox support page</a>. For help with a VPN subscription, please visit the <a href=\"%(vpn_support_url)s\">Mozilla VPN Support page</a>."
+msgstr ""
+
+#: donate/templates/pages/core/contributor_support_page_master.html:92
 msgid "Contact Name"
 msgstr "Nume de contact"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:100
+#: donate/templates/pages/core/contributor_support_page_master.html:105
 msgctxt "Option in 'Language' dropdown"
 msgid "None"
 msgstr "Niciuna"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:101
+#: donate/templates/pages/core/contributor_support_page_master.html:106
 msgid "Chinese (Simplified)"
 msgstr ""
 
-#: donate/templates/pages/core/contributor_support_page_master.html:102
+#: donate/templates/pages/core/contributor_support_page_master.html:107
 msgid "Czech"
 msgstr ""
 
-#: donate/templates/pages/core/contributor_support_page_master.html:103
+#: donate/templates/pages/core/contributor_support_page_master.html:108
 msgid "Danish"
 msgstr ""
 
-#: donate/templates/pages/core/contributor_support_page_master.html:104
+#: donate/templates/pages/core/contributor_support_page_master.html:109
 msgid "Dutch"
 msgstr ""
 
-#: donate/templates/pages/core/contributor_support_page_master.html:105
+#: donate/templates/pages/core/contributor_support_page_master.html:110
 msgid "English"
 msgstr "Engleză"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:106
+#: donate/templates/pages/core/contributor_support_page_master.html:111
 msgid "French"
 msgstr "Franceză"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:107
+#: donate/templates/pages/core/contributor_support_page_master.html:112
 msgid "German"
 msgstr "Germană"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:108
+#: donate/templates/pages/core/contributor_support_page_master.html:113
 msgid "Italian"
 msgstr ""
 
-#: donate/templates/pages/core/contributor_support_page_master.html:109
+#: donate/templates/pages/core/contributor_support_page_master.html:114
 msgid "Japanese"
 msgstr ""
 
-#: donate/templates/pages/core/contributor_support_page_master.html:110
+#: donate/templates/pages/core/contributor_support_page_master.html:115
 msgid "Polish"
 msgstr "Poloneză"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:111
+#: donate/templates/pages/core/contributor_support_page_master.html:116
 msgid "Portuguese"
 msgstr "Portugheză"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:112
+#: donate/templates/pages/core/contributor_support_page_master.html:117
 msgid "Russian"
 msgstr ""
 
-#: donate/templates/pages/core/contributor_support_page_master.html:113
+#: donate/templates/pages/core/contributor_support_page_master.html:118
 msgid "Spanish"
 msgstr "Spaniolă"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:114
+#: donate/templates/pages/core/contributor_support_page_master.html:119
 msgctxt "Option in 'Language' dropdown"
 msgid "Other"
 msgstr "Altele"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:120
+#: donate/templates/pages/core/contributor_support_page_master.html:125
 msgid "Subject"
 msgstr "Subiect"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:125
+#: donate/templates/pages/core/contributor_support_page_master.html:130
 msgid "Description"
 msgstr "Descriere"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:130
+#: donate/templates/pages/core/contributor_support_page_master.html:135
 #, python-format
 msgid "Mozilla will only use your submitted information for purposes of communicating with you about your request. See our <a href=\"%(privacy_policy)s\">privacy policy</a> for further information."
 msgstr "Mozilla va folosi informațiile pe care le-ai furnizat numai în scopul comunicării cu tine despre cererea transmisă. Vezi <a href=\"%(privacy_policy)s\">politica de confidențialitate</a> pentru informații suplimentare."
 
-#: donate/templates/pages/core/contributor_support_page_master.html:142
+#: donate/templates/pages/core/contributor_support_page_master.html:147
 msgid "Submit"
 msgstr "Trimite"
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-25 09:36+0000\n"
+"POT-Creation-Date: 2022-07-06 18:37+0000\n"
 "PO-Revision-Date: 2022-02-25 10:59+0000\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -51,7 +51,7 @@ msgid "Last name"
 msgstr "Mbiemër"
 
 #: donate/payments/forms.py:125 donate/payments/forms.py:171
-#: donate/templates/pages/core/contributor_support_page_master.html:92
+#: donate/templates/pages/core/contributor_support_page_master.html:97
 msgid "Email"
 msgstr "Email"
 
@@ -77,35 +77,35 @@ msgstr "Vend"
 msgid "I’m okay with Mozilla handling my info as explained in this <a href='%(url)s'>Privacy Notice</a>."
 msgstr "Pajtohem me trajtimin që Mozilla u bën të dhënave të mia, ashtu si shpjegohet në këtë <a href='%(url)s'>Shënim mbi Privatësinë</a>."
 
-#: donate/payments/views.py:170
+#: donate/payments/views.py:196
 msgid "The type of card you used is not accepted."
 msgstr "Lloji i kartës që përdorët s’është i pranueshëm."
 
-#: donate/payments/views.py:171 donate/payments/views.py:172
+#: donate/payments/views.py:197 donate/payments/views.py:198
 msgid "The CVV code you entered was invalid."
 msgstr "Kodi CVV që dhatë është i pavlefshëm."
 
-#: donate/payments/views.py:173
+#: donate/payments/views.py:199
 msgid "The expiration date you entered was invalid."
 msgstr "Data e skadimit që dhatë është e pavlefshme."
 
-#: donate/payments/views.py:174
+#: donate/payments/views.py:200
 msgid "The credit card number you entered was invalid."
 msgstr "Numri i kartës së kreditit që dhatë është i pavlefshëm."
 
-#: donate/payments/views.py:183 donate/payments/views.py:184
+#: donate/payments/views.py:209 donate/payments/views.py:210
 msgid "The post code you provided is not valid."
 msgstr "Kodi postar që dhatë, nuk është i vlefshëm."
 
-#: donate/payments/views.py:198
+#: donate/payments/views.py:224
 msgid "Sorry there was an error processing your payment. Please try again later or use a different payment method."
 msgstr "Na ndjeni, pati një gabim në përpunimin e pagesës tuaj. Ju lutemi, riprovoni më vonë ose përdorni një metodë tjetër pagesash."
 
-#: donate/payments/views.py:394
+#: donate/payments/views.py:434
 msgid "Something went wrong. We were unable to process your payment."
 msgstr "Diç shkoi ters. S’qemë në gjendje të kryejmë pagesën tuaj."
 
-#: donate/payments/views.py:648 donate/payments/views.py:757
+#: donate/payments/views.py:702 donate/payments/views.py:811
 msgid "Sorry there was an error processing your payment. Please try again later."
 msgstr "Na ndjeni, pati një gabim në kryerjen e pagesës tuaj. Ju lutemi, riprovoni më vonë."
 
@@ -146,7 +146,7 @@ msgstr "Na ndjeni, faqja nuk ekziston"
 msgid "Go to our home page"
 msgstr "Shkoni te faqja juaj hyrëse"
 
-#: donate/templates/base_master.html:8
+#: donate/templates/base_master.html:15
 #: donate/templates/pages/base_page_master.html:14
 #: donate/templates/pages/base_page_master.html:15
 msgctxt "Page title"
@@ -226,7 +226,7 @@ msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization base
 msgstr "Kontributet shkojnë për Mozilla Foundation, një ent 501(c)(3) me qendër në San Francisco, California, për t’u përdorur sipas dëshirës së tij për qëllimet e veta bamirëse. Ato janë të përjashtueshme nga taksimi në ShBA deri në atë shkallë që lejon ligji."
 
 #: donate/templates/fragments/language_switcher.html:10
-#: donate/templates/pages/core/contributor_support_page_master.html:97
+#: donate/templates/pages/core/contributor_support_page_master.html:102
 msgid "Language"
 msgstr "Gjuhë"
 
@@ -255,35 +255,35 @@ msgstr "Blog"
 msgid "Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a %(fomo_link_attributes)s>%(fomo_site_url)s</a>. Most content available under a <a %(cc_link_attributes)s>Creative Commons license</a>."
 msgstr "Mozilla është një ent global jofitimprurës përkushtuar vënies tuaj në kontroll të jetës tuaj internetore dhe dhënies formë të ardhmes së web-it për të mirën publike. Na vizitoni te <a %(fomo_link_attributes)s>%(fomo_site_url)s</a>. Pjesa dërrmuese e lëndës mund të përdoret sipas një <a %(cc_link_attributes)s>licence Creative Commons</a>."
 
-#: donate/templates/pages/core/campaign_page.html:43
+#: donate/templates/pages/core/campaign_page_master.html:43
 #: donate/templates/pages/core/ways_to_give_page_master.html:12
 msgctxt "Button"
 msgid "DONATE NOW"
 msgstr "DHURONI QË SOT"
 
-#: donate/templates/pages/core/campaign_page.html:57
+#: donate/templates/pages/core/campaign_page_master.html:58
 #: donate/templates/pages/core/landing_page_master.html:36
 #: donate/templates/payment/card_master.html:167
 msgid "Seal of Charity Navigator 4-Star"
 msgstr "Vulë “Charity Navigator” 4 yje"
 
-#: donate/templates/pages/core/campaign_page.html:60
+#: donate/templates/pages/core/campaign_page_master.html:61
 #: donate/templates/pages/core/landing_page_master.html:39
 #: donate/templates/payment/card_master.html:170
 msgid "Seal of GuideStar Gold 2019"
 msgstr "Vulë GuideStar Gold 2019"
 
-#: donate/templates/pages/core/campaign_page.html:70
+#: donate/templates/pages/core/campaign_page_master.html:73
 msgctxt "Header"
 msgid "Donate now"
 msgstr "Dhuroni sot"
 
-#: donate/templates/pages/core/campaign_page.html:84
+#: donate/templates/pages/core/campaign_page_master.html:87
 #: donate/templates/pages/core/landing_page_master.html:61
 msgid "Your donation is being processed..."
 msgstr "Dhurimi juaj po përpunohet…"
 
-#: donate/templates/pages/core/campaign_page.html:93
+#: donate/templates/pages/core/campaign_page_master.html:96
 #: donate/templates/pages/core/landing_page_master.html:71
 msgid "One moment while we get all the details right!"
 msgstr "Një çast, sa të marrim saktë krejt hollësitë!"
@@ -301,90 +301,94 @@ msgid "If you need help with a donation to the Mozilla Foundation, please fill o
 msgstr "Nëse ju duhet ndihmë lidhur me një dhurim për Mozilla Foundation, ju lutemi, plotësoni këtë formular dhe një përfaqësues për kujdesin ndaj dhuruesve do të lidhet me ju sa më shpejt që të jetë e mundur."
 
 #: donate/templates/pages/core/contributor_support_page_master.html:72
-#, python-format
-msgid "Unfortunately, donor care representatives are unable to offer support or help with Firefox technical issues. For technical support, please visit the <a href=\"%(support_url)s\">Firefox support page</a>."
-msgstr "Për fat të keq, përfaqësuesit e kujdesit për dhuruesit s’janë në gjendje të ofrojnë asistencë apo ndihmë për probleme teknike me Firefox-in. Për asistencë teknike, ju lutemi, vizitoni <a href=\"%(support_url)s\">faqen e asistencës së Firefox-it</a>."
+msgid "Unfortunately, donor care representatives are unable to offer support or help with Firefox technical issues, or changes to or questions about Mozilla VPN subscriptions. Related questions submitted through this form will not be responded to."
+msgstr ""
 
-#: donate/templates/pages/core/contributor_support_page_master.html:87
+#: donate/templates/pages/core/contributor_support_page_master.html:77
+#, python-format
+msgid "For technical support, please visit the <a href=\"%(firefox_support_url)s\">Firefox support page</a>. For help with a VPN subscription, please visit the <a href=\"%(vpn_support_url)s\">Mozilla VPN Support page</a>."
+msgstr ""
+
+#: donate/templates/pages/core/contributor_support_page_master.html:92
 msgid "Contact Name"
 msgstr "Emër Kontakti"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:100
+#: donate/templates/pages/core/contributor_support_page_master.html:105
 msgctxt "Option in 'Language' dropdown"
 msgid "None"
 msgstr "Asnjë"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:101
+#: donate/templates/pages/core/contributor_support_page_master.html:106
 msgid "Chinese (Simplified)"
 msgstr "Kineze (E thjeshtuar)"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:102
+#: donate/templates/pages/core/contributor_support_page_master.html:107
 msgid "Czech"
 msgstr "Çekisht"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:103
+#: donate/templates/pages/core/contributor_support_page_master.html:108
 msgid "Danish"
 msgstr "Danisht"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:104
+#: donate/templates/pages/core/contributor_support_page_master.html:109
 msgid "Dutch"
 msgstr "Holandisht"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:105
+#: donate/templates/pages/core/contributor_support_page_master.html:110
 msgid "English"
 msgstr "Anglisht"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:106
+#: donate/templates/pages/core/contributor_support_page_master.html:111
 msgid "French"
 msgstr "Frëngjisht"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:107
+#: donate/templates/pages/core/contributor_support_page_master.html:112
 msgid "German"
 msgstr "Gjermanisht"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:108
+#: donate/templates/pages/core/contributor_support_page_master.html:113
 msgid "Italian"
 msgstr "Italisht"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:109
+#: donate/templates/pages/core/contributor_support_page_master.html:114
 msgid "Japanese"
 msgstr "Japonisht"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:110
+#: donate/templates/pages/core/contributor_support_page_master.html:115
 msgid "Polish"
 msgstr "Polonisht"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:111
+#: donate/templates/pages/core/contributor_support_page_master.html:116
 msgid "Portuguese"
 msgstr "Portugalisht"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:112
+#: donate/templates/pages/core/contributor_support_page_master.html:117
 msgid "Russian"
 msgstr "Rusisht"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:113
+#: donate/templates/pages/core/contributor_support_page_master.html:118
 msgid "Spanish"
 msgstr "Spanjisht"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:114
+#: donate/templates/pages/core/contributor_support_page_master.html:119
 msgctxt "Option in 'Language' dropdown"
 msgid "Other"
 msgstr "Tjetër"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:120
+#: donate/templates/pages/core/contributor_support_page_master.html:125
 msgid "Subject"
 msgstr "Subjekt"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:125
+#: donate/templates/pages/core/contributor_support_page_master.html:130
 msgid "Description"
 msgstr "Përshkrim"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:130
+#: donate/templates/pages/core/contributor_support_page_master.html:135
 #, python-format
 msgid "Mozilla will only use your submitted information for purposes of communicating with you about your request. See our <a href=\"%(privacy_policy)s\">privacy policy</a> for further information."
 msgstr "Mozilla do t’i përdorë të dhënat e parashtruara nga ju vetëm për qëllime komunikimi me ju rreth kërkesës tuaj. Për më tepër informacion, shihni <a href=\"%(privacy_policy)s\">rregullat tona mbi privatësinë</a>."
 
-#: donate/templates/pages/core/contributor_support_page_master.html:142
+#: donate/templates/pages/core/contributor_support_page_master.html:147
 msgid "Submit"
 msgstr "Parashtroje"
 
@@ -882,6 +886,10 @@ msgstr "Sot dhurova për @mozthunderbird që të arrihet #freetheinbox. Ejani me
 msgctxt "Email subject line"
 msgid "I donated to Thunderbird today"
 msgstr "Sot dhurova për Thunderbird-in"
+
+#, python-format
+#~ msgid "Unfortunately, donor care representatives are unable to offer support or help with Firefox technical issues. For technical support, please visit the <a href=\"%(support_url)s\">Firefox support page</a>."
+#~ msgstr "Për fat të keq, përfaqësuesit e kujdesit për dhuruesit s’janë në gjendje të ofrojnë asistencë apo ndihmë për probleme teknike me Firefox-in. Për asistencë teknike, ju lutemi, vizitoni <a href=\"%(support_url)s\">faqen e asistencës së Firefox-it</a>."
 
 #~ msgid "MZLA/Thunderbird is happy to accept your donation (made payable to “MZLA Technologies”) via check; however please note that processing and acknowledgment of your gift may be delayed by changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
 #~ msgstr "MZLA/Thunderbird është e kënaqur të pranojë dhurimin tuaj (të pagueshëm për “MZLA Technologies”) përmes çeku; por, ju lutemi, kini parasysh se përpunimi dhe pranimi i dhuratës tuaj mund të vonohet nga ndryshime te procedura të zyrës tonë për shkak të pandemisë COVID-19. Mund të dërgoni çeqe te:"
