@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-06 18:37+0000\n"
-"PO-Revision-Date: 2022-08-23 09:33+0000\n"
+"PO-Revision-Date: 2022-08-23 09:38+0000\n"
 "Last-Translator: Mikeyy <mihovil@miho.im>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
@@ -287,20 +287,20 @@ msgstr "Uskoro ćemo ti se javiti."
 
 #: donate/templates/pages/core/contributor_support_page_master.html:67
 msgid "If you need help with a donation to the Mozilla Foundation, please fill out this form and a donor care representative will get back to you as soon as possible."
-msgstr ""
+msgstr "Ako trebate pomoć s donacijom Mozilla zakladi, ispunite ovaj obrazac i predstavnik donatorske skrbi javit će vam se što je prije moguće."
 
 #: donate/templates/pages/core/contributor_support_page_master.html:72
 msgid ""
 "Unfortunately, donor care representatives are unable to offer support or help with Firefox technical issues, or changes to or questions about Mozilla VPN subscriptions. Related questions submitted "
 "through this form will not be responded to."
-msgstr ""
+msgstr "Nažalost, predstavnici donatorske skrbi ne mogu ponuditi podršku s Firefox tehničkim problemima ili Mozilla VPN pretplatama. Na slična pitanja poslana putem ovog obrasca neće se odgovoriti."
 
 #: donate/templates/pages/core/contributor_support_page_master.html:77
 #, python-format
 msgid ""
 "For technical support, please visit the <a href=\"%(firefox_support_url)s\">Firefox support page</a>. For help with a VPN subscription, please visit the <a href=\"%(vpn_support_url)s\">Mozilla VPN "
 "Support page</a>."
-msgstr ""
+msgstr "Za tehničku podršku posjetite <a href=\"%(firefox_support_url)s\">Firefox stranica podrške</a>. Za pomoć s VPN pretplatama posjetite <a href=\"%(vpn_support_url)s\">Mozilla VPN stranica podrške</a>."
 
 #: donate/templates/pages/core/contributor_support_page_master.html:92
 msgid "Contact Name"
@@ -313,19 +313,19 @@ msgstr "Nijedan"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:106
 msgid "Chinese (Simplified)"
-msgstr ""
+msgstr "Kineski (pojednostavljeni)"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:107
 msgid "Czech"
-msgstr ""
+msgstr "Češki"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:108
 msgid "Danish"
-msgstr ""
+msgstr "Danski"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:109
 msgid "Dutch"
-msgstr ""
+msgstr "Nizozemski"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:110
 msgid "English"
@@ -341,11 +341,11 @@ msgstr "Njemački"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:113
 msgid "Italian"
-msgstr ""
+msgstr "Talijanski"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:114
 msgid "Japanese"
-msgstr ""
+msgstr "Japanski"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:115
 msgid "Polish"
@@ -357,7 +357,7 @@ msgstr "Portugalski"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:117
 msgid "Russian"
-msgstr ""
+msgstr "Ruski"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:118
 msgid "Spanish"
