@@ -17,3 +17,8 @@ Use [pip-tools](https://github.com/jazzband/pip-tools) to update dependencies:
 - Edit the `requirements.in` file
 - Run `pip compile`
 - Open a PR with both `requirements.in` and `requirements.txt`
+
+
+## License
+
+Translations in this repository are available under the terms of the [Mozilla Public License v2.0](http://www.mozilla.org/MPL/2.0/).
