@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-06 18:37+0000\n"
-"PO-Revision-Date: 2022-09-07 12:45+0000\n"
+"PO-Revision-Date: 2022-09-10 15:21+0000\n"
 "Last-Translator: Saleumsack KEOBOUALAY <saleumsack16@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: lo\n"
@@ -34,7 +34,7 @@ msgstr "ປ້ອນທີ່ຢູ່ອີເມວທີ່ຖືກຕ້ອ
 #: donate/payments/forms.py:61
 #, python-format
 msgid "Donations must be %(amount)s or more"
-msgstr ""
+msgstr "ການບໍລິຈາກຈະຕ້ອງເປັນ %(amount)s ຫຼືຫຼາຍກວ່ານັ້ນ"
 
 #: donate/payments/forms.py:96 donate/payments/forms.py:110 donate/payments/forms.py:161
 msgid "Amount"
@@ -116,7 +116,7 @@ msgstr "ບັນຫາ VPN"
 
 #: donate/templates/403.html:11
 msgid "Action Required - VPN Issue"
-msgstr ""
+msgstr "ຕ້ອງດຳເນີນການ - ບັນຫາ VPN"
 
 #: donate/templates/403.html:16
 #, python-format
@@ -215,15 +215,15 @@ msgstr ""
 
 #: donate/templates/fragments/language_switcher.html:10 donate/templates/pages/core/contributor_support_page_master.html:102
 msgid "Language"
-msgstr ""
+msgstr "ພາສາ"
 
 #: donate/templates/pages/base_page_master.html:27
 msgid "Who we are"
-msgstr ""
+msgstr "ພວກ​ເຮົາ​ແມ່ນ​ໃຜ"
 
 #: donate/templates/pages/base_page_master.html:30
 msgid "What we do"
-msgstr ""
+msgstr "ພວກ​ເຮົາ​ເຮັດ​ຫຍັງ"
 
 #: donate/templates/pages/base_page_master.html:33
 msgid "What we fund"
@@ -235,7 +235,7 @@ msgstr ""
 
 #: donate/templates/pages/base_page_master.html:39
 msgid "Blog"
-msgstr ""
+msgstr "ບົດຄວາມ"
 
 #: donate/templates/pages/base_page_master.html:183
 #, python-format
