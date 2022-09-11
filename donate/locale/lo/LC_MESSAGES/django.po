@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-06 18:37+0000\n"
-"PO-Revision-Date: 2022-09-10 15:21+0000\n"
+"PO-Revision-Date: 2022-09-11 13:36+0000\n"
 "Last-Translator: Saleumsack KEOBOUALAY <saleumsack16@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: lo\n"
@@ -167,7 +167,7 @@ msgstr ""
 
 #: donate/templates/fragments/donate_form.html:49 donate/templates/fragments/donate_form.html:124
 msgid "Invalid amount entered."
-msgstr ""
+msgstr "ປ້ອນຈໍານວນບໍ່ຖືກຕ້ອງ."
 
 #: donate/templates/fragments/donate_form.html:56 donate/templates/fragments/donate_form.html:131
 msgid "Choose Payment"
@@ -227,11 +227,11 @@ msgstr "ພວກ​ເຮົາ​ເຮັດ​ຫຍັງ"
 
 #: donate/templates/pages/base_page_master.html:33
 msgid "What we fund"
-msgstr ""
+msgstr "ສິ່ງທີ່ພວກເຮົາໃຫ້ທຶນ"
 
 #: donate/templates/pages/base_page_master.html:36
 msgid "What you can do"
-msgstr ""
+msgstr "ສິ່ງທີ່ທ່ານສາມາດເຮັດໄດ້"
 
 #: donate/templates/pages/base_page_master.html:39
 msgid "Blog"
