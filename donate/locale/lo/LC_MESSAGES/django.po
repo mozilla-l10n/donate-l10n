@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-06 18:37+0000\n"
-"PO-Revision-Date: 2022-09-11 13:36+0000\n"
+"PO-Revision-Date: 2022-09-12 11:17+0000\n"
 "Last-Translator: Saleumsack KEOBOUALAY <saleumsack16@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: lo\n"
@@ -121,11 +121,11 @@ msgstr "ຕ້ອງດຳເນີນການ - ບັນຫາ VPN"
 #: donate/templates/403.html:16
 #, python-format
 msgid "Please disable your VPN and visit <a href=\"%(url)s\">%(site)s</a> again."
-msgstr ""
+msgstr "ກະລຸນາປິດການນຳໃຊ້ VPN ຂອງທ່ານແລະເຂົ້າໄປທີ່ <a href=\"%(url)s\">%(site)s</a> ອີກຄັ້ງ."
 
 #: donate/templates/403.html:21
 msgid "We take your privacy very seriously. To minimize fraudulent payments, we’re asking supporters to disable their VPNs when visiting our donate page."
-msgstr ""
+msgstr "ພວກເຮົາຖືຄວາມເປັນສ່ວນຕົວຂອງເຈົ້າຢ່າງຈິງຈັງ. ເພື່ອຫຼຸດຜ່ອນການຈ່າຍເງິນທີ່ມີຄວາມສ່ຽງໃຫ້ໜ້ອຍທີ່ສຸດ, ພວກເຮົາຂໍໃຫ້ຜູ້ສະໜັບສະໜູນປິດການນຳໃຊ້ VPN ຂອງເຂົາເຈົ້າໃນເວລາເຂົ້າໄປທີ່ໜ້າບໍລິຈາກຂອງພວກເຮົາ."
 
 #: donate/templates/404.html:4
 msgid "Page not found"
@@ -163,7 +163,7 @@ msgstr "ຈຳນວນເງິນອື່ນໆ"
 #: donate/templates/fragments/donate_form.html:46 donate/templates/fragments/donate_form.html:121
 #, python-format
 msgid "Minimum amount is %(min_amount)s"
-msgstr ""
+msgstr "ຈໍານວນຕໍາ່ສຸດແມ່ນ %(min_amount)s"
 
 #: donate/templates/fragments/donate_form.html:49 donate/templates/fragments/donate_form.html:124
 msgid "Invalid amount entered."
