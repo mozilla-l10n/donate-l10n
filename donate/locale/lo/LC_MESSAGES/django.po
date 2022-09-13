@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-06 18:37+0000\n"
-"PO-Revision-Date: 2022-09-12 11:17+0000\n"
+"PO-Revision-Date: 2022-09-13 00:39+0000\n"
 "Last-Translator: Saleumsack KEOBOUALAY <saleumsack16@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: lo\n"
@@ -195,12 +195,12 @@ msgstr ""
 #: donate/templates/fragments/donate_form_disclaimer_master.html:9
 #, python-format
 msgid "Monthly donations are charged each month on the same day that you donate today, and will continue until you cancel. To cancel, email us at <a href=\"mailto:%(email)s\">%(email)s</a>."
-msgstr ""
+msgstr "ການບໍລິຈາກລາຍເດືອນຈະຖືກຄິດຄ່າໃນແຕ່ລະເດືອນໃນມື້ດຽວກັນທີ່ທ່ານບໍລິຈາກໃນມື້ນີ້, ແລະຈະສືບຕໍ່ຈົນກວ່າທ່ານຈະຍົກເລີກ. ເພື່ອຍົກເລີກ, ສົ່ງອີເມວຫາພວກເຮົາທີ່ <a href=\"mailto:%(email)s\">%(email)s</a>."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:28 donate/thunderbird/templates/fragments/donate_form_disclaimer.html:7
 #, python-format
 msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a>"
-msgstr ""
+msgstr "ວິທີອື່ນໃນການໃຫ້: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">ກວດເບິ່ງ</a>"
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:38 donate/thunderbird/templates/fragments/donate_form_disclaimer.html:21
 #, python-format
