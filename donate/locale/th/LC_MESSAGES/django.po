@@ -879,7 +879,7 @@ msgstr ""
 
 #: donate/thunderbird/templates/payment/newsletter_signup.html:8
 msgid "We’re working hard to protect your inbox. Sign up to receive email messages concerning Thunderbird, including updates and requests for feedback."
-msgstr ""
+msgstr "เรากำลังทำงานอย่างเต็มที่เพื่อปกป้องกล่องจดหมายของคุณ ลงทะเบียนเพื่อรับข้อความทางอีเมลเกี่ยวกับ Thunderbird รวมถึงข่าวล่าสุด"
 
 #: donate/thunderbird/templates/payment/thank_you.html:7
 msgid "Lastly, can you multiply your impact by sharing about the important work Thunderbird is doing? Thank you again!"
