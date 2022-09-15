@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-06 18:37+0000\n"
+"POT-Creation-Date: 2022-09-15 11:31+0000\n"
 "PO-Revision-Date: 2022-03-18 17:20+0000\n"
 "Last-Translator: G12r <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,12 +30,12 @@ msgid "Other amount"
 msgstr "სხვა ოდენობა"
 
 #: donate/frontend/_js/main.compiled.js:16
-#: source/js/components/currency-selector.js:99
-msgid "Minimum amount is"
-msgstr "უმცირესი ოდენობაა"
+#: source/js/components/currency-selector.js:100
+msgid "To combat fraud, Mozilla Foundation has temporarily restricted donations to a minimum of"
+msgstr ""
 
 #: donate/frontend/_js/main.compiled.js:16
-#: source/js/components/currency-selector.js:100
+#: source/js/components/currency-selector.js:102
 msgid "Invalid amount entered."
 msgstr "შეყვანილია არასწორი თანხა."
 
@@ -69,3 +69,6 @@ msgstr "ვერ მოხერხდა PayPal-თან დაკავშ�
 #: source/js/components/paypal.js:97
 msgid "Payment cancelled"
 msgstr "გადახდა გაუქმებულია"
+
+#~ msgid "Minimum amount is"
+#~ msgstr "უმცირესი ოდენობაა"

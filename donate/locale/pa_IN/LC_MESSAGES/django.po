@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-06 18:37+0000\n"
+"POT-Creation-Date: 2022-09-15 11:31+0000\n"
 "PO-Revision-Date: 2022-06-19 13:58+0000\n"
 "Last-Translator: Aman Alam <amanpreet.alam@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -169,10 +169,9 @@ msgid "Other amount"
 msgstr "ਹੋਰ ਰਕਮ"
 
 #: donate/templates/fragments/donate_form.html:46
-#: donate/templates/fragments/donate_form.html:121
 #, python-format
-msgid "Minimum amount is %(min_amount)s"
-msgstr "ਘੱਟੋ-ਘੱਟ ਰਕਮ %(min_amount)s ਹੈ"
+msgid "To combat fraud, Mozilla Foundation has temporarily restricted donations to a mininum of %(min_amount)s"
+msgstr ""
 
 #: donate/templates/fragments/donate_form.html:49
 #: donate/templates/fragments/donate_form.html:124
@@ -198,6 +197,11 @@ msgstr "ਦਾਨ ਦਿਓ"
 #: donate/templates/fragments/donate_form.html:108
 msgid "per month"
 msgstr "ਹਰ ਮਹੀਨੇ"
+
+#: donate/templates/fragments/donate_form.html:121
+#, python-format
+msgid "Minimum amount is %(min_amount)s"
+msgstr "ਘੱਟੋ-ਘੱਟ ਰਕਮ %(min_amount)s ਹੈ"
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:6
 #, python-format
@@ -722,41 +726,41 @@ msgid "I donated to Mozilla today"
 msgstr "ਅੱਜ ਮੈਂ ਮੋਜ਼ੀਲਾ ਲਈ ਧੰਨਵਾਦ ਕੀਤਾ"
 
 #: donate/templates/payment/thank_you_master.html:26
-#: donate/thunderbird/templates/payment/thank_you.html:16
+#: donate/thunderbird/templates/payment/thank_you.html:15
 msgid "Share on Facebook"
 msgstr "ਫੇਸਬੁੱਕ ‘ਤੇ ਸਾਂਝਾ ਕਰੋ"
 
 #: donate/templates/payment/thank_you_master.html:30
 #: donate/thunderbird/templates/pages/base_page.html:44
-#: donate/thunderbird/templates/payment/thank_you.html:20
+#: donate/thunderbird/templates/payment/thank_you.html:19
 msgid "Facebook"
 msgstr "ਫੇਸਬੁੱਕ"
 
 #: donate/templates/payment/thank_you_master.html:33
-#: donate/thunderbird/templates/payment/thank_you.html:23
+#: donate/thunderbird/templates/payment/thank_you.html:22
 msgid "Share on Twitter"
 msgstr "ਟਵਿੱਟਰ ‘ਤੇ ਸਾਂਝਾ ਕਰੋ"
 
 #: donate/templates/payment/thank_you_master.html:37
 #: donate/thunderbird/templates/pages/base_page.html:38
-#: donate/thunderbird/templates/payment/thank_you.html:27
+#: donate/thunderbird/templates/payment/thank_you.html:26
 msgid "Twitter"
 msgstr "ਟਵਿੱਟਰ"
 
 #: donate/templates/payment/thank_you_master.html:43
-#: donate/thunderbird/templates/payment/thank_you.html:33
+#: donate/thunderbird/templates/payment/thank_you.html:32
 msgctxt "Share button"
 msgid "Email"
 msgstr "ਈਮੇਲ"
 
 #: donate/templates/payment/thank_you_master.html:53
-#: donate/thunderbird/templates/payment/thank_you.html:43
+#: donate/thunderbird/templates/payment/thank_you.html:42
 msgctxt "Share button"
 msgid "Link"
 msgstr "ਲਿੰਕ"
 
 #: donate/templates/payment/thank_you_master.html:54
-#: donate/thunderbird/templates/payment/thank_you.html:44
+#: donate/thunderbird/templates/payment/thank_you.html:43
 msgid "Copied"
 msgstr "ਕਾਪੀ ਕੀਤਾ"
 

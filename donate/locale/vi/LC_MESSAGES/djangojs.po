@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-06 18:37+0000\n"
+"POT-Creation-Date: 2022-09-15 11:31+0000\n"
 "PO-Revision-Date: 2022-03-02 16:36+0000\n"
 "Last-Translator: Quế Tùng <best.cloney.1301@gmail.com>\n"
 "Language-Team: \n"
@@ -29,12 +29,12 @@ msgid "Other amount"
 msgstr "Số tiền khác"
 
 #: donate/frontend/_js/main.compiled.js:16
-#: source/js/components/currency-selector.js:99
-msgid "Minimum amount is"
-msgstr "Số tiền tối thiểu là"
+#: source/js/components/currency-selector.js:100
+msgid "To combat fraud, Mozilla Foundation has temporarily restricted donations to a minimum of"
+msgstr ""
 
 #: donate/frontend/_js/main.compiled.js:16
-#: source/js/components/currency-selector.js:100
+#: source/js/components/currency-selector.js:102
 msgid "Invalid amount entered."
 msgstr "Số tiền đã nhập không hợp lệ."
 
@@ -68,3 +68,6 @@ msgstr "Chúng tôi không thể thiết lập kết nối với PayPal. Vui lò
 #: source/js/components/paypal.js:97
 msgid "Payment cancelled"
 msgstr "Thanh toán bị hủy bỏ"
+
+#~ msgid "Minimum amount is"
+#~ msgstr "Số tiền tối thiểu là"

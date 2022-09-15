@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-06 18:37+0000\n"
+"POT-Creation-Date: 2022-09-15 11:31+0000\n"
 "PO-Revision-Date: 2022-03-02 07:40+0000\n"
 "Last-Translator: Mark Heijl <markh@babelzilla.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,12 +30,12 @@ msgid "Other amount"
 msgstr "Ander bedrag"
 
 #: donate/frontend/_js/main.compiled.js:16
-#: source/js/components/currency-selector.js:99
-msgid "Minimum amount is"
-msgstr "Het minimumbedrag is"
+#: source/js/components/currency-selector.js:100
+msgid "To combat fraud, Mozilla Foundation has temporarily restricted donations to a minimum of"
+msgstr ""
 
 #: donate/frontend/_js/main.compiled.js:16
-#: source/js/components/currency-selector.js:100
+#: source/js/components/currency-selector.js:102
 msgid "Invalid amount entered."
 msgstr "Ongeldig bedrag ingevoerd."
 
@@ -69,3 +69,6 @@ msgstr "We kunnen geen verbinding maken met PayPal. Probeer het over een paar mi
 #: source/js/components/paypal.js:97
 msgid "Payment cancelled"
 msgstr "Betaling geannuleerd"
+
+#~ msgid "Minimum amount is"
+#~ msgstr "Het minimumbedrag is"

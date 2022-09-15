@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-06 18:37+0000\n"
+"POT-Creation-Date: 2022-09-15 11:31+0000\n"
 "PO-Revision-Date: 2022-04-04 02:44+0000\n"
 "Last-Translator: marsf <chimantaea_mirabilis@yahoo.co.jp>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,12 +30,12 @@ msgid "Other amount"
 msgstr "その他の金額"
 
 #: donate/frontend/_js/main.compiled.js:16
-#: source/js/components/currency-selector.js:99
-msgid "Minimum amount is"
-msgstr "最小金額は"
+#: source/js/components/currency-selector.js:100
+msgid "To combat fraud, Mozilla Foundation has temporarily restricted donations to a minimum of"
+msgstr ""
 
 #: donate/frontend/_js/main.compiled.js:16
-#: source/js/components/currency-selector.js:100
+#: source/js/components/currency-selector.js:102
 msgid "Invalid amount entered."
 msgstr "無効な金額が入力されました。"
 
@@ -69,3 +69,6 @@ msgstr "PayPal への接続を確立できませんでした。数分後にも�
 #: source/js/components/paypal.js:97
 msgid "Payment cancelled"
 msgstr "支払いをキャンセルしました"
+
+#~ msgid "Minimum amount is"
+#~ msgstr "最小金額は"
