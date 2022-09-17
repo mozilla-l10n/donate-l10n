@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-15 11:44+0000\n"
-"PO-Revision-Date: 2022-09-15 14:12+0000\n"
+"PO-Revision-Date: 2022-09-17 14:24+0000\n"
 "Last-Translator: Saleumsack KEOBOUALAY <saleumsack16@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: lo\n"
@@ -302,7 +302,7 @@ msgstr ""
 
 #: donate/templates/pages/core/contributor_support_page_master.html:92
 msgid "Contact Name"
-msgstr ""
+msgstr "ຊື່​ຕິດ​ຕໍ່"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:105
 msgctxt "Option in 'Language' dropdown"
@@ -319,11 +319,11 @@ msgstr "ພາສາເຊັກ"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:108
 msgid "Danish"
-msgstr ""
+msgstr "ພາ​ສາເດນ​ມາກ"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:109
 msgid "Dutch"
-msgstr ""
+msgstr "ພາສາເນເທີແລນ"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:110
 msgid "English"
@@ -347,19 +347,19 @@ msgstr "ພາສາຍີ່ປຸ່ນ"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:115
 msgid "Polish"
-msgstr ""
+msgstr "ພາສາໂປແລນ"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:116
 msgid "Portuguese"
-msgstr ""
+msgstr "ພາສາໂປຣຕຸເກສ"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:117
 msgid "Russian"
-msgstr ""
+msgstr "ພາສາລັດເຊຍ"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:118
 msgid "Spanish"
-msgstr ""
+msgstr "ພາສາສະເປນ"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:119
 msgctxt "Option in 'Language' dropdown"
@@ -381,7 +381,7 @@ msgstr ""
 
 #: donate/templates/pages/core/contributor_support_page_master.html:147
 msgid "Submit"
-msgstr ""
+msgstr "ສົ່ງ"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:4 donate/templates/pages/core/ways_to_give_page_master.html:11
 msgid "Ways to Give"
@@ -398,7 +398,7 @@ msgstr ""
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:24 donate/thunderbird/templates/pages/core/ways_to_give_page.html:7
 msgid "Bank Transfer / SEPA"
-msgstr ""
+msgstr "ການໂອນທະນາຄານ / SEPA"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:25
 msgid "We accept donations in Euros through Single European Payment Area (SEPA) transfer, and British Pounds through BACS transfer."
@@ -428,12 +428,12 @@ msgstr ""
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:45 donate/thunderbird/templates/pages/core/ways_to_give_page.html:22
 msgid "Euros:"
-msgstr ""
+msgstr "ເອີໂຣ:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:47 donate/templates/pages/core/ways_to_give_page_master.html:60 donate/thunderbird/templates/pages/core/ways_to_give_page.html:24
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:37
 msgid "Account Currency:"
-msgstr ""
+msgstr "ສະກຸນເງິນບັນຊີ:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:47 donate/thunderbird/templates/pages/core/ways_to_give_page.html:24
 msgid "Euro (EUR)"
@@ -466,11 +466,11 @@ msgstr ""
 #: donate/templates/pages/core/ways_to_give_page_master.html:52 donate/templates/pages/core/ways_to_give_page_master.html:69 donate/thunderbird/templates/pages/core/ways_to_give_page.html:29
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:46
 msgid "IBAN:"
-msgstr ""
+msgstr "IBAN:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:58 donate/thunderbird/templates/pages/core/ways_to_give_page.html:35
 msgid "British Pound Sterling:"
-msgstr ""
+msgstr "ປອນສະເຕີລິງອັງກິດ:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:60 donate/thunderbird/templates/pages/core/ways_to_give_page.html:37
 msgid "British Pound Sterling (GBP)"
@@ -526,7 +526,7 @@ msgstr ""
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:122
 msgid "Currencies"
-msgstr ""
+msgstr "ສະກຸນເງິນ"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:123
 msgid "Select your currency to make a secure online donation:"
