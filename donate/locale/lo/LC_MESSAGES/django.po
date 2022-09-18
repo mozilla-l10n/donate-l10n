@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-15 11:44+0000\n"
-"PO-Revision-Date: 2022-09-17 14:24+0000\n"
+"PO-Revision-Date: 2022-09-18 05:12+0000\n"
 "Last-Translator: Saleumsack KEOBOUALAY <saleumsack16@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: lo\n"
@@ -385,7 +385,7 @@ msgstr "ສົ່ງ"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:4 donate/templates/pages/core/ways_to_give_page_master.html:11
 msgid "Ways to Give"
-msgstr ""
+msgstr "ວິທີການໃຫ້"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:16
 msgid "Credit / Debit and PayPal"
@@ -437,7 +437,7 @@ msgstr "ສະກຸນເງິນບັນຊີ:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:47 donate/thunderbird/templates/pages/core/ways_to_give_page.html:24
 msgid "Euro (EUR)"
-msgstr ""
+msgstr "ເອີໂຣ (EUR)"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:48 donate/templates/pages/core/ways_to_give_page_master.html:61 donate/thunderbird/templates/pages/core/ways_to_give_page.html:25
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:38
@@ -505,7 +505,7 @@ msgstr ""
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:90
 msgid "UPDATE October 2020:"
-msgstr ""
+msgstr "ອັບເດດເດືອນຕຸລາ 2020:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:91
 msgid ""
@@ -752,7 +752,7 @@ msgstr ""
 
 #: donate/thunderbird/templates/pages/base_page.html:53
 msgid "Cookies"
-msgstr ""
+msgstr "ຄຸກກີ້"
 
 #: donate/thunderbird/templates/pages/base_page.html:56
 msgid "Legal"
@@ -764,7 +764,7 @@ msgstr "ແນວທາງການເຂົ້າຮ່ວມ"
 
 #: donate/thunderbird/templates/pages/base_page.html:62
 msgid "Press Center"
-msgstr ""
+msgstr "ສູນຂ່າວ"
 
 #: donate/thunderbird/templates/pages/base_page.html:65
 msgid "Privacy"
