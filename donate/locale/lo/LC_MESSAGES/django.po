@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-15 11:44+0000\n"
-"PO-Revision-Date: 2022-09-19 13:35+0000\n"
+"PO-Revision-Date: 2022-09-20 01:23+0000\n"
 "Last-Translator: Saleumsack KEOBOUALAY <saleumsack16@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: lo\n"
@@ -482,11 +482,11 @@ msgstr ""
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:63 donate/thunderbird/templates/pages/core/ways_to_give_page.html:40
 msgid "Bank Sort Code:"
-msgstr ""
+msgstr "ລະຫັດທະນາຄານ:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:64 donate/thunderbird/templates/pages/core/ways_to_give_page.html:41
 msgid "Account Number (8 digits):"
-msgstr ""
+msgstr "ເລກບັນຊີ (8 ຕົວເລກ):"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:75
 msgid "Donation of Stock/Securities:"
@@ -853,7 +853,7 @@ msgstr ""
 #: donate/thunderbird/templates/payment/thank_you.html:11
 msgctxt "Used as a tweet"
 msgid "I donated to @mozthunderbird today to #freetheinbox. Join me to support communication privacy."
-msgstr ""
+msgstr "ຂ້ອຍໄດ້ບໍລິຈາກໃຫ້ @mozthunderbird ໃນມື້ນີ້ເພື່ອ #freetheinbox. ເຂົ້າຮ່ວມກັບຂ້ອຍເພື່ອສະຫນັບສະຫນູນຄວາມເປັນສ່ວນຕົວຂອງການສື່ສານ."
 
 #: donate/thunderbird/templates/payment/thank_you.html:12
 msgctxt "Email subject line"
