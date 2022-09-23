@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-15 11:44+0000\n"
-"PO-Revision-Date: 2022-09-22 01:37+0000\n"
+"PO-Revision-Date: 2022-09-23 00:53+0000\n"
 "Last-Translator: Saleumsack KEOBOUALAY <saleumsack16@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: lo\n"
@@ -788,7 +788,7 @@ msgstr ""
 #: donate/thunderbird/templates/pages/core/landing_page.html:7
 #, python-format
 msgid "Your download should have begun automatically. If it didn’t work, <a href=\"%(url)s\">try downloading again here</a>."
-msgstr ""
+msgstr "ການດາວໂຫຼດຂອງທ່ານຄວນຈະເລີ່ມຕົ້ນໂດຍອັດຕະໂນມັດ. ຖ້າມັນບໍ່ໄດ້ຜົນ, <a href=\"%(url)s\">ລອງດາວໂຫລດອີກຄັ້ງທີ່ນີ້</a>."
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:8
 msgid "We accept contributions in Euros through Single European Payment Area (SEPA) transfer, and British Pounds through BACS transfer."
@@ -848,7 +848,7 @@ msgstr ""
 
 #: donate/thunderbird/templates/payment/thank_you.html:7
 msgid "Lastly, can you multiply your impact by sharing about the important work Thunderbird is doing? Thank you again!"
-msgstr ""
+msgstr "ສຸດທ້າຍ, ທ່ານສາມາດຄູນຜົນກະທົບຂອງທ່ານໂດຍການແບ່ງປັນກ່ຽວກັບວຽກທີ່ສໍາຄັນທີ່ Thunderbird ກໍາລັງເຮັດບໍ? ຂໍ​ຂອບ​ໃຈ​ທ່ານ​ອີກ​ເທື່ອ​ຫນຶ່ງ!"
 
 #: donate/thunderbird/templates/payment/thank_you.html:11
 msgctxt "Used as a tweet"
