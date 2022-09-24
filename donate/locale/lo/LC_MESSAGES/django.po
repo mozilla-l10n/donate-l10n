@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-15 11:44+0000\n"
-"PO-Revision-Date: 2022-09-23 00:53+0000\n"
+"PO-Revision-Date: 2022-09-24 08:51+0000\n"
 "Last-Translator: Saleumsack KEOBOUALAY <saleumsack16@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: lo\n"
@@ -419,12 +419,12 @@ msgstr ""
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:36
 msgid "Please remember that donations are deductible for U.S. income tax purposes only."
-msgstr ""
+msgstr "ກະລຸນາຈື່ໄວ້ວ່າການບໍລິຈາກສາມາດຫັກອອກໄດ້ເພື່ອຈຸດປະສົງດ້ານພາສີລາຍໄດ້ຂອງສະຫະລັດເທົ່ານັ້ນ."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:38 donate/thunderbird/templates/pages/core/ways_to_give_page.html:15
 #, python-format
 msgid "If your bank requests our physical address, it is %(address)s."
-msgstr ""
+msgstr "ຖ້າທະນາຄານຂອງເຈົ້າຮ້ອງຂໍທີ່ຢູ່ຂອງພວກເຮົາ, ມັນແມ່ນ %(address)s."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:45 donate/thunderbird/templates/pages/core/ways_to_give_page.html:22
 msgid "Euros:"
@@ -530,7 +530,7 @@ msgstr "ສະກຸນເງິນ"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:123
 msgid "Select your currency to make a secure online donation:"
-msgstr ""
+msgstr "ເລືອກສະກຸນເງິນຂອງທ່ານເພື່ອບໍລິຈາກອອນໄລນ໌ທີ່ປອດໄພ:"
 
 #: donate/templates/payment/card_master.html:4
 msgid "Your information"
@@ -844,7 +844,7 @@ msgstr ""
 
 #: donate/thunderbird/templates/payment/newsletter_signup.html:8
 msgid "We’re working hard to protect your inbox. Sign up to receive email messages concerning Thunderbird, including updates and requests for feedback."
-msgstr ""
+msgstr "ພວກເຮົາກຳລັງເຮັດວຽກຢ່າງໜັກເພື່ອປົກປ້ອງກ່ອງຈົດໝາຍຂອງທ່ານ. ລົງທະບຽນເພື່ອຮັບຂໍ້ຄວາມທາງອີເມລ໌ກ່ຽວກັບ Thunderbird, ລວມທັງການອັບເດດ ແລະຄໍາຮ້ອງຂໍການຕິຊົມ."
 
 #: donate/thunderbird/templates/payment/thank_you.html:7
 msgid "Lastly, can you multiply your impact by sharing about the important work Thunderbird is doing? Thank you again!"
