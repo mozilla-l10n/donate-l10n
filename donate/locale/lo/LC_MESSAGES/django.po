@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-15 11:44+0000\n"
-"PO-Revision-Date: 2022-09-24 08:51+0000\n"
+"PO-Revision-Date: 2022-09-25 14:24+0000\n"
 "Last-Translator: Saleumsack KEOBOUALAY <saleumsack16@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: lo\n"
@@ -659,7 +659,7 @@ msgstr "ຕິດຕໍ່ພົວພັນ"
 
 #: donate/templates/payment/newsletter_signup_master.html:14
 msgid "Protect the internet as a global public resource. Join our email list to take action and stay updated!"
-msgstr ""
+msgstr "ປົກປ້ອງອິນເຕີເນັດເປັນຊັບພະຍາກອນສາທາລະນະທົ່ວໂລກ. ເຂົ້າຮ່ວມບັນຊີລາຍຊື່ອີເມລ໌ຂອງພວກເຮົາເພື່ອດໍາເນີນການແລະອັບເດດ!"
 
 #: donate/templates/payment/newsletter_signup_master.html:40
 msgid "Sign Up"
