@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-15 11:44+0000\n"
-"PO-Revision-Date: 2022-09-25 14:24+0000\n"
+"PO-Revision-Date: 2022-09-26 12:55+0000\n"
 "Last-Translator: Saleumsack KEOBOUALAY <saleumsack16@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: lo\n"
@@ -402,7 +402,7 @@ msgstr "ການໂອນທະນາຄານ / SEPA"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:25
 msgid "We accept donations in Euros through Single European Payment Area (SEPA) transfer, and British Pounds through BACS transfer."
-msgstr ""
+msgstr "ພວກເຮົາຍອມຮັບການບໍລິຈາກເປັນເງິນເອີໂຣຜ່ານການໂອນເງິນເຂດດຽວຂອງເອີຣົບ (SEPA), ແລະປອນອັງກິດຜ່ານການໂອນ BACS."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:27
 msgid ""
@@ -564,7 +564,7 @@ msgstr "ລາຍລະອຽດຂອງທ່ານ"
 
 #: donate/templates/payment/card_master.html:60
 msgid "We were unable to take payment because the payment processor reported an error with your address information:"
-msgstr ""
+msgstr "ພວກ​ເຮົາ​ບໍ່​ສາ​ມາດ​ທີ່​ຈະ​ຊໍາ​ລະ​ເງິນ​ເນື່ອງ​ຈາກ​ວ່າ​ຜູ້​ປະ​ກອບ​ການ​ຊໍາ​ລະ​ໄດ້​ລາຍ​ງານ​ຄວາມ​ຜິດ​ພາດ​ກັບ​ຂໍ້​ມູນ​ທີ່​ຢູ່​ຂອງ​ທ່ານ​:"
 
 #: donate/templates/payment/card_master.html:64
 msgid "Please correct these errors and try again."
