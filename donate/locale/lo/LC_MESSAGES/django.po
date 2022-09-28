@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-15 11:44+0000\n"
-"PO-Revision-Date: 2022-09-26 12:55+0000\n"
+"PO-Revision-Date: 2022-09-28 10:40+0000\n"
 "Last-Translator: Saleumsack KEOBOUALAY <saleumsack16@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: lo\n"
@@ -285,7 +285,7 @@ msgstr "ພວກເຮົາຈະຕິດຕໍ່ກັບເຈົ້າໃ
 
 #: donate/templates/pages/core/contributor_support_page_master.html:67
 msgid "If you need help with a donation to the Mozilla Foundation, please fill out this form and a donor care representative will get back to you as soon as possible."
-msgstr ""
+msgstr "ຖ້າທ່ານຕ້ອງການຄວາມຊ່ວຍເຫຼືອໃນການບໍລິຈາກໃຫ້ກັບມູນນິທິ Mozilla, ກະລຸນາຕື່ມຂໍ້ມູນໃສ່ແບບຟອມນີ້ ແລະຕົວແທນຜູ້ໃຫ້ທຶນຈະຕິດຕໍ່ກັບຫາທ່ານໄວໆນີ້."
 
 #: donate/templates/pages/core/contributor_support_page_master.html:72
 msgid ""
@@ -615,7 +615,7 @@ msgstr "ບໍລິຈາກ <span class=\"%(span_class)s\">%(formatted_amount)
 
 #: donate/templates/payment/card_master.html:163
 msgid "Your donation helps keep the Web open and free. Thank you in advance for your gift."
-msgstr ""
+msgstr "ການບໍລິຈາກຂອງທ່ານຊ່ວຍໃຫ້ເວັບເປີດເສລີ ແລະບໍ່ເສຍຄ່າ. ຂອບໃຈລ່ວງຫນ້າສໍາລັບຂອງຂວັນຂອງເຈົ້າ."
 
 #: donate/templates/payment/card_upsell_master.html:4 donate/templates/payment/paypal_upsell_master.html:4 donate/templates/payment/thank_you_master.html:4
 msgid "Thank you"
@@ -628,7 +628,7 @@ msgstr "ຂອບໃຈສຳລັບຂອງຂັວນອັນບໍລິ
 
 #: donate/templates/payment/card_upsell_master.html:17 donate/templates/payment/paypal_upsell_master.html:17
 msgid "We’d love to have you as a sustaining supporter of Mozilla. <b>Could you add a monthly donation starting next month?</b>"
-msgstr ""
+msgstr "ພວກເຮົາຕ້ອງການໃຫ້ທ່ານເປັນຜູ້ສະຫນັບສະຫນູນ Mozilla ທີ່ຍືນຍົງ. <b>ເຈົ້າສາມາດເພີ່ມເງິນບໍລິຈາກປະຈໍາເດືອນເລີ່ມຕົ້ນເດືອນໜ້າໄດ້ບໍ?</b>"
 
 #: donate/templates/payment/card_upsell_master.html:21 donate/templates/payment/paypal_upsell_master.html:21
 msgid "Yes, I will give:"
@@ -680,12 +680,12 @@ msgstr "ພວກເຮົາໄດ້ສົ່ງອີເມວໃບຮັບ
 
 #: donate/templates/payment/thank_you_master.html:16
 msgid "Lastly, can you multiply your impact by sharing about the important work Mozilla is doing? Thank you again!"
-msgstr ""
+msgstr "ສຸດທ້າຍ, ທ່ານຊ່ອຍແບ່ງປັນງານທີສຳຄັນທີ Mozilla ກຳລັງເຮັດຢູ່ໄດ້ ຫຼື ບໍ່? ຂອບໃຈອີກເທື່ອໜຶ່ງ!"
 
 #: donate/templates/payment/thank_you_master.html:21
 msgctxt "Used as a tweet"
 msgid "I donated to @mozilla today because I #lovetheweb. Join me and help fight for a better and healthier internet, for all."
-msgstr ""
+msgstr "ຂ້ອຍບໍລິຈາກໃຫ້ @mozilla ມື້ນີ້ເພາະວ່າຂ້ອຍ #lovetheweb. ເຂົ້າຮ່ວມກັບຂ້ອຍແລະຊ່ວຍຕໍ່ສູ້ເພື່ອອິນເຕີເນັດທີ່ດີກວ່າແລະສຸຂະພາບດີ, ສໍາລັບທຸກຄົນ."
 
 #: donate/templates/payment/thank_you_master.html:22
 msgctxt "Email subject line"
@@ -812,7 +812,7 @@ msgstr ""
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:71
 msgid "Please also note that MZLA/Thunderbird can <strong>only</strong> accept checks in U.S. dollars drawn on a U.S. bank."
-msgstr ""
+msgstr "ກະລຸນາຮັບຊາບວ່າ MZLA/Thunderbird ສາມາດ <strong>ພຽງແຕ່</strong> ຮັບເອົາເຊັກເປັນເງິນໂດລາສະຫະລັດທີ່ອອກຈາກທະນາຄານໃນສະຫະລັດເທົ່ານັ້ນ."
 
 #: donate/thunderbird/templates/payment/card.html:6
 msgid "Thank you in advance for your gift."
@@ -832,7 +832,7 @@ msgstr ""
 
 #: donate/thunderbird/templates/payment/card_upsell.html:6 donate/thunderbird/templates/payment/paypal_upsell.html:6
 msgid "We’d love to have you as a sustaining supporter of Thunderbird. <b>Could you add a monthly donation starting next month?</b>"
-msgstr ""
+msgstr "ພວກເຮົາຢາກມີທ່ານເປັນຜູ້ສະໜັບສະໜຸນ Thunderbird ທີ່ຍືນຍົງ. <b>ທ່ານສາມາດເພີ່ມເງິນບໍລິຈາກປະຈໍາເດືອນເລີ່ມຕົ້ນເດືອນໜ້າໄດ້ບໍ?</b>"
 
 #: donate/thunderbird/templates/payment/card_upsell.html:10
 #, python-format
