@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-15 11:44+0000\n"
-"PO-Revision-Date: 2022-09-28 10:40+0000\n"
+"PO-Revision-Date: 2022-09-29 01:08+0000\n"
 "Last-Translator: Saleumsack KEOBOUALAY <saleumsack16@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: lo\n"
@@ -773,7 +773,7 @@ msgstr "ຄວາມເປັນສ່ວນຕົວ"
 #: donate/thunderbird/templates/pages/base_page.html:75
 #, python-format
 msgid "Portions of this content are ©1998–%(current_year)s by individual contributors. Content available under a <a %(link_attributes)s>Creative Commons license</a>"
-msgstr ""
+msgstr "ບາງສ່ວນຂອງເນື້ອຫານີ້ແມ່ນ ©1998–%(ປັດຈຸບັນ_ປີ)s ໂດຍຜູ້ມີສ່ວນຮ່ວມແຕ່ລະຄົນຄົນ. ເນື້ອຫາທີ່ມີຢູ່ພາຍໃຕ້ <a %(link_attributes)s>ໃບອະນຸຍາດ Creative Commons</a>"
 
 #: donate/thunderbird/templates/pages/core/contributor_support_page.html:6
 msgid "If you need help with a contribution to MZLA/Thunderbird, please fill out this form and a Thunderbird donor care representative will get back to you as soon as possible."
@@ -828,7 +828,7 @@ msgstr ""
 
 #: donate/thunderbird/templates/payment/card.html:14
 msgid "I authorize MZLA Technologies Corporation to charge my card in the amount indicated above. I understand that I may only request a refund within 15 days from the date of the donation."
-msgstr ""
+msgstr "ຂ້ອຍອະນຸຍາດໃຫ້ MZLA Technologies Corporation ຄິດຄ່າບັດຂອງຂ້ອຍໃນຈໍານວນທີ່ລະບຸໄວ້ຂ້າງເທິງ. ຂ້ອຍເຂົ້າໃຈວ່າຂ້ອຍສາມາດຂໍເງິນຄືນພາຍໃນ 15 ມື້ນັບຈາກວັນທີບໍລິຈາກ."
 
 #: donate/thunderbird/templates/payment/card_upsell.html:6 donate/thunderbird/templates/payment/paypal_upsell.html:6
 msgid "We’d love to have you as a sustaining supporter of Thunderbird. <b>Could you add a monthly donation starting next month?</b>"
