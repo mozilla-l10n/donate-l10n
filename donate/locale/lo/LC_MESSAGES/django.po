@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-15 11:44+0000\n"
-"PO-Revision-Date: 2022-09-29 04:29+0000\n"
-"Last-Translator: Théo Chevalier <theochevalier@pm.me>\n"
+"PO-Revision-Date: 2022-10-10 13:40+0000\n"
+"Last-Translator: Saleumsack KEOBOUALAY <saleumsack16@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: lo\n"
 "MIME-Version: 1.0\n"
@@ -292,6 +292,8 @@ msgid ""
 "Unfortunately, donor care representatives are unable to offer support or help with Firefox technical issues, or changes to or questions about Mozilla VPN subscriptions. Related questions submitted "
 "through this form will not be responded to."
 msgstr ""
+"ແຕ່ຫນ້າເສຍດາຍ, ຜູ້ຕາງຫນ້າການດູແລຜູ້ໃຫ້ທຶນບໍ່ສາມາດສະຫນອງການສະຫນັບສະຫນູນຫຼືການຊ່ວຍເຫຼືອກ່ຽວກັບບັນຫາດ້ານວິຊາການຂອງ Firefox, ຫຼືການປ່ຽນແປງຫຼືຄໍາຖາມກ່ຽວກັບການສະຫມັກ Mozilla VPN. "
+"ຄຳຖາມທີ່ກ່ຽວຂ້ອງທີ່ສົ່ງຜ່ານແບບຟອມນີ້ຈະບໍ່ໄດ້ຮັບການຕອບກັບ."
 
 #: donate/templates/pages/core/contributor_support_page_master.html:77
 #, python-format
@@ -515,7 +517,7 @@ msgstr ""
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:108 donate/thunderbird/templates/pages/core/ways_to_give_page.html:67
 msgid "Please include your email address on the memo line of your check to help us track and attribute your gift."
-msgstr ""
+msgstr "ກະ​ລຸ​ນາ​ໃສ່​ທີ່​ຢູ່​ອີ​ເມລ​໌​ຂອງ​ທ່ານ​ໃນ​ເສັ້ນ memo ຂອງ​ການ​ກວດ​ສອບ​ຂອງ​ທ່ານ​ເພື່ອ​ຊ່ວຍ​ໃຫ້​ພວກ​ເຮົາ​ຕິດ​ຕາມ​ແລະ​ສະ​ເພາະ​ຂອງ​ຂວັນ​ຂອງ​ທ່ານ​."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:115
 #, python-format
