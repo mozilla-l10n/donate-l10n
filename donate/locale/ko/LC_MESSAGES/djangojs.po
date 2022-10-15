@@ -2,14 +2,14 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-15 11:45+0000\n"
-"PO-Revision-Date: 2022-04-15 06:16+0000\n"
+"PO-Revision-Date: 2022-10-15 06:14+0000\n"
 "Last-Translator: Hyeonseok Shin <hyeonseok@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -19,54 +19,41 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pontoon\n"
 
-#: donate/frontend/_js/main.compiled.js:16 maintenance/static/_js/main.js:16
-#: source/js/components/currency-selector.js:91
+#: donate/frontend/_js/main.compiled.js:16 maintenance/static/_js/main.js:16 source/js/components/currency-selector.js:91
 msgid "per month"
 msgstr "달마다"
 
-#: donate/frontend/_js/main.compiled.js:16 maintenance/static/_js/main.js:16
-#: source/js/components/currency-selector.js:98
+#: donate/frontend/_js/main.compiled.js:16 maintenance/static/_js/main.js:16 source/js/components/currency-selector.js:98
 msgid "Other amount"
 msgstr "다른 금액"
 
-#: donate/frontend/_js/main.compiled.js:16
-#: source/js/components/currency-selector.js:100
+#: donate/frontend/_js/main.compiled.js:16 source/js/components/currency-selector.js:100
 msgid "To combat fraud, Mozilla Foundation has temporarily restricted donations to a minimum of"
-msgstr ""
+msgstr "사기를 방지하기 위해 Mozilla 재단은 일시적으로 기부금을 최소 금액으로 제한했습니다."
 
-#: donate/frontend/_js/main.compiled.js:16
-#: source/js/components/currency-selector.js:102
+#: donate/frontend/_js/main.compiled.js:16 source/js/components/currency-selector.js:102
 msgid "Invalid amount entered."
 msgstr "유효하지 않은 금액입니다."
 
-#: donate/frontend/_js/payments-card.compiled.js:1
-#: donate/frontend/_js/payments-paypal-upsell.compiled.js:1
-#: donate/frontend/_js/payments-paypal.compiled.js:1
-#: source/js/components/paypal.js:14 source/js/payments-card.js:16
+#: donate/frontend/_js/payments-card.compiled.js:1 donate/frontend/_js/payments-paypal-upsell.compiled.js:1 donate/frontend/_js/payments-paypal.compiled.js:1 source/js/components/paypal.js:14
+#: source/js/payments-card.js:16
 msgid "An error occurred. Please reload the page or try again later."
 msgstr "오류가 발생하였습니다. 페이지를 다시 로드하거나 나중에 다시 시도하십시오."
 
-#: donate/frontend/_js/payments-card.compiled.js:1
-#: donate/frontend/_js/payments-paypal-upsell.compiled.js:1
-#: donate/frontend/_js/payments-paypal.compiled.js:1
-#: source/js/components/paypal.js:17 source/js/payments-card.js:218
+#: donate/frontend/_js/payments-card.compiled.js:1 donate/frontend/_js/payments-paypal-upsell.compiled.js:1 donate/frontend/_js/payments-paypal.compiled.js:1 source/js/components/paypal.js:17
+#: source/js/payments-card.js:218
 msgid "There was an error processing your payment. Please try again."
 msgstr "결제 처리 중 오류가 발생했습니다. 다시 시도하십시오."
 
-#: donate/frontend/_js/payments-card.compiled.js:1
-#: source/js/payments-card.js:238
+#: donate/frontend/_js/payments-card.compiled.js:1 source/js/payments-card.js:238
 msgid "Some of the fields below are invalid. Please correct the invalid fields and try again."
 msgstr "아래 필드 중 일부가 유효하지 않습니다. 유효하지 않은 필드를 수정 한 후 다시 시도하십시오."
 
-#: donate/frontend/_js/payments-paypal-upsell.compiled.js:1
-#: donate/frontend/_js/payments-paypal.compiled.js:1
-#: source/js/components/paypal.js:20
+#: donate/frontend/_js/payments-paypal-upsell.compiled.js:1 donate/frontend/_js/payments-paypal.compiled.js:1 source/js/components/paypal.js:20
 msgid "We were unable to establish a connection to PayPal. Please try again in a few minutes."
 msgstr "PayPal에 연결할 수 없습니다. 잠시 후에 다시 시도해 주세요."
 
-#: donate/frontend/_js/payments-paypal-upsell.compiled.js:1
-#: donate/frontend/_js/payments-paypal.compiled.js:1
-#: source/js/components/paypal.js:97
+#: donate/frontend/_js/payments-paypal-upsell.compiled.js:1 donate/frontend/_js/payments-paypal.compiled.js:1 source/js/components/paypal.js:97
 msgid "Payment cancelled"
 msgstr "결제 취소됨"
 
