@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-15 11:44+0000\n"
-"PO-Revision-Date: 2022-09-15 16:52+0000\n"
-"Last-Translator: Melo46 <melo@carmu.com>\n"
+"PO-Revision-Date: 2022-10-20 12:50+0000\n"
+"Last-Translator: Martijn Dekker <martijn@inlv.org>\n"
 "Language-Team: \n"
 "Language: ia\n"
 "MIME-Version: 1.0\n"
@@ -459,7 +459,7 @@ msgstr "Euro (EUR)"
 #: donate/templates/pages/core/ways_to_give_page_master.html:48 donate/templates/pages/core/ways_to_give_page_master.html:61 donate/thunderbird/templates/pages/core/ways_to_give_page.html:25
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:38
 msgid "Receiving Bank (Pay to):"
-msgstr "Banca recipente (Pagar a):"
+msgstr "Banca recipiente (Pagar a):"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:49 donate/templates/pages/core/ways_to_give_page_master.html:62 donate/thunderbird/templates/pages/core/ways_to_give_page.html:26
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:39
