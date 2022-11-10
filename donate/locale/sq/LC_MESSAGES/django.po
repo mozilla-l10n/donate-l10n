@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-15 11:44+0000\n"
-"PO-Revision-Date: 2022-11-10 10:41+0000\n"
+"PO-Revision-Date: 2022-11-10 10:47+0000\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sq\n"
@@ -112,11 +112,11 @@ msgstr "Captcha qe e pavlefshme. Ju lutemi, riprovoni."
 
 #: donate/templates/403.html:4
 msgid "VPN Issue"
-msgstr ""
+msgstr "Çështje VPN-je"
 
 #: donate/templates/403.html:11
 msgid "Action Required - VPN Issue"
-msgstr ""
+msgstr "Lyp Veprim - Çështje VPN-je"
 
 #: donate/templates/403.html:16
 #, python-format
@@ -125,7 +125,7 @@ msgstr "Ju lutemi, çaktivizoni VPN-në tuaj dhe vizitoni <a href=\"%(url)s\">%(
 
 #: donate/templates/403.html:21
 msgid "We take your privacy very seriously. To minimize fraudulent payments, we’re asking supporters to disable their VPNs when visiting our donate page."
-msgstr ""
+msgstr "E marrim shumë seriozisht privatësinë tuaj. Që të minimizojmë pagesa mashtruese, u kërkojmë përkrahësve tanë të çaktivizojnë VPN-të e tyre, kur vizitojnë faqen tonë të dhurimeve."
 
 #: donate/templates/404.html:4
 msgid "Page not found"
@@ -301,6 +301,8 @@ msgid ""
 "Unfortunately, donor care representatives are unable to offer support or help with Firefox technical issues, or changes to or questions about Mozilla VPN subscriptions. Related questions submitted "
 "through this form will not be responded to."
 msgstr ""
+"Mjerisht, përfaqësues të kujdesit për dhurimet s’janë në gjendje të ofrojnë asistencë ose ndihmë për probleme teknike me Firefox-in, apo ndryshime te pajtime për Mozilla VPN, apo pyetje për to. "
+"Pyetje të tilla parashtruar përmes këtij formulari s’do të kenë përgjigje."
 
 #: donate/templates/pages/core/contributor_support_page_master.html:77
 #, python-format
@@ -308,6 +310,8 @@ msgid ""
 "For technical support, please visit the <a href=\"%(firefox_support_url)s\">Firefox support page</a>. For help with a VPN subscription, please visit the <a href=\"%(vpn_support_url)s\">Mozilla VPN "
 "Support page</a>."
 msgstr ""
+"Për asistencë teknike, ju lutemi, vizitoni <a href=\"%(firefox_support_url)s\">faqen e asistencës për Firefox</a>. Për ndihmë lidhur me pajtime VPN, ju lutemi, vizitoni <a "
+"href=\"%(vpn_support_url)s\">faqen Asistencë për Mozilla VPN</a>."
 
 #: donate/templates/pages/core/contributor_support_page_master.html:92
 msgid "Contact Name"
