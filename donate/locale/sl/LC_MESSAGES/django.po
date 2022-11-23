@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-15 11:44+0000\n"
-"PO-Revision-Date: 2022-11-08 19:40+0000\n"
+"PO-Revision-Date: 2022-11-23 11:51+0000\n"
 "Last-Translator: Lan Glad <upwinxp@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
@@ -800,7 +800,7 @@ msgstr "Deli vsebine so avtorsko zaščiteni ©1998–%(current_year)s s strani 
 
 #: donate/thunderbird/templates/pages/core/contributor_support_page.html:6
 msgid "If you need help with a contribution to MZLA/Thunderbird, please fill out this form and a Thunderbird donor care representative will get back to you as soon as possible."
-msgstr ""
+msgstr "Če potrebujete pomoč glede prispevkov za MZLA/Thunderbird, izpolnite ta obrazec in Thunderbirdov predstavnik službe za donacije se vam bo odzval v najkrajšem možnem času."
 
 #: donate/thunderbird/templates/pages/core/contributor_support_page.html:12
 #, python-format
