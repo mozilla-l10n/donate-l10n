@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-15 11:44+0000\n"
-"PO-Revision-Date: 2022-09-15 11:53+0000\n"
+"PO-Revision-Date: 2022-12-08 10:28+0000\n"
 "Last-Translator: Théo Chevalier <theochevalier@pm.me>\n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -28,7 +28,7 @@ msgstr "Veuillez saisir un nombre."
 
 #: donate/core/translation.py:18
 msgid "Enter a valid email address."
-msgstr "Veuillez saisir une adresse électronique valide."
+msgstr "Veuillez saisir une adresse e-mail valide."
 
 #: donate/payments/forms.py:61
 #, python-format
@@ -49,7 +49,7 @@ msgstr "Nom"
 
 #: donate/payments/forms.py:125 donate/payments/forms.py:171 donate/templates/pages/core/contributor_support_page_master.html:97
 msgid "Email"
-msgstr "Adresse électronique"
+msgstr "Adresse e-mail"
 
 #: donate/payments/forms.py:126
 msgid "Street"
@@ -538,7 +538,7 @@ msgstr ""
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:108 donate/thunderbird/templates/pages/core/ways_to_give_page.html:67
 msgid "Please include your email address on the memo line of your check to help us track and attribute your gift."
-msgstr "Veuillez inclure votre adresse électronique sur la ligne mémo de votre chèque pour nous aider à suivre et à attribuer votre don."
+msgstr "Veuillez inclure votre adresse e-mail sur la ligne mémo de votre chèque pour nous aider à suivre et à attribuer votre don."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:115
 #, python-format
@@ -624,8 +624,8 @@ msgid ""
 "donation."
 msgstr ""
 "J’autorise la Fondation Mozilla à prélever automatiquement ma carte chaque mois du montant mentionné ci-dessus, à compter d’aujourd’hui et tous les mois suivants le même jour jusqu’à mon annulation."
-" Je comprends que je dois annuler par courrier électronique à l’adresse <a href='mailto:%(email)s'>%(email)s</a> au moins 5 jours avant le prochain don programmé, et que je peux uniquement "
-"solliciter un remboursement dans les 15 jours suivant la date du don."
+" Je comprends que je dois annuler par e-mail à l’adresse <a href='mailto:%(email)s'>%(email)s</a> au moins 5 jours avant le prochain don programmé, et que je peux uniquement solliciter un "
+"remboursement dans les 15 jours suivant la date du don."
 
 #: donate/templates/payment/card_master.html:128
 msgid "I authorize Mozilla Foundation to charge my card in the amount indicated above. I understand that I may only request a refund within 15 days from the date of the donation."
@@ -673,8 +673,8 @@ msgid ""
 "cancel. I understand that I must cancel at least 5 days before the next scheduled donation by email to %(email)s, and that I may only request a refund within 15 days from the date of a donation."
 msgstr ""
 "J’autorise la Fondation Mozilla à prélever automatiquement ma carte chaque mois du montant mentionné ci-dessus, à compter du mois prochain à la même date qu’aujourd’hui et tous les mois suivants "
-"jusqu’à mon annulation. Je comprends que je dois annuler par courrier électronique à l’adresse %(email)s au moins 5 jours avant le prochain don programmé, et que je peux uniquement solliciter un "
-"remboursement dans les 15 jours suivant la date du don."
+"jusqu’à mon annulation. Je comprends que je dois annuler par e-mail à l’adresse %(email)s au moins 5 jours avant le prochain don programmé, et que je peux uniquement solliciter un remboursement dans"
+" les 15 jours suivant la date du don."
 
 #: donate/templates/payment/card_upsell_master.html:53
 msgid "Donate Monthly"
@@ -707,9 +707,7 @@ msgstr "Non"
 #: donate/templates/payment/thank_you_master.html:15 donate/thunderbird/templates/payment/thank_you.html:6
 #, python-format
 msgid "We’ve emailed you a donation receipt; if it’s missing, please check your junk/spam folders, then contact us using <a href=\"%(url)s\">this form</a>."
-msgstr ""
-"Nous vous avons envoyé le reçu de votre don par courrier électronique. Si vous ne le trouvez pas, vérifiez vos dossiers de courrier indésirable, puis contactez-nous via <a href=\"%(url)s\">ce "
-"formulaire</a>."
+msgstr "Nous vous avons envoyé le reçu de votre don par e-mail. Si vous ne le trouvez pas, vérifiez vos dossiers de courrier indésirable, puis contactez-nous via <a href=\"%(url)s\">ce formulaire</a>."
 
 #: donate/templates/payment/thank_you_master.html:16
 msgid "Lastly, can you multiply your impact by sharing about the important work Mozilla is doing? Thank you again!"
