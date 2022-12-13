@@ -2,12 +2,12 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-15 11:45+0000\n"
+"POT-Creation-Date: 2022-12-13 08:31+0000\n"
 "PO-Revision-Date: 2022-09-16 06:38+0000\n"
 "Last-Translator: Quế Tùng <best.cloney.1301@gmail.com>\n"
 "Language-Team: \n"
@@ -18,41 +18,54 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pontoon\n"
 
-#: donate/frontend/_js/main.compiled.js:16 maintenance/static/_js/main.js:16 source/js/components/currency-selector.js:91
+#: donate/frontend/_js/main.compiled.js:16 maintenance/static/_js/main.js:16
+#: source/js/components/currency-selector.js:91
 msgid "per month"
 msgstr "mỗi tháng"
 
-#: donate/frontend/_js/main.compiled.js:16 maintenance/static/_js/main.js:16 source/js/components/currency-selector.js:98
+#: donate/frontend/_js/main.compiled.js:16 maintenance/static/_js/main.js:16
+#: source/js/components/currency-selector.js:98
 msgid "Other amount"
 msgstr "Số tiền khác"
 
-#: donate/frontend/_js/main.compiled.js:16 source/js/components/currency-selector.js:100
+#: donate/frontend/_js/main.compiled.js:16
+#: source/js/components/currency-selector.js:100
 msgid "To combat fraud, Mozilla Foundation has temporarily restricted donations to a minimum of"
 msgstr "Để chống lại gian lận, Mozilla Foundation đã tạm thời hạn chế các khoản đóng góp ở mức tối thiểu"
 
-#: donate/frontend/_js/main.compiled.js:16 source/js/components/currency-selector.js:102
+#: donate/frontend/_js/main.compiled.js:16
+#: source/js/components/currency-selector.js:102
 msgid "Invalid amount entered."
 msgstr "Số tiền đã nhập không hợp lệ."
 
-#: donate/frontend/_js/payments-card.compiled.js:1 donate/frontend/_js/payments-paypal-upsell.compiled.js:1 donate/frontend/_js/payments-paypal.compiled.js:1 source/js/components/paypal.js:14
-#: source/js/payments-card.js:16
+#: donate/frontend/_js/payments-card.compiled.js:1
+#: donate/frontend/_js/payments-paypal-upsell.compiled.js:1
+#: donate/frontend/_js/payments-paypal.compiled.js:1
+#: source/js/components/paypal.js:14 source/js/payments-card.js:16
 msgid "An error occurred. Please reload the page or try again later."
 msgstr "Đã xảy ra lỗi. Vui lòng tải lại trang hoặc thử lại sau."
 
-#: donate/frontend/_js/payments-card.compiled.js:1 donate/frontend/_js/payments-paypal-upsell.compiled.js:1 donate/frontend/_js/payments-paypal.compiled.js:1 source/js/components/paypal.js:17
-#: source/js/payments-card.js:218
+#: donate/frontend/_js/payments-card.compiled.js:1
+#: donate/frontend/_js/payments-paypal-upsell.compiled.js:1
+#: donate/frontend/_js/payments-paypal.compiled.js:1
+#: source/js/components/paypal.js:17 source/js/payments-card.js:218
 msgid "There was an error processing your payment. Please try again."
 msgstr "Đã xảy ra lỗi khi xử lý thanh toán của bạn. Vui lòng thử lại."
 
-#: donate/frontend/_js/payments-card.compiled.js:1 source/js/payments-card.js:238
+#: donate/frontend/_js/payments-card.compiled.js:1
+#: source/js/payments-card.js:238
 msgid "Some of the fields below are invalid. Please correct the invalid fields and try again."
 msgstr "Một số trường dưới đây không hợp lệ. Vui lòng sửa các trường không hợp lệ và thử lại."
 
-#: donate/frontend/_js/payments-paypal-upsell.compiled.js:1 donate/frontend/_js/payments-paypal.compiled.js:1 source/js/components/paypal.js:20
+#: donate/frontend/_js/payments-paypal-upsell.compiled.js:1
+#: donate/frontend/_js/payments-paypal.compiled.js:1
+#: source/js/components/paypal.js:20
 msgid "We were unable to establish a connection to PayPal. Please try again in a few minutes."
 msgstr "Chúng tôi không thể thiết lập kết nối với PayPal. Vui lòng thử lại trong vài phút."
 
-#: donate/frontend/_js/payments-paypal-upsell.compiled.js:1 donate/frontend/_js/payments-paypal.compiled.js:1 source/js/components/paypal.js:97
+#: donate/frontend/_js/payments-paypal-upsell.compiled.js:1
+#: donate/frontend/_js/payments-paypal.compiled.js:1
+#: source/js/components/paypal.js:97
 msgid "Payment cancelled"
 msgstr "Thanh toán bị hủy bỏ"
 

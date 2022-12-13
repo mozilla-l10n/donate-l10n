@@ -2,12 +2,12 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-15 11:45+0000\n"
+"POT-Creation-Date: 2022-12-13 08:31+0000\n"
 "PO-Revision-Date: 2022-09-15 16:52+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: \n"
@@ -18,41 +18,54 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: donate/frontend/_js/main.compiled.js:16 maintenance/static/_js/main.js:16 source/js/components/currency-selector.js:91
+#: donate/frontend/_js/main.compiled.js:16 maintenance/static/_js/main.js:16
+#: source/js/components/currency-selector.js:91
 msgid "per month"
 msgstr "cata mense"
 
-#: donate/frontend/_js/main.compiled.js:16 maintenance/static/_js/main.js:16 source/js/components/currency-selector.js:98
+#: donate/frontend/_js/main.compiled.js:16 maintenance/static/_js/main.js:16
+#: source/js/components/currency-selector.js:98
 msgid "Other amount"
 msgstr "Altere amonta"
 
-#: donate/frontend/_js/main.compiled.js:16 source/js/components/currency-selector.js:100
+#: donate/frontend/_js/main.compiled.js:16
+#: source/js/components/currency-selector.js:100
 msgid "To combat fraud, Mozilla Foundation has temporarily restricted donations to a minimum of"
 msgstr "Pro combatter fraude, Mozilla Foundation ha temporarimente limitate le donationes a un minimo de"
 
-#: donate/frontend/_js/main.compiled.js:16 source/js/components/currency-selector.js:102
+#: donate/frontend/_js/main.compiled.js:16
+#: source/js/components/currency-selector.js:102
 msgid "Invalid amount entered."
 msgstr "Amonta non valide inserite."
 
-#: donate/frontend/_js/payments-card.compiled.js:1 donate/frontend/_js/payments-paypal-upsell.compiled.js:1 donate/frontend/_js/payments-paypal.compiled.js:1 source/js/components/paypal.js:14
-#: source/js/payments-card.js:16
+#: donate/frontend/_js/payments-card.compiled.js:1
+#: donate/frontend/_js/payments-paypal-upsell.compiled.js:1
+#: donate/frontend/_js/payments-paypal.compiled.js:1
+#: source/js/components/paypal.js:14 source/js/payments-card.js:16
 msgid "An error occurred. Please reload the page or try again later."
 msgstr "Un error occurreva. Recarga le pagina o reproba plus tarde."
 
-#: donate/frontend/_js/payments-card.compiled.js:1 donate/frontend/_js/payments-paypal-upsell.compiled.js:1 donate/frontend/_js/payments-paypal.compiled.js:1 source/js/components/paypal.js:17
-#: source/js/payments-card.js:218
+#: donate/frontend/_js/payments-card.compiled.js:1
+#: donate/frontend/_js/payments-paypal-upsell.compiled.js:1
+#: donate/frontend/_js/payments-paypal.compiled.js:1
+#: source/js/components/paypal.js:17 source/js/payments-card.js:218
 msgid "There was an error processing your payment. Please try again."
 msgstr "Un error occurreva durante le elaboration de tu pagamento. Reproba."
 
-#: donate/frontend/_js/payments-card.compiled.js:1 source/js/payments-card.js:238
+#: donate/frontend/_js/payments-card.compiled.js:1
+#: source/js/payments-card.js:238
 msgid "Some of the fields below are invalid. Please correct the invalid fields and try again."
 msgstr "Parte del campos infra non es valide. Corrige le campos non valide e reproba."
 
-#: donate/frontend/_js/payments-paypal-upsell.compiled.js:1 donate/frontend/_js/payments-paypal.compiled.js:1 source/js/components/paypal.js:20
+#: donate/frontend/_js/payments-paypal-upsell.compiled.js:1
+#: donate/frontend/_js/payments-paypal.compiled.js:1
+#: source/js/components/paypal.js:20
 msgid "We were unable to establish a connection to PayPal. Please try again in a few minutes."
 msgstr "Impossibile stabilir un connexion a Paypal. Per favor prova de novo post poc minutas."
 
-#: donate/frontend/_js/payments-paypal-upsell.compiled.js:1 donate/frontend/_js/payments-paypal.compiled.js:1 source/js/components/paypal.js:97
+#: donate/frontend/_js/payments-paypal-upsell.compiled.js:1
+#: donate/frontend/_js/payments-paypal.compiled.js:1
+#: source/js/components/paypal.js:97
 msgid "Payment cancelled"
 msgstr "Pagamento cancellate"
 

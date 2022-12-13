@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-15 11:44+0000\n"
+"POT-Creation-Date: 2022-12-13 08:31+0000\n"
 "PO-Revision-Date: 2020-11-05 07:42+0000\n"
 "Last-Translator: denish <denish@mozilla-uganda.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -77,35 +77,35 @@ msgstr "Lobo"
 msgid "I’m okay with Mozilla handling my info as explained in this <a href='%(url)s'>Privacy Notice</a>."
 msgstr "Atye agonya ki Mozilla me tic ki ngec mamega kit ma ki tito i <a href='%(url)s'>Ngec me mung man</a>."
 
-#: donate/payments/views.py:196
+#: donate/payments/views.py:194
 msgid "The type of card you used is not accepted."
 msgstr "Kit kad man ma itiyo kwede ni pe ki yee."
 
-#: donate/payments/views.py:197 donate/payments/views.py:198
+#: donate/payments/views.py:195 donate/payments/views.py:196
 msgid "The CVV code you entered was invalid."
 msgstr "Kod me CVV ma iketo ni pe tye atir."
 
-#: donate/payments/views.py:199
+#: donate/payments/views.py:197
 msgid "The expiration date you entered was invalid."
 msgstr ""
 
-#: donate/payments/views.py:200
+#: donate/payments/views.py:198
 msgid "The credit card number you entered was invalid."
 msgstr ""
 
-#: donate/payments/views.py:209 donate/payments/views.py:210
+#: donate/payments/views.py:207 donate/payments/views.py:208
 msgid "The post code you provided is not valid."
 msgstr ""
 
-#: donate/payments/views.py:224
+#: donate/payments/views.py:222
 msgid "Sorry there was an error processing your payment. Please try again later or use a different payment method."
 msgstr "Timwa kica bal mo otime itimo cul mamegi. Tim ber i tem doki lacen onyo tii ki yoo me cul mukene mapat."
 
-#: donate/payments/views.py:434
+#: donate/payments/views.py:432
 msgid "Something went wrong. We were unable to process your payment."
 msgstr "Gin mo otime marac. Pe onongo watwero timo cul mamegi."
 
-#: donate/payments/views.py:702 donate/payments/views.py:811
+#: donate/payments/views.py:707 donate/payments/views.py:823
 msgid "Sorry there was an error processing your payment. Please try again later."
 msgstr "Timwa kica bal mo otime itimo cul mamegi. Tim ber i tem doki lacen."
 
@@ -146,7 +146,7 @@ msgstr "Timwa kica, potbuk ne pe tye"
 msgid "Go to our home page"
 msgstr "Cit i potbuk wa me acakki"
 
-#: donate/templates/base_master.html:15
+#: donate/templates/base_master.html:8
 #: donate/templates/pages/base_page_master.html:14
 #: donate/templates/pages/base_page_master.html:15
 msgctxt "Page title"
@@ -163,42 +163,43 @@ msgstr "DWE KI DWE"
 
 #: donate/templates/fragments/donate_form.html:41
 #: donate/templates/fragments/donate_form.html:42
-#: donate/templates/fragments/donate_form.html:116
-#: donate/templates/fragments/donate_form.html:117
+#: donate/templates/fragments/donate_form.html:118
+#: donate/templates/fragments/donate_form.html:119
 msgid "Other amount"
 msgstr "Wel mukene"
 
-#: donate/templates/fragments/donate_form.html:46
+#: donate/templates/fragments/donate_form.html:47
 #, python-format
 msgid "To combat fraud, Mozilla Foundation has temporarily restricted donations to a minimum of %(min_amount)s"
 msgstr ""
 
-#: donate/templates/fragments/donate_form.html:49
-#: donate/templates/fragments/donate_form.html:124
+#: donate/templates/fragments/donate_form.html:51
+#: donate/templates/fragments/donate_form.html:126
 msgid "Invalid amount entered."
 msgstr ""
 
-#: donate/templates/fragments/donate_form.html:56
-#: donate/templates/fragments/donate_form.html:131
+#: donate/templates/fragments/donate_form.html:58
+#: donate/templates/fragments/donate_form.html:133
 msgid "Choose Payment"
 msgstr "Yer Cul"
 
-#: donate/templates/fragments/donate_form.html:62
-#: donate/templates/fragments/donate_form.html:137
+#: donate/templates/fragments/donate_form.html:64
+#: donate/templates/fragments/donate_form.html:139
 #: donate/templates/payment/card_master.html:97
 msgid "SECURE"
 msgstr ""
 
-#: donate/templates/fragments/donate_form.html:68
-#: donate/templates/fragments/donate_form.html:143
+#: donate/templates/fragments/donate_form.html:70
+#: donate/templates/fragments/donate_form.html:145
 msgid "Donate"
 msgstr "Mii kony"
 
-#: donate/templates/fragments/donate_form.html:108
+#: donate/templates/fragments/donate_form.html:110
 msgid "per month"
 msgstr "dwe ki dwe"
 
-#: donate/templates/fragments/donate_form.html:121
+#: donate/templates/fragments/donate_form.html:123
+#: donate/thunderbird/templates/fragments/donate_form.html:6
 #, python-format
 msgid "Minimum amount is %(min_amount)s"
 msgstr ""
@@ -483,9 +484,7 @@ msgstr ""
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:51
 #: donate/templates/pages/core/ways_to_give_page_master.html:65
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:28
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:42
-msgid "Beneficiary Name (For credit to):"
+msgid "Beneficiary Name (For donations to):"
 msgstr ""
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:52
@@ -768,7 +767,7 @@ msgstr ""
 msgid "Back"
 msgstr ""
 
-#: donate/thunderbird/templates/base.html:9
+#: donate/thunderbird/templates/base.html:24
 #: donate/thunderbird/templates/pages/base_page.html:9
 #: donate/thunderbird/templates/pages/base_page.html:16
 #: donate/thunderbird/templates/pages/base_page.html:17
@@ -835,6 +834,11 @@ msgstr ""
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:10
 msgid "Please note that for smaller (under 10 EUR or equivalent) contributions, <strong>and especially for contributions under 5 EUR or equivalent</strong>, we request that you contribute via credit card or PayPal to help reduce our processing fees."
+msgstr ""
+
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:28
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:42
+msgid "Beneficiary Name (For credit to):"
 msgstr ""
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:30

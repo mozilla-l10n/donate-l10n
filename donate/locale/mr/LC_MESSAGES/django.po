@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-15 11:44+0000\n"
+"POT-Creation-Date: 2022-12-13 08:31+0000\n"
 "PO-Revision-Date: 2019-11-06 14:06+0000\n"
 "Last-Translator: Théo Chevalier <theo.chevalier11@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -77,35 +77,35 @@ msgstr "देश"
 msgid "I’m okay with Mozilla handling my info as explained in this <a href='%(url)s'>Privacy Notice</a>."
 msgstr "<a href='%(url)s'>ह्या गोपनियता सुचनेमध्ये</a> सांगितल्या प्रमाणे Mozilla ने माझी माहिती हाताळण्याबाबत माझी हरकत नाही."
 
-#: donate/payments/views.py:196
+#: donate/payments/views.py:194
 msgid "The type of card you used is not accepted."
 msgstr "आपण वापरलेला कार्डचा प्रकार स्वीकारला जात नाही."
 
-#: donate/payments/views.py:197 donate/payments/views.py:198
+#: donate/payments/views.py:195 donate/payments/views.py:196
 msgid "The CVV code you entered was invalid."
 msgstr "आपण प्रविष्ट केलेला CVV कोड अवैध होता."
 
-#: donate/payments/views.py:199
+#: donate/payments/views.py:197
 msgid "The expiration date you entered was invalid."
 msgstr "आपण प्रविष्ट केलेली कालबाह्यता तारीख अवैध होती."
 
-#: donate/payments/views.py:200
+#: donate/payments/views.py:198
 msgid "The credit card number you entered was invalid."
 msgstr "आपण प्रविष्ट केलेला क्रेडिट कार्ड क्रमांक अवैध होता."
 
-#: donate/payments/views.py:209 donate/payments/views.py:210
+#: donate/payments/views.py:207 donate/payments/views.py:208
 msgid "The post code you provided is not valid."
 msgstr "आपण प्रदान केलेला पोस्ट कोड वैध नाही."
 
-#: donate/payments/views.py:224
+#: donate/payments/views.py:222
 msgid "Sorry there was an error processing your payment. Please try again later or use a different payment method."
 msgstr "क्षमस्व, आपल्या देयकावर प्रक्रिया करताना त्रुटी आली. कृपया नंतर पुन्हा प्रयत्न करा किंवा भिन्न देय पद्धत वापरा."
 
-#: donate/payments/views.py:434
+#: donate/payments/views.py:432
 msgid "Something went wrong. We were unable to process your payment."
 msgstr "काहीतरी चूक झाली. आम्ही आपल्या देयकावर प्रक्रिया करू शकत नाही."
 
-#: donate/payments/views.py:702 donate/payments/views.py:811
+#: donate/payments/views.py:707 donate/payments/views.py:823
 msgid "Sorry there was an error processing your payment. Please try again later."
 msgstr "क्षमस्व, आपल्या देयकावर प्रक्रिया करताना त्रुटी आली. कृपया पुन्हा प्रयत्न करा."
 
@@ -146,7 +146,7 @@ msgstr "क्षमस्व, पृष्ठ अस्तित्वात �
 msgid "Go to our home page"
 msgstr "आमच्या मुख्यपृष्ठावर जा"
 
-#: donate/templates/base_master.html:15
+#: donate/templates/base_master.html:8
 #: donate/templates/pages/base_page_master.html:14
 #: donate/templates/pages/base_page_master.html:15
 msgctxt "Page title"
@@ -163,42 +163,43 @@ msgstr "मासिक"
 
 #: donate/templates/fragments/donate_form.html:41
 #: donate/templates/fragments/donate_form.html:42
-#: donate/templates/fragments/donate_form.html:116
-#: donate/templates/fragments/donate_form.html:117
+#: donate/templates/fragments/donate_form.html:118
+#: donate/templates/fragments/donate_form.html:119
 msgid "Other amount"
 msgstr "इतर रक्कम"
 
-#: donate/templates/fragments/donate_form.html:46
+#: donate/templates/fragments/donate_form.html:47
 #, python-format
 msgid "To combat fraud, Mozilla Foundation has temporarily restricted donations to a minimum of %(min_amount)s"
 msgstr ""
 
-#: donate/templates/fragments/donate_form.html:49
-#: donate/templates/fragments/donate_form.html:124
+#: donate/templates/fragments/donate_form.html:51
+#: donate/templates/fragments/donate_form.html:126
 msgid "Invalid amount entered."
 msgstr ""
 
-#: donate/templates/fragments/donate_form.html:56
-#: donate/templates/fragments/donate_form.html:131
+#: donate/templates/fragments/donate_form.html:58
+#: donate/templates/fragments/donate_form.html:133
 msgid "Choose Payment"
 msgstr "देय निवडा"
 
-#: donate/templates/fragments/donate_form.html:62
-#: donate/templates/fragments/donate_form.html:137
+#: donate/templates/fragments/donate_form.html:64
+#: donate/templates/fragments/donate_form.html:139
 #: donate/templates/payment/card_master.html:97
 msgid "SECURE"
 msgstr "सुरक्षित"
 
-#: donate/templates/fragments/donate_form.html:68
-#: donate/templates/fragments/donate_form.html:143
+#: donate/templates/fragments/donate_form.html:70
+#: donate/templates/fragments/donate_form.html:145
 msgid "Donate"
 msgstr "देणगी द्या"
 
-#: donate/templates/fragments/donate_form.html:108
+#: donate/templates/fragments/donate_form.html:110
 msgid "per month"
 msgstr "दरमहा"
 
-#: donate/templates/fragments/donate_form.html:121
+#: donate/templates/fragments/donate_form.html:123
+#: donate/thunderbird/templates/fragments/donate_form.html:6
 #, python-format
 msgid "Minimum amount is %(min_amount)s"
 msgstr ""
@@ -483,9 +484,7 @@ msgstr ""
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:51
 #: donate/templates/pages/core/ways_to_give_page_master.html:65
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:28
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:42
-msgid "Beneficiary Name (For credit to):"
+msgid "Beneficiary Name (For donations to):"
 msgstr ""
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:52
@@ -771,7 +770,7 @@ msgstr "प्रत बनवली"
 msgid "Back"
 msgstr "मागे"
 
-#: donate/thunderbird/templates/base.html:9
+#: donate/thunderbird/templates/base.html:24
 #: donate/thunderbird/templates/pages/base_page.html:9
 #: donate/thunderbird/templates/pages/base_page.html:16
 #: donate/thunderbird/templates/pages/base_page.html:17
@@ -839,6 +838,11 @@ msgstr ""
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:10
 msgid "Please note that for smaller (under 10 EUR or equivalent) contributions, <strong>and especially for contributions under 5 EUR or equivalent</strong>, we request that you contribute via credit card or PayPal to help reduce our processing fees."
+msgstr ""
+
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:28
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:42
+msgid "Beneficiary Name (For credit to):"
 msgstr ""
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:30

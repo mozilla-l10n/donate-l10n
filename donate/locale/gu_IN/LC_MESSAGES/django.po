@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-15 11:44+0000\n"
+"POT-Creation-Date: 2022-12-13 08:31+0000\n"
 "PO-Revision-Date: 2021-11-25 12:04+0000\n"
 "Last-Translator: Hariom Panchal <hariompanchal6647@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -77,35 +77,35 @@ msgstr "દેશ"
 msgid "I’m okay with Mozilla handling my info as explained in this <a href='%(url)s'>Privacy Notice</a>."
 msgstr "આ <a href='%(url)s'>ગોપનીયતા સૂચના</a>માં સમજાવ્યા મુજબ મોઝિલા મારી માહિતીને સંચાલિત કરવાથી હું ઠીક છું."
 
-#: donate/payments/views.py:196
+#: donate/payments/views.py:194
 msgid "The type of card you used is not accepted."
 msgstr "તમે જે પ્રકારનો કાર્ડ ઉપયોગ કર્યો છે તે સ્વીકાર્ય નથી."
 
-#: donate/payments/views.py:197 donate/payments/views.py:198
+#: donate/payments/views.py:195 donate/payments/views.py:196
 msgid "The CVV code you entered was invalid."
 msgstr "તમે દાખલ કરેલો CVV કોડ અમાન્ય હતો."
 
-#: donate/payments/views.py:199
+#: donate/payments/views.py:197
 msgid "The expiration date you entered was invalid."
 msgstr "તમે દાખલ કરેલી સમાપ્તિ તારીખ અમાન્ય હતી."
 
-#: donate/payments/views.py:200
+#: donate/payments/views.py:198
 msgid "The credit card number you entered was invalid."
 msgstr "તમે દાખલ કરેલ ક્રેડિટ કાર્ડ નંબર અમાન્ય હતો."
 
-#: donate/payments/views.py:209 donate/payments/views.py:210
+#: donate/payments/views.py:207 donate/payments/views.py:208
 msgid "The post code you provided is not valid."
 msgstr "તમે પ્રદાન કરેલો પોસ્ટ કોડ માન્ય નથી."
 
-#: donate/payments/views.py:224
+#: donate/payments/views.py:222
 msgid "Sorry there was an error processing your payment. Please try again later or use a different payment method."
 msgstr "માફ કરશો તમારી ચુકવણીની પ્રક્રિયા કરવામાં ભૂલ આવી હતી. કૃપા કરીને પછીથી ફરી પ્રયાસ કરો અથવા અન્ય ચુકવણી પદ્ધતિનો ઉપયોગ કરો."
 
-#: donate/payments/views.py:434
+#: donate/payments/views.py:432
 msgid "Something went wrong. We were unable to process your payment."
 msgstr "કંઈક ખોટું થયું. અમે તમારી ચુકવણી પર પ્રક્રિયા કરવામાં અસમર્થ છીએ."
 
-#: donate/payments/views.py:702 donate/payments/views.py:811
+#: donate/payments/views.py:707 donate/payments/views.py:823
 msgid "Sorry there was an error processing your payment. Please try again later."
 msgstr "માફ કરશો તમારી ચુકવણીની પ્રક્રિયા કરવામાં ભૂલ આવી હતી. પછીથી ફરી પ્રયત્ન કરો."
 
@@ -146,7 +146,7 @@ msgstr "માફ કરશો, પૃષ્ઠ અસ્તિત્વમા�
 msgid "Go to our home page"
 msgstr "અમારા મુખ્ય પૃષ્ઠ પર જાઓ"
 
-#: donate/templates/base_master.html:15
+#: donate/templates/base_master.html:8
 #: donate/templates/pages/base_page_master.html:14
 #: donate/templates/pages/base_page_master.html:15
 msgctxt "Page title"
@@ -163,42 +163,43 @@ msgstr "મહિને"
 
 #: donate/templates/fragments/donate_form.html:41
 #: donate/templates/fragments/donate_form.html:42
-#: donate/templates/fragments/donate_form.html:116
-#: donate/templates/fragments/donate_form.html:117
+#: donate/templates/fragments/donate_form.html:118
+#: donate/templates/fragments/donate_form.html:119
 msgid "Other amount"
 msgstr "અન્ય રકમ"
 
-#: donate/templates/fragments/donate_form.html:46
+#: donate/templates/fragments/donate_form.html:47
 #, python-format
 msgid "To combat fraud, Mozilla Foundation has temporarily restricted donations to a minimum of %(min_amount)s"
 msgstr ""
 
-#: donate/templates/fragments/donate_form.html:49
-#: donate/templates/fragments/donate_form.html:124
+#: donate/templates/fragments/donate_form.html:51
+#: donate/templates/fragments/donate_form.html:126
 msgid "Invalid amount entered."
 msgstr "અમાન્ય રકમ દાખલ કરી."
 
-#: donate/templates/fragments/donate_form.html:56
-#: donate/templates/fragments/donate_form.html:131
+#: donate/templates/fragments/donate_form.html:58
+#: donate/templates/fragments/donate_form.html:133
 msgid "Choose Payment"
 msgstr "ચુકવણી પસંદ કરો"
 
-#: donate/templates/fragments/donate_form.html:62
-#: donate/templates/fragments/donate_form.html:137
+#: donate/templates/fragments/donate_form.html:64
+#: donate/templates/fragments/donate_form.html:139
 #: donate/templates/payment/card_master.html:97
 msgid "SECURE"
 msgstr "સલામત"
 
-#: donate/templates/fragments/donate_form.html:68
-#: donate/templates/fragments/donate_form.html:143
+#: donate/templates/fragments/donate_form.html:70
+#: donate/templates/fragments/donate_form.html:145
 msgid "Donate"
 msgstr "દાન કરો"
 
-#: donate/templates/fragments/donate_form.html:108
+#: donate/templates/fragments/donate_form.html:110
 msgid "per month"
 msgstr "દર મહિને"
 
-#: donate/templates/fragments/donate_form.html:121
+#: donate/templates/fragments/donate_form.html:123
+#: donate/thunderbird/templates/fragments/donate_form.html:6
 #, python-format
 msgid "Minimum amount is %(min_amount)s"
 msgstr ""
@@ -483,10 +484,8 @@ msgstr "SWIFT/BIC કોડ:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:51
 #: donate/templates/pages/core/ways_to_give_page_master.html:65
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:28
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:42
-msgid "Beneficiary Name (For credit to):"
-msgstr "લાભાર્થીનું નામ (ક્રેડિટ માટે):"
+msgid "Beneficiary Name (For donations to):"
+msgstr ""
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:52
 #: donate/templates/pages/core/ways_to_give_page_master.html:69
@@ -768,7 +767,7 @@ msgstr "નકલ કરેલ"
 msgid "Back"
 msgstr "પાછળ"
 
-#: donate/thunderbird/templates/base.html:9
+#: donate/thunderbird/templates/base.html:24
 #: donate/thunderbird/templates/pages/base_page.html:9
 #: donate/thunderbird/templates/pages/base_page.html:16
 #: donate/thunderbird/templates/pages/base_page.html:17
@@ -836,6 +835,11 @@ msgstr "અમે સિંગલ યુરોપિયન પેમેન્ટ
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:10
 msgid "Please note that for smaller (under 10 EUR or equivalent) contributions, <strong>and especially for contributions under 5 EUR or equivalent</strong>, we request that you contribute via credit card or PayPal to help reduce our processing fees."
 msgstr "કૃપા કરીને નોંધો કે નાના (10 EUR અથવા તેના સમકક્ષ હેઠળ) યોગદાન માટે, <strong>અને ખાસ કરીને 5 EUR અથવા સમકક્ષ</strong>હેઠળના યોગદાન માટે, અમે વિનંતી કરીએ છીએ કે તમે અમારી પ્રોસેસિંગ ફી ઘટાડવામાં મદદ કરવા માટે ક્રેડિટ કાર્ડ અથવા પેપાલ દ્વારા ફાળો આપો."
+
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:28
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:42
+msgid "Beneficiary Name (For credit to):"
+msgstr "લાભાર્થીનું નામ (ક્રેડિટ માટે):"
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:30
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:47

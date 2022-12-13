@@ -2,13 +2,13 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-15 11:45+0000\n"
+"POT-Creation-Date: 2022-12-13 08:31+0000\n"
 "PO-Revision-Date: 2022-09-16 16:34+0000\n"
 "Last-Translator: Olvcpr423 <oliverchan86@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,41 +19,54 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pontoon\n"
 
-#: donate/frontend/_js/main.compiled.js:16 maintenance/static/_js/main.js:16 source/js/components/currency-selector.js:91
+#: donate/frontend/_js/main.compiled.js:16 maintenance/static/_js/main.js:16
+#: source/js/components/currency-selector.js:91
 msgid "per month"
 msgstr "每月"
 
-#: donate/frontend/_js/main.compiled.js:16 maintenance/static/_js/main.js:16 source/js/components/currency-selector.js:98
+#: donate/frontend/_js/main.compiled.js:16 maintenance/static/_js/main.js:16
+#: source/js/components/currency-selector.js:98
 msgid "Other amount"
 msgstr "其他金额"
 
-#: donate/frontend/_js/main.compiled.js:16 source/js/components/currency-selector.js:100
+#: donate/frontend/_js/main.compiled.js:16
+#: source/js/components/currency-selector.js:100
 msgid "To combat fraud, Mozilla Foundation has temporarily restricted donations to a minimum of"
 msgstr "为打击欺诈行为，Mozilla 基金会暂时将最低捐款金额限制为"
 
-#: donate/frontend/_js/main.compiled.js:16 source/js/components/currency-selector.js:102
+#: donate/frontend/_js/main.compiled.js:16
+#: source/js/components/currency-selector.js:102
 msgid "Invalid amount entered."
 msgstr "输入的金额无效。"
 
-#: donate/frontend/_js/payments-card.compiled.js:1 donate/frontend/_js/payments-paypal-upsell.compiled.js:1 donate/frontend/_js/payments-paypal.compiled.js:1 source/js/components/paypal.js:14
-#: source/js/payments-card.js:16
+#: donate/frontend/_js/payments-card.compiled.js:1
+#: donate/frontend/_js/payments-paypal-upsell.compiled.js:1
+#: donate/frontend/_js/payments-paypal.compiled.js:1
+#: source/js/components/paypal.js:14 source/js/payments-card.js:16
 msgid "An error occurred. Please reload the page or try again later."
 msgstr "遇到错误。请刷新页面或稍后重试。"
 
-#: donate/frontend/_js/payments-card.compiled.js:1 donate/frontend/_js/payments-paypal-upsell.compiled.js:1 donate/frontend/_js/payments-paypal.compiled.js:1 source/js/components/paypal.js:17
-#: source/js/payments-card.js:218
+#: donate/frontend/_js/payments-card.compiled.js:1
+#: donate/frontend/_js/payments-paypal-upsell.compiled.js:1
+#: donate/frontend/_js/payments-paypal.compiled.js:1
+#: source/js/components/paypal.js:17 source/js/payments-card.js:218
 msgid "There was an error processing your payment. Please try again."
 msgstr "在处理您付款时遇到错误，请重试。"
 
-#: donate/frontend/_js/payments-card.compiled.js:1 source/js/payments-card.js:238
+#: donate/frontend/_js/payments-card.compiled.js:1
+#: source/js/payments-card.js:238
 msgid "Some of the fields below are invalid. Please correct the invalid fields and try again."
 msgstr "下方存在无效字段。请修正并重试。"
 
-#: donate/frontend/_js/payments-paypal-upsell.compiled.js:1 donate/frontend/_js/payments-paypal.compiled.js:1 source/js/components/paypal.js:20
+#: donate/frontend/_js/payments-paypal-upsell.compiled.js:1
+#: donate/frontend/_js/payments-paypal.compiled.js:1
+#: source/js/components/paypal.js:20
 msgid "We were unable to establish a connection to PayPal. Please try again in a few minutes."
 msgstr "无法连接至 PayPal，请在几分钟后重试。"
 
-#: donate/frontend/_js/payments-paypal-upsell.compiled.js:1 donate/frontend/_js/payments-paypal.compiled.js:1 source/js/components/paypal.js:97
+#: donate/frontend/_js/payments-paypal-upsell.compiled.js:1
+#: donate/frontend/_js/payments-paypal.compiled.js:1
+#: source/js/components/paypal.js:97
 msgid "Payment cancelled"
 msgstr "已取消付款"
 
