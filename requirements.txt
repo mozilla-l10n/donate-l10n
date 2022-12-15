@@ -6,7 +6,7 @@
 #
 asgiref==3.4.1
     # via django
-certifi==2019.11.28
+certifi==2022.12.7
     # via requests
 charset-normalizer==2.0.3
     # via requests
