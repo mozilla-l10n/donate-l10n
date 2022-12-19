@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-13 08:31+0000\n"
-"PO-Revision-Date: 2022-11-23 11:53+0000\n"
+"PO-Revision-Date: 2022-12-15 08:57+0000\n"
 "Last-Translator: Lan Glad <upwinxp@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
@@ -474,7 +474,7 @@ msgstr "Koda SWIFT/BIC:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:51 donate/templates/pages/core/ways_to_give_page_master.html:65
 msgid "Beneficiary Name (For donations to):"
-msgstr ""
+msgstr "Ime upravičenca (za donacije):"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:52 donate/templates/pages/core/ways_to_give_page_master.html:69 donate/thunderbird/templates/pages/core/ways_to_give_page.html:29
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:46
@@ -527,6 +527,8 @@ msgid ""
 "The Mozilla Foundation is happy to accept your donation (made payable to “Mozilla Foundation”) via check; however please note that processing and acknowledgment of your gift may be delayed by "
 "changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
 msgstr ""
+"Fundacija Mozilla sprejema donacije (izplačljive za \"Mozilla Foundation\") v čekih; upoštevajte pa, da bosta obdelava in priznanje morda trajala dlje zaradi sprememb v delovanju naših pisarn v času"
+" pandemije covida-19. Čeke lahko pošljete na:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:108 donate/thunderbird/templates/pages/core/ways_to_give_page.html:67
 msgid "Please include your email address on the memo line of your check to help us track and attribute your gift."
@@ -538,6 +540,8 @@ msgid ""
 "Please also note that the Mozilla Foundation can <strong>only</strong> accept checks in U.S. dollars drawn on a U.S. bank, and <strong>cannot</strong> accept contributions for MZLA/Thunderbird. "
 "(Contributions to MZLA/Thunderbird via check can be made by following <a href=\"%(instruction_url)s\" target=\"_blank\">these instructions</a>.)"
 msgstr ""
+"Upoštevajte, da lahko Fundacija Mozilla sprejema <strong>samo</strong> čeke v ameriških dolarjih, ki jih izda banka v ZDA, in da <strong>ne more</strong> sprejemati prispevkov za MZLA/Thunderbird. "
+"(Za donacijo čeka MZLA/Thunderbirdu se ravnajte po <a href=\"%(instruction_url)s\" target=\"_blank\">teh navodilih</a>.)"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:122
 msgid "Currencies"
@@ -839,6 +843,8 @@ msgid ""
 "MZLA/Thunderbird is happy to accept your donation <strong>(made payable to “MZLA Technologies Corp”)</strong> via check; however please note that processing and acknowledgment of your gift may be "
 "delayed by changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
 msgstr ""
+"MZLA/Thunderbird sprejema donacije <strong>(izplačljive za \"MZLA Technologies Corp\")</strong> v čekih; upoštevajte pa, da bosta obdelava in priznanje morda trajala dlje zaradi sprememb v delovanju"
+" naših pisarn v času pandemije covida-19. Čeke lahko pošljete na:"
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:71
 msgid "Please also note that MZLA/Thunderbird can <strong>only</strong> accept checks in U.S. dollars drawn on a U.S. bank."
