@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-13 08:31+0000\n"
-"PO-Revision-Date: 2023-01-16 16:20+0000\n"
+"PO-Revision-Date: 2023-01-25 23:15+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hsb\n"
@@ -150,7 +150,7 @@ msgstr "Za Mozilla darić"
 
 #: donate/templates/fragments/donate_form.html:12
 msgid "ONE TIME"
-msgstr "JÓNKRÓĆNY"
+msgstr "JÓNKRÓĆ"
 
 #: donate/templates/fragments/donate_form.html:18
 msgid "MONTHLY"
