@@ -10,7 +10,7 @@ certifi==2022.12.7
     # via requests
 charset-normalizer==2.0.3
     # via requests
-django==3.2.15
+django==3.2.17
     # via -r requirements.in
 django-environ==0.9.0
     # via -r requirements.in
