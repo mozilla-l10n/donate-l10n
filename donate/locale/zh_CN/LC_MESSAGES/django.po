@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-13 08:31+0000\n"
-"PO-Revision-Date: 2023-01-02 15:31+0000\n"
-"Last-Translator: 你我皆凡人 <yuanbingyan@mail.ee>\n"
+"PO-Revision-Date: 2023-02-11 15:18+0000\n"
+"Last-Translator: Olvcpr423 <oliverchan86@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -487,7 +487,7 @@ msgstr "银行分类代码（Sort Code）："
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:64 donate/thunderbird/templates/pages/core/ways_to_give_page.html:41
 msgid "Account Number (8 digits):"
-msgstr "账户号码（8位数字）："
+msgstr "账户号码（8 位数字）："
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:75
 msgid "Donation of Stock/Securities:"
