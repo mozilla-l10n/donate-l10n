@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-13 08:31+0000\n"
-"PO-Revision-Date: 2022-12-16 18:28+0000\n"
+"PO-Revision-Date: 2023-02-19 14:33+0000\n"
 "Last-Translator: wladow <valastiak@mozilla.sk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sk\n"
@@ -196,7 +196,7 @@ msgid ""
 "Mozilla is committed to your privacy; please read our <a href=\"%(privacy_url)s\">privacy policy here</a>. Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a "
 "PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Mozilla."
 msgstr ""
-"Mozilla sa zaväzuje chrániť vaše súkromie, prosím, prečítajte si naše <a href=\"%(privacy_url)s\">zásady ochrany súkromia</a>. Vaše platobné údaje spracuje spoločnosť <a "
+"Mozilla sa zaväzuje chrániť vaše súkromie, prosím, prečítajte si naše <a href=\"%(privacy_url)s\">Zásady ochrany osobných údajov</a>. Vaše platobné údaje spracuje spoločnosť <a "
 "href=\"%(braintree_url)s\">Braintree</a>, spadajúca pod PayPal (platobné karty) alebo spoločnosť <a href=\"%(paypal_url)s\">PayPal</a>. Záznam o vašom príspevku si uloží aj Mozilla."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:9
@@ -391,7 +391,7 @@ msgstr "Popis"
 #: donate/templates/pages/core/contributor_support_page_master.html:135
 #, python-format
 msgid "Mozilla will only use your submitted information for purposes of communicating with you about your request. See our <a href=\"%(privacy_policy)s\">privacy policy</a> for further information."
-msgstr "Mozilla použije vyplnené údaje len pre účely komunikácie s vami ohľadom vašej žiadosti. Ďalšie informácie nájdete v <a href=\"%(privacy_policy)s\">zásadách ochrany súkromia</a>."
+msgstr "Mozilla použije vyplnené údaje len pre účely komunikácie s vami ohľadom vašej žiadosti. Ďalšie informácie nájdete v <a href=\"%(privacy_policy)s\">Zásadách ochrany osobných údajov</a>."
 
 #: donate/templates/pages/core/contributor_support_page_master.html:147
 msgid "Submit"
@@ -769,7 +769,7 @@ msgid ""
 "donation will be stored by Thunderbird. Please read our <a href=\"%(privacy_url)s\">privacy policy here</a>."
 msgstr ""
 "Vaše platobné údaje spracuje spoločnosť <a href=\"%(braintree_url)s\">Braintree</a>, spadajúca pod PayPal (platobné karty) alebo spoločnosť <a href=\"%(paypal_url)s\">PayPal</a>. Záznam o vašom "
-"príspevku si uloží aj Thunderbird. Prosím, prečítajte si naše <a href=\"%(privacy_url)s\">zásady ochrany súkromia</a>."
+"príspevku si uloží aj Thunderbird. Prosím, prečítajte si naše <a href=\"%(privacy_url)s\">Zásady ochrany osobných údajov</a>."
 
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:15
 #, python-format
