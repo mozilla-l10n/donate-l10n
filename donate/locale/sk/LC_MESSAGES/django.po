@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-13 08:31+0000\n"
-"PO-Revision-Date: 2023-02-19 14:44+0000\n"
+"PO-Revision-Date: 2023-02-19 15:20+0000\n"
 "Last-Translator: wladow <valastiak@mozilla.sk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sk\n"
@@ -72,7 +72,7 @@ msgstr "Krajina"
 #: donate/payments/forms.py:179
 #, python-format
 msgid "I’m okay with Mozilla handling my info as explained in this <a href='%(url)s'>Privacy Notice</a>."
-msgstr "Beriem na vedomie, že Mozilla spracuje tieto údaje v súlade so <a href='%(url)s'>Vyhlásením o ochrane osobných údajov</a>."
+msgstr "Beriem na vedomie, že Mozilla spracuje tieto údaje v súlade s <a href='%(url)s'>Vyhlásením o ochrane osobných údajov</a>."
 
 #: donate/payments/views.py:194
 msgid "The type of card you used is not accepted."
