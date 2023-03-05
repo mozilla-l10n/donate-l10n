@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-13 08:31+0000\n"
-"PO-Revision-Date: 2023-03-05 16:01+0000\n"
+"PO-Revision-Date: 2023-03-05 16:19+0000\n"
 "Last-Translator: Bjørn I. <bjorni.svindseth@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -291,7 +291,7 @@ msgstr "Vi kjem snart tilbake til deg."
 
 #: donate/templates/pages/core/contributor_support_page_master.html:67
 msgid "If you need help with a donation to the Mozilla Foundation, please fill out this form and a donor care representative will get back to you as soon as possible."
-msgstr ""
+msgstr "Fyll ut dette skjemaet om du treng hjelp med ein donasjon til Mozilla Foundation, og så vil ein representant kontakte deg så snart han kan."
 
 #: donate/templates/pages/core/contributor_support_page_master.html:72
 msgid ""
