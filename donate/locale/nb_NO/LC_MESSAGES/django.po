@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-13 08:31+0000\n"
+"POT-Creation-Date: 2023-03-16 10:29+0000\n"
 "PO-Revision-Date: 2021-04-09 21:18+0000\n"
 "Last-Translator: Håvar Henriksen <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: donate/core/translation.py:12 donate/payments/forms.py:91
+#: donate/core/translation.py:12 donate/payments/forms.py:103
 #: donate/templates/forms/form_field.html:21
 msgid "This field is required."
 msgstr "Feltet er obligatorisk."
@@ -32,80 +32,80 @@ msgstr "Skriv inn et nummer."
 msgid "Enter a valid email address."
 msgstr "Skriv inn en gyldig e-postadresse."
 
-#: donate/payments/forms.py:61
+#: donate/payments/forms.py:73
 #, python-format
 msgid "Donations must be %(amount)s or more"
 msgstr "Donasjoner må være %(amount)s eller mer"
 
-#: donate/payments/forms.py:96 donate/payments/forms.py:110
-#: donate/payments/forms.py:161
+#: donate/payments/forms.py:108 donate/payments/forms.py:123
+#: donate/payments/forms.py:180
 msgid "Amount"
 msgstr "Beløp"
 
-#: donate/payments/forms.py:123
+#: donate/payments/forms.py:136
 msgid "First name"
 msgstr "Fornavn"
 
-#: donate/payments/forms.py:124
+#: donate/payments/forms.py:137
 msgid "Last name"
 msgstr "Etternavn"
 
-#: donate/payments/forms.py:125 donate/payments/forms.py:171
+#: donate/payments/forms.py:138 donate/payments/forms.py:194
 #: donate/templates/pages/core/contributor_support_page_master.html:97
 msgid "Email"
 msgstr "E-post"
 
-#: donate/payments/forms.py:126
+#: donate/payments/forms.py:139
 msgid "Street"
 msgstr "Gate"
 
-#: donate/payments/forms.py:127
+#: donate/payments/forms.py:140
 msgid "City"
 msgstr "Poststed"
 
-#: donate/payments/forms.py:131
+#: donate/payments/forms.py:144
 msgctxt "Feel free to replace with “Postal code” or equivalent"
 msgid "ZIP Code"
 msgstr "Postnummer"
 
-#: donate/payments/forms.py:135
+#: donate/payments/forms.py:148
 msgid "Country"
 msgstr "Land"
 
-#: donate/payments/forms.py:179
+#: donate/payments/forms.py:202
 #, python-format
 msgid "I’m okay with Mozilla handling my info as explained in this <a href='%(url)s'>Privacy Notice</a>."
 msgstr "Jeg er forstått med hvordan Mozilla behandler mine personlige data, som forklart i denne <a href='%(url)s'>personvernerklæringen</a>."
 
-#: donate/payments/views.py:194
+#: donate/payments/views.py:197
 msgid "The type of card you used is not accepted."
 msgstr "Den typen kort du brukte, godtas ikke."
 
-#: donate/payments/views.py:195 donate/payments/views.py:196
+#: donate/payments/views.py:198 donate/payments/views.py:199
 msgid "The CVV code you entered was invalid."
 msgstr "CVV-koden du skrev inn er ugyldig."
 
-#: donate/payments/views.py:197
+#: donate/payments/views.py:200
 msgid "The expiration date you entered was invalid."
 msgstr "Utløpsdatoen du oppga var ugyldig."
 
-#: donate/payments/views.py:198
+#: donate/payments/views.py:201
 msgid "The credit card number you entered was invalid."
 msgstr "Betalingskortnummeret du skrev inn er ugyldig."
 
-#: donate/payments/views.py:207 donate/payments/views.py:208
+#: donate/payments/views.py:210 donate/payments/views.py:211
 msgid "The post code you provided is not valid."
 msgstr "Postnummeret du oppga er ikke gyldig."
 
-#: donate/payments/views.py:222
+#: donate/payments/views.py:225
 msgid "Sorry there was an error processing your payment. Please try again later or use a different payment method."
 msgstr "Beklager, det oppstod en feil under behandlingen av betalingen din. Prøv igjen senere eller bruk en annen betalingsmetode."
 
-#: donate/payments/views.py:432
+#: donate/payments/views.py:437
 msgid "Something went wrong. We were unable to process your payment."
 msgstr "Noe gikk galt. Vi kunne ikke behandle betalingen din."
 
-#: donate/payments/views.py:707 donate/payments/views.py:823
+#: donate/payments/views.py:709 donate/payments/views.py:820
 msgid "Sorry there was an error processing your payment. Please try again later."
 msgstr "Beklager, det oppstod en feil under behandlingen av betalingen din. Prøv igjen senere."
 
@@ -185,7 +185,7 @@ msgstr "Velg betalingsmåte"
 
 #: donate/templates/fragments/donate_form.html:64
 #: donate/templates/fragments/donate_form.html:139
-#: donate/templates/payment/card_master.html:97
+#: donate/templates/payment/card_master.html:111
 msgid "SECURE"
 msgstr "SIKKER"
 
@@ -214,19 +214,19 @@ msgstr "Mozilla er forpliktet til ditt privatliv; du kan lese <a href=\"%(privac
 msgid "Monthly donations are charged each month on the same day that you donate today, and will continue until you cancel. To cancel, email us at <a href=\"mailto:%(email)s\">%(email)s</a>."
 msgstr "Månedlige donasjoner belastes hver måned på samme dag som du donerer i dag, og vil fortsette til du avbryter. For å avbryte, send oss en e-post på <a href=\"mailto:%(email)s\">%(email)s</a>."
 
-#: donate/templates/fragments/donate_form_disclaimer_master.html:28
+#: donate/templates/fragments/donate_form_disclaimer_master.html:27
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:7
 #, python-format
-msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a>"
-msgstr "Andre måter å gi bidrag på: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Sjekk</a>"
+msgid "Other ways to give: <a href=\"%(check_url)s\">Check</a>"
+msgstr ""
 
-#: donate/templates/fragments/donate_form_disclaimer_master.html:38
+#: donate/templates/fragments/donate_form_disclaimer_master.html:36
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:21
 #, python-format
 msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"%(help_url)s\">Contact us</a>."
 msgstr "Har du problem med å donere? Besøk <a href=\"%(faq_url)s\">ofte stilte spørsmål (FAQ)</a> for å få svar på de vanligste spørsmålene. Har du fremdeles problem? <a href=\"%(help_url)s\">Kontakt oss</a>."
 
-#: donate/templates/fragments/donate_form_disclaimer_master.html:45
+#: donate/templates/fragments/donate_form_disclaimer_master.html:43
 msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in San Francisco, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
 msgstr "Bidrag går til stiftelsen Mozilla, en 501(c)(3) organisation med base i San Francisco, California, og skal brukes etter egen vurdering i velgjørende formål. Det er full fradragsrett i USA i det omfanget som loven tillater."
 
@@ -268,13 +268,13 @@ msgstr "DONER NÅ"
 
 #: donate/templates/pages/core/campaign_page_master.html:58
 #: donate/templates/pages/core/landing_page_master.html:36
-#: donate/templates/payment/card_master.html:167
+#: donate/templates/payment/card_master.html:181
 msgid "Seal of Charity Navigator 4-Star"
 msgstr "4-stjerners segl fra Charity Navigator"
 
 #: donate/templates/pages/core/campaign_page_master.html:61
 #: donate/templates/pages/core/landing_page_master.html:39
-#: donate/templates/payment/card_master.html:170
+#: donate/templates/payment/card_master.html:184
 msgid "Seal of GuideStar Gold 2019"
 msgstr "Segl fra GuideStar Gold 2019"
 
@@ -412,149 +412,41 @@ msgid "<a href=\"%(ways_to_give_link)s\">Go to this link</a> to make a secure on
 msgstr "<a href=\"%(ways_to_give_link)s\">Gå til denne lenken</a> for å utføre en sikker donasjon på nettet akkurat nå."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:24
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:7
-msgid "Bank Transfer / SEPA"
-msgstr "Bankoverføring / SEPA"
-
-#: donate/templates/pages/core/ways_to_give_page_master.html:25
-msgid "We accept donations in Euros through Single European Payment Area (SEPA) transfer, and British Pounds through BACS transfer."
-msgstr "Vi aksepterer donasjoner i euro overført via Single European Payment Area (SEPA), og britiske pund overført via BACS."
-
-#: donate/templates/pages/core/ways_to_give_page_master.html:27
-msgid "Note that for smaller (under 10 EUR or equivalent) donations, <strong>and especially for donations under 5 EUR or equivalent</strong>, we request that you donate via credit card or PayPal to help reduce Mozilla’s processing fees."
-msgstr "Vær oppmerksom på at for mindre donasjoner (under 10 EUR eller tilsvarende) , <strong>og spesielt for donasjoner under 5 EUR eller tilsvarende</strong>, ber vi deg donere via bankort eller PayPal for å redusere Mozillas behandlingsgebyr."
-
-#: donate/templates/pages/core/ways_to_give_page_master.html:32
-#, python-format
-msgid "Please also note that the Mozilla Foundation cannot accept SEPA or BACS transfers for MZLA/Thunderbird. To contribute to MZLA/Thunderbird via SEPA or BACS transfer, please follow <a href=\"%(instruction_url)s\">these instructions</a>."
-msgstr "Vær også oppmerksom på at Mozilla Foundation ikke kan godta SEPA- eller BACS-overføringer for MZLA/Thunderbird. For å bidra til MZLA/Thunderbird via SEPA- eller BACS-overføring, følg <a href=\"%(instruction_url)s\">disse instruksjonene</a>."
-
-#: donate/templates/pages/core/ways_to_give_page_master.html:36
-msgid "Please remember that donations are deductible for U.S. income tax purposes only."
-msgstr "Husk at donasjoner bare er fradragsberettiget for amerikanske inntektsskatteformål."
-
-#: donate/templates/pages/core/ways_to_give_page_master.html:38
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:15
-#, python-format
-msgid "If your bank requests our physical address, it is %(address)s."
-msgstr "Om banken din krever en fysisk adresse, bruker du %(address)s."
-
-#: donate/templates/pages/core/ways_to_give_page_master.html:45
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:22
-msgid "Euros:"
-msgstr "Euro:"
-
-#: donate/templates/pages/core/ways_to_give_page_master.html:47
-#: donate/templates/pages/core/ways_to_give_page_master.html:60
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:24
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:37
-msgid "Account Currency:"
-msgstr "Kontovaluta:"
-
-#: donate/templates/pages/core/ways_to_give_page_master.html:47
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:24
-msgid "Euro (EUR)"
-msgstr "Euro (EUR)"
-
-#: donate/templates/pages/core/ways_to_give_page_master.html:48
-#: donate/templates/pages/core/ways_to_give_page_master.html:61
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:25
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:38
-msgid "Receiving Bank (Pay to):"
-msgstr "Mottakerbank (betal til):"
-
-#: donate/templates/pages/core/ways_to_give_page_master.html:49
-#: donate/templates/pages/core/ways_to_give_page_master.html:62
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:26
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:39
-msgid "City & Country/Region:"
-msgstr "Sted og land/region:"
-
-#: donate/templates/pages/core/ways_to_give_page_master.html:49
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:26
-msgid "Frankfurt, Germany"
-msgstr "Frankfurt, Tyskland"
-
-#: donate/templates/pages/core/ways_to_give_page_master.html:50
-#: donate/templates/pages/core/ways_to_give_page_master.html:68
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:27
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:45
-msgid "SWIFT/BIC Code:"
-msgstr "SWIFT-/BIC-kode:"
-
-#: donate/templates/pages/core/ways_to_give_page_master.html:51
-#: donate/templates/pages/core/ways_to_give_page_master.html:65
-msgid "Beneficiary Name (For donations to):"
-msgstr ""
-
-#: donate/templates/pages/core/ways_to_give_page_master.html:52
-#: donate/templates/pages/core/ways_to_give_page_master.html:69
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:29
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:46
-msgid "IBAN:"
-msgstr "IBAN:"
-
-#: donate/templates/pages/core/ways_to_give_page_master.html:58
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:35
-msgid "British Pound Sterling:"
-msgstr "Britiske pund:"
-
-#: donate/templates/pages/core/ways_to_give_page_master.html:60
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:37
-msgid "British Pound Sterling (GBP)"
-msgstr "Britisk pund (GBP)"
-
-#: donate/templates/pages/core/ways_to_give_page_master.html:62
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:39
-msgid "London, United Kingdom"
-msgstr "London, Storbritannia"
-
-#: donate/templates/pages/core/ways_to_give_page_master.html:63
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:40
-msgid "Bank Sort Code:"
-msgstr "Bank-sorteringskode:"
-
-#: donate/templates/pages/core/ways_to_give_page_master.html:64
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:41
-msgid "Account Number (8 digits):"
-msgstr "Kontonummer (8 siffer):"
-
-#: donate/templates/pages/core/ways_to_give_page_master.html:75
 msgid "Donation of Stock/Securities:"
 msgstr "Donasjon av aksjer/verdipapirer:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:77
+#: donate/templates/pages/core/ways_to_give_page_master.html:26
 #, python-format
 msgid "The Mozilla Foundation is happy to accept your gift of publicly-traded stocks or bonds through our brokerage account at Northern Trust Securities. Please contact Major Gift Officer %(name)s at <a href=\"mailto:%(email)s\">%(email)s</a> to initiate the process."
 msgstr "Mozilla Foundation godtar gjerne din gave av børsnoterte aksjer eller obligasjoner gjennom vår meglerkonto hos Northern Trust Securities. Ta kontakt med vår donasjonsoffiser %(name)s på <a href=\"mailto:%(email)s\">%(email)s</a> for å starte prosessen."
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:86
+#: donate/templates/pages/core/ways_to_give_page_master.html:35
 msgid "Check (via postal service)"
 msgstr "Sjekk (via postgang)"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:90
+#: donate/templates/pages/core/ways_to_give_page_master.html:39
 msgid "UPDATE October 2020:"
 msgstr "OPPDATERING oktober 2020:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:91
+#: donate/templates/pages/core/ways_to_give_page_master.html:40
 msgid "The Mozilla Foundation is happy to accept your donation (made payable to “Mozilla Foundation”) via check; however please note that processing and acknowledgment of your gift may be delayed by changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
 msgstr "Mozilla Foundation godtar gjerne donasjonen din (betalt til: «Mozilla Foundation») via sjekk; Merk at behandling og bekreftelse av gaven din kan bli forsinket av endringer av kontorrutinene våre i anledning av COVID-19-pandemien. Du kan sende sjekker til:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:108
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:67
+#: donate/templates/pages/core/ways_to_give_page_master.html:57
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:21
 msgid "Please include your email address on the memo line of your check to help us track and attribute your gift."
 msgstr "Inkluder e-postadressen din i notatlinjen i sjekken din for å hjelpe oss med å spore og tildele gaven din."
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:115
+#: donate/templates/pages/core/ways_to_give_page_master.html:64
 #, python-format
 msgid "Please also note that the Mozilla Foundation can <strong>only</strong> accept checks in U.S. dollars drawn on a U.S. bank, and <strong>cannot</strong> accept contributions for MZLA/Thunderbird. (Contributions to MZLA/Thunderbird via check can be made by following <a href=\"%(instruction_url)s\" target=\"_blank\">these instructions</a>.)"
 msgstr "Merk også at Mozilla Foundation <strong>bare</strong> kan godte sjekker i amerikanske dollar som blir trukket fra en amerikansk bank og <strong>kan ikke</strong> godta bidrag til MZLA/Thunderbird. (Bidrag til MZLA/Thunderbird via sjekk kan gjøres ved å følge <a href=\"%(instruction_url)s\" target=\"_blank\">denne veiledningen</a>.)"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:122
+#: donate/templates/pages/core/ways_to_give_page_master.html:71
 msgid "Currencies"
 msgstr "Valutaer"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:123
+#: donate/templates/pages/core/ways_to_give_page_master.html:72
 msgid "Select your currency to make a secure online donation:"
 msgstr "Velg valutatype for å utføre en sikker nettbasert donasjon:"
 
@@ -580,65 +472,65 @@ msgstr "Endre beløp"
 msgid "Donation Amount"
 msgstr "Donasjonsbeløp"
 
-#: donate/templates/payment/card_master.html:39
+#: donate/templates/payment/card_master.html:53
 msgid "Confirm"
 msgstr "Bekreft"
 
-#: donate/templates/payment/card_master.html:44
+#: donate/templates/payment/card_master.html:58
 msgid "Your Details"
 msgstr "Dine detaljer"
 
-#: donate/templates/payment/card_master.html:60
+#: donate/templates/payment/card_master.html:74
 msgid "We were unable to take payment because the payment processor reported an error with your address information:"
 msgstr "Vi kunne ikke ta imot betalingen fordi betalingstjenesten rapporterte en feil med adresseinformasjonen din:"
 
-#: donate/templates/payment/card_master.html:64
+#: donate/templates/payment/card_master.html:78
 msgid "Please correct these errors and try again."
 msgstr "Rett opp disse feilene og prøv igjen."
 
-#: donate/templates/payment/card_master.html:68
+#: donate/templates/payment/card_master.html:82
 #: donate/templates/payment/card_upsell_master.html:34
 #: donate/templates/payment/newsletter_signup_master.html:30
 #: donate/templates/payment/paypal_upsell_master.html:34
 msgid "There were some errors with your form. Please amend the fields highlighted below."
 msgstr "Det er noen feil med skjemaet ditt. Endre feltene som er uthevet nedenfor."
 
-#: donate/templates/payment/card_master.html:91
+#: donate/templates/payment/card_master.html:105
 msgid "Payment"
 msgstr "Betaling"
 
-#: donate/templates/payment/card_master.html:106
+#: donate/templates/payment/card_master.html:120
 msgid "Card number"
 msgstr "Kortnummer"
 
-#: donate/templates/payment/card_master.html:112
+#: donate/templates/payment/card_master.html:126
 msgid "Expiration date"
 msgstr "Utløpsdato"
 
-#: donate/templates/payment/card_master.html:117
+#: donate/templates/payment/card_master.html:131
 msgid "CVV"
 msgstr "CVV"
 
-#: donate/templates/payment/card_master.html:126
+#: donate/templates/payment/card_master.html:140
 #, python-format
 msgid "I authorize Mozilla Foundation to automatically charge my card every month in the amount indicated above, starting today and continuing each month on the same day, until I cancel. I understand that I must cancel at least 5 days before the next scheduled donation by email to <a href='mailto:%(email)s'>%(email)s</a>, and that I may only request a refund within 15 days from the date of a donation."
 msgstr "Jeg autoriserer Mozilla Foundation til å automatisk belaste kortet mitt hver måned i det angitte beløpet, fra i dag og fortsetter hver måned på samme dag, inntil jeg avbryter. Jeg forstår at jeg må avbryte minst 5 dager før neste planlagte donasjon via e-post til <a href='mailto:%(email)s'>%(email)s</a>, og at jeg bare kan be om refusjon innen 15 dager fra donasjonsdatoen."
 
-#: donate/templates/payment/card_master.html:128
+#: donate/templates/payment/card_master.html:142
 msgid "I authorize Mozilla Foundation to charge my card in the amount indicated above. I understand that I may only request a refund within 15 days from the date of the donation."
 msgstr "Jeg gir Mozilla Foundation fullmakt til å belaste kortet mitt i det beløpet som er vist ovenfor. Jeg forstår at jeg bare kan be om refusjon innen 15 dager fra donasjonsdatoen."
 
-#: donate/templates/payment/card_master.html:153
+#: donate/templates/payment/card_master.html:167
 #, python-format
 msgid "Donate <span class=\"%(span_class)s\">%(formatted_amount)s</span> per month"
 msgstr "Doner <span class=\"%(span_class)s\">%(formatted_amount)s</span> per måned"
 
-#: donate/templates/payment/card_master.html:155
+#: donate/templates/payment/card_master.html:169
 #, python-format
 msgid "Donate <span class=\"%(span_class)s\">%(formatted_amount)s</span>"
 msgstr "Doner <span class=\"%(span_class)s\">%(formatted_amount)s</span>"
 
-#: donate/templates/payment/card_master.html:163
+#: donate/templates/payment/card_master.html:177
 msgid "Your donation helps keep the Web open and free. Thank you in advance for your gift."
 msgstr "Din donasjon hjelper til med å holde nettet åpent og gratis. På forhånd takk for gaven."
 
@@ -670,16 +562,16 @@ msgstr "Ja, jeg vil gi:"
 msgid "Monthly"
 msgstr "Månedlig"
 
-#: donate/templates/payment/card_upsell_master.html:48
+#: donate/templates/payment/card_upsell_master.html:50
 #, python-format
 msgid "I authorize Mozilla Foundation to automatically charge my card every month in the amount indicated above, starting next month on the same date as today, and continuing each month afterwards until I cancel. I understand that I must cancel at least 5 days before the next scheduled donation by email to %(email)s, and that I may only request a refund within 15 days from the date of a donation."
 msgstr "Jeg autoriserer Mozilla Foundation til å automatisk belaste kortet mitt hver måned i det angitte beløpet, fra neste måned på samme dato som i dag og videre hver måned, inntil jeg avbryter. Jeg forstår at jeg må avbryte minst 5 dager før neste planlagte donasjon via e-post til %(email)s, og at jeg bare kan be om refusjon innen 15 dager fra donasjonsdatoen."
 
-#: donate/templates/payment/card_upsell_master.html:53
+#: donate/templates/payment/card_upsell_master.html:57
 msgid "Donate Monthly"
 msgstr "Månedlig donasjon"
 
-#: donate/templates/payment/card_upsell_master.html:56
+#: donate/templates/payment/card_upsell_master.html:60
 #: donate/templates/payment/newsletter_signup_master.html:42
 msgid "No Thanks"
 msgstr "Nei takk"
@@ -829,28 +721,10 @@ msgid "Your download should have begun automatically. If it didn’t work, <a hr
 msgstr "Nedlastingen din burde ha startet automatisk. Om det ikke fungerte, <a href=\"%(url)s\">prøv å laste ned på nytt her</a>."
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:8
-msgid "We accept contributions in Euros through Single European Payment Area (SEPA) transfer, and British Pounds through BACS transfer."
-msgstr "Vi aksepterer bidrag i euro overført via Single European Payment Area (SEPA), og britiske pund overført via BACS."
-
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:10
-msgid "Please note that for smaller (under 10 EUR or equivalent) contributions, <strong>and especially for contributions under 5 EUR or equivalent</strong>, we request that you contribute via credit card or PayPal to help reduce our processing fees."
-msgstr "Vær oppmerksom på at for mindre bidrag (under 10 EUR eller tilsvarende) , <strong>og spesielt for bidrag under 5 EUR eller tilsvarende</strong>, ber vi deg donere via bankort eller PayPal for å redusere Mozillas behandlingsgebyr."
-
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:28
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:42
-msgid "Beneficiary Name (For credit to):"
-msgstr "Navn på mottaker (for å kreditere):"
-
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:30
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:47
-msgid "Memo field:"
-msgstr "Memo-felt:"
-
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:54
 msgid "MZLA/Thunderbird is happy to accept your donation <strong>(made payable to “MZLA Technologies Corp”)</strong> via check; however please note that processing and acknowledgment of your gift may be delayed by changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
 msgstr ""
 
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:71
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:25
 msgid "Please also note that MZLA/Thunderbird can <strong>only</strong> accept checks in U.S. dollars drawn on a U.S. bank."
 msgstr "Vær også oppmerksom på at MZLA/Thunderbird <strong>bare</strong> kan godta sjekker i amerikanske dollar trukket fra en amerikansk bank."
 
@@ -894,6 +768,81 @@ msgstr "Jeg donerte til @mozthunderbird i dag for å #freetheinbox. Bli med meg 
 msgctxt "Email subject line"
 msgid "I donated to Thunderbird today"
 msgstr "Jeg donerte til Thunderbird i dag"
+
+#, python-format
+#~ msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a>"
+#~ msgstr "Andre måter å gi bidrag på: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Sjekk</a>"
+
+#~ msgid "Bank Transfer / SEPA"
+#~ msgstr "Bankoverføring / SEPA"
+
+#~ msgid "We accept donations in Euros through Single European Payment Area (SEPA) transfer, and British Pounds through BACS transfer."
+#~ msgstr "Vi aksepterer donasjoner i euro overført via Single European Payment Area (SEPA), og britiske pund overført via BACS."
+
+#~ msgid "Note that for smaller (under 10 EUR or equivalent) donations, <strong>and especially for donations under 5 EUR or equivalent</strong>, we request that you donate via credit card or PayPal to help reduce Mozilla’s processing fees."
+#~ msgstr "Vær oppmerksom på at for mindre donasjoner (under 10 EUR eller tilsvarende) , <strong>og spesielt for donasjoner under 5 EUR eller tilsvarende</strong>, ber vi deg donere via bankort eller PayPal for å redusere Mozillas behandlingsgebyr."
+
+#, python-format
+#~ msgid "Please also note that the Mozilla Foundation cannot accept SEPA or BACS transfers for MZLA/Thunderbird. To contribute to MZLA/Thunderbird via SEPA or BACS transfer, please follow <a href=\"%(instruction_url)s\">these instructions</a>."
+#~ msgstr "Vær også oppmerksom på at Mozilla Foundation ikke kan godta SEPA- eller BACS-overføringer for MZLA/Thunderbird. For å bidra til MZLA/Thunderbird via SEPA- eller BACS-overføring, følg <a href=\"%(instruction_url)s\">disse instruksjonene</a>."
+
+#~ msgid "Please remember that donations are deductible for U.S. income tax purposes only."
+#~ msgstr "Husk at donasjoner bare er fradragsberettiget for amerikanske inntektsskatteformål."
+
+#, python-format
+#~ msgid "If your bank requests our physical address, it is %(address)s."
+#~ msgstr "Om banken din krever en fysisk adresse, bruker du %(address)s."
+
+#~ msgid "Euros:"
+#~ msgstr "Euro:"
+
+#~ msgid "Account Currency:"
+#~ msgstr "Kontovaluta:"
+
+#~ msgid "Euro (EUR)"
+#~ msgstr "Euro (EUR)"
+
+#~ msgid "Receiving Bank (Pay to):"
+#~ msgstr "Mottakerbank (betal til):"
+
+#~ msgid "City & Country/Region:"
+#~ msgstr "Sted og land/region:"
+
+#~ msgid "Frankfurt, Germany"
+#~ msgstr "Frankfurt, Tyskland"
+
+#~ msgid "SWIFT/BIC Code:"
+#~ msgstr "SWIFT-/BIC-kode:"
+
+#~ msgid "IBAN:"
+#~ msgstr "IBAN:"
+
+#~ msgid "British Pound Sterling:"
+#~ msgstr "Britiske pund:"
+
+#~ msgid "British Pound Sterling (GBP)"
+#~ msgstr "Britisk pund (GBP)"
+
+#~ msgid "London, United Kingdom"
+#~ msgstr "London, Storbritannia"
+
+#~ msgid "Bank Sort Code:"
+#~ msgstr "Bank-sorteringskode:"
+
+#~ msgid "Account Number (8 digits):"
+#~ msgstr "Kontonummer (8 siffer):"
+
+#~ msgid "We accept contributions in Euros through Single European Payment Area (SEPA) transfer, and British Pounds through BACS transfer."
+#~ msgstr "Vi aksepterer bidrag i euro overført via Single European Payment Area (SEPA), og britiske pund overført via BACS."
+
+#~ msgid "Please note that for smaller (under 10 EUR or equivalent) contributions, <strong>and especially for contributions under 5 EUR or equivalent</strong>, we request that you contribute via credit card or PayPal to help reduce our processing fees."
+#~ msgstr "Vær oppmerksom på at for mindre bidrag (under 10 EUR eller tilsvarende) , <strong>og spesielt for bidrag under 5 EUR eller tilsvarende</strong>, ber vi deg donere via bankort eller PayPal for å redusere Mozillas behandlingsgebyr."
+
+#~ msgid "Beneficiary Name (For credit to):"
+#~ msgstr "Navn på mottaker (for å kreditere):"
+
+#~ msgid "Memo field:"
+#~ msgstr "Memo-felt:"
 
 #~ msgid "MZLA/Thunderbird is happy to accept your donation (made payable to “MZLA Technologies”) via check; however please note that processing and acknowledgment of your gift may be delayed by changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
 #~ msgstr "MZLA/Thunderbird godtar gjerne donasjonen din (betalt til: «MZLA Technologies») via sjekk; Merk at behandling og bekreftelse av gaven din kan bli forsinket av endringer av kontorrutinene våre i anledning av COVID-19-pandemien. Du kan sende sjekker til:"

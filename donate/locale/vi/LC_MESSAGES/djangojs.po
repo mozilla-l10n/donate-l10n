@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-13 08:31+0000\n"
+"POT-Creation-Date: 2023-03-16 10:29+0000\n"
 "PO-Revision-Date: 2022-09-16 06:38+0000\n"
 "Last-Translator: Quế Tùng <best.cloney.1301@gmail.com>\n"
 "Language-Team: \n"
@@ -19,22 +19,22 @@ msgstr ""
 "X-Generator: Pontoon\n"
 
 #: donate/frontend/_js/main.compiled.js:16 maintenance/static/_js/main.js:16
-#: source/js/components/currency-selector.js:91
+#: source/js/components/currency-selector.js:92
 msgid "per month"
 msgstr "mỗi tháng"
 
 #: donate/frontend/_js/main.compiled.js:16 maintenance/static/_js/main.js:16
-#: source/js/components/currency-selector.js:98
+#: source/js/components/currency-selector.js:99
 msgid "Other amount"
 msgstr "Số tiền khác"
 
 #: donate/frontend/_js/main.compiled.js:16
-#: source/js/components/currency-selector.js:100
+#: source/js/components/currency-selector.js:101
 msgid "To combat fraud, Mozilla Foundation has temporarily restricted donations to a minimum of"
 msgstr "Để chống lại gian lận, Mozilla Foundation đã tạm thời hạn chế các khoản đóng góp ở mức tối thiểu"
 
 #: donate/frontend/_js/main.compiled.js:16
-#: source/js/components/currency-selector.js:102
+#: source/js/components/currency-selector.js:103
 msgid "Invalid amount entered."
 msgstr "Số tiền đã nhập không hợp lệ."
 

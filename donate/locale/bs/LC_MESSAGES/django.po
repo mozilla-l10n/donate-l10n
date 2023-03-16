@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-13 08:31+0000\n"
+"POT-Creation-Date: 2023-03-16 10:29+0000\n"
 "PO-Revision-Date: 2020-08-01 19:50+0000\n"
 "Last-Translator: Kerim Kalamujić <kerim@mozilla.ba>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pontoon\n"
 
-#: donate/core/translation.py:12 donate/payments/forms.py:91
+#: donate/core/translation.py:12 donate/payments/forms.py:103
 #: donate/templates/forms/form_field.html:21
 msgid "This field is required."
 msgstr "Ovo je polje obavezno."
@@ -32,80 +32,80 @@ msgstr "Unesite broj."
 msgid "Enter a valid email address."
 msgstr "Unesite validnu email adresu."
 
-#: donate/payments/forms.py:61
+#: donate/payments/forms.py:73
 #, python-format
 msgid "Donations must be %(amount)s or more"
 msgstr "Donacije moraju iznositi %(amount)s ili više"
 
-#: donate/payments/forms.py:96 donate/payments/forms.py:110
-#: donate/payments/forms.py:161
+#: donate/payments/forms.py:108 donate/payments/forms.py:123
+#: donate/payments/forms.py:180
 msgid "Amount"
 msgstr "Iznos"
 
-#: donate/payments/forms.py:123
+#: donate/payments/forms.py:136
 msgid "First name"
 msgstr "Ime"
 
-#: donate/payments/forms.py:124
+#: donate/payments/forms.py:137
 msgid "Last name"
 msgstr "Prezime"
 
-#: donate/payments/forms.py:125 donate/payments/forms.py:171
+#: donate/payments/forms.py:138 donate/payments/forms.py:194
 #: donate/templates/pages/core/contributor_support_page_master.html:97
 msgid "Email"
 msgstr "Email"
 
-#: donate/payments/forms.py:126
+#: donate/payments/forms.py:139
 msgid "Street"
 msgstr "Ulica"
 
-#: donate/payments/forms.py:127
+#: donate/payments/forms.py:140
 msgid "City"
 msgstr "Grad"
 
-#: donate/payments/forms.py:131
+#: donate/payments/forms.py:144
 msgctxt "Feel free to replace with “Postal code” or equivalent"
 msgid "ZIP Code"
 msgstr "Poštanski broj"
 
-#: donate/payments/forms.py:135
+#: donate/payments/forms.py:148
 msgid "Country"
 msgstr "Država"
 
-#: donate/payments/forms.py:179
+#: donate/payments/forms.py:202
 #, python-format
 msgid "I’m okay with Mozilla handling my info as explained in this <a href='%(url)s'>Privacy Notice</a>."
 msgstr "Slažem se da Mozilla upravlja mojim informacijama, kao što je objašnjeno u <a href='%(url)s'>politici privatnosti</a>."
 
-#: donate/payments/views.py:194
+#: donate/payments/views.py:197
 msgid "The type of card you used is not accepted."
 msgstr "Vrsta kartice koju ste koristili nije prihvaćena."
 
-#: donate/payments/views.py:195 donate/payments/views.py:196
+#: donate/payments/views.py:198 donate/payments/views.py:199
 msgid "The CVV code you entered was invalid."
 msgstr "CVV kod koji ste unijeli nije važeći."
 
-#: donate/payments/views.py:197
+#: donate/payments/views.py:200
 msgid "The expiration date you entered was invalid."
 msgstr "Datum isteka koji ste unijeli nije važeći."
 
-#: donate/payments/views.py:198
+#: donate/payments/views.py:201
 msgid "The credit card number you entered was invalid."
 msgstr "Broj kreditne kartice koji ste unijeli nije važeći."
 
-#: donate/payments/views.py:207 donate/payments/views.py:208
+#: donate/payments/views.py:210 donate/payments/views.py:211
 msgid "The post code you provided is not valid."
 msgstr "Poštanski broj koji ste naveli nije važeći."
 
-#: donate/payments/views.py:222
+#: donate/payments/views.py:225
 msgid "Sorry there was an error processing your payment. Please try again later or use a different payment method."
 msgstr "Žao nam je, došlo je do greške prilikom obrade vaše uplate. Pokušajte ponovo kasnije ili koristite drugi način plaćanja."
 
-#: donate/payments/views.py:432
+#: donate/payments/views.py:437
 msgid "Something went wrong. We were unable to process your payment."
 msgstr "Nešto je pošlo po zlu. Nismo mogli obraditi vašu uplatu."
 
-#: donate/payments/views.py:707 donate/payments/views.py:823
+#: donate/payments/views.py:709 donate/payments/views.py:820
 msgid "Sorry there was an error processing your payment. Please try again later."
 msgstr "Žao nam je, došlo je do greške prilikom obrade vaše uplate. Pokušajte ponovo kasnije."
 
@@ -185,7 +185,7 @@ msgstr "Odaberite plaćanje"
 
 #: donate/templates/fragments/donate_form.html:64
 #: donate/templates/fragments/donate_form.html:139
-#: donate/templates/payment/card_master.html:97
+#: donate/templates/payment/card_master.html:111
 msgid "SECURE"
 msgstr "SIGURNO"
 
@@ -214,19 +214,19 @@ msgstr "Mozilla je posvećena vašoj privatnosti; molimo da pročitate našu <a 
 msgid "Monthly donations are charged each month on the same day that you donate today, and will continue until you cancel. To cancel, email us at <a href=\"mailto:%(email)s\">%(email)s</a>."
 msgstr "Mjesečne donacije naplaćuju se svakog mjeseca na isti dan na koji je izvršena prva donacija, a nastavit će se sve dok se ne otkaže donacija. Za otkazivanje donacije, pošalji email na <a href=\"mailto:%(email)s\">%(email)s</a>."
 
-#: donate/templates/fragments/donate_form_disclaimer_master.html:28
+#: donate/templates/fragments/donate_form_disclaimer_master.html:27
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:7
 #, python-format
-msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a>"
-msgstr "Ostali načini doniranja: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Ček</a>"
+msgid "Other ways to give: <a href=\"%(check_url)s\">Check</a>"
+msgstr ""
 
-#: donate/templates/fragments/donate_form_disclaimer_master.html:38
+#: donate/templates/fragments/donate_form_disclaimer_master.html:36
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:21
 #, python-format
 msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"%(help_url)s\">Contact us</a>."
 msgstr "Problemi s donacijama? Posjetite stranicu <a href=\"%(faq_url)s\">ČPP</a> da biste dobili odgovore na najčešća pitanja. Još uvijek imate problema? <a href=\"%(help_url)s\">Kontaktirajte nas</a>."
 
-#: donate/templates/fragments/donate_form_disclaimer_master.html:45
+#: donate/templates/fragments/donate_form_disclaimer_master.html:43
 msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in San Francisco, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
 msgstr ""
 
@@ -268,13 +268,13 @@ msgstr "DONIRAJTE SADA"
 
 #: donate/templates/pages/core/campaign_page_master.html:58
 #: donate/templates/pages/core/landing_page_master.html:36
-#: donate/templates/payment/card_master.html:167
+#: donate/templates/payment/card_master.html:181
 msgid "Seal of Charity Navigator 4-Star"
 msgstr "Pečat Charity Navigator 4 zvjezdice"
 
 #: donate/templates/pages/core/campaign_page_master.html:61
 #: donate/templates/pages/core/landing_page_master.html:39
-#: donate/templates/payment/card_master.html:170
+#: donate/templates/payment/card_master.html:184
 msgid "Seal of GuideStar Gold 2019"
 msgstr "Pečat GuideStar zlato 2019"
 
@@ -412,150 +412,42 @@ msgid "<a href=\"%(ways_to_give_link)s\">Go to this link</a> to make a secure on
 msgstr "<a href=\"%(ways_to_give_link)s\">Idi na ovaj link</a> za trenuto izvršavanje sigurne internetske donacije."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:24
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:7
-msgid "Bank Transfer / SEPA"
-msgstr "Bankovni prijenos / SEPA"
-
-#: donate/templates/pages/core/ways_to_give_page_master.html:25
-msgid "We accept donations in Euros through Single European Payment Area (SEPA) transfer, and British Pounds through BACS transfer."
-msgstr "Prihvaćamo donacije u eurima putem SEPA prijenosa i u britanskim funtama putem BACS prijenosa."
-
-#: donate/templates/pages/core/ways_to_give_page_master.html:27
-msgid "Note that for smaller (under 10 EUR or equivalent) donations, <strong>and especially for donations under 5 EUR or equivalent</strong>, we request that you donate via credit card or PayPal to help reduce Mozilla’s processing fees."
-msgstr "Imajte na umu da za manje (ispod 10 EUR ili ekvivalentno) donacije, <strong> a posebno za donacije ispod 5 EUR ili ekvivalentno </strong>, tražimo da donirate putem kreditne kartice ili PayPal-a kako bi se Mozilli smanjili troškovi obrade."
-
-#: donate/templates/pages/core/ways_to_give_page_master.html:32
-#, python-format
-msgid "Please also note that the Mozilla Foundation cannot accept SEPA or BACS transfers for MZLA/Thunderbird. To contribute to MZLA/Thunderbird via SEPA or BACS transfer, please follow <a href=\"%(instruction_url)s\">these instructions</a>."
-msgstr ""
-
-#: donate/templates/pages/core/ways_to_give_page_master.html:36
-msgid "Please remember that donations are deductible for U.S. income tax purposes only."
-msgstr "Imajte na umu da se donacije odbijaju samo u američke svrhe poreza na dohodak."
-
-#: donate/templates/pages/core/ways_to_give_page_master.html:38
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:15
-#, python-format
-msgid "If your bank requests our physical address, it is %(address)s."
-msgstr "Ako tvoja banka traži našu fizičku adresu, ona je %(address)s."
-
-#: donate/templates/pages/core/ways_to_give_page_master.html:45
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:22
-msgid "Euros:"
-msgstr "Eura:"
-
-#: donate/templates/pages/core/ways_to_give_page_master.html:47
-#: donate/templates/pages/core/ways_to_give_page_master.html:60
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:24
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:37
-msgid "Account Currency:"
-msgstr "Valuta računa:"
-
-#: donate/templates/pages/core/ways_to_give_page_master.html:47
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:24
-msgid "Euro (EUR)"
-msgstr "Euro (EUR)"
-
-#: donate/templates/pages/core/ways_to_give_page_master.html:48
-#: donate/templates/pages/core/ways_to_give_page_master.html:61
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:25
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:38
-msgid "Receiving Bank (Pay to):"
-msgstr "Banka primatelj (platiti na):"
-
-#: donate/templates/pages/core/ways_to_give_page_master.html:49
-#: donate/templates/pages/core/ways_to_give_page_master.html:62
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:26
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:39
-msgid "City & Country/Region:"
-msgstr "Grad i država/regija:"
-
-#: donate/templates/pages/core/ways_to_give_page_master.html:49
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:26
-msgid "Frankfurt, Germany"
-msgstr "Frankfurt, Njemačka"
-
-#: donate/templates/pages/core/ways_to_give_page_master.html:50
-#: donate/templates/pages/core/ways_to_give_page_master.html:68
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:27
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:45
-msgid "SWIFT/BIC Code:"
-msgstr "SWIFT/BIC kod:"
-
-#: donate/templates/pages/core/ways_to_give_page_master.html:51
-#: donate/templates/pages/core/ways_to_give_page_master.html:65
-msgid "Beneficiary Name (For donations to):"
-msgstr ""
-
-#: donate/templates/pages/core/ways_to_give_page_master.html:52
-#: donate/templates/pages/core/ways_to_give_page_master.html:69
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:29
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:46
-msgid "IBAN:"
-msgstr "IBAN:"
-
-#: donate/templates/pages/core/ways_to_give_page_master.html:58
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:35
-msgid "British Pound Sterling:"
-msgstr "Britanska funta:"
-
-#: donate/templates/pages/core/ways_to_give_page_master.html:60
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:37
-msgid "British Pound Sterling (GBP)"
-msgstr "Britanska funta (GBP)"
-
-#: donate/templates/pages/core/ways_to_give_page_master.html:62
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:39
-msgid "London, United Kingdom"
-msgstr "London, Ujedinjeno Kraljevstvo"
-
-#: donate/templates/pages/core/ways_to_give_page_master.html:63
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:40
-msgid "Bank Sort Code:"
-msgstr "Šifra banke:"
-
-#: donate/templates/pages/core/ways_to_give_page_master.html:64
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:41
-msgid "Account Number (8 digits):"
-msgstr "Broj računa (8 brojeva):"
-
-#: donate/templates/pages/core/ways_to_give_page_master.html:75
 msgid "Donation of Stock/Securities:"
 msgstr ""
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:77
+#: donate/templates/pages/core/ways_to_give_page_master.html:26
 #, python-format
 msgid "The Mozilla Foundation is happy to accept your gift of publicly-traded stocks or bonds through our brokerage account at Northern Trust Securities. Please contact Major Gift Officer %(name)s at <a href=\"mailto:%(email)s\">%(email)s</a> to initiate the process."
 msgstr ""
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:86
+#: donate/templates/pages/core/ways_to_give_page_master.html:35
 msgid "Check (via postal service)"
 msgstr "Ček (putem poštanske usluge)"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:90
+#: donate/templates/pages/core/ways_to_give_page_master.html:39
 #, fuzzy
 msgid "UPDATE October 2020:"
 msgstr "AŽURIRANJE 20 marta 2020:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:91
+#: donate/templates/pages/core/ways_to_give_page_master.html:40
 msgid "The Mozilla Foundation is happy to accept your donation (made payable to “Mozilla Foundation”) via check; however please note that processing and acknowledgment of your gift may be delayed by changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
 msgstr ""
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:108
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:67
+#: donate/templates/pages/core/ways_to_give_page_master.html:57
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:21
 msgid "Please include your email address on the memo line of your check to help us track and attribute your gift."
 msgstr ""
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:115
+#: donate/templates/pages/core/ways_to_give_page_master.html:64
 #, python-format
 msgid "Please also note that the Mozilla Foundation can <strong>only</strong> accept checks in U.S. dollars drawn on a U.S. bank, and <strong>cannot</strong> accept contributions for MZLA/Thunderbird. (Contributions to MZLA/Thunderbird via check can be made by following <a href=\"%(instruction_url)s\" target=\"_blank\">these instructions</a>.)"
 msgstr ""
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:122
+#: donate/templates/pages/core/ways_to_give_page_master.html:71
 msgid "Currencies"
 msgstr "Valute"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:123
+#: donate/templates/pages/core/ways_to_give_page_master.html:72
 msgid "Select your currency to make a secure online donation:"
 msgstr "Odaberite vašu valutu da napravite sigurnu online donaciju:"
 
@@ -581,65 +473,65 @@ msgstr "Promijenite iznos"
 msgid "Donation Amount"
 msgstr "Iznos donacije"
 
-#: donate/templates/payment/card_master.html:39
+#: donate/templates/payment/card_master.html:53
 msgid "Confirm"
 msgstr "Potvrdi"
 
-#: donate/templates/payment/card_master.html:44
+#: donate/templates/payment/card_master.html:58
 msgid "Your Details"
 msgstr "Vaši detalji"
 
-#: donate/templates/payment/card_master.html:60
+#: donate/templates/payment/card_master.html:74
 msgid "We were unable to take payment because the payment processor reported an error with your address information:"
 msgstr "Nismo mogli izvršiti plaćanje jer je procesor za plaćanje prijavio grešku s podacima vaše adrese:"
 
-#: donate/templates/payment/card_master.html:64
+#: donate/templates/payment/card_master.html:78
 msgid "Please correct these errors and try again."
 msgstr "Ispravite ove greške i pokušajte ponovo."
 
-#: donate/templates/payment/card_master.html:68
+#: donate/templates/payment/card_master.html:82
 #: donate/templates/payment/card_upsell_master.html:34
 #: donate/templates/payment/newsletter_signup_master.html:30
 #: donate/templates/payment/paypal_upsell_master.html:34
 msgid "There were some errors with your form. Please amend the fields highlighted below."
 msgstr "Bilo je nekih grešaka u vašem obrascu. Izmijenite istaknuta polja ispod."
 
-#: donate/templates/payment/card_master.html:91
+#: donate/templates/payment/card_master.html:105
 msgid "Payment"
 msgstr "Uplata"
 
-#: donate/templates/payment/card_master.html:106
+#: donate/templates/payment/card_master.html:120
 msgid "Card number"
 msgstr "Broj kartice"
 
-#: donate/templates/payment/card_master.html:112
+#: donate/templates/payment/card_master.html:126
 msgid "Expiration date"
 msgstr "Datum isteka"
 
-#: donate/templates/payment/card_master.html:117
+#: donate/templates/payment/card_master.html:131
 msgid "CVV"
 msgstr "CVV"
 
-#: donate/templates/payment/card_master.html:126
+#: donate/templates/payment/card_master.html:140
 #, python-format
 msgid "I authorize Mozilla Foundation to automatically charge my card every month in the amount indicated above, starting today and continuing each month on the same day, until I cancel. I understand that I must cancel at least 5 days before the next scheduled donation by email to <a href='mailto:%(email)s'>%(email)s</a>, and that I may only request a refund within 15 days from the date of a donation."
 msgstr "Ovlašćujem Mozilla Foundation da svaki mjesec automatski naplaćuje s moje kartice gore navedeni iznos, počev od danas i nastavljajući svaki mjesec istog dana, dok ne odustanem. Razumijem da moram otkazati najmanje 5 dana prije sljedeće zakazane donacije emailom na <a href='mailto:%(email)s'>%(email)s</a> i da mogu zatražiti samo povrat novca u roku od 15 dana od datuma donacije."
 
-#: donate/templates/payment/card_master.html:128
+#: donate/templates/payment/card_master.html:142
 msgid "I authorize Mozilla Foundation to charge my card in the amount indicated above. I understand that I may only request a refund within 15 days from the date of the donation."
 msgstr "Ovlašćujem Mozilla Foundation da naplati s moje kartice gore navedeni iznos. Razumijem da mogu zatražiti povrat novca samo u roku od 15 dana od datuma donacije."
 
-#: donate/templates/payment/card_master.html:153
+#: donate/templates/payment/card_master.html:167
 #, python-format
 msgid "Donate <span class=\"%(span_class)s\">%(formatted_amount)s</span> per month"
 msgstr "Donirajte <span class=\"%(span_class)s\">%(formatted_amount)s</span> mjesečno"
 
-#: donate/templates/payment/card_master.html:155
+#: donate/templates/payment/card_master.html:169
 #, python-format
 msgid "Donate <span class=\"%(span_class)s\">%(formatted_amount)s</span>"
 msgstr "Donirajte <span class=\"%(span_class)s\">%(formatted_amount)s</span>"
 
-#: donate/templates/payment/card_master.html:163
+#: donate/templates/payment/card_master.html:177
 msgid "Your donation helps keep the Web open and free. Thank you in advance for your gift."
 msgstr "Vaša donacija pomaže održavanju interneta otvorenim i besplatnim. Unaprijed hvala na poklonu."
 
@@ -671,16 +563,16 @@ msgstr "Da, dat ću:"
 msgid "Monthly"
 msgstr "Mjesečno"
 
-#: donate/templates/payment/card_upsell_master.html:48
+#: donate/templates/payment/card_upsell_master.html:50
 #, python-format
 msgid "I authorize Mozilla Foundation to automatically charge my card every month in the amount indicated above, starting next month on the same date as today, and continuing each month afterwards until I cancel. I understand that I must cancel at least 5 days before the next scheduled donation by email to %(email)s, and that I may only request a refund within 15 days from the date of a donation."
 msgstr "Ovlašćujem Mozilla Foundation da svakog mjeseca automatski naplaćuje s moje kartice gore navedeni iznos, počevši sljedeći mjesec na isti datum kao i danas, i nastavljajući svaki mjesec nakon toga dok ne odustanem. Razumijem da moram otkazati najmanje 5 dana prije sljedeće zakazane donacije emailom na %(email)s, i da mogu zatražiti povrat novca samo u roku od 15 dana od datuma donacije."
 
-#: donate/templates/payment/card_upsell_master.html:53
+#: donate/templates/payment/card_upsell_master.html:57
 msgid "Donate Monthly"
 msgstr "Donirajte mjesečno"
 
-#: donate/templates/payment/card_upsell_master.html:56
+#: donate/templates/payment/card_upsell_master.html:60
 #: donate/templates/payment/newsletter_signup_master.html:42
 msgid "No Thanks"
 msgstr "Ne, hvala"
@@ -830,28 +722,10 @@ msgid "Your download should have begun automatically. If it didn’t work, <a hr
 msgstr "Preuzimanje bi trebalo da započne automatski. Ako ne uspije, <a href=\"%(url)s\">pokušajte ponovo preuzeti ovdje</a>."
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:8
-msgid "We accept contributions in Euros through Single European Payment Area (SEPA) transfer, and British Pounds through BACS transfer."
-msgstr "Prihvaćamo donacije u eurima putem SEPA prenosa i u britanskim funtama putem BACS prenosa."
-
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:10
-msgid "Please note that for smaller (under 10 EUR or equivalent) contributions, <strong>and especially for contributions under 5 EUR or equivalent</strong>, we request that you contribute via credit card or PayPal to help reduce our processing fees."
-msgstr "Imajte na umu da za manje (ispod 10 EUR ili ekvivalentno) doprinosa, <strong> a posebno za doprinose ispod 5 EUR ili ekvivalentno </strong>, tražimo da donirate putem kreditne kartice ili PayPal-a kako biste smanjili naše troškove obrade."
-
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:28
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:42
-msgid "Beneficiary Name (For credit to):"
-msgstr "Ime korisnika (za kredit):"
-
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:30
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:47
-msgid "Memo field:"
-msgstr "Polja dopisa:"
-
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:54
 msgid "MZLA/Thunderbird is happy to accept your donation <strong>(made payable to “MZLA Technologies Corp”)</strong> via check; however please note that processing and acknowledgment of your gift may be delayed by changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
 msgstr ""
 
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:71
+#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:25
 #, fuzzy
 msgid "Please also note that MZLA/Thunderbird can <strong>only</strong> accept checks in U.S. dollars drawn on a U.S. bank."
 msgstr "Imajte na umu da možemo prihvatiti samo čekove u američkim dolarima izvučeni u američkoj banci. Molimo <strong>ne</strong> šaljite gotovinu."
@@ -896,6 +770,77 @@ msgstr "Donirao sam za @mozthunderbird danas kako bi #freetheinbox. Pridružite 
 msgctxt "Email subject line"
 msgid "I donated to Thunderbird today"
 msgstr "Donirao sam za Thunderbird danas"
+
+#, python-format
+#~ msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a>"
+#~ msgstr "Ostali načini doniranja: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Ček</a>"
+
+#~ msgid "Bank Transfer / SEPA"
+#~ msgstr "Bankovni prijenos / SEPA"
+
+#~ msgid "We accept donations in Euros through Single European Payment Area (SEPA) transfer, and British Pounds through BACS transfer."
+#~ msgstr "Prihvaćamo donacije u eurima putem SEPA prijenosa i u britanskim funtama putem BACS prijenosa."
+
+#~ msgid "Note that for smaller (under 10 EUR or equivalent) donations, <strong>and especially for donations under 5 EUR or equivalent</strong>, we request that you donate via credit card or PayPal to help reduce Mozilla’s processing fees."
+#~ msgstr "Imajte na umu da za manje (ispod 10 EUR ili ekvivalentno) donacije, <strong> a posebno za donacije ispod 5 EUR ili ekvivalentno </strong>, tražimo da donirate putem kreditne kartice ili PayPal-a kako bi se Mozilli smanjili troškovi obrade."
+
+#~ msgid "Please remember that donations are deductible for U.S. income tax purposes only."
+#~ msgstr "Imajte na umu da se donacije odbijaju samo u američke svrhe poreza na dohodak."
+
+#, python-format
+#~ msgid "If your bank requests our physical address, it is %(address)s."
+#~ msgstr "Ako tvoja banka traži našu fizičku adresu, ona je %(address)s."
+
+#~ msgid "Euros:"
+#~ msgstr "Eura:"
+
+#~ msgid "Account Currency:"
+#~ msgstr "Valuta računa:"
+
+#~ msgid "Euro (EUR)"
+#~ msgstr "Euro (EUR)"
+
+#~ msgid "Receiving Bank (Pay to):"
+#~ msgstr "Banka primatelj (platiti na):"
+
+#~ msgid "City & Country/Region:"
+#~ msgstr "Grad i država/regija:"
+
+#~ msgid "Frankfurt, Germany"
+#~ msgstr "Frankfurt, Njemačka"
+
+#~ msgid "SWIFT/BIC Code:"
+#~ msgstr "SWIFT/BIC kod:"
+
+#~ msgid "IBAN:"
+#~ msgstr "IBAN:"
+
+#~ msgid "British Pound Sterling:"
+#~ msgstr "Britanska funta:"
+
+#~ msgid "British Pound Sterling (GBP)"
+#~ msgstr "Britanska funta (GBP)"
+
+#~ msgid "London, United Kingdom"
+#~ msgstr "London, Ujedinjeno Kraljevstvo"
+
+#~ msgid "Bank Sort Code:"
+#~ msgstr "Šifra banke:"
+
+#~ msgid "Account Number (8 digits):"
+#~ msgstr "Broj računa (8 brojeva):"
+
+#~ msgid "We accept contributions in Euros through Single European Payment Area (SEPA) transfer, and British Pounds through BACS transfer."
+#~ msgstr "Prihvaćamo donacije u eurima putem SEPA prenosa i u britanskim funtama putem BACS prenosa."
+
+#~ msgid "Please note that for smaller (under 10 EUR or equivalent) contributions, <strong>and especially for contributions under 5 EUR or equivalent</strong>, we request that you contribute via credit card or PayPal to help reduce our processing fees."
+#~ msgstr "Imajte na umu da za manje (ispod 10 EUR ili ekvivalentno) doprinosa, <strong> a posebno za doprinose ispod 5 EUR ili ekvivalentno </strong>, tražimo da donirate putem kreditne kartice ili PayPal-a kako biste smanjili naše troškove obrade."
+
+#~ msgid "Beneficiary Name (For credit to):"
+#~ msgstr "Ime korisnika (za kredit):"
+
+#~ msgid "Memo field:"
+#~ msgstr "Polja dopisa:"
 
 #~ msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a> | <a href=\"%(bitcoin_url)s\">Bitcoin</a>"
 #~ msgstr "Ostali načini doniranja: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Ček</a> | <a href=\"%(bitcoin_url)s\">Bitcoin</a>"

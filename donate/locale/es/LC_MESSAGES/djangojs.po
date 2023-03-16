@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-13 08:31+0000\n"
+"POT-Creation-Date: 2023-03-16 10:29+0000\n"
 "PO-Revision-Date: 2022-10-21 11:31+0000\n"
 "Last-Translator: Théo Chevalier <theochevalier@pm.me>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,22 +20,22 @@ msgstr ""
 "X-Generator: Pontoon\n"
 
 #: donate/frontend/_js/main.compiled.js:16 maintenance/static/_js/main.js:16
-#: source/js/components/currency-selector.js:91
+#: source/js/components/currency-selector.js:92
 msgid "per month"
 msgstr "al mes"
 
 #: donate/frontend/_js/main.compiled.js:16 maintenance/static/_js/main.js:16
-#: source/js/components/currency-selector.js:98
+#: source/js/components/currency-selector.js:99
 msgid "Other amount"
 msgstr "Otra cantidad"
 
 #: donate/frontend/_js/main.compiled.js:16
-#: source/js/components/currency-selector.js:100
+#: source/js/components/currency-selector.js:101
 msgid "To combat fraud, Mozilla Foundation has temporarily restricted donations to a minimum of"
 msgstr "Con el fin de combatir el fraude, la Fundación Mozilla ha restringido temporalmente las donaciones a un mínimo de"
 
 #: donate/frontend/_js/main.compiled.js:16
-#: source/js/components/currency-selector.js:102
+#: source/js/components/currency-selector.js:103
 msgid "Invalid amount entered."
 msgstr "Se ingresó una cantidad incorrecta."
 
