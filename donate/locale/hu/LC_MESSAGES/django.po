@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-21 15:15+0000\n"
-"PO-Revision-Date: 2023-03-21 17:54+0000\n"
+"PO-Revision-Date: 2023-03-21 17:56+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hu\n"
@@ -208,12 +208,12 @@ msgstr "<b>Az adományozás egyéb módjai: <a href=\"%(check_url)s\">Csekk</a><
 #: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:24
 #, python-format
 msgid "<b>Question donating?</b> Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions."
-msgstr ""
+msgstr "<b>Kérdése van az adományozással kapcsolatban?</b> Keresse fel <a href=\"%(faq_url)s\">GYIK-unkat</a>, ahol választ talál a leggyakoribb kérdésekre."
 
 #: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:29
 #, python-format
 msgid "<b>Need to reach us about your donation?</b> <a href=\"%(help_url)s\">Contact us</a>."
-msgstr ""
+msgstr "<b>Kapcsolatba akar lépni velünk adományával kapcsolatban?</b> <a href=\"%(help_url)s\">Vegye fel velünk a kapcsolatot</a>."
 
 #: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:37
 #, python-format
@@ -221,6 +221,8 @@ msgid ""
 "Contributions go to the <a href=\"%(mozilla_url)s\">Mozilla Foundation</a>, a 501(c)(3) organization based in San Francisco, California, to be used in its discretion for its charitable purposes. "
 "They are tax-deductible in the U.S. to the fullest extent permitted by law."
 msgstr ""
+"Az adományok a <a href=\"%(mozilla_url)s\">Mozilla Foundationhöz</a> kerülnek, amely egy San Franciscóban, Kaliforniában bejegyzett alapítvány (501(c)(3) szervezet). A hozzájárulások belátás szerint"
+" használhatóak fel, jótékonysági célokra. Az adományok az USA-ban adóból levonhatók, a törvény által maximálisan megengedett mértékben."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:6
 #, python-format
@@ -426,7 +428,7 @@ msgstr "Elküldés"
 
 #: donate/templates/pages/core/landing_page.html:23
 msgid "featured image"
-msgstr ""
+msgstr "kiemelt kép"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:4 donate/templates/pages/core/ways_to_give_page_master.html:11
 msgid "Ways to Give"
