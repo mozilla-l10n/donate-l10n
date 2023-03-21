@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-16 10:29+0000\n"
+"POT-Creation-Date: 2023-03-21 15:15+0000\n"
 "PO-Revision-Date: 2022-12-14 13:44+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: \n"
@@ -203,6 +203,31 @@ msgstr "cata mense"
 msgid "Minimum amount is %(min_amount)s"
 msgstr "Le amonta minime es %(min_amount)s"
 
+#: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:8
+#, python-format
+msgid "Mozilla is committed to your privacy; please read our <a href=\"%(privacy_url)s\">privacy policy here</a>. Your payment details will be processed by <a href=\"%(stripe_url)s\">Stripe</a>, or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Mozilla."
+msgstr ""
+
+#: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:16
+#, python-format
+msgid "<b>Other ways to give: <a href=\"%(check_url)s\">Check</a></b>"
+msgstr ""
+
+#: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:24
+#, python-format
+msgid "<b>Question donating?</b> Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions."
+msgstr ""
+
+#: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:29
+#, python-format
+msgid "<b>Need to reach us about your donation?</b> <a href=\"%(help_url)s\">Contact us</a>."
+msgstr ""
+
+#: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:37
+#, python-format
+msgid "Contributions go to the <a href=\"%(mozilla_url)s\">Mozilla Foundation</a>, a 501(c)(3) organization based in San Francisco, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
+msgstr ""
+
 #: donate/templates/fragments/donate_form_disclaimer_master.html:6
 #, python-format
 msgid "Mozilla is committed to your privacy; please read our <a href=\"%(privacy_url)s\">privacy policy here</a>. Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Mozilla."
@@ -213,19 +238,19 @@ msgstr "Mozilla es dedicate a tu confidentialitate; per favor lege nostre <a hre
 msgid "Monthly donations are charged each month on the same day that you donate today, and will continue until you cancel. To cancel, email us at <a href=\"mailto:%(email)s\">%(email)s</a>."
 msgstr "Le donationes mensual es cargate cata mense al mesme die que tu ha donate hodie e continuara usque tu lo cancellara. Pro cancellar, invia nos un e-mail a <a href=\"mailto:%(email)s\">%(email)s</a>."
 
-#: donate/templates/fragments/donate_form_disclaimer_master.html:27
-#: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:7
+#: donate/templates/fragments/donate_form_disclaimer_master.html:28
+#: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:8
 #, python-format
 msgid "Other ways to give: <a href=\"%(check_url)s\">Check</a>"
 msgstr ""
 
-#: donate/templates/fragments/donate_form_disclaimer_master.html:36
-#: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:21
+#: donate/templates/fragments/donate_form_disclaimer_master.html:38
+#: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:26
 #, python-format
 msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"%(help_url)s\">Contact us</a>."
 msgstr "Problemas con le donation? Visita nostre <a href=\"%(faq_url)s\">folio a questiones</a> pro responsas al questiones plus commun. Ancora problemas? <a href=\"%(help_url)s\">Contacta nos</a>."
 
-#: donate/templates/fragments/donate_form_disclaimer_master.html:43
+#: donate/templates/fragments/donate_form_disclaimer_master.html:46
 msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in San Francisco, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
 msgstr "Le contributiones va al Fundation Mozilla, un organisation basate sur 501(c)(3) in San Francisco, California, pro esser usate a su discretion pro su propositos caritabile. Illos es deducibile del taxas in le SUA, usque al maxime mensura permittite per lege."
 
@@ -259,36 +284,25 @@ msgstr "Blog"
 msgid "Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a %(fomo_link_attributes)s>%(fomo_site_url)s</a>. Most content available under a <a %(cc_link_attributes)s>Creative Commons license</a>."
 msgstr "Mozilla es un organisation global sin scopo de lucro, dedicate a poner te in controlo de tu experientia in linea e a formar le futuro del web pro le bon public. Visita nos a <a %(fomo_link_attributes)s>%(fomo_site_url)s</a>. Le major parte del contento es disponibile sub <a %(cc_link_attributes)s>licentia Creative Commons</a>."
 
+#: donate/templates/pages/core/campaign_page.html:42
+#: donate/templates/pages/core/campaign_page_master.html:58
+msgctxt "Header"
+msgid "Donate now"
+msgstr "Face un donation ora"
+
 #: donate/templates/pages/core/campaign_page_master.html:43
 #: donate/templates/pages/core/ways_to_give_page_master.html:12
 msgctxt "Button"
 msgid "DONATE NOW"
 msgstr "FACE UN DONATION ORA"
 
-#: donate/templates/pages/core/campaign_page_master.html:58
-#: donate/templates/pages/core/landing_page_master.html:36
-#: donate/templates/payment/card_master.html:181
-msgid "Seal of Charity Navigator 4-Star"
-msgstr "Sigillo a 4 stellas de Charity Navigator"
-
-#: donate/templates/pages/core/campaign_page_master.html:61
-#: donate/templates/pages/core/landing_page_master.html:39
-#: donate/templates/payment/card_master.html:184
-msgid "Seal of GuideStar Gold 2019"
-msgstr "Sigillo auree 2019 de GuideStar"
-
-#: donate/templates/pages/core/campaign_page_master.html:73
-msgctxt "Header"
-msgid "Donate now"
-msgstr "Face un donation ora"
-
-#: donate/templates/pages/core/campaign_page_master.html:87
-#: donate/templates/pages/core/landing_page_master.html:61
+#: donate/templates/pages/core/campaign_page_master.html:72
+#: donate/templates/pages/core/landing_page_master.html:49
 msgid "Your donation is being processed..."
 msgstr "Tu donation va esser processate..."
 
-#: donate/templates/pages/core/campaign_page_master.html:96
-#: donate/templates/pages/core/landing_page_master.html:71
+#: donate/templates/pages/core/campaign_page_master.html:81
+#: donate/templates/pages/core/landing_page_master.html:59
 msgid "One moment while we get all the details right!"
 msgstr "Un momento que nos recipe tote le detalios correcte!"
 
@@ -395,6 +409,10 @@ msgstr "Mozilla usara solo tu informationes inviate pro propositos de communicat
 #: donate/templates/pages/core/contributor_support_page_master.html:147
 msgid "Submit"
 msgstr "Inviar"
+
+#: donate/templates/pages/core/landing_page.html:23
+msgid "featured image"
+msgstr ""
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:4
 #: donate/templates/pages/core/ways_to_give_page_master.html:11
@@ -533,6 +551,14 @@ msgstr "Donar <span class=\"%(span_class)s\">%(formatted_amount)s</span>"
 msgid "Your donation helps keep the Web open and free. Thank you in advance for your gift."
 msgstr "Tu donation adjuta mantener le web aperte e gratuite. Gratias anticipatemente pro tu dono."
 
+#: donate/templates/payment/card_master.html:181
+msgid "Seal of Charity Navigator 4-Star"
+msgstr "Sigillo a 4 stellas de Charity Navigator"
+
+#: donate/templates/payment/card_master.html:184
+msgid "Seal of GuideStar Gold 2019"
+msgstr "Sigillo auree 2019 de GuideStar"
+
 #: donate/templates/payment/card_upsell_master.html:4
 #: donate/templates/payment/paypal_upsell_master.html:4
 #: donate/templates/payment/thank_you_master.html:4
@@ -666,17 +692,17 @@ msgctxt "Page title"
 msgid "Give to Thunderbird"
 msgstr "Donar a Thunderbird"
 
-#: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:12
+#: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:15
 #, python-format
 msgid "Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Thunderbird. Please read our <a href=\"%(privacy_url)s\">privacy policy here</a>."
 msgstr "Tu datos de pagamento sera processate per <a href=\"%(braintree_url)s\">Braintree</a>, un compania Paypal (pro cartas de credito/debito) o <a href=\"%(paypal_url)s\">PayPal</a> e un registration de tu donation sera immagazinate per Thunderbird. Lege nostre <a href=\"%(privacy_url)s\">politica de confidentialitate hic</a>."
 
-#: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:15
+#: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:18
 #, python-format
 msgid "Monthly donations are charged each month on the same day that you donate today, and will continue until you cancel. To cancel, fill out <a href=\"%(help_url)s\">this form</a>."
 msgstr "Le donationes mensual es cargate cata mense al mesme die que tu ha donate hodie e continuara usque tu lo cancellara. Pro cancellar, plena <a href=\"%(help_url)s\">iste formulario</a>."
 
-#: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:27
+#: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:34
 msgid "Contributions go to MZLA Technologies Corporation, a California corporation wholly owned by the Mozilla Foundation. Funds will be reserved for use in the Thunderbird project. Contributions are not tax-deductible as charitable contributions."
 msgstr "Le contributiones va a MZLA Technologies Corporation, un corporation del California integremente proprietari per Mozilla Fundation. Le financiamentos sera reservate pro uso in le projecto Thunderbird. Le contributiones non es deducibile del taxas como contributiones caritabile."
 

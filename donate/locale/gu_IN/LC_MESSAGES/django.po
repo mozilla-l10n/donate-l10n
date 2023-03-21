@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-16 10:29+0000\n"
+"POT-Creation-Date: 2023-03-21 15:15+0000\n"
 "PO-Revision-Date: 2021-11-25 12:04+0000\n"
 "Last-Translator: Hariom Panchal <hariompanchal6647@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -204,6 +204,31 @@ msgstr "દર મહિને"
 msgid "Minimum amount is %(min_amount)s"
 msgstr ""
 
+#: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:8
+#, python-format
+msgid "Mozilla is committed to your privacy; please read our <a href=\"%(privacy_url)s\">privacy policy here</a>. Your payment details will be processed by <a href=\"%(stripe_url)s\">Stripe</a>, or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Mozilla."
+msgstr ""
+
+#: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:16
+#, python-format
+msgid "<b>Other ways to give: <a href=\"%(check_url)s\">Check</a></b>"
+msgstr ""
+
+#: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:24
+#, python-format
+msgid "<b>Question donating?</b> Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions."
+msgstr ""
+
+#: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:29
+#, python-format
+msgid "<b>Need to reach us about your donation?</b> <a href=\"%(help_url)s\">Contact us</a>."
+msgstr ""
+
+#: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:37
+#, python-format
+msgid "Contributions go to the <a href=\"%(mozilla_url)s\">Mozilla Foundation</a>, a 501(c)(3) organization based in San Francisco, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
+msgstr ""
+
 #: donate/templates/fragments/donate_form_disclaimer_master.html:6
 #, python-format
 msgid "Mozilla is committed to your privacy; please read our <a href=\"%(privacy_url)s\">privacy policy here</a>. Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Mozilla."
@@ -214,19 +239,19 @@ msgstr "Mozilla તમારી ગોપનીયતા માટે પ્ર�
 msgid "Monthly donations are charged each month on the same day that you donate today, and will continue until you cancel. To cancel, email us at <a href=\"mailto:%(email)s\">%(email)s</a>."
 msgstr "તમે આજે દાન કરો છો તે જ દિવસે દર મહિને માસિક દાન લેવામાં આવે છે, અને તમે રદ નહીં કરો ત્યાં સુધી ચાલુ રહેશે. રદ કરવા માટે, અમને <a href=\"mailto:%(email)s\">%(email)s</a>પર ઇમેઇલ કરો."
 
-#: donate/templates/fragments/donate_form_disclaimer_master.html:27
-#: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:7
+#: donate/templates/fragments/donate_form_disclaimer_master.html:28
+#: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:8
 #, python-format
 msgid "Other ways to give: <a href=\"%(check_url)s\">Check</a>"
 msgstr ""
 
-#: donate/templates/fragments/donate_form_disclaimer_master.html:36
-#: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:21
+#: donate/templates/fragments/donate_form_disclaimer_master.html:38
+#: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:26
 #, python-format
 msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"%(help_url)s\">Contact us</a>."
 msgstr "દાન કરવામાં સમસ્યા છે? મોટાભાગના સામાન્ય પ્રશ્નોના જવાબો માટે અમારી <a href=\"%(faq_url)s\">FAQ</a> ની મુલાકાત લો. હજુ પણ સમસ્યાઓ છે? <a href=\"%(help_url)s\">અમારો સંપર્ક કરો</a>."
 
-#: donate/templates/fragments/donate_form_disclaimer_master.html:43
+#: donate/templates/fragments/donate_form_disclaimer_master.html:46
 msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in San Francisco, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
 msgstr "યોગદાન Mozilla Foundationને જાય છે, જે San Francisco, California, સ્થિત 501(c)(3) સંસ્થા છે, જેનો ઉપયોગ તેના સખાવતી હેતુઓ માટે તેની વિવેકબુદ્ધિમાં થાય છે. તેઓ U.S.માં કાયદા દ્વારા અનુમતિ આપવામાં આવેલી સંપૂર્ણ હદ સુધી કર-કપાતપાત્ર છે."
 
@@ -260,36 +285,25 @@ msgstr "Blog"
 msgid "Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a %(fomo_link_attributes)s>%(fomo_site_url)s</a>. Most content available under a <a %(cc_link_attributes)s>Creative Commons license</a>."
 msgstr "Mozilla એ એક વૈશ્વિક બિન-લાભકારી છે જે તમને તમારા ઑનલાઇન અનુભવને નિયંત્રણમાં રાખવા અને જાહેર ભલા માટે વેબના ભાવિને આકાર આપવા માટે સમર્પિત છે. <a%(fomo_link_attributes)s>%(fomo_site_url)s</a>પર અમારી મુલાકાત લો. <a%(cc_link_attributes)s>ક્રિએટિવ કોમન્સ લાયસન્સ</a>હેઠળ ઉપલબ્ધ મોટાભાગની સામગ્રી."
 
+#: donate/templates/pages/core/campaign_page.html:42
+#: donate/templates/pages/core/campaign_page_master.html:58
+msgctxt "Header"
+msgid "Donate now"
+msgstr "અત્યારે જ દાન કરો"
+
 #: donate/templates/pages/core/campaign_page_master.html:43
 #: donate/templates/pages/core/ways_to_give_page_master.html:12
 msgctxt "Button"
 msgid "DONATE NOW"
 msgstr "હમણાં જ દાન કરો"
 
-#: donate/templates/pages/core/campaign_page_master.html:58
-#: donate/templates/pages/core/landing_page_master.html:36
-#: donate/templates/payment/card_master.html:181
-msgid "Seal of Charity Navigator 4-Star"
-msgstr "ચેરિટી નેવિગેટર 4-સ્ટારની સીલ"
-
-#: donate/templates/pages/core/campaign_page_master.html:61
-#: donate/templates/pages/core/landing_page_master.html:39
-#: donate/templates/payment/card_master.html:184
-msgid "Seal of GuideStar Gold 2019"
-msgstr "GuideStar ગોલ્ડ 2019 ની સીલ"
-
-#: donate/templates/pages/core/campaign_page_master.html:73
-msgctxt "Header"
-msgid "Donate now"
-msgstr "અત્યારે જ દાન કરો"
-
-#: donate/templates/pages/core/campaign_page_master.html:87
-#: donate/templates/pages/core/landing_page_master.html:61
+#: donate/templates/pages/core/campaign_page_master.html:72
+#: donate/templates/pages/core/landing_page_master.html:49
 msgid "Your donation is being processed..."
 msgstr "તમારા દાનની પ્રક્રિયા કરવામાં આવી રહી છે..."
 
-#: donate/templates/pages/core/campaign_page_master.html:96
-#: donate/templates/pages/core/landing_page_master.html:71
+#: donate/templates/pages/core/campaign_page_master.html:81
+#: donate/templates/pages/core/landing_page_master.html:59
 msgid "One moment while we get all the details right!"
 msgstr "એક ક્ષણ જ્યારે આપણે બધી વિગતો બરાબર મેળવીએ!"
 
@@ -396,6 +410,10 @@ msgstr "મોઝિલા ફક્ત તમારી વિનંતી વ�
 #: donate/templates/pages/core/contributor_support_page_master.html:147
 msgid "Submit"
 msgstr "સબમિટ કરો"
+
+#: donate/templates/pages/core/landing_page.html:23
+msgid "featured image"
+msgstr ""
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:4
 #: donate/templates/pages/core/ways_to_give_page_master.html:11
@@ -534,6 +552,14 @@ msgstr "<span class=\"%(span_class)s\">%(formatted_amount)s</span> દાન ક
 msgid "Your donation helps keep the Web open and free. Thank you in advance for your gift."
 msgstr "તમારું દાન વેબને ખુલ્લા અને મફત રાખવામાં મદદ કરે છે. તમારી ભેટ માટે અગાઉથી આભાર."
 
+#: donate/templates/payment/card_master.html:181
+msgid "Seal of Charity Navigator 4-Star"
+msgstr "ચેરિટી નેવિગેટર 4-સ્ટારની સીલ"
+
+#: donate/templates/payment/card_master.html:184
+msgid "Seal of GuideStar Gold 2019"
+msgstr "GuideStar ગોલ્ડ 2019 ની સીલ"
+
 #: donate/templates/payment/card_upsell_master.html:4
 #: donate/templates/payment/paypal_upsell_master.html:4
 #: donate/templates/payment/thank_you_master.html:4
@@ -667,17 +693,17 @@ msgctxt "Page title"
 msgid "Give to Thunderbird"
 msgstr "મેં આજે Thunderbirdને દાન આપ્યું છે"
 
-#: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:12
+#: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:15
 #, python-format
 msgid "Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Thunderbird. Please read our <a href=\"%(privacy_url)s\">privacy policy here</a>."
 msgstr "તમારી ચુકવણીની વિગતો <a href=\"%(braintree_url)s\">બ્રાન્ટ્રી</a>, PayPal કંપની (ક્રેડિટ / ડેબિટ કાર્ડ માટે) અથવા <a href=\"%(paypal_url)s\">PayPal</a>દ્વારા પ્રક્રિયા કરવામાં આવશે, અને તમારા દાનનો રેકોર્ડ થંડરબર્ડ દ્વારા સંગ્રહિત કરવામાં આવશે. કૃપા કરી અમારી <a href=\"%(privacy_url)s\">ગોપનીયતા નીતિ અહીં</a>વાંચો."
 
-#: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:15
+#: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:18
 #, python-format
 msgid "Monthly donations are charged each month on the same day that you donate today, and will continue until you cancel. To cancel, fill out <a href=\"%(help_url)s\">this form</a>."
 msgstr "તમે આજે દાન કરો છો તે જ દિવસે દર મહિને માસિક દાન લેવામાં આવે છે, અને તમે રદ નહીં કરો ત્યાં સુધી ચાલુ રહેશે. રદ કરવા માટે, અમને <a href=\"%(help_url)s\">આ ફોર્મ</a>ભરો."
 
-#: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:27
+#: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:34
 msgid "Contributions go to MZLA Technologies Corporation, a California corporation wholly owned by the Mozilla Foundation. Funds will be reserved for use in the Thunderbird project. Contributions are not tax-deductible as charitable contributions."
 msgstr "ફાળો MZLA ટેક્નોલોજીસ કોર્પોરેશન, California કોર્પોરેશન પાસે છે જેની સંપૂર્ણ માલિકી Mozilla ફાઉન્ડેશનની છે. Thunderbird પ્રોજેક્ટમાં ઉપયોગ માટે ભંડોળ અનામત રહેશે. ફાળો ચેરિટેબલ યોગદાન તરીકે કર-કપાતપાત્ર નથી."
 

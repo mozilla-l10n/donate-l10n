@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-16 10:29+0000\n"
+"POT-Creation-Date: 2023-03-21 15:15+0000\n"
 "PO-Revision-Date: 2021-07-24 20:12+0000\n"
 "Last-Translator: snow <cristian.silaghi@mozilla.ro>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -204,6 +204,31 @@ msgstr "pe lună"
 msgid "Minimum amount is %(min_amount)s"
 msgstr ""
 
+#: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:8
+#, python-format
+msgid "Mozilla is committed to your privacy; please read our <a href=\"%(privacy_url)s\">privacy policy here</a>. Your payment details will be processed by <a href=\"%(stripe_url)s\">Stripe</a>, or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Mozilla."
+msgstr ""
+
+#: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:16
+#, python-format
+msgid "<b>Other ways to give: <a href=\"%(check_url)s\">Check</a></b>"
+msgstr ""
+
+#: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:24
+#, python-format
+msgid "<b>Question donating?</b> Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions."
+msgstr ""
+
+#: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:29
+#, python-format
+msgid "<b>Need to reach us about your donation?</b> <a href=\"%(help_url)s\">Contact us</a>."
+msgstr ""
+
+#: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:37
+#, python-format
+msgid "Contributions go to the <a href=\"%(mozilla_url)s\">Mozilla Foundation</a>, a 501(c)(3) organization based in San Francisco, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
+msgstr ""
+
 #: donate/templates/fragments/donate_form_disclaimer_master.html:6
 #, python-format
 msgid "Mozilla is committed to your privacy; please read our <a href=\"%(privacy_url)s\">privacy policy here</a>. Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Mozilla."
@@ -214,19 +239,19 @@ msgstr "Mozilla este dedicată protejării datelor tale personale; citește <a h
 msgid "Monthly donations are charged each month on the same day that you donate today, and will continue until you cancel. To cancel, email us at <a href=\"mailto:%(email)s\">%(email)s</a>."
 msgstr "Donațiile lunare sunt percepute în fiecare lună la aceeași dată cu donația de astăzi și vor continua până ce le anulezi. Pentru anulare, scrie-ne la <a href=\"mailto:%(email)s\">%(email)s</a>."
 
-#: donate/templates/fragments/donate_form_disclaimer_master.html:27
-#: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:7
+#: donate/templates/fragments/donate_form_disclaimer_master.html:28
+#: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:8
 #, python-format
 msgid "Other ways to give: <a href=\"%(check_url)s\">Check</a>"
 msgstr ""
 
-#: donate/templates/fragments/donate_form_disclaimer_master.html:36
-#: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:21
+#: donate/templates/fragments/donate_form_disclaimer_master.html:38
+#: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:26
 #, python-format
 msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"%(help_url)s\">Contact us</a>."
 msgstr "Probleme cu donațiile? Intră pe <a href=\"%(faq_url)s\">Întrebări frecvente</a> și caută răspunsuri la cele mai frecvente întrebări. Tot mai ai probleme? <a href=\"%(help_url)s\">Contactează-ne</a>."
 
-#: donate/templates/fragments/donate_form_disclaimer_master.html:43
+#: donate/templates/fragments/donate_form_disclaimer_master.html:46
 msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in San Francisco, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
 msgstr "Contribuțiile merg către Mozilla Foundation, o organizație constituită în temeiul secțiunii 501(c)(3) a codului fiscal S.U.A., cu sediul în San Francisco, California, de utilizat la libera sa alegere în scopuri caritabile. Sumele sunt deductibile fiscal în S.U.A. în măsura maximă permisă de lege."
 
@@ -260,36 +285,25 @@ msgstr ""
 msgid "Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a %(fomo_link_attributes)s>%(fomo_site_url)s</a>. Most content available under a <a %(cc_link_attributes)s>Creative Commons license</a>."
 msgstr "Mozilla este o organizație nonprofit globală dedicată să îți redea controlul asupra experienței online și să modeleze viitorul webului pentru binele public. Vizitează-ne la <a %(fomo_link_attributes)s>%(fomo_site_url)s</a>. Majoritatea conținutul este disponibil sub o <a %(cc_link_attributes)s>licență Creative Commons</a>."
 
+#: donate/templates/pages/core/campaign_page.html:42
+#: donate/templates/pages/core/campaign_page_master.html:58
+msgctxt "Header"
+msgid "Donate now"
+msgstr "Donează acum"
+
 #: donate/templates/pages/core/campaign_page_master.html:43
 #: donate/templates/pages/core/ways_to_give_page_master.html:12
 msgctxt "Button"
 msgid "DONATE NOW"
 msgstr "DONEAZĂ ACUM"
 
-#: donate/templates/pages/core/campaign_page_master.html:58
-#: donate/templates/pages/core/landing_page_master.html:36
-#: donate/templates/payment/card_master.html:181
-msgid "Seal of Charity Navigator 4-Star"
-msgstr "Sigiliu Charity Navigator 4 stele"
-
-#: donate/templates/pages/core/campaign_page_master.html:61
-#: donate/templates/pages/core/landing_page_master.html:39
-#: donate/templates/payment/card_master.html:184
-msgid "Seal of GuideStar Gold 2019"
-msgstr "Sigiliu GuideStar Gold 2019"
-
-#: donate/templates/pages/core/campaign_page_master.html:73
-msgctxt "Header"
-msgid "Donate now"
-msgstr "Donează acum"
-
-#: donate/templates/pages/core/campaign_page_master.html:87
-#: donate/templates/pages/core/landing_page_master.html:61
+#: donate/templates/pages/core/campaign_page_master.html:72
+#: donate/templates/pages/core/landing_page_master.html:49
 msgid "Your donation is being processed..."
 msgstr ""
 
-#: donate/templates/pages/core/campaign_page_master.html:96
-#: donate/templates/pages/core/landing_page_master.html:71
+#: donate/templates/pages/core/campaign_page_master.html:81
+#: donate/templates/pages/core/landing_page_master.html:59
 msgid "One moment while we get all the details right!"
 msgstr ""
 
@@ -396,6 +410,10 @@ msgstr "Mozilla va folosi informațiile pe care le-ai furnizat numai în scopul 
 #: donate/templates/pages/core/contributor_support_page_master.html:147
 msgid "Submit"
 msgstr "Trimite"
+
+#: donate/templates/pages/core/landing_page.html:23
+msgid "featured image"
+msgstr ""
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:4
 #: donate/templates/pages/core/ways_to_give_page_master.html:11
@@ -535,6 +553,14 @@ msgstr "Donează <span class=\"%(span_class)s\">%(formatted_amount)s</span>"
 msgid "Your donation helps keep the Web open and free. Thank you in advance for your gift."
 msgstr "Donația ta ajută la menținerea Webului deschis și liber. Îți mulțumim cu anticipație."
 
+#: donate/templates/payment/card_master.html:181
+msgid "Seal of Charity Navigator 4-Star"
+msgstr "Sigiliu Charity Navigator 4 stele"
+
+#: donate/templates/payment/card_master.html:184
+msgid "Seal of GuideStar Gold 2019"
+msgstr "Sigiliu GuideStar Gold 2019"
+
 #: donate/templates/payment/card_upsell_master.html:4
 #: donate/templates/payment/paypal_upsell_master.html:4
 #: donate/templates/payment/thank_you_master.html:4
@@ -668,17 +694,17 @@ msgctxt "Page title"
 msgid "Give to Thunderbird"
 msgstr "Donează pentru Thunderbird"
 
-#: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:12
+#: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:15
 #, python-format
 msgid "Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Thunderbird. Please read our <a href=\"%(privacy_url)s\">privacy policy here</a>."
 msgstr "Detaliile plății vor fi prelucrate de <a href=\"%(braintree_url)s\">Braintree</a>, o firmă PayPal (pentru carduri de credit/debit) sau de <a href=\"%(paypal_url)s\">PayPal</a>, iar Thunderbird va păstra o înregistrare a donației tale în evidențele proprii. Te rugăm să citești <a href=\"%(privacy_url)s\">aici politica noastră privind confidențialitatea</a>."
 
-#: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:15
+#: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:18
 #, python-format
 msgid "Monthly donations are charged each month on the same day that you donate today, and will continue until you cancel. To cancel, fill out <a href=\"%(help_url)s\">this form</a>."
 msgstr "Donațiile lunare sunt trase în fiecare lună, în aceeași zi cu data donației de astăzi, și vor continua până ce le anulezi. Pentru anulare, completează acest <a href=\"%(help_url)s\">formular</a>."
 
-#: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:27
+#: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:34
 msgid "Contributions go to MZLA Technologies Corporation, a California corporation wholly owned by the Mozilla Foundation. Funds will be reserved for use in the Thunderbird project. Contributions are not tax-deductible as charitable contributions."
 msgstr "Contribuțiile merg la Corporația MZLA Technologies, o corporație californiană deținută integral de Fundația Mozilla. Fondurile vor fi rezervate pentru utilizarea în proiectul Thunderbird. Contribuțiile nu sunt deductibile drept contribuții caritabile la calcularea impozitului."
 

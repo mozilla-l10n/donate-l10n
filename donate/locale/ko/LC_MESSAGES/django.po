@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-16 10:29+0000\n"
+"POT-Creation-Date: 2023-03-21 15:15+0000\n"
 "PO-Revision-Date: 2023-03-11 02:49+0000\n"
 "Last-Translator: Hyeonseok Shin <hyeonseok@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -204,6 +204,31 @@ msgstr "달마다"
 msgid "Minimum amount is %(min_amount)s"
 msgstr "최소 금액은 %(min_amount)s입니다."
 
+#: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:8
+#, python-format
+msgid "Mozilla is committed to your privacy; please read our <a href=\"%(privacy_url)s\">privacy policy here</a>. Your payment details will be processed by <a href=\"%(stripe_url)s\">Stripe</a>, or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Mozilla."
+msgstr ""
+
+#: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:16
+#, python-format
+msgid "<b>Other ways to give: <a href=\"%(check_url)s\">Check</a></b>"
+msgstr ""
+
+#: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:24
+#, python-format
+msgid "<b>Question donating?</b> Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions."
+msgstr ""
+
+#: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:29
+#, python-format
+msgid "<b>Need to reach us about your donation?</b> <a href=\"%(help_url)s\">Contact us</a>."
+msgstr ""
+
+#: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:37
+#, python-format
+msgid "Contributions go to the <a href=\"%(mozilla_url)s\">Mozilla Foundation</a>, a 501(c)(3) organization based in San Francisco, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
+msgstr ""
+
 #: donate/templates/fragments/donate_form_disclaimer_master.html:6
 #, python-format
 msgid "Mozilla is committed to your privacy; please read our <a href=\"%(privacy_url)s\">privacy policy here</a>. Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Mozilla."
@@ -214,19 +239,19 @@ msgstr "Mozilla는 여러분의 개인 정보를 보호합니다. <a href=\"%(pr
 msgid "Monthly donations are charged each month on the same day that you donate today, and will continue until you cancel. To cancel, email us at <a href=\"mailto:%(email)s\">%(email)s</a>."
 msgstr "매달 기부하실 경우 오늘 기부하신 날짜와 동일하게 지불되며 취소할 때까지 지속됩니다. 취소하시려면 <a href=\"mailto:%(email)s\">%(email)s</a>로 메일을 보내주세요."
 
-#: donate/templates/fragments/donate_form_disclaimer_master.html:27
-#: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:7
+#: donate/templates/fragments/donate_form_disclaimer_master.html:28
+#: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:8
 #, python-format
 msgid "Other ways to give: <a href=\"%(check_url)s\">Check</a>"
 msgstr ""
 
-#: donate/templates/fragments/donate_form_disclaimer_master.html:36
-#: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:21
+#: donate/templates/fragments/donate_form_disclaimer_master.html:38
+#: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:26
 #, python-format
 msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"%(help_url)s\">Contact us</a>."
 msgstr "기부하는데 문제가 있나요? <a href=\"%(faq_url)s\">FAQ</a>에서 자주 묻는 질문에 대한 답을 찾으세요. 문제가 해결되지 않는다면 <a href=\"%(help_url)s\">문의하기</a>링크로 이동해 주세요."
 
-#: donate/templates/fragments/donate_form_disclaimer_master.html:43
+#: donate/templates/fragments/donate_form_disclaimer_master.html:46
 msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in San Francisco, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
 msgstr "후원금은 캘리포니아 샌프란시스코에 본사를 둔 501(c)(3) 조직인 Mozilla Foundation으로 모아져서 자선활동의 목적을 가지고 자유 재량에 의해서 사용됩니다. 미국에서 법률이 허용한 최대한으로 세금 공제가 됩니다."
 
@@ -260,36 +285,25 @@ msgstr "블로그"
 msgid "Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a %(fomo_link_attributes)s>%(fomo_site_url)s</a>. Most content available under a <a %(cc_link_attributes)s>Creative Commons license</a>."
 msgstr "Mozilla는 사용자가 온라인 경험을 주도하고 웹의 미래를 형성하여 공공의 이익을 얻는 데 전념하는 세계적인 비영리 단체입니다. <a %(fomo_link_attributes)s>%(fomo_site_url)s</a>로 방문해주세요. 대부분의 콘텐츠는 <a %(cc_link_attributes)s>크리에이티브 커먼즈 라이선스</a>에 따라 제공됩니다."
 
+#: donate/templates/pages/core/campaign_page.html:42
+#: donate/templates/pages/core/campaign_page_master.html:58
+msgctxt "Header"
+msgid "Donate now"
+msgstr "지금 기부하기"
+
 #: donate/templates/pages/core/campaign_page_master.html:43
 #: donate/templates/pages/core/ways_to_give_page_master.html:12
 msgctxt "Button"
 msgid "DONATE NOW"
 msgstr "지금 기부하세요"
 
-#: donate/templates/pages/core/campaign_page_master.html:58
-#: donate/templates/pages/core/landing_page_master.html:36
-#: donate/templates/payment/card_master.html:181
-msgid "Seal of Charity Navigator 4-Star"
-msgstr "채러티 네비게이터 인증 4성 마크"
-
-#: donate/templates/pages/core/campaign_page_master.html:61
-#: donate/templates/pages/core/landing_page_master.html:39
-#: donate/templates/payment/card_master.html:184
-msgid "Seal of GuideStar Gold 2019"
-msgstr "2019 가이드스타 골드 마크"
-
-#: donate/templates/pages/core/campaign_page_master.html:73
-msgctxt "Header"
-msgid "Donate now"
-msgstr "지금 기부하기"
-
-#: donate/templates/pages/core/campaign_page_master.html:87
-#: donate/templates/pages/core/landing_page_master.html:61
+#: donate/templates/pages/core/campaign_page_master.html:72
+#: donate/templates/pages/core/landing_page_master.html:49
 msgid "Your donation is being processed..."
 msgstr "기부금을 처리하고 있습니다..."
 
-#: donate/templates/pages/core/campaign_page_master.html:96
-#: donate/templates/pages/core/landing_page_master.html:71
+#: donate/templates/pages/core/campaign_page_master.html:81
+#: donate/templates/pages/core/landing_page_master.html:59
 msgid "One moment while we get all the details right!"
 msgstr "모든 세부 사항을 확인하는 동안 잠시만 기다려 주십시오!"
 
@@ -396,6 +410,10 @@ msgstr "Mozilla는 귀하의 요청에 대해 귀하와의 통신용으로만 �
 #: donate/templates/pages/core/contributor_support_page_master.html:147
 msgid "Submit"
 msgstr "제출"
+
+#: donate/templates/pages/core/landing_page.html:23
+msgid "featured image"
+msgstr ""
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:4
 #: donate/templates/pages/core/ways_to_give_page_master.html:11
@@ -534,6 +552,14 @@ msgstr "<span class=\"%(span_class)s\">%(formatted_amount)s</span> 기부"
 msgid "Your donation helps keep the Web open and free. Thank you in advance for your gift."
 msgstr "기부금은 웹을 공유하고 자유롭게 유지하는 데 도움이 됩니다. 도와주셔서 감사합니다."
 
+#: donate/templates/payment/card_master.html:181
+msgid "Seal of Charity Navigator 4-Star"
+msgstr "채러티 네비게이터 인증 4성 마크"
+
+#: donate/templates/payment/card_master.html:184
+msgid "Seal of GuideStar Gold 2019"
+msgstr "2019 가이드스타 골드 마크"
+
 #: donate/templates/payment/card_upsell_master.html:4
 #: donate/templates/payment/paypal_upsell_master.html:4
 #: donate/templates/payment/thank_you_master.html:4
@@ -667,17 +693,17 @@ msgctxt "Page title"
 msgid "Give to Thunderbird"
 msgstr "Thunderbird에 기부하기"
 
-#: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:12
+#: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:15
 #, python-format
 msgid "Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Thunderbird. Please read our <a href=\"%(privacy_url)s\">privacy policy here</a>."
 msgstr "결제 세부 정보는 <a href=\"%(braintree_url)s\">Braintree</a>, PayPal 회사 (신용 / 직불 카드 용) 또는 <a href=\"%(paypal_url)s\">PayPal</a>에서 처리됩니다. 기부 기록은 Thunderbird에 저장됩니다. 여기에 <a href=\"%(privacy_url)s\">개인 정보 보호 정책</a>을 읽어보세요."
 
-#: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:15
+#: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:18
 #, python-format
 msgid "Monthly donations are charged each month on the same day that you donate today, and will continue until you cancel. To cancel, fill out <a href=\"%(help_url)s\">this form</a>."
 msgstr "월간 기부금은 오늘 기부 한 날에 매달 청구되며 취소 할 때까지 계속됩니다. 취소하려면 <a href=\"%(help_url)s\">이 양식</a>을 작성하세요."
 
-#: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:27
+#: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:34
 msgid "Contributions go to MZLA Technologies Corporation, a California corporation wholly owned by the Mozilla Foundation. Funds will be reserved for use in the Thunderbird project. Contributions are not tax-deductible as charitable contributions."
 msgstr "기부금은 Mozilla 재단이 전액 소유 한 캘리포니아 기업인 MZLA Technologies Corporation에 전달됩니다. 자금은 Thunderbird 프로젝트에서 사용하기 위해 예약됩니다. 기부금은 자선 기부금으로 세금 공제 대상이 아닙니다."
 
