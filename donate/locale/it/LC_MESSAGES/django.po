@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-21 15:15+0000\n"
-"PO-Revision-Date: 2023-03-21 15:44+0000\n"
+"PO-Revision-Date: 2023-03-21 15:45+0000\n"
 "Last-Translator: Francesco Lodolo [:flod] <flod+pontoon@mozilla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
@@ -222,6 +222,8 @@ msgid ""
 "Contributions go to the <a href=\"%(mozilla_url)s\">Mozilla Foundation</a>, a 501(c)(3) organization based in San Francisco, California, to be used in its discretion for its charitable purposes. "
 "They are tax-deductible in the U.S. to the fullest extent permitted by law."
 msgstr ""
+"Le donazioni sono destinate a <a href=\"%(mozilla_url)s\">Mozilla Foundation</a>, un’organizzazione 501(c)(3) con sede a San Francisco, California, e vengono utilizzate a sua discrezione per "
+"finalità senza fini di lucro. Sono deducibili fiscalmente negli Stati Uniti nella misura consentita dalla legge."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:6
 #, python-format
