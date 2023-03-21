@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-21 15:15+0000\n"
-"PO-Revision-Date: 2023-03-21 18:29+0000\n"
+"PO-Revision-Date: 2023-03-21 20:48+0000\n"
 "Last-Translator: Lan Glad <upwinxp@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
@@ -220,6 +220,8 @@ msgid ""
 "Contributions go to the <a href=\"%(mozilla_url)s\">Mozilla Foundation</a>, a 501(c)(3) organization based in San Francisco, California, to be used in its discretion for its charitable purposes. "
 "They are tax-deductible in the U.S. to the fullest extent permitted by law."
 msgstr ""
+"Prispevke prejme ustanova <a href=\"%(mozilla_url)s\">Mozilla Foundation</a>, to je organizacija, kot jo določa člen 501 (c) (3), s sedežem v San Franciscu v Kaliforniji, uporabi pa jih po lastni "
+"presoji v dobrodelne namene. V ZDA sodijo med davčne olajšave, in sicer v največji meri, kot to dovoljuje zakon."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:6
 #, python-format
@@ -418,7 +420,7 @@ msgstr "Pošlji"
 
 #: donate/templates/pages/core/landing_page.html:23
 msgid "featured image"
-msgstr ""
+msgstr "izbrana slika"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:4 donate/templates/pages/core/ways_to_give_page_master.html:11
 msgid "Ways to Give"
