@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-21 15:15+0000\n"
-"PO-Revision-Date: 2023-03-22 00:18+0000\n"
+"PO-Revision-Date: 2023-03-22 00:19+0000\n"
 "Last-Translator: Saleumsack KEOBOUALAY <saleumsack16@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: lo\n"
@@ -202,17 +202,17 @@ msgstr ""
 #: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:16
 #, python-format
 msgid "<b>Other ways to give: <a href=\"%(check_url)s\">Check</a></b>"
-msgstr ""
+msgstr "<b>ວິທີອື່ນໃນການໃຫ້: <a href=\"%(check_url)s\">ກວດເບິ່ງ</a></b>"
 
 #: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:24
 #, python-format
 msgid "<b>Question donating?</b> Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions."
-msgstr ""
+msgstr "<b>ຄຳຖາມບໍລິຈາກບໍ?</b> ເຂົ້າໄປເບິ່ງ <a href=\"%(faq_url)s\">FAQ</a> ຂອງພວກເຮົາສຳລັບຄຳຕອບຂອງຄຳຖາມທົ່ວໄປ."
 
 #: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:29
 #, python-format
 msgid "<b>Need to reach us about your donation?</b> <a href=\"%(help_url)s\">Contact us</a>."
-msgstr ""
+msgstr "<b>ຕ້ອງການຕິດຕໍ່ຫາພວກເຮົາກ່ຽວກັບການບໍລິຈາກຂອງທ່ານບໍ?</b> <a href=\"%(help_url)s\">ຕິດຕໍ່ພວກເຮົາ</a>."
 
 #: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:37
 #, python-format
@@ -220,6 +220,8 @@ msgid ""
 "Contributions go to the <a href=\"%(mozilla_url)s\">Mozilla Foundation</a>, a 501(c)(3) organization based in San Francisco, California, to be used in its discretion for its charitable purposes. "
 "They are tax-deductible in the U.S. to the fullest extent permitted by law."
 msgstr ""
+"ການປະກອບສ່ວນແມ່ນໄປຫາ <a href=\"%(mozilla_url)s\">ມູນນິທິ Mozilla</a>, ເຊິ່ງເປັນອົງການ 501(c)(3) ທີ່ຕັ້ງຢູ່ໃນ San Francisco, California, ເພື່ອນຳໃຊ້ເຂົ້າໃນການຕັດສິນໃຈເພື່ອຈຸດປະສົງການກຸສົນ. "
+"ເຂົາເຈົ້າສາມາດຫັກພາສີໄດ້ໃນສະຫະລັດໃນຂອບເຂດທີ່ກົດໝາຍອະນຸຍາດ."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:6
 #, python-format
@@ -418,7 +420,7 @@ msgstr "ສົ່ງ"
 
 #: donate/templates/pages/core/landing_page.html:23
 msgid "featured image"
-msgstr ""
+msgstr "ຮູບພາບທີ່ໂດດເດັ່ນ"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:4 donate/templates/pages/core/ways_to_give_page_master.html:11
 msgid "Ways to Give"
