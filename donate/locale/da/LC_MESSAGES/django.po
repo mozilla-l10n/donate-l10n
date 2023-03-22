@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-21 15:15+0000\n"
-"PO-Revision-Date: 2023-03-21 15:47+0000\n"
-"Last-Translator: Joergen <joergenr@stofanet.dk>\n"
+"PO-Revision-Date: 2023-03-22 07:38+0000\n"
+"Last-Translator: Mikkel Herold <mikkel@mzh.dk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
@@ -207,7 +207,7 @@ msgstr "<b>Andre måder at give bidrag på: <a href=\"%(check_url)s\">Check</a><
 #: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:24
 #, python-format
 msgid "<b>Question donating?</b> Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions."
-msgstr ""
+msgstr "<b>Har du spørgsmål?</b> Besøg vores <a href=\"%(faq_url)s\">FAQ</a> for at få svar på de mest almindelige spørgsmål."
 
 #: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:29
 #, python-format
@@ -220,6 +220,8 @@ msgid ""
 "Contributions go to the <a href=\"%(mozilla_url)s\">Mozilla Foundation</a>, a 501(c)(3) organization based in San Francisco, California, to be used in its discretion for its charitable purposes. "
 "They are tax-deductible in the U.S. to the fullest extent permitted by law."
 msgstr ""
+"Bidrag går til <a href=\"%(mozilla_url)s\">Mozilla Foundation</a>, en 501(c)(3)-organisation hjemhørende i San Francisco, Californien og anvendes til deres velgørende formål. Bidrag er "
+"fradragsberettigede i USA i henhold til gældende lovgivning."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:6
 #, python-format
