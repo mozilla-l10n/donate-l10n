@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-21 15:15+0000\n"
-"PO-Revision-Date: 2023-03-22 08:57+0000\n"
+"PO-Revision-Date: 2023-03-23 11:26+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -423,7 +423,7 @@ msgstr "Υποβολή"
 
 #: donate/templates/pages/core/landing_page.html:23
 msgid "featured image"
-msgstr ""
+msgstr "επιλεγμένη εικόνα"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:4 donate/templates/pages/core/ways_to_give_page_master.html:11
 msgid "Ways to Give"
