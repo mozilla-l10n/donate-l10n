@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-21 15:15+0000\n"
-"PO-Revision-Date: 2023-03-23 11:26+0000\n"
+"PO-Revision-Date: 2023-03-23 11:30+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -196,6 +196,8 @@ msgid ""
 "Mozilla is committed to your privacy; please read our <a href=\"%(privacy_url)s\">privacy policy here</a>. Your payment details will be processed by <a href=\"%(stripe_url)s\">Stripe</a>, or <a "
 "href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Mozilla."
 msgstr ""
+"Η Mozilla σέβεται το απόρρητό σας· παρακαλούμε διαβάστε την <a href=\"%(privacy_url)s\">πολιτική απορρήτου μας εδώ</a>. Η επεξεργασία των στοιχείων πληρωμής σας θα εκτελεστεί από την <a "
+"href=\"%(stripe_url)s\">Stripe</a> ή την <a href=\"%(paypal_url)s\">PayPal</a>, ενώ μια καταγραφή της δωρεάς σας θα αποθηκευτεί από τη Mozilla."
 
 #: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:16
 #, python-format
@@ -205,12 +207,12 @@ msgstr "<b>Άλλοι τρόποι δωρεάς: <a href=\"%(check_url)s\">Επ�
 #: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:24
 #, python-format
 msgid "<b>Question donating?</b> Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions."
-msgstr ""
+msgstr "<b>Έχετε απορίες σχετικά με τις δωρεές;</b> Επισκεφτείτε την ενότητα <a href=\"%(faq_url)s\">Συχνές ερωτήσεις</a> για απαντήσεις στις πιο κοινές απορίες."
 
 #: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:29
 #, python-format
 msgid "<b>Need to reach us about your donation?</b> <a href=\"%(help_url)s\">Contact us</a>."
-msgstr ""
+msgstr "<b>Θέλετε να επικοινωνήσετε μαζί μας σχετική με τη δωρεά σας;</b> <a href=\"%(help_url)s\">Επικοινωνήστε μαζί μας</a>."
 
 #: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:37
 #, python-format
@@ -218,6 +220,8 @@ msgid ""
 "Contributions go to the <a href=\"%(mozilla_url)s\">Mozilla Foundation</a>, a 501(c)(3) organization based in San Francisco, California, to be used in its discretion for its charitable purposes. "
 "They are tax-deductible in the U.S. to the fullest extent permitted by law."
 msgstr ""
+"Οι συνεισφορές πηγαίνουν στο <a href=\"%(mozilla_url)s\">Mozilla Foundation</a>, έναν οργανισμό 501(c)(3) με έδρα το Σαν Φρανσίσκο της Καλιφόρνια, ώστε να χρησιμοποιηθούν σύμφωνα με τη διακριτική "
+"ευχέρειά του για τους φιλανθρωπικούς σκοπούς του. Είναι εκπίπτουσες φορολογίας στις ΗΠΑ στον μέγιστο, επιτρεπτό από τη νομοθεσία, βαθμό."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:6
 #, python-format
