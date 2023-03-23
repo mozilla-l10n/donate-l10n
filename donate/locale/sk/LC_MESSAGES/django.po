@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-21 15:15+0000\n"
-"PO-Revision-Date: 2023-03-22 19:26+0000\n"
+"PO-Revision-Date: 2023-03-23 19:26+0000\n"
 "Last-Translator: wladow <valastiak@mozilla.sk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sk\n"
@@ -196,6 +196,8 @@ msgid ""
 "Mozilla is committed to your privacy; please read our <a href=\"%(privacy_url)s\">privacy policy here</a>. Your payment details will be processed by <a href=\"%(stripe_url)s\">Stripe</a>, or <a "
 "href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Mozilla."
 msgstr ""
+"Mozilla sa zaväzuje chrániť vaše súkromie: Prečítajte si prosím naše <a href=\"%(privacy_url)s\">Zásady ochrany osobných údajov</a>. Vaše platobné údaje spracujú spoločnosti <a "
+"href=\"%(stripe_url)s\">Stripe</a> alebo <a href=\"%(paypal_url)s\">PayPal</a>. Záznam o vašom dare si uloží Mozilla."
 
 #: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:16
 #, python-format
@@ -205,12 +207,12 @@ msgstr "<b>Ďalšie spôsoby darovania: <a href=\"%(check_url)s\">šek</a></b>"
 #: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:24
 #, python-format
 msgid "<b>Question donating?</b> Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions."
-msgstr ""
+msgstr "<b>Máte otázky týkajúce sa darovania?</b> Navštívte pozrite si <a href=\"%(faq_url)s\">často kladené otázky</a>, kde nájdete odpovede na najčastejšie otázky."
 
 #: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:29
 #, python-format
 msgid "<b>Need to reach us about your donation?</b> <a href=\"%(help_url)s\">Contact us</a>."
-msgstr ""
+msgstr "<b>Potrebujete sa s nami spojiť ohľadom svojho daru?</b> <a href=\"%(help_url)s\">Kontaktujte nás</a>."
 
 #: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:37
 #, python-format
@@ -218,6 +220,8 @@ msgid ""
 "Contributions go to the <a href=\"%(mozilla_url)s\">Mozilla Foundation</a>, a 501(c)(3) organization based in San Francisco, California, to be used in its discretion for its charitable purposes. "
 "They are tax-deductible in the U.S. to the fullest extent permitted by law."
 msgstr ""
+"Príspevky sú pre <a href=\"%(mozilla_url)s\">Mozilla Foundation</a>, organizáciu podľa 501(c)(3), ktorá sídli v San Franciscu v Kalifornii a budú použité na charitatívne účely. Tieto príspevky sú v "
+"USA odpočítateľné z daní v najvyššej možnej miere povolenej zákonom."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:6
 #, python-format
@@ -420,7 +424,7 @@ msgstr "Odoslať"
 
 #: donate/templates/pages/core/landing_page.html:23
 msgid "featured image"
-msgstr ""
+msgstr "odporúčaný obrázok"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:4 donate/templates/pages/core/ways_to_give_page_master.html:11
 msgid "Ways to Give"
