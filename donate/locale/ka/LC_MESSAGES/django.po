@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-21 15:15+0000\n"
-"PO-Revision-Date: 2023-03-23 16:24+0000\n"
+"PO-Revision-Date: 2023-03-23 16:32+0000\n"
 "Last-Translator: G12r <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ka\n"
@@ -207,12 +207,12 @@ msgstr "<b>სხვა გზები შემოწირულობის�
 #: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:24
 #, python-format
 msgid "<b>Question donating?</b> Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions."
-msgstr ""
+msgstr "<b>კითხვა გაქვთ შემოწირულობის თაობაზე?</b> იხილეთ ჩვენი <a href=\"%(faq_url)s\">ᲮᲓᲙ</a> ხშირად დასმული კითხვების პასუხისთვის."
 
 #: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:29
 #, python-format
 msgid "<b>Need to reach us about your donation?</b> <a href=\"%(help_url)s\">Contact us</a>."
-msgstr ""
+msgstr "<b>ჩვენთან დაკავშირება გესაჭიროებათ?</b> <a href=\"%(help_url)s\">შეგვეხმიანეთ</a>."
 
 #: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:37
 #, python-format
@@ -220,6 +220,8 @@ msgid ""
 "Contributions go to the <a href=\"%(mozilla_url)s\">Mozilla Foundation</a>, a 501(c)(3) organization based in San Francisco, California, to be used in its discretion for its charitable purposes. "
 "They are tax-deductible in the U.S. to the fullest extent permitted by law."
 msgstr ""
+"შემოწირულობების მიმღებია <a href=\"%(mozilla_url)s\">Mozilla Foundation</a>, 501(c)(3) დაწესებულება, რომლის ადგილმდებარეობაა სან-ფრანცისკო, კალიფორნია და გამოიყენება შეხედულებისამებრ საქველმოქმედო "
+"მიზნებით. გადარიცხვები ექვემდებარება გადასახადების გამოქვითვას აშშ-ში კანონის სრული დაცვით."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:6
 #, python-format
@@ -241,7 +243,7 @@ msgstr ""
 #: donate/templates/fragments/donate_form_disclaimer_master.html:28 donate/thunderbird/templates/fragments/donate_form_disclaimer.html:8
 #, python-format
 msgid "Other ways to give: <a href=\"%(check_url)s\">Check</a>"
-msgstr ""
+msgstr "სხვა გზები შემოწირულობისთვის: <a href=\"%(check_url)s\">ჩეკი</a>"
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:38 donate/thunderbird/templates/fragments/donate_form_disclaimer.html:26
 #, python-format
@@ -423,7 +425,7 @@ msgstr "გაგზავნა"
 
 #: donate/templates/pages/core/landing_page.html:23
 msgid "featured image"
-msgstr ""
+msgstr "რჩეული სურათი"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:4 donate/templates/pages/core/ways_to_give_page_master.html:11
 msgid "Ways to Give"
