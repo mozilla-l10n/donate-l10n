@@ -2,13 +2,13 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-21 15:15+0000\n"
-"PO-Revision-Date: 2023-03-18 03:30+0000\n"
+"PO-Revision-Date: 2023-03-24 14:52+0000\n"
 "Last-Translator: Quế Tùng <best.cloney.1301@gmail.com>\n"
 "Language-Team: \n"
 "Language: vi\n"
@@ -18,8 +18,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pontoon\n"
 
-#: donate/core/translation.py:12 donate/payments/forms.py:103
-#: donate/templates/forms/form_field.html:21
+#: donate/core/translation.py:12 donate/payments/forms.py:103 donate/templates/forms/form_field.html:21
 msgid "This field is required."
 msgstr "Trường này là bắt buộc."
 
@@ -36,8 +35,7 @@ msgstr "Nhập một địa chỉ email hợp lệ."
 msgid "Donations must be %(amount)s or more"
 msgstr "Khoản đóng góp phải từ %(amount)s trở lên"
 
-#: donate/payments/forms.py:108 donate/payments/forms.py:123
-#: donate/payments/forms.py:180
+#: donate/payments/forms.py:108 donate/payments/forms.py:123 donate/payments/forms.py:180
 msgid "Amount"
 msgstr "Số tiền"
 
@@ -49,8 +47,7 @@ msgstr "Tên"
 msgid "Last name"
 msgstr "Họ"
 
-#: donate/payments/forms.py:138 donate/payments/forms.py:194
-#: donate/templates/pages/core/contributor_support_page_master.html:97
+#: donate/payments/forms.py:138 donate/payments/forms.py:194 donate/templates/pages/core/contributor_support_page_master.html:97
 msgid "Email"
 msgstr "Email"
 
@@ -145,9 +142,7 @@ msgstr "Xin lỗi, trang này không tồn tại"
 msgid "Go to our home page"
 msgstr "Đi tới trang chủ của chúng tôi"
 
-#: donate/templates/base_master.html:8
-#: donate/templates/pages/base_page_master.html:14
-#: donate/templates/pages/base_page_master.html:15
+#: donate/templates/base_master.html:8 donate/templates/pages/base_page_master.html:14 donate/templates/pages/base_page_master.html:15
 msgctxt "Page title"
 msgid "Donate to Mozilla"
 msgstr "Quyên góp cho Mozilla"
@@ -160,10 +155,7 @@ msgstr "MỘT LẦN"
 msgid "MONTHLY"
 msgstr "HÀNG THÁNG"
 
-#: donate/templates/fragments/donate_form.html:41
-#: donate/templates/fragments/donate_form.html:42
-#: donate/templates/fragments/donate_form.html:118
-#: donate/templates/fragments/donate_form.html:119
+#: donate/templates/fragments/donate_form.html:41 donate/templates/fragments/donate_form.html:42 donate/templates/fragments/donate_form.html:118 donate/templates/fragments/donate_form.html:119
 msgid "Other amount"
 msgstr "Số tiền khác"
 
@@ -172,24 +164,19 @@ msgstr "Số tiền khác"
 msgid "To combat fraud, Mozilla Foundation has temporarily restricted donations to a minimum of %(min_amount)s"
 msgstr "Để chống lại gian lận, Mozilla Foundation đã tạm thời hạn chế các khoản quyên góp ở mức tối thiểu %(min_amount)s"
 
-#: donate/templates/fragments/donate_form.html:51
-#: donate/templates/fragments/donate_form.html:126
+#: donate/templates/fragments/donate_form.html:51 donate/templates/fragments/donate_form.html:126
 msgid "Invalid amount entered."
 msgstr "Số tiền đã nhập không hợp lệ."
 
-#: donate/templates/fragments/donate_form.html:58
-#: donate/templates/fragments/donate_form.html:133
+#: donate/templates/fragments/donate_form.html:58 donate/templates/fragments/donate_form.html:133
 msgid "Choose Payment"
 msgstr "Chọn phương thức thanh toán"
 
-#: donate/templates/fragments/donate_form.html:64
-#: donate/templates/fragments/donate_form.html:139
-#: donate/templates/payment/card_master.html:111
+#: donate/templates/fragments/donate_form.html:64 donate/templates/fragments/donate_form.html:139 donate/templates/payment/card_master.html:111
 msgid "SECURE"
 msgstr "AN TOÀN"
 
-#: donate/templates/fragments/donate_form.html:70
-#: donate/templates/fragments/donate_form.html:145
+#: donate/templates/fragments/donate_form.html:70 donate/templates/fragments/donate_form.html:145
 msgid "Donate"
 msgstr "Quyên góp"
 
@@ -197,21 +184,22 @@ msgstr "Quyên góp"
 msgid "per month"
 msgstr "mỗi tháng"
 
-#: donate/templates/fragments/donate_form.html:123
-#: donate/thunderbird/templates/fragments/donate_form.html:6
+#: donate/templates/fragments/donate_form.html:123 donate/thunderbird/templates/fragments/donate_form.html:6
 #, python-format
 msgid "Minimum amount is %(min_amount)s"
 msgstr "Số tiền tối thiểu là %(min_amount)s"
 
 #: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:8
 #, python-format
-msgid "Mozilla is committed to your privacy; please read our <a href=\"%(privacy_url)s\">privacy policy here</a>. Your payment details will be processed by <a href=\"%(stripe_url)s\">Stripe</a>, or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Mozilla."
+msgid ""
+"Mozilla is committed to your privacy; please read our <a href=\"%(privacy_url)s\">privacy policy here</a>. Your payment details will be processed by <a href=\"%(stripe_url)s\">Stripe</a>, or <a "
+"href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Mozilla."
 msgstr ""
 
 #: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:16
 #, python-format
 msgid "<b>Other ways to give: <a href=\"%(check_url)s\">Check</a></b>"
-msgstr ""
+msgstr "<b>Các cách khác để quyên góp: <a href=\"%(check_url)s\">Séc</a></b>"
 
 #: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:24
 #, python-format
@@ -225,37 +213,48 @@ msgstr ""
 
 #: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:37
 #, python-format
-msgid "Contributions go to the <a href=\"%(mozilla_url)s\">Mozilla Foundation</a>, a 501(c)(3) organization based in San Francisco, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
+msgid ""
+"Contributions go to the <a href=\"%(mozilla_url)s\">Mozilla Foundation</a>, a 501(c)(3) organization based in San Francisco, California, to be used in its discretion for its charitable purposes. "
+"They are tax-deductible in the U.S. to the fullest extent permitted by law."
 msgstr ""
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:6
 #, python-format
-msgid "Mozilla is committed to your privacy; please read our <a href=\"%(privacy_url)s\">privacy policy here</a>. Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Mozilla."
-msgstr "Mozilla cam kết bảo mật của bạn; vui lòng đọc <a href=\"%(privacy_url)s\">chính sách bảo mật của chúng tôi tại đây</a>. Chi tiết thanh toán của bạn sẽ được xử lý bởi <a href=\"%(braintree_url)s\">Braintree</a>, một công ty PayPal (đối với thẻ tín dụng/thẻ ghi nợ) hoặc <a href=\"%(paypal_url)s\">PayPal</a> và hồ sơ về khoản đóng góp của bạn sẽ được Mozilla lưu trữ."
+msgid ""
+"Mozilla is committed to your privacy; please read our <a href=\"%(privacy_url)s\">privacy policy here</a>. Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a "
+"PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Mozilla."
+msgstr ""
+"Mozilla cam kết bảo mật của bạn; vui lòng đọc <a href=\"%(privacy_url)s\">chính sách bảo mật của chúng tôi tại đây</a>. Chi tiết thanh toán của bạn sẽ được xử lý bởi <a "
+"href=\"%(braintree_url)s\">Braintree</a>, một công ty PayPal (đối với thẻ tín dụng/thẻ ghi nợ) hoặc <a href=\"%(paypal_url)s\">PayPal</a> và hồ sơ về khoản đóng góp của bạn sẽ được Mozilla lưu trữ."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:9
 #, python-format
 msgid "Monthly donations are charged each month on the same day that you donate today, and will continue until you cancel. To cancel, email us at <a href=\"mailto:%(email)s\">%(email)s</a>."
-msgstr "Các khoản đóng góp hàng tháng được tính phí mỗi tháng vào cùng ngày bạn đóng góp hôm nay và sẽ tiếp tục cho đến khi bạn hủy. Để hủy, hãy gửi email cho chúng tôi theo địa chỉ <a href=\"mailto:%(email)s\">%(email)s</a>."
+msgstr ""
+"Các khoản đóng góp hàng tháng được tính phí mỗi tháng vào cùng ngày bạn đóng góp hôm nay và sẽ tiếp tục cho đến khi bạn hủy. Để hủy, hãy gửi email cho chúng tôi theo địa chỉ <a "
+"href=\"mailto:%(email)s\">%(email)s</a>."
 
-#: donate/templates/fragments/donate_form_disclaimer_master.html:28
-#: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:8
+#: donate/templates/fragments/donate_form_disclaimer_master.html:28 donate/thunderbird/templates/fragments/donate_form_disclaimer.html:8
 #, python-format
 msgid "Other ways to give: <a href=\"%(check_url)s\">Check</a>"
 msgstr "Các cách khác để quyên góp: <a href=\"%(check_url)s\">Séc</a>"
 
-#: donate/templates/fragments/donate_form_disclaimer_master.html:38
-#: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:26
+#: donate/templates/fragments/donate_form_disclaimer_master.html:38 donate/thunderbird/templates/fragments/donate_form_disclaimer.html:26
 #, python-format
 msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"%(help_url)s\">Contact us</a>."
-msgstr "Sự cố khi quyên góp? Truy cập <a href=\"%(faq_url)s\">Câu hỏi thường gặp</a> của chúng tôi để có câu trả lời cho hầu hết các câu hỏi phổ biến. Vẫn có vấn đề? <a href=\"%(help_url)s\">Liên hệ với chúng tôi</a>."
+msgstr ""
+"Sự cố khi quyên góp? Truy cập <a href=\"%(faq_url)s\">Câu hỏi thường gặp</a> của chúng tôi để có câu trả lời cho hầu hết các câu hỏi phổ biến. Vẫn có vấn đề? <a href=\"%(help_url)s\">Liên hệ với "
+"chúng tôi</a>."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:46
-msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in San Francisco, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
-msgstr "Các khoản đóng góp sẽ được chuyển đến Tổ chức Mozilla, một tổ chức 501(c)(3) có trụ sở tại San Francisco, California, để được sử dụng tùy ý cho các mục đích từ thiện của mình. Chúng được khấu trừ thuế ở Hoa Kỳ trong phạm vi tối đa được pháp luật cho phép."
+msgid ""
+"Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in San Francisco, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S."
+" to the fullest extent permitted by law."
+msgstr ""
+"Các khoản đóng góp sẽ được chuyển đến Tổ chức Mozilla, một tổ chức 501(c)(3) có trụ sở tại San Francisco, California, để được sử dụng tùy ý cho các mục đích từ thiện của mình. Chúng được khấu trừ "
+"thuế ở Hoa Kỳ trong phạm vi tối đa được pháp luật cho phép."
 
-#: donate/templates/fragments/language_switcher.html:10
-#: donate/templates/pages/core/contributor_support_page_master.html:102
+#: donate/templates/fragments/language_switcher.html:10 donate/templates/pages/core/contributor_support_page_master.html:102
 msgid "Language"
 msgstr "Ngôn ngữ"
 
@@ -281,28 +280,28 @@ msgstr "Blog"
 
 #: donate/templates/pages/base_page_master.html:183
 #, python-format
-msgid "Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a %(fomo_link_attributes)s>%(fomo_site_url)s</a>. Most content available under a <a %(cc_link_attributes)s>Creative Commons license</a>."
-msgstr "Mozilla là một tổ chức phi lợi nhuận toàn cầu chuyên giúp bạn kiểm soát trải nghiệm trực tuyến của mình và định hình tương lai của web vì lợi ích công cộng. Ghé thăm chúng tôi tại <a %(fomo_link_attributes)s>%(fomo_site_url)s</a>. Hầu hết nội dung có sẵn dưới dạng <a %(cc_link_attributes)s>giấy phép Creative Commons</a>."
+msgid ""
+"Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a "
+"%(fomo_link_attributes)s>%(fomo_site_url)s</a>. Most content available under a <a %(cc_link_attributes)s>Creative Commons license</a>."
+msgstr ""
+"Mozilla là một tổ chức phi lợi nhuận toàn cầu chuyên giúp bạn kiểm soát trải nghiệm trực tuyến của mình và định hình tương lai của web vì lợi ích công cộng. Ghé thăm chúng tôi tại <a "
+"%(fomo_link_attributes)s>%(fomo_site_url)s</a>. Hầu hết nội dung có sẵn dưới dạng <a %(cc_link_attributes)s>giấy phép Creative Commons</a>."
 
-#: donate/templates/pages/core/campaign_page.html:42
-#: donate/templates/pages/core/campaign_page_master.html:58
+#: donate/templates/pages/core/campaign_page.html:42 donate/templates/pages/core/campaign_page_master.html:58
 msgctxt "Header"
 msgid "Donate now"
 msgstr "Quyên góp ngay"
 
-#: donate/templates/pages/core/campaign_page_master.html:43
-#: donate/templates/pages/core/ways_to_give_page_master.html:12
+#: donate/templates/pages/core/campaign_page_master.html:43 donate/templates/pages/core/ways_to_give_page_master.html:12
 msgctxt "Button"
 msgid "DONATE NOW"
 msgstr "QUYÊN GÓP NGAY"
 
-#: donate/templates/pages/core/campaign_page_master.html:72
-#: donate/templates/pages/core/landing_page_master.html:49
+#: donate/templates/pages/core/campaign_page_master.html:72 donate/templates/pages/core/landing_page_master.html:49
 msgid "Your donation is being processed..."
 msgstr "Khoản quyên góp của bạn đang được xử lý..."
 
-#: donate/templates/pages/core/campaign_page_master.html:81
-#: donate/templates/pages/core/landing_page_master.html:59
+#: donate/templates/pages/core/campaign_page_master.html:81 donate/templates/pages/core/landing_page_master.html:59
 msgid "One moment while we get all the details right!"
 msgstr "Chờ một chút trong khi chúng tôi đang nhận tất cả các thông tin chính xác!"
 
@@ -319,13 +318,21 @@ msgid "If you need help with a donation to the Mozilla Foundation, please fill o
 msgstr "Nếu bạn cần trợ giúp về khoản đóng góp cho Tổ chức Mozilla, vui lòng điền vào biểu mẫu này và đại diện chăm sóc của nhà tài trợ sẽ liên hệ lại với bạn trong thời gian sớm nhất."
 
 #: donate/templates/pages/core/contributor_support_page_master.html:72
-msgid "Unfortunately, donor care representatives are unable to offer support or help with Firefox technical issues, or changes to or questions about Mozilla VPN subscriptions. Related questions submitted through this form will not be responded to."
-msgstr "Rất tiếc, đại diện chăm sóc của các nhà tài trợ không thể cung cấp hỗ trợ hoặc trợ giúp về các vấn đề kỹ thuật của Firefox, hoặc các thay đổi hoặc câu hỏi về thuê bao Mozilla VPN. Các câu hỏi liên quan được gửi qua biểu mẫu này sẽ không được trả lời."
+msgid ""
+"Unfortunately, donor care representatives are unable to offer support or help with Firefox technical issues, or changes to or questions about Mozilla VPN subscriptions. Related questions submitted "
+"through this form will not be responded to."
+msgstr ""
+"Rất tiếc, đại diện chăm sóc của các nhà tài trợ không thể cung cấp hỗ trợ hoặc trợ giúp về các vấn đề kỹ thuật của Firefox, hoặc các thay đổi hoặc câu hỏi về thuê bao Mozilla VPN. Các câu hỏi liên "
+"quan được gửi qua biểu mẫu này sẽ không được trả lời."
 
 #: donate/templates/pages/core/contributor_support_page_master.html:77
 #, python-format
-msgid "For technical support, please visit the <a href=\"%(firefox_support_url)s\">Firefox support page</a>. For help with a VPN subscription, please visit the <a href=\"%(vpn_support_url)s\">Mozilla VPN Support page</a>."
-msgstr "Để được hỗ trợ kỹ thuật, vui lòng truy cập <a href=\"%(firefox_support_url)s\">trang hỗ trợ của Firefox</a>. Để được trợ giúp về thuê bao VPN, vui lòng truy cập <a href=\"%(vpn_support_url)s\">trang Hỗ trợ Mozilla VPN</a>."
+msgid ""
+"For technical support, please visit the <a href=\"%(firefox_support_url)s\">Firefox support page</a>. For help with a VPN subscription, please visit the <a href=\"%(vpn_support_url)s\">Mozilla VPN "
+"Support page</a>."
+msgstr ""
+"Để được hỗ trợ kỹ thuật, vui lòng truy cập <a href=\"%(firefox_support_url)s\">trang hỗ trợ của Firefox</a>. Để được trợ giúp về thuê bao VPN, vui lòng truy cập <a href=\"%(vpn_support_url)s\">trang"
+" Hỗ trợ Mozilla VPN</a>."
 
 #: donate/templates/pages/core/contributor_support_page_master.html:92
 msgid "Contact Name"
@@ -414,8 +421,7 @@ msgstr "Gửi"
 msgid "featured image"
 msgstr ""
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:4
-#: donate/templates/pages/core/ways_to_give_page_master.html:11
+#: donate/templates/pages/core/ways_to_give_page_master.html:4 donate/templates/pages/core/ways_to_give_page_master.html:11
 msgid "Ways to Give"
 msgstr "Các cách để tặng"
 
@@ -434,8 +440,12 @@ msgstr "Tặng cổ phiếu/chứng khoán:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:26
 #, python-format
-msgid "The Mozilla Foundation is happy to accept your gift of publicly-traded stocks or bonds through our brokerage account at Northern Trust Securities. Please contact Major Gift Officer %(name)s at <a href=\"mailto:%(email)s\">%(email)s</a> to initiate the process."
-msgstr "Tổ chức Mozilla vui mừng nhận quà của bạn là cổ phiếu hoặc trái phiếu được giao dịch công khai thông qua tài khoản môi giới của chúng tôi tại Northern Trust Securities. Vui lòng liên hệ với nhân viên quản lý quà tặng %(name)s tại <a href=\"mailto:%(email)s\">%(email)s</a> để bắt đầu quá trình."
+msgid ""
+"The Mozilla Foundation is happy to accept your gift of publicly-traded stocks or bonds through our brokerage account at Northern Trust Securities. Please contact Major Gift Officer %(name)s at <a "
+"href=\"mailto:%(email)s\">%(email)s</a> to initiate the process."
+msgstr ""
+"Tổ chức Mozilla vui mừng nhận quà của bạn là cổ phiếu hoặc trái phiếu được giao dịch công khai thông qua tài khoản môi giới của chúng tôi tại Northern Trust Securities. Vui lòng liên hệ với nhân "
+"viên quản lý quà tặng %(name)s tại <a href=\"mailto:%(email)s\">%(email)s</a> để bắt đầu quá trình."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:35
 msgid "Check (via postal service)"
@@ -446,18 +456,25 @@ msgid "UPDATE October 2020:"
 msgstr "CẬP NHẬT Tháng 10 năm 2020:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:40
-msgid "The Mozilla Foundation is happy to accept your donation (made payable to “Mozilla Foundation”) via check; however please note that processing and acknowledgment of your gift may be delayed by changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
-msgstr "Tổ chức Mozilla rất vui khi chấp nhận khoản đóng góp của bạn (được trả cho “Mozilla Foundation”) qua séc; tuy nhiên, xin lưu ý rằng việc xử lý và nhận quà của bạn có thể bị trì hoãn do những thay đổi đối với thủ tục văn phòng của chúng tôi do đại dịch COVID-19. Bạn có thể gửi séc tới:"
+msgid ""
+"The Mozilla Foundation is happy to accept your donation (made payable to “Mozilla Foundation”) via check; however please note that processing and acknowledgment of your gift may be delayed by "
+"changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
+msgstr ""
+"Tổ chức Mozilla rất vui khi chấp nhận khoản đóng góp của bạn (được trả cho “Mozilla Foundation”) qua séc; tuy nhiên, xin lưu ý rằng việc xử lý và nhận quà của bạn có thể bị trì hoãn do những thay "
+"đổi đối với thủ tục văn phòng của chúng tôi do đại dịch COVID-19. Bạn có thể gửi séc tới:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:57
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:21
+#: donate/templates/pages/core/ways_to_give_page_master.html:57 donate/thunderbird/templates/pages/core/ways_to_give_page.html:21
 msgid "Please include your email address on the memo line of your check to help us track and attribute your gift."
 msgstr "Vui lòng ghi địa chỉ email của bạn vào dòng ghi nhớ của séc để giúp chúng tôi theo dõi và xác định quà tặng của bạn."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:64
 #, python-format
-msgid "Please also note that the Mozilla Foundation can <strong>only</strong> accept checks in U.S. dollars drawn on a U.S. bank, and <strong>cannot</strong> accept contributions for MZLA/Thunderbird. (Contributions to MZLA/Thunderbird via check can be made by following <a href=\"%(instruction_url)s\" target=\"_blank\">these instructions</a>.)"
-msgstr "Cũng xin lưu ý rằng Tổ chức Mozilla <strong>chỉ có thể</strong> chấp nhận séc bằng đô la Mỹ được rút tại ngân hàng Hoa Kỳ và <strong>không thể</strong> chấp nhận các khoản đóng góp cho MZLA/Thunderbird. (Bạn có thể đóng góp cho MZLA/Thunderbird qua séc bằng cách làm theo <a href=\"%(instruction_url)s\" target=\"_blank\">hướng dẫn này</a>.)"
+msgid ""
+"Please also note that the Mozilla Foundation can <strong>only</strong> accept checks in U.S. dollars drawn on a U.S. bank, and <strong>cannot</strong> accept contributions for MZLA/Thunderbird. "
+"(Contributions to MZLA/Thunderbird via check can be made by following <a href=\"%(instruction_url)s\" target=\"_blank\">these instructions</a>.)"
+msgstr ""
+"Cũng xin lưu ý rằng Tổ chức Mozilla <strong>chỉ có thể</strong> chấp nhận séc bằng đô la Mỹ được rút tại ngân hàng Hoa Kỳ và <strong>không thể</strong> chấp nhận các khoản đóng góp cho "
+"MZLA/Thunderbird. (Bạn có thể đóng góp cho MZLA/Thunderbird qua séc bằng cách làm theo <a href=\"%(instruction_url)s\" target=\"_blank\">hướng dẫn này</a>.)"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:71
 msgid "Currencies"
@@ -505,9 +522,7 @@ msgstr "Chúng tôi không thể nhận thanh toán vì bộ xử lý thanh toá
 msgid "Please correct these errors and try again."
 msgstr "Vui lòng sửa những lỗi này và thử lại."
 
-#: donate/templates/payment/card_master.html:82
-#: donate/templates/payment/card_upsell_master.html:34
-#: donate/templates/payment/newsletter_signup_master.html:30
+#: donate/templates/payment/card_master.html:82 donate/templates/payment/card_upsell_master.html:34 donate/templates/payment/newsletter_signup_master.html:30
 #: donate/templates/payment/paypal_upsell_master.html:34
 msgid "There were some errors with your form. Please amend the fields highlighted below."
 msgstr "Có một số lỗi với biểu mẫu của bạn. Vui lòng sửa đổi các trường được đánh dấu bên dưới."
@@ -530,8 +545,14 @@ msgstr "CVV"
 
 #: donate/templates/payment/card_master.html:140
 #, python-format
-msgid "I authorize Mozilla Foundation to automatically charge my card every month in the amount indicated above, starting today and continuing each month on the same day, until I cancel. I understand that I must cancel at least 5 days before the next scheduled donation by email to <a href='mailto:%(email)s'>%(email)s</a>, and that I may only request a refund within 15 days from the date of a donation."
-msgstr "Tôi cho phép Tổ chức Mozilla tự động tính phí thẻ của tôi hàng tháng với số tiền đã nêu ở trên, bắt đầu từ hôm nay và tiếp tục hàng tháng vào cùng ngày, cho đến khi tôi hủy. Tôi hiểu rằng tôi phải hủy ít nhất 5 ngày trước khi đóng góp theo lịch trình tiếp theo qua email tới <a href='mailto:%(email)s'>%(email)s</a> và rằng tôi chỉ có thể yêu cầu hoàn lại tiền trong vòng 15 ngày kể từ ngày quyên góp."
+msgid ""
+"I authorize Mozilla Foundation to automatically charge my card every month in the amount indicated above, starting today and continuing each month on the same day, until I cancel. I understand that "
+"I must cancel at least 5 days before the next scheduled donation by email to <a href='mailto:%(email)s'>%(email)s</a>, and that I may only request a refund within 15 days from the date of a "
+"donation."
+msgstr ""
+"Tôi cho phép Tổ chức Mozilla tự động tính phí thẻ của tôi hàng tháng với số tiền đã nêu ở trên, bắt đầu từ hôm nay và tiếp tục hàng tháng vào cùng ngày, cho đến khi tôi hủy. Tôi hiểu rằng tôi phải "
+"hủy ít nhất 5 ngày trước khi đóng góp theo lịch trình tiếp theo qua email tới <a href='mailto:%(email)s'>%(email)s</a> và rằng tôi chỉ có thể yêu cầu hoàn lại tiền trong vòng 15 ngày kể từ ngày "
+"quyên góp."
 
 #: donate/templates/payment/card_master.html:142
 msgid "I authorize Mozilla Foundation to charge my card in the amount indicated above. I understand that I may only request a refund within 15 days from the date of the donation."
@@ -559,27 +580,20 @@ msgstr "Seal of Charity Navigator 4 sao"
 msgid "Seal of GuideStar Gold 2019"
 msgstr "Seal of GuideStar Gold 2019"
 
-#: donate/templates/payment/card_upsell_master.html:4
-#: donate/templates/payment/paypal_upsell_master.html:4
-#: donate/templates/payment/thank_you_master.html:4
+#: donate/templates/payment/card_upsell_master.html:4 donate/templates/payment/paypal_upsell_master.html:4 donate/templates/payment/thank_you_master.html:4
 msgid "Thank you"
 msgstr "Cảm ơn bạn"
 
-#: donate/templates/payment/card_upsell_master.html:13
-#: donate/templates/payment/newsletter_signup_master.html:13
-#: donate/templates/payment/paypal_upsell_master.html:13
-#: donate/templates/payment/thank_you_master.html:12
-#: donate/thunderbird/templates/payment/newsletter_signup.html:6
+#: donate/templates/payment/card_upsell_master.html:13 donate/templates/payment/newsletter_signup_master.html:13 donate/templates/payment/paypal_upsell_master.html:13
+#: donate/templates/payment/thank_you_master.html:12 donate/thunderbird/templates/payment/newsletter_signup.html:6
 msgid "Thank you for your generous gift"
 msgstr "Cảm ơn vì món quà hào phóng của bạn"
 
-#: donate/templates/payment/card_upsell_master.html:17
-#: donate/templates/payment/paypal_upsell_master.html:17
+#: donate/templates/payment/card_upsell_master.html:17 donate/templates/payment/paypal_upsell_master.html:17
 msgid "We’d love to have you as a sustaining supporter of Mozilla. <b>Could you add a monthly donation starting next month?</b>"
 msgstr "Chúng tôi rất muốn có bạn là người ủng hộ lâu dài của Mozilla. <b>Bạn có thể thêm khoản đóng góp hàng tháng bắt đầu từ tháng sau không?</b>"
 
-#: donate/templates/payment/card_upsell_master.html:21
-#: donate/templates/payment/paypal_upsell_master.html:21
+#: donate/templates/payment/card_upsell_master.html:21 donate/templates/payment/paypal_upsell_master.html:21
 msgid "Yes, I will give:"
 msgstr "Có, tôi sẽ đóng góp:"
 
@@ -589,15 +603,18 @@ msgstr "Hàng tháng"
 
 #: donate/templates/payment/card_upsell_master.html:50
 #, python-format
-msgid "I authorize Mozilla Foundation to automatically charge my card every month in the amount indicated above, starting next month on the same date as today, and continuing each month afterwards until I cancel. I understand that I must cancel at least 5 days before the next scheduled donation by email to %(email)s, and that I may only request a refund within 15 days from the date of a donation."
-msgstr "Tôi cho phép Tổ chức Mozilla tự động tính phí thẻ của tôi hàng tháng với số tiền đã nêu ở trên, bắt đầu từ tháng sau vào cùng ngày với ngày hôm nay và tiếp tục hàng tháng sau đó cho đến khi tôi hủy. Tôi hiểu rằng tôi phải hủy ít nhất 5 ngày trước khi đóng góp theo lịch trình tiếp theo qua email tới %(email)s, và tôi chỉ có thể yêu cầu hoàn lại tiền trong vòng 15 ngày kể từ ngày đóng góp."
+msgid ""
+"I authorize Mozilla Foundation to automatically charge my card every month in the amount indicated above, starting next month on the same date as today, and continuing each month afterwards until I "
+"cancel. I understand that I must cancel at least 5 days before the next scheduled donation by email to %(email)s, and that I may only request a refund within 15 days from the date of a donation."
+msgstr ""
+"Tôi cho phép Tổ chức Mozilla tự động tính phí thẻ của tôi hàng tháng với số tiền đã nêu ở trên, bắt đầu từ tháng sau vào cùng ngày với ngày hôm nay và tiếp tục hàng tháng sau đó cho đến khi tôi hủy."
+" Tôi hiểu rằng tôi phải hủy ít nhất 5 ngày trước khi đóng góp theo lịch trình tiếp theo qua email tới %(email)s, và tôi chỉ có thể yêu cầu hoàn lại tiền trong vòng 15 ngày kể từ ngày đóng góp."
 
 #: donate/templates/payment/card_upsell_master.html:57
 msgid "Donate Monthly"
 msgstr "Quyên góp hàng tháng"
 
-#: donate/templates/payment/card_upsell_master.html:60
-#: donate/templates/payment/newsletter_signup_master.html:42
+#: donate/templates/payment/card_upsell_master.html:60 donate/templates/payment/newsletter_signup_master.html:42
 msgid "No Thanks"
 msgstr "Không, cảm ơn"
 
@@ -621,11 +638,11 @@ msgstr "/ Hàng tháng"
 msgid "No"
 msgstr "Không"
 
-#: donate/templates/payment/thank_you_master.html:15
-#: donate/thunderbird/templates/payment/thank_you.html:6
+#: donate/templates/payment/thank_you_master.html:15 donate/thunderbird/templates/payment/thank_you.html:6
 #, python-format
 msgid "We’ve emailed you a donation receipt; if it’s missing, please check your junk/spam folders, then contact us using <a href=\"%(url)s\">this form</a>."
-msgstr "Chúng tôi đã gửi cho bạn biên nhận đóng góp qua email; nếu thiếu, vui lòng kiểm tra thư mục rác/thư rác của bạn, sau đó liên hệ với chúng tôi bằng cách sử dụng <a href=\"%(url)s\">biểu mẫu này</a>."
+msgstr ""
+"Chúng tôi đã gửi cho bạn biên nhận đóng góp qua email; nếu thiếu, vui lòng kiểm tra thư mục rác/thư rác của bạn, sau đó liên hệ với chúng tôi bằng cách sử dụng <a href=\"%(url)s\">biểu mẫu này</a>."
 
 #: donate/templates/payment/thank_you_master.html:16
 msgid "Lastly, can you multiply your impact by sharing about the important work Mozilla is doing? Thank you again!"
@@ -641,42 +658,33 @@ msgctxt "Email subject line"
 msgid "I donated to Mozilla today"
 msgstr "Tôi đã tặng cho Mozilla hôm nay"
 
-#: donate/templates/payment/thank_you_master.html:26
-#: donate/thunderbird/templates/payment/thank_you.html:15
+#: donate/templates/payment/thank_you_master.html:26 donate/thunderbird/templates/payment/thank_you.html:15
 msgid "Share on Facebook"
 msgstr "Chia sẻ trên Facebook"
 
-#: donate/templates/payment/thank_you_master.html:30
-#: donate/thunderbird/templates/pages/base_page.html:44
-#: donate/thunderbird/templates/payment/thank_you.html:19
+#: donate/templates/payment/thank_you_master.html:30 donate/thunderbird/templates/pages/base_page.html:44 donate/thunderbird/templates/payment/thank_you.html:19
 msgid "Facebook"
 msgstr "Facebook"
 
-#: donate/templates/payment/thank_you_master.html:33
-#: donate/thunderbird/templates/payment/thank_you.html:22
+#: donate/templates/payment/thank_you_master.html:33 donate/thunderbird/templates/payment/thank_you.html:22
 msgid "Share on Twitter"
 msgstr "Chia sẻ trên Twitter"
 
-#: donate/templates/payment/thank_you_master.html:37
-#: donate/thunderbird/templates/pages/base_page.html:38
-#: donate/thunderbird/templates/payment/thank_you.html:26
+#: donate/templates/payment/thank_you_master.html:37 donate/thunderbird/templates/pages/base_page.html:38 donate/thunderbird/templates/payment/thank_you.html:26
 msgid "Twitter"
 msgstr "Twitter"
 
-#: donate/templates/payment/thank_you_master.html:43
-#: donate/thunderbird/templates/payment/thank_you.html:32
+#: donate/templates/payment/thank_you_master.html:43 donate/thunderbird/templates/payment/thank_you.html:32
 msgctxt "Share button"
 msgid "Email"
 msgstr "Email"
 
-#: donate/templates/payment/thank_you_master.html:53
-#: donate/thunderbird/templates/payment/thank_you.html:42
+#: donate/templates/payment/thank_you_master.html:53 donate/thunderbird/templates/payment/thank_you.html:42
 msgctxt "Share button"
 msgid "Link"
 msgstr "Liên kết"
 
-#: donate/templates/payment/thank_you_master.html:54
-#: donate/thunderbird/templates/payment/thank_you.html:43
+#: donate/templates/payment/thank_you_master.html:54 donate/thunderbird/templates/payment/thank_you.html:43
 msgid "Copied"
 msgstr "Đã sao chép"
 
@@ -684,9 +692,7 @@ msgstr "Đã sao chép"
 msgid "Back"
 msgstr "Quay lại"
 
-#: donate/thunderbird/templates/base.html:24
-#: donate/thunderbird/templates/pages/base_page.html:9
-#: donate/thunderbird/templates/pages/base_page.html:16
+#: donate/thunderbird/templates/base.html:24 donate/thunderbird/templates/pages/base_page.html:9 donate/thunderbird/templates/pages/base_page.html:16
 #: donate/thunderbird/templates/pages/base_page.html:17
 msgctxt "Page title"
 msgid "Give to Thunderbird"
@@ -694,8 +700,12 @@ msgstr "Tặng cho Thunderbird"
 
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:15
 #, python-format
-msgid "Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Thunderbird. Please read our <a href=\"%(privacy_url)s\">privacy policy here</a>."
-msgstr "Chi tiết thanh toán của bạn sẽ được xử lý bởi <a href=\"%(braintree_url)s\">Braintree</a>, một công ty PayPal (đối với thẻ tín dụng/thẻ ghi nợ) hoặc <a href=\"%(paypal_url)s\">PayPal</a> và hồ sơ về khoản đóng góp của bạn sẽ được Thunderbird lưu trữ. Vui lòng đọc <a href=\"%(privacy_url)s\">chính sách riêng tư của chúng tôi tại đây</a>."
+msgid ""
+"Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your "
+"donation will be stored by Thunderbird. Please read our <a href=\"%(privacy_url)s\">privacy policy here</a>."
+msgstr ""
+"Chi tiết thanh toán của bạn sẽ được xử lý bởi <a href=\"%(braintree_url)s\">Braintree</a>, một công ty PayPal (đối với thẻ tín dụng/thẻ ghi nợ) hoặc <a href=\"%(paypal_url)s\">PayPal</a> và hồ sơ về"
+" khoản đóng góp của bạn sẽ được Thunderbird lưu trữ. Vui lòng đọc <a href=\"%(privacy_url)s\">chính sách riêng tư của chúng tôi tại đây</a>."
 
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:18
 #, python-format
@@ -703,8 +713,12 @@ msgid "Monthly donations are charged each month on the same day that you donate 
 msgstr "Các khoản đóng góp hàng tháng được tính phí mỗi tháng vào cùng ngày bạn đóng góp hôm nay và sẽ tiếp tục cho đến khi bạn hủy. Để hủy, hãy điền vào <a href=\"%(help_url)s\">biểu mẫu này</a>."
 
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:34
-msgid "Contributions go to MZLA Technologies Corporation, a California corporation wholly owned by the Mozilla Foundation. Funds will be reserved for use in the Thunderbird project. Contributions are not tax-deductible as charitable contributions."
-msgstr "Các khoản đóng góp sẽ được chuyển đến MZLA Technologies Corporation, một công ty ở California do Tổ chức Mozilla sở hữu hoàn toàn. Kinh phí sẽ được dành để sử dụng cho dự án Thunderbird. Các khoản đóng góp không được khấu trừ thuế như các khoản đóng góp từ thiện."
+msgid ""
+"Contributions go to MZLA Technologies Corporation, a California corporation wholly owned by the Mozilla Foundation. Funds will be reserved for use in the Thunderbird project. Contributions are not "
+"tax-deductible as charitable contributions."
+msgstr ""
+"Các khoản đóng góp sẽ được chuyển đến MZLA Technologies Corporation, một công ty ở California do Tổ chức Mozilla sở hữu hoàn toàn. Kinh phí sẽ được dành để sử dụng cho dự án Thunderbird. Các khoản "
+"đóng góp không được khấu trừ thuế như các khoản đóng góp từ thiện."
 
 #: donate/thunderbird/templates/pages/base_page.html:53
 msgid "Cookies"
@@ -729,7 +743,9 @@ msgstr "Riêng tư"
 #: donate/thunderbird/templates/pages/base_page.html:75
 #, python-format
 msgid "Portions of this content are ©1998–%(current_year)s by individual contributors. Content available under a <a %(link_attributes)s>Creative Commons license</a>"
-msgstr "Các phần nội dung trong trang này được giữ bản quyền ©1998–%(current_year)s bởi những người đóng góp cho mozilla.org. Nội dung được phát hành với <a %(link_attributes)s>giấy phép Creative Commons</a>"
+msgstr ""
+"Các phần nội dung trong trang này được giữ bản quyền ©1998–%(current_year)s bởi những người đóng góp cho mozilla.org. Nội dung được phát hành với <a %(link_attributes)s>giấy phép Creative "
+"Commons</a>"
 
 #: donate/thunderbird/templates/pages/core/contributor_support_page.html:6
 msgid "If you need help with a contribution to MZLA/Thunderbird, please fill out this form and a Thunderbird donor care representative will get back to you as soon as possible."
@@ -737,8 +753,11 @@ msgstr "Nếu bạn cần trợ giúp về khoản đóng góp cho MZLA/Thunderb
 
 #: donate/thunderbird/templates/pages/core/contributor_support_page.html:12
 #, python-format
-msgid "Unfortunately, donor care representatives are unable to offer support or help with Thunderbird technical issues. For technical support, please visit our <a href=\"%(support_url)s\">support page.</a>"
-msgstr "Rất tiếc, đại diện nhà tài trợ không thể cung cấp hỗ trợ hoặc trợ giúp về các vấn đề kỹ thuật của Thunderbird. Để được hỗ trợ kỹ thuật, vui lòng truy cập <a href=\"%(support_url)s\">trang hỗ trợ của chúng tôi.</a>"
+msgid ""
+"Unfortunately, donor care representatives are unable to offer support or help with Thunderbird technical issues. For technical support, please visit our <a href=\"%(support_url)s\">support page.</a>"
+msgstr ""
+"Rất tiếc, đại diện nhà tài trợ không thể cung cấp hỗ trợ hoặc trợ giúp về các vấn đề kỹ thuật của Thunderbird. Để được hỗ trợ kỹ thuật, vui lòng truy cập <a href=\"%(support_url)s\">trang hỗ trợ của"
+" chúng tôi.</a>"
 
 #: donate/thunderbird/templates/pages/core/landing_page.html:7
 #, python-format
@@ -746,8 +765,12 @@ msgid "Your download should have begun automatically. If it didn’t work, <a hr
 msgstr "Quá trình tải xuống của bạn sẽ tự động bắt đầu. Nếu nó không hoạt động, hãy <a href=\"%(url)s\">thử tải xuống lại tại đây</a>."
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:8
-msgid "MZLA/Thunderbird is happy to accept your donation <strong>(made payable to “MZLA Technologies Corp”)</strong> via check; however please note that processing and acknowledgment of your gift may be delayed by changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
-msgstr "MZLA/Thunderbird sẵn lòng chấp nhận khoản đóng góp của bạn <strong>(được trả cho “MZLA Technologies Corp”)</strong> bằng séc; tuy nhiên, xin lưu ý rằng việc xử lý và nhận quà của bạn có thể bị trì hoãn do những thay đổi đối với thủ tục văn phòng của chúng tôi do đại dịch COVID-19. Bạn có thể gửi séc tới:"
+msgid ""
+"MZLA/Thunderbird is happy to accept your donation <strong>(made payable to “MZLA Technologies Corp”)</strong> via check; however please note that processing and acknowledgment of your gift may be "
+"delayed by changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
+msgstr ""
+"MZLA/Thunderbird sẵn lòng chấp nhận khoản đóng góp của bạn <strong>(được trả cho “MZLA Technologies Corp”)</strong> bằng séc; tuy nhiên, xin lưu ý rằng việc xử lý và nhận quà của bạn có thể bị trì "
+"hoãn do những thay đổi đối với thủ tục văn phòng của chúng tôi do đại dịch COVID-19. Bạn có thể gửi séc tới:"
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:25
 msgid "Please also note that MZLA/Thunderbird can <strong>only</strong> accept checks in U.S. dollars drawn on a U.S. bank."
@@ -759,22 +782,33 @@ msgstr "Cảm ơn vì món quà của bạn."
 
 #: donate/thunderbird/templates/payment/card.html:12
 #, python-format
-msgid "I authorize MZLA Technologies Corporation to automatically charge my card every month in the amount indicated above, starting today and continuing each month on the same day, until I cancel. I understand that I must cancel at least 5 days before the next scheduled donation by <a href='%(help_url)s'>submitting a request</a>, and that I may only request a refund within 15 days from the date of a donation."
-msgstr "Tôi cho phép MZLA Technologies Corporation tự động tính phí thẻ của tôi hàng tháng với số tiền đã nêu ở trên, bắt đầu từ hôm nay và tiếp tục mỗi tháng vào cùng ngày, cho đến khi tôi hủy. Tôi hiểu rằng tôi phải hủy ít nhất 5 ngày trước khi đóng góp theo lịch trình tiếp theo bằng cách <a href='%(help_url)s'>gửi yêu cầu</a> và tôi chỉ có thể yêu cầu hoàn lại tiền trong vòng 15 ngày kể từ ngày của một khoản đóng góp."
+msgid ""
+"I authorize MZLA Technologies Corporation to automatically charge my card every month in the amount indicated above, starting today and continuing each month on the same day, until I cancel. I "
+"understand that I must cancel at least 5 days before the next scheduled donation by <a href='%(help_url)s'>submitting a request</a>, and that I may only request a refund within 15 days from the date"
+" of a donation."
+msgstr ""
+"Tôi cho phép MZLA Technologies Corporation tự động tính phí thẻ của tôi hàng tháng với số tiền đã nêu ở trên, bắt đầu từ hôm nay và tiếp tục mỗi tháng vào cùng ngày, cho đến khi tôi hủy. Tôi hiểu "
+"rằng tôi phải hủy ít nhất 5 ngày trước khi đóng góp theo lịch trình tiếp theo bằng cách <a href='%(help_url)s'>gửi yêu cầu</a> và tôi chỉ có thể yêu cầu hoàn lại tiền trong vòng 15 ngày kể từ ngày "
+"của một khoản đóng góp."
 
 #: donate/thunderbird/templates/payment/card.html:14
 msgid "I authorize MZLA Technologies Corporation to charge my card in the amount indicated above. I understand that I may only request a refund within 15 days from the date of the donation."
 msgstr "Tôi ủy quyền cho MZLA Technologies Corporation tính phí thẻ của tôi với số tiền đã nêu ở trên. Tôi hiểu rằng tôi chỉ có thể yêu cầu hoàn lại tiền trong vòng 15 ngày kể từ ngày đóng góp."
 
-#: donate/thunderbird/templates/payment/card_upsell.html:6
-#: donate/thunderbird/templates/payment/paypal_upsell.html:6
+#: donate/thunderbird/templates/payment/card_upsell.html:6 donate/thunderbird/templates/payment/paypal_upsell.html:6
 msgid "We’d love to have you as a sustaining supporter of Thunderbird. <b>Could you add a monthly donation starting next month?</b>"
 msgstr "Chúng tôi rất muốn có bạn với tư cách là người hỗ trợ lâu dài cho Thunderbird. <b>Bạn có thể thêm khoản đóng góp hàng tháng bắt đầu từ tháng sau không?</b>"
 
 #: donate/thunderbird/templates/payment/card_upsell.html:10
 #, python-format
-msgid "I authorize MZLA Technologies Corporation to automatically charge my card every month in the amount indicated above, starting next month on the same date as today, and continuing each month afterwards until I cancel. I understand that I must cancel at least 5 days before the next scheduled donation by <a href=\"%(help_url)s\">submitting this form</a>, and that I may only request a refund within 15 days from the date of a donation."
-msgstr "Tôi cho phép MZLA Technologies Corporation tự động tính phí thẻ của tôi hàng tháng với số tiền đã nêu ở trên, bắt đầu từ tháng sau vào cùng ngày với ngày hôm nay và tiếp tục mỗi tháng sau đó cho đến khi tôi hủy. Tôi hiểu rằng tôi phải hủy ít nhất 5 ngày trước khi đóng góp theo lịch trình tiếp theo bằng cách <a href=\"%(help_url)s\">gửi biểu mẫu này</a> và tôi chỉ có thể yêu cầu hoàn lại tiền trong vòng 15 ngày kể từ ngày của một khoản đóng góp."
+msgid ""
+"I authorize MZLA Technologies Corporation to automatically charge my card every month in the amount indicated above, starting next month on the same date as today, and continuing each month "
+"afterwards until I cancel. I understand that I must cancel at least 5 days before the next scheduled donation by <a href=\"%(help_url)s\">submitting this form</a>, and that I may only request a "
+"refund within 15 days from the date of a donation."
+msgstr ""
+"Tôi cho phép MZLA Technologies Corporation tự động tính phí thẻ của tôi hàng tháng với số tiền đã nêu ở trên, bắt đầu từ tháng sau vào cùng ngày với ngày hôm nay và tiếp tục mỗi tháng sau đó cho đến"
+" khi tôi hủy. Tôi hiểu rằng tôi phải hủy ít nhất 5 ngày trước khi đóng góp theo lịch trình tiếp theo bằng cách <a href=\"%(help_url)s\">gửi biểu mẫu này</a> và tôi chỉ có thể yêu cầu hoàn lại tiền "
+"trong vòng 15 ngày kể từ ngày của một khoản đóng góp."
 
 #: donate/thunderbird/templates/payment/newsletter_signup.html:8
 msgid "We’re working hard to protect your inbox. Sign up to receive email messages concerning Thunderbird, including updates and requests for feedback."
@@ -803,11 +837,19 @@ msgstr "Tôi đã quyên góp cho Thunderbird hôm nay"
 #~ msgid "We accept donations in Euros through Single European Payment Area (SEPA) transfer, and British Pounds through BACS transfer."
 #~ msgstr "Chúng tôi chấp nhận các khoản đóng góp bằng Euro thông qua Khu vực thanh toán bằng đồng Euro (SEPA) và Bảng Anh thông qua chuyển khoản BACS."
 
-#~ msgid "Note that for smaller (under 10 EUR or equivalent) donations, <strong>and especially for donations under 5 EUR or equivalent</strong>, we request that you donate via credit card or PayPal to help reduce Mozilla’s processing fees."
-#~ msgstr "Lưu ý rằng đối với các khoản đóng góp nhỏ hơn (dưới 10 EUR hoặc tương đương), <strong>và đặc biệt đối với các khoản đóng góp dưới 5 EUR hoặc tương đương</strong>, chúng tôi yêu cầu bạn đóng góp qua thẻ tín dụng hoặc PayPal để giúp giảm phí xử lý của Mozilla."
+#~ msgid ""
+#~ "Note that for smaller (under 10 EUR or equivalent) donations, <strong>and especially for donations under 5 EUR or equivalent</strong>, we request that you donate via credit card or PayPal to help "
+#~ "reduce Mozilla’s processing fees."
+#~ msgstr ""
+#~ "Lưu ý rằng đối với các khoản đóng góp nhỏ hơn (dưới 10 EUR hoặc tương đương), <strong>và đặc biệt đối với các khoản đóng góp dưới 5 EUR hoặc tương đương</strong>, chúng tôi yêu cầu bạn đóng góp qua "
+#~ "thẻ tín dụng hoặc PayPal để giúp giảm phí xử lý của Mozilla."
 
-#~ msgid "Please also note that the Mozilla Foundation cannot accept SEPA or BACS transfers for MZLA/Thunderbird. To contribute to MZLA/Thunderbird via SEPA or BACS transfer, please follow <a href=\"%(instruction_url)s\">these instructions</a>."
-#~ msgstr "Cũng xin lưu ý rằng Tổ chức Mozilla không thể chấp nhận chuyển giao SEPA hoặc BACS cho MZLA/Thunderbird. Để đóng góp cho MZLA/Thunderbird thông qua chuyển SEPA hoặc BACS, vui lòng làm theo <a href=\"%(instruction_url)s\">các hướng dẫn này</a>."
+#~ msgid ""
+#~ "Please also note that the Mozilla Foundation cannot accept SEPA or BACS transfers for MZLA/Thunderbird. To contribute to MZLA/Thunderbird via SEPA or BACS transfer, please follow <a "
+#~ "href=\"%(instruction_url)s\">these instructions</a>."
+#~ msgstr ""
+#~ "Cũng xin lưu ý rằng Tổ chức Mozilla không thể chấp nhận chuyển giao SEPA hoặc BACS cho MZLA/Thunderbird. Để đóng góp cho MZLA/Thunderbird thông qua chuyển SEPA hoặc BACS, vui lòng làm theo <a "
+#~ "href=\"%(instruction_url)s\">các hướng dẫn này</a>."
 
 #~ msgid "Please remember that donations are deductible for U.S. income tax purposes only."
 #~ msgstr "Hãy nhớ rằng các khoản đóng góp chỉ được khấu trừ cho mục đích thuế thu nhập của Hoa Kỳ."
@@ -860,8 +902,12 @@ msgstr "Tôi đã quyên góp cho Thunderbird hôm nay"
 #~ msgid "We accept contributions in Euros through Single European Payment Area (SEPA) transfer, and British Pounds through BACS transfer."
 #~ msgstr "Chúng tôi chấp nhận các khoản đóng góp bằng Euro thông qua Khu vực thanh toán bằng đồng Euro (SEPA) và Bảng Anh thông qua chuyển khoản BACS."
 
-#~ msgid "Please note that for smaller (under 10 EUR or equivalent) contributions, <strong>and especially for contributions under 5 EUR or equivalent</strong>, we request that you contribute via credit card or PayPal to help reduce our processing fees."
-#~ msgstr "Lưu ý rằng đối với các khoản đóng góp nhỏ hơn (dưới 10 EUR hoặc tương đương), <strong>và đặc biệt đối với các khoản đóng góp dưới 5 EUR hoặc tương đương</strong>, chúng tôi yêu cầu bạn đóng góp qua thẻ tín dụng hoặc PayPal để giúp giảm phí xử lý của chúng tôi."
+#~ msgid ""
+#~ "Please note that for smaller (under 10 EUR or equivalent) contributions, <strong>and especially for contributions under 5 EUR or equivalent</strong>, we request that you contribute via credit card "
+#~ "or PayPal to help reduce our processing fees."
+#~ msgstr ""
+#~ "Lưu ý rằng đối với các khoản đóng góp nhỏ hơn (dưới 10 EUR hoặc tương đương), <strong>và đặc biệt đối với các khoản đóng góp dưới 5 EUR hoặc tương đương</strong>, chúng tôi yêu cầu bạn đóng góp qua "
+#~ "thẻ tín dụng hoặc PayPal để giúp giảm phí xử lý của chúng tôi."
 
 #~ msgid "Beneficiary Name (For credit to):"
 #~ msgstr "Tên người thụ hưởng (Đối với tín dụng cho):"
@@ -869,14 +915,22 @@ msgstr "Tôi đã quyên góp cho Thunderbird hôm nay"
 #~ msgid "Memo field:"
 #~ msgstr "Trường ghi chú:"
 
-#~ msgid "Unfortunately, donor care representatives are unable to offer support or help with Firefox technical issues. For technical support, please visit the <a href=\"%(support_url)s\">Firefox support page</a>."
-#~ msgstr "Rất tiếc, đại diện nhà tài trợ không thể cung cấp hỗ trợ hoặc trợ giúp về các vấn đề kỹ thuật của Firefox. Để được hỗ trợ kỹ thuật, vui lòng truy cập <a href=\"%(support_url)s\">trang hỗ trợ của Firefox</a>."
+#~ msgid ""
+#~ "Unfortunately, donor care representatives are unable to offer support or help with Firefox technical issues. For technical support, please visit the <a href=\"%(support_url)s\">Firefox support "
+#~ "page</a>."
+#~ msgstr ""
+#~ "Rất tiếc, đại diện nhà tài trợ không thể cung cấp hỗ trợ hoặc trợ giúp về các vấn đề kỹ thuật của Firefox. Để được hỗ trợ kỹ thuật, vui lòng truy cập <a href=\"%(support_url)s\">trang hỗ trợ của "
+#~ "Firefox</a>."
 
 #~ msgid "Please disable your VPN and visit <a href=\"%(url)s\">donate.mozilla.org</a> again."
 #~ msgstr "Vui lòng tắt VPN của bạn và truy cập lại <a href=\"%(url)s\">donate.mozilla.org</a>."
 
-#~ msgid "MZLA/Thunderbird is happy to accept your donation (made payable to “MZLA Technologies”) via check; however please note that processing and acknowledgment of your gift may be delayed by changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
-#~ msgstr "MZLA/Thunderbird sẵn lòng chấp nhận khoản đóng góp của bạn (được trả cho “MZLA Technologies”) bằng séc; tuy nhiên, xin lưu ý rằng việc xử lý và nhận quà của bạn có thể bị trì hoãn do những thay đổi đối với thủ tục văn phòng của chúng tôi do đại dịch COVID-19. Bạn có thể gửi séc tới:"
+#~ msgid ""
+#~ "MZLA/Thunderbird is happy to accept your donation (made payable to “MZLA Technologies”) via check; however please note that processing and acknowledgment of your gift may be delayed by changes to "
+#~ "our office procedures due to the COVID-19 pandemic. You can send checks to:"
+#~ msgstr ""
+#~ "MZLA/Thunderbird sẵn lòng chấp nhận khoản đóng góp của bạn (được trả cho “MZLA Technologies”) bằng séc; tuy nhiên, xin lưu ý rằng việc xử lý và nhận quà của bạn có thể bị trì hoãn do những thay đổi "
+#~ "đối với thủ tục văn phòng của chúng tôi do đại dịch COVID-19. Bạn có thể gửi séc tới:"
 
 #~ msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a> | <a href=\"%(cryptocurrency_url)s\">BitPay (cryptocurrencies)</a>"
 #~ msgstr "Các cách khác để cung cấp: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Séc</a> | <a href=\"%(cryptocurrency_url)s\">BitPay (cryptocurrencies)</a>"
@@ -884,8 +938,16 @@ msgstr "Tôi đã quyên góp cho Thunderbird hôm nay"
 #~ msgid "Cryptocurrencies"
 #~ msgstr "Tiền điện tử"
 
-#~ msgid "The Mozilla Foundation is a California non-profit corporation exempt from United States federal income taxation under IRC 501(c)(3) and a public charity classified under IRC sections 170(b)(1)(A) and 509(a)(1). Cryptocurrency donations Mozilla receives are considered charitable contributions under U.S. federal tax laws, to be used in its discretion for its charitable purposes. Because the IRS has indicated that it will treat cryptocurrencies as property for U.S. tax purposes (see IRS Notice 2014-21), cryptocurrency donations may be subject to special rules as to the amount of your charitable deduction, the documentation that must be provided to claim a tax deduction, or other matters."
-#~ msgstr "Tổ chức Mozilla là một công ty phi lợi nhuận của California được miễn thuế thu nhập liên bang Hoa Kỳ theo IRC 501(c)(3) và là một tổ chức từ thiện công cộng được phân loại theo IRC mục 170(b)(1)(A) và 509(a)(1). Các khoản đóng góp tiền điện tử mà Mozilla nhận được được coi là các khoản đóng góp từ thiện theo luật thuế liên bang của Hoa Kỳ, được sử dụng tùy ý cho các mục đích từ thiện của mình. Vì IRS đã chỉ ra rằng họ sẽ coi tiền điện tử là tài sản cho các mục đích đánh thuế của Hoa Kỳ (xem Thông báo IRS 2014-21), việc quyên góp tiền điện tử có thể phải tuân theo các quy tắc đặc biệt về số tiền khấu trừ từ thiện của bạn, tài liệu phải được cung cấp cho yêu cầu khấu trừ thuế, hoặc các vấn đề khác."
+#~ msgid ""
+#~ "The Mozilla Foundation is a California non-profit corporation exempt from United States federal income taxation under IRC 501(c)(3) and a public charity classified under IRC sections 170(b)(1)(A) "
+#~ "and 509(a)(1). Cryptocurrency donations Mozilla receives are considered charitable contributions under U.S. federal tax laws, to be used in its discretion for its charitable purposes. Because the "
+#~ "IRS has indicated that it will treat cryptocurrencies as property for U.S. tax purposes (see IRS Notice 2014-21), cryptocurrency donations may be subject to special rules as to the amount of your "
+#~ "charitable deduction, the documentation that must be provided to claim a tax deduction, or other matters."
+#~ msgstr ""
+#~ "Tổ chức Mozilla là một công ty phi lợi nhuận của California được miễn thuế thu nhập liên bang Hoa Kỳ theo IRC 501(c)(3) và là một tổ chức từ thiện công cộng được phân loại theo IRC mục 170(b)(1)(A) "
+#~ "và 509(a)(1). Các khoản đóng góp tiền điện tử mà Mozilla nhận được được coi là các khoản đóng góp từ thiện theo luật thuế liên bang của Hoa Kỳ, được sử dụng tùy ý cho các mục đích từ thiện của mình."
+#~ " Vì IRS đã chỉ ra rằng họ sẽ coi tiền điện tử là tài sản cho các mục đích đánh thuế của Hoa Kỳ (xem Thông báo IRS 2014-21), việc quyên góp tiền điện tử có thể phải tuân theo các quy tắc đặc biệt về "
+#~ "số tiền khấu trừ từ thiện của bạn, tài liệu phải được cung cấp cho yêu cầu khấu trừ thuế, hoặc các vấn đề khác."
 
 #~ msgid "Learn more about cryptocurrency donations <a href=\"%(cryptocurrency_wiki)s\">here</a>. To donate using cryptocurrency, <a href=\"%(cryptocurrency_url)s\">please visit this link.</a>"
 #~ msgstr "Tìm hiểu thêm về quyên góp tiền điện tử <a href=\"%(cryptocurrency_wiki)s\">tại đây</a>. Để quyên góp tiền điện tử, <a href=\"%(cryptocurrency_url)s\">vui lòng truy cập liên kết này.</a>"
@@ -896,8 +958,16 @@ msgstr "Tôi đã quyên góp cho Thunderbird hôm nay"
 #~ msgid "Bitcoin"
 #~ msgstr "Bitcoin"
 
-#~ msgid "The Mozilla Foundation is a California non-profit corporation exempt from United States federal income taxation under IRC 501(c)(3) and a public charity classified under IRC sections 170(b)(1)(A) and 509(a)(1). Bitcoin donations Mozilla receives are considered charitable contributions under U.S. federal tax laws, to be used in its discretion for its charitable purposes. Because the IRS has indicated that it will treat bitcoin as property for U.S. tax purposes (see IRS Notice 2014-21), donations of bitcoin may be subject to special rules as to the amount of your charitable deduction, the documentation that must be provided to claim a tax deduction, or other matters."
-#~ msgstr "Tổ chức Mozilla là một công ty phi lợi nhuận của California được miễn thuế thu nhập liên bang Hoa Kỳ theo IRC 501(c)(3) và là một tổ chức từ thiện công cộng được phân loại theo IRC mục 170(b)(1)(A) và 509(a)(1). Các khoản đóng góp bitcoin mà Mozilla nhận được được coi là các khoản đóng góp từ thiện theo luật thuế liên bang của Hoa Kỳ, được sử dụng tùy ý cho các mục đích từ thiện của mình. Vì IRS đã chỉ ra rằng họ sẽ coi bitcoin là tài sản cho các mục đích đánh thuế của Hoa Kỳ (xem Thông báo IRS 2014-21), việc quyên góp bitcoin có thể tuân theo các quy tắc đặc biệt về số tiền khấu trừ từ thiện của bạn, tài liệu phải được cung cấp cho yêu cầu khấu trừ thuế, hoặc các vấn đề khác."
+#~ msgid ""
+#~ "The Mozilla Foundation is a California non-profit corporation exempt from United States federal income taxation under IRC 501(c)(3) and a public charity classified under IRC sections 170(b)(1)(A) "
+#~ "and 509(a)(1). Bitcoin donations Mozilla receives are considered charitable contributions under U.S. federal tax laws, to be used in its discretion for its charitable purposes. Because the IRS has "
+#~ "indicated that it will treat bitcoin as property for U.S. tax purposes (see IRS Notice 2014-21), donations of bitcoin may be subject to special rules as to the amount of your charitable deduction, "
+#~ "the documentation that must be provided to claim a tax deduction, or other matters."
+#~ msgstr ""
+#~ "Tổ chức Mozilla là một công ty phi lợi nhuận của California được miễn thuế thu nhập liên bang Hoa Kỳ theo IRC 501(c)(3) và là một tổ chức từ thiện công cộng được phân loại theo IRC mục 170(b)(1)(A) "
+#~ "và 509(a)(1). Các khoản đóng góp bitcoin mà Mozilla nhận được được coi là các khoản đóng góp từ thiện theo luật thuế liên bang của Hoa Kỳ, được sử dụng tùy ý cho các mục đích từ thiện của mình. Vì "
+#~ "IRS đã chỉ ra rằng họ sẽ coi bitcoin là tài sản cho các mục đích đánh thuế của Hoa Kỳ (xem Thông báo IRS 2014-21), việc quyên góp bitcoin có thể tuân theo các quy tắc đặc biệt về số tiền khấu trừ từ"
+#~ " thiện của bạn, tài liệu phải được cung cấp cho yêu cầu khấu trừ thuế, hoặc các vấn đề khác."
 
 #~ msgid "Learn more about bitcoin donations <a href=\"%(bitcoin_wiki)s\">here</a>. To donate bitcoin, <a href=\"%(bitcoin_donate)s\">please visit this link.</a>"
 #~ msgstr "Tìm hiểu thêm về quyên góp bitcoin <a href=\"%(bitcoin_wiki)s\">tại đây</a>. Để quyên góp bitcoin, <a href=\"%(bitcoin_donate)s\">vui lòng truy cập liên kết này.</a>"
@@ -942,13 +1012,19 @@ msgstr "Tôi đã quyên góp cho Thunderbird hôm nay"
 #~ msgstr "Chúng tôi đã gửi cho bạn biên nhận đóng góp qua email; nếu thiếu, vui lòng kiểm tra thư mục rác/thư rác của bạn, sau đó liên hệ với chúng tôi tại <a href=\"mailto:%(email)s\">%(email)s</a>."
 
 #~ msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"mailto:%(email)s\">Send us an email</a>."
-#~ msgstr "Sự cố khi quyên góp? Truy cập <a href=\"%(faq_url)s\">Câu hỏi thường gặp</a> của chúng tôi để có câu trả lời cho hầu hết các câu hỏi phổ biến. Vẫn có vấn đề? <a href=\"mailto:%(email)s\">Gửi cho chúng tôi một email</a>."
+#~ msgstr ""
+#~ "Sự cố khi quyên góp? Truy cập <a href=\"%(faq_url)s\">Câu hỏi thường gặp</a> của chúng tôi để có câu trả lời cho hầu hết các câu hỏi phổ biến. Vẫn có vấn đề? <a href=\"mailto:%(email)s\">Gửi cho "
+#~ "chúng tôi một email</a>."
 
 #~ msgid "If you need help with a contribution to MZLA/Thunderbird, fill out this form and a Thunderbird donor care representative will get back to you as soon as possible."
 #~ msgstr "Nếu bạn cần trợ giúp để đóng góp cho MZLA/Thunderbird, hãy điền vào biểu mẫu này và đại diện chăm sóc của nhà tài trợ Thunderbird sẽ liên hệ lại với bạn sớm nhất có thể."
 
-#~ msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in Mountain View, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
-#~ msgstr "Các khoản đóng góp sẽ được chuyển đến Tổ chức Mozilla, một tổ chức 501(c)(3) có trụ sở tại Mountain View, California, để được sử dụng tùy ý cho các mục đích từ thiện của mình. Chúng được khấu trừ thuế ở Hoa Kỳ trong phạm vi tối đa được pháp luật cho phép."
+#~ msgid ""
+#~ "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in Mountain View, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S."
+#~ " to the fullest extent permitted by law."
+#~ msgstr ""
+#~ "Các khoản đóng góp sẽ được chuyển đến Tổ chức Mozilla, một tổ chức 501(c)(3) có trụ sở tại Mountain View, California, để được sử dụng tùy ý cho các mục đích từ thiện của mình. Chúng được khấu trừ "
+#~ "thuế ở Hoa Kỳ trong phạm vi tối đa được pháp luật cho phép."
 
 #~ msgid "License"
 #~ msgstr "Giấy phép"
