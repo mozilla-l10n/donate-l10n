@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-21 15:15+0000\n"
-"PO-Revision-Date: 2023-03-24 06:20+0000\n"
+"PO-Revision-Date: 2023-03-24 06:27+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: \n"
 "Language: ia\n"
@@ -206,12 +206,12 @@ msgstr "<b>Altere manieras pro donar: <a href=\"%(check_url)s\">Cheque</a></b>"
 #: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:24
 #, python-format
 msgid "<b>Question donating?</b> Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions."
-msgstr ""
+msgstr "<b>Questiones re donar?</b> Visita nostre <a href=\"%(faq_url)s\">FAQ</a> pro responsas al questiones plus commun."
 
 #: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:29
 #, python-format
 msgid "<b>Need to reach us about your donation?</b> <a href=\"%(help_url)s\">Contact us</a>."
-msgstr ""
+msgstr "<b>Besonia tu attinger nos re tu donation?</b> <a href=\"%(help_url)s\">Continge nos</a>."
 
 #: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:37
 #, python-format
@@ -241,7 +241,7 @@ msgstr ""
 #: donate/templates/fragments/donate_form_disclaimer_master.html:28 donate/thunderbird/templates/fragments/donate_form_disclaimer.html:8
 #, python-format
 msgid "Other ways to give: <a href=\"%(check_url)s\">Check</a>"
-msgstr ""
+msgstr "Altere manieras pro donar: <a href=\"%(check_url)s\">Cheque</a>"
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:38 donate/thunderbird/templates/fragments/donate_form_disclaimer.html:26
 #, python-format
