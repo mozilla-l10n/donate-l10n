@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-21 15:15+0000\n"
-"PO-Revision-Date: 2023-03-24 14:52+0000\n"
+"PO-Revision-Date: 2023-03-24 14:56+0000\n"
 "Last-Translator: Quế Tùng <best.cloney.1301@gmail.com>\n"
 "Language-Team: \n"
 "Language: vi\n"
@@ -195,6 +195,8 @@ msgid ""
 "Mozilla is committed to your privacy; please read our <a href=\"%(privacy_url)s\">privacy policy here</a>. Your payment details will be processed by <a href=\"%(stripe_url)s\">Stripe</a>, or <a "
 "href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Mozilla."
 msgstr ""
+"Mozilla cam kết bảo vệ quyền riêng tư của bạn; vui lòng đọc <a href=\"%(privacy_url)s\">chính sách riêng tư của chúng tôi tại đây</a>. Chi tiết thanh toán của bạn sẽ được xử lý bởi <a "
+"href=\"%(stripe_url)s\">Stripe</a>, hoặc <a href=\"%(paypal_url)s\">PayPal</a>, và hồ sơ quyên góp của bạn sẽ được lưu trữ bởi Mozilla."
 
 #: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:16
 #, python-format
@@ -204,12 +206,12 @@ msgstr "<b>Các cách khác để quyên góp: <a href=\"%(check_url)s\">Séc</a
 #: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:24
 #, python-format
 msgid "<b>Question donating?</b> Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions."
-msgstr ""
+msgstr "<b>Có câu hỏi về quyên góp?</b> Truy cập <a href=\"%(faq_url)s\">câu hỏi thường gặp</a> của chúng tôi để nhận câu trả lời cho các câu hỏi phổ biến."
 
 #: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:29
 #, python-format
 msgid "<b>Need to reach us about your donation?</b> <a href=\"%(help_url)s\">Contact us</a>."
-msgstr ""
+msgstr "<b>Cần liên hệ với chúng tôi về khoản quyên góp của bạn?</b> <a href=\"%(help_url)s\">Liên hệ với chúng tôi</a>."
 
 #: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:37
 #, python-format
@@ -217,6 +219,8 @@ msgid ""
 "Contributions go to the <a href=\"%(mozilla_url)s\">Mozilla Foundation</a>, a 501(c)(3) organization based in San Francisco, California, to be used in its discretion for its charitable purposes. "
 "They are tax-deductible in the U.S. to the fullest extent permitted by law."
 msgstr ""
+"Quyên góp đi đến <a href=\"%(mozilla_url)s\">Mozilla Foundation</a>, một tổ chức 501(c)(3) có trụ sở tại San Francisco, California, được sử dụng theo quyết định của mình cho các mục đích từ thiện. "
+"Chúng được khấu trừ thuế ở Hoa Kỳ trong phạm vi tối đa được pháp luật cho phép."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:6
 #, python-format
@@ -419,7 +423,7 @@ msgstr "Gửi"
 
 #: donate/templates/pages/core/landing_page.html:23
 msgid "featured image"
-msgstr ""
+msgstr "hình ảnh nổi bật"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:4 donate/templates/pages/core/ways_to_give_page_master.html:11
 msgid "Ways to Give"
