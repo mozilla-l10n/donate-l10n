@@ -2,14 +2,14 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-21 15:15+0000\n"
-"PO-Revision-Date: 2023-03-11 02:49+0000\n"
+"PO-Revision-Date: 2023-03-25 02:03+0000\n"
 "Last-Translator: Hyeonseok Shin <hyeonseok@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -19,8 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pontoon\n"
 
-#: donate/core/translation.py:12 donate/payments/forms.py:103
-#: donate/templates/forms/form_field.html:21
+#: donate/core/translation.py:12 donate/payments/forms.py:103 donate/templates/forms/form_field.html:21
 msgid "This field is required."
 msgstr "필수 항목입니다."
 
@@ -37,8 +36,7 @@ msgstr "유효한 이메일 주소를 입력하십시오."
 msgid "Donations must be %(amount)s or more"
 msgstr "기부금은 %(amount)s 이상이어야 합니다."
 
-#: donate/payments/forms.py:108 donate/payments/forms.py:123
-#: donate/payments/forms.py:180
+#: donate/payments/forms.py:108 donate/payments/forms.py:123 donate/payments/forms.py:180
 msgid "Amount"
 msgstr "금액"
 
@@ -50,8 +48,7 @@ msgstr "이름"
 msgid "Last name"
 msgstr "성"
 
-#: donate/payments/forms.py:138 donate/payments/forms.py:194
-#: donate/templates/pages/core/contributor_support_page_master.html:97
+#: donate/payments/forms.py:138 donate/payments/forms.py:194 donate/templates/pages/core/contributor_support_page_master.html:97
 msgid "Email"
 msgstr "이메일"
 
@@ -146,9 +143,7 @@ msgstr "죄송합니다. 페이지가 없습니다."
 msgid "Go to our home page"
 msgstr "홈페이지로 이동"
 
-#: donate/templates/base_master.html:8
-#: donate/templates/pages/base_page_master.html:14
-#: donate/templates/pages/base_page_master.html:15
+#: donate/templates/base_master.html:8 donate/templates/pages/base_page_master.html:14 donate/templates/pages/base_page_master.html:15
 msgctxt "Page title"
 msgid "Donate to Mozilla"
 msgstr "Mozilla에 기부"
@@ -161,10 +156,7 @@ msgstr "한 번"
 msgid "MONTHLY"
 msgstr "매 달"
 
-#: donate/templates/fragments/donate_form.html:41
-#: donate/templates/fragments/donate_form.html:42
-#: donate/templates/fragments/donate_form.html:118
-#: donate/templates/fragments/donate_form.html:119
+#: donate/templates/fragments/donate_form.html:41 donate/templates/fragments/donate_form.html:42 donate/templates/fragments/donate_form.html:118 donate/templates/fragments/donate_form.html:119
 msgid "Other amount"
 msgstr "다른 금액"
 
@@ -173,24 +165,19 @@ msgstr "다른 금액"
 msgid "To combat fraud, Mozilla Foundation has temporarily restricted donations to a minimum of %(min_amount)s"
 msgstr "사기를 방지하기 위해 Mozilla 재단은 일시적으로 기부금을 최소 금액 %(min_amount)s로 제한했습니다."
 
-#: donate/templates/fragments/donate_form.html:51
-#: donate/templates/fragments/donate_form.html:126
+#: donate/templates/fragments/donate_form.html:51 donate/templates/fragments/donate_form.html:126
 msgid "Invalid amount entered."
 msgstr "유효하지 않은 금액입니다."
 
-#: donate/templates/fragments/donate_form.html:58
-#: donate/templates/fragments/donate_form.html:133
+#: donate/templates/fragments/donate_form.html:58 donate/templates/fragments/donate_form.html:133
 msgid "Choose Payment"
 msgstr "지불 방법 선택"
 
-#: donate/templates/fragments/donate_form.html:64
-#: donate/templates/fragments/donate_form.html:139
-#: donate/templates/payment/card_master.html:111
+#: donate/templates/fragments/donate_form.html:64 donate/templates/fragments/donate_form.html:139 donate/templates/payment/card_master.html:111
 msgid "SECURE"
 msgstr "안전한"
 
-#: donate/templates/fragments/donate_form.html:70
-#: donate/templates/fragments/donate_form.html:145
+#: donate/templates/fragments/donate_form.html:70 donate/templates/fragments/donate_form.html:145
 msgid "Donate"
 msgstr "기부"
 
@@ -198,65 +185,73 @@ msgstr "기부"
 msgid "per month"
 msgstr "달마다"
 
-#: donate/templates/fragments/donate_form.html:123
-#: donate/thunderbird/templates/fragments/donate_form.html:6
+#: donate/templates/fragments/donate_form.html:123 donate/thunderbird/templates/fragments/donate_form.html:6
 #, python-format
 msgid "Minimum amount is %(min_amount)s"
 msgstr "최소 금액은 %(min_amount)s입니다."
 
 #: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:8
 #, python-format
-msgid "Mozilla is committed to your privacy; please read our <a href=\"%(privacy_url)s\">privacy policy here</a>. Your payment details will be processed by <a href=\"%(stripe_url)s\">Stripe</a>, or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Mozilla."
+msgid ""
+"Mozilla is committed to your privacy; please read our <a href=\"%(privacy_url)s\">privacy policy here</a>. Your payment details will be processed by <a href=\"%(stripe_url)s\">Stripe</a>, or <a "
+"href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Mozilla."
 msgstr ""
+"Mozilla는 사용자의 개인 정보 보호를 위해 최선을 다하고 있습니다. <a href=\"%(privacy_url)s\">여기에서 개인정보 보호정책</a>을 읽어보세요. 지불 세부 정보는 <a href=\"%(stripe_url)s\">Stripe</a> 또는 <a href=\"%(paypal_url)s\">PayPal</a>에서 처리되며 기부는 "
+"Mozilla에 의해 기록이 됩니다."
 
 #: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:16
 #, python-format
 msgid "<b>Other ways to give: <a href=\"%(check_url)s\">Check</a></b>"
-msgstr ""
+msgstr "<b>기타 기부 방법: <a href=\"%(check_url)s\">수표</a></b>"
 
 #: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:24
 #, python-format
 msgid "<b>Question donating?</b> Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions."
-msgstr ""
+msgstr "<b>기부에 질문이 있으신가요?</b> 가장 일반적인 질문에 대한 답변을 보려면 <a href=\"%(faq_url)s\">FAQ</a>를 방문하십시오."
 
 #: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:29
 #, python-format
 msgid "<b>Need to reach us about your donation?</b> <a href=\"%(help_url)s\">Contact us</a>."
-msgstr ""
+msgstr "<b>기부와 관련하여 연락이 필요하십니까?</b> <a href=\"%(help_url)s\">문의</a>하세요."
 
 #: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:37
 #, python-format
-msgid "Contributions go to the <a href=\"%(mozilla_url)s\">Mozilla Foundation</a>, a 501(c)(3) organization based in San Francisco, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
-msgstr ""
+msgid ""
+"Contributions go to the <a href=\"%(mozilla_url)s\">Mozilla Foundation</a>, a 501(c)(3) organization based in San Francisco, California, to be used in its discretion for its charitable purposes. "
+"They are tax-deductible in the U.S. to the fullest extent permitted by law."
+msgstr "기부금은 캘리포니아 주 샌프란시스코에 기반을 둔 501(c)(3) 조직인 <a href=\"%(mozilla_url)s\">Mozilla Foundation</a>으로 이동하여 자선 목적으로 재량에 따라 사용됩니다. 법이 허용하는 최대 한도까지 미국에서 세금 공제를 받을 수 있습니다."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:6
 #, python-format
-msgid "Mozilla is committed to your privacy; please read our <a href=\"%(privacy_url)s\">privacy policy here</a>. Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Mozilla."
-msgstr "Mozilla는 여러분의 개인 정보를 보호합니다. <a href=\"%(privacy_url)s\">개인 정보 보호 정책 </a>을 읽어보세요. 결제 세부 정보는 <a href=\"%(braintree_url)s\"> Braintree </a>, PayPal 회사 (신용 / 직불 카드 용) 또는 <a href=\"%(paypal_url)s\"> PayPal </a>에서 처리됩니다. 기부 내역은 Mozilla에 저장됩니다."
+msgid ""
+"Mozilla is committed to your privacy; please read our <a href=\"%(privacy_url)s\">privacy policy here</a>. Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a "
+"PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Mozilla."
+msgstr ""
+"Mozilla는 여러분의 개인 정보를 보호합니다. <a href=\"%(privacy_url)s\">개인 정보 보호 정책 </a>을 읽어보세요. 결제 세부 정보는 <a href=\"%(braintree_url)s\"> Braintree </a>, PayPal 회사 (신용 / 직불 카드 용) 또는 <a href=\"%(paypal_url)s\"> "
+"PayPal </a>에서 처리됩니다. 기부 내역은 Mozilla에 저장됩니다."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:9
 #, python-format
 msgid "Monthly donations are charged each month on the same day that you donate today, and will continue until you cancel. To cancel, email us at <a href=\"mailto:%(email)s\">%(email)s</a>."
 msgstr "매달 기부하실 경우 오늘 기부하신 날짜와 동일하게 지불되며 취소할 때까지 지속됩니다. 취소하시려면 <a href=\"mailto:%(email)s\">%(email)s</a>로 메일을 보내주세요."
 
-#: donate/templates/fragments/donate_form_disclaimer_master.html:28
-#: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:8
+#: donate/templates/fragments/donate_form_disclaimer_master.html:28 donate/thunderbird/templates/fragments/donate_form_disclaimer.html:8
 #, python-format
 msgid "Other ways to give: <a href=\"%(check_url)s\">Check</a>"
-msgstr ""
+msgstr "기타 기부 방법: <a href=\"%(check_url)s\">수표</a>"
 
-#: donate/templates/fragments/donate_form_disclaimer_master.html:38
-#: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:26
+#: donate/templates/fragments/donate_form_disclaimer_master.html:38 donate/thunderbird/templates/fragments/donate_form_disclaimer.html:26
 #, python-format
 msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"%(help_url)s\">Contact us</a>."
 msgstr "기부하는데 문제가 있나요? <a href=\"%(faq_url)s\">FAQ</a>에서 자주 묻는 질문에 대한 답을 찾으세요. 문제가 해결되지 않는다면 <a href=\"%(help_url)s\">문의하기</a>링크로 이동해 주세요."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:46
-msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in San Francisco, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
+msgid ""
+"Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in San Francisco, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S."
+" to the fullest extent permitted by law."
 msgstr "후원금은 캘리포니아 샌프란시스코에 본사를 둔 501(c)(3) 조직인 Mozilla Foundation으로 모아져서 자선활동의 목적을 가지고 자유 재량에 의해서 사용됩니다. 미국에서 법률이 허용한 최대한으로 세금 공제가 됩니다."
 
-#: donate/templates/fragments/language_switcher.html:10
-#: donate/templates/pages/core/contributor_support_page_master.html:102
+#: donate/templates/fragments/language_switcher.html:10 donate/templates/pages/core/contributor_support_page_master.html:102
 msgid "Language"
 msgstr "언어"
 
@@ -282,28 +277,27 @@ msgstr "블로그"
 
 #: donate/templates/pages/base_page_master.html:183
 #, python-format
-msgid "Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a %(fomo_link_attributes)s>%(fomo_site_url)s</a>. Most content available under a <a %(cc_link_attributes)s>Creative Commons license</a>."
-msgstr "Mozilla는 사용자가 온라인 경험을 주도하고 웹의 미래를 형성하여 공공의 이익을 얻는 데 전념하는 세계적인 비영리 단체입니다. <a %(fomo_link_attributes)s>%(fomo_site_url)s</a>로 방문해주세요. 대부분의 콘텐츠는 <a %(cc_link_attributes)s>크리에이티브 커먼즈 라이선스</a>에 따라 제공됩니다."
+msgid ""
+"Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a "
+"%(fomo_link_attributes)s>%(fomo_site_url)s</a>. Most content available under a <a %(cc_link_attributes)s>Creative Commons license</a>."
+msgstr ""
+"Mozilla는 사용자가 온라인 경험을 주도하고 웹의 미래를 형성하여 공공의 이익을 얻는 데 전념하는 세계적인 비영리 단체입니다. <a %(fomo_link_attributes)s>%(fomo_site_url)s</a>로 방문해주세요. 대부분의 콘텐츠는 <a %(cc_link_attributes)s>크리에이티브 커먼즈 라이선스</a>에 따라 제공됩니다."
 
-#: donate/templates/pages/core/campaign_page.html:42
-#: donate/templates/pages/core/campaign_page_master.html:58
+#: donate/templates/pages/core/campaign_page.html:42 donate/templates/pages/core/campaign_page_master.html:58
 msgctxt "Header"
 msgid "Donate now"
 msgstr "지금 기부하기"
 
-#: donate/templates/pages/core/campaign_page_master.html:43
-#: donate/templates/pages/core/ways_to_give_page_master.html:12
+#: donate/templates/pages/core/campaign_page_master.html:43 donate/templates/pages/core/ways_to_give_page_master.html:12
 msgctxt "Button"
 msgid "DONATE NOW"
 msgstr "지금 기부하세요"
 
-#: donate/templates/pages/core/campaign_page_master.html:72
-#: donate/templates/pages/core/landing_page_master.html:49
+#: donate/templates/pages/core/campaign_page_master.html:72 donate/templates/pages/core/landing_page_master.html:49
 msgid "Your donation is being processed..."
 msgstr "기부금을 처리하고 있습니다..."
 
-#: donate/templates/pages/core/campaign_page_master.html:81
-#: donate/templates/pages/core/landing_page_master.html:59
+#: donate/templates/pages/core/campaign_page_master.html:81 donate/templates/pages/core/landing_page_master.html:59
 msgid "One moment while we get all the details right!"
 msgstr "모든 세부 사항을 확인하는 동안 잠시만 기다려 주십시오!"
 
@@ -320,12 +314,16 @@ msgid "If you need help with a donation to the Mozilla Foundation, please fill o
 msgstr "Mozilla Foundation에 기부하는 데에 도움이 필요한 경우, 이 양식을 작성하면 기증자 관리 담당자가 최대한 빨리 연락을 드릴 것입니다."
 
 #: donate/templates/pages/core/contributor_support_page_master.html:72
-msgid "Unfortunately, donor care representatives are unable to offer support or help with Firefox technical issues, or changes to or questions about Mozilla VPN subscriptions. Related questions submitted through this form will not be responded to."
+msgid ""
+"Unfortunately, donor care representatives are unable to offer support or help with Firefox technical issues, or changes to or questions about Mozilla VPN subscriptions. Related questions submitted "
+"through this form will not be responded to."
 msgstr "유감스럽게도 기부자 관리 담당자는 Firefox 기술 문제, Mozilla VPN 구독 변경 또는 질문에 대한 지원이나 도움을 제공할 수 없습니다. 이 양식을 통해 제출된 관련 질문에는 응답하지 않습니다."
 
 #: donate/templates/pages/core/contributor_support_page_master.html:77
 #, python-format
-msgid "For technical support, please visit the <a href=\"%(firefox_support_url)s\">Firefox support page</a>. For help with a VPN subscription, please visit the <a href=\"%(vpn_support_url)s\">Mozilla VPN Support page</a>."
+msgid ""
+"For technical support, please visit the <a href=\"%(firefox_support_url)s\">Firefox support page</a>. For help with a VPN subscription, please visit the <a href=\"%(vpn_support_url)s\">Mozilla VPN "
+"Support page</a>."
 msgstr "기술 지원을 받으려면 <a href=\"%(firefox_support_url)s\">Firefox 지원 페이지</a>를 방문하세요. VPN 구독에 대한 도움이 필요하면 <a href=\"%(vpn_support_url)s\">Mozilla VPN 지원 페이지</a>를 방문하세요."
 
 #: donate/templates/pages/core/contributor_support_page_master.html:92
@@ -413,10 +411,9 @@ msgstr "제출"
 
 #: donate/templates/pages/core/landing_page.html:23
 msgid "featured image"
-msgstr ""
+msgstr "주요 이미지"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:4
-#: donate/templates/pages/core/ways_to_give_page_master.html:11
+#: donate/templates/pages/core/ways_to_give_page_master.html:4 donate/templates/pages/core/ways_to_give_page_master.html:11
 msgid "Ways to Give"
 msgstr "기부 방법"
 
@@ -435,7 +432,9 @@ msgstr "주식/증권 기부:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:26
 #, python-format
-msgid "The Mozilla Foundation is happy to accept your gift of publicly-traded stocks or bonds through our brokerage account at Northern Trust Securities. Please contact Major Gift Officer %(name)s at <a href=\"mailto:%(email)s\">%(email)s</a> to initiate the process."
+msgid ""
+"The Mozilla Foundation is happy to accept your gift of publicly-traded stocks or bonds through our brokerage account at Northern Trust Securities. Please contact Major Gift Officer %(name)s at <a "
+"href=\"mailto:%(email)s\">%(email)s</a> to initiate the process."
 msgstr "Mozilla Foundation은 Northern Trust Securities의 증권 계좌를 통한 상장주식 또는 채권의 기부를 환영합니다. 기부 절차를 진행하려면 고액기부 담당자 %(name)s <a href=\"mailto:%(email)s\">%(email)s</a> 에게 문의해 주십시오."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:35
@@ -447,18 +446,23 @@ msgid "UPDATE October 2020:"
 msgstr "2020년 10월 업데이트:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:40
-msgid "The Mozilla Foundation is happy to accept your donation (made payable to “Mozilla Foundation”) via check; however please note that processing and acknowledgment of your gift may be delayed by changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
+msgid ""
+"The Mozilla Foundation is happy to accept your donation (made payable to “Mozilla Foundation”) via check; however please note that processing and acknowledgment of your gift may be delayed by "
+"changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
 msgstr "Mozilla Foundation은 귀하의 수표 기부(“Mozilla Foundation” 앞)를 환영합니다. 그러나 코로나19 상황으로 인해 사무 절차가 변경되어 귀하의 기부에 대한 처리 및 승인이 지연될 수 있습니다. 수표를 발송할 주소:"
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:57
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:21
+#: donate/templates/pages/core/ways_to_give_page_master.html:57 donate/thunderbird/templates/pages/core/ways_to_give_page.html:21
 msgid "Please include your email address on the memo line of your check to help us track and attribute your gift."
 msgstr "귀하의 기부를 추적하고 등록할 수 있도록 수표의 메모란에 이메일 주소를 기재해 주십시오."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:64
 #, python-format
-msgid "Please also note that the Mozilla Foundation can <strong>only</strong> accept checks in U.S. dollars drawn on a U.S. bank, and <strong>cannot</strong> accept contributions for MZLA/Thunderbird. (Contributions to MZLA/Thunderbird via check can be made by following <a href=\"%(instruction_url)s\" target=\"_blank\">these instructions</a>.)"
-msgstr "또한 Mozilla Foundation은 <strong>오직</strong> 미국 은행에서 발행된 미국 달러 수표만을 받고 있으며, MZLA/Thunderbird에 대한 기부는 받지 <strong>않음</strong>에 유의하시길 바랍니다. (수표로 MZLA/Thunderbird에 기부를 하고 싶으시면 <a href=\"%(instruction_url)s\" target=\"_blank\">이 지침</a>을 따라 주세요.)"
+msgid ""
+"Please also note that the Mozilla Foundation can <strong>only</strong> accept checks in U.S. dollars drawn on a U.S. bank, and <strong>cannot</strong> accept contributions for MZLA/Thunderbird. "
+"(Contributions to MZLA/Thunderbird via check can be made by following <a href=\"%(instruction_url)s\" target=\"_blank\">these instructions</a>.)"
+msgstr ""
+"또한 Mozilla Foundation은 <strong>오직</strong> 미국 은행에서 발행된 미국 달러 수표만을 받고 있으며, MZLA/Thunderbird에 대한 기부는 받지 <strong>않음</strong>에 유의하시길 바랍니다. (수표로 MZLA/Thunderbird에 기부를 하고 싶으시면 <a "
+"href=\"%(instruction_url)s\" target=\"_blank\">이 지침</a>을 따라 주세요.)"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:71
 msgid "Currencies"
@@ -506,9 +510,7 @@ msgstr "결제 처리 과정에서 주소 정보에 오류가 발견되어 결�
 msgid "Please correct these errors and try again."
 msgstr "이 오류를 수정하고 다시 시도하여 주십시오."
 
-#: donate/templates/payment/card_master.html:82
-#: donate/templates/payment/card_upsell_master.html:34
-#: donate/templates/payment/newsletter_signup_master.html:30
+#: donate/templates/payment/card_master.html:82 donate/templates/payment/card_upsell_master.html:34 donate/templates/payment/newsletter_signup_master.html:30
 #: donate/templates/payment/paypal_upsell_master.html:34
 msgid "There were some errors with your form. Please amend the fields highlighted below."
 msgstr "양식에 오류가 있습니다. 아래 표시된 부분을 수정해 주십시오."
@@ -531,8 +533,13 @@ msgstr "CVV"
 
 #: donate/templates/payment/card_master.html:140
 #, python-format
-msgid "I authorize Mozilla Foundation to automatically charge my card every month in the amount indicated above, starting today and continuing each month on the same day, until I cancel. I understand that I must cancel at least 5 days before the next scheduled donation by email to <a href='mailto:%(email)s'>%(email)s</a>, and that I may only request a refund within 15 days from the date of a donation."
-msgstr "본인은 Mozilla Foundation이 오늘부터 취소 할 때까지 매월 위에 표시된 금액을 내 카드에 자동으로 청구하도록 승인합니다. 다음 예정된 기부 일로부터 최소 5 일 전에 <a href='mailto:%(email)s'>%(email)s</a>에 이메일로 기부를 취소해야 하며, 기부 일로부터 15 일 이내에만 환불 요청할 수 있음을 이해합니다. "
+msgid ""
+"I authorize Mozilla Foundation to automatically charge my card every month in the amount indicated above, starting today and continuing each month on the same day, until I cancel. I understand that "
+"I must cancel at least 5 days before the next scheduled donation by email to <a href='mailto:%(email)s'>%(email)s</a>, and that I may only request a refund within 15 days from the date of a "
+"donation."
+msgstr ""
+"본인은 Mozilla Foundation이 오늘부터 취소 할 때까지 매월 위에 표시된 금액을 내 카드에 자동으로 청구하도록 승인합니다. 다음 예정된 기부 일로부터 최소 5 일 전에 <a href='mailto:%(email)s'>%(email)s</a>에 이메일로 기부를 취소해야 하며, 기부 일로부터 15 일 이내에만 환불 요청할 수 있음을 이해합니다."
+" "
 
 #: donate/templates/payment/card_master.html:142
 msgid "I authorize Mozilla Foundation to charge my card in the amount indicated above. I understand that I may only request a refund within 15 days from the date of the donation."
@@ -560,27 +567,20 @@ msgstr "채러티 네비게이터 인증 4성 마크"
 msgid "Seal of GuideStar Gold 2019"
 msgstr "2019 가이드스타 골드 마크"
 
-#: donate/templates/payment/card_upsell_master.html:4
-#: donate/templates/payment/paypal_upsell_master.html:4
-#: donate/templates/payment/thank_you_master.html:4
+#: donate/templates/payment/card_upsell_master.html:4 donate/templates/payment/paypal_upsell_master.html:4 donate/templates/payment/thank_you_master.html:4
 msgid "Thank you"
 msgstr "고맙습니다"
 
-#: donate/templates/payment/card_upsell_master.html:13
-#: donate/templates/payment/newsletter_signup_master.html:13
-#: donate/templates/payment/paypal_upsell_master.html:13
-#: donate/templates/payment/thank_you_master.html:12
-#: donate/thunderbird/templates/payment/newsletter_signup.html:6
+#: donate/templates/payment/card_upsell_master.html:13 donate/templates/payment/newsletter_signup_master.html:13 donate/templates/payment/paypal_upsell_master.html:13
+#: donate/templates/payment/thank_you_master.html:12 donate/thunderbird/templates/payment/newsletter_signup.html:6
 msgid "Thank you for your generous gift"
 msgstr "기부해 주셔서 감사합니다."
 
-#: donate/templates/payment/card_upsell_master.html:17
-#: donate/templates/payment/paypal_upsell_master.html:17
+#: donate/templates/payment/card_upsell_master.html:17 donate/templates/payment/paypal_upsell_master.html:17
 msgid "We’d love to have you as a sustaining supporter of Mozilla. <b>Could you add a monthly donation starting next month?</b>"
 msgstr "Mozilla의 지속적인 후원자로 여러분을 초대합니다. <b>다음 달부터 매달 소정의 금액을 기부해 주시겠습니까?</b>"
 
-#: donate/templates/payment/card_upsell_master.html:21
-#: donate/templates/payment/paypal_upsell_master.html:21
+#: donate/templates/payment/card_upsell_master.html:21 donate/templates/payment/paypal_upsell_master.html:21
 msgid "Yes, I will give:"
 msgstr "네, 기부합니다:"
 
@@ -590,15 +590,16 @@ msgstr "매월"
 
 #: donate/templates/payment/card_upsell_master.html:50
 #, python-format
-msgid "I authorize Mozilla Foundation to automatically charge my card every month in the amount indicated above, starting next month on the same date as today, and continuing each month afterwards until I cancel. I understand that I must cancel at least 5 days before the next scheduled donation by email to %(email)s, and that I may only request a refund within 15 days from the date of a donation."
+msgid ""
+"I authorize Mozilla Foundation to automatically charge my card every month in the amount indicated above, starting next month on the same date as today, and continuing each month afterwards until I "
+"cancel. I understand that I must cancel at least 5 days before the next scheduled donation by email to %(email)s, and that I may only request a refund within 15 days from the date of a donation."
 msgstr "본인은 Mozilla Foundation이 위에 명시된 금액을 매월 자동으로 청구 할 수 있도록 승인합니다. 다음 달부터 오늘과 같은 날짜에 시작하여 취소 할 때까지 매월 계속됩니다. %(email)s에 이메일로 다음 예정된 기부 5 일 전에 취소해야 하며 기부 일로부터 15 일 이내에만 환불을 요청할 수 있음을 이해합니다."
 
 #: donate/templates/payment/card_upsell_master.html:57
 msgid "Donate Monthly"
 msgstr "매달 기부"
 
-#: donate/templates/payment/card_upsell_master.html:60
-#: donate/templates/payment/newsletter_signup_master.html:42
+#: donate/templates/payment/card_upsell_master.html:60 donate/templates/payment/newsletter_signup_master.html:42
 msgid "No Thanks"
 msgstr "아니요"
 
@@ -622,8 +623,7 @@ msgstr "/ 매월"
 msgid "No"
 msgstr "아니요"
 
-#: donate/templates/payment/thank_you_master.html:15
-#: donate/thunderbird/templates/payment/thank_you.html:6
+#: donate/templates/payment/thank_you_master.html:15 donate/thunderbird/templates/payment/thank_you.html:6
 #, python-format
 msgid "We’ve emailed you a donation receipt; if it’s missing, please check your junk/spam folders, then contact us using <a href=\"%(url)s\">this form</a>."
 msgstr "기부금 영수증을 이메일로 발송해 드렸습니다. 만약 받지 못했다면 정크/스팸 폴더를 확인하시고 <a href=\"%(url)s\">이 양식</a>을 사용하여 연락주세요."
@@ -642,42 +642,33 @@ msgctxt "Email subject line"
 msgid "I donated to Mozilla today"
 msgstr "오늘 Mozilla에 기부했습니다."
 
-#: donate/templates/payment/thank_you_master.html:26
-#: donate/thunderbird/templates/payment/thank_you.html:15
+#: donate/templates/payment/thank_you_master.html:26 donate/thunderbird/templates/payment/thank_you.html:15
 msgid "Share on Facebook"
 msgstr "Facebook에 공유"
 
-#: donate/templates/payment/thank_you_master.html:30
-#: donate/thunderbird/templates/pages/base_page.html:44
-#: donate/thunderbird/templates/payment/thank_you.html:19
+#: donate/templates/payment/thank_you_master.html:30 donate/thunderbird/templates/pages/base_page.html:44 donate/thunderbird/templates/payment/thank_you.html:19
 msgid "Facebook"
 msgstr "Facebook"
 
-#: donate/templates/payment/thank_you_master.html:33
-#: donate/thunderbird/templates/payment/thank_you.html:22
+#: donate/templates/payment/thank_you_master.html:33 donate/thunderbird/templates/payment/thank_you.html:22
 msgid "Share on Twitter"
 msgstr "Twitter에 공유"
 
-#: donate/templates/payment/thank_you_master.html:37
-#: donate/thunderbird/templates/pages/base_page.html:38
-#: donate/thunderbird/templates/payment/thank_you.html:26
+#: donate/templates/payment/thank_you_master.html:37 donate/thunderbird/templates/pages/base_page.html:38 donate/thunderbird/templates/payment/thank_you.html:26
 msgid "Twitter"
 msgstr "트위터"
 
-#: donate/templates/payment/thank_you_master.html:43
-#: donate/thunderbird/templates/payment/thank_you.html:32
+#: donate/templates/payment/thank_you_master.html:43 donate/thunderbird/templates/payment/thank_you.html:32
 msgctxt "Share button"
 msgid "Email"
 msgstr "이메일"
 
-#: donate/templates/payment/thank_you_master.html:53
-#: donate/thunderbird/templates/payment/thank_you.html:42
+#: donate/templates/payment/thank_you_master.html:53 donate/thunderbird/templates/payment/thank_you.html:42
 msgctxt "Share button"
 msgid "Link"
 msgstr "링크"
 
-#: donate/templates/payment/thank_you_master.html:54
-#: donate/thunderbird/templates/payment/thank_you.html:43
+#: donate/templates/payment/thank_you_master.html:54 donate/thunderbird/templates/payment/thank_you.html:43
 msgid "Copied"
 msgstr "복사됨"
 
@@ -685,9 +676,7 @@ msgstr "복사됨"
 msgid "Back"
 msgstr "뒤로"
 
-#: donate/thunderbird/templates/base.html:24
-#: donate/thunderbird/templates/pages/base_page.html:9
-#: donate/thunderbird/templates/pages/base_page.html:16
+#: donate/thunderbird/templates/base.html:24 donate/thunderbird/templates/pages/base_page.html:9 donate/thunderbird/templates/pages/base_page.html:16
 #: donate/thunderbird/templates/pages/base_page.html:17
 msgctxt "Page title"
 msgid "Give to Thunderbird"
@@ -695,8 +684,12 @@ msgstr "Thunderbird에 기부하기"
 
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:15
 #, python-format
-msgid "Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Thunderbird. Please read our <a href=\"%(privacy_url)s\">privacy policy here</a>."
-msgstr "결제 세부 정보는 <a href=\"%(braintree_url)s\">Braintree</a>, PayPal 회사 (신용 / 직불 카드 용) 또는 <a href=\"%(paypal_url)s\">PayPal</a>에서 처리됩니다. 기부 기록은 Thunderbird에 저장됩니다. 여기에 <a href=\"%(privacy_url)s\">개인 정보 보호 정책</a>을 읽어보세요."
+msgid ""
+"Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your "
+"donation will be stored by Thunderbird. Please read our <a href=\"%(privacy_url)s\">privacy policy here</a>."
+msgstr ""
+"결제 세부 정보는 <a href=\"%(braintree_url)s\">Braintree</a>, PayPal 회사 (신용 / 직불 카드 용) 또는 <a href=\"%(paypal_url)s\">PayPal</a>에서 처리됩니다. 기부 기록은 Thunderbird에 저장됩니다. 여기에 <a href=\"%(privacy_url)s\">개인 정보 보호 "
+"정책</a>을 읽어보세요."
 
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:18
 #, python-format
@@ -704,7 +697,9 @@ msgid "Monthly donations are charged each month on the same day that you donate 
 msgstr "월간 기부금은 오늘 기부 한 날에 매달 청구되며 취소 할 때까지 계속됩니다. 취소하려면 <a href=\"%(help_url)s\">이 양식</a>을 작성하세요."
 
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:34
-msgid "Contributions go to MZLA Technologies Corporation, a California corporation wholly owned by the Mozilla Foundation. Funds will be reserved for use in the Thunderbird project. Contributions are not tax-deductible as charitable contributions."
+msgid ""
+"Contributions go to MZLA Technologies Corporation, a California corporation wholly owned by the Mozilla Foundation. Funds will be reserved for use in the Thunderbird project. Contributions are not "
+"tax-deductible as charitable contributions."
 msgstr "기부금은 Mozilla 재단이 전액 소유 한 캘리포니아 기업인 MZLA Technologies Corporation에 전달됩니다. 자금은 Thunderbird 프로젝트에서 사용하기 위해 예약됩니다. 기부금은 자선 기부금으로 세금 공제 대상이 아닙니다."
 
 #: donate/thunderbird/templates/pages/base_page.html:53
@@ -738,7 +733,8 @@ msgstr "MZLA/Thunderbird에 기부하는 데에 도움이 필요한 경우, 이 
 
 #: donate/thunderbird/templates/pages/core/contributor_support_page.html:12
 #, python-format
-msgid "Unfortunately, donor care representatives are unable to offer support or help with Thunderbird technical issues. For technical support, please visit our <a href=\"%(support_url)s\">support page.</a>"
+msgid ""
+"Unfortunately, donor care representatives are unable to offer support or help with Thunderbird technical issues. For technical support, please visit our <a href=\"%(support_url)s\">support page.</a>"
 msgstr "죄송하지만, 기부 관리 담당자는 Thunderbird의 기술적 문제에 대한 지원이나 도움을 제공할 수 없습니다. 기술 지원을 받으려면 <a href=\"%(support_url)s\">지원 페이지</a>를 방문하세요."
 
 #: donate/thunderbird/templates/pages/core/landing_page.html:7
@@ -747,7 +743,9 @@ msgid "Your download should have begun automatically. If it didn’t work, <a hr
 msgstr "자동으로 다운로드가 시작됩니다. 시작되지 않으면 <a href=\"%(url)s\">여기에서 다시 다운로드 하세요</a>."
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:8
-msgid "MZLA/Thunderbird is happy to accept your donation <strong>(made payable to “MZLA Technologies Corp”)</strong> via check; however please note that processing and acknowledgment of your gift may be delayed by changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
+msgid ""
+"MZLA/Thunderbird is happy to accept your donation <strong>(made payable to “MZLA Technologies Corp”)</strong> via check; however please note that processing and acknowledgment of your gift may be "
+"delayed by changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
 msgstr "MZLA/Thunderbird는 귀하의 수표 기부<strong>(“MZLA Technologies Corp” 앞)</strong>를 환영합니다. 그러나 코로나19 상황으로 인해 사무 절차가 변경되어 귀하의 기부에 대한 처리 및 승인이 지연될 수 있습니다. 수표를 발송할 주소:"
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:25
@@ -760,22 +758,31 @@ msgstr "선물에 감사를 표합니다."
 
 #: donate/thunderbird/templates/payment/card.html:12
 #, python-format
-msgid "I authorize MZLA Technologies Corporation to automatically charge my card every month in the amount indicated above, starting today and continuing each month on the same day, until I cancel. I understand that I must cancel at least 5 days before the next scheduled donation by <a href='%(help_url)s'>submitting a request</a>, and that I may only request a refund within 15 days from the date of a donation."
-msgstr "본인은 MZLA Technologies Corporation이 위에 명시된 금액을 내 카드에 자동으로  매달 오늘부터 시작해서 다음 달 같은 날짜에 계속 청구할 것을 승인합니다. <a href='%(help_url)s'> 요청을 제출 </a>에서 적어도 다음 기부 예정일의 5 일 전에 취소해야 하며 기부 날짜로부터 15일 이내에만 환불을 요청할 수 있음을 이해합니다."
+msgid ""
+"I authorize MZLA Technologies Corporation to automatically charge my card every month in the amount indicated above, starting today and continuing each month on the same day, until I cancel. I "
+"understand that I must cancel at least 5 days before the next scheduled donation by <a href='%(help_url)s'>submitting a request</a>, and that I may only request a refund within 15 days from the date"
+" of a donation."
+msgstr ""
+"본인은 MZLA Technologies Corporation이 위에 명시된 금액을 내 카드에 자동으로  매달 오늘부터 시작해서 다음 달 같은 날짜에 계속 청구할 것을 승인합니다. <a href='%(help_url)s'> 요청을 제출 </a>에서 적어도 다음 기부 예정일의 5 일 전에 취소해야 하며 기부 날짜로부터 15일 이내에만 환불을 요청할 수 "
+"있음을 이해합니다."
 
 #: donate/thunderbird/templates/payment/card.html:14
 msgid "I authorize MZLA Technologies Corporation to charge my card in the amount indicated above. I understand that I may only request a refund within 15 days from the date of the donation."
 msgstr "본인은 MZLA Technologies Corporation이 위에 표시된 금액을 내 카드에 청구할 권한을 부여합니다. 기부일로부터 15일 이내에만 환불을 요청할 수 있음을 이해합니다."
 
-#: donate/thunderbird/templates/payment/card_upsell.html:6
-#: donate/thunderbird/templates/payment/paypal_upsell.html:6
+#: donate/thunderbird/templates/payment/card_upsell.html:6 donate/thunderbird/templates/payment/paypal_upsell.html:6
 msgid "We’d love to have you as a sustaining supporter of Thunderbird. <b>Could you add a monthly donation starting next month?</b>"
 msgstr "Thunderbird의 지속적 후원자로 여러분을 초대합니다. <b>다음 달부터 매달 기부금을 추가해 주시겠습니까? </b>"
 
 #: donate/thunderbird/templates/payment/card_upsell.html:10
 #, python-format
-msgid "I authorize MZLA Technologies Corporation to automatically charge my card every month in the amount indicated above, starting next month on the same date as today, and continuing each month afterwards until I cancel. I understand that I must cancel at least 5 days before the next scheduled donation by <a href=\"%(help_url)s\">submitting this form</a>, and that I may only request a refund within 15 days from the date of a donation."
-msgstr "본인은 MZLA Technologies Corporation이 다음 달부터 오늘과 같은 날짜에 시작하여 취소 할 때까지 매월 계속해서 위에 표시된 금액으로 매월 내 카드에 자동으로 청구하도록 승인합니다. 다음 기부 예정일로부터 최소 5 일 전에 <a href=\"%(help_url)s\">이 양식을 제출 </a>하여 취소해야 하며 해당 날짜로부터 15 일 이내에만 환불을 요청할 수 있음을 이해합니다."
+msgid ""
+"I authorize MZLA Technologies Corporation to automatically charge my card every month in the amount indicated above, starting next month on the same date as today, and continuing each month "
+"afterwards until I cancel. I understand that I must cancel at least 5 days before the next scheduled donation by <a href=\"%(help_url)s\">submitting this form</a>, and that I may only request a "
+"refund within 15 days from the date of a donation."
+msgstr ""
+"본인은 MZLA Technologies Corporation이 다음 달부터 오늘과 같은 날짜에 시작하여 취소 할 때까지 매월 계속해서 위에 표시된 금액으로 매월 내 카드에 자동으로 청구하도록 승인합니다. 다음 기부 예정일로부터 최소 5 일 전에 <a href=\"%(help_url)s\">이 양식을 제출 </a>하여 취소해야 하며 해당 날짜로부터 15 "
+"일 이내에만 환불을 요청할 수 있음을 이해합니다."
 
 #: donate/thunderbird/templates/payment/newsletter_signup.html:8
 msgid "We’re working hard to protect your inbox. Sign up to receive email messages concerning Thunderbird, including updates and requests for feedback."
@@ -795,7 +802,6 @@ msgctxt "Email subject line"
 msgid "I donated to Thunderbird today"
 msgstr "오늘 Thunderbird에 기부했습니다."
 
-#, python-format
 #~ msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a>"
 #~ msgstr "다른 방법으로 기부하기: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">수표</a>"
 
@@ -805,17 +811,19 @@ msgstr "오늘 Thunderbird에 기부했습니다."
 #~ msgid "We accept donations in Euros through Single European Payment Area (SEPA) transfer, and British Pounds through BACS transfer."
 #~ msgstr "이제 단일 유로 결제 지역(SEPA) 송금으로 유로와 BACS 송금을 통해 영국 파운드를 기부 받을 수 있게 되었습니다."
 
-#~ msgid "Note that for smaller (under 10 EUR or equivalent) donations, <strong>and especially for donations under 5 EUR or equivalent</strong>, we request that you donate via credit card or PayPal to help reduce Mozilla’s processing fees."
+#~ msgid ""
+#~ "Note that for smaller (under 10 EUR or equivalent) donations, <strong>and especially for donations under 5 EUR or equivalent</strong>, we request that you donate via credit card or PayPal to help "
+#~ "reduce Mozilla’s processing fees."
 #~ msgstr "소규모 (10 유로 이하 또는 이에 상응하는 금액) 기부, 특히 <strong>5유로 이하 또는 이에 상응하는 금액 </ strong> 기부의 경우 Mozilla의 처리 수수료를 줄이기 위해 신용 카드 또는 PayPal을 통해 기부 할 것을 요청합니다."
 
-#, python-format
-#~ msgid "Please also note that the Mozilla Foundation cannot accept SEPA or BACS transfers for MZLA/Thunderbird. To contribute to MZLA/Thunderbird via SEPA or BACS transfer, please follow <a href=\"%(instruction_url)s\">these instructions</a>."
+#~ msgid ""
+#~ "Please also note that the Mozilla Foundation cannot accept SEPA or BACS transfers for MZLA/Thunderbird. To contribute to MZLA/Thunderbird via SEPA or BACS transfer, please follow <a "
+#~ "href=\"%(instruction_url)s\">these instructions</a>."
 #~ msgstr "Mozilla Foundation은 MZLA/Thunderbird에 관해 SEPA 또는 BACS를 통한 송금을 받지 않고 있습니다. SEPA 또는 BACS를 통해 MZLA/Thunderbird에 기부하려면 <a href=\"%(instruction_url)s\">이 지침</a>을 따르십시오."
 
 #~ msgid "Please remember that donations are deductible for U.S. income tax purposes only."
 #~ msgstr "기부금은 미국 소득세 목적으로만 공제될 수 있습니다."
 
-#, python-format
 #~ msgid "If your bank requests our physical address, it is %(address)s."
 #~ msgstr "은행에서 실제 주소를 요청하는 경우, %(address)s입니다."
 
@@ -864,7 +872,9 @@ msgstr "오늘 Thunderbird에 기부했습니다."
 #~ msgid "We accept contributions in Euros through Single European Payment Area (SEPA) transfer, and British Pounds through BACS transfer."
 #~ msgstr "SEPA (Single European Payment Area) 이체를 통해 유로로, BACS 이체를 통해 영국 파운드로 기부를받습니다."
 
-#~ msgid "Please note that for smaller (under 10 EUR or equivalent) contributions, <strong>and especially for contributions under 5 EUR or equivalent</strong>, we request that you contribute via credit card or PayPal to help reduce our processing fees."
+#~ msgid ""
+#~ "Please note that for smaller (under 10 EUR or equivalent) contributions, <strong>and especially for contributions under 5 EUR or equivalent</strong>, we request that you contribute via credit card "
+#~ "or PayPal to help reduce our processing fees."
 #~ msgstr "더 적은 금액 (10 유로 이하 또는 이에 상응하는 금액) 기부, 특히 <strong>5 유로 또는 이에 상응하는 금액 미만의 기부</strong>의 경우 처리 수수료를 줄이기 위해 신용 카드 또는 PayPal을 통해 기부 할 것을 요청합니다."
 
 #~ msgid "Beneficiary Name (For credit to):"
@@ -873,10 +883,14 @@ msgstr "오늘 Thunderbird에 기부했습니다."
 #~ msgid "Memo field:"
 #~ msgstr "메모 영역:"
 
-#~ msgid "Unfortunately, donor care representatives are unable to offer support or help with Firefox technical issues. For technical support, please visit the <a href=\"%(support_url)s\">Firefox support page</a>."
+#~ msgid ""
+#~ "Unfortunately, donor care representatives are unable to offer support or help with Firefox technical issues. For technical support, please visit the <a href=\"%(support_url)s\">Firefox support "
+#~ "page</a>."
 #~ msgstr "죄송하지만, 기증자 관리 담당자는 Firefox의 기술적 문제에 대해 지원이나 도움을 제공할 수 없습니다. 기술 지원을 받으려면 <a href=\"%(support_url)s\">Firefox 지원 페이지</a>를 방문하세요."
 
-#~ msgid "MZLA/Thunderbird is happy to accept your donation (made payable to “MZLA Technologies”) via check; however please note that processing and acknowledgment of your gift may be delayed by changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
+#~ msgid ""
+#~ "MZLA/Thunderbird is happy to accept your donation (made payable to “MZLA Technologies”) via check; however please note that processing and acknowledgment of your gift may be delayed by changes to "
+#~ "our office procedures due to the COVID-19 pandemic. You can send checks to:"
 #~ msgstr "MZLA/Thunderbird는 귀하의 수표 기부(“MZLA Technologies” 앞)를 환영합니다. 그러나 코로나19 상황으로 인해 사무 절차가 변경되어 귀하의 기부에 대한 처리 및 승인이 지연될 수 있습니다. 수표를 발송할 주소:"
 
 #~ msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a> | <a href=\"%(bitcoin_url)s\">Bitcoin</a>"
@@ -885,8 +899,14 @@ msgstr "오늘 Thunderbird에 기부했습니다."
 #~ msgid "Bitcoin"
 #~ msgstr "비트코인"
 
-#~ msgid "The Mozilla Foundation is a California non-profit corporation exempt from United States federal income taxation under IRC 501(c)(3) and a public charity classified under IRC sections 170(b)(1)(A) and 509(a)(1). Bitcoin donations Mozilla receives are considered charitable contributions under U.S. federal tax laws, to be used in its discretion for its charitable purposes. Because the IRS has indicated that it will treat bitcoin as property for U.S. tax purposes (see IRS Notice 2014-21), donations of bitcoin may be subject to special rules as to the amount of your charitable deduction, the documentation that must be provided to claim a tax deduction, or other matters."
-#~ msgstr "Mozilla 재단은 IRC 501(c)(3)에 따라 캘리포니아 비 영리 회사로서 미 연방 정부 소득 과세로 부터 면제를 받고 있고 IRC 섹션 170(b)(1)(A)와 509(a)(1)에 따라 공공 자선 단체입니다. Mozilla가 기부 받는 비트 코인 후원은 미국 연방 정부 세법에 의해서 자선 기부로 여겨지고 자선 목적을 위해서 재량에 의해 사용됩니다. IRS가 비트코인을 U.S. 과세 목적을 위해 재산으로 삼겠다고 명시(IRS Notice 2014-21)했기 때문에, 비트 코인을 이용한 기부는 기부자의 기부 공제 규모나 세금 감면을 위해 제출되어져야 하는 문서나 다른 부분에 따라 특별한 규정에 의해 처리될 수 있습니다."
+#~ msgid ""
+#~ "The Mozilla Foundation is a California non-profit corporation exempt from United States federal income taxation under IRC 501(c)(3) and a public charity classified under IRC sections 170(b)(1)(A) "
+#~ "and 509(a)(1). Bitcoin donations Mozilla receives are considered charitable contributions under U.S. federal tax laws, to be used in its discretion for its charitable purposes. Because the IRS has "
+#~ "indicated that it will treat bitcoin as property for U.S. tax purposes (see IRS Notice 2014-21), donations of bitcoin may be subject to special rules as to the amount of your charitable deduction, "
+#~ "the documentation that must be provided to claim a tax deduction, or other matters."
+#~ msgstr ""
+#~ "Mozilla 재단은 IRC 501(c)(3)에 따라 캘리포니아 비 영리 회사로서 미 연방 정부 소득 과세로 부터 면제를 받고 있고 IRC 섹션 170(b)(1)(A)와 509(a)(1)에 따라 공공 자선 단체입니다. Mozilla가 기부 받는 비트 코인 후원은 미국 연방 정부 세법에 의해서 자선 기부로 여겨지고 자선 목적을 위해서 재량에 의해 "
+#~ "사용됩니다. IRS가 비트코인을 U.S. 과세 목적을 위해 재산으로 삼겠다고 명시(IRS Notice 2014-21)했기 때문에, 비트 코인을 이용한 기부는 기부자의 기부 공제 규모나 세금 감면을 위해 제출되어져야 하는 문서나 다른 부분에 따라 특별한 규정에 의해 처리될 수 있습니다."
 
 #~ msgid "Learn more about bitcoin donations <a href=\"%(bitcoin_wiki)s\">here</a>. To donate bitcoin, <a href=\"%(bitcoin_donate)s\">please visit this link.</a>"
 #~ msgstr "<a href=\"%(bitcoin_wiki)s\">여기</a>에서 비트코인 기부에 대해 자세히 알아보세요. 비트코인으로 기부하려면 <a href=\"%(bitcoin_donate)s\">이 링크</a>를 방문하세요"
@@ -933,13 +953,17 @@ msgstr "오늘 Thunderbird에 기부했습니다."
 #~ msgid "If you need help with a contribution to MZLA/Thunderbird, fill out this form and a Thunderbird donor care representative will get back to you as soon as possible."
 #~ msgstr "MZLA/Thunderbird에 대한 도움이 필요한 경우, 이 양식을 작성하면 Thunderbird 기증자 관리 담당자가 최대한 빨리 연락을 드릴 것입니다."
 
-#~ msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in Mountain View, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
+#~ msgid ""
+#~ "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in Mountain View, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S."
+#~ " to the fullest extent permitted by law."
 #~ msgstr "후원금은 캘리포니아 마운틴뷰에 본사를 둔 501(c)(3) 조직인 Mozilla Foundation으로 모아져서 자선활동의 목적을 가지고 자유 재량에 의해서 사용됩니다. 미국에서 법률이 허용한 최대한으로 세금 공제가 됩니다."
 
 #~ msgid "License"
 #~ msgstr "라이선스"
 
-#~ msgid "Please note that due to the “shelter in place” order recently implemented for California, processing and acknowledgment of check donations to the Mozilla Foundation will be indefinitely delayed. Rather than sending us a check, please consider making an <a href=\"/\">online donation</a> instead."
+#~ msgid ""
+#~ "Please note that due to the “shelter in place” order recently implemented for California, processing and acknowledgment of check donations to the Mozilla Foundation will be indefinitely delayed. "
+#~ "Rather than sending us a check, please consider making an <a href=\"/\">online donation</a> instead."
 #~ msgstr "캘리포니아에서 시행하는 “자택 대기” 명령으로 Thunderbird/MZLA Technologies로 기부된 수표의 처리와 승인 작업이 무기한 연기될 예정입니다. 수표를 보내는 대신 <a href=\"/\">온라인기부</a>를 고려해 주세요."
 
 #~ msgid "Please send a check <strong>including your email address on the memo line</strong>, and payable (payee) to “%(payee)s”."
@@ -948,7 +972,9 @@ msgstr "오늘 Thunderbird에 기부했습니다."
 #~ msgid "Please note that the Mozilla Foundation can only accept checks in US dollars drawn on a US bank. Please do <strong>not</strong> send cash."
 #~ msgstr "Mozilla Foundation은 미국 은행에서 발행 한 미국 달러 수표 만 받을 수 있습니다. 현금을 직접 보내지 <strong>마세요</strong>."
 
-#~ msgid "Please note that due to the “shelter in place” order recently implemented for California, processing and acknowledgment of check donations to Thunderbird/MZLA Technologies will be indefinitely delayed. Rather than sending us a check, please consider making an <a href=\"/\">online donation</a> instead."
+#~ msgid ""
+#~ "Please note that due to the “shelter in place” order recently implemented for California, processing and acknowledgment of check donations to Thunderbird/MZLA Technologies will be indefinitely "
+#~ "delayed. Rather than sending us a check, please consider making an <a href=\"/\">online donation</a> instead."
 #~ msgstr "캘리포니아에서 시행하는 “자택대기” 명령으로 Thunderbird/MZLA Technologies로 기부된 수표의 처리와 승인 작업이 무기한 연기될 예정입니다. 수표를 보내는 대신 <a href=\"/\">온라인기부</a>를 고려해 주세요."
 
 #~ msgid "Please send a check <strong>with “%(thunderbird)s” on the memo line</strong>, and payable (payee) to “%(payee)s”."
