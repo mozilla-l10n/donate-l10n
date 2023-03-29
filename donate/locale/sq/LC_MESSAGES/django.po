@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-21 15:15+0000\n"
-"PO-Revision-Date: 2023-03-29 11:50+0000\n"
+"PO-Revision-Date: 2023-03-29 12:24+0000\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sq\n"
@@ -196,6 +196,8 @@ msgid ""
 "Mozilla is committed to your privacy; please read our <a href=\"%(privacy_url)s\">privacy policy here</a>. Your payment details will be processed by <a href=\"%(stripe_url)s\">Stripe</a>, or <a "
 "href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Mozilla."
 msgstr ""
+"Mozilla është e përkushtuar ndaj privatësisë tuaj; ju lutemi, lexoni <a href=\"%(privacy_url)s\">këtu rregullat tona të privatësisë</a>. Hollësitë e pagesës tuaj do të përpunohen nga <a "
+"href=\"%(stripe_url)s\">Stripe</a>, ose <a href=\"%(paypal_url)s\">PayPal</a>dhe një regjistrim i dhurimit tuaj do të depozitohet nga Mozilla."
 
 #: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:16
 #, python-format
