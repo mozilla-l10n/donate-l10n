@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-21 15:15+0000\n"
-"PO-Revision-Date: 2023-03-21 20:48+0000\n"
+"PO-Revision-Date: 2023-04-02 06:51+0000\n"
 "Last-Translator: Lan Glad <upwinxp@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
@@ -207,12 +207,12 @@ msgstr "<b>Drugi načini za donacijo: <a href=\"%(check_url)s\">ček</a></b>"
 #: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:24
 #, python-format
 msgid "<b>Question donating?</b> Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions."
-msgstr ""
+msgstr "<b>Imate vprašanja o doniranju?</b> Odgovore na najpogostejša vprašanja najdete na <a href=\"%(faq_url)s\">tej strani</a>."
 
 #: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:29
 #, python-format
 msgid "<b>Need to reach us about your donation?</b> <a href=\"%(help_url)s\">Contact us</a>."
-msgstr ""
+msgstr "<b>Se želite obrniti na nas glede svoje donacije?</b> <a href=\"%(help_url)s\">Pišite nam</a>."
 
 #: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:37
 #, python-format
