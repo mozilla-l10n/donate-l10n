@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-21 15:15+0000\n"
-"PO-Revision-Date: 2023-04-01 18:22+0000\n"
+"PO-Revision-Date: 2023-04-04 12:22+0000\n"
 "Last-Translator: Bjørn I. <bjorni.svindseth@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -205,12 +205,12 @@ msgstr "<b>Andre måtar å gje: <a href=\"%(check_url)s\">Sjekk</a></b>"
 #: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:24
 #, python-format
 msgid "<b>Question donating?</b> Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions."
-msgstr ""
+msgstr "<b>Spørsmål om å donere?</b> Gå til <a href=\"%(faq_url)s\">spørsmål og svarpørsmål (FAQ)</a> for å få svar på dei vanlegaste spørsmåla."
 
 #: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:29
 #, python-format
 msgid "<b>Need to reach us about your donation?</b> <a href=\"%(help_url)s\">Contact us</a>."
-msgstr ""
+msgstr "<b>Treng du å nå oss om noko som har med donasjonen din å gjere?</b> <a href=\"%(help_url)s\">Kontakt oss</a>."
 
 #: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:37
 #, python-format
