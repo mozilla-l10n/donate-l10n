@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-21 15:15+0000\n"
-"PO-Revision-Date: 2023-04-10 12:06+0000\n"
+"PO-Revision-Date: 2023-04-10 12:12+0000\n"
 "Last-Translator: Bjørn I. <bjorni.svindseth@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -196,6 +196,8 @@ msgid ""
 "Mozilla is committed to your privacy; please read our <a href=\"%(privacy_url)s\">privacy policy here</a>. Your payment details will be processed by <a href=\"%(stripe_url)s\">Stripe</a>, or <a "
 "href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Mozilla."
 msgstr ""
+"Det er vigtig for Mozilla å beskytte privatlivet ditt, noko du kan lese om i <a href=\"%(privacy_url)s\">personvernpraksisen</a> vår. Betalingsopplysningane dine vert behandla av <a "
+"href=\"%(stripe_url)s\">Stripe</a> eller <a href=\"%(paypal_url)s\">PayPal</a>, og oplysningar om bidraget ditt vert lagra hos Mozilla."
 
 #: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:16
 #, python-format
