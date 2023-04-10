@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-21 15:15+0000\n"
-"PO-Revision-Date: 2023-04-04 12:22+0000\n"
+"PO-Revision-Date: 2023-04-10 12:06+0000\n"
 "Last-Translator: Bjørn I. <bjorni.svindseth@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -218,6 +218,8 @@ msgid ""
 "Contributions go to the <a href=\"%(mozilla_url)s\">Mozilla Foundation</a>, a 501(c)(3) organization based in San Francisco, California, to be used in its discretion for its charitable purposes. "
 "They are tax-deductible in the U.S. to the fullest extent permitted by law."
 msgstr ""
+"Bidrag går til <a href=\"%(mozilla_url)s\">Mozilla Foundation</a>, ein 501(c)(3)-organisasjon basert i San Francisco, California, og vert brukt til velgjerande føremål. Desse kan trekkjast frå på "
+"skatten i USA etter gjeldande lov."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:6
 #, python-format
