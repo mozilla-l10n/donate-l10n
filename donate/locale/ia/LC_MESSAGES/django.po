@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-21 15:15+0000\n"
-"PO-Revision-Date: 2023-03-24 06:27+0000\n"
+"PO-Revision-Date: 2023-05-08 20:42+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: \n"
 "Language: ia\n"
@@ -246,7 +246,7 @@ msgstr "Altere manieras pro donar: <a href=\"%(check_url)s\">Cheque</a>"
 #: donate/templates/fragments/donate_form_disclaimer_master.html:38 donate/thunderbird/templates/fragments/donate_form_disclaimer.html:26
 #, python-format
 msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"%(help_url)s\">Contact us</a>."
-msgstr "Problemas con le donation? Visita nostre <a href=\"%(faq_url)s\">folio a questiones</a> pro responsas al questiones plus commun. Ancora problemas? <a href=\"%(help_url)s\">Contacta nos</a>."
+msgstr "Problemas a donar? Visita nostre <a href=\"%(faq_url)s\">Demandas Frequente</a> pro responsas al questiones plus commun. Ancora problemas? <a href=\"%(help_url)s\">Continge nos</a>."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:46
 msgid ""
@@ -309,7 +309,7 @@ msgstr "Un momento que nos recipe tote le detalios correcte!"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:54
 msgid "Thank you for contacting us. A case has been created for your issue and we will be in touch shortly."
-msgstr "Gratias pro contactar nos. Un caso ha essite create pro tu problema e nos te respondera tosto."
+msgstr "Gratias pro continger nos. Un caso ha essite create pro tu problema e nos te respondera tosto."
 
 #: donate/templates/pages/core/contributor_support_page_master.html:60
 msgid "We will get back to you soon."
@@ -317,7 +317,7 @@ msgstr "Nos recedera tosto a te."
 
 #: donate/templates/pages/core/contributor_support_page_master.html:67
 msgid "If you need help with a donation to the Mozilla Foundation, please fill out this form and a donor care representative will get back to you as soon as possible."
-msgstr "Si tu require adjuta pro un donation al Fundation Mozilla, plena iste formulario e un representante del assistentia pro le donatores te contactara le plus tosto possibile."
+msgstr "Si tu require adjuta pro un donation al Fundation Mozilla, plena iste formulario e un representante del assistentia pro le donatores te contingera le plus tosto possibile."
 
 #: donate/templates/pages/core/contributor_support_page_master.html:72
 msgid ""
@@ -448,7 +448,7 @@ msgid ""
 "The Mozilla Foundation is happy to accept your gift of publicly-traded stocks or bonds through our brokerage account at Northern Trust Securities. Please contact Major Gift Officer %(name)s at <a "
 "href=\"mailto:%(email)s\">%(email)s</a> to initiate the process."
 msgstr ""
-"Le Fundation Mozilla es felice de acceptar donationes de stocks o obligationes quotate a transverso nostre conto de valores a Northern Trust Securities. Contacta le responsabile principal de "
+"Le Fundation Mozilla es felice de acceptar donationes de stocks o obligationes quotate a transverso nostre conto de valores a Northern Trust Securities. Continge le responsabile principal de "
 "donationes %(name)s al adresse <a href=\"mailto:%(email)s\">%(email)s</a> pro comenciar le procedura."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:35
@@ -646,7 +646,7 @@ msgstr "No"
 #: donate/templates/payment/thank_you_master.html:15 donate/thunderbird/templates/payment/thank_you.html:6
 #, python-format
 msgid "We’ve emailed you a donation receipt; if it’s missing, please check your junk/spam folders, then contact us using <a href=\"%(url)s\">this form</a>."
-msgstr "Nos te ha inviate per e-mail un quitantia de donation; si illo manca, verifica tu dossiers de posta indesirate e spam, pois contacta nos usante <a href=\"%(url)s\">iste formulario</a>."
+msgstr "Nos te ha inviate per e-mail un quitantia de donation; si illo manca, verifica tu dossiers de posta indesirate e spam, pois contacta nos per <a href=\"%(url)s\">iste formulario</a>."
 
 #: donate/templates/payment/thank_you_master.html:16
 msgid "Lastly, can you multiply your impact by sharing about the important work Mozilla is doing? Thank you again!"
@@ -751,7 +751,7 @@ msgstr "Partes de iste contento es ©1998–%(current_year)s per collaboratores 
 
 #: donate/thunderbird/templates/pages/core/contributor_support_page.html:6
 msgid "If you need help with a contribution to MZLA/Thunderbird, please fill out this form and a Thunderbird donor care representative will get back to you as soon as possible."
-msgstr "Si tu require adjuta pro un donation a MZLA/Thunderbird, plena iste formulario e un representante del assistentia pro le donatores a Thunderbird te contactara le plus tosto possibile."
+msgstr "Si tu require adjuta pro un donation a MZLA/Thunderbird, plena iste formulario e un representante del assistentia pro le donatores a Thunderbird te contingera le plus tosto possibile."
 
 #: donate/thunderbird/templates/pages/core/contributor_support_page.html:12
 #, python-format
