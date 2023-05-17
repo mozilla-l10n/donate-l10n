@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-21 15:15+0000\n"
-"PO-Revision-Date: 2023-03-22 19:08+0000\n"
+"PO-Revision-Date: 2023-05-17 12:31+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -207,7 +207,7 @@ msgstr "<b>Outras formas de doar: <a href=\"%(check_url)s\">Cheque</a></b>"
 #: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:24
 #, python-format
 msgid "<b>Question donating?</b> Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions."
-msgstr "<b>Tem dúvidas sobre doação?</b> Visite nossas <a href=\"%(faq_url)s\">perguntas frequentes</a> para ver respostas às perguntas mais comuns."
+msgstr "<b>Tem dúvidas sobre doação?</b> Visite a página de <a href=\"%(faq_url)s\">perguntas frequentes</a> para ver respostas às dúvidas mais comuns."
 
 #: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:29
 #, python-format
@@ -247,8 +247,8 @@ msgstr "Outras formas de doar: <a href=\"%(check_url)s\">Cheque</a>"
 #, python-format
 msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"%(help_url)s\">Contact us</a>."
 msgstr ""
-"Problemas ao doar? Veja em nossa <a href=\"%(faq_url)s\">lista de perguntas frequentes</a> para obter respostas às questões mais comuns. Ainda não resolveu? <a href=\"%(help_url)s\">Entre em contato"
-" conosco</a>."
+"Problemas ao doar? Visite a página de <a href=\"%(faq_url)s\">perguntas frequentes</a> para ver respostas às dúvidas mais comuns. Ainda não resolveu? <a href=\"%(help_url)s\">Entre em contato "
+"conosco</a>."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:46
 msgid ""
