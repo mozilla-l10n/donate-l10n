@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-21 15:15+0000\n"
-"PO-Revision-Date: 2023-06-16 14:49+0000\n"
+"PO-Revision-Date: 2023-06-16 15:02+0000\n"
 "Last-Translator: Itiel <itiel_yn8@walla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: he\n"
@@ -235,7 +235,7 @@ msgstr ""
 #: donate/templates/fragments/donate_form_disclaimer_master.html:9
 #, python-format
 msgid "Monthly donations are charged each month on the same day that you donate today, and will continue until you cancel. To cancel, email us at <a href=\"mailto:%(email)s\">%(email)s</a>."
-msgstr "תרומות חודשיות מחויבות בכל חודש באותו היום בו התקבלה התרומה היום וכך הלאה עד לביטול. כדי לבטל נא לשלוח לנו דוא״ל אל <a href=\"mailto:%(email)s\">%(email)s</a>."
+msgstr "תרומות חודשיות מחויבות בכל חודש באותו היום בו התקבלה התרומה היום וכך הלאה עד לביטול. כדי לבטל, נא לשלוח לנו דוא״ל אל <a href=\"mailto:%(email)s\">%(email)s</a>."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:28 donate/thunderbird/templates/fragments/donate_form_disclaimer.html:8
 #, python-format
@@ -599,8 +599,6 @@ msgid ""
 "I authorize Mozilla Foundation to automatically charge my card every month in the amount indicated above, starting next month on the same date as today, and continuing each month afterwards until I "
 "cancel. I understand that I must cancel at least 5 days before the next scheduled donation by email to %(email)s, and that I may only request a refund within 15 days from the date of a donation."
 msgstr ""
-"אני מאשר לקרן Mozilla לחייב את הכרטיס שלי באופן אוטומטי בכל חודש בסכום המצוין לעיל, החל מהחודש הבא באותו תאריך כמו היום, וממשיך בכל חודש לאחר מכן עד שאבטל. מובן לי שעליי לבטל לפחות 5 ימים לפני "
-"התרומה המתוכננת הבאה בדוא״ל אל %(email)s, ושבאפשרותי לבקש החזר כספי תוך 15 יום בלבד ממועד התרומה."
 
 #: donate/templates/payment/card_upsell_master.html:57
 msgid "Donate Monthly"
@@ -637,12 +635,12 @@ msgstr ""
 
 #: donate/templates/payment/thank_you_master.html:16
 msgid "Lastly, can you multiply your impact by sharing about the important work Mozilla is doing? Thank you again!"
-msgstr ""
+msgstr "דבר אחרון, אפשר לבקש ממך להכפיל את ההשפעה שלך על־ידי שיתוף העבודה החשובה שנעשית על־ידי Mozilla? תודה רבה שוב!"
 
 #: donate/templates/payment/thank_you_master.html:21
 msgctxt "Used as a tweet"
 msgid "I donated to @mozilla today because I #lovetheweb. Join me and help fight for a better and healthier internet, for all."
-msgstr ""
+msgstr "תרמתי ל־@mozilla היום עקב אהבתי לאינטרנט #lovetheweb. הצטרפו אליי כדי לסייע במאבק לאינטרנט בטוח ובריא יותר, למען כולנו."
 
 #: donate/templates/payment/thank_you_master.html:22
 msgctxt "Email subject line"
@@ -685,10 +683,9 @@ msgstr "חזרה"
 
 #: donate/thunderbird/templates/base.html:24 donate/thunderbird/templates/pages/base_page.html:9 donate/thunderbird/templates/pages/base_page.html:16
 #: donate/thunderbird/templates/pages/base_page.html:17
-#, fuzzy
 msgctxt "Page title"
 msgid "Give to Thunderbird"
-msgstr "תרמתי ל־Thunderbird היום"
+msgstr "תרומה ל־Thunderbird"
 
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:15
 #, python-format
@@ -696,11 +693,13 @@ msgid ""
 "Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your "
 "donation will be stored by Thunderbird. Please read our <a href=\"%(privacy_url)s\">privacy policy here</a>."
 msgstr ""
+"פרטי התשלום שלך יעובדו על־ידי <a href=\"%(braintree_url)s\">Braintree</a>, חברת PayPal (לכרטיסי אשראי/חיוב מיידי) או על־ידי <a href=\"%(paypal_url)s\">PayPal</a>, ותיעוד של התרומה שלך יאוחסן על־ידי "
+"Thunderbird. נא לקרוא את <a href=\"%(privacy_url)s\">מדיניות הפרטיות שלנו כאן</a>."
 
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:18
 #, python-format
 msgid "Monthly donations are charged each month on the same day that you donate today, and will continue until you cancel. To cancel, fill out <a href=\"%(help_url)s\">this form</a>."
-msgstr ""
+msgstr "תרומות חודשיות מחויבות בכל חודש באותו היום בו התקבלה התרומה היום וכך הלאה עד לביטול. כדי לבטל, נא למלא את <a href=\"%(help_url)s\">טופס זה</a>."
 
 #: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:34
 msgid ""
@@ -736,7 +735,7 @@ msgstr "הזכויות של חלקים מתוכן זה שמורות ©1998–%(c
 
 #: donate/thunderbird/templates/pages/core/contributor_support_page.html:6
 msgid "If you need help with a contribution to MZLA/Thunderbird, please fill out this form and a Thunderbird donor care representative will get back to you as soon as possible."
-msgstr ""
+msgstr "אם יש לך צורך בעזרה בתרומה ל־MZLA/Thunderbird, נא למלא טופס זה ונציג המטפל בתורמים ל־Thunderbird יחזור אליך בהקדם האפשרי."
 
 #: donate/thunderbird/templates/pages/core/contributor_support_page.html:12
 #, python-format
@@ -794,7 +793,7 @@ msgstr "אנו עמלים רבות כדי להגן על תיבת הדוא״ל ש
 
 #: donate/thunderbird/templates/payment/thank_you.html:7
 msgid "Lastly, can you multiply your impact by sharing about the important work Thunderbird is doing? Thank you again!"
-msgstr "דבר אחרון, אפשר לבקש ממך להכפיל את ההשפעה שלך על־ידי שיתוף העבודה החשובה שנעשית על Thunderbird? תודה רבה שוב!"
+msgstr "דבר אחרון, אפשר לבקש ממך להכפיל את ההשפעה שלך על־ידי שיתוף העבודה החשובה שנעשית על־ידי Thunderbird? תודה רבה שוב!"
 
 #: donate/thunderbird/templates/payment/thank_you.html:11
 msgctxt "Used as a tweet"
