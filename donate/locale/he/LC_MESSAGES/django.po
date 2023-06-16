@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-21 15:15+0000\n"
-"PO-Revision-Date: 2023-06-16 15:02+0000\n"
+"PO-Revision-Date: 2023-06-16 15:13+0000\n"
 "Last-Translator: Itiel <itiel_yn8@walla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: he\n"
@@ -545,10 +545,12 @@ msgid ""
 "I must cancel at least 5 days before the next scheduled donation by email to <a href='mailto:%(email)s'>%(email)s</a>, and that I may only request a refund within 15 days from the date of a "
 "donation."
 msgstr ""
+"אני מאשר לקרן Mozilla לחייב את הכרטיס שלי באופן אוטומטי בכל חודש בסכום המצוין לעיל, החל מהיום וממשיך בכל חודש באותו היום, עד שאבטל. מובן לי שעליי לבטל לפחות 5 ימים לפני התרומה המתוכננת הבאה בדוא״ל "
+"אל <a href='mailto:%(email)s'>%(email)s</a>, ושבאפשרותי לבקש החזר כספי תוך 15 יום בלבד ממועד התרומה."
 
 #: donate/templates/payment/card_master.html:142
 msgid "I authorize Mozilla Foundation to charge my card in the amount indicated above. I understand that I may only request a refund within 15 days from the date of the donation."
-msgstr ""
+msgstr "אני מאשר לקרן Mozilla לחייב את הכרטיס שלי בסכום המצוין לעיל. מובן לי שבאפשרותי לבקש החזר כספי תוך 15 יום בלבד ממועד התרומה."
 
 #: donate/templates/payment/card_master.html:167
 #, python-format
@@ -599,6 +601,8 @@ msgid ""
 "I authorize Mozilla Foundation to automatically charge my card every month in the amount indicated above, starting next month on the same date as today, and continuing each month afterwards until I "
 "cancel. I understand that I must cancel at least 5 days before the next scheduled donation by email to %(email)s, and that I may only request a refund within 15 days from the date of a donation."
 msgstr ""
+"אני מאשר לקרן Mozilla לחייב את הכרטיס שלי באופן אוטומטי בכל חודש בסכום המצוין לעיל, החל מהחודש הבא באותו תאריך כמו היום, וממשיך בכל חודש לאחר מכן עד שאבטל. מובן לי שעליי לבטל לפחות 5 ימים לפני "
+"התרומה המתוכננת הבאה בדוא״ל אל %(email)s, ושבאפשרותי לבקש החזר כספי תוך 15 יום בלבד ממועד התרומה."
 
 #: donate/templates/payment/card_upsell_master.html:57
 msgid "Donate Monthly"
@@ -741,7 +745,7 @@ msgstr "אם יש לך צורך בעזרה בתרומה ל־MZLA/Thunderbird, נ
 #, python-format
 msgid ""
 "Unfortunately, donor care representatives are unable to offer support or help with Thunderbird technical issues. For technical support, please visit our <a href=\"%(support_url)s\">support page.</a>"
-msgstr ""
+msgstr "למרבה הצער, נציגים המטפלים בתורמים אינם יכולים להציע תמיכה או עזרה בבעיות טכניות של Thunderbird. לתמיכה טכנית, נא לבקר ב<a href=\"%(support_url)s\">דף התמיכה</a> שלנו."
 
 #: donate/thunderbird/templates/pages/core/landing_page.html:7
 #, python-format
@@ -753,15 +757,16 @@ msgid ""
 "MZLA/Thunderbird is happy to accept your donation <strong>(made payable to “MZLA Technologies Corp”)</strong> via check; however please note that processing and acknowledgment of your gift may be "
 "delayed by changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
 msgstr ""
+"‏MZLA/Thunderbird שמחה לקבל את התרומה שלך <strong>(המשולמת ל־“MZLA Technologies Corp”)</strong> באמצעות המחאה; עם זאת, יש לשים לב כי עיבוד ואישור המתנה שלך עשויים להתעכב על־ידי שינויים בנהלי המשרדים"
+" שלנו עקב המגיפה של COVID-19. באפשרותך לשלוח המחאות אל:"
 
 #: donate/thunderbird/templates/pages/core/ways_to_give_page.html:25
 msgid "Please also note that MZLA/Thunderbird can <strong>only</strong> accept checks in U.S. dollars drawn on a U.S. bank."
-msgstr ""
+msgstr "כמו כן, נא לשים לב ש־MZLA/Thunderbird יכולה לקבל <strong>רק</strong> המחאות בדולר ארה״ב שנמשכו בבנק אמריקאי."
 
 #: donate/thunderbird/templates/payment/card.html:6
-#, fuzzy
 msgid "Thank you in advance for your gift."
-msgstr "תודה לך על המתנה הנדיבה שלך"
+msgstr "תודה מראש על המתנה שלך."
 
 #: donate/thunderbird/templates/payment/card.html:12
 #, python-format
@@ -770,14 +775,16 @@ msgid ""
 "understand that I must cancel at least 5 days before the next scheduled donation by <a href='%(help_url)s'>submitting a request</a>, and that I may only request a refund within 15 days from the date"
 " of a donation."
 msgstr ""
+"אני מאשר ל־MZLA Technologies Corporation לחייב את הכרטיס שלי באופן אוטומטי בכל חודש בסכום המצוין לעיל, החל מהיום וממשיך בכל חודש באותו היום, עד שאבטל. מובן לי שעליי לבטל לפחות 5 ימים לפני התרומה "
+"המתוכננת הבאה על־ידי <a href='%(help_url)s'>הגשת בקשה</a>, ושבאפשרותי לבקש החזר כספי תוך 15 יום בלבד ממועד התרומה."
 
 #: donate/thunderbird/templates/payment/card.html:14
 msgid "I authorize MZLA Technologies Corporation to charge my card in the amount indicated above. I understand that I may only request a refund within 15 days from the date of the donation."
-msgstr ""
+msgstr "אני מאשר ל־MZLA Technologies Corporation לחייב את הכרטיס שלי בסכום המצוין לעיל. מובן לי שבאפשרותי לבקש החזר כספי תוך 15 יום בלבד ממועד התרומה."
 
 #: donate/thunderbird/templates/payment/card_upsell.html:6 donate/thunderbird/templates/payment/paypal_upsell.html:6
 msgid "We’d love to have you as a sustaining supporter of Thunderbird. <b>Could you add a monthly donation starting next month?</b>"
-msgstr ""
+msgstr "נשמח לקבל אותך כתומך מקיים של Thunderbird. <b>האם באפשרותך להוסיף תרומה חודשית החל מהחודש הבא?</b>"
 
 #: donate/thunderbird/templates/payment/card_upsell.html:10
 #, python-format
@@ -786,6 +793,8 @@ msgid ""
 "afterwards until I cancel. I understand that I must cancel at least 5 days before the next scheduled donation by <a href=\"%(help_url)s\">submitting this form</a>, and that I may only request a "
 "refund within 15 days from the date of a donation."
 msgstr ""
+"אני מאשר ל־MZLA Technologies Corporation לחייב את הכרטיס שלי באופן אוטומטי בכל חודש בסכום המצוין לעיל, החל מהחודש הבא באותו תאריך כמו היום, וממשיך בכל חודש לאחר מכן עד שאבטל. מובן לי שעליי לבטל "
+"לפחות 5 ימים לפני התרומה המתוכננת הבאה על־ידי <a href=\"%(help_url)s\">הגשת טופס זה</a>, ושבאפשרותי לבקש החזר כספי תוך 15 יום בלבד ממועד התרומה."
 
 #: donate/thunderbird/templates/payment/newsletter_signup.html:8
 msgid "We’re working hard to protect your inbox. Sign up to receive email messages concerning Thunderbird, including updates and requests for feedback."
