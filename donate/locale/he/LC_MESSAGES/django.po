@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-21 15:15+0000\n"
-"PO-Revision-Date: 2023-06-16 14:21+0000\n"
+"PO-Revision-Date: 2023-06-16 14:36+0000\n"
 "Last-Translator: Itiel <itiel_yn8@walla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: he\n"
@@ -212,7 +212,7 @@ msgstr "<b>יש לך שאלה לגבי התרומות?</b> ניתן לבקר ב�
 #: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:29
 #, python-format
 msgid "<b>Need to reach us about your donation?</b> <a href=\"%(help_url)s\">Contact us</a>."
-msgstr "<b>יש לך צורך לדבר איתנו לגבי התרומה שלך?</b> <a href=\"%(help_url)s\">יצירת קשר</a>."
+msgstr "<b>יש לך צורך לדבר איתנו לגבי התרומה שלך?</b> <a href=\"%(help_url)s\">ניתן ליצור איתנו קשר</a>."
 
 #: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:37
 #, python-format
@@ -220,6 +220,8 @@ msgid ""
 "Contributions go to the <a href=\"%(mozilla_url)s\">Mozilla Foundation</a>, a 501(c)(3) organization based in San Francisco, California, to be used in its discretion for its charitable purposes. "
 "They are tax-deductible in the U.S. to the fullest extent permitted by law."
 msgstr ""
+"תרומות ל<a href=\"%(mozilla_url)s\">קרן Mozilla</a>, ארגון 501(c)(3) הממוקם בסן פרנסיסקו שבקליפורניה, ישמשו למטרות צדקה על פי שיקול דעתה של הקרן. תרומות אלו הן פטורות ממס בארה״ב במידה המרבית המותרת "
+"בחוק."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:6
 #, python-format
@@ -227,6 +229,8 @@ msgid ""
 "Mozilla is committed to your privacy; please read our <a href=\"%(privacy_url)s\">privacy policy here</a>. Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a "
 "PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Mozilla."
 msgstr ""
+"מוזילה מחויבת לפרטיות שלך; נא לקרוא את <a href=\"%(privacy_url)s\">מדיניות הפרטיות שלנו כאן</a>. פרטי התשלום שלך יעובדו על־ידי <a href=\"%(braintree_url)s\">Braintree</a>, חברת PayPal (לכרטיסי "
+"אשראי/חיוב מיידי) או על־ידי <a href=\"%(paypal_url)s\">PayPal</a>, ותיעוד של התרומה שלך יאוחסן על־ידי Mozilla."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:9
 #, python-format
@@ -236,18 +240,18 @@ msgstr "תרומות חודשיות מחויבות בכל חודש באותו ה
 #: donate/templates/fragments/donate_form_disclaimer_master.html:28 donate/thunderbird/templates/fragments/donate_form_disclaimer.html:8
 #, python-format
 msgid "Other ways to give: <a href=\"%(check_url)s\">Check</a>"
-msgstr ""
+msgstr "דרכים אחרות לתת: <a href=\"%(check_url)s\">המחאה</a>"
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:38 donate/thunderbird/templates/fragments/donate_form_disclaimer.html:26
 #, python-format
 msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"%(help_url)s\">Contact us</a>."
-msgstr ""
+msgstr "בעיות בתרומה? ניתן לבקר בדף ה<a href=\"%(faq_url)s\">שו״ת</a> שלנו לקבלת תשובות לשאלות הנפוצות ביותר. עדיין יש בעיות? <a href=\"%(help_url)s\">ניתן ליצור איתנו קשר</a>."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:46
 msgid ""
 "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in San Francisco, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S."
 " to the fullest extent permitted by law."
-msgstr ""
+msgstr "תרומות לקרן Mozilla, ארגון 501(c)(3) הממוקם בסן פרנסיסקו שבקליפורניה, ישמשו למטרות צדקה על פי שיקול דעתה של הקרן. תרומות אלו הן פטורות ממס בארה״ב במידה המרבית המותרת בחוק."
 
 #: donate/templates/fragments/language_switcher.html:10 donate/templates/pages/core/contributor_support_page_master.html:102
 msgid "Language"
@@ -722,7 +726,7 @@ msgstr "פרטיות"
 #: donate/thunderbird/templates/pages/base_page.html:75
 #, python-format
 msgid "Portions of this content are ©1998–%(current_year)s by individual contributors. Content available under a <a %(link_attributes)s>Creative Commons license</a>"
-msgstr ""
+msgstr "הזכויות של חלקים מתוכן זה שמורות ©1998–%(current_year)s לתורמים. התוכן זמין תחת <a %(link_attributes)s>רישיון Creative Commons</a>"
 
 #: donate/thunderbird/templates/pages/core/contributor_support_page.html:6
 msgid "If you need help with a contribution to MZLA/Thunderbird, please fill out this form and a Thunderbird donor care representative will get back to you as soon as possible."
@@ -789,7 +793,7 @@ msgstr "דבר אחרון, אפשר לבקש ממך להכפיל את ההשפע
 #: donate/thunderbird/templates/payment/thank_you.html:11
 msgctxt "Used as a tweet"
 msgid "I donated to @mozthunderbird today to #freetheinbox. Join me to support communication privacy."
-msgstr ""
+msgstr "תרמתי היום ל־‎@mozthunderbird כדי ‎#freetheinbox. מוזמנים להצטרף אלי לתמיכה בפרטיות התקשורת."
 
 #: donate/thunderbird/templates/payment/thank_you.html:12
 msgctxt "Email subject line"
