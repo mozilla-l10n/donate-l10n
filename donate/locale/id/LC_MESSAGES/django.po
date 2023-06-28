@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-21 15:15+0000\n"
+"POT-Creation-Date: 2023-06-28 15:10+0000\n"
 "PO-Revision-Date: 2022-10-18 13:37+0000\n"
 "Last-Translator: Lidya Christina <id.lidya@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -199,7 +199,6 @@ msgid "per month"
 msgstr "per bulan"
 
 #: donate/templates/fragments/donate_form.html:123
-#: donate/thunderbird/templates/fragments/donate_form.html:6
 #, python-format
 msgid "Minimum amount is %(min_amount)s"
 msgstr "Jumlah minimumnya adalah %(min_amount)s"
@@ -240,13 +239,11 @@ msgid "Monthly donations are charged each month on the same day that you donate 
 msgstr "Donasi bulanan dikenakan biaya setiap bulan pada hari yang sama bahwa Anda berdonasi hari ini, dan akan dilanjutkan sampai Anda membatalkan. Untuk membatalkan, kirim surel kepada kami di <a href=\"mailto:%(email)s\">%(email)s</a>."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:28
-#: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:8
 #, python-format
 msgid "Other ways to give: <a href=\"%(check_url)s\">Check</a>"
 msgstr ""
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:38
-#: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:26
 #, python-format
 msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"%(help_url)s\">Contact us</a>."
 msgstr "Kesulitan saat berdonasi? Kunjungi <a href=\"%(faq_url)s\">FAQ</a> untuk jawaban atas pertanyaan umum. Masih punya masalah? <a href=\"%(help_url)s\">Hubungi kami</a>."
@@ -285,17 +282,16 @@ msgstr "Blog"
 msgid "Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a %(fomo_link_attributes)s>%(fomo_site_url)s</a>. Most content available under a <a %(cc_link_attributes)s>Creative Commons license</a>."
 msgstr "Mozilla adalah organisasi nirlaba global yang berdedikasi untuk menempatkan Anda dalam kendali pengalaman daring Anda dan membentuk masa depan web untuk kepentingan publik. Kunjungi kami di <a %(fomo_link_attributes)s>%(fomo_site_url)s</a>. Sebagian besar konten tersedia di bawah <a %(cc_link_attributes)s>lisensi Creative Commons</a>."
 
-#: donate/templates/pages/core/campaign_page.html:42
-#: donate/templates/pages/core/campaign_page_master.html:58
-msgctxt "Header"
-msgid "Donate now"
-msgstr "Donasi sekarang"
-
 #: donate/templates/pages/core/campaign_page_master.html:43
 #: donate/templates/pages/core/ways_to_give_page_master.html:12
 msgctxt "Button"
 msgid "DONATE NOW"
 msgstr "DONASI SEKARANG"
+
+#: donate/templates/pages/core/campaign_page_master.html:58
+msgctxt "Header"
+msgid "Donate now"
+msgstr "Donasi sekarang"
 
 #: donate/templates/pages/core/campaign_page_master.html:72
 #: donate/templates/pages/core/landing_page_master.html:49
@@ -451,7 +447,6 @@ msgid "The Mozilla Foundation is happy to accept your donation (made payable to 
 msgstr ""
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:57
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:21
 msgid "Please include your email address on the memo line of your check to help us track and attribute your gift."
 msgstr ""
 
@@ -570,7 +565,6 @@ msgstr ""
 #: donate/templates/payment/newsletter_signup_master.html:13
 #: donate/templates/payment/paypal_upsell_master.html:13
 #: donate/templates/payment/thank_you_master.html:12
-#: donate/thunderbird/templates/payment/newsletter_signup.html:6
 msgid "Thank you for your generous gift"
 msgstr ""
 
@@ -623,7 +617,6 @@ msgid "No"
 msgstr "Tidak"
 
 #: donate/templates/payment/thank_you_master.html:15
-#: donate/thunderbird/templates/payment/thank_you.html:6
 #, python-format
 msgid "We’ve emailed you a donation receipt; if it’s missing, please check your junk/spam folders, then contact us using <a href=\"%(url)s\">this form</a>."
 msgstr "Kami telah mengirimi Anda surel tanda terima sumbangan; jika tidak ada, silakan periksa folder sampah/spam Anda, kemudian hubungi kami menggunakan <a href=\"%(url)s\">formulir ini</a>."
@@ -643,41 +636,32 @@ msgid "I donated to Mozilla today"
 msgstr ""
 
 #: donate/templates/payment/thank_you_master.html:26
-#: donate/thunderbird/templates/payment/thank_you.html:15
 msgid "Share on Facebook"
 msgstr "Bagikan di Facebook"
 
 #: donate/templates/payment/thank_you_master.html:30
-#: donate/thunderbird/templates/pages/base_page.html:44
-#: donate/thunderbird/templates/payment/thank_you.html:19
 msgid "Facebook"
 msgstr "Facebook"
 
 #: donate/templates/payment/thank_you_master.html:33
-#: donate/thunderbird/templates/payment/thank_you.html:22
 msgid "Share on Twitter"
 msgstr "Bagikan di Twitter"
 
 #: donate/templates/payment/thank_you_master.html:37
-#: donate/thunderbird/templates/pages/base_page.html:38
-#: donate/thunderbird/templates/payment/thank_you.html:26
 msgid "Twitter"
 msgstr "Twitter"
 
 #: donate/templates/payment/thank_you_master.html:43
-#: donate/thunderbird/templates/payment/thank_you.html:32
 msgctxt "Share button"
 msgid "Email"
 msgstr "Surel"
 
 #: donate/templates/payment/thank_you_master.html:53
-#: donate/thunderbird/templates/payment/thank_you.html:42
 msgctxt "Share button"
 msgid "Link"
 msgstr "Tautan"
 
 #: donate/templates/payment/thank_you_master.html:54
-#: donate/thunderbird/templates/payment/thank_you.html:43
 msgid "Copied"
 msgstr ""
 
@@ -685,115 +669,15 @@ msgstr ""
 msgid "Back"
 msgstr "Kembali"
 
-#: donate/thunderbird/templates/base.html:24
-#: donate/thunderbird/templates/pages/base_page.html:9
-#: donate/thunderbird/templates/pages/base_page.html:16
-#: donate/thunderbird/templates/pages/base_page.html:17
-msgctxt "Page title"
-msgid "Give to Thunderbird"
-msgstr ""
+#~ msgid "Participation Guidelines"
+#~ msgstr "Panduan Partisipasi"
 
-#: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:15
-#, python-format
-msgid "Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Thunderbird. Please read our <a href=\"%(privacy_url)s\">privacy policy here</a>."
-msgstr ""
+#~ msgid "Privacy"
+#~ msgstr "Privasi"
 
-#: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:18
-#, python-format
-msgid "Monthly donations are charged each month on the same day that you donate today, and will continue until you cancel. To cancel, fill out <a href=\"%(help_url)s\">this form</a>."
-msgstr ""
-
-#: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:34
-msgid "Contributions go to MZLA Technologies Corporation, a California corporation wholly owned by the Mozilla Foundation. Funds will be reserved for use in the Thunderbird project. Contributions are not tax-deductible as charitable contributions."
-msgstr ""
-
-#: donate/thunderbird/templates/pages/base_page.html:53
-msgid "Cookies"
-msgstr ""
-
-#: donate/thunderbird/templates/pages/base_page.html:56
-msgid "Legal"
-msgstr ""
-
-#: donate/thunderbird/templates/pages/base_page.html:59
-msgid "Participation Guidelines"
-msgstr "Panduan Partisipasi"
-
-#: donate/thunderbird/templates/pages/base_page.html:62
-msgid "Press Center"
-msgstr ""
-
-#: donate/thunderbird/templates/pages/base_page.html:65
-msgid "Privacy"
-msgstr "Privasi"
-
-#: donate/thunderbird/templates/pages/base_page.html:75
-#, python-format
-msgid "Portions of this content are ©1998–%(current_year)s by individual contributors. Content available under a <a %(link_attributes)s>Creative Commons license</a>"
-msgstr ""
-
-#: donate/thunderbird/templates/pages/core/contributor_support_page.html:6
-msgid "If you need help with a contribution to MZLA/Thunderbird, please fill out this form and a Thunderbird donor care representative will get back to you as soon as possible."
-msgstr ""
-
-#: donate/thunderbird/templates/pages/core/contributor_support_page.html:12
-#, python-format
-msgid "Unfortunately, donor care representatives are unable to offer support or help with Thunderbird technical issues. For technical support, please visit our <a href=\"%(support_url)s\">support page.</a>"
-msgstr ""
-
-#: donate/thunderbird/templates/pages/core/landing_page.html:7
-#, python-format
-msgid "Your download should have begun automatically. If it didn’t work, <a href=\"%(url)s\">try downloading again here</a>."
-msgstr ""
-
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:8
-msgid "MZLA/Thunderbird is happy to accept your donation <strong>(made payable to “MZLA Technologies Corp”)</strong> via check; however please note that processing and acknowledgment of your gift may be delayed by changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
-msgstr ""
-
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:25
-msgid "Please also note that MZLA/Thunderbird can <strong>only</strong> accept checks in U.S. dollars drawn on a U.S. bank."
-msgstr ""
-
-#: donate/thunderbird/templates/payment/card.html:6
-msgid "Thank you in advance for your gift."
-msgstr ""
-
-#: donate/thunderbird/templates/payment/card.html:12
-#, python-format
-msgid "I authorize MZLA Technologies Corporation to automatically charge my card every month in the amount indicated above, starting today and continuing each month on the same day, until I cancel. I understand that I must cancel at least 5 days before the next scheduled donation by <a href='%(help_url)s'>submitting a request</a>, and that I may only request a refund within 15 days from the date of a donation."
-msgstr ""
-
-#: donate/thunderbird/templates/payment/card.html:14
-msgid "I authorize MZLA Technologies Corporation to charge my card in the amount indicated above. I understand that I may only request a refund within 15 days from the date of the donation."
-msgstr ""
-
-#: donate/thunderbird/templates/payment/card_upsell.html:6
-#: donate/thunderbird/templates/payment/paypal_upsell.html:6
-msgid "We’d love to have you as a sustaining supporter of Thunderbird. <b>Could you add a monthly donation starting next month?</b>"
-msgstr ""
-
-#: donate/thunderbird/templates/payment/card_upsell.html:10
-#, python-format
-msgid "I authorize MZLA Technologies Corporation to automatically charge my card every month in the amount indicated above, starting next month on the same date as today, and continuing each month afterwards until I cancel. I understand that I must cancel at least 5 days before the next scheduled donation by <a href=\"%(help_url)s\">submitting this form</a>, and that I may only request a refund within 15 days from the date of a donation."
-msgstr ""
-
-#: donate/thunderbird/templates/payment/newsletter_signup.html:8
-msgid "We’re working hard to protect your inbox. Sign up to receive email messages concerning Thunderbird, including updates and requests for feedback."
-msgstr ""
-
-#: donate/thunderbird/templates/payment/thank_you.html:7
-msgid "Lastly, can you multiply your impact by sharing about the important work Thunderbird is doing? Thank you again!"
-msgstr ""
-
-#: donate/thunderbird/templates/payment/thank_you.html:11
-msgctxt "Used as a tweet"
-msgid "I donated to @mozthunderbird today to #freetheinbox. Join me to support communication privacy."
-msgstr "Saya telah berdonasi ke @mozthunderbird untuk #freetheinbox. Bergabunglah bersama kami untuk mendukung privasi dalam berkomunikasi."
-
-#: donate/thunderbird/templates/payment/thank_you.html:12
-msgctxt "Email subject line"
-msgid "I donated to Thunderbird today"
-msgstr ""
+#~ msgctxt "Used as a tweet"
+#~ msgid "I donated to @mozthunderbird today to #freetheinbox. Join me to support communication privacy."
+#~ msgstr "Saya telah berdonasi ke @mozthunderbird untuk #freetheinbox. Bergabunglah bersama kami untuk mendukung privasi dalam berkomunikasi."
 
 #, python-format
 #~ msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a>"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-21 15:15+0000\n"
+"POT-Creation-Date: 2023-06-28 15:10+0000\n"
 "PO-Revision-Date: 2022-08-24 14:12+0000\n"
 "Last-Translator: ZiriSut <rgebbid@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -199,7 +199,6 @@ msgid "per month"
 msgstr "yal aggur"
 
 #: donate/templates/fragments/donate_form.html:123
-#: donate/thunderbird/templates/fragments/donate_form.html:6
 #, python-format
 msgid "Minimum amount is %(min_amount)s"
 msgstr "Tallayt taddayt d %(min_amount)s"
@@ -240,13 +239,11 @@ msgid "Monthly donations are charged each month on the same day that you donate 
 msgstr "Tawsiwin n waggur ad ttwajebdent yal aggur deg wass yecban ass-a, ad kemlent akka ḥalama d ass deg ara tent-tḥebseḍ. I uḥbas azen-aɣ-d imayl ar <a href=\"mailto:%(email)s\">%(email)s</a>."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:28
-#: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:8
 #, python-format
 msgid "Other ways to give: <a href=\"%(check_url)s\">Check</a>"
 msgstr ""
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:38
-#: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:26
 #, python-format
 msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"%(help_url)s\">Contact us</a>."
 msgstr "Tesɛiḍ uguren deg tikci n tewsa? Rzu ɣer <a href=\"%(faq_url)s\">FAQ</a> i tifin n tririt ɣef isteqsiyen yezgan ttuɣalen-d. Mazal uguren? <a href=\"%(help_url)s\">Nermes-aɣ-d</a>."
@@ -285,17 +282,16 @@ msgstr "Ablug"
 msgid "Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a %(fomo_link_attributes)s>%(fomo_site_url)s</a>. Most content available under a <a %(cc_link_attributes)s>Creative Commons license</a>."
 msgstr "Mozilla d tuddsa tagraɣlant ur nettnadi ara tadrimt, tegmen ad ak-d-trr gar ifassen-ik tudert-ik tumdint srid daɣen ad tesbadu ɣer zdat imal n web i lfayda n yimdanen meṛṛa. Rzu-d ɣur-neɣ deg <a %(fomo_link_attributes)s> %(fomo_site_url)s</a>. Tuffeɣt n ugbur yella ddaw <a %(cc_link_attributes)s> yiselkinen n Creative Commons </a>."
 
-#: donate/templates/pages/core/campaign_page.html:42
-#: donate/templates/pages/core/campaign_page_master.html:58
-msgctxt "Header"
-msgid "Donate now"
-msgstr "Mudd tawsa tura"
-
 #: donate/templates/pages/core/campaign_page_master.html:43
 #: donate/templates/pages/core/ways_to_give_page_master.html:12
 msgctxt "Button"
 msgid "DONATE NOW"
 msgstr "MUDD TAWSA TURA"
+
+#: donate/templates/pages/core/campaign_page_master.html:58
+msgctxt "Header"
+msgid "Donate now"
+msgstr "Mudd tawsa tura"
 
 #: donate/templates/pages/core/campaign_page_master.html:72
 #: donate/templates/pages/core/landing_page_master.html:49
@@ -451,7 +447,6 @@ msgid "The Mozilla Foundation is happy to accept your donation (made payable to 
 msgstr ""
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:57
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:21
 msgid "Please include your email address on the memo line of your check to help us track and attribute your gift."
 msgstr ""
 
@@ -570,7 +565,6 @@ msgstr "Tanemmirt"
 #: donate/templates/payment/newsletter_signup_master.html:13
 #: donate/templates/payment/paypal_upsell_master.html:13
 #: donate/templates/payment/thank_you_master.html:12
-#: donate/thunderbird/templates/payment/newsletter_signup.html:6
 msgid "Thank you for your generous gift"
 msgstr "Tanemmirt ɣef tukci-ik meqqren"
 
@@ -623,7 +617,6 @@ msgid "No"
 msgstr "Ala"
 
 #: donate/templates/payment/thank_you_master.html:15
-#: donate/thunderbird/templates/payment/thank_you.html:6
 #, python-format
 msgid "We’ve emailed you a donation receipt; if it’s missing, please check your junk/spam folders, then contact us using <a href=\"%(url)s\">this form</a>."
 msgstr "Nuzen-ak-d tanfult n tewsa-ik s yimayl, ma yella ur tt-tufiḍ ara, wali deg yispamen, sakin nermes-aɣ-d s useqdec n <a href=\"%(url)s\">tferkit-a</a>."
@@ -643,41 +636,32 @@ msgid "I donated to Mozilla today"
 msgstr "Muddeɣ tawsa i Mozilla ass-a"
 
 #: donate/templates/payment/thank_you_master.html:26
-#: donate/thunderbird/templates/payment/thank_you.html:15
 msgid "Share on Facebook"
 msgstr "Bḍu di Facebook"
 
 #: donate/templates/payment/thank_you_master.html:30
-#: donate/thunderbird/templates/pages/base_page.html:44
-#: donate/thunderbird/templates/payment/thank_you.html:19
 msgid "Facebook"
 msgstr "Facebook"
 
 #: donate/templates/payment/thank_you_master.html:33
-#: donate/thunderbird/templates/payment/thank_you.html:22
 msgid "Share on Twitter"
 msgstr "Bḍu di Twitter"
 
 #: donate/templates/payment/thank_you_master.html:37
-#: donate/thunderbird/templates/pages/base_page.html:38
-#: donate/thunderbird/templates/payment/thank_you.html:26
 msgid "Twitter"
 msgstr "Twitter"
 
 #: donate/templates/payment/thank_you_master.html:43
-#: donate/thunderbird/templates/payment/thank_you.html:32
 msgctxt "Share button"
 msgid "Email"
 msgstr "Imayl"
 
 #: donate/templates/payment/thank_you_master.html:53
-#: donate/thunderbird/templates/payment/thank_you.html:42
 msgctxt "Share button"
 msgid "Link"
 msgstr "Aseɣwen"
 
 #: donate/templates/payment/thank_you_master.html:54
-#: donate/thunderbird/templates/payment/thank_you.html:43
 msgid "Copied"
 msgstr "Inɣel"
 
@@ -685,115 +669,80 @@ msgstr "Inɣel"
 msgid "Back"
 msgstr "Ɣer deffir"
 
-#: donate/thunderbird/templates/base.html:24
-#: donate/thunderbird/templates/pages/base_page.html:9
-#: donate/thunderbird/templates/pages/base_page.html:16
-#: donate/thunderbird/templates/pages/base_page.html:17
-msgctxt "Page title"
-msgid "Give to Thunderbird"
-msgstr "Muddeɣ i Thunderbird"
+#~ msgctxt "Page title"
+#~ msgid "Give to Thunderbird"
+#~ msgstr "Muddeɣ i Thunderbird"
 
-#: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:15
 #, python-format
-msgid "Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Thunderbird. Please read our <a href=\"%(privacy_url)s\">privacy policy here</a>."
-msgstr "Ttfaṣil-inek n uxelleṣ ad ttwasesfren sɣur <a href=\"%(braintree_url)s\">Braintree</a>, takebbanit PayPal (i tkarḍiwin n usmad/udibit) neɣ <a href=\"%(paypal_url)s\">PayPal</a>, rnu ɣer waya, asekles  n uɛiwen-inek ad yettwaḥrez sɣur Thunderbird. Ttxil ɣeṛ <a href=\"%(privacy_url)s\"><a href=\"%(privacy_url)s\">tasertit-nneɣ n tbaḍnit da </a>."
+#~ msgid "Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Thunderbird. Please read our <a href=\"%(privacy_url)s\">privacy policy here</a>."
+#~ msgstr "Ttfaṣil-inek n uxelleṣ ad ttwasesfren sɣur <a href=\"%(braintree_url)s\">Braintree</a>, takebbanit PayPal (i tkarḍiwin n usmad/udibit) neɣ <a href=\"%(paypal_url)s\">PayPal</a>, rnu ɣer waya, asekles  n uɛiwen-inek ad yettwaḥrez sɣur Thunderbird. Ttxil ɣeṛ <a href=\"%(privacy_url)s\"><a href=\"%(privacy_url)s\">tasertit-nneɣ n tbaḍnit da </a>."
 
-#: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:18
 #, python-format
-msgid "Monthly donations are charged each month on the same day that you donate today, and will continue until you cancel. To cancel, fill out <a href=\"%(help_url)s\">this form</a>."
-msgstr "Tiwsiwin n waggur ad ttwajebdent yal aggur deg wass yecban ass-a, ad kemmlent akka arma tesḥebseḍ-tt. Akken ad tt-tesḥebseḍ, ččar <a href=\"%(help_url)s\">tiferkit-a</a>."
+#~ msgid "Monthly donations are charged each month on the same day that you donate today, and will continue until you cancel. To cancel, fill out <a href=\"%(help_url)s\">this form</a>."
+#~ msgstr "Tiwsiwin n waggur ad ttwajebdent yal aggur deg wass yecban ass-a, ad kemmlent akka arma tesḥebseḍ-tt. Akken ad tt-tesḥebseḍ, ččar <a href=\"%(help_url)s\">tiferkit-a</a>."
 
-#: donate/thunderbird/templates/fragments/donate_form_disclaimer.html:34
-msgid "Contributions go to MZLA Technologies Corporation, a California corporation wholly owned by the Mozilla Foundation. Funds will be reserved for use in the Thunderbird project. Contributions are not tax-deductible as charitable contributions."
-msgstr "Tawsa tettunef i MZLA Technologies Corporation, takebbanit n Kalifurnya, ayla n tesbeddit n Mozilla. Idrimen ad ttunefken i useqdec n usenfaṛ Thunderbird. Tawsa ur tsenɣas ara tabzert."
+#~ msgid "Contributions go to MZLA Technologies Corporation, a California corporation wholly owned by the Mozilla Foundation. Funds will be reserved for use in the Thunderbird project. Contributions are not tax-deductible as charitable contributions."
+#~ msgstr "Tawsa tettunef i MZLA Technologies Corporation, takebbanit n Kalifurnya, ayla n tesbeddit n Mozilla. Idrimen ad ttunefken i useqdec n usenfaṛ Thunderbird. Tawsa ur tsenɣas ara tabzert."
 
-#: donate/thunderbird/templates/pages/base_page.html:53
-msgid "Cookies"
-msgstr "Inagan n tuqqna"
+#~ msgid "Cookies"
+#~ msgstr "Inagan n tuqqna"
 
-#: donate/thunderbird/templates/pages/base_page.html:56
-msgid "Legal"
-msgstr "Usḍif"
+#~ msgid "Legal"
+#~ msgstr "Usḍif"
 
-#: donate/thunderbird/templates/pages/base_page.html:59
-msgid "Participation Guidelines"
-msgstr "Ilugan uttekki"
+#~ msgid "Participation Guidelines"
+#~ msgstr "Ilugan uttekki"
 
-#: donate/thunderbird/templates/pages/base_page.html:62
-msgid "Press Center"
-msgstr "Axxam n tɣamsa"
+#~ msgid "Press Center"
+#~ msgstr "Axxam n tɣamsa"
 
-#: donate/thunderbird/templates/pages/base_page.html:65
-msgid "Privacy"
-msgstr "Tabaḍnit"
+#~ msgid "Privacy"
+#~ msgstr "Tabaḍnit"
 
-#: donate/thunderbird/templates/pages/base_page.html:75
 #, python-format
-msgid "Portions of this content are ©1998–%(current_year)s by individual contributors. Content available under a <a %(link_attributes)s>Creative Commons license</a>"
-msgstr "Kra n yeḥricen n ugbur-agi d ©1998–%(current_year)s sɣur imttekkiyen. Agbur yella ddaw n <a %(link_attributes)s>Turagt Creative Commons</a>"
+#~ msgid "Portions of this content are ©1998–%(current_year)s by individual contributors. Content available under a <a %(link_attributes)s>Creative Commons license</a>"
+#~ msgstr "Kra n yeḥricen n ugbur-agi d ©1998–%(current_year)s sɣur imttekkiyen. Agbur yella ddaw n <a %(link_attributes)s>Turagt Creative Commons</a>"
 
-#: donate/thunderbird/templates/pages/core/contributor_support_page.html:6
-msgid "If you need help with a contribution to MZLA/Thunderbird, please fill out this form and a Thunderbird donor care representative will get back to you as soon as possible."
-msgstr "Ma teḥwaǧeḍ tallalt i uttekki deg MZLA/Thunderbird, ttxil-k·m ččar tiferkit-a sakin albaɛḍ seg Thunderbird ad d-yezzi ɣur-k deg kra n wussan."
+#~ msgid "If you need help with a contribution to MZLA/Thunderbird, please fill out this form and a Thunderbird donor care representative will get back to you as soon as possible."
+#~ msgstr "Ma teḥwaǧeḍ tallalt i uttekki deg MZLA/Thunderbird, ttxil-k·m ččar tiferkit-a sakin albaɛḍ seg Thunderbird ad d-yezzi ɣur-k deg kra n wussan."
 
-#: donate/thunderbird/templates/pages/core/contributor_support_page.html:12
 #, python-format
-msgid "Unfortunately, donor care representatives are unable to offer support or help with Thunderbird technical issues. For technical support, please visit our <a href=\"%(support_url)s\">support page.</a>"
-msgstr ""
+#~ msgid "Your download should have begun automatically. If it didn’t work, <a href=\"%(url)s\">try downloading again here</a>."
+#~ msgstr "Asader-ik ad yebdu s wudem awurman. Ma yella ur yeddi ara, <a href=\"%(url)s\">ales tikkelt-nniḍen dagi</a>."
 
-#: donate/thunderbird/templates/pages/core/landing_page.html:7
+#~ msgid "Please also note that MZLA/Thunderbird can <strong>only</strong> accept checks in U.S. dollars drawn on a U.S. bank."
+#~ msgstr "Ttxil-k·m, ẓer belli MZLA/Thunderbird yezmer <strong>kan</strong> ad yeqbel iciken s yidulaṛen n Marikan i d-yekkan si tbankat n Marika."
+
+#~ msgid "Thank you in advance for your gift."
+#~ msgstr "Tanemmirt-ik ɣef tukci-agi."
+
 #, python-format
-msgid "Your download should have begun automatically. If it didn’t work, <a href=\"%(url)s\">try downloading again here</a>."
-msgstr "Asader-ik ad yebdu s wudem awurman. Ma yella ur yeddi ara, <a href=\"%(url)s\">ales tikkelt-nniḍen dagi</a>."
+#~ msgid "I authorize MZLA Technologies Corporation to automatically charge my card every month in the amount indicated above, starting today and continuing each month on the same day, until I cancel. I understand that I must cancel at least 5 days before the next scheduled donation by <a href='%(help_url)s'>submitting a request</a>, and that I may only request a refund within 15 days from the date of a donation."
+#~ msgstr "Ad muddeɣ tesriḥ i MZLA Technologies Corporation akken ad tejbed si tkarḍa-inu n usmad s wudem awurman yal aggur tallayt i d-yettwammlen dagi, seg wass-a uyal aggur i d-iteddun arma sḥebseɣ-tt. Gziɣ dakken ilaq ad sfexseɣ xersum 5 n wussan uqbel ajbad n tawsa ittuheggan s <a href='%(help_url)s'> tuzna n usuter</a>, daɣen zemreɣ ad sutreɣ tiririt n tewsa deg 15 n wussan seg wazemz n tewsa."
 
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:8
-msgid "MZLA/Thunderbird is happy to accept your donation <strong>(made payable to “MZLA Technologies Corp”)</strong> via check; however please note that processing and acknowledgment of your gift may be delayed by changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
-msgstr ""
+#~ msgid "I authorize MZLA Technologies Corporation to charge my card in the amount indicated above. I understand that I may only request a refund within 15 days from the date of the donation."
+#~ msgstr "Ad muddeɣ tesriḥ i tkebbanit MZLA Technologies Corporation akken ad tejdeb si tkarḍa-iw n usmad s wudem awurman tallayt i d-yettwammlen dagi. Gziɣ daɣen d akken zemreɣ ad sutreɣ tiririt n tewsa deg 15 n wussan seg wazemz n tewsa."
 
-#: donate/thunderbird/templates/pages/core/ways_to_give_page.html:25
-msgid "Please also note that MZLA/Thunderbird can <strong>only</strong> accept checks in U.S. dollars drawn on a U.S. bank."
-msgstr "Ttxil-k·m, ẓer belli MZLA/Thunderbird yezmer <strong>kan</strong> ad yeqbel iciken s yidulaṛen n Marikan i d-yekkan si tbankat n Marika."
+#~ msgid "We’d love to have you as a sustaining supporter of Thunderbird. <b>Could you add a monthly donation starting next month?</b>"
+#~ msgstr "Ad nili nefṛeḥ imi ad tiliḍ seg wid yettmuddun tawsa i Thunderbird si sya ɣer da. <b>Ad tqebleḍ ad ternuḍ tawsa s waggur seg waggur i d-iteddun?</b>"
 
-#: donate/thunderbird/templates/payment/card.html:6
-msgid "Thank you in advance for your gift."
-msgstr "Tanemmirt-ik ɣef tukci-agi."
-
-#: donate/thunderbird/templates/payment/card.html:12
 #, python-format
-msgid "I authorize MZLA Technologies Corporation to automatically charge my card every month in the amount indicated above, starting today and continuing each month on the same day, until I cancel. I understand that I must cancel at least 5 days before the next scheduled donation by <a href='%(help_url)s'>submitting a request</a>, and that I may only request a refund within 15 days from the date of a donation."
-msgstr "Ad muddeɣ tesriḥ i MZLA Technologies Corporation akken ad tejbed si tkarḍa-inu n usmad s wudem awurman yal aggur tallayt i d-yettwammlen dagi, seg wass-a uyal aggur i d-iteddun arma sḥebseɣ-tt. Gziɣ dakken ilaq ad sfexseɣ xersum 5 n wussan uqbel ajbad n tawsa ittuheggan s <a href='%(help_url)s'> tuzna n usuter</a>, daɣen zemreɣ ad sutreɣ tiririt n tewsa deg 15 n wussan seg wazemz n tewsa."
+#~ msgid "I authorize MZLA Technologies Corporation to automatically charge my card every month in the amount indicated above, starting next month on the same date as today, and continuing each month afterwards until I cancel. I understand that I must cancel at least 5 days before the next scheduled donation by <a href=\"%(help_url)s\">submitting this form</a>, and that I may only request a refund within 15 days from the date of a donation."
+#~ msgstr "Ad muddeɣ tesriḥ i tkebbanit n titiknulujyin MZLA Technologies Corporation akken ad tejdeb si tkarḍa-iw n usmad s wudem awurman yal aggur tallayt i d-yettwammlen dagi, seg wass-a daɣen yal aggur i d-iteddun arma sḥebseɣ-tt. Gziɣ d akken ilaq ad sfesxeɣ s yimayl aliktrunan ɣer tensa <a href=\"%(help_url)s\">tuzna n usuter</a>, xarsum 5 n wussan uqbel ajbad n tewsa ittuheggan, daɣen zemreɣ ad sutreɣ tiririt n tewsa deg 15 n wussan seg wazemz n tewsa."
 
-#: donate/thunderbird/templates/payment/card.html:14
-msgid "I authorize MZLA Technologies Corporation to charge my card in the amount indicated above. I understand that I may only request a refund within 15 days from the date of the donation."
-msgstr "Ad muddeɣ tesriḥ i tkebbanit MZLA Technologies Corporation akken ad tejdeb si tkarḍa-iw n usmad s wudem awurman tallayt i d-yettwammlen dagi. Gziɣ daɣen d akken zemreɣ ad sutreɣ tiririt n tewsa deg 15 n wussan seg wazemz n tewsa."
+#~ msgid "We’re working hard to protect your inbox. Sign up to receive email messages concerning Thunderbird, including updates and requests for feedback."
+#~ msgstr "Aql-aɣ ad nqeddec ayen nezmer i wakken ad nemmesten tirawt-inek·inem. Jerred i wakken ad d-tremseḍ iznan ɣef Thunderbird, am yisallen akked yiznan d usuter n tikti-inek·inem."
 
-#: donate/thunderbird/templates/payment/card_upsell.html:6
-#: donate/thunderbird/templates/payment/paypal_upsell.html:6
-msgid "We’d love to have you as a sustaining supporter of Thunderbird. <b>Could you add a monthly donation starting next month?</b>"
-msgstr "Ad nili nefṛeḥ imi ad tiliḍ seg wid yettmuddun tawsa i Thunderbird si sya ɣer da. <b>Ad tqebleḍ ad ternuḍ tawsa s waggur seg waggur i d-iteddun?</b>"
+#~ msgid "Lastly, can you multiply your impact by sharing about the important work Thunderbird is doing? Thank you again!"
+#~ msgstr "Ɣer taggara, tzemreḍ ad temmeslayeḍ daɣen ad tebḍuḍ ayen axeddim meqqren i ixeddem Thunderbird? Tanemmirt i tikkelt-nniḍen!"
 
-#: donate/thunderbird/templates/payment/card_upsell.html:10
-#, python-format
-msgid "I authorize MZLA Technologies Corporation to automatically charge my card every month in the amount indicated above, starting next month on the same date as today, and continuing each month afterwards until I cancel. I understand that I must cancel at least 5 days before the next scheduled donation by <a href=\"%(help_url)s\">submitting this form</a>, and that I may only request a refund within 15 days from the date of a donation."
-msgstr "Ad muddeɣ tesriḥ i tkebbanit n titiknulujyin MZLA Technologies Corporation akken ad tejdeb si tkarḍa-iw n usmad s wudem awurman yal aggur tallayt i d-yettwammlen dagi, seg wass-a daɣen yal aggur i d-iteddun arma sḥebseɣ-tt. Gziɣ d akken ilaq ad sfesxeɣ s yimayl aliktrunan ɣer tensa <a href=\"%(help_url)s\">tuzna n usuter</a>, xarsum 5 n wussan uqbel ajbad n tewsa ittuheggan, daɣen zemreɣ ad sutreɣ tiririt n tewsa deg 15 n wussan seg wazemz n tewsa."
+#~ msgctxt "Used as a tweet"
+#~ msgid "I donated to @mozthunderbird today to #freetheinbox. Join me to support communication privacy."
+#~ msgstr "Muddeɣ tura kan tawsa i @mozthunderbird i #freetheinbox. Ddu-d ɣur-i akken ad nmudd afus i tbaḍnit n teywalt."
 
-#: donate/thunderbird/templates/payment/newsletter_signup.html:8
-msgid "We’re working hard to protect your inbox. Sign up to receive email messages concerning Thunderbird, including updates and requests for feedback."
-msgstr "Aql-aɣ ad nqeddec ayen nezmer i wakken ad nemmesten tirawt-inek·inem. Jerred i wakken ad d-tremseḍ iznan ɣef Thunderbird, am yisallen akked yiznan d usuter n tikti-inek·inem."
-
-#: donate/thunderbird/templates/payment/thank_you.html:7
-msgid "Lastly, can you multiply your impact by sharing about the important work Thunderbird is doing? Thank you again!"
-msgstr "Ɣer taggara, tzemreḍ ad temmeslayeḍ daɣen ad tebḍuḍ ayen axeddim meqqren i ixeddem Thunderbird? Tanemmirt i tikkelt-nniḍen!"
-
-#: donate/thunderbird/templates/payment/thank_you.html:11
-msgctxt "Used as a tweet"
-msgid "I donated to @mozthunderbird today to #freetheinbox. Join me to support communication privacy."
-msgstr "Muddeɣ tura kan tawsa i @mozthunderbird i #freetheinbox. Ddu-d ɣur-i akken ad nmudd afus i tbaḍnit n teywalt."
-
-#: donate/thunderbird/templates/payment/thank_you.html:12
-msgctxt "Email subject line"
-msgid "I donated to Thunderbird today"
-msgstr "Muddeɣ tawsa i Thunderbird ass-a"
+#~ msgctxt "Email subject line"
+#~ msgid "I donated to Thunderbird today"
+#~ msgstr "Muddeɣ tawsa i Thunderbird ass-a"
 
 #, python-format
 #~ msgid "Other ways to give: <a href=\"%(wire_transfer_url)s\">SEPA/BACS</a> | <a href=\"%(check_url)s\">Check</a>"
