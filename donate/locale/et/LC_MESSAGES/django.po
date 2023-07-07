@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-06-28 15:10+0000\n"
-"PO-Revision-Date: 2023-07-07 18:03+0000\n"
+"PO-Revision-Date: 2023-07-07 18:11+0000\n"
 "Last-Translator: Merike Sell <merikes@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: et\n"
@@ -188,7 +188,7 @@ msgstr "kuus"
 #: donate/templates/fragments/donate_form.html:123
 #, python-format
 msgid "Minimum amount is %(min_amount)s"
-msgstr ""
+msgstr "Minimaalne summa on %(min_amount)s"
 
 #: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:8
 #, python-format
@@ -290,11 +290,11 @@ msgstr "Anneta kohe"
 
 #: donate/templates/pages/core/campaign_page_master.html:72 donate/templates/pages/core/landing_page_master.html:49
 msgid "Your donation is being processed..."
-msgstr ""
+msgstr "Sinu annetust töödeldakse..."
 
 #: donate/templates/pages/core/campaign_page_master.html:81 donate/templates/pages/core/landing_page_master.html:59
 msgid "One moment while we get all the details right!"
-msgstr ""
+msgstr "Üks hetk, kuni saame kõik üksikasjad paika!"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:54
 msgid "Thank you for contacting us. A case has been created for your issue and we will be in touch shortly."
@@ -332,19 +332,19 @@ msgstr "Puudub"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:106
 msgid "Chinese (Simplified)"
-msgstr ""
+msgstr "Hiina, lihtsustatud"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:107
 msgid "Czech"
-msgstr ""
+msgstr "tšehhi"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:108
 msgid "Danish"
-msgstr ""
+msgstr "taani"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:109
 msgid "Dutch"
-msgstr ""
+msgstr "hollandi"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:110
 msgid "English"
@@ -360,11 +360,11 @@ msgstr "saksa"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:113
 msgid "Italian"
-msgstr ""
+msgstr "itaalia"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:114
 msgid "Japanese"
-msgstr ""
+msgstr "jaapani"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:115
 msgid "Polish"
@@ -376,7 +376,7 @@ msgstr "portugali"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:117
 msgid "Russian"
-msgstr ""
+msgstr "vene"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:118
 msgid "Spanish"
@@ -389,7 +389,7 @@ msgstr "muu"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:125
 msgid "Subject"
-msgstr ""
+msgstr "Teema"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:130
 msgid "Description"
@@ -472,24 +472,24 @@ msgstr ""
 #: donate/templates/payment/card_master.html:20
 #, python-format
 msgid "You are donating <span class=\"%(span_class)s\">%(formatted_amount)s</span> per month"
-msgstr ""
+msgstr "Annetad <span class=\"%(span_class)s\">%(formatted_amount)s</span> kuus"
 
 #: donate/templates/payment/card_master.html:22
 #, python-format
 msgid "You are donating <span class=\"%(span_class)s\">%(formatted_amount)s</span>"
-msgstr ""
+msgstr "Annetad <span class=\"%(span_class)s\">%(formatted_amount)s</span> kuus"
 
 #: donate/templates/payment/card_master.html:26
 msgid "Change amount"
-msgstr ""
+msgstr "Muuda summat"
 
 #: donate/templates/payment/card_master.html:34
 msgid "Donation Amount"
-msgstr ""
+msgstr "Annetuse summa"
 
 #: donate/templates/payment/card_master.html:53
 msgid "Confirm"
-msgstr ""
+msgstr "Kinnitan"
 
 #: donate/templates/payment/card_master.html:58
 msgid "Your Details"
@@ -510,19 +510,19 @@ msgstr ""
 
 #: donate/templates/payment/card_master.html:105
 msgid "Payment"
-msgstr ""
+msgstr "Makse"
 
 #: donate/templates/payment/card_master.html:120
 msgid "Card number"
-msgstr ""
+msgstr "Kaardi number"
 
 #: donate/templates/payment/card_master.html:126
 msgid "Expiration date"
-msgstr ""
+msgstr "Aegumiskuupäev"
 
 #: donate/templates/payment/card_master.html:131
 msgid "CVV"
-msgstr ""
+msgstr "CVV"
 
 #: donate/templates/payment/card_master.html:140
 #, python-format
@@ -560,12 +560,12 @@ msgstr "GuideStar Gold 2019 pitser"
 
 #: donate/templates/payment/card_upsell_master.html:4 donate/templates/payment/paypal_upsell_master.html:4 donate/templates/payment/thank_you_master.html:4
 msgid "Thank you"
-msgstr ""
+msgstr "Täname"
 
 #: donate/templates/payment/card_upsell_master.html:13 donate/templates/payment/newsletter_signup_master.html:13 donate/templates/payment/paypal_upsell_master.html:13
 #: donate/templates/payment/thank_you_master.html:12
 msgid "Thank you for your generous gift"
-msgstr ""
+msgstr "Täname sind helde kingituse eest"
 
 #: donate/templates/payment/card_upsell_master.html:17 donate/templates/payment/paypal_upsell_master.html:17
 msgid "We’d love to have you as a sustaining supporter of Mozilla. <b>Could you add a monthly donation starting next month?</b>"
@@ -573,11 +573,11 @@ msgstr ""
 
 #: donate/templates/payment/card_upsell_master.html:21 donate/templates/payment/paypal_upsell_master.html:21
 msgid "Yes, I will give:"
-msgstr ""
+msgstr "Jah, ma annan:"
 
 #: donate/templates/payment/card_upsell_master.html:40
 msgid "Monthly"
-msgstr ""
+msgstr "Igakuiselt"
 
 #: donate/templates/payment/card_upsell_master.html:50
 #, python-format
@@ -588,11 +588,11 @@ msgstr ""
 
 #: donate/templates/payment/card_upsell_master.html:57
 msgid "Donate Monthly"
-msgstr ""
+msgstr "Anneta iga kuu"
 
 #: donate/templates/payment/card_upsell_master.html:60 donate/templates/payment/newsletter_signup_master.html:42
 msgid "No Thanks"
-msgstr ""
+msgstr "Ei soovi"
 
 #: donate/templates/payment/newsletter_signup_master.html:4
 msgid "Stay in touch"
@@ -604,7 +604,7 @@ msgstr ""
 
 #: donate/templates/payment/newsletter_signup_master.html:40
 msgid "Sign Up"
-msgstr ""
+msgstr "Registreeru"
 
 #: donate/templates/payment/paypal_upsell_master.html:41
 msgid "/ Monthly"
@@ -612,7 +612,7 @@ msgstr ""
 
 #: donate/templates/payment/paypal_upsell_master.html:52
 msgid "No"
-msgstr ""
+msgstr "Ei"
 
 #: donate/templates/payment/thank_you_master.html:15
 #, python-format
@@ -631,19 +631,19 @@ msgstr ""
 #: donate/templates/payment/thank_you_master.html:22
 msgctxt "Email subject line"
 msgid "I donated to Mozilla today"
-msgstr ""
+msgstr "Ma annetasin täna Mozillale"
 
 #: donate/templates/payment/thank_you_master.html:26
 msgid "Share on Facebook"
-msgstr ""
+msgstr "Jaga Facebookis"
 
 #: donate/templates/payment/thank_you_master.html:30
 msgid "Facebook"
-msgstr ""
+msgstr "Facebook"
 
 #: donate/templates/payment/thank_you_master.html:33
 msgid "Share on Twitter"
-msgstr ""
+msgstr "Jaga Twitteris"
 
 #: donate/templates/payment/thank_you_master.html:37
 msgid "Twitter"
@@ -652,17 +652,17 @@ msgstr "Twitter"
 #: donate/templates/payment/thank_you_master.html:43
 msgctxt "Share button"
 msgid "Email"
-msgstr ""
+msgstr "E-post"
 
 #: donate/templates/payment/thank_you_master.html:53
 msgctxt "Share button"
 msgid "Link"
-msgstr ""
+msgstr "Link"
 
 #: donate/templates/payment/thank_you_master.html:54
 msgid "Copied"
-msgstr ""
+msgstr "Kopeeritud"
 
 #: donate/templates/tags/primarynav.html:10
 msgid "Back"
-msgstr ""
+msgstr "Tagasi"
