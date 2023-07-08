@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-06-28 15:10+0000\n"
-"PO-Revision-Date: 2023-07-04 17:07+0000\n"
-"Last-Translator: Pedro Coelho <pedrozc99@gmail.com>\n"
+"PO-Revision-Date: 2023-07-08 13:19+0000\n"
+"Last-Translator: Cláudio Esperança <cesperanc@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_PT\n"
 "MIME-Version: 1.0\n"
@@ -212,7 +212,7 @@ msgstr "<b>Pergunta sobre doação?</b> Visite as nossas <a href=\"%(faq_url)s\"
 #: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:29
 #, python-format
 msgid "<b>Need to reach us about your donation?</b> <a href=\"%(help_url)s\">Contact us</a>."
-msgstr ""
+msgstr "<b>Precisa de nos contactar sobre o seu donativo?</b> <a href=\"%(help_url)s\">Contacte-nos</a>."
 
 #: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:37
 #, python-format
@@ -220,6 +220,8 @@ msgid ""
 "Contributions go to the <a href=\"%(mozilla_url)s\">Mozilla Foundation</a>, a 501(c)(3) organization based in San Francisco, California, to be used in its discretion for its charitable purposes. "
 "They are tax-deductible in the U.S. to the fullest extent permitted by law."
 msgstr ""
+"As contribuições vão para a <a href=\"%(mozilla_url)s\">Fundação Mozilla</a>, uma organização 501(c)(3) baseada em São Francisco, Califórnia, para serem utilizadas de acordo com os respetivos "
+"critérios e propósitos filantrópicos. Estas são dedutíveis nos impostos nos EUA até ao limite máximo permitido por lei."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:6
 #, python-format
@@ -241,7 +243,7 @@ msgstr ""
 #: donate/templates/fragments/donate_form_disclaimer_master.html:28
 #, python-format
 msgid "Other ways to give: <a href=\"%(check_url)s\">Check</a>"
-msgstr ""
+msgstr "Outras formas de fazer donativos: <a href=\"%(check_url)s\">Cheque</a>"
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:38
 #, python-format
