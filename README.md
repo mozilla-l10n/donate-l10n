@@ -1,13 +1,13 @@
-# UI translations for donate.mozilla.org and give.thunderbird.net
+# UI translations for donate.mozilla.org
 
 [![Build Status](https://github.com/mozilla-l10n/donate-l10n/workflows/Continuous%20Integration/badge.svg)](https://github.com/mozilla-l10n/donate-l10n/actions?query=workflow%3A%22Continuous+Integration%22)
 
-Process UI translations for donate.mozilla.org and give.thunderbird.net and upload them to S3.
+Process UI translations for donate.mozilla.org and upload them to S3.
 
 ## Contributing
 Visit https://pontoon.mozilla.org/projects/mozilla-donate-website/ to contribute to translations.
 
-CMS translations are stored in different repositories for [Mozilla](https://github.com/mozilla-l10n/mozilla-donate-content) and [Thunderbird](https://github.com/mozilla-l10n/thunderbird-donate-content).
+CMS translations are stored [in a different repository](https://github.com/mozilla-l10n/mozilla-donate-content).
 
 ## Updating dependencies for this project
 *Django's version must be the same as the foundation site.*
