@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-06-28 15:10+0000\n"
-"PO-Revision-Date: 2023-07-27 08:41+0000\n"
+"PO-Revision-Date: 2023-07-27 08:50+0000\n"
 "Last-Translator: Mikeyy <mihovil@miho.im>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
@@ -457,7 +457,7 @@ msgstr ""
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:57
 msgid "Please include your email address on the memo line of your check to help us track and attribute your gift."
-msgstr ""
+msgstr "Uključite svoju adresu e-pošte u bilješku vašeg čeka kako biste nam pomogli da pratimo i pripišemo vaš dar."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:64
 #, python-format
@@ -506,7 +506,7 @@ msgstr "Vaši detalji"
 
 #: donate/templates/payment/card_master.html:74
 msgid "We were unable to take payment because the payment processor reported an error with your address information:"
-msgstr ""
+msgstr "Nismo uspjeli izvršiti plaćanje jer je izvršitelj plaćanja prijavio pogrešku s podacima o vašoj adresi:"
 
 #: donate/templates/payment/card_master.html:78
 msgid "Please correct these errors and try again."
@@ -515,7 +515,7 @@ msgstr "Ispravite ove pogreške i pokušajte ponovo."
 #: donate/templates/payment/card_master.html:82 donate/templates/payment/card_upsell_master.html:34 donate/templates/payment/newsletter_signup_master.html:30
 #: donate/templates/payment/paypal_upsell_master.html:34
 msgid "There were some errors with your form. Please amend the fields highlighted below."
-msgstr ""
+msgstr "Došlo je do pogrešaka u vašem obrascu. Izmijenite dolje istaknuta polja."
 
 #: donate/templates/payment/card_master.html:105
 msgid "Payment"
@@ -540,10 +540,12 @@ msgid ""
 "I must cancel at least 5 days before the next scheduled donation by email to <a href='mailto:%(email)s'>%(email)s</a>, and that I may only request a refund within 15 days from the date of a "
 "donation."
 msgstr ""
+"Ovlašćujem Mozilla zakladu da automatski tereti moju karticu svakog mjeseca u gore navedenom iznosu, počevši od danas i nastavljajući svaki mjesec isti dan, sve dok ne otkažem. Razumijem da moram "
+"otkazati najmanje 5 dana prije sljedeće planirane donacije e-poštom na adresu <a href='mailto:%(email)s'>%(email)s</a> i da mogu zahtijevati povrat u roku od 15 dana od datuma donacije."
 
 #: donate/templates/payment/card_master.html:142
 msgid "I authorize Mozilla Foundation to charge my card in the amount indicated above. I understand that I may only request a refund within 15 days from the date of the donation."
-msgstr ""
+msgstr "Ovlašćujem Mozilla zakladu da moju karticu tereti u gore navedenom iznosu. Razumijem da povrat mogu zatražiti u roku od 15 dana od datuma donacije."
 
 #: donate/templates/payment/card_master.html:167
 #, python-format
@@ -557,7 +559,7 @@ msgstr "Donirajte <span class=\"%(span_class)s\">%(formatted_amount)s</span>"
 
 #: donate/templates/payment/card_master.html:177
 msgid "Your donation helps keep the Web open and free. Thank you in advance for your gift."
-msgstr ""
+msgstr "Vaša donacija pomaže da Internet ostane otvoren i besplatan. Unaprijed zahvaljujemo na poklonu."
 
 #: donate/templates/payment/card_master.html:181
 msgid "Seal of Charity Navigator 4-Star"
@@ -594,6 +596,8 @@ msgid ""
 "I authorize Mozilla Foundation to automatically charge my card every month in the amount indicated above, starting next month on the same date as today, and continuing each month afterwards until I "
 "cancel. I understand that I must cancel at least 5 days before the next scheduled donation by email to %(email)s, and that I may only request a refund within 15 days from the date of a donation."
 msgstr ""
+"Ovlašćujem Mozilla zakladu da automatski tereti moju karticu svakog mjeseca u gore navedenom iznosu, počevši od sljedećeg mjeseca na isti dan kao danas, i nastavljajući svaki mjesec nakon toga sve "
+"dok ne otkažem. Razumijem da moram otkazati najmanje 5 dana prije sljedeće planirane donacije e-poštom na adresu %(email)s i da mogu zahtijevati povrat u roku od 15 dana od datuma donacije."
 
 #: donate/templates/payment/card_upsell_master.html:57
 msgid "Donate Monthly"
@@ -630,7 +634,7 @@ msgstr ""
 
 #: donate/templates/payment/thank_you_master.html:16
 msgid "Lastly, can you multiply your impact by sharing about the important work Mozilla is doing? Thank you again!"
-msgstr ""
+msgstr "Molimo te da obavijestiš svijet oko sebe o važnosti Mozilla projekta. Hvala!"
 
 #: donate/templates/payment/thank_you_master.html:21
 msgctxt "Used as a tweet"
