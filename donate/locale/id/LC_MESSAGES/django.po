@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-06-28 15:10+0000\n"
-"PO-Revision-Date: 2020-06-03 06:37+0000\n"
-"Last-Translator: Nuri Abidin <nuri.abidin@gmail.com>\n"
+"PO-Revision-Date: 2023-07-31 16:35+0000\n"
+"Last-Translator: Lidya Christina <id.lidya@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
@@ -539,10 +539,15 @@ msgid ""
 "I must cancel at least 5 days before the next scheduled donation by email to <a href='mailto:%(email)s'>%(email)s</a>, and that I may only request a refund within 15 days from the date of a "
 "donation."
 msgstr ""
+"Saya menyetujui Mozilla Foundation untuk secara otomatis menagih kartu saya setiap bulan sesuai jumlah di atas, mulai hari ini dan berlanjut setiap bulan pada hari yang sama, sampai saya "
+"membatalkan. Saya paham bahwa saya harus membatalkan setidaknya 5 hari sebelum jadwal donasi berikutnya melalui surel ke <a href='mailto:%(email)s'>%(email)s</a>, dan bahwa saya hanya dapat meminta "
+"pengembalian dana dalam waktu 15 hari dari tanggal donasi."
 
 #: donate/templates/payment/card_master.html:142
 msgid "I authorize Mozilla Foundation to charge my card in the amount indicated above. I understand that I may only request a refund within 15 days from the date of the donation."
 msgstr ""
+"Saya memberi wewenang kepada Mozilla Foundation untuk menagih kartu saya sesuai jumlah di atas. Saya memahami bahwa saya hanya dapat meminta pengembalian dana dalam waktu 15 hari dari tanggal "
+"donasi."
 
 #: donate/templates/payment/card_master.html:167
 #, python-format
