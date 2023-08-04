@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-06-28 15:10+0000\n"
-"PO-Revision-Date: 2023-08-04 05:44+0000\n"
+"PO-Revision-Date: 2023-08-04 05:49+0000\n"
 "Last-Translator: Hariom Panchal <hariompanchal6647@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gu_IN\n"
@@ -220,6 +220,8 @@ msgid ""
 "Contributions go to the <a href=\"%(mozilla_url)s\">Mozilla Foundation</a>, a 501(c)(3) organization based in San Francisco, California, to be used in its discretion for its charitable purposes. "
 "They are tax-deductible in the U.S. to the fullest extent permitted by law."
 msgstr ""
+"યોગદાન <a href=\"%(mozilla_url)s\">Mozilla Foundation</a>, સાન ફ્રાન્સિસ્કો, કેલિફોર્નિયા સ્થિત 501(c)(3) સંસ્થાને તેના સખાવતી હેતુઓ માટે તેની વિવેકબુદ્ધિમાં ઉપયોગમાં લેવા માટે જાય છે. તેઓ યુ.એસ.માં"
+" કાયદા દ્વારા મંજૂર સંપૂર્ણ હદ સુધી કર-કપાતપાત્ર છે."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:6
 #, python-format
@@ -238,7 +240,7 @@ msgstr "તમે આજે દાન કરો છો તે જ દિવસ�
 #: donate/templates/fragments/donate_form_disclaimer_master.html:28
 #, python-format
 msgid "Other ways to give: <a href=\"%(check_url)s\">Check</a>"
-msgstr ""
+msgstr "આપવાની અન્ય રીતો: <a href=\"%(check_url)s\">ચેક</a>"
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:38
 #, python-format
@@ -321,6 +323,8 @@ msgid ""
 "Unfortunately, donor care representatives are unable to offer support or help with Firefox technical issues, or changes to or questions about Mozilla VPN subscriptions. Related questions submitted "
 "through this form will not be responded to."
 msgstr ""
+"કમનસીબે, દાતા સંભાળના પ્રતિનિધિઓ Firefox ટેકનિકલ સમસ્યાઓ, અથવા Mozilla VPN સબ્સ્ક્રિપ્શન્સ વિશેના ફેરફારો અથવા પ્રશ્નો માટે સમર્થન અથવા મદદ ઓફર કરવામાં અસમર્થ છે. આ ફોર્મ દ્વારા સબમિટ કરેલા સંબંધિત "
+"પ્રશ્નોના જવાબ આપવામાં આવશે નહીં."
 
 #: donate/templates/pages/core/contributor_support_page_master.html:77
 #, python-format
@@ -328,6 +332,8 @@ msgid ""
 "For technical support, please visit the <a href=\"%(firefox_support_url)s\">Firefox support page</a>. For help with a VPN subscription, please visit the <a href=\"%(vpn_support_url)s\">Mozilla VPN "
 "Support page</a>."
 msgstr ""
+"તકનીકી સમર્થન માટે, કૃપા કરીને <a href=\"%(firefox_support_url)s\">Firefox સપોર્ટ પૃષ્ઠ</a> ની મુલાકાત લો. VPN સબ્સ્ક્રિપ્શનમાં મદદ માટે, કૃપા કરીને <a href=\"%(vpn_support_url)s\">Mozilla VPN "
+"સપોર્ટ પૃષ્ઠ</a> ની મુલાકાત લો."
 
 #: donate/templates/pages/core/contributor_support_page_master.html:92
 msgid "Contact Name"
@@ -414,7 +420,7 @@ msgstr "સબમિટ કરો"
 
 #: donate/templates/pages/core/landing_page.html:23
 msgid "featured image"
-msgstr ""
+msgstr "વૈશિષ્ટિકૃત છબી"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:4 donate/templates/pages/core/ways_to_give_page_master.html:11
 msgid "Ways to Give"
