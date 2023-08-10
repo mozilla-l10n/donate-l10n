@@ -2,13 +2,13 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-28 15:10+0000\n"
+"POT-Creation-Date: 2023-08-10 08:07+0000\n"
 "PO-Revision-Date: 2023-08-04 05:38+0000\n"
 "Last-Translator: Hariom Panchal <hariompanchal6647@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,40 +19,53 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Pontoon\n"
 
-#: donate/frontend/_js/main.compiled.js:16 maintenance/static/_js/main.js:16 source/js/components/currency-selector.js:92
+#: donate/frontend/_js/main.compiled.js:16 maintenance/static/_js/main.js:16
+#: source/js/components/currency-selector.js:92
 msgid "per month"
 msgstr "પ્રતિ મહિના"
 
-#: donate/frontend/_js/main.compiled.js:16 maintenance/static/_js/main.js:16 source/js/components/currency-selector.js:99
+#: donate/frontend/_js/main.compiled.js:16 maintenance/static/_js/main.js:16
+#: source/js/components/currency-selector.js:99
 msgid "Other amount"
 msgstr "અન્ય રકમ"
 
-#: donate/frontend/_js/main.compiled.js:16 source/js/components/currency-selector.js:101
+#: donate/frontend/_js/main.compiled.js:16
+#: source/js/components/currency-selector.js:101
 msgid "To combat fraud, Mozilla Foundation has temporarily restricted donations to a minimum of"
 msgstr "છેતરપિંડીનો સામનો કરવા માટે, Mozilla Foundation અસ્થાયી ધોરણે દાનને ઓછામાં ઓછા"
 
-#: donate/frontend/_js/main.compiled.js:16 source/js/components/currency-selector.js:103
+#: donate/frontend/_js/main.compiled.js:16
+#: source/js/components/currency-selector.js:103
 msgid "Invalid amount entered."
 msgstr "અમાન્ય રકમ દાખલ કરી."
 
-#: donate/frontend/_js/payments-card.compiled.js:1 donate/frontend/_js/payments-paypal-upsell.compiled.js:1 donate/frontend/_js/payments-paypal.compiled.js:1 source/js/components/paypal.js:14
-#: source/js/payments-card.js:16
+#: donate/frontend/_js/payments-card.compiled.js:1
+#: donate/frontend/_js/payments-paypal-upsell.compiled.js:1
+#: donate/frontend/_js/payments-paypal.compiled.js:1
+#: source/js/components/paypal.js:14 source/js/payments-card.js:16
 msgid "An error occurred. Please reload the page or try again later."
 msgstr "એક ભૂલ આવી. કૃપા કરી પૃષ્ઠને ફરીથી લોડ કરો અથવા પછીથી ફરી પ્રયાસ કરો."
 
-#: donate/frontend/_js/payments-card.compiled.js:1 donate/frontend/_js/payments-paypal-upsell.compiled.js:1 donate/frontend/_js/payments-paypal.compiled.js:1 source/js/components/paypal.js:17
-#: source/js/payments-card.js:218
+#: donate/frontend/_js/payments-card.compiled.js:1
+#: donate/frontend/_js/payments-paypal-upsell.compiled.js:1
+#: donate/frontend/_js/payments-paypal.compiled.js:1
+#: source/js/components/paypal.js:17 source/js/payments-card.js:218
 msgid "There was an error processing your payment. Please try again."
 msgstr "તમારી ચુકવણીની પ્રક્રિયા કરવામાં ભૂલ આવી હતી. મેહરબાની કરી ને ફરી થી પ્રયાસ કરો."
 
-#: donate/frontend/_js/payments-card.compiled.js:1 source/js/payments-card.js:238
+#: donate/frontend/_js/payments-card.compiled.js:1
+#: source/js/payments-card.js:238
 msgid "Some of the fields below are invalid. Please correct the invalid fields and try again."
 msgstr "નીચેના કેટલાક ક્ષેત્રો અમાન્ય છે. કૃપા કરીને અમાન્ય ફીલ્ડ્સને સુધારવા અને ફરીથી પ્રયાસ કરો."
 
-#: donate/frontend/_js/payments-paypal-upsell.compiled.js:1 donate/frontend/_js/payments-paypal.compiled.js:1 source/js/components/paypal.js:20
+#: donate/frontend/_js/payments-paypal-upsell.compiled.js:1
+#: donate/frontend/_js/payments-paypal.compiled.js:1
+#: source/js/components/paypal.js:20
 msgid "We were unable to establish a connection to PayPal. Please try again in a few minutes."
 msgstr "અમે PayPal સાથે કનેક્શન સ્થાપિત કરવામાં અસમર્થ હતા. કૃપા કરીને થોડીવારમાં ફરી પ્રયાસ કરો."
 
-#: donate/frontend/_js/payments-paypal-upsell.compiled.js:1 donate/frontend/_js/payments-paypal.compiled.js:1 source/js/components/paypal.js:97
+#: donate/frontend/_js/payments-paypal-upsell.compiled.js:1
+#: donate/frontend/_js/payments-paypal.compiled.js:1
+#: source/js/components/paypal.js:97
 msgid "Payment cancelled"
 msgstr "ચુકવણી રદ કરી"

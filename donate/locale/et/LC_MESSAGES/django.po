@@ -2,13 +2,13 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-28 15:10+0000\n"
+"POT-Creation-Date: 2023-08-10 08:07+0000\n"
 "PO-Revision-Date: 2023-07-07 19:34+0000\n"
 "Last-Translator: Merike Sell <merikes@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,7 +19,8 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: donate/core/translation.py:12 donate/payments/forms.py:103 donate/templates/forms/form_field.html:21
+#: donate/core/translation.py:12 donate/payments/forms.py:103
+#: donate/templates/forms/form_field.html:21
 msgid "This field is required."
 msgstr "See väli on kohustuslik."
 
@@ -36,7 +37,8 @@ msgstr "Sisesta korrektne e-posti aadress."
 msgid "Donations must be %(amount)s or more"
 msgstr "Annetused peavad olema %(amount)s või suuremad"
 
-#: donate/payments/forms.py:108 donate/payments/forms.py:123 donate/payments/forms.py:180
+#: donate/payments/forms.py:108 donate/payments/forms.py:123
+#: donate/payments/forms.py:180
 msgid "Amount"
 msgstr "Summa"
 
@@ -48,7 +50,8 @@ msgstr "Eesnimi"
 msgid "Last name"
 msgstr "Perekonnanimi"
 
-#: donate/payments/forms.py:138 donate/payments/forms.py:194 donate/templates/pages/core/contributor_support_page_master.html:97
+#: donate/payments/forms.py:138 donate/payments/forms.py:194
+#: donate/templates/pages/core/contributor_support_page_master.html:100
 msgid "Email"
 msgstr "E-post"
 
@@ -143,7 +146,9 @@ msgstr "Vabandust, lehekülge pole olemas."
 msgid "Go to our home page"
 msgstr "Mine meie kodulehele"
 
-#: donate/templates/base_master.html:8 donate/templates/pages/base_page_master.html:14 donate/templates/pages/base_page_master.html:15
+#: donate/templates/base_master.html:8
+#: donate/templates/pages/base_page_master.html:14
+#: donate/templates/pages/base_page_master.html:15
 msgctxt "Page title"
 msgid "Donate to Mozilla"
 msgstr "Mozillale annetamine"
@@ -156,7 +161,10 @@ msgstr "ÜKS KORD"
 msgid "MONTHLY"
 msgstr "IGAKUISELT"
 
-#: donate/templates/fragments/donate_form.html:41 donate/templates/fragments/donate_form.html:42 donate/templates/fragments/donate_form.html:118 donate/templates/fragments/donate_form.html:119
+#: donate/templates/fragments/donate_form.html:41
+#: donate/templates/fragments/donate_form.html:42
+#: donate/templates/fragments/donate_form.html:118
+#: donate/templates/fragments/donate_form.html:119
 msgid "Other amount"
 msgstr "Muu summa"
 
@@ -165,19 +173,24 @@ msgstr "Muu summa"
 msgid "To combat fraud, Mozilla Foundation has temporarily restricted donations to a minimum of %(min_amount)s"
 msgstr ""
 
-#: donate/templates/fragments/donate_form.html:51 donate/templates/fragments/donate_form.html:126
+#: donate/templates/fragments/donate_form.html:51
+#: donate/templates/fragments/donate_form.html:126
 msgid "Invalid amount entered."
 msgstr ""
 
-#: donate/templates/fragments/donate_form.html:58 donate/templates/fragments/donate_form.html:133
+#: donate/templates/fragments/donate_form.html:58
+#: donate/templates/fragments/donate_form.html:133
 msgid "Choose Payment"
 msgstr "Vali makseviis"
 
-#: donate/templates/fragments/donate_form.html:64 donate/templates/fragments/donate_form.html:139 donate/templates/payment/card_master.html:111
+#: donate/templates/fragments/donate_form.html:64
+#: donate/templates/fragments/donate_form.html:139
+#: donate/templates/payment/card_master.html:111
 msgid "SECURE"
 msgstr "TURVALINE"
 
-#: donate/templates/fragments/donate_form.html:70 donate/templates/fragments/donate_form.html:145
+#: donate/templates/fragments/donate_form.html:70
+#: donate/templates/fragments/donate_form.html:145
 msgid "Donate"
 msgstr "Anneta"
 
@@ -192,9 +205,7 @@ msgstr "Minimaalne summa on %(min_amount)s"
 
 #: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:8
 #, python-format
-msgid ""
-"Mozilla is committed to your privacy; please read our <a href=\"%(privacy_url)s\">privacy policy here</a>. Your payment details will be processed by <a href=\"%(stripe_url)s\">Stripe</a>, or <a "
-"href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Mozilla."
+msgid "Mozilla is committed to your privacy; please read our <a href=\"%(privacy_url)s\">privacy policy here</a>. Your payment details will be processed by <a href=\"%(stripe_url)s\">Stripe</a>, or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Mozilla."
 msgstr ""
 
 #: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:16
@@ -214,16 +225,12 @@ msgstr ""
 
 #: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:37
 #, python-format
-msgid ""
-"Contributions go to the <a href=\"%(mozilla_url)s\">Mozilla Foundation</a>, a 501(c)(3) organization based in San Francisco, California, to be used in its discretion for its charitable purposes. "
-"They are tax-deductible in the U.S. to the fullest extent permitted by law."
+msgid "Contributions go to the <a href=\"%(mozilla_url)s\">Mozilla Foundation</a>, a 501(c)(3) organization based in San Francisco, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
 msgstr ""
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:6
 #, python-format
-msgid ""
-"Mozilla is committed to your privacy; please read our <a href=\"%(privacy_url)s\">privacy policy here</a>. Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a "
-"PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Mozilla."
+msgid "Mozilla is committed to your privacy; please read our <a href=\"%(privacy_url)s\">privacy policy here</a>. Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Mozilla."
 msgstr ""
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:9
@@ -242,12 +249,11 @@ msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers 
 msgstr ""
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:46
-msgid ""
-"Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in San Francisco, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S."
-" to the fullest extent permitted by law."
+msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in San Francisco, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
 msgstr ""
 
-#: donate/templates/fragments/language_switcher.html:10 donate/templates/pages/core/contributor_support_page_master.html:102
+#: donate/templates/fragments/language_switcher.html:10
+#: donate/templates/pages/core/contributor_support_page_master.html:105
 msgid "Language"
 msgstr "Keel"
 
@@ -273,12 +279,11 @@ msgstr "Blogi"
 
 #: donate/templates/pages/base_page_master.html:183
 #, python-format
-msgid ""
-"Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a "
-"%(fomo_link_attributes)s>%(fomo_site_url)s</a>. Most content available under a <a %(cc_link_attributes)s>Creative Commons license</a>."
+msgid "Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a %(fomo_link_attributes)s>%(fomo_site_url)s</a>. Most content available under a <a %(cc_link_attributes)s>Creative Commons license</a>."
 msgstr ""
 
-#: donate/templates/pages/core/campaign_page_master.html:43 donate/templates/pages/core/ways_to_give_page_master.html:12
+#: donate/templates/pages/core/campaign_page_master.html:43
+#: donate/templates/pages/core/ways_to_give_page_master.html:12
 msgctxt "Button"
 msgid "DONATE NOW"
 msgstr "ANNETA KOHE"
@@ -288,13 +293,23 @@ msgctxt "Header"
 msgid "Donate now"
 msgstr "Anneta kohe"
 
-#: donate/templates/pages/core/campaign_page_master.html:72 donate/templates/pages/core/landing_page_master.html:49
+#: donate/templates/pages/core/campaign_page_master.html:72
+#: donate/templates/pages/core/landing_page_master.html:49
 msgid "Your donation is being processed..."
 msgstr "Sinu annetust töödeldakse..."
 
-#: donate/templates/pages/core/campaign_page_master.html:81 donate/templates/pages/core/landing_page_master.html:59
+#: donate/templates/pages/core/campaign_page_master.html:81
+#: donate/templates/pages/core/landing_page_master.html:59
 msgid "One moment while we get all the details right!"
 msgstr "Üks hetk, kuni saame kõik üksikasjad paika!"
+
+#: donate/templates/pages/core/contributor_support_page.html:10
+msgid "Our team is experiencing a backlog in donor inquiries. Please expect a delay of up to 5 business days to respond to your inquiry."
+msgstr ""
+
+#: donate/templates/pages/core/contributor_support_page.html:16
+msgid "If you are a current donor, you can use the self-service option to log into your donor portal. You can see receipts and make changes to your monthly gift. To access your log in page, refer to your link in a recent donation email."
+msgstr ""
 
 #: donate/templates/pages/core/contributor_support_page_master.html:54
 msgid "Thank you for contacting us. A case has been created for your issue and we will be in touch shortly."
@@ -304,103 +319,99 @@ msgstr ""
 msgid "We will get back to you soon."
 msgstr "Võtame varsti sinuga ühendust."
 
-#: donate/templates/pages/core/contributor_support_page_master.html:67
+#: donate/templates/pages/core/contributor_support_page_master.html:70
 msgid "If you need help with a donation to the Mozilla Foundation, please fill out this form and a donor care representative will get back to you as soon as possible."
 msgstr ""
 
-#: donate/templates/pages/core/contributor_support_page_master.html:72
-msgid ""
-"Unfortunately, donor care representatives are unable to offer support or help with Firefox technical issues, or changes to or questions about Mozilla VPN subscriptions. Related questions submitted "
-"through this form will not be responded to."
+#: donate/templates/pages/core/contributor_support_page_master.html:75
+msgid "Unfortunately, donor care representatives are unable to offer support or help with Firefox technical issues, or changes to or questions about Mozilla VPN subscriptions. Related questions submitted through this form will not be responded to."
 msgstr ""
 
-#: donate/templates/pages/core/contributor_support_page_master.html:77
+#: donate/templates/pages/core/contributor_support_page_master.html:80
 #, python-format
-msgid ""
-"For technical support, please visit the <a href=\"%(firefox_support_url)s\">Firefox support page</a>. For help with a VPN subscription, please visit the <a href=\"%(vpn_support_url)s\">Mozilla VPN "
-"Support page</a>."
+msgid "For technical support, please visit the <a href=\"%(firefox_support_url)s\">Firefox support page</a>. For help with a VPN subscription, please visit the <a href=\"%(vpn_support_url)s\">Mozilla VPN Support page</a>."
 msgstr ""
 
-#: donate/templates/pages/core/contributor_support_page_master.html:92
+#: donate/templates/pages/core/contributor_support_page_master.html:95
 msgid "Contact Name"
 msgstr "Kontaktisiku nimi"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:105
+#: donate/templates/pages/core/contributor_support_page_master.html:108
 msgctxt "Option in 'Language' dropdown"
 msgid "None"
 msgstr "Puudub"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:106
+#: donate/templates/pages/core/contributor_support_page_master.html:109
 msgid "Chinese (Simplified)"
 msgstr "hiina, lihtsustatud"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:107
+#: donate/templates/pages/core/contributor_support_page_master.html:110
 msgid "Czech"
 msgstr "tšehhi"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:108
+#: donate/templates/pages/core/contributor_support_page_master.html:111
 msgid "Danish"
 msgstr "taani"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:109
+#: donate/templates/pages/core/contributor_support_page_master.html:112
 msgid "Dutch"
 msgstr "hollandi"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:110
+#: donate/templates/pages/core/contributor_support_page_master.html:113
 msgid "English"
 msgstr "inglise"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:111
+#: donate/templates/pages/core/contributor_support_page_master.html:114
 msgid "French"
 msgstr "prantsuse"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:112
+#: donate/templates/pages/core/contributor_support_page_master.html:115
 msgid "German"
 msgstr "saksa"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:113
+#: donate/templates/pages/core/contributor_support_page_master.html:116
 msgid "Italian"
 msgstr "itaalia"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:114
+#: donate/templates/pages/core/contributor_support_page_master.html:117
 msgid "Japanese"
 msgstr "jaapani"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:115
+#: donate/templates/pages/core/contributor_support_page_master.html:118
 msgid "Polish"
 msgstr "poola"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:116
+#: donate/templates/pages/core/contributor_support_page_master.html:119
 msgid "Portuguese"
 msgstr "portugali"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:117
+#: donate/templates/pages/core/contributor_support_page_master.html:120
 msgid "Russian"
 msgstr "vene"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:118
+#: donate/templates/pages/core/contributor_support_page_master.html:121
 msgid "Spanish"
 msgstr "hispaania"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:119
+#: donate/templates/pages/core/contributor_support_page_master.html:122
 msgctxt "Option in 'Language' dropdown"
 msgid "Other"
 msgstr "muu"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:125
+#: donate/templates/pages/core/contributor_support_page_master.html:128
 msgid "Subject"
 msgstr "Teema"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:130
+#: donate/templates/pages/core/contributor_support_page_master.html:133
 msgid "Description"
 msgstr "Kirjeldus"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:135
+#: donate/templates/pages/core/contributor_support_page_master.html:138
 #, python-format
 msgid "Mozilla will only use your submitted information for purposes of communicating with you about your request. See our <a href=\"%(privacy_policy)s\">privacy policy</a> for further information."
 msgstr ""
 
-#: donate/templates/pages/core/contributor_support_page_master.html:147
+#: donate/templates/pages/core/contributor_support_page_master.html:150
 msgid "Submit"
 msgstr "Saada"
 
@@ -408,7 +419,8 @@ msgstr "Saada"
 msgid "featured image"
 msgstr ""
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:4 donate/templates/pages/core/ways_to_give_page_master.html:11
+#: donate/templates/pages/core/ways_to_give_page_master.html:4
+#: donate/templates/pages/core/ways_to_give_page_master.html:11
 msgid "Ways to Give"
 msgstr "Annetusviisid"
 
@@ -427,9 +439,7 @@ msgstr "Aktsiate/väärtpaberite annetamine:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:26
 #, python-format
-msgid ""
-"The Mozilla Foundation is happy to accept your gift of publicly-traded stocks or bonds through our brokerage account at Northern Trust Securities. Please contact Major Gift Officer %(name)s at <a "
-"href=\"mailto:%(email)s\">%(email)s</a> to initiate the process."
+msgid "The Mozilla Foundation is happy to accept your gift of publicly-traded stocks or bonds through our brokerage account at Northern Trust Securities. Please contact Major Gift Officer %(name)s at <a href=\"mailto:%(email)s\">%(email)s</a> to initiate the process."
 msgstr ""
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:35
@@ -441,9 +451,7 @@ msgid "UPDATE October 2020:"
 msgstr "UUENDUS oktoobris 2020:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:40
-msgid ""
-"The Mozilla Foundation is happy to accept your donation (made payable to “Mozilla Foundation”) via check; however please note that processing and acknowledgment of your gift may be delayed by "
-"changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
+msgid "The Mozilla Foundation is happy to accept your donation (made payable to “Mozilla Foundation”) via check; however please note that processing and acknowledgment of your gift may be delayed by changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
 msgstr ""
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:57
@@ -452,9 +460,7 @@ msgstr ""
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:64
 #, python-format
-msgid ""
-"Please also note that the Mozilla Foundation can <strong>only</strong> accept checks in U.S. dollars drawn on a U.S. bank, and <strong>cannot</strong> accept contributions for MZLA/Thunderbird. "
-"(Contributions to MZLA/Thunderbird via check can be made by following <a href=\"%(instruction_url)s\" target=\"_blank\">these instructions</a>.)"
+msgid "Please also note that the Mozilla Foundation can <strong>only</strong> accept checks in U.S. dollars drawn on a U.S. bank, and <strong>cannot</strong> accept contributions for MZLA/Thunderbird. (Contributions to MZLA/Thunderbird via check can be made by following <a href=\"%(instruction_url)s\" target=\"_blank\">these instructions</a>.)"
 msgstr ""
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:71
@@ -503,7 +509,9 @@ msgstr ""
 msgid "Please correct these errors and try again."
 msgstr ""
 
-#: donate/templates/payment/card_master.html:82 donate/templates/payment/card_upsell_master.html:34 donate/templates/payment/newsletter_signup_master.html:30
+#: donate/templates/payment/card_master.html:82
+#: donate/templates/payment/card_upsell_master.html:34
+#: donate/templates/payment/newsletter_signup_master.html:30
 #: donate/templates/payment/paypal_upsell_master.html:34
 msgid "There were some errors with your form. Please amend the fields highlighted below."
 msgstr ""
@@ -526,10 +534,7 @@ msgstr "CVV"
 
 #: donate/templates/payment/card_master.html:140
 #, python-format
-msgid ""
-"I authorize Mozilla Foundation to automatically charge my card every month in the amount indicated above, starting today and continuing each month on the same day, until I cancel. I understand that "
-"I must cancel at least 5 days before the next scheduled donation by email to <a href='mailto:%(email)s'>%(email)s</a>, and that I may only request a refund within 15 days from the date of a "
-"donation."
+msgid "I authorize Mozilla Foundation to automatically charge my card every month in the amount indicated above, starting today and continuing each month on the same day, until I cancel. I understand that I must cancel at least 5 days before the next scheduled donation by email to <a href='mailto:%(email)s'>%(email)s</a>, and that I may only request a refund within 15 days from the date of a donation."
 msgstr ""
 
 #: donate/templates/payment/card_master.html:142
@@ -558,20 +563,26 @@ msgstr "Charity Navigator'i 4-tärni pitser"
 msgid "Seal of GuideStar Gold 2019"
 msgstr "GuideStar Gold 2019 pitser"
 
-#: donate/templates/payment/card_upsell_master.html:4 donate/templates/payment/paypal_upsell_master.html:4 donate/templates/payment/thank_you_master.html:4
+#: donate/templates/payment/card_upsell_master.html:4
+#: donate/templates/payment/paypal_upsell_master.html:4
+#: donate/templates/payment/thank_you_master.html:4
 msgid "Thank you"
 msgstr "Täname"
 
-#: donate/templates/payment/card_upsell_master.html:13 donate/templates/payment/newsletter_signup_master.html:13 donate/templates/payment/paypal_upsell_master.html:13
+#: donate/templates/payment/card_upsell_master.html:13
+#: donate/templates/payment/newsletter_signup_master.html:13
+#: donate/templates/payment/paypal_upsell_master.html:13
 #: donate/templates/payment/thank_you_master.html:12
 msgid "Thank you for your generous gift"
 msgstr "Täname sind helde kingituse eest"
 
-#: donate/templates/payment/card_upsell_master.html:17 donate/templates/payment/paypal_upsell_master.html:17
+#: donate/templates/payment/card_upsell_master.html:17
+#: donate/templates/payment/paypal_upsell_master.html:17
 msgid "We’d love to have you as a sustaining supporter of Mozilla. <b>Could you add a monthly donation starting next month?</b>"
 msgstr ""
 
-#: donate/templates/payment/card_upsell_master.html:21 donate/templates/payment/paypal_upsell_master.html:21
+#: donate/templates/payment/card_upsell_master.html:21
+#: donate/templates/payment/paypal_upsell_master.html:21
 msgid "Yes, I will give:"
 msgstr "Jah, ma annan:"
 
@@ -581,16 +592,15 @@ msgstr "Igakuiselt"
 
 #: donate/templates/payment/card_upsell_master.html:50
 #, python-format
-msgid ""
-"I authorize Mozilla Foundation to automatically charge my card every month in the amount indicated above, starting next month on the same date as today, and continuing each month afterwards until I "
-"cancel. I understand that I must cancel at least 5 days before the next scheduled donation by email to %(email)s, and that I may only request a refund within 15 days from the date of a donation."
+msgid "I authorize Mozilla Foundation to automatically charge my card every month in the amount indicated above, starting next month on the same date as today, and continuing each month afterwards until I cancel. I understand that I must cancel at least 5 days before the next scheduled donation by email to %(email)s, and that I may only request a refund within 15 days from the date of a donation."
 msgstr ""
 
 #: donate/templates/payment/card_upsell_master.html:57
 msgid "Donate Monthly"
 msgstr "Anneta iga kuu"
 
-#: donate/templates/payment/card_upsell_master.html:60 donate/templates/payment/newsletter_signup_master.html:42
+#: donate/templates/payment/card_upsell_master.html:60
+#: donate/templates/payment/newsletter_signup_master.html:42
 msgid "No Thanks"
 msgstr "Ei soovi"
 

@@ -2,13 +2,13 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-28 15:10+0000\n"
+"POT-Creation-Date: 2023-08-10 08:07+0000\n"
 "PO-Revision-Date: 2023-07-31 16:35+0000\n"
 "Last-Translator: Lidya Christina <id.lidya@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,7 +19,8 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pontoon\n"
 
-#: donate/core/translation.py:12 donate/payments/forms.py:103 donate/templates/forms/form_field.html:21
+#: donate/core/translation.py:12 donate/payments/forms.py:103
+#: donate/templates/forms/form_field.html:21
 msgid "This field is required."
 msgstr "Bagian ini wajib diisi."
 
@@ -36,7 +37,8 @@ msgstr "Masukkan alamat surel yang valid."
 msgid "Donations must be %(amount)s or more"
 msgstr "Donasi minimal senilai %(amount)s atau lebih"
 
-#: donate/payments/forms.py:108 donate/payments/forms.py:123 donate/payments/forms.py:180
+#: donate/payments/forms.py:108 donate/payments/forms.py:123
+#: donate/payments/forms.py:180
 msgid "Amount"
 msgstr "Jumlah"
 
@@ -48,7 +50,8 @@ msgstr "Nama depan"
 msgid "Last name"
 msgstr "Nama belakang"
 
-#: donate/payments/forms.py:138 donate/payments/forms.py:194 donate/templates/pages/core/contributor_support_page_master.html:97
+#: donate/payments/forms.py:138 donate/payments/forms.py:194
+#: donate/templates/pages/core/contributor_support_page_master.html:100
 msgid "Email"
 msgstr "Surel"
 
@@ -143,7 +146,9 @@ msgstr "Maaf, halaman tidak tersedia."
 msgid "Go to our home page"
 msgstr "Menuju beranda"
 
-#: donate/templates/base_master.html:8 donate/templates/pages/base_page_master.html:14 donate/templates/pages/base_page_master.html:15
+#: donate/templates/base_master.html:8
+#: donate/templates/pages/base_page_master.html:14
+#: donate/templates/pages/base_page_master.html:15
 msgctxt "Page title"
 msgid "Donate to Mozilla"
 msgstr "Donasi ke Mozilla"
@@ -156,7 +161,10 @@ msgstr "SEKALI"
 msgid "MONTHLY"
 msgstr "BULANAN"
 
-#: donate/templates/fragments/donate_form.html:41 donate/templates/fragments/donate_form.html:42 donate/templates/fragments/donate_form.html:118 donate/templates/fragments/donate_form.html:119
+#: donate/templates/fragments/donate_form.html:41
+#: donate/templates/fragments/donate_form.html:42
+#: donate/templates/fragments/donate_form.html:118
+#: donate/templates/fragments/donate_form.html:119
 msgid "Other amount"
 msgstr "Jumlah lain"
 
@@ -165,19 +173,24 @@ msgstr "Jumlah lain"
 msgid "To combat fraud, Mozilla Foundation has temporarily restricted donations to a minimum of %(min_amount)s"
 msgstr ""
 
-#: donate/templates/fragments/donate_form.html:51 donate/templates/fragments/donate_form.html:126
+#: donate/templates/fragments/donate_form.html:51
+#: donate/templates/fragments/donate_form.html:126
 msgid "Invalid amount entered."
 msgstr "Jumlah yang dimasukkan tidak benar."
 
-#: donate/templates/fragments/donate_form.html:58 donate/templates/fragments/donate_form.html:133
+#: donate/templates/fragments/donate_form.html:58
+#: donate/templates/fragments/donate_form.html:133
 msgid "Choose Payment"
 msgstr "Pilih metode pembayaran"
 
-#: donate/templates/fragments/donate_form.html:64 donate/templates/fragments/donate_form.html:139 donate/templates/payment/card_master.html:111
+#: donate/templates/fragments/donate_form.html:64
+#: donate/templates/fragments/donate_form.html:139
+#: donate/templates/payment/card_master.html:111
 msgid "SECURE"
 msgstr "AMAN"
 
-#: donate/templates/fragments/donate_form.html:70 donate/templates/fragments/donate_form.html:145
+#: donate/templates/fragments/donate_form.html:70
+#: donate/templates/fragments/donate_form.html:145
 msgid "Donate"
 msgstr "Berdonasi"
 
@@ -192,9 +205,7 @@ msgstr "Jumlah minimumnya adalah %(min_amount)s"
 
 #: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:8
 #, python-format
-msgid ""
-"Mozilla is committed to your privacy; please read our <a href=\"%(privacy_url)s\">privacy policy here</a>. Your payment details will be processed by <a href=\"%(stripe_url)s\">Stripe</a>, or <a "
-"href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Mozilla."
+msgid "Mozilla is committed to your privacy; please read our <a href=\"%(privacy_url)s\">privacy policy here</a>. Your payment details will be processed by <a href=\"%(stripe_url)s\">Stripe</a>, or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Mozilla."
 msgstr ""
 
 #: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:16
@@ -214,26 +225,18 @@ msgstr ""
 
 #: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:37
 #, python-format
-msgid ""
-"Contributions go to the <a href=\"%(mozilla_url)s\">Mozilla Foundation</a>, a 501(c)(3) organization based in San Francisco, California, to be used in its discretion for its charitable purposes. "
-"They are tax-deductible in the U.S. to the fullest extent permitted by law."
+msgid "Contributions go to the <a href=\"%(mozilla_url)s\">Mozilla Foundation</a>, a 501(c)(3) organization based in San Francisco, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
 msgstr ""
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:6
 #, python-format
-msgid ""
-"Mozilla is committed to your privacy; please read our <a href=\"%(privacy_url)s\">privacy policy here</a>. Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a "
-"PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Mozilla."
-msgstr ""
-"Mozilla berkomitmen untuk privasi Anda; silakan baca <a href=\"%(privacy_url)s\">kebijakan privasi di sini</a>. Rincian pembayaran Anda akan diproses oleh <a "
-"href=\"%(braintree_url)s\">Braintree</a>, perusahaan PayPal (untuk kartu kredit/debit) atau <a href=\"%(paypal_url)s\">PayPal</a>, dan catatan atas donasi Anda akan disimpan oleh Mozilla."
+msgid "Mozilla is committed to your privacy; please read our <a href=\"%(privacy_url)s\">privacy policy here</a>. Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Mozilla."
+msgstr "Mozilla berkomitmen untuk privasi Anda; silakan baca <a href=\"%(privacy_url)s\">kebijakan privasi di sini</a>. Rincian pembayaran Anda akan diproses oleh <a href=\"%(braintree_url)s\">Braintree</a>, perusahaan PayPal (untuk kartu kredit/debit) atau <a href=\"%(paypal_url)s\">PayPal</a>, dan catatan atas donasi Anda akan disimpan oleh Mozilla."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:9
 #, python-format
 msgid "Monthly donations are charged each month on the same day that you donate today, and will continue until you cancel. To cancel, email us at <a href=\"mailto:%(email)s\">%(email)s</a>."
-msgstr ""
-"Donasi bulanan dikenakan biaya setiap bulan pada hari yang sama bahwa Anda berdonasi hari ini, dan akan dilanjutkan sampai Anda membatalkan. Untuk membatalkan, kirim surel kepada kami di <a "
-"href=\"mailto:%(email)s\">%(email)s</a>."
+msgstr "Donasi bulanan dikenakan biaya setiap bulan pada hari yang sama bahwa Anda berdonasi hari ini, dan akan dilanjutkan sampai Anda membatalkan. Untuk membatalkan, kirim surel kepada kami di <a href=\"mailto:%(email)s\">%(email)s</a>."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:28
 #, python-format
@@ -246,14 +249,11 @@ msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers 
 msgstr "Kesulitan saat berdonasi? Kunjungi <a href=\"%(faq_url)s\">FAQ</a> untuk jawaban atas pertanyaan umum. Masih punya masalah? <a href=\"%(help_url)s\">Hubungi kami</a>."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:46
-msgid ""
-"Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in San Francisco, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S."
-" to the fullest extent permitted by law."
-msgstr ""
-"Kontribusi ditujukan pada Mozilla Foundation, sebuah organisasi 501(c)(3) yang berbasis di San Francisco, California, digunakan dengan bijaksana dengan tujuan amal. Donasi tersebut mendapatkan "
-"pengurangan pajak di AS sampai batas yang dimungkinkan oleh hukum."
+msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in San Francisco, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
+msgstr "Kontribusi ditujukan pada Mozilla Foundation, sebuah organisasi 501(c)(3) yang berbasis di San Francisco, California, digunakan dengan bijaksana dengan tujuan amal. Donasi tersebut mendapatkan pengurangan pajak di AS sampai batas yang dimungkinkan oleh hukum."
 
-#: donate/templates/fragments/language_switcher.html:10 donate/templates/pages/core/contributor_support_page_master.html:102
+#: donate/templates/fragments/language_switcher.html:10
+#: donate/templates/pages/core/contributor_support_page_master.html:105
 msgid "Language"
 msgstr "Bahasa"
 
@@ -279,14 +279,11 @@ msgstr "Blog"
 
 #: donate/templates/pages/base_page_master.html:183
 #, python-format
-msgid ""
-"Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a "
-"%(fomo_link_attributes)s>%(fomo_site_url)s</a>. Most content available under a <a %(cc_link_attributes)s>Creative Commons license</a>."
-msgstr ""
-"Mozilla adalah organisasi nirlaba global yang berdedikasi untuk menempatkan Anda dalam kendali pengalaman daring Anda dan membentuk masa depan web untuk kepentingan publik. Kunjungi kami di <a "
-"%(fomo_link_attributes)s>%(fomo_site_url)s</a>. Sebagian besar konten tersedia di bawah <a %(cc_link_attributes)s>lisensi Creative Commons</a>."
+msgid "Mozilla is a global non-profit dedicated to putting you in control of your online experience and shaping the future of the web for the public good. Visit us at <a %(fomo_link_attributes)s>%(fomo_site_url)s</a>. Most content available under a <a %(cc_link_attributes)s>Creative Commons license</a>."
+msgstr "Mozilla adalah organisasi nirlaba global yang berdedikasi untuk menempatkan Anda dalam kendali pengalaman daring Anda dan membentuk masa depan web untuk kepentingan publik. Kunjungi kami di <a %(fomo_link_attributes)s>%(fomo_site_url)s</a>. Sebagian besar konten tersedia di bawah <a %(cc_link_attributes)s>lisensi Creative Commons</a>."
 
-#: donate/templates/pages/core/campaign_page_master.html:43 donate/templates/pages/core/ways_to_give_page_master.html:12
+#: donate/templates/pages/core/campaign_page_master.html:43
+#: donate/templates/pages/core/ways_to_give_page_master.html:12
 msgctxt "Button"
 msgid "DONATE NOW"
 msgstr "DONASI SEKARANG"
@@ -296,13 +293,23 @@ msgctxt "Header"
 msgid "Donate now"
 msgstr "Donasi sekarang"
 
-#: donate/templates/pages/core/campaign_page_master.html:72 donate/templates/pages/core/landing_page_master.html:49
+#: donate/templates/pages/core/campaign_page_master.html:72
+#: donate/templates/pages/core/landing_page_master.html:49
 msgid "Your donation is being processed..."
 msgstr "Donasi anda sedang diproses..."
 
-#: donate/templates/pages/core/campaign_page_master.html:81 donate/templates/pages/core/landing_page_master.html:59
+#: donate/templates/pages/core/campaign_page_master.html:81
+#: donate/templates/pages/core/landing_page_master.html:59
 msgid "One moment while we get all the details right!"
 msgstr "Tunggu beberapa saat, sementara kami mendapatkan semua rincian dengan benar!"
+
+#: donate/templates/pages/core/contributor_support_page.html:10
+msgid "Our team is experiencing a backlog in donor inquiries. Please expect a delay of up to 5 business days to respond to your inquiry."
+msgstr ""
+
+#: donate/templates/pages/core/contributor_support_page.html:16
+msgid "If you are a current donor, you can use the self-service option to log into your donor portal. You can see receipts and make changes to your monthly gift. To access your log in page, refer to your link in a recent donation email."
+msgstr ""
 
 #: donate/templates/pages/core/contributor_support_page_master.html:54
 msgid "Thank you for contacting us. A case has been created for your issue and we will be in touch shortly."
@@ -312,103 +319,99 @@ msgstr "Terima kasih telah menghubungi kami. Sebuah tiket telah dibuat untuk per
 msgid "We will get back to you soon."
 msgstr "Kami akan segera menghubungi Anda."
 
-#: donate/templates/pages/core/contributor_support_page_master.html:67
+#: donate/templates/pages/core/contributor_support_page_master.html:70
 msgid "If you need help with a donation to the Mozilla Foundation, please fill out this form and a donor care representative will get back to you as soon as possible."
 msgstr ""
 
-#: donate/templates/pages/core/contributor_support_page_master.html:72
-msgid ""
-"Unfortunately, donor care representatives are unable to offer support or help with Firefox technical issues, or changes to or questions about Mozilla VPN subscriptions. Related questions submitted "
-"through this form will not be responded to."
+#: donate/templates/pages/core/contributor_support_page_master.html:75
+msgid "Unfortunately, donor care representatives are unable to offer support or help with Firefox technical issues, or changes to or questions about Mozilla VPN subscriptions. Related questions submitted through this form will not be responded to."
 msgstr ""
 
-#: donate/templates/pages/core/contributor_support_page_master.html:77
+#: donate/templates/pages/core/contributor_support_page_master.html:80
 #, python-format
-msgid ""
-"For technical support, please visit the <a href=\"%(firefox_support_url)s\">Firefox support page</a>. For help with a VPN subscription, please visit the <a href=\"%(vpn_support_url)s\">Mozilla VPN "
-"Support page</a>."
+msgid "For technical support, please visit the <a href=\"%(firefox_support_url)s\">Firefox support page</a>. For help with a VPN subscription, please visit the <a href=\"%(vpn_support_url)s\">Mozilla VPN Support page</a>."
 msgstr ""
 
-#: donate/templates/pages/core/contributor_support_page_master.html:92
+#: donate/templates/pages/core/contributor_support_page_master.html:95
 msgid "Contact Name"
 msgstr ""
 
-#: donate/templates/pages/core/contributor_support_page_master.html:105
+#: donate/templates/pages/core/contributor_support_page_master.html:108
 msgctxt "Option in 'Language' dropdown"
 msgid "None"
 msgstr "Tidak ada"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:106
+#: donate/templates/pages/core/contributor_support_page_master.html:109
 msgid "Chinese (Simplified)"
 msgstr "Tionghoa (Sederhana)"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:107
+#: donate/templates/pages/core/contributor_support_page_master.html:110
 msgid "Czech"
 msgstr "Ceko"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:108
+#: donate/templates/pages/core/contributor_support_page_master.html:111
 msgid "Danish"
 msgstr "Denmark"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:109
+#: donate/templates/pages/core/contributor_support_page_master.html:112
 msgid "Dutch"
 msgstr "Belanda"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:110
+#: donate/templates/pages/core/contributor_support_page_master.html:113
 msgid "English"
 msgstr "Inggris"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:111
+#: donate/templates/pages/core/contributor_support_page_master.html:114
 msgid "French"
 msgstr "Perancis"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:112
+#: donate/templates/pages/core/contributor_support_page_master.html:115
 msgid "German"
 msgstr "Jerman"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:113
+#: donate/templates/pages/core/contributor_support_page_master.html:116
 msgid "Italian"
 msgstr "Italia"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:114
+#: donate/templates/pages/core/contributor_support_page_master.html:117
 msgid "Japanese"
 msgstr "Jepang"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:115
+#: donate/templates/pages/core/contributor_support_page_master.html:118
 msgid "Polish"
 msgstr "Polandia"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:116
+#: donate/templates/pages/core/contributor_support_page_master.html:119
 msgid "Portuguese"
 msgstr "Portugis"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:117
+#: donate/templates/pages/core/contributor_support_page_master.html:120
 msgid "Russian"
 msgstr "Rusia"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:118
+#: donate/templates/pages/core/contributor_support_page_master.html:121
 msgid "Spanish"
 msgstr "Spanyol"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:119
+#: donate/templates/pages/core/contributor_support_page_master.html:122
 msgctxt "Option in 'Language' dropdown"
 msgid "Other"
 msgstr "Lainnya"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:125
+#: donate/templates/pages/core/contributor_support_page_master.html:128
 msgid "Subject"
 msgstr "Subyek"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:130
+#: donate/templates/pages/core/contributor_support_page_master.html:133
 msgid "Description"
 msgstr "Deskripsi"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:135
+#: donate/templates/pages/core/contributor_support_page_master.html:138
 #, python-format
 msgid "Mozilla will only use your submitted information for purposes of communicating with you about your request. See our <a href=\"%(privacy_policy)s\">privacy policy</a> for further information."
 msgstr ""
 
-#: donate/templates/pages/core/contributor_support_page_master.html:147
+#: donate/templates/pages/core/contributor_support_page_master.html:150
 msgid "Submit"
 msgstr ""
 
@@ -416,7 +419,8 @@ msgstr ""
 msgid "featured image"
 msgstr ""
 
-#: donate/templates/pages/core/ways_to_give_page_master.html:4 donate/templates/pages/core/ways_to_give_page_master.html:11
+#: donate/templates/pages/core/ways_to_give_page_master.html:4
+#: donate/templates/pages/core/ways_to_give_page_master.html:11
 msgid "Ways to Give"
 msgstr ""
 
@@ -435,9 +439,7 @@ msgstr ""
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:26
 #, python-format
-msgid ""
-"The Mozilla Foundation is happy to accept your gift of publicly-traded stocks or bonds through our brokerage account at Northern Trust Securities. Please contact Major Gift Officer %(name)s at <a "
-"href=\"mailto:%(email)s\">%(email)s</a> to initiate the process."
+msgid "The Mozilla Foundation is happy to accept your gift of publicly-traded stocks or bonds through our brokerage account at Northern Trust Securities. Please contact Major Gift Officer %(name)s at <a href=\"mailto:%(email)s\">%(email)s</a> to initiate the process."
 msgstr ""
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:35
@@ -449,9 +451,7 @@ msgid "UPDATE October 2020:"
 msgstr ""
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:40
-msgid ""
-"The Mozilla Foundation is happy to accept your donation (made payable to “Mozilla Foundation”) via check; however please note that processing and acknowledgment of your gift may be delayed by "
-"changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
+msgid "The Mozilla Foundation is happy to accept your donation (made payable to “Mozilla Foundation”) via check; however please note that processing and acknowledgment of your gift may be delayed by changes to our office procedures due to the COVID-19 pandemic. You can send checks to:"
 msgstr ""
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:57
@@ -460,9 +460,7 @@ msgstr ""
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:64
 #, python-format
-msgid ""
-"Please also note that the Mozilla Foundation can <strong>only</strong> accept checks in U.S. dollars drawn on a U.S. bank, and <strong>cannot</strong> accept contributions for MZLA/Thunderbird. "
-"(Contributions to MZLA/Thunderbird via check can be made by following <a href=\"%(instruction_url)s\" target=\"_blank\">these instructions</a>.)"
+msgid "Please also note that the Mozilla Foundation can <strong>only</strong> accept checks in U.S. dollars drawn on a U.S. bank, and <strong>cannot</strong> accept contributions for MZLA/Thunderbird. (Contributions to MZLA/Thunderbird via check can be made by following <a href=\"%(instruction_url)s\" target=\"_blank\">these instructions</a>.)"
 msgstr ""
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:71
@@ -511,7 +509,9 @@ msgstr ""
 msgid "Please correct these errors and try again."
 msgstr ""
 
-#: donate/templates/payment/card_master.html:82 donate/templates/payment/card_upsell_master.html:34 donate/templates/payment/newsletter_signup_master.html:30
+#: donate/templates/payment/card_master.html:82
+#: donate/templates/payment/card_upsell_master.html:34
+#: donate/templates/payment/newsletter_signup_master.html:30
 #: donate/templates/payment/paypal_upsell_master.html:34
 msgid "There were some errors with your form. Please amend the fields highlighted below."
 msgstr ""
@@ -534,20 +534,12 @@ msgstr "CVV"
 
 #: donate/templates/payment/card_master.html:140
 #, python-format
-msgid ""
-"I authorize Mozilla Foundation to automatically charge my card every month in the amount indicated above, starting today and continuing each month on the same day, until I cancel. I understand that "
-"I must cancel at least 5 days before the next scheduled donation by email to <a href='mailto:%(email)s'>%(email)s</a>, and that I may only request a refund within 15 days from the date of a "
-"donation."
-msgstr ""
-"Saya menyetujui Mozilla Foundation untuk secara otomatis menagih kartu saya setiap bulan sesuai jumlah di atas, mulai hari ini dan berlanjut setiap bulan pada hari yang sama, sampai saya "
-"membatalkan. Saya paham bahwa saya harus membatalkan setidaknya 5 hari sebelum jadwal donasi berikutnya melalui surel ke <a href='mailto:%(email)s'>%(email)s</a>, dan bahwa saya hanya dapat meminta "
-"pengembalian dana dalam waktu 15 hari dari tanggal donasi."
+msgid "I authorize Mozilla Foundation to automatically charge my card every month in the amount indicated above, starting today and continuing each month on the same day, until I cancel. I understand that I must cancel at least 5 days before the next scheduled donation by email to <a href='mailto:%(email)s'>%(email)s</a>, and that I may only request a refund within 15 days from the date of a donation."
+msgstr "Saya menyetujui Mozilla Foundation untuk secara otomatis menagih kartu saya setiap bulan sesuai jumlah di atas, mulai hari ini dan berlanjut setiap bulan pada hari yang sama, sampai saya membatalkan. Saya paham bahwa saya harus membatalkan setidaknya 5 hari sebelum jadwal donasi berikutnya melalui surel ke <a href='mailto:%(email)s'>%(email)s</a>, dan bahwa saya hanya dapat meminta pengembalian dana dalam waktu 15 hari dari tanggal donasi."
 
 #: donate/templates/payment/card_master.html:142
 msgid "I authorize Mozilla Foundation to charge my card in the amount indicated above. I understand that I may only request a refund within 15 days from the date of the donation."
-msgstr ""
-"Saya memberi wewenang kepada Mozilla Foundation untuk menagih kartu saya sesuai jumlah di atas. Saya memahami bahwa saya hanya dapat meminta pengembalian dana dalam waktu 15 hari dari tanggal "
-"donasi."
+msgstr "Saya memberi wewenang kepada Mozilla Foundation untuk menagih kartu saya sesuai jumlah di atas. Saya memahami bahwa saya hanya dapat meminta pengembalian dana dalam waktu 15 hari dari tanggal donasi."
 
 #: donate/templates/payment/card_master.html:167
 #, python-format
@@ -571,20 +563,26 @@ msgstr "Tanda Navigator Penderma Bintang Empat"
 msgid "Seal of GuideStar Gold 2019"
 msgstr "Tanda GuideStar Gold 2019"
 
-#: donate/templates/payment/card_upsell_master.html:4 donate/templates/payment/paypal_upsell_master.html:4 donate/templates/payment/thank_you_master.html:4
+#: donate/templates/payment/card_upsell_master.html:4
+#: donate/templates/payment/paypal_upsell_master.html:4
+#: donate/templates/payment/thank_you_master.html:4
 msgid "Thank you"
 msgstr ""
 
-#: donate/templates/payment/card_upsell_master.html:13 donate/templates/payment/newsletter_signup_master.html:13 donate/templates/payment/paypal_upsell_master.html:13
+#: donate/templates/payment/card_upsell_master.html:13
+#: donate/templates/payment/newsletter_signup_master.html:13
+#: donate/templates/payment/paypal_upsell_master.html:13
 #: donate/templates/payment/thank_you_master.html:12
 msgid "Thank you for your generous gift"
 msgstr ""
 
-#: donate/templates/payment/card_upsell_master.html:17 donate/templates/payment/paypal_upsell_master.html:17
+#: donate/templates/payment/card_upsell_master.html:17
+#: donate/templates/payment/paypal_upsell_master.html:17
 msgid "We’d love to have you as a sustaining supporter of Mozilla. <b>Could you add a monthly donation starting next month?</b>"
 msgstr ""
 
-#: donate/templates/payment/card_upsell_master.html:21 donate/templates/payment/paypal_upsell_master.html:21
+#: donate/templates/payment/card_upsell_master.html:21
+#: donate/templates/payment/paypal_upsell_master.html:21
 msgid "Yes, I will give:"
 msgstr ""
 
@@ -594,16 +592,15 @@ msgstr ""
 
 #: donate/templates/payment/card_upsell_master.html:50
 #, python-format
-msgid ""
-"I authorize Mozilla Foundation to automatically charge my card every month in the amount indicated above, starting next month on the same date as today, and continuing each month afterwards until I "
-"cancel. I understand that I must cancel at least 5 days before the next scheduled donation by email to %(email)s, and that I may only request a refund within 15 days from the date of a donation."
+msgid "I authorize Mozilla Foundation to automatically charge my card every month in the amount indicated above, starting next month on the same date as today, and continuing each month afterwards until I cancel. I understand that I must cancel at least 5 days before the next scheduled donation by email to %(email)s, and that I may only request a refund within 15 days from the date of a donation."
 msgstr ""
 
 #: donate/templates/payment/card_upsell_master.html:57
 msgid "Donate Monthly"
 msgstr "Donasi Bulanan"
 
-#: donate/templates/payment/card_upsell_master.html:60 donate/templates/payment/newsletter_signup_master.html:42
+#: donate/templates/payment/card_upsell_master.html:60
+#: donate/templates/payment/newsletter_signup_master.html:42
 msgid "No Thanks"
 msgstr "Tidak, Terima Kasih"
 
@@ -708,16 +705,8 @@ msgstr "Kembali"
 #~ msgid "Bitcoin"
 #~ msgstr "Bitcoin"
 
-#~ msgid ""
-#~ "The Mozilla Foundation is a California non-profit corporation exempt from United States federal income taxation under IRC 501(c)(3) and a public charity classified under IRC sections 170(b)(1)(A) "
-#~ "and 509(a)(1). Bitcoin donations Mozilla receives are considered charitable contributions under U.S. federal tax laws, to be used in its discretion for its charitable purposes. Because the IRS has "
-#~ "indicated that it will treat bitcoin as property for U.S. tax purposes (see IRS Notice 2014-21), donations of bitcoin may be subject to special rules as to the amount of your charitable deduction, "
-#~ "the documentation that must be provided to claim a tax deduction, or other matters."
-#~ msgstr ""
-#~ "Mozilla Foundation adalah perusahaan non-profit California yang dibebaskan dari pajak penghasilan federal Amerika Serikat di bawah IRC 501(c)(3) dan badan amal publik yang diklasifikasikan pada "
-#~ "bagian IRC 170(b)(1)(A) dan 509(a)(1). Sumbangan Bitcoin yang diterima Mozilla dianggap sebagai kontribusi amal bawah undang-undang pajak federal AS, yang akan digunakan sesuai kebijakan mereka "
-#~ "untuk tujuan amalnya. Karena IRS telah mengindikasikan bahwa mereka akan memperlakukan bitcoin sebagai properti untuk tujuan pajak AS (lihat IRS Pemberitahuan 2014-21), sumbangan bitcoin dapat "
-#~ "dikenakan peraturan khusus mengenai jumlah pemotongan pajak Anda karena amal, dokumentasi yang harus disediakan untuk mengklaim pengurangan pajak, atau hal-hal lainnya."
+#~ msgid "The Mozilla Foundation is a California non-profit corporation exempt from United States federal income taxation under IRC 501(c)(3) and a public charity classified under IRC sections 170(b)(1)(A) and 509(a)(1). Bitcoin donations Mozilla receives are considered charitable contributions under U.S. federal tax laws, to be used in its discretion for its charitable purposes. Because the IRS has indicated that it will treat bitcoin as property for U.S. tax purposes (see IRS Notice 2014-21), donations of bitcoin may be subject to special rules as to the amount of your charitable deduction, the documentation that must be provided to claim a tax deduction, or other matters."
+#~ msgstr "Mozilla Foundation adalah perusahaan non-profit California yang dibebaskan dari pajak penghasilan federal Amerika Serikat di bawah IRC 501(c)(3) dan badan amal publik yang diklasifikasikan pada bagian IRC 170(b)(1)(A) dan 509(a)(1). Sumbangan Bitcoin yang diterima Mozilla dianggap sebagai kontribusi amal bawah undang-undang pajak federal AS, yang akan digunakan sesuai kebijakan mereka untuk tujuan amalnya. Karena IRS telah mengindikasikan bahwa mereka akan memperlakukan bitcoin sebagai properti untuk tujuan pajak AS (lihat IRS Pemberitahuan 2014-21), sumbangan bitcoin dapat dikenakan peraturan khusus mengenai jumlah pemotongan pajak Anda karena amal, dokumentasi yang harus disediakan untuk mengklaim pengurangan pajak, atau hal-hal lainnya."
 
 #~ msgid "Learn more about bitcoin donations <a href=\"%(bitcoin_wiki)s\">here</a>. To donate bitcoin, <a href=\"%(bitcoin_donate)s\">please visit this link.</a>"
 #~ msgstr "Pelajari lebih lanjut tentang sumbangan bitcoin <a href=\"%(bitcoin_wiki)s\">di sini</a>. Untuk menyumbangkan bitcoin, <a href=\"%(bitcoin_donate)s\">silakan kunjungi tautan ini. </a>"
@@ -746,12 +735,8 @@ msgstr "Kembali"
 #~ msgid "GitHub"
 #~ msgstr "GitHub"
 
-#~ msgid ""
-#~ "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in Mountain View, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S."
-#~ " to the fullest extent permitted by law."
-#~ msgstr ""
-#~ "Kontribusi ditujukan pada Mozilla Foundation, sebuah organisasi 501(c)(3) berbasis di Mountain View, California, digunakan sesuai kebijakan mereka untuk tujuan amal. Donasi dapat mengurangi pajak di"
-#~ " AS hingga batas yang dimungkinkan UU."
+#~ msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization based in Mountain View, California, to be used in its discretion for its charitable purposes. They are tax-deductible in the U.S. to the fullest extent permitted by law."
+#~ msgstr "Kontribusi ditujukan pada Mozilla Foundation, sebuah organisasi 501(c)(3) berbasis di Mountain View, California, digunakan sesuai kebijakan mereka untuk tujuan amal. Donasi dapat mengurangi pajak di AS hingga batas yang dimungkinkan UU."
 
 #~ msgid "License"
 #~ msgstr "Lisensi"

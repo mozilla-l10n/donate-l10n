@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-28 15:10+0000\n"
+"POT-Creation-Date: 2023-08-10 08:07+0000\n"
 "PO-Revision-Date: 2023-03-21 16:54+0000\n"
 "Last-Translator: Michael Köhler <michael.koehler1@gmx.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -51,7 +51,7 @@ msgid "Last name"
 msgstr "Nachname"
 
 #: donate/payments/forms.py:138 donate/payments/forms.py:194
-#: donate/templates/pages/core/contributor_support_page_master.html:97
+#: donate/templates/pages/core/contributor_support_page_master.html:100
 msgid "Email"
 msgstr "E-Mail-Adresse"
 
@@ -253,7 +253,7 @@ msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization base
 msgstr "Spenden gehen an die Mozilla Foundation, eine Organisation nach 501(c)(3) mit Sitz in San Francisco, Kalifornien, die sie nach eigenem Ermessen für wohltätige Zwecke verwendet. Sie sind in den USA in größtmöglichen gesetzmäßigem Umfang steuerlich absetzbar."
 
 #: donate/templates/fragments/language_switcher.html:10
-#: donate/templates/pages/core/contributor_support_page_master.html:102
+#: donate/templates/pages/core/contributor_support_page_master.html:105
 msgid "Language"
 msgstr "Sprache"
 
@@ -303,6 +303,14 @@ msgstr "Ihre Spende wird bearbeitet..."
 msgid "One moment while we get all the details right!"
 msgstr "Einen Moment bitte, wir überprüfen die Informationen!"
 
+#: donate/templates/pages/core/contributor_support_page.html:10
+msgid "Our team is experiencing a backlog in donor inquiries. Please expect a delay of up to 5 business days to respond to your inquiry."
+msgstr ""
+
+#: donate/templates/pages/core/contributor_support_page.html:16
+msgid "If you are a current donor, you can use the self-service option to log into your donor portal. You can see receipts and make changes to your monthly gift. To access your log in page, refer to your link in a recent donation email."
+msgstr ""
+
 #: donate/templates/pages/core/contributor_support_page_master.html:54
 msgid "Thank you for contacting us. A case has been created for your issue and we will be in touch shortly."
 msgstr "Danke, dass Sie uns kontaktiert haben. Es wurde ein Fall für Ihr Problem erstellt und wir werden uns in Kürze bei Ihnen melden."
@@ -311,99 +319,99 @@ msgstr "Danke, dass Sie uns kontaktiert haben. Es wurde ein Fall für Ihr Proble
 msgid "We will get back to you soon."
 msgstr "Wir werden uns bald bei Ihnen melden."
 
-#: donate/templates/pages/core/contributor_support_page_master.html:67
+#: donate/templates/pages/core/contributor_support_page_master.html:70
 msgid "If you need help with a donation to the Mozilla Foundation, please fill out this form and a donor care representative will get back to you as soon as possible."
 msgstr "Wenn Sie bei einer Spende an die Mozilla Foundation Hilfe benötigen, füllen Sie bitte dieses Formular aus. Ein Spenderbetreuer wird sich so schnell wie möglich bei Ihnen melden."
 
-#: donate/templates/pages/core/contributor_support_page_master.html:72
+#: donate/templates/pages/core/contributor_support_page_master.html:75
 msgid "Unfortunately, donor care representatives are unable to offer support or help with Firefox technical issues, or changes to or questions about Mozilla VPN subscriptions. Related questions submitted through this form will not be responded to."
 msgstr "Leider können die Vertreter der Spenderbetreuung keine Unterstützung oder Hilfe bei technischen Problemen mit Firefox oder Änderungen an oder Fragen zu Mozilla VPN-Abonnements anbieten. Entsprechende Fragen, die über dieses Formular eingereicht werden, werden nicht beantwortet."
 
-#: donate/templates/pages/core/contributor_support_page_master.html:77
+#: donate/templates/pages/core/contributor_support_page_master.html:80
 #, python-format
 msgid "For technical support, please visit the <a href=\"%(firefox_support_url)s\">Firefox support page</a>. For help with a VPN subscription, please visit the <a href=\"%(vpn_support_url)s\">Mozilla VPN Support page</a>."
 msgstr "Wenn Sie technische Hilfe benötigen, besuchen Sie bitte die <a href=\"%(firefox_support_url)s\">Firefox-Hilfeseite</a>. Wenn Sie Hilfe zu einem VPN-Abonnement benötigen, besuchen Sie bitte die <a href=\"%(vpn_support_url)s\">Mozilla-VPN-Hilfeseite</a>."
 
-#: donate/templates/pages/core/contributor_support_page_master.html:92
+#: donate/templates/pages/core/contributor_support_page_master.html:95
 msgid "Contact Name"
 msgstr "Name des Kontakts"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:105
+#: donate/templates/pages/core/contributor_support_page_master.html:108
 msgctxt "Option in 'Language' dropdown"
 msgid "None"
 msgstr "Keine"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:106
+#: donate/templates/pages/core/contributor_support_page_master.html:109
 msgid "Chinese (Simplified)"
 msgstr "Chinesisch (Vereinfacht)"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:107
+#: donate/templates/pages/core/contributor_support_page_master.html:110
 msgid "Czech"
 msgstr "Tschechisch"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:108
+#: donate/templates/pages/core/contributor_support_page_master.html:111
 msgid "Danish"
 msgstr "Dänisch"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:109
+#: donate/templates/pages/core/contributor_support_page_master.html:112
 msgid "Dutch"
 msgstr "Niederländisch"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:110
+#: donate/templates/pages/core/contributor_support_page_master.html:113
 msgid "English"
 msgstr "Englisch"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:111
+#: donate/templates/pages/core/contributor_support_page_master.html:114
 msgid "French"
 msgstr "Französisch"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:112
+#: donate/templates/pages/core/contributor_support_page_master.html:115
 msgid "German"
 msgstr "Deutsch"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:113
+#: donate/templates/pages/core/contributor_support_page_master.html:116
 msgid "Italian"
 msgstr "Italienisch"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:114
+#: donate/templates/pages/core/contributor_support_page_master.html:117
 msgid "Japanese"
 msgstr "Japanisch"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:115
+#: donate/templates/pages/core/contributor_support_page_master.html:118
 msgid "Polish"
 msgstr "Polnisch"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:116
+#: donate/templates/pages/core/contributor_support_page_master.html:119
 msgid "Portuguese"
 msgstr "Portugiesisch"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:117
+#: donate/templates/pages/core/contributor_support_page_master.html:120
 msgid "Russian"
 msgstr "Russisch"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:118
+#: donate/templates/pages/core/contributor_support_page_master.html:121
 msgid "Spanish"
 msgstr "Spanisch"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:119
+#: donate/templates/pages/core/contributor_support_page_master.html:122
 msgctxt "Option in 'Language' dropdown"
 msgid "Other"
 msgstr "Andere"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:125
+#: donate/templates/pages/core/contributor_support_page_master.html:128
 msgid "Subject"
 msgstr "Betreff"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:130
+#: donate/templates/pages/core/contributor_support_page_master.html:133
 msgid "Description"
 msgstr "Beschreibung"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:135
+#: donate/templates/pages/core/contributor_support_page_master.html:138
 #, python-format
 msgid "Mozilla will only use your submitted information for purposes of communicating with you about your request. See our <a href=\"%(privacy_policy)s\">privacy policy</a> for further information."
 msgstr "Mozilla verwendet Ihre übermittelten Daten nur, um mit Ihnen über Ihre Anfrage zu kommunizieren. Weitere Informationen finden Sie in unserer <a href=\"%(privacy_policy)s\"> Datenschutzerklärung</a>."
 
-#: donate/templates/pages/core/contributor_support_page_master.html:147
+#: donate/templates/pages/core/contributor_support_page_master.html:150
 msgid "Submit"
 msgstr "Absenden"
 

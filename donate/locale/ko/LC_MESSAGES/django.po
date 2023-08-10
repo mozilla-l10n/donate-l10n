@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-28 15:10+0000\n"
+"POT-Creation-Date: 2023-08-10 08:07+0000\n"
 "PO-Revision-Date: 2023-03-25 02:03+0000\n"
 "Last-Translator: Hyeonseok Shin <hyeonseok@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -51,7 +51,7 @@ msgid "Last name"
 msgstr "성"
 
 #: donate/payments/forms.py:138 donate/payments/forms.py:194
-#: donate/templates/pages/core/contributor_support_page_master.html:97
+#: donate/templates/pages/core/contributor_support_page_master.html:100
 msgid "Email"
 msgstr "이메일"
 
@@ -253,7 +253,7 @@ msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization base
 msgstr "후원금은 캘리포니아 샌프란시스코에 본사를 둔 501(c)(3) 조직인 Mozilla Foundation으로 모아져서 자선활동의 목적을 가지고 자유 재량에 의해서 사용됩니다. 미국에서 법률이 허용한 최대한으로 세금 공제가 됩니다."
 
 #: donate/templates/fragments/language_switcher.html:10
-#: donate/templates/pages/core/contributor_support_page_master.html:102
+#: donate/templates/pages/core/contributor_support_page_master.html:105
 msgid "Language"
 msgstr "언어"
 
@@ -303,6 +303,14 @@ msgstr "기부금을 처리하고 있습니다..."
 msgid "One moment while we get all the details right!"
 msgstr "모든 세부 사항을 확인하는 동안 잠시만 기다려 주십시오!"
 
+#: donate/templates/pages/core/contributor_support_page.html:10
+msgid "Our team is experiencing a backlog in donor inquiries. Please expect a delay of up to 5 business days to respond to your inquiry."
+msgstr ""
+
+#: donate/templates/pages/core/contributor_support_page.html:16
+msgid "If you are a current donor, you can use the self-service option to log into your donor portal. You can see receipts and make changes to your monthly gift. To access your log in page, refer to your link in a recent donation email."
+msgstr ""
+
 #: donate/templates/pages/core/contributor_support_page_master.html:54
 msgid "Thank you for contacting us. A case has been created for your issue and we will be in touch shortly."
 msgstr "연락해 주셔서 감사합니다. 문제에 대한 사건이 생성되었으며 곧 연락을 드리겠습니다."
@@ -311,99 +319,99 @@ msgstr "연락해 주셔서 감사합니다. 문제에 대한 사건이 생성�
 msgid "We will get back to you soon."
 msgstr "곧 다시 연락 드리겠습니다."
 
-#: donate/templates/pages/core/contributor_support_page_master.html:67
+#: donate/templates/pages/core/contributor_support_page_master.html:70
 msgid "If you need help with a donation to the Mozilla Foundation, please fill out this form and a donor care representative will get back to you as soon as possible."
 msgstr "Mozilla Foundation에 기부하는 데에 도움이 필요한 경우, 이 양식을 작성하면 기증자 관리 담당자가 최대한 빨리 연락을 드릴 것입니다."
 
-#: donate/templates/pages/core/contributor_support_page_master.html:72
+#: donate/templates/pages/core/contributor_support_page_master.html:75
 msgid "Unfortunately, donor care representatives are unable to offer support or help with Firefox technical issues, or changes to or questions about Mozilla VPN subscriptions. Related questions submitted through this form will not be responded to."
 msgstr "유감스럽게도 기부자 관리 담당자는 Firefox 기술 문제, Mozilla VPN 구독 변경 또는 질문에 대한 지원이나 도움을 제공할 수 없습니다. 이 양식을 통해 제출된 관련 질문에는 응답하지 않습니다."
 
-#: donate/templates/pages/core/contributor_support_page_master.html:77
+#: donate/templates/pages/core/contributor_support_page_master.html:80
 #, python-format
 msgid "For technical support, please visit the <a href=\"%(firefox_support_url)s\">Firefox support page</a>. For help with a VPN subscription, please visit the <a href=\"%(vpn_support_url)s\">Mozilla VPN Support page</a>."
 msgstr "기술 지원을 받으려면 <a href=\"%(firefox_support_url)s\">Firefox 지원 페이지</a>를 방문하세요. VPN 구독에 대한 도움이 필요하면 <a href=\"%(vpn_support_url)s\">Mozilla VPN 지원 페이지</a>를 방문하세요."
 
-#: donate/templates/pages/core/contributor_support_page_master.html:92
+#: donate/templates/pages/core/contributor_support_page_master.html:95
 msgid "Contact Name"
 msgstr "담당자 이름"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:105
+#: donate/templates/pages/core/contributor_support_page_master.html:108
 msgctxt "Option in 'Language' dropdown"
 msgid "None"
 msgstr "없음"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:106
+#: donate/templates/pages/core/contributor_support_page_master.html:109
 msgid "Chinese (Simplified)"
 msgstr "중국어(간체)"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:107
+#: donate/templates/pages/core/contributor_support_page_master.html:110
 msgid "Czech"
 msgstr "체코어"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:108
+#: donate/templates/pages/core/contributor_support_page_master.html:111
 msgid "Danish"
 msgstr "덴마크어"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:109
+#: donate/templates/pages/core/contributor_support_page_master.html:112
 msgid "Dutch"
 msgstr "네덜란드어"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:110
+#: donate/templates/pages/core/contributor_support_page_master.html:113
 msgid "English"
 msgstr "영어"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:111
+#: donate/templates/pages/core/contributor_support_page_master.html:114
 msgid "French"
 msgstr "프랑스어"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:112
+#: donate/templates/pages/core/contributor_support_page_master.html:115
 msgid "German"
 msgstr "독일어"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:113
+#: donate/templates/pages/core/contributor_support_page_master.html:116
 msgid "Italian"
 msgstr "이탈리아어"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:114
+#: donate/templates/pages/core/contributor_support_page_master.html:117
 msgid "Japanese"
 msgstr "일본어"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:115
+#: donate/templates/pages/core/contributor_support_page_master.html:118
 msgid "Polish"
 msgstr "폴란드어"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:116
+#: donate/templates/pages/core/contributor_support_page_master.html:119
 msgid "Portuguese"
 msgstr "포르투갈어"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:117
+#: donate/templates/pages/core/contributor_support_page_master.html:120
 msgid "Russian"
 msgstr "러시아어"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:118
+#: donate/templates/pages/core/contributor_support_page_master.html:121
 msgid "Spanish"
 msgstr "스페인어"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:119
+#: donate/templates/pages/core/contributor_support_page_master.html:122
 msgctxt "Option in 'Language' dropdown"
 msgid "Other"
 msgstr "그 외"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:125
+#: donate/templates/pages/core/contributor_support_page_master.html:128
 msgid "Subject"
 msgstr "제목"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:130
+#: donate/templates/pages/core/contributor_support_page_master.html:133
 msgid "Description"
 msgstr "설명"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:135
+#: donate/templates/pages/core/contributor_support_page_master.html:138
 #, python-format
 msgid "Mozilla will only use your submitted information for purposes of communicating with you about your request. See our <a href=\"%(privacy_policy)s\">privacy policy</a> for further information."
 msgstr "Mozilla는 귀하의 요청에 대해 귀하와의 통신용으로만 제출된 정보를 사용합니다. 자세한 내용은 <a href=\"%(privacy_policy)s\">개인 정보 보호 정책</a>을 참조하십시오."
 
-#: donate/templates/pages/core/contributor_support_page_master.html:147
+#: donate/templates/pages/core/contributor_support_page_master.html:150
 msgid "Submit"
 msgstr "제출"
 

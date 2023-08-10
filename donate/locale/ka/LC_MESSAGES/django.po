@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-28 15:10+0000\n"
+"POT-Creation-Date: 2023-08-10 08:07+0000\n"
 "PO-Revision-Date: 2023-06-11 20:11+0000\n"
 "Last-Translator: G12r <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -51,7 +51,7 @@ msgid "Last name"
 msgstr "გვარი"
 
 #: donate/payments/forms.py:138 donate/payments/forms.py:194
-#: donate/templates/pages/core/contributor_support_page_master.html:97
+#: donate/templates/pages/core/contributor_support_page_master.html:100
 msgid "Email"
 msgstr "ელფოსტა"
 
@@ -253,7 +253,7 @@ msgid "Contributions go to the Mozilla Foundation, a 501(c)(3) organization base
 msgstr "შემოწირულობები ირიცხება Mozilla Foundation-ში, 501(c)(3) დაწესებულებაში, რომელიც მდებარეობს სან-ფრანცისკოში, კალიფორნია, შეხედულებისამებრ გამოსაყენებლად საქველმოქმედო მიზნებისთვის. გადარიცხვები ექვემდებარება გადასახადების გამოქვითვას აშშ-ში, კანონის სრული დაცვით."
 
 #: donate/templates/fragments/language_switcher.html:10
-#: donate/templates/pages/core/contributor_support_page_master.html:102
+#: donate/templates/pages/core/contributor_support_page_master.html:105
 msgid "Language"
 msgstr "ენა"
 
@@ -303,6 +303,14 @@ msgstr "თქვენი შემოწირულობა მუშავ�
 msgid "One moment while we get all the details right!"
 msgstr "მოითმინეთ, სანამ ყველაფერს გავამზადებთ!"
 
+#: donate/templates/pages/core/contributor_support_page.html:10
+msgid "Our team is experiencing a backlog in donor inquiries. Please expect a delay of up to 5 business days to respond to your inquiry."
+msgstr ""
+
+#: donate/templates/pages/core/contributor_support_page.html:16
+msgid "If you are a current donor, you can use the self-service option to log into your donor portal. You can see receipts and make changes to your monthly gift. To access your log in page, refer to your link in a recent donation email."
+msgstr ""
+
 #: donate/templates/pages/core/contributor_support_page_master.html:54
 msgid "Thank you for contacting us. A case has been created for your issue and we will be in touch shortly."
 msgstr "გმადლობთ, რომ დაგვიკავშირდით. თქვენი საკითხის განხილვა დაწყებულია და მალე შეგეხმიანებით."
@@ -311,99 +319,99 @@ msgstr "გმადლობთ, რომ დაგვიკავშირდ
 msgid "We will get back to you soon."
 msgstr "მალე გამოგეხმაურებით."
 
-#: donate/templates/pages/core/contributor_support_page_master.html:67
+#: donate/templates/pages/core/contributor_support_page_master.html:70
 msgid "If you need help with a donation to the Mozilla Foundation, please fill out this form and a donor care representative will get back to you as soon as possible."
 msgstr "თუ გესაჭიროებათ დახმარება Mozilla Foundation-სთვის თანხის გაღებაში, გთხოვთ შეავსოთ კითხვარი და შემოწირულობებზე პასუხისმგებელი პირი მოკლე დროში გამოგეხმაურებათ."
 
-#: donate/templates/pages/core/contributor_support_page_master.html:72
+#: donate/templates/pages/core/contributor_support_page_master.html:75
 msgid "Unfortunately, donor care representatives are unable to offer support or help with Firefox technical issues, or changes to or questions about Mozilla VPN subscriptions. Related questions submitted through this form will not be responded to."
 msgstr "სამწუხაროდ, შემოწირულობებზე პასუხისმგებელი პირი ვერ დაგეხმარებათ Firefox-ის ტექნიკური სიძნელეების გადაწყვეტაში, ასევე, ვერ გაგარკვევთ Mozilla VPN-თან დაკავშირებულ ცვლილებებსა და საკითხებში. მოცემული კითხვარით გამოგზავნილი ამგვარი შეკითხვები პასუხგაუცემელი დარჩება."
 
-#: donate/templates/pages/core/contributor_support_page_master.html:77
+#: donate/templates/pages/core/contributor_support_page_master.html:80
 #, python-format
 msgid "For technical support, please visit the <a href=\"%(firefox_support_url)s\">Firefox support page</a>. For help with a VPN subscription, please visit the <a href=\"%(vpn_support_url)s\">Mozilla VPN Support page</a>."
 msgstr "ტექნიკური დახმარებისთვის გთხოვთ, იხილოთ <a href=\"%(firefox_support_url)s\">Firefox-ის მხარდაჭერის გვერდი</a>. VPN-ის გამოწერასთან დაკავშირებით, იხილეთ უშუალოდ <a href=\"%(vpn_support_url)s\">Mozilla VPN-ის მხარდაჭერის გვერდი</a>."
 
-#: donate/templates/pages/core/contributor_support_page_master.html:92
+#: donate/templates/pages/core/contributor_support_page_master.html:95
 msgid "Contact Name"
 msgstr "პირის სახელი"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:105
+#: donate/templates/pages/core/contributor_support_page_master.html:108
 msgctxt "Option in 'Language' dropdown"
 msgid "None"
 msgstr "არცერთი"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:106
+#: donate/templates/pages/core/contributor_support_page_master.html:109
 msgid "Chinese (Simplified)"
 msgstr "ჩინური (გამარტივებული)"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:107
+#: donate/templates/pages/core/contributor_support_page_master.html:110
 msgid "Czech"
 msgstr "ჩეხური"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:108
+#: donate/templates/pages/core/contributor_support_page_master.html:111
 msgid "Danish"
 msgstr "დანიური"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:109
+#: donate/templates/pages/core/contributor_support_page_master.html:112
 msgid "Dutch"
 msgstr "ნიდერლანდური"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:110
+#: donate/templates/pages/core/contributor_support_page_master.html:113
 msgid "English"
 msgstr "ინგლისური"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:111
+#: donate/templates/pages/core/contributor_support_page_master.html:114
 msgid "French"
 msgstr "ფრანგული"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:112
+#: donate/templates/pages/core/contributor_support_page_master.html:115
 msgid "German"
 msgstr "გერმანული"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:113
+#: donate/templates/pages/core/contributor_support_page_master.html:116
 msgid "Italian"
 msgstr "იტალიური"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:114
+#: donate/templates/pages/core/contributor_support_page_master.html:117
 msgid "Japanese"
 msgstr "იაპონური"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:115
+#: donate/templates/pages/core/contributor_support_page_master.html:118
 msgid "Polish"
 msgstr "პოლონური"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:116
+#: donate/templates/pages/core/contributor_support_page_master.html:119
 msgid "Portuguese"
 msgstr "პორტუგალიური"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:117
+#: donate/templates/pages/core/contributor_support_page_master.html:120
 msgid "Russian"
 msgstr "რუსული"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:118
+#: donate/templates/pages/core/contributor_support_page_master.html:121
 msgid "Spanish"
 msgstr "ესპანური"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:119
+#: donate/templates/pages/core/contributor_support_page_master.html:122
 msgctxt "Option in 'Language' dropdown"
 msgid "Other"
 msgstr "სხვა"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:125
+#: donate/templates/pages/core/contributor_support_page_master.html:128
 msgid "Subject"
 msgstr "საკითხი"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:130
+#: donate/templates/pages/core/contributor_support_page_master.html:133
 msgid "Description"
 msgstr "აღწერა"
 
-#: donate/templates/pages/core/contributor_support_page_master.html:135
+#: donate/templates/pages/core/contributor_support_page_master.html:138
 #, python-format
 msgid "Mozilla will only use your submitted information for purposes of communicating with you about your request. See our <a href=\"%(privacy_policy)s\">privacy policy</a> for further information."
 msgstr "Mozilla თქვენ მიერ გამოგზავნილ ინფორმაციას გამოიყენებს მხოლოდ თქვენთან დასაკავშირებლად, მოთხოვნის თაობაზე. იხილეთ <a href=\"%(privacy_policy)s\">პირადი მონაცემების დაცვის ჩვენი დებულება</a> დაწვრილებითი ინფორმაციისთვის."
 
-#: donate/templates/pages/core/contributor_support_page_master.html:147
+#: donate/templates/pages/core/contributor_support_page_master.html:150
 msgid "Submit"
 msgstr "გაგზავნა"
 
