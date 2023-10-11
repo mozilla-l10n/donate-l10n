@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-10 08:07+0000\n"
-"PO-Revision-Date: 2023-08-10 14:31+0000\n"
+"PO-Revision-Date: 2023-10-11 05:08+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -121,7 +121,7 @@ msgstr "Απαιτείται ενέργεια - Ζήτημα VPN"
 #: donate/templates/403.html:16
 #, python-format
 msgid "Please disable your VPN and visit <a href=\"%(url)s\">%(site)s</a> again."
-msgstr "Παρακαλούμε απενεργοποιήστε το VPN σας και επισκεφθείτε ξανά το <a href=\"%(url)s\">%(site)s</a>."
+msgstr "Παρακαλούμε απενεργοποιήστε το VPN σας και επισκεφτείτε ξανά το <a href=\"%(url)s\">%(site)s</a>."
 
 #: donate/templates/403.html:21
 msgid "We take your privacy very seriously. To minimize fraudulent payments, we’re asking supporters to disable their VPNs when visiting our donate page."
@@ -249,8 +249,8 @@ msgstr "Άλλοι τρόποι δωρεάς: <a href=\"%(check_url)s\">Επιτ
 #, python-format
 msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"%(help_url)s\">Contact us</a>."
 msgstr ""
-"Προβλήματα με τη δωρεά; Επισκεφθείτε τις <a href=\"%(faq_url)s\">συχνές ερωτήσεις</a> για απαντήσεις στις πιο συνηθισμένες ερωτήσεις. Έχετε ακόμα προβλήματα; <a href=\"%(help_url)s\">Επικοινωνήστε "
-"μαζί μας</a>."
+"Προβλήματα με τη δωρεά; Επισκεφτείτε τις <a href=\"%(faq_url)s\">συχνές ερωτήσεις</a> για απαντήσεις στις πιο συνηθισμένες ερωτήσεις. Αντιμετωπίζετε ακόμα προβλήματα; <a "
+"href=\"%(help_url)s\">Επικοινωνήστε μαζί μας</a>."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:46
 msgid ""
