@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-10 08:07+0000\n"
-"PO-Revision-Date: 2023-11-18 11:32+0000\n"
+"PO-Revision-Date: 2023-11-20 18:50+0000\n"
 "Last-Translator: Selim Şumlu <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tr\n"
@@ -337,6 +337,8 @@ msgid ""
 "Unfortunately, donor care representatives are unable to offer support or help with Firefox technical issues, or changes to or questions about Mozilla VPN subscriptions. Related questions submitted "
 "through this form will not be responded to."
 msgstr ""
+"Ne yazık ki bağışçı destek temsilcilerimiz Firefox'la ilgili teknik sorunlar, veya VPN abonelikleriyle ilgili sorular ve abonelik değişiklikleriyle ilgili destek veya yardım sağlayamaz. Bu form "
+"aracılığıyla gönderdiğiniz bu tip sorular cevaplanmayacaktır."
 
 #: donate/templates/pages/core/contributor_support_page_master.html:80
 #, python-format
