@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-10 08:07+0000\n"
-"PO-Revision-Date: 2023-08-11 13:41+0000\n"
+"PO-Revision-Date: 2023-11-27 15:16+0000\n"
 "Last-Translator: Artem Polivanchuk <a.polivanchuk@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: uk\n"
@@ -207,7 +207,7 @@ msgstr "<b>Інші способи допомоги: <a href=\"%(check_url)s\">�
 #: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:24
 #, python-format
 msgid "<b>Question donating?</b> Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions."
-msgstr "<b>Запитання щодо внесків?</b> Відвідайте наш <a href=\"%(faq_url)s\">ЧаП</a>, щоб отримати відповіді на найпоширеніші запитання."
+msgstr "<b>Маєте Запитання щодо внесків?</b> Перегляньте <a href=\"%(faq_url)s\">Поширені запитання</a>, щоб отримати відповіді."
 
 #: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:29
 #, python-format
@@ -247,9 +247,7 @@ msgstr "Інші способи допомоги: <a href=\"%(check_url)s\">че
 #: donate/templates/fragments/donate_form_disclaimer_master.html:38
 #, python-format
 msgid "Problems donating? Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions. Still have problems? <a href=\"%(help_url)s\">Contact us</a>."
-msgstr ""
-"Не вдається зробити внесок? Перегляньте <a href=\"%(faq_url)s\">поширені запитання</a>, щоб отримати відповіді на найпоширеніші запитання. Все ще залишилися запитання? <a "
-"href=\"%(help_url)s\">Зв'яжіться з нами</a>."
+msgstr "Не вдається зробити внесок? Перегляньте <a href=\"%(faq_url)s\">Поширені запитання</a>, щоб отримати відповіді. Все ще виникають труднощі? <a href=\"%(help_url)s\">Зв'яжіться з нами</a>."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:46
 msgid ""
