@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-10 08:07+0000\n"
-"PO-Revision-Date: 2023-10-15 18:25+0000\n"
-"Last-Translator: Jordi Serratosa <jordis@softcatala.cat>\n"
+"PO-Revision-Date: 2023-12-06 16:32+0000\n"
+"Last-Translator: Joan Montané <joan@montane.cat>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -112,20 +112,20 @@ msgstr "El Captcha no és vàlid. Torneu-ho a intentar."
 
 #: donate/templates/403.html:4
 msgid "VPN Issue"
-msgstr ""
+msgstr "Problema de VPN"
 
 #: donate/templates/403.html:11
 msgid "Action Required - VPN Issue"
-msgstr ""
+msgstr "Acció necessària: problema de VPN"
 
 #: donate/templates/403.html:16
 #, python-format
 msgid "Please disable your VPN and visit <a href=\"%(url)s\">%(site)s</a> again."
-msgstr ""
+msgstr "Desactiveu la vostra VPN i torneu a visitar <a href=\"%(url)s\">%(site)s</a>."
 
 #: donate/templates/403.html:21
 msgid "We take your privacy very seriously. To minimize fraudulent payments, we’re asking supporters to disable their VPNs when visiting our donate page."
-msgstr ""
+msgstr "Ens prenem la vostra privadesa molt seriosament. Per a minimitzar els pagaments fraudulents, demanem als seguidors que desactivin les VPN quan visiten la nostra pàgina de donatius."
 
 #: donate/templates/404.html:4
 msgid "Page not found"
@@ -163,7 +163,7 @@ msgstr "Un altre import"
 #: donate/templates/fragments/donate_form.html:47
 #, python-format
 msgid "To combat fraud, Mozilla Foundation has temporarily restricted donations to a minimum of %(min_amount)s"
-msgstr ""
+msgstr "Per a combatre el frau, la Fundació Mozilla ha restringit temporalment els donatius a un mínim de %(min_amount)s"
 
 #: donate/templates/fragments/donate_form.html:51 donate/templates/fragments/donate_form.html:126
 msgid "Invalid amount entered."
@@ -188,7 +188,7 @@ msgstr "al mes"
 #: donate/templates/fragments/donate_form.html:123
 #, python-format
 msgid "Minimum amount is %(min_amount)s"
-msgstr ""
+msgstr "L'import mínim és %(min_amount)s"
 
 #: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:8
 #, python-format
@@ -300,11 +300,11 @@ msgstr "Feu un donatiu"
 
 #: donate/templates/pages/core/campaign_page_master.html:72 donate/templates/pages/core/landing_page_master.html:49
 msgid "Your donation is being processed..."
-msgstr ""
+msgstr "S'està processant el vostre donatiu..."
 
 #: donate/templates/pages/core/campaign_page_master.html:81 donate/templates/pages/core/landing_page_master.html:59
 msgid "One moment while we get all the details right!"
-msgstr ""
+msgstr "Un moment mentre aconseguim tots els detalls!"
 
 #: donate/templates/pages/core/contributor_support_page.html:10
 msgid "Our team is experiencing a backlog in donor inquiries. Please expect a delay of up to 5 business days to respond to your inquiry."
@@ -428,7 +428,7 @@ msgstr "Envia"
 
 #: donate/templates/pages/core/landing_page.html:23
 msgid "featured image"
-msgstr ""
+msgstr "imatge destacada"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:4 donate/templates/pages/core/ways_to_give_page_master.html:11
 msgid "Ways to Give"
@@ -459,9 +459,8 @@ msgid "Check (via postal service)"
 msgstr "Xec (mitjançant servei postal)"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:39
-#, fuzzy
 msgid "UPDATE October 2020:"
-msgstr "ACTUALITZACIÓ del 20 de març de 2020:"
+msgstr "ACTUALITZACIÓ d'octubre de 2020:"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:40
 msgid ""
