@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-10 08:07+0000\n"
-"PO-Revision-Date: 2023-12-06 16:32+0000\n"
-"Last-Translator: Joan Montané <joan@montane.cat>\n"
+"PO-Revision-Date: 2023-12-06 19:48+0000\n"
+"Last-Translator: Jordi Serratosa <jordis@softcatala.cat>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -196,6 +196,8 @@ msgid ""
 "Mozilla is committed to your privacy; please read our <a href=\"%(privacy_url)s\">privacy policy here</a>. Your payment details will be processed by <a href=\"%(stripe_url)s\">Stripe</a>, or <a "
 "href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Mozilla."
 msgstr ""
+"Mozilla es compromet a respectar la vostra privadesa; llegiu la nostra <a href=\"%(privacy_url)s\">política de privadesa aquí</a>. Les dades del pagament seran processades per <a "
+"href=\"%(stripe_url)s\">Stripe</a> o per <a href=\"%(paypal_url)s\">PayPal</a>, i Mozilla conservarà un registre del vostre donatiu."
 
 #: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:16
 #, python-format
@@ -225,7 +227,7 @@ msgid ""
 "Mozilla is committed to your privacy; please read our <a href=\"%(privacy_url)s\">privacy policy here</a>. Your payment details will be processed by <a href=\"%(braintree_url)s\">Braintree</a>, a "
 "PayPal company (for credit/debit cards) or <a href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Mozilla."
 msgstr ""
-"Mozilla està compromesa a respectar la vostra privadesa; llegiu la nostra <a href=\"%(privacy_url)s\">política de privadesa aquí</a>. Les dades del pagament seran processades per <a "
+"Mozilla es compromet a respectar la vostra privadesa; llegiu la nostra <a href=\"%(privacy_url)s\">política de privadesa aquí</a>. Les dades del pagament seran processades per <a "
 "href=\"%(braintree_url)s\">Braintree</a>, una empresa de PayPal (per a targetes de crèdit/dèbit) o per <a href=\"%(paypal_url)s\">PayPal</a>, i Mozilla conservarà un registre del vostre donatiu."
 
 #: donate/templates/fragments/donate_form_disclaimer_master.html:9
