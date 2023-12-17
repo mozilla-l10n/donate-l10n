@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-10 08:07+0000\n"
-"PO-Revision-Date: 2023-12-17 13:03+0000\n"
+"PO-Revision-Date: 2023-12-17 13:05+0000\n"
 "Last-Translator: Håvar Henriksen <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nb_NO\n"
@@ -337,7 +337,7 @@ msgstr ""
 msgid ""
 "For technical support, please visit the <a href=\"%(firefox_support_url)s\">Firefox support page</a>. For help with a VPN subscription, please visit the <a href=\"%(vpn_support_url)s\">Mozilla VPN "
 "Support page</a>."
-msgstr ""
+msgstr "For teknisk støtte, besøk <a href=\"%(firefox_support_url)s\">Firefox-brukerstøttesiden</a>. For hjelp med et VPN-abonnement, besøk <a href=\"%(vpn_support_url)s\">Mozilla VPN-brukerstøttesiden</a>."
 
 #: donate/templates/pages/core/contributor_support_page_master.html:95
 msgid "Contact Name"
@@ -350,7 +350,7 @@ msgstr "Ingen"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:109
 msgid "Chinese (Simplified)"
-msgstr "Kinesisk, forenklet"
+msgstr "Kinesisk (forenklet)"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:110
 msgid "Czech"
