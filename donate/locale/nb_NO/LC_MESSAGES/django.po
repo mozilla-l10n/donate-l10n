@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-10 08:07+0000\n"
-"PO-Revision-Date: 2023-12-17 20:30+0000\n"
+"PO-Revision-Date: 2023-12-17 22:37+0000\n"
 "Last-Translator: Håvar Henriksen <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nb_NO\n"
@@ -207,7 +207,7 @@ msgstr "<b>Andre måter å gi på: <a href=\"%(check_url)s\">Sjekk</a></b>"
 #: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:24
 #, python-format
 msgid "<b>Question donating?</b> Visit our <a href=\"%(faq_url)s\">FAQ</a> for answers to most common questions."
-msgstr ""
+msgstr "<b>Spørsmål om donasjon?</b> Besøk <a href=\"%(faq_url)s\">ofte stilte spørsmål (FAQ)</a> for svar på de vanligste spørsmålene."
 
 #: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:29
 #, python-format
