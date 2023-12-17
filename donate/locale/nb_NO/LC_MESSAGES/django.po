@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-10 08:07+0000\n"
-"PO-Revision-Date: 2023-12-17 13:05+0000\n"
+"PO-Revision-Date: 2023-12-17 20:22+0000\n"
 "Last-Translator: Håvar Henriksen <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nb_NO\n"
@@ -125,7 +125,7 @@ msgstr "Deaktiver VPN-en din og besøk <a href=\"%(url)s\">%(site)s</a> igjen."
 
 #: donate/templates/403.html:21
 msgid "We take your privacy very seriously. To minimize fraudulent payments, we’re asking supporters to disable their VPNs when visiting our donate page."
-msgstr ""
+msgstr "Vi tar personvernet ditt svært alvorlig. For å minimere svindelbetalinger, ber vi bidragsytere om å deaktivere sin VPN når de besøker donasjonssiden vår."
 
 #: donate/templates/404.html:4
 msgid "Page not found"
@@ -196,6 +196,8 @@ msgid ""
 "Mozilla is committed to your privacy; please read our <a href=\"%(privacy_url)s\">privacy policy here</a>. Your payment details will be processed by <a href=\"%(stripe_url)s\">Stripe</a>, or <a "
 "href=\"%(paypal_url)s\">PayPal</a>, and a record of your donation will be stored by Mozilla."
 msgstr ""
+"Mozilla er forpliktet til ditt personvern; du kan lese <a href=\"%(privacy_url)s\">personvernerklæringen vår her</a>. Betalingsopplysningene blir behandlet av <a href=\"%(stripe_url)s\">Stripe</a>, "
+"eller <a href=\"%(paypal_url)s\">PayPal</a>, og en oversikt over donasjonen din blir lagret hos Mozilla."
 
 #: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:16
 #, python-format
@@ -210,7 +212,7 @@ msgstr ""
 #: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:29
 #, python-format
 msgid "<b>Need to reach us about your donation?</b> <a href=\"%(help_url)s\">Contact us</a>."
-msgstr ""
+msgstr "<b>Trenger du å kontakte oss angående donasjonen din?</b> <a href=\"%(help_url)s\">Kontakt oss</a>."
 
 #: donate/templates/fragments/donate_form_disclaimer_fundraise_up.html:37
 #, python-format
