@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-10 08:07+0000\n"
-"PO-Revision-Date: 2023-12-17 02:37+0000\n"
+"PO-Revision-Date: 2023-12-17 13:03+0000\n"
 "Last-Translator: Håvar Henriksen <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nb_NO\n"
@@ -350,19 +350,19 @@ msgstr "Ingen"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:109
 msgid "Chinese (Simplified)"
-msgstr ""
+msgstr "Kinesisk, forenklet"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:110
 msgid "Czech"
-msgstr ""
+msgstr "Tsjekkisk"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:111
 msgid "Danish"
-msgstr ""
+msgstr "Dansk"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:112
 msgid "Dutch"
-msgstr ""
+msgstr "Nederlandsk"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:113
 msgid "English"
@@ -378,11 +378,11 @@ msgstr "Tysk"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:116
 msgid "Italian"
-msgstr ""
+msgstr "Italiensk"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:117
 msgid "Japanese"
-msgstr ""
+msgstr "Japansk"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:118
 msgid "Polish"
@@ -394,7 +394,7 @@ msgstr "Portugisisk"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:120
 msgid "Russian"
-msgstr ""
+msgstr "Russisk"
 
 #: donate/templates/pages/core/contributor_support_page_master.html:121
 msgid "Spanish"
@@ -425,7 +425,7 @@ msgstr "Send"
 
 #: donate/templates/pages/core/landing_page.html:23
 msgid "featured image"
-msgstr ""
+msgstr "utvalgt bilde"
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:4 donate/templates/pages/core/ways_to_give_page_master.html:11
 msgid "Ways to Give"
