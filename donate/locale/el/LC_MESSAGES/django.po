@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-10 08:07+0000\n"
-"PO-Revision-Date: 2023-12-19 12:02+0000\n"
+"PO-Revision-Date: 2023-12-19 15:56+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -452,7 +452,7 @@ msgstr "Πιστωτική/χρεωστική και PayPal"
 #: donate/templates/pages/core/ways_to_give_page_master.html:18
 #, python-format
 msgid "<a href=\"%(ways_to_give_link)s\">Go to this link</a> to make a secure online donation right now."
-msgstr "<a href=\"%(ways_to_give_link)s\">Μεταβείτε σε αυτό το σύνδεσμο</a> για να κάνετε με ασφάλεια τη δωρεά σας."
+msgstr "<a href=\"%(ways_to_give_link)s\">Μεταβείτε σε αυτόν τον σύνδεσμο</a> για να κάνετε με ασφάλεια τη δωρεά σας."
 
 #: donate/templates/pages/core/ways_to_give_page_master.html:24
 msgid "Donation of Stock/Securities:"
