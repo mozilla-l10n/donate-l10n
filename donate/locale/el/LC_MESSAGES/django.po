@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-10 08:07+0000\n"
-"PO-Revision-Date: 2023-12-18 12:38+0000\n"
+"PO-Revision-Date: 2023-12-19 12:02+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -25,11 +25,11 @@ msgstr "Αυτό το πεδίο απαιτείται."
 
 #: donate/core/translation.py:15
 msgid "Enter a number."
-msgstr "Εισάγετε αριθμό."
+msgstr "Εισαγάγετε έναν αριθμό."
 
 #: donate/core/translation.py:18
 msgid "Enter a valid email address."
-msgstr "Εισάγετε έγκυρη διεύθυνση email."
+msgstr "Εισαγάγετε μια έγκυρη διεύθυνση email."
 
 #: donate/payments/forms.py:73
 #, python-format
